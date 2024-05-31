@@ -65,7 +65,7 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 
 ### কোর্সটি যেভাবে সাজানো হয়েছেঃ
 
-- এই পুরো Article কে একটা বই মনে করতে পারো। কোর্সটি 40 টি Chapter এ ভাগ করা হয়েছে। প্রতিটি Chapter এ JavaScript এর বিভিন্ন Topics নিয়ে আলোচনা করা হয়েছে।
+- এই পুরো Article কে একটা বই মনে করতে পারো। কোর্সটি 30 টি Chapter এ ভাগ করা হয়েছে। প্রতিটি Chapter এ JavaScript এর বিভিন্ন Topics নিয়ে আলোচনা করা হয়েছে।
 - প্রতিটা Chapter এর Module সাজানো হয়েছে ক্রমানুসারে । উদাহরণস্বরূপ, Chapter-05 এর টপিকসগুলো শিখতে হলে অবশ্যই তোমাকে Chapter-04 শেষ করে আসতে হবে। একইভাবে Chapter-04 শিখতে হলে তোমাকে Chapter-03 শেষ করে আসতে হবে ।
 - প্রতিটা Chapter এর Topics এর Written Explanation/Article এর সাথে সাথে Video Explanation-ও দেয়া আছে। যাতে শিক্ষার্থীরা খুব সহজেই টপিকসগুলো আত্মস্থ করতে পারে।
 
@@ -78,7 +78,44 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 
 ## What is JavaScript?
 
-- JavaScript হলো একটি High Level এবং Versatile Programming Language যেটা প্রধানত Interactive এবং Dynamic ওয়েবসাইট তৈরি করে।
+- JavaScript is a **lightweight**, **cross-platform**, **single-threaded**, and **interpreted compiled** programming language.
+- এটি ওয়েব ডেভেলপমেন্টের ক্ষেত্রে ব্যাপকভাবে ব্যবহৃত হয়। এটি Front-end এবং Back-end দুই ক্ষেত্রেই ব্যবহার করা যায়।
+- JavaScript হলো 3টি Programming Lanuages(HTML, CSS, JavaScript) এর মধ্যে একটি যা সকল ওয়েব ডেভেলপারদের অবশ্যই শিখতে হয়।
+
+### Single Threaded vs Multi-Threaded
+
+#### Single Thread কি?
+
+- **What is Thread:** কম্পিউটিং এর প্রেক্ষিতে, একটি থ্রেড হলো প্রসেসিং এর সবচেয়ে ছোট একক যা অপারেটিং সিস্টেম দ্বারা নির্ধারিত এবং সম্পাদিত হতে পারে।
+- একটি Single-threaded lanuage তার সমস্ত কোড চালানোর জন্য একটি Thread (smallest unit of processing) ব্যবহার করে। এর মানে হল যে এটি একবারে শুধুমাত্র একটি অপারেশন করতে পারে। আর এই কারনেই JavaScript কে Single Threaded Language বলে।
+
+#### Single Thread এর Concept
+
+- Single Threaded Lanuage যেমন JavaScript, একটি Stack (LIFO) মেইনটেইন করে কোড রান করানোর জন্য। যেমন, কোন একটি JavaScript কোডে যদি একাধিক Functions থাকে, তাহলে Thread সবগুলো Function কে Stack এ ঢুকিয়ে ফেলে। যাকে শেষে ঢুকিয়েছিল, তার কাজ আগে শেষ করে, অতঃপর তাকে Stack থেকে বের করে দেয় এবং পরের Function এর কাজ শুরু করে।
+- যদি কোন Function Run হতে অনেক বেশি সময় নিয়ে ফেলে, তাহলে এই Function এর কারনে নিচের কোড এর কাজ থেমে থাকে, অর্থাৎ Block হয়ে যায়। এই কারণেই জাভাস্ক্রিপ্ট Main Thread ব্লক না করেই long-running operations করতে **asynchronous mechanisms** (যেমন callbacks, promises, and async/await) ব্যবহার করে।
+
+- **Event Loop:** Asynchronous operations পরিচালনা করতে, জাভাস্ক্রিপ্ট ইভেন্ট লুপের উপর নির্ভর করে। যখন একটি অ্যাসিঙ্ক্রোনাস অপারেশন (যেমন একটি setTimeout বা একটি HTTP Request) শুরু করা হয়, তখন এটি ব্রাউজার বা Runtime Environment এ (যেমন Node.js) Handle করা হয়, যা পৃথকভাবে অপারেশন পরিচালনা করে। অপারেশন সম্পূর্ণ হলে, এটি একটি কলব্যাক Queue তে স্থাপন করা হয়, যা **Call Stack** খালি হয়ে গেলে ইভেন্ট লুপ এর কাজ শুরু করে, অর্থাৎ ঐ Queue এর কাজ একটা একটা করে করতে থাকে।
+
+Example:
+
+```js
+console.log("Start");
+
+setTimeout(() => {
+  console.log("Timeout finished");
+}, 1000);
+
+console.log("End");
+```
+
+Explanation:
+
+- "Start" is logged first.
+- The setTimeout function is called, which schedules "Timeout finished" to be logged after 1 second, but doesn't block the thread.
+- "End" is logged immediately after "Start".
+- After 1 second, the callback from setTimeout is executed, logging "Timeout finished".
+
+#### Multi Thread কি?
 
 ## Features of JavaScript
 
@@ -97,6 +134,112 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 </h3>
 
 # Chapter-02: JS with HTML, JS Output, Variable, Data Types and Function
+
+## HTML Document এ কোথায় JavaScript কোড লিখতে হয়?
+
+৩ জায়গায় লিখা যায়ঃ
+
+- Body এর মধ্যে।
+- Head এর মধ্যে।
+- আলাদা ফাইলে। যেমনঃ `script.js`
+
+## JavaScript Can Change The Content of HTML Element
+
+- `getElementById` বা `getElementByClass` methods ব্যবহার করে আমরা HTML Element ধরে তার Content পরিবর্তন করে দিতে পারি। তার জন্য আমাদের `innerHTML` property ব্যবহার করতে হয়। যেমনঃ
+
+```js
+document.getElementById("codejogot").innerHTML = "Hello JavaScript";
+```
+
+## JavaScript Can Change The Value of An Attribute
+
+- `getElementById` বা `getElementByClass` এর পরে Attribute এর নাম লিখে আমরা চাইলে Attribute এর Value পরিবর্তন করতে পারি। যেমনঃ
+
+```js
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">
+  Change the photo
+</button>
+```
+
+## JavaScript Can Change The CSS Style
+
+যেমনঃ
+
+```js
+document.getElementById("demo").style.fontSize = "35px";
+```
+
+## JavaScript Variables
+
+- Variable হলো Data Store করার জন্য Container.
+- ৪ ভাবে JavaScript Variable Declare করা যায়ঃ
+  - Automatically
+  - `let` keyword
+  - `var` keyword
+  - `const` keyword
+
+Example of Automatic Declaration:
+
+```js
+x = 5;
+y = 6;
+z = x + y;
+```
+
+Note: Variable Declare করা Good Practice.
+
+```js
+var x = 5;
+var y = 6;
+var z = x + y;
+```
+
+## Difference Between Var, Let and Const
+
+| **Criteria**       | **Var**                                     | **Let**                                                                                      | **Const**                                         |
+| ------------------ | ------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| **Scope**          | Function-scoped                             | Block-scoped                                                                                 | Block-scoped                                      |
+| **Re-declaration** | Re-declare করা যায় এবং Value Update করা যায় | Re-declare করা যায় না কিন্তু Value Update করা যায়। Let অনেকটা C++ এর Variable এর মতো কাজ করে | Re-declare করাও যায় না, Value-ও Update করা যায় না |
+
+|
+
+## JavaScript Data Types
+
+- JavaScript এ ৮ ধরনের Data Type আছেঃ 
+  - String
+  - Number
+  - Bigint
+  - Boolean
+  - Undefined
+  - Null
+  - Symbol
+  - Object
+
+Examples:
+
+```js
+// Numbers:
+let length = 16;
+let weight = 7.5;
+
+// Strings:
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Booleans
+let x = true;
+let y = false;
+
+// Object:
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object:
+const date = new Date("2022-03-25");
+```
+  
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
