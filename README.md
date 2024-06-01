@@ -72,9 +72,10 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 # Chapter-01: What is JavaScript, Key Features of JavaScript, History and Versions
 
 - [What is JavaScript](#what-is-javascript)
+- [Single Threaded vs Multi-Threaded](#single-threaded-vs-multi-threaded)
 - [Features of JavaScript](#features-of-javascript)
 - [History of JavaScript](#history-of-javascript)
-- [Versions of JavaScript](#versions-of-javascript)
+- [Versions of JavaScript](#versions-of-javascript) 
 
 ## What is JavaScript?
 
@@ -82,9 +83,9 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 - এটি ওয়েব ডেভেলপমেন্টের ক্ষেত্রে ব্যাপকভাবে ব্যবহৃত হয়। এটি Front-end এবং Back-end দুই ক্ষেত্রেই ব্যবহার করা যায়।
 - JavaScript হলো 3টি Programming Lanuages(HTML, CSS, JavaScript) এর মধ্যে একটি যা সকল ওয়েব ডেভেলপারদের অবশ্যই শিখতে হয়।
 
-### Single Threaded vs Multi-Threaded
+## Single Threaded vs Multi-Threaded
 
-#### Single Thread কি?
+### Single Thread কি?
 
 - **What is Thread:** কম্পিউটিং এর প্রেক্ষিতে, একটি থ্রেড হলো প্রসেসিং এর সবচেয়ে ছোট একক যা অপারেটিং সিস্টেম দ্বারা নির্ধারিত এবং সম্পাদিত হতে পারে।
 - একটি Single-threaded lanuage তার সমস্ত কোড চালানোর জন্য একটি Thread (smallest unit of processing) ব্যবহার করে। এর মানে হল যে এটি একবারে শুধুমাত্র একটি অপারেশন করতে পারে। আর এই কারনেই JavaScript কে Single Threaded Language বলে।
@@ -133,7 +134,19 @@ Explanation:
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
 
-# Chapter-02: JS with HTML, JS Output, Variable, Data Types and Function
+# Chapter-02: JS with HTML, JS Output, Installing Node, Variable, Data Types and Function
+
+- [HTML Document এ কোথায় JavaScript কোড লিখতে হয়?](#html-document-এ-কোথায়-javascript-কোড-লিখতে-হয়)
+- [JavaScript Can Change The Content of HTML Element](#javascript-can-change-the-content-of-html-element)
+- [JavaScript Can Change The Value of An Attribute](#javascript-can-change-the-value-of-an-attribute)
+
+- [JavaScript Can Change The CSS Style](#javascript-can-change-the-css-style)
+- [JavaScript Variables](#javascript-variables)
+- [What is Node ](#what-is-node)
+- [Difference Between Var, Let and Const](#difference-between-var-let-and-const)
+- [JavaScript Data Types](#javascript-data-types)
+
+
 
 ## HTML Document এ কোথায় JavaScript কোড লিখতে হয়?
 
@@ -194,6 +207,58 @@ var y = 6;
 var z = x + y;
 ```
 
+## What is Node
+
+- Node হল একটি **open-source**, **cross-platform**, JavaScript **runtime environment** যা ওয়েব ব্রাউজারের বাইরে জাভাস্ক্রিপ্ট কোড Run করে। আমরা জানি JavaScript Code কেবল Web Browser এই রান করতে পারে। আমরা যাতে Web Browser এর বাইরেও জাভাস্ক্রিপ্ট কোড Run করতে পারি সেজন্যই মূলত Node এর আগমন।
+- Node হলো Google Chrome এর V8 Engine দ্বারা তৈরি। 
+- Node.js এর মাধ্যমে ডেভেলপাররা জাভাস্ক্রিপ্ট ব্যবহার করে সার্ভার-সাইড স্ক্রিপ্ট লিখতে পারে।
+
+## Features of Node
+
+- **Asynchronous and Event-Driven**
+  - **Non-blocking I/O:** Node.js uses non-blocking, event-driven architecture, making it efficient and suitable for real-time applications. Non-blocking I/O means that Node.js can handle many operations simultaneously without waiting for any single operation to complete.
+  - **Event Loop:** Node.js operates on a single-threaded event loop, allowing it to handle multiple connections concurrently. This is particularly useful for I/O-heavy operations.
+
+- **Single Programming Language**
+  - With Node.js, developers can use JavaScript for both client-side and server-side programming. This unification of language reduces the learning curve and allows for code reuse across the stack.
+- **Package Management with npm**
+  - Node.js comes with npm (Node Package Manager), a package manager that provides access to a large ecosystem of reusable libraries and tools. npm makes it easy to manage dependencies and share code with other developers.
+- **Scalability**
+  - Node.js is designed to build scalable network applications. Its non-blocking I/O and event-driven architecture allow it to handle many concurrent connections with minimal overhead.
+- **Performance**
+  - Built on the V8 JavaScript engine, Node.js provides high performance and fast execution of JavaScript code. V8 compiles JavaScript into native machine code, optimizing it for speed.
+
+## Use Cases for Node.js
+
+- **Web Servers:** Node.js is commonly used to build web servers that can handle HTTP requests. It is especially suitable for building RESTful APIs and real-time web applications.
+- **Real-Time Applications:** Applications that require real-time communication, such as chat applications, gaming servers, and collaborative tools, benefit from Node.js's event-driven architecture.
+- **Single Page Applications (SPAs):** Node.js is often used in conjunction with front-end frameworks (like Angular, React, or Vue.js) to build SPAs, where the application logic is handled on the client-side and the server provides the necessary data via APIs.
+- **Command-Line Tools:** Node.js can be used to create command-line tools and scripts that automate tasks, manage systems, and process data.
+- **Microservices:** Node.js is well-suited for building microservices architectures due to its lightweight nature and efficient handling of concurrent requests.
+
+Example: Building a Simple Web Server with Node.js
+
+```js
+// Load the http module to create an HTTP server.
+const http = require('http');
+
+// Configure the HTTP server to respond with "Hello, World!" to all requests.
+const server = http.createServer((req, res) => {
+  // Set the response HTTP header with HTTP status and Content type
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  // Send the response body "Hello, World!"
+  res.end('Hello, World!\n');
+});
+
+// Listen on port 3000 and IP address 127.0.0.1
+server.listen(3000, '127.0.0.1', () => {
+  console.log('Server running at http://127.0.0.1:3000/');
+});
+
+```
+
+
+
 ## Difference Between Var, Let and Const
 
 | **Criteria**       | **Var**                                     | **Let**                                                                                      | **Const**                                         |
@@ -239,7 +304,28 @@ const cars = ["Saab", "Volvo", "BMW"];
 // Date object:
 const date = new Date("2022-03-25");
 ```
-  
+- JavaScript evaluates expressions from left to right. Different sequences can produce different results:
+
+```js
+let x = 16 + 4 + "CodeJogot";
+```
+Output: 20CodeJogot
+
+```js
+let x = "Volvo" + 16 + 4;
+```
+Output: Volvo164
+
+## JavaScript Types are Dynamic
+
+- JavaScript has dynamic types. This means that the same variable can be used to hold different data types.
+
+```js
+let x;       // Now x is undefined
+x = 5;       // Now x is a Number
+x = "John";  // Now x is a String
+```
+
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
