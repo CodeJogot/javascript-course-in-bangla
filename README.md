@@ -4,39 +4,39 @@
 
 After completing the 30-chapters module, jump in the [Projects Section](#).
 
-|                                              **Chapter No.**                                              |                                                                       **Topics**                                                                       | **Video Explanation** |
-| :-------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
-|                               [00](#chapter-00-how-the-course-is-designed)                                |                                          [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                          |       Watch Now       |
-|           [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)            | [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions) |       Watch Now       |
-|                                [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                                 |                                                        [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                                                        |       Watch Now       |
-|                         [03]()                         |                                                []()                                                 |       Watch Now       |
-|                                     [04]()                                      |                                                             []()                                                             |     [Watch Now]()     |
-|         [05]()          |                                 [](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group)                                 |     [Watch Now]()     |
-| [06]() |                        []()                         |     [Watch Now]()     |
-|                                                    07                                                     |                                                                                                                                                        |                       |
-|                                                    08                                                     |                                                                                                                                                        |                       |
-|                                                    09                                                     |                                                                                                                                                        |                       |
-|                                                    10                                                     |                                                                                                                                                        |                       |
-|                                                    11                                                     |                                                                                                                                                        |                       |
-|                                                    12                                                     |                                                                                                                                                        |                       |
-|                                                    13                                                     |                                                                                                                                                        |                       |
-|                                                    14                                                     |                                                                                                                                                        |                       |
-|                                                    15                                                     |                                                                                                                                                        |                       |
-|                                                    16                                                     |                                                                                                                                                        |                       |
-|                                                    17                                                     |                                                                                                                                                        |                       |
-|                                                    18                                                     |                                                                                                                                                        |                       |
-|                                                    19                                                     |                                                                                                                                                        |                       |
-|                                                    20                                                     |                                                                                                                                                        |                       |
-|                                                    21                                                     |                                                                                                                                                        |                       |
-|                                                    22                                                     |                                                                                                                                                        |                       |
-|                                                    23                                                     |                                                                                                                                                        |                       |
-|                                                    24                                                     |                                                                                                                                                        |                       |
-|                                                    25                                                     |                                                                                                                                                        |                       |
-|                                                    26                                                     |                                                                                                                                                        |                       |
-|                                                    27                                                     |                                                                                                                                                        |                       |
-|                                                    28                                                     |                                                                                                                                                        |                       |
-|                                                    29                                                     |                                                                                                                                                        |                       |
-|                                                    30                                                     |                                                                                                                                                        |                       |
+|                                      **Chapter No.**                                      |                                                                             **Topics**                                                                             | **Video Explanation** |
+| :---------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
+|                       [00](#chapter-00-how-the-course-is-designed)                        |                                                [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                                |       Watch Now       |
+|   [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)    |       [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)       |       Watch Now       |
+| [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function) | [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function) |       Watch Now       |
+|            [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)             |                        [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                         |       Watch Now       |
+|                                          [04]()                                           |                                                                                []()                                                                                |     [Watch Now]()     |
+|                                          [05]()                                           |                                       [](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group)                                       |     [Watch Now]()     |
+|                                          [06]()                                           |                                                                                []()                                                                                |     [Watch Now]()     |
+|                                            07                                             |                                                                                                                                                                    |                       |
+|                                            08                                             |                                                                                                                                                                    |                       |
+|                                            09                                             |                                                                                                                                                                    |                       |
+|                                            10                                             |                                                                                                                                                                    |                       |
+|                                            11                                             |                                                                                                                                                                    |                       |
+|                                            12                                             |                                                                                                                                                                    |                       |
+|                                            13                                             |                                                                                                                                                                    |                       |
+|                                            14                                             |                                                                                                                                                                    |                       |
+|                                            15                                             |                                                                                                                                                                    |                       |
+|                                            16                                             |                                                                                                                                                                    |                       |
+|                                            17                                             |                                                                                                                                                                    |                       |
+|                                            18                                             |                                                                                                                                                                    |                       |
+|                                            19                                             |                                                                                                                                                                    |                       |
+|                                            20                                             |                                                                                                                                                                    |                       |
+|                                            21                                             |                                                                                                                                                                    |                       |
+|                                            22                                             |                                                                                                                                                                    |                       |
+|                                            23                                             |                                                                                                                                                                    |                       |
+|                                            24                                             |                                                                                                                                                                    |                       |
+|                                            25                                             |                                                                                                                                                                    |                       |
+|                                            26                                             |                                                                                                                                                                    |                       |
+|                                            27                                             |                                                                                                                                                                    |                       |
+|                                            28                                             |                                                                                                                                                                    |                       |
+|                                            29                                             |                                                                                                                                                                    |                       |
+|                                            30                                             |                                                                                                                                                                    |                       |
 
 # 5 JavaScript Projects
 
@@ -75,7 +75,7 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 - [Single Threaded vs Multi-Threaded](#single-threaded-vs-multi-threaded)
 - [Features of JavaScript](#features-of-javascript)
 - [History of JavaScript](#history-of-javascript)
-- [Versions of JavaScript](#versions-of-javascript) 
+- [Versions of JavaScript](#versions-of-javascript)
 
 ## What is JavaScript?
 
@@ -146,8 +146,6 @@ Explanation:
 - [Difference Between Var, Let and Const](#difference-between-var-let-and-const)
 - [JavaScript Data Types](#javascript-data-types)
 
-
-
 ## HTML Document এ কোথায় JavaScript কোড লিখতে হয়?
 
 ৩ জায়গায় লিখা যায়ঃ
@@ -210,12 +208,13 @@ var z = x + y;
 ## What is Node
 
 - Node হল একটি **open-source**, **cross-platform**, JavaScript **runtime environment** যা ওয়েব ব্রাউজারের বাইরে জাভাস্ক্রিপ্ট কোড Run করে। আমরা জানি JavaScript Code কেবল Web Browser এই রান করতে পারে। আমরা যাতে Web Browser এর বাইরেও জাভাস্ক্রিপ্ট কোড Run করতে পারি সেজন্যই মূলত Node এর আগমন।
-- Node হলো Google Chrome এর V8 Engine দ্বারা তৈরি। 
+- Node হলো Google Chrome এর V8 Engine দ্বারা তৈরি।
 - Node.js এর মাধ্যমে ডেভেলপাররা জাভাস্ক্রিপ্ট ব্যবহার করে সার্ভার-সাইড স্ক্রিপ্ট লিখতে পারে।
 
 ## Features of Node
 
 - **Asynchronous and Event-Driven**
+
   - **Non-blocking I/O:** Node.js uses non-blocking, event-driven architecture, making it efficient and suitable for real-time applications. Non-blocking I/O means that Node.js can handle many operations simultaneously without waiting for any single operation to complete.
   - **Event Loop:** Node.js operates on a single-threaded event loop, allowing it to handle multiple connections concurrently. This is particularly useful for I/O-heavy operations.
 
@@ -240,24 +239,21 @@ Example: Building a Simple Web Server with Node.js
 
 ```js
 // Load the http module to create an HTTP server.
-const http = require('http');
+const http = require("http");
 
 // Configure the HTTP server to respond with "Hello, World!" to all requests.
 const server = http.createServer((req, res) => {
   // Set the response HTTP header with HTTP status and Content type
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.writeHead(200, { "Content-Type": "text/plain" });
   // Send the response body "Hello, World!"
-  res.end('Hello, World!\n');
+  res.end("Hello, World!\n");
 });
 
 // Listen on port 3000 and IP address 127.0.0.1
-server.listen(3000, '127.0.0.1', () => {
-  console.log('Server running at http://127.0.0.1:3000/');
+server.listen(3000, "127.0.0.1", () => {
+  console.log("Server running at http://127.0.0.1:3000/");
 });
-
 ```
-
-
 
 ## Difference Between Var, Let and Const
 
@@ -270,7 +266,7 @@ server.listen(3000, '127.0.0.1', () => {
 
 ## JavaScript Data Types
 
-- JavaScript এ ৮ ধরনের Data Type আছেঃ 
+- JavaScript এ ৮ ধরনের Data Type আছেঃ
   - String
   - Number
   - Bigint
@@ -296,7 +292,7 @@ let x = true;
 let y = false;
 
 // Object:
-const person = {firstName:"John", lastName:"Doe"};
+const person = { firstName: "John", lastName: "Doe" };
 
 // Array object:
 const cars = ["Saab", "Volvo", "BMW"];
@@ -304,16 +300,19 @@ const cars = ["Saab", "Volvo", "BMW"];
 // Date object:
 const date = new Date("2022-03-25");
 ```
+
 - JavaScript evaluates expressions from left to right. Different sequences can produce different results:
 
 ```js
 let x = 16 + 4 + "CodeJogot";
 ```
+
 Output: 20CodeJogot
 
 ```js
 let x = "Volvo" + 16 + 4;
 ```
+
 Output: Volvo164
 
 ## JavaScript Types are Dynamic
@@ -321,11 +320,10 @@ Output: Volvo164
 - JavaScript has dynamic types. This means that the same variable can be used to hold different data types.
 
 ```js
-let x;       // Now x is undefined
-x = 5;       // Now x is a Number
-x = "John";  // Now x is a String
+let x; // Now x is undefined
+x = 5; // Now x is a Number
+x = "John"; // Now x is a String
 ```
-
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
@@ -336,13 +334,14 @@ x = "John";  // Now x is a String
 - [JS Operators](#js-operators)
 
 ## JS Operators
+
 - জাভাস্ক্রিপ্ট অপারেটরগুলি বিভিন্ন ধরণের Mathematical এবং Logical Computatioin করতে ব্যবহৃত হয়।
 
 ### JavaScript Assignment Operator
 
 - Assignment Operator (=) একটি ভেরিয়েবলের জন্য একটি মান নির্ধারণ করে।
 
-Example: 
+Example:
 
 ```js
 // Assign the value 5 to x
@@ -354,9 +353,11 @@ let z = x + y;
 ```
 
 ### JavaScript Addition Operator
-- Addition Operator দিয়ে Number যোগ করা হয়। 
 
-Example: 
+- Addition Operator দিয়ে Number যোগ করা হয়।
+
+Example:
+
 ```js
 let x = 5;
 let y = 2;
@@ -364,9 +365,11 @@ let z = x + y;
 ```
 
 ### JavaScript Multiplication Operator
-- Multiplication Operator দিয়ে Numbers গুন করা হয়। 
+
+- Multiplication Operator দিয়ে Numbers গুন করা হয়।
 
 Example:
+
 ```js
 let x = 5;
 let y = 2;
@@ -387,6 +390,7 @@ let z = x * y;
 ### Arithmetic Operator
 
 Example:
+
 ```js
 let a = 3;
 let x = (100 + 50) * a;
@@ -395,6 +399,7 @@ let x = (100 + 50) * a;
 ## Assignment Operator
 
 Example:
+
 ```js
 let x = 10;
 x += 5;
@@ -405,14 +410,12 @@ x += 5;
 ![comparison](./chapter-03/images/comparison.png)
 Credit: W3 School
 
-
 ## JavaScript String Addition
 
 ```js
 let text1 = "John";
 let text2 = "Doe";
 let text3 = text1 + " " + text2;
-
 ```
 
 ## Adding Strings and Numbers
@@ -422,6 +425,7 @@ let x = 5 + 5;
 let y = "5" + 5;
 let z = "Hello" + 5;
 ```
+
 Output:
 10
 55
@@ -451,6 +455,7 @@ function name(parameter1, parameter2, parameter3) {
 ```
 
 ## JavaScript Function যেভাবে Call করা হয়
+
 - When an event occurs (when a user clicks a button)
 - When it is invoked (called) from JavaScript code
 - Automatically (self invoked)
@@ -462,15 +467,14 @@ function name(parameter1, parameter2, parameter3) {
 let x = myFunction(4, 3);
 
 function myFunction(a, b) {
-// Function returns the product of a and b
+  // Function returns the product of a and b
   return a * b;
 }
 ```
 
-## কেন আমরা Function ব্যবহার করি? 
+## কেন আমরা Function ব্যবহার করি?
+
 - একই কাজ বার বার করাকে Avoid করার জন্য।
-
-
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
