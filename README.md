@@ -8,11 +8,11 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 | :-------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
 |                               [00](#chapter-00-how-the-course-is-designed)                                |                                          [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                          |       Watch Now       |
 |           [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)            | [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions) |       Watch Now       |
-|                                [02](#chapter-02-columns-gutters-css-grid)                                 |                                                        [](#chapter-02-columns-gutters-css-grid)                                                        |       Watch Now       |
-|                         [03](#chapter-03-reboot-typography-images-tables-figures)                         |                                                [](#chapter-03-reboot-typography-images-tables-figures)                                                 |       Watch Now       |
-|                                     [04](#chapter-04-bootstrap-form)                                      |                                                             [](#chapter-04-bootstrap-form)                                                             |     [Watch Now]()     |
-|         [05](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group)          |                                 [](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group)                                 |     [Watch Now]()     |
-| [06](#chapter-06-bootstrap-card-carousel-close-button-collapse-list-group-dropdowns-navbar-navs-and-tabs) |                        [](#chapter-06-bootstrap-card-carousel-close-button-collapse-list-group-dropdowns-navbar-navs-and-tabs)                         |     [Watch Now]()     |
+|                                [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                                 |                                                        [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                                                        |       Watch Now       |
+|                         [03]()                         |                                                []()                                                 |       Watch Now       |
+|                                     [04]()                                      |                                                             []()                                                             |     [Watch Now]()     |
+|         [05]()          |                                 [](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group)                                 |     [Watch Now]()     |
+| [06]() |                        []()                         |     [Watch Now]()     |
 |                                                    07                                                     |                                                                                                                                                        |                       |
 |                                                    08                                                     |                                                                                                                                                        |                       |
 |                                                    09                                                     |                                                                                                                                                        |                       |
@@ -325,6 +325,151 @@ let x;       // Now x is undefined
 x = 5;       // Now x is a Number
 x = "John";  // Now x is a String
 ```
+
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
+# Chapter-03: JS Operators, Arithmetic, Data Types & Js Functions
+
+- [JS Operators](#js-operators)
+
+## JS Operators
+- জাভাস্ক্রিপ্ট অপারেটরগুলি বিভিন্ন ধরণের Mathematical এবং Logical Computatioin করতে ব্যবহৃত হয়।
+
+### JavaScript Assignment Operator
+
+- Assignment Operator (=) একটি ভেরিয়েবলের জন্য একটি মান নির্ধারণ করে।
+
+Example: 
+
+```js
+// Assign the value 5 to x
+let x = 5;
+// Assign the value 2 to y
+let y = 2;
+// Assign the value x + y to z:
+let z = x + y;
+```
+
+### JavaScript Addition Operator
+- Addition Operator দিয়ে Number যোগ করা হয়। 
+
+Example: 
+```js
+let x = 5;
+let y = 2;
+let z = x + y;
+```
+
+### JavaScript Multiplication Operator
+- Multiplication Operator দিয়ে Numbers গুন করা হয়। 
+
+Example:
+```js
+let x = 5;
+let y = 2;
+let z = x * y;
+```
+
+## Types of JavaScript Operators
+
+1. Arithmetic Operators
+2. Assignment Operators
+3. Comparison Operators
+4. Logical Operators
+5. String Operators
+6. Conditional (Ternary) Operator
+7. Bitwise Operator
+8. Type Operator
+
+### Arithmetic Operator
+
+Example:
+```js
+let a = 3;
+let x = (100 + 50) * a;
+```
+
+## Assignment Operator
+
+Example:
+```js
+let x = 10;
+x += 5;
+```
+
+## Comparison Operators
+
+![comparison](./chapter-03/images/comparison.png)
+Credit: W3 School
+
+
+## JavaScript String Addition
+
+```js
+let text1 = "John";
+let text2 = "Doe";
+let text3 = text1 + " " + text2;
+
+```
+
+## Adding Strings and Numbers
+
+```js
+let x = 5 + 5;
+let y = "5" + 5;
+let z = "Hello" + 5;
+```
+Output:
+10
+55
+Hello5
+
+## JavaScript Logical Operators
+
+![Logical and](./chapter-03/images/logical.png)
+
+## JavaScript Bitwise Operators
+
+- Bit operators work on 32 bits numbers.
+- Any numeric operand in the operation is converted into a 32 bit number. The result is converted back to a JavaScript number.
+
+![bitwise](./chapter-03/images/bit.png)
+Image Credit: W3 School
+
+## JavaScript Functions
+
+- JavaScript Function তৈরি করতে গেলে প্রথমে function keyword লিখতে হবে, এরপর Function এর একটা নাম দিতে হবে এবং সবশেষে ()
+- Syntax:
+
+```js
+function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+```
+
+## JavaScript Function যেভাবে Call করা হয়
+- When an event occurs (when a user clicks a button)
+- When it is invoked (called) from JavaScript code
+- Automatically (self invoked)
+
+## Function Return Mechanism
+
+```js
+// Function is called, the return value will end up in x
+let x = myFunction(4, 3);
+
+function myFunction(a, b) {
+// Function returns the product of a and b
+  return a * b;
+}
+```
+
+## কেন আমরা Function ব্যবহার করি? 
+- একই কাজ বার বার করাকে Avoid করার জন্য।
+
 
 
 <h3 align="right">

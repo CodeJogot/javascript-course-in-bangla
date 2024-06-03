@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Query Selector All</title>
+</head>
+<body>
+    <div class="my-class">Element 1</div>
+    <div class="my-class">Element 2</div>
+    <div class="my-class">Element 3</div>
+    <script>
+        // Select all elements with class name "my-class"
+        var elements = document.querySelectorAll(".my-class");
+
+        // Iterate over the NodeList and log each element
+        elements.forEach(function(element) {
+            console.log(element);
+        });
+    </script>
+</body>
+</html>
+

@@ -1,4 +1,3 @@
-let a = 5;
-let b = 10;
-let sum = a + b;
-console.log(sum);
+let x = 5.6;
+let y = 3.2;
+console.log(x + y);
