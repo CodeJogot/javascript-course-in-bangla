@@ -332,6 +332,12 @@ x = "John"; // Now x is a String
 # Chapter-03: JS Operators, Arithmetic, Data Types & Js Functions
 
 - [JS Operators](#js-operators)
+- [Types of JavaScript Operators](#types-of-javascript-operators)
+- [Assignment Operator](#assignment-operator)
+- [Comparison Operators](#comparison-operators)
+- [JavaScript String Addition](#javascript-string-addition)
+- [Adding Strings and Numbers](#adding-strings-and-numbers)
+
 
 ## JS Operators
 
@@ -475,6 +481,83 @@ function myFunction(a, b) {
 ## কেন আমরা Function ব্যবহার করি?
 
 - একই কাজ বার বার করাকে Avoid করার জন্য।
+
+## How to Handle Standard Input and Output in VS Code for JavaScript
+
+Example:
+
+```js
+const readline = require('readline');
+
+// Create an interface for reading input and output
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+// Prompt the user for input
+rl.question('Enter numbers separated by spaces: ', (input) => {
+    // Process the input
+    const numbers = input.split(' ').map(Number);
+    
+    // For example, using the countEvenNumbers function from earlier
+    function countEvenNumbers(arr) {
+        let count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 === 0) {
+                count++;
+            }
+        }
+        return count;
+    }
+    
+    const evenCount = countEvenNumbers(numbers);
+    console.log(`Number of even numbers: ${evenCount}`);
+    
+    // Close the input interface
+    rl.close();
+});
+
+```
+
+In Console Write:
+
+```js
+node main.js
+```
+Input:
+```js
+Enter numbers separated by spaces: 1 2 3 4 5
+```
+Output:
+
+```js
+Number of even numbers: 2
+```
+
+## Solving Some Easy Problems
+
+Problem-01: Write a JavaScript function to find the sum of two numbers.
+
+Problem-02: Write a JavaScript function to find the product of two numbers.
+
+Problem-03: Write a JavaScript function to find the difference of two numbers.
+
+Problem-04: Write a JavaScript function to find the remainder.
+
+Problem-05: Write a JavaScript function to check if a number is positive, negative or zero.
+
+Problem-06: Write a JavaScript function to check if a number is odd or even.
+
+Problem-07: Write a JavaScript function to calculate the square of a number.
+
+Problem-08: Write a JavaScript function to concatenate two strings.
+
+Problem-09: Write a JavaScript function to find the biggest number among 3 numbers.
+
+Problem-10: Write a JavaScript function which returns the number of even numbers in an array.
+
+
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
