@@ -338,7 +338,6 @@ x = "John"; // Now x is a String
 - [JavaScript String Addition](#javascript-string-addition)
 - [Adding Strings and Numbers](#adding-strings-and-numbers)
 
-
 ## JS Operators
 
 - জাভাস্ক্রিপ্ট অপারেটরগুলি বিভিন্ন ধরণের Mathematical এবং Logical Computatioin করতে ব্যবহৃত হয়।
@@ -487,37 +486,36 @@ function myFunction(a, b) {
 Example:
 
 ```js
-const readline = require('readline');
+const readline = require("readline");
 
 // Create an interface for reading input and output
 const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
+  input: process.stdin,
+  output: process.stdout,
 });
 
 // Prompt the user for input
-rl.question('Enter numbers separated by spaces: ', (input) => {
-    // Process the input
-    const numbers = input.split(' ').map(Number);
-    
-    // For example, using the countEvenNumbers function from earlier
-    function countEvenNumbers(arr) {
-        let count = 0;
-        for (let i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 === 0) {
-                count++;
-            }
-        }
-        return count;
-    }
-    
-    const evenCount = countEvenNumbers(numbers);
-    console.log(`Number of even numbers: ${evenCount}`);
-    
-    // Close the input interface
-    rl.close();
-});
+rl.question("Enter numbers separated by spaces: ", (input) => {
+  // Process the input
+  const numbers = input.split(" ").map(Number);
 
+  // For example, using the countEvenNumbers function from earlier
+  function countEvenNumbers(arr) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] % 2 === 0) {
+        count++;
+      }
+    }
+    return count;
+  }
+
+  const evenCount = countEvenNumbers(numbers);
+  console.log(`Number of even numbers: ${evenCount}`);
+
+  // Close the input interface
+  rl.close();
+});
 ```
 
 In Console Write:
@@ -525,10 +523,13 @@ In Console Write:
 ```js
 node main.js
 ```
+
 Input:
+
 ```js
 Enter numbers separated by spaces: 1 2 3 4 5
 ```
+
 Output:
 
 ```js
@@ -556,6 +557,140 @@ Problem-08: Write a JavaScript function to concatenate two strings.
 Problem-09: Write a JavaScript function to find the biggest number among 3 numbers.
 
 Problem-10: Write a JavaScript function which returns the number of even numbers in an array.
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
+Chapter-04: JavaScript Object
+
+-[What is Object](#what-is-object)
+
+## What is Object
+
+- অবজেক্ট, জাভাস্ক্রিপ্টে, সবচেয়ে গুরুত্বপূর্ণ ডেটা টাইপ এবং আধুনিক জাভাস্ক্রিপ্টের জন্য বিল্ডিং ব্লক তৈরি করে। এই অবজেক্টগুলি জাভাস্ক্রিপ্টের Primitive Data Type(Number, String, Boolean, null, undefined, and symbol) থেকে বেশ ভিন্ন এই অর্থে যে এই Primitive Data Type কেবল একটি Value Store করতে পারে। যেখানে Object একাধিক Value Store করতে পারে। উদাহরনঃ
+
+```js
+// Create an Object
+const student = {
+  firstName: "Abdur",
+  lastName: "Rahman",
+  batch: 5,
+  id: "WDB05027",
+  marks: 97,
+};
+```
+
+- In JavaScript, objects are collections of data and functions. This data is stored in the form of **key-value** pairs.
+- Keys that store data values are called properties.
+- Keys that store functions are called methods.
+- It is a common practice to declare objects with the **const** keyword.
+- Dot(.) দিয়ে Object এর **Property/Methods** এর Value কে Access করা যায়। যেমনঃ
+
+```js
+console.log(student.firstName);
+```
+
+- Bracket([]) দিয়েও Object এর **Property/Methods** এর Value কে Access করা যায়। যেমনঃ
+
+```js
+console.log(student["firstName"]);
+```
+
+- Object এ Property হিসেবে Function-ও ব্যবহার করা যায়। যেমনঃ
+
+```js
+// Create an Object
+const student = {
+  firstName: "Abdur",
+  lastName: "Rahman",
+  batch: 5,
+  id: "WDB05027",
+  marks: 97,
+  isPassed: function() {
+    if(this.marks >= 33) {
+    return `${firstName} ${lastName} is passed with ${marks} marks`;
+    }
+    else return `${firstName} ${lastName} is failed with ${marks} marks`;
+  }
+}
+//calling function from object
+let output = student.isPassed();
+```
+- এই উদাহরনে *this* keyword student object কে রেফার করছে।
+- জাভাস্ক্রিপ্টে একটি অবজেক্ট একটি রেফারেন্স ডেটা টাইপ হিসাবে বিবেচিত হয়। এর মানে হল যে আপনি যখন একটি অবজেক্ট তৈরি করেন এবং এটিকে একটি ভেরিয়েবলে অ্যাসাইন করেন, তখন ভেরিয়েবলটি আসলে অবজেক্টটিকে ধরে রাখে না। Instead, it holds a reference (or pointer) to the location in memory where the object is stored. Memory এর Location Point করে বলে একে Pointer বলে।
+
+উদাহরনঃ 
+```js
+let x = { name: "Alice" };
+
+```
+Here, **x** is a variable that holds a reference (or pointer or memory address) to the memory location where the object { name: "Alice" } is stored.
+
+- <span style="color: blue">In JavaScript, Objects are King. If you Understand Objects, you Understand JavaScript.<span>
+- In JavaScript, **Properties** can be primitive values, functions, or even other objects.
+
+- জাভাস্ক্রিপ্টে, প্রায় "সবকিছুই" একটি Object.
+  - Objects are objects
+  - Arrays are objects
+  - Functions are objects
+  - Dates are objects
+  - Maths are objects
+  - Sets are objects
+  - All JavaScript values, except primitives, are objects.
+
+## JavaScript Primitives
+
+- A primitive value is a value that has no properties or methods. Example:
+
+```js
+let greeting = "Hello";
+```
+এখানে "Hello" হলো Primitive Value এবং greeting হলো Primitive Data Type.
+- যেসব Data Type এ কেবল Primitive Value থাকে, তাকে Primitive Data Type বলে। যেমনঃ 
+  - string
+  - number
+  - boolean
+  - null
+  - undefined
+  - symbol
+  - bigint
+
+## Immutable 
+
+- Primitive values are immutable অর্থাৎ Primitive Value কে পরিবর্তন করা যায় না। যেমনঃ 
+```js
+let x = 100;
+```
+এখানে আপনি x এর Value পরিবর্তন করতে পারবেন, কিন্তু 100 কে পরিবর্তন করতে পারবেন না। 100 Always 100 ই থাকবে। 
+
+![immutable](./chapter-04/images/1.png)
+
+## JavaScript Objects are Mutable
+- Objects are mutable: They are addressed by reference, not by value.
+- যদি **student** একটি Object হয়, এবং `let x = student` লিখা হয়, তাহলে object x is **not a copy** of **student**. The object **x** is **student**. Object x এবং object student একই Memory Share করে। তাই যদি কোন কারনে Object x পরিবর্তন করা হয়, তাহলে Object student-ও পরিবর্তন হয়ে যাবে। 
+
+```js
+/Create an Object
+const student = {
+  firstName:"John",
+  lastName:"Doe",
+  id:20
+}
+
+// Create a copy
+const x = student;
+
+// Change id in both
+x.age = 10;
+```
+
+## JavaScript Object Properties
+
+- 
+
+
+
 
 
 
