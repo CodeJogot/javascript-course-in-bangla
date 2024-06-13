@@ -562,9 +562,15 @@ Problem-10: Write a JavaScript function which returns the number of even numbers
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
 
-Chapter-04: JavaScript Object
+# Chapter-04: JavaScript Object
 
--[What is Object](#what-is-object)
+- [What is Object](#what-is-object)
+- [JavaScript Primitives](#javascript-primitives)
+- [Immutable](#immutable)
+- [JavaScript Objects are Mutable](#javascript-objects-are-mutable)
+- [JavaScript Object Properties](#javascript-object-properties)
+- [Nested Object](#nested-object)
+- [Looping through an object in JavaScript](#looping-through-an-object-in-javascript)
 
 ## What is Object
 
@@ -607,24 +613,25 @@ const student = {
   batch: 5,
   id: "WDB05027",
   marks: 97,
-  isPassed: function() {
-    if(this.marks >= 33) {
-    return `${firstName} ${lastName} is passed with ${marks} marks`;
-    }
-    else return `${firstName} ${lastName} is failed with ${marks} marks`;
-  }
-}
+  isPassed: function () {
+    if (this.marks >= 33) {
+      return `${firstName} ${lastName} is passed with ${marks} marks`;
+    } else return `${firstName} ${lastName} is failed with ${marks} marks`;
+  },
+};
 //calling function from object
 let output = student.isPassed();
 ```
-- এই উদাহরনে *this* keyword student object কে রেফার করছে।
+
+- এই উদাহরনে _this_ keyword student object কে রেফার করছে।
 - জাভাস্ক্রিপ্টে একটি অবজেক্ট একটি রেফারেন্স ডেটা টাইপ হিসাবে বিবেচিত হয়। এর মানে হল যে আপনি যখন একটি অবজেক্ট তৈরি করেন এবং এটিকে একটি ভেরিয়েবলে অ্যাসাইন করেন, তখন ভেরিয়েবলটি আসলে অবজেক্টটিকে ধরে রাখে না। Instead, it holds a reference (or pointer) to the location in memory where the object is stored. Memory এর Location Point করে বলে একে Pointer বলে।
 
-উদাহরনঃ 
+উদাহরনঃ
+
 ```js
 let x = { name: "Alice" };
-
 ```
+
 Here, **x** is a variable that holds a reference (or pointer or memory address) to the memory location where the object { name: "Alice" } is stored.
 
 - <span style="color: blue">In JavaScript, Objects are King. If you Understand Objects, you Understand JavaScript.<span>
@@ -646,8 +653,10 @@ Here, **x** is a variable that holds a reference (or pointer or memory address) 
 ```js
 let greeting = "Hello";
 ```
+
 এখানে "Hello" হলো Primitive Value এবং greeting হলো Primitive Data Type.
-- যেসব Data Type এ কেবল Primitive Value থাকে, তাকে Primitive Data Type বলে। যেমনঃ 
+
+- যেসব Data Type এ কেবল Primitive Value থাকে, তাকে Primitive Data Type বলে। যেমনঃ
   - string
   - number
   - boolean
@@ -656,19 +665,22 @@ let greeting = "Hello";
   - symbol
   - bigint
 
-## Immutable 
+## Immutable
 
-- Primitive values are immutable অর্থাৎ Primitive Value কে পরিবর্তন করা যায় না। যেমনঃ 
+- Primitive values are immutable অর্থাৎ Primitive Value কে পরিবর্তন করা যায় না। যেমনঃ
+
 ```js
 let x = 100;
 ```
-এখানে আপনি x এর Value পরিবর্তন করতে পারবেন, কিন্তু 100 কে পরিবর্তন করতে পারবেন না। 100 Always 100 ই থাকবে। 
+
+এখানে আপনি x এর Value পরিবর্তন করতে পারবেন, কিন্তু 100 কে পরিবর্তন করতে পারবেন না। 100 Always 100 ই থাকবে।
 
 ![immutable](./chapter-04/images/1.png)
 
 ## JavaScript Objects are Mutable
+
 - Objects are mutable: They are addressed by reference, not by value.
-- যদি **student** একটি Object হয়, এবং `let x = student` লিখা হয়, তাহলে object x is **not a copy** of **student**. The object **x** is **student**. Object x এবং object student একই Memory Share করে। তাই যদি কোন কারনে Object x পরিবর্তন করা হয়, তাহলে Object student-ও পরিবর্তন হয়ে যাবে। 
+- যদি **student** একটি Object হয়, এবং `let x = student` লিখা হয়, তাহলে object x is **not a copy** of **student**. The object **x** is **student**. Object x এবং object student একই Memory Share করে। তাই যদি কোন কারনে Object x পরিবর্তন করা হয়, তাহলে Object student-ও পরিবর্তন হয়ে যাবে।
 
 ```js
 /Create an Object
@@ -687,10 +699,349 @@ x.age = 10;
 
 ## JavaScript Object Properties
 
-- 
+- Properties can be changed, added, deleted, and some are read only.
+
+### Adding New Properties
+
+```js
+// Define the student object
+const student = {
+    // Properties
+    firstName: "Abdur",
+    lastName: "Rahim",
+    age: 21,
+    major: "Computer Science",
+    
+    // Method
+    getFullName: function() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+};
+
+// Add a new property
+student.email = "abdurrahim@gmail.com";
+```
+### Deleting Properties
+
+```js
+delete student.major;
+or 
+delete student["major"];
+```
+
+## Nested Object
+
+```js
+// Define the student object with nested objects
+const student = {
+    // Properties
+    firstName: "John",
+    lastName: "Doe",
+    age: 21,
+    major: "Computer Science",
+    
+    // Nested object for contact information
+    contactInfo: {
+        email: "john.doe@example.com",
+        phone: "123-456-7890"
+    },
+    
+    // Nested object for address
+    address: {
+        street: "123 Main St",
+        city: "Anytown",
+        state: "Anystate",
+        zip: "12345"
+    },
+    
+    // Method
+    getFullName: function() {
+        return `${this.firstName} ${this.lastName}`;
+    },
+    
+    // Method to get full address
+    getFullAddress: function() {
+        return `${this.address.street}, ${this.address.city}, ${this.address.state} ${this.address.zip}`;
+    }
+};
+
+// Example usage of the object and its methods
+console.log(student.getFullName()); // Output: John Doe
+console.log(student.getFullAddress()); // Output: 123 Main St, Anytown, Anystate 12345
+console.log(student.contactInfo.email); // Output: john.doe@example.com
+console.log(student.contactInfo.phone); // Output: 123-456-7890
+
+```
+
+## Looping through an object in JavaScript
+
+- Requirement এর উপর ভিত্তি করে JavaScript এ চারভাবে Object এ Loop করা যায়।
+
+### 1. Looping through an object with for...in
+
+```js
+const student = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 21,
+    major: "Computer Science",
+    contactInfo: {
+        email: "john.doe@example.com",
+        phone: "123-456-7890"
+    },
+    address: {
+        street: "123 Main St",
+        city: "Anytown",
+        state: "Anystate",
+        zip: "12345"
+    }
+};
+
+for (let key in student) {
+    if (student.hasOwnProperty(key)) {
+        console.log(`${key}: ${student[key]}`);
+    }
+}
+
+```
+Output:
+
+```js
+firstName: John
+lastName: Doe
+age: 21
+major: Computer Science
+contactInfo: [object Object]
+address: [object Object]
+
+```
+
+### 2. Looping through an object with forEach
+
+```js
+const student = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 21,
+    major: "Computer Science",
+    contactInfo: {
+        email: "john.doe@example.com",
+        phone: "123-456-7890"
+    },
+    address: {
+        street: "123 Main St",
+        city: "Anytown",
+        state: "Anystate",
+        zip: "12345"
+    }
+};
+
+Object.keys(student).forEach(key => {
+    console.log(`${key}: ${student[key]}`);
+});
+
+```
+
+Output:
+
+```js
+firstName: John
+lastName: Doe
+age: 21
+major: Computer Science
+contactInfo: [object Object]
+address: [object Object]
+
+```
+
+### 3. Looping through an object Using `Object.entries()` with `for...of`
+
+```js
+const student = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 21,
+    major: "Computer Science",
+    contactInfo: {
+        email: "john.doe@example.com",
+        phone: "123-456-7890"
+    },
+    address: {
+        street: "123 Main St",
+        city: "Anytown",
+        state: "Anystate",
+        zip: "12345"
+    }
+};
+
+for (let [key, value] of Object.entries(student)) {
+    console.log(`${key}: ${value}`);
+}
+
+```
+
+Output:
+
+```js
+firstName: John
+lastName: Doe
+age: 21
+major: Computer Science
+contactInfo: [object Object]
+address: [object Object]
+
+```
+
+### 4. Looping through an object Using `Object.values()` with `forEach()`
+- `Object.values()` creates an array from the property values:
 
 
+```js
+const student = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 21,
+    major: "Computer Science",
+    contactInfo: {
+        email: "john.doe@example.com",
+        phone: "123-456-7890"
+    },
+    address: {
+        street: "123 Main St",
+        city: "Anytown",
+        state: "Anystate",
+        zip: "12345"
+    }
+};
 
+Object.values(student).forEach(value => {
+    console.log(value);
+});
+
+```
+
+Output:
+```js
+John
+Doe
+21
+Computer Science
+[object Object]
+[object Object]
+
+```
+
+
+## What is JSON
+
+- JSON (JavaScript Object Notation) হল একটি লাইটওয়েট **Data Interchange Format** যা মানুষের পক্ষে পড়তে এবং লিখতে সহজ এবং মেশিন সহজে এটিকে Parse করতে পারে।
+- JSON একটি Lanuage-independant Format.
+- JSON এর key হলো একটি String এবং Value হলো যেকোনো Valid Data Type (String, Array, Number, Boolen etc)
+- ওয়েব অ্যাপ্লিকেশনে সার্ভার এবং ক্লায়েন্টের মধ্যে ডেটা প্রেরণের জন্য JSON ব্যাপকভাবে ব্যবহৃত হয়।
+
+Example of JSON:
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "age": 21,
+  "major": "Computer Science",
+  "contactInfo": {
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890"
+  },
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "Anystate",
+    "zip": "12345"
+  },
+  "courses": ["CS101", "CS102", "CS103"],
+  "graduated": false
+}
+
+```
+
+
+### JSON এর ব্যবহার
+- **Web APIs:** JSON হল ওয়েব API-এর জন্য সবচেয়ে সাধারণ ফর্ম্যাট। সার্ভার এবং ক্লায়েন্টের মধ্যে ডেটা আদান-প্রদানের একটি সহজ উপায়।
+- **Configuration Files:** Many applications use JSON for configuration files due to its readability and ease of use.
+- **Data Storage:** Some databases, such as MongoDB, store data in JSON-like formats.
+
+### Converting Object to JSON String
+
+- JavaScript এ, Object থেকে JSON এ Convert করার জন্য `JSON.stringify()` এবং JSON থেকে Object করার জন্য `JSON.parse()` ব্যবহার করা হয়। 
+
+```js
+// Define a JavaScript object
+const student = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 21,
+    major: "Computer Science",
+    contactInfo: {
+        email: "john.doe@example.com",
+        phone: "123-456-7890"
+    },
+    address: {
+        street: "123 Main St",
+        city: "Anytown",
+        state: "Anystate",
+        zip: "12345"
+    }
+};
+
+// Convert the JavaScript object to a JSON string
+const jsonString = JSON.stringify(student);
+
+// Output the JSON string
+console.log(jsonString);
+
+```
+Output:
+
+```json
+{"firstName":"John","lastName":"Doe","age":21,"major":"Computer Science","contactInfo":{"email":"john.doe@example.com","phone":"123-456-7890"},"address":{"street":"123 Main St","city":"Anytown","state":"Anystate","zip":"12345"}}
+
+```
+
+More Readable:
+- To make the JSON string more readable, you can pass additional arguments to JSON.stringify() to include indentation.
+
+```js
+// Convert the JavaScript object to a pretty-printed JSON string
+const prettyJsonString = JSON.stringify(student, null, 2);
+
+// Output the pretty-printed JSON string
+console.log(prettyJsonString);
+
+```
+
+Output:
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "age": 21,
+  "major": "Computer Science",
+  "contactInfo": {
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890"
+  },
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "Anystate",
+    "zip": "12345"
+  }
+}
+
+```
+- The third argument `(2)` specifies the number of spaces to use as white space for indentation, making the JSON string more readable.
+
+## JavaScript Object Constructors
 
 
 

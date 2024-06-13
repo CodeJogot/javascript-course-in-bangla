@@ -10,13 +10,11 @@
     <h1 id="p"></h1>
     <script>
 
-        function myFunction(x, y, z) {
-            let sum = x + y + z;
-            return sum;
-        }
-
-        let output = myFunction(10, 20, 5);
-
+        let sum = 0;
+       for(let i=1;i<=10;i++){
+            sum = sum + i;
+       }
+       output = sum;
         document.getElementById('p').innerHTML = output;
     </script>
 </body>
