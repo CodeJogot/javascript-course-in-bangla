@@ -1,11 +1,21 @@
-var input = require('fs').readFileSync('./input.txt', 'utf8');
-var lines = input.split('\n');
 
-let a = parseInt(lines[0]);
-let b = parseInt(lines[1]);
-let c = parseInt(lines[2]);
-let d = parseInt(lines[3]);
+function isPrime(n) {
+    let count = 0; 
+    for(let i=1;i<=n;i++){
+        if(n%i==0){
+            count++;
+        }
+    }
+    if(count>2 || count==1){
+        return false;
+    }else{
+        return true;
+    }
+}
 
-let result = a*b - c*d;
-
-console.log(`DIFERENCA = ${result}`);
+let x = isPrime(2);
+if(x==true){
+    console.log("Prime");
+}else{
+    console.log("Not Prime");
+}
