@@ -1041,8 +1041,270 @@ Output:
 ```
 - The third argument `(2)` specifies the number of spaces to use as white space for indentation, making the JSON string more readable.
 
-## JavaScript Object Constructors
+## JavaScript Constructor Functions
 
+- অনেক সময় একই Type এর একাধিক Object আমাদের তৈরি করা লাগতে পারে। যেমনঃ 
+
+Batch-05 এর Al Amin Student এর জন্য আমরা একটা Object তৈরি করতে পারি। 
+
+```js
+let student = {
+  // Properties
+  firstName: "Al",
+  lastName: "Amin",
+  id: "WD05020",
+  batch: 5,
+  
+  // Method
+  getDetails: function() {
+    return `Name: ${this.firstName} ${this.lastName}, ID: ${this.id}, Batch: ${this.batch}`;
+  }
+};
+console.log(student.getDetails()); 
+
+```
+
+আবার Batch-05 এর Sujon Rana এর জন্য আমরা একটা Object তৈরি করতে পারি। 
+```js
+let student = {
+  // Properties
+  firstName: "Sujon",
+  lastName: "Rana",
+  id: "WD05025",
+  batch: 5,
+  
+  // Method
+  getDetails: function() {
+    return `Name: ${this.firstName} ${this.lastName}, ID: ${this.id}, Batch: ${this.batch}`;
+  }
+};
+console.log(student.getDetails()); 
+
+```
+
+- আপনাদের মনে আছে কি, আমাদের যদি একই Type এর অনেকগুলো Variable Declare করার প্রয়োজন হয়, তাহলে আমরা Array তৈরি করি। একইভাবে একই Type এর Object যদি আমাদের প্রয়োজন হয়, তাহলে আমরা **Costructor Function** তৈরি করতে পারি। এই Function আসলে Object তৈরির Machine এর মতো কাজ করে, যার মাধ্যমে একই Type এর Object যত খুশি তত তৈরি করা যায়। 
+
+```js
+// Define the constructor function
+function Student(firstName, lastName, id, batch) {
+  // Properties
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.id = id;
+  this.batch = batch;
+  
+  // Method
+  this.getDetails = function() {
+    return `Name: ${this.firstName} ${this.lastName}, ID: ${this.id}, Batch: ${this.batch}`;
+  };
+}
+
+// Create student objects using the constructor function
+let alamin = new Student("Al", "Amin", "WD05020", 5);
+let sujon = new Student("Sujon", "Rana", "WD05025", 5);
+
+// Using the method
+console.log(alamin.getDetails()); // Output: Name: Al Amin, ID: WD05020, Batch: 5
+console.log(sujon.getDetails()); // Output: Name: Sujon Rana, ID: WD05025, Batch: 5
+
+```
+- Constructor Function এর নাম Capital Letter এ লিখতে হয়। JavaScript এ অন্যান্য Function লিখার ক্ষেত্রে Camel Case এবং Constructor Function লিখার ক্ষেত্রে Capital Letter এ লিখতে হয়। যাতে যে কেউ কোড দেখলেই বুঝতে পারে এটা Constructor Function.
+- আমরা চাইলে Normal Object এর Property যেভাবে অ্যাড করি, এখানেও সেইভাবে New Property অ্যাড করা যায়। যেমনঃ 
+
+```js
+alamin.score = 100;
+```
+
+### Built-in JavaScript Constructors
+
+```js
+new Object()   // A new Object object
+new Array()    // A new Array object
+new Map()      // A new Map object
+new Set()      // A new Set object
+new Date()     // A new Date object
+new RegExp()   // A new RegExp object
+new Function() // A new Function object
+```
+
+- The `Math()` object is not in the list. `Math` is a global object. The `new` keyword cannot be used on `Math`.
+
+
+## JavaScript Event
+
+- HTML Elements এর মাধ্যমে কোন ঘটনা ঘটাকেই **Event** বলে। যখন HTML Page এ JavaScript ব্যবহার করা হয়, তখন JavaScript এই ইভেন্টগুলিতে "React" বা "Listen" করতে পারে। অর্থাৎ Event হয় HTML এ, আর JavaScript সেই Event Listen করে বা React করে। যেমনঃ Button এ ক্লিক করা একটা Event, Mouse Hover করা  ইত্যাদি। 
+
+### Common JavaScript Events
+
+| Event Type         | Event      | Description                                                           |
+|--------------------|------------|-----------------------------------------------------------------------|
+| **Mouse Events**   | click      | Fires when a mouse button is clicked on an element.                   |
+|                    | dblclick   | Fires when a mouse button is double-clicked on an element.            |
+|                    | mouseover  | Fires when the mouse pointer is moved onto an element.                |
+|                    | mouseout   | Fires when the mouse pointer is moved out of an element.              |
+|                    | mousemove  | Fires when the mouse pointer is moved within an element.              |
+|                    | mousedown  | Fires when a mouse button is pressed on an element.                   |
+|                    | mouseup    | Fires when a mouse button is released over an element.                |
+| **Keyboard Events**| keydown    | Fires when a key is pressed.                                          |
+|                    | keyup      | Fires when a key is released.                                         |
+|                    | keypress   | Fires when a key is pressed and released.                             |
+| **Form Events**    | submit     | Fires when a form is submitted.                                       |
+|                    | change     | Fires when an element's value changes.                                |
+|                    | focus      | Fires when an element receives focus.                                 |
+|                    | blur       | Fires when an element loses focus.                                    |
+|                    | input      | Fires when the value of an input element changes.                     |
+| **Window Events**  | load       | Fires when the whole page has loaded, including all dependent resources like stylesheets and images. |
+|                    | resize     | Fires when the browser window is resized.                             |
+|                    | scroll     | Fires when the document view is scrolled.                             |
+|                    | unload     | Fires when the user navigates away from the page.                     |
+| **Touch Events**   | touchstart | Fires when a touch point is placed on the touch surface.              |
+|                    | touchmove  | Fires when a touch point is moved along the touch surface.            |
+|                    | touchend   | Fires when a touch point is removed from the touch surface.           |
+|                    | touchcancel| Fires when a touch point is interrupted.                              |
+| **Drag and Drop Events** | drag | Fires when an element is being dragged.                               |
+|                    | dragstart  | Fires when the user starts dragging an element.                       |
+|                    | dragend    | Fires when the user has finished dragging the element.                |
+|                    | dragenter  | Fires when the dragged element enters a drop target.                  |
+|                    | dragover   | Fires when the dragged element is over a drop target.                 |
+|                    | dragleave  | Fires when the dragged element leaves a drop target.                  |
+|                    | drop       | Fires when the dragged element is dropped on a drop target.           |
+| **Clipboard Events**| copy      | Fires when content is copied to the clipboard.                        |
+|                    | cut        | Fires when content is cut from the document and added to the clipboard.|
+|                    | paste      | Fires when content is pasted from the clipboard into the document.    |
+
+
+
+[Download the PDF](./chapter-04/resources/JavaScript_Events.pdf)
+
+- Event Syntax:
+
+```js
+<button onclick="takeAction()">Click me</button>
+```
+
+Example:
+
+```js
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Event Example</title>
+    <script>
+        // JavaScript function to change the text
+        function changeText() {
+            document.getElementById("myParagraph").innerHTML = "Text has been changed!";
+        }
+    </script>
+</head>
+<body>
+
+<h2>JavaScript Event Example</h2>
+
+<!-- Button with an onclick event to call the changeText function -->
+<button onclick="changeText()">Click me</button>
+
+<!-- Paragraph with an id to target with JavaScript -->
+<p id="myParagraph">This is the original text.</p>
+
+</body>
+</html>
+
+```
+
+- A JavaScript Counter Demonstrating Events:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Counter Example</title>
+    <script>
+        // Initialize the counter variable
+        let counter = 0;
+
+        // Function to increase the counter
+        function increaseCounter() {
+            counter++;
+            displayCounter();
+        }
+
+        // Function to decrease the counter
+        function decreaseCounter() {
+            counter--;
+            displayCounter();
+        }
+
+        // Function to display the counter value
+        function displayCounter() {
+            document.getElementById("counterDisplay").innerHTML = counter;
+        }
+    </script>
+</head>
+<body>
+
+<h2>JavaScript Counter Example</h2>
+
+<!-- Button to increase the counter -->
+<button onclick="increaseCounter()">Increase</button>
+
+<!-- Button to decrease the counter -->
+<button onclick="decreaseCounter()">Decrease</button>
+
+<!-- Paragraph to display the counter value -->
+<p>Counter: <span id="counterDisplay">0</span></p>
+
+</body>
+</html>
+
+```
+
+### Explanation:
+1. **HTML Structure**:
+   - Two `<button>` elements, one for increasing the counter and one for decreasing the counter.
+   - A `<p>` element with a `<span>` inside it to display the counter value. The `<span>` has an id of `counterDisplay` to target it with JavaScript.
+
+2. **JavaScript Functions**:
+   - A `counter` variable is initialized to `0`.
+   - `increaseCounter` and `decreaseCounter` functions are defined to modify the `counter` variable and update the display by calling `displayCounter`.
+   - The `displayCounter` function updates the inner HTML of the `<span>` element with the current value of the `counter`.
+
+When you click the "Increase" button, the `increaseCounter` function is called, which increments the counter and updates the display. Similarly, when you click the "Decrease" button, the `decreaseCounter` function is called, which decrements the counter and updates the display.
+
+- নিজের Element এর Content Change করতে চাইলে তাকে id দিয়ে আলাদা করে ধরার কোন দরকার নেই। এর বদলে `this.innerHTML` ব্যবহার করা যেতে পারে।
+```html
+<button onclick="this.innerHTML = Date()">The time is?</button>
+```
+
+
+# Chapter-05: JavaScript String
+
+- [String](#string)
+
+## String
+
+- Single এবং Double Quotation এর মধ্যে যা থাকে তাকেই String বলে। Single/Double Quotation এর মধ্যে প্রতিটা Character এর ASCII Value আছে। ASCII = American Standard Code for Information Interchange.
+- String Empty হতে পারে। 
+
+## Escape Characters
+
+- JavaScript strings support various escape characters that allow you to include special characters within a string. Here are some common escape characters used in JavaScript:
+
+| Escape Character | Description                           | Example                                      | Output                            |
+|------------------|---------------------------------------|----------------------------------------------|-----------------------------------|
+| `\'`             | Single quote                          | `'It\'s a pen'`                              | `It's a pen`                      |
+| `\"`             | Double quote                          | `"He said, \"Hi\""`                          | `He said, "Hi"`                   |
+| `\\`             | Backslash                             | `"This is a backslash: \\ "`                 | `This is a backslash: \ `         |
+| `\n`             | New line                              | `"Line 1\nLine 2"`                           | `Line 1`<br>`Line 2`              |
+| `\r`             | Carriage return                       | `"Hello\rWorld"`                             | `World`                           |
+| `\t`             | Tab                                   | `"Hello\tWorld"`                             | `Hello   World`                   |
+| `\b`             | Backspace                             | `"ABC\bDEF"`                                 | `ABDEF`                           |
+| `\f`             | Form feed                             | `"Hello\fWorld"`                             | `Hello`<form feed>`World`         |
+| Example          | Demonstrating multiple escape characters | `"She said, \"Hello!\"\nThis is a backslash: \\"` | `She said, "Hello!"`<br>`This is a backslash: \` |
+
+
+- The backslash escape character `(\)` turns special characters into string characters.
+
+## String Methods
 
 
 <h3 align="right">
