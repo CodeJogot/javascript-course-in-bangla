@@ -10,8 +10,8 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 |   [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)    |       [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)       |       Watch Now       |
 | [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function) | [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function) |       Watch Now       |
 |            [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)             |                        [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                         |       Watch Now       |
-|                                          [04]()                                           |                                                                                []()                                                                                |     [Watch Now]()     |
-|                                          [05]()                                           |                                       [](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group)                                       |     [Watch Now]()     |
+|                                          [04](#chapter-04-javascript-object)                                           |     [JavaScript Object](#chapter-04-javascript-object)                                                                           []()                                                                                |     [Watch Now]()     |
+|                                          [05](#chapter-05-javascript-string)                                           |                                       [JavaScript String](#chapter-05-javascript-string)                                       |     [Watch Now]()     |
 |                                          [06]()                                           |                                                                                []()                                                                                |     [Watch Now]()     |
 |                                            07                                             |                                                                                                                                                                    |                       |
 |                                            08                                             |                                                                                                                                                                    |                       |
@@ -53,6 +53,9 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 - [কোর্সটি কাদের জন্য?](#কোর্সটি-কাদের-জন্য)
 - [Prerequisite](#prerequisite)
 - [কোর্সটি যেভাবে সাজানো হয়েছে](#কোর্সটি-যেভাবে-সাজানো-হয়েছেঃ)
+
+
+
 
 ### কোর্সটি কাদের জন্য?
 
@@ -1279,13 +1282,15 @@ When you click the "Increase" button, the `increaseCounter` function is called, 
 # Chapter-05: JavaScript String
 
 - [String](#string)
+- [String Methods](#string-methods)
+
 
 ## String
 
 - Single এবং Double Quotation এর মধ্যে যা থাকে তাকেই String বলে। Single/Double Quotation এর মধ্যে প্রতিটা Character এর ASCII Value আছে। ASCII = American Standard Code for Information Interchange.
 - String Empty হতে পারে। 
 
-## Escape Characters
+### Escape Characters
 
 - JavaScript strings support various escape characters that allow you to include special characters within a string. Here are some common escape characters used in JavaScript:
 
@@ -1305,6 +1310,1086 @@ When you click the "Increase" button, the `increaseCounter` function is called, 
 - The backslash escape character `(\)` turns special characters into string characters.
 
 ## String Methods
+
+- JavaScript এ সমস্ত String Methods Original String কে পরিবর্তন না করে নতুন String তৈরি করে।
+
+### String Methods At A Glance
+
+| Method          | Description                                                  | Example Code                                        | Output                |
+|-----------------|--------------------------------------------------------------|-----------------------------------------------------|-----------------------|
+| `charAt()`      | Returns the character at a specified index in a string       | `let str = "Hello"; str.charAt(1);`                 | `e`                   |
+| `concat()`      | Joins two or more strings and returns a new string           | `let str1 = "Hello"; let str2 = "World"; str1.concat(" ", str2);` | `Hello World`        |
+| `includes()`    | Checks if a string contains a specified substring            | `let str = "Hello World"; str.includes("World");`   | `true`                |
+| `indexOf()`     | Returns the index of the first occurrence of a specified value | `let str = "Hello World"; str.indexOf("World");`    | `6`                   |
+| `slice()`       | Extracts a part of a string and returns a new string         | `let str = "Hello World"; str.slice(0, 5);`         | `Hello`               |
+| `split()`       | Splits a string into an array of substrings                  | `let str = "Hello World"; str.split(" ");`          | `["Hello", "World"]`  |
+| `toLowerCase()` | Converts a string to lowercase                               | `let str = "Hello World"; str.toLowerCase();`       | `hello world`         |
+| `toUpperCase()` | Converts a string to uppercase                               | `let str = "Hello World"; str.toUpperCase();`       | `HELLO WORLD`         |
+| `trim()`        | Removes whitespace from both ends of a string                | `let str = "  Hello World  "; str.trim();`          | `Hello World`         |
+| `replace()`     | Replaces a specified value with another value in a string    | `let str = "Hello World"; str.replace("World", "JavaScript");` | `Hello JavaScript`    |
+| `substring()`   | Extracts characters from a string, between two specified indices | `let str = "Hello World"; str.substring(0, 5);` | `Hello`               |
+| `startsWith()`  | Checks if a string starts with a specified value             | `let str = "Hello World"; str.startsWith("Hello");` | `true`                |
+| `endsWith()`    | Checks if a string ends with a specified value               | `let str = "Hello World"; str.endsWith("World");`   | `true`                |
+
+
+## Extracting String Characters
+
+- চার উপায়ে String এর Characters কে Extract করা যায়। যেমনঃ 
+  - `at(position)` ব্যবহার করে। 
+  - `charAt(position)` ব্যবহার করে।
+  - `charCodeAt(position)` ব্যবহার করে।
+  - Array এর মতো `[]` ব্যবহার করে। 
+
+| Method          | Description                                                                                   | Example Code                                        | Output                |
+|-----------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------|-----------------------|
+| `at()`          | Returns the character at a specified index. Supports negative indices to count from the end.  | `let str = "Hello"; str.at(1);`                     | `e`                   |
+|                 |                                                                                               | `let str = "Hello"; str.at(-1);`                    | `o`                   |
+| `charAt()`      | Returns the character at a specified index. It doesn't support negative index.                                                 | `let str = "Hello"; str.charAt(1);`                 | `e`                   |
+| `charCodeAt()`  | Returns the Unicode value of the character at a specified index.                              | `let str = "Hello"; str.charCodeAt(1);`             | `101`                 |
+
+
+## Extracting String Parts
+
+- `slice(start, end)`
+- `substring(start, end)`
+- `substr(start, length)`
+
+## Slice Method
+
+The `slice()` method in JavaScript is used to extract a portion of an array into a new array. This method does not alter the original array but instead returns a new array containing the selected elements.
+
+### Syntax
+
+```javascript
+array.slice(start, end)
+```
+
+- `start`: Optional. The starting index at which to begin extraction. If negative, it indicates an offset from the end of the array. Default is `0`.
+- `end`: Optional. The ending index before which to end extraction (the element at this index is not included). If negative, it indicates an offset from the end of the array. If omitted, it extracts through the end of the array.
+
+### Examples
+
+1. **Basic Usage**
+
+```javascript
+let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+let citrus = fruits.slice(1, 3);
+console.log(citrus); // Output: ["Orange", "Lemon"]
+```
+
+2. **Using Negative Indices**
+
+```javascript
+let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+let lastTwo = fruits.slice(-2);
+console.log(lastTwo); // Output: ["Apple", "Mango"]
+```
+
+3. **Omitting the `end` Parameter**
+
+```javascript
+let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+let fromSecond = fruits.slice(1);
+console.log(fromSecond); // Output: ["Orange", "Lemon", "Apple", "Mango"]
+```
+
+### Notes
+
+- The original array remains unchanged.
+- If `start` is greater than the length of the array, an empty array is returned.
+- If `end` is greater than the length of the array, the slice extracts through the end of the array.
+
+## Substring Method
+
+- The `substring` method in JavaScript is used to extract a portion of a string and returns it as a new string, without modifying the original string. Here’s a simple explanation of how it works:
+- substring() is similar to slice().
+- The difference is that start and end values less than 0 are treated as 0 in substring().
+
+### Syntax
+```javascript
+string.substring(indexStart, indexEnd)
+```
+
+- `indexStart` (required): The index of the first character to include in the returned substring.
+- `indexEnd` (optional): The index of the first character to exclude from the returned substring. If omitted, `substring` extracts characters to the end of the string.
+
+### Key Points
+
+1. **Zero-based Indexing**: The indices are zero-based, meaning the first character of the string is at index 0.
+2. **Index Order**: If `indexStart` is greater than `indexEnd`, `substring` will swap the two arguments.
+3. **Negative Indices**: If either `indexStart` or `indexEnd` is less than 0, it is treated as 0.
+4. **Out of Range**: If any of the indices are greater than the string's length, they are treated as equal to the string's length.
+
+### Examples
+
+1. **Basic Usage**
+   ```javascript
+   let str = "Hello, world!";
+   let result = str.substring(0, 5);
+   console.log(result); // Outputs: "Hello"
+   ```
+
+2. **Omitting `indexEnd`**
+   ```javascript
+   let str = "Hello, world!";
+   let result = str.substring(7);
+   console.log(result); // Outputs: "world!"
+   ```
+
+3. **Swapping Indices**
+   ```javascript
+   let str = "Hello, world!";
+   let result = str.substring(7, 0);
+   console.log(result); // Outputs: "Hello, "
+   ```
+
+4. **Negative Index**
+   ```javascript
+   let str = "Hello, world!";
+   let result = str.substring(-5, 5);
+   console.log(result); // Outputs: "Hello"
+   ```
+
+5. **Index Out of Range**
+   ```javascript
+   let str = "Hello, world!";
+   let result = str.substring(7, 20);
+   console.log(result); // Outputs: "world!"
+   ```
+
+##  Substr Method
+- substr() is similar to slice().
+- The difference is that the second parameter specifies the **length** of the extracted part.
+
+```js
+let str = "Hello, world!";
+let result = str.substr(7, 5);
+console.log(result); // Outputs: "world"
+```
+
+## Converting Uppercase and Lowercase
+
+
+### `toUpperCase` Method
+
+The `toUpperCase` method converts all the characters in a string to uppercase.
+
+**Syntax**
+```javascript
+string.toUpperCase()
+```
+
+**Example**
+```javascript
+let str = "Hello, world!";
+let upperStr = str.toUpperCase();
+console.log(upperStr); // Outputs: "HELLO, WORLD!"
+```
+
+### `toLowerCase` Method
+
+The `toLowerCase` method converts all the characters in a string to lowercase.
+
+**Syntax**
+```javascript
+string.toLowerCase()
+```
+
+**Example**
+```javascript
+let str = "Hello, World!";
+let lowerStr = str.toLowerCase();
+console.log(lowerStr); // Outputs: "hello, world!"
+```
+
+## Concat Method
+
+- The `concat` method in JavaScript is used to merge two or more strings into one. This method does not change the existing strings but returns a new string containing the combined text of the strings provided as arguments.
+
+### Syntax
+```javascript
+string1.concat(string2, string3, ..., stringN)
+```
+
+- `string1, string2, ..., stringN`: The strings to be concatenated with the original string.
+
+### Key Points
+
+1. **Non-Mutating**: The `concat` method does not alter the original strings. It returns a new string.
+2. **Multiple Arguments**: You can pass multiple strings as arguments to concatenate them all at once.
+3. **Alternate Method**: The `+` operator can also be used to concatenate strings.
+
+### Examples
+
+1. **Basic Usage**
+   ```javascript
+   let str1 = "Hello, ";
+   let str2 = "world!";
+   let result = str1.concat(str2);
+   console.log(result); // Outputs: "Hello, world!"
+   ```
+
+2. **Concatenating Multiple Strings**
+   ```javascript
+   let str1 = "Hello";
+   let str2 = ", ";
+   let str3 = "world";
+   let str4 = "!";
+   let result = str1.concat(str2, str3, str4);
+   console.log(result); // Outputs: "Hello, world!"
+   ```
+
+3. **Using `concat` with an Empty String**
+   ```javascript
+   let str1 = "Hello, ";
+   let str2 = "";
+   let str3 = "world!";
+   let result = str1.concat(str2, str3);
+   console.log(result); // Outputs: "Hello, world!"
+   ```
+
+4. **Alternative Using the `+` Operator**
+   ```javascript
+   let str1 = "Hello, ";
+   let str2 = "world!";
+   let result = str1 + str2;
+   console.log(result); // Outputs: "Hello, world!"
+   ```
+
+The `concat` method is a straightforward way to combine strings, and while the `+` operator is often used for its simplicity, `concat` can be particularly useful when concatenating multiple strings in a single method call.
+
+## Trim Method
+- The `trim` method in JavaScript is used to remove whitespace from both ends of a string. It does not change the original string but returns a new string with the leading and trailing whitespace removed.
+
+### Syntax
+```javascript
+string.trim()
+```
+
+### Key Points
+
+1. **Whitespace Removal**: It removes spaces, tabs, and other whitespace characters from the beginning and end of the string.
+2. **Non-Mutating**: The `trim` method does not alter the original string but returns a new string with the whitespace removed.
+
+### Examples
+
+1. **Basic Usage**
+   ```javascript
+   let str = "   Hello, world!   ";
+   let trimmedStr = str.trim();
+   console.log(trimmedStr); // Outputs: "Hello, world!"
+   ```
+
+2. **No Whitespace to Remove**
+   ```javascript
+   let str = "Hello, world!";
+   let trimmedStr = str.trim();
+   console.log(trimmedStr); // Outputs: "Hello, world!"
+   ```
+
+3. **String with Only Whitespace**
+   ```javascript
+   let str = "   ";
+   let trimmedStr = str.trim();
+   console.log(trimmedStr); // Outputs: ""
+   ```
+
+4. **Whitespace in the Middle of the String**
+   ```javascript
+   let str = "   Hello,   world!   ";
+   let trimmedStr = str.trim();
+   console.log(trimmedStr); // Outputs: "Hello,   world!"
+   ```
+
+The `trim` method is particularly useful for cleaning up user input or processing strings where whitespace at the ends might cause issues.
+
+## padStart and padEnd Method
+
+The `padStart` and `padEnd` methods in JavaScript are used to pad the current string with another string until the resulting string reaches the given length. The padding is applied from the start or end of the string respectively.
+
+### `padStart` Method
+
+The `padStart` method pads the current string from the start with another string until the resulting string reaches the specified length.
+
+**Syntax**
+```javascript
+string.padStart(targetLength, padString)
+```
+
+- `targetLength` (required): The length of the resulting string once the current string has been padded. If this length is less than the length of the original string, no padding is added.
+- `padString` (optional): The string to pad the current string with. If this string is too long, it is truncated. The default value is a space character (" ").
+
+**Example**
+```javascript
+let str = "5";
+let paddedStr = str.padStart(3, "0");
+console.log(paddedStr); // Outputs: "005"
+```
+
+### `padEnd` Method
+
+The `padEnd` method pads the current string from the end with another string until the resulting string reaches the specified length.
+
+**Syntax**
+```javascript
+string.padEnd(targetLength, padString)
+```
+
+- `targetLength` (required): The length of the resulting string once the current string has been padded. If this length is less than the length of the original string, no padding is added.
+- `padString` (optional): The string to pad the current string with. If this string is too long, it is truncated. The default value is a space character (" ").
+
+**Example**
+```javascript
+let str = "5";
+let paddedStr = str.padEnd(3, "0");
+console.log(paddedStr); // Outputs: "500"
+```
+
+### Additional Examples
+
+1. **Using `padStart` with Default Padding**
+   ```javascript
+   let str = "42";
+   let paddedStr = str.padStart(5);
+   console.log(paddedStr); // Outputs: "   42"
+   ```
+
+2. **Using `padEnd` with Default Padding**
+   ```javascript
+   let str = "42";
+   let paddedStr = str.padEnd(5);
+   console.log(paddedStr); // Outputs: "42   "
+   ```
+
+3. **Padding with a Custom String**
+   ```javascript
+   let str = "123";
+   let paddedStrStart = str.padStart(6, "abc");
+   console.log(paddedStrStart); // Outputs: "abc123"
+   
+   let paddedStrEnd = str.padEnd(6, "abc");
+   console.log(paddedStrEnd); // Outputs: "123abc"
+   ```
+
+4. **Padding with a Truncated Pad String**
+   ```javascript
+   let str = "123";
+   let paddedStr = str.padStart(10, "abcdef");
+   console.log(paddedStr); // Outputs: "abcdefa123"
+   ```
+
+## repeat Method
+
+The `repeat` method in JavaScript is used to construct and return a new string which contains the specified number of copies of the string on which it was called, concatenated together.
+
+### Syntax
+```javascript
+string.repeat(count)
+```
+
+- `count` (required): An integer between 0 and positive infinity, indicating the number of times to repeat the string. If this count is negative or infinity, a `RangeError` is thrown.
+
+### Examples
+
+1. **Basic Usage**
+   ```javascript
+   let str = "abc";
+   let repeatedStr = str.repeat(3);
+   console.log(repeatedStr); // Outputs: "abcabcabc"
+   ```
+
+2. **Zero Count**
+   ```javascript
+   let str = "abc";
+   let repeatedStr = str.repeat(0);
+   console.log(repeatedStr); // Outputs: ""
+   ```
+
+3. **Floating Point Count**
+   ```javascript
+   let str = "abc";
+   let repeatedStr = str.repeat(2.5);
+   console.log(repeatedStr); // Outputs: "abcabc" (count is converted to an integer)
+   ```
+
+4. **RangeError for Negative Count**
+   ```javascript
+   let str = "abc";
+   try {
+       let repeatedStr = str.repeat(-1);
+   } catch (e) {
+       console.log(e); // Outputs: RangeError: Invalid count value
+   }
+   ```
+
+5. **Using Repeat for Padding**
+   ```javascript
+   let str = "abc";
+   let paddedStr = str + " ".repeat(5) + "def";
+   console.log(paddedStr); // Outputs: "abc     def"
+   ```
+
+6. **Combining Repeat with Other Methods**
+   ```javascript
+   let str = "abc";
+   let repeatedUpperStr = str.repeat(2).toUpperCase();
+   console.log(repeatedUpperStr); // Outputs: "ABCABC"
+   ```
+
+The `repeat` method is useful for generating repeated sequences of a string, such as for creating padding, repeating patterns, or generating test data.
+
+## replace Method
+
+The `replace` method in JavaScript is used to return a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a regular expression, and the replacement can be a string or a function to generate the string.
+
+### Syntax
+```javascript
+string.replace(pattern, replacement)
+```
+
+- `pattern` (required): The substring or regular expression to be replaced.
+- `replacement` (required): The string or function that replaces the matched substrings.
+
+### Key Points
+
+1. **First Match Only**: If `pattern` is a string, only the first occurrence will be replaced.
+2. **Global Replacement**: To replace all occurrences, use a regular expression with the `g` (global) flag.
+3. **Replacement String**: Can include special replacement patterns like `$&` (the matched substring), `$` (the preceding portion), `$'` (the following portion), and more.
+4. **Replacement Function**: Can be used for more complex replacements, where the function's return value replaces the matched substring.
+
+### Examples
+
+1. **Basic Usage**
+   ```javascript
+   let str = "Hello, world!";
+   let newStr = str.replace("world", "there");
+   console.log(newStr); // Outputs: "Hello, there!"
+   ```
+
+2. **Global Replacement with Regular Expression**
+   ```javascript
+   let str = "Hello, world! Hello, everyone!";
+   let newStr = str.replace(/Hello/g, "Hi");
+   console.log(newStr); // Outputs: "Hi, world! Hi, everyone!"
+   ```
+
+3. **Using Special Replacement Patterns**
+   ```javascript
+   let str = "abc123";
+   let newStr = str.replace(/(\d+)/, "Number: $1");
+   console.log(newStr); // Outputs: "abcNumber: 123"
+   ```
+
+4. **Replacement Function**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let newStr = str.replace(/\b\w+\b/g, function(match) {
+       return match.toUpperCase();
+   });
+   console.log(newStr); // Outputs: "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
+   ```
+
+5. **Replacing with Empty String**
+   ```javascript
+   let str = "Hello, world!";
+   let newStr = str.replace("world", "");
+   console.log(newStr); // Outputs: "Hello, !"
+   ```
+
+6. **Replacing Multiple Patterns**
+   ```javascript
+   let str = "Twas the night before Christmas.";
+   let newStr = str.replace(/night|Christmas/g, function(match) {
+       if (match === "night") return "day";
+       if (match === "Christmas") return "New Year";
+   });
+   console.log(newStr); // Outputs: "Twas the day before New Year."
+   ```
+
+The `replace` method is powerful for string manipulation, offering flexibility to replace substrings or patterns with static replacements or dynamically generated content.
+
+## replaceAll Method
+
+The `replaceAll` method in JavaScript is used to replace all occurrences of a specified substring or regular expression within a string with a new substring. It is a more convenient and readable way to perform a global replacement compared to using `replace` with a regular expression and the global flag (`/g`).
+
+### Syntax
+```javascript
+string.replaceAll(pattern, replacement)
+```
+
+- `pattern` (required): The substring or regular expression to be replaced.
+- `replacement` (required): The string or function that replaces the matched substrings.
+
+### Key Points
+
+1. **Global Replacement**: `replaceAll` automatically replaces all occurrences of the pattern, similar to using `replace` with the global flag.
+2. **String and RegExp Patterns**: The `pattern` can be a string or a regular expression with the global flag.
+3. **Replacement String or Function**: The `replacement` can be a string or a function that returns the replacement string.
+
+### Examples
+
+1. **Basic Usage with a String Pattern**
+   ```javascript
+   let str = "Hello, world! Hello, everyone!";
+   let newStr = str.replaceAll("Hello", "Hi");
+   console.log(newStr); // Outputs: "Hi, world! Hi, everyone!"
+   ```
+
+2. **Using a Regular Expression Pattern**
+   ```javascript
+   let str = "Hello, world! Hello, everyone!";
+   let newStr = str.replaceAll(/Hello/g, "Hi");
+   console.log(newStr); // Outputs: "Hi, world! Hi, everyone!"
+   ```
+
+3. **Replacing with Special Characters**
+   ```javascript
+   let str = "Hello, world! Hello, everyone!";
+   let newStr = str.replaceAll("!", "?");
+   console.log(newStr); // Outputs: "Hello, world? Hello, everyone?"
+   ```
+
+4. **Replacing with a Function**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let newStr = str.replaceAll(/\b\w+\b/g, function(match) {
+       return match.toUpperCase();
+   });
+   console.log(newStr); // Outputs: "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
+   ```
+
+5. **Replacing Multiple Different Patterns**
+   ```javascript
+   let str = "Apples are red. Apples are tasty.";
+   let newStr = str.replaceAll("Apples", "Oranges").replaceAll("red", "orange");
+   console.log(newStr); // Outputs: "Oranges are orange. Oranges are tasty."
+   ```
+
+6. **Replacing Using Special Replacement Patterns**
+   ```javascript
+   let str = "abc123abc456";
+   let newStr = str.replaceAll(/abc/g, "XYZ");
+   console.log(newStr); // Outputs: "XYZ123XYZ456"
+   ```
+## Converting a String to an Array
+- If you want to work with a string as an array, you can convert it to an array.
+- A string can be converted to an array with the `split()` method.
+- If the separator is "", the returned array will be an array of single characters.
+- If the separator is omitted, the returned array will contain the whole string in index [0].
+
+```js
+text.split(",")    // Split on commas
+text.split(" ")    // Split on spaces
+text.split("|")    // Split on pipe
+text.split("")     //split by characters
+```
+
+## JavaScript String Search
+
+## indexOf() Method and lastIndexOf() Method
+
+The `indexOf` and `lastIndexOf` methods in JavaScript are used to find the index of a specified substring within a string. The `indexOf` method returns the first occurrence, while the `lastIndexOf` method returns the last occurrence.
+
+### `indexOf` Method
+
+The `indexOf` method returns the index of the first occurrence of a specified substring within the string. If the substring is not found, it returns `-1`.
+
+**Syntax**
+```javascript
+string.indexOf(searchValue, fromIndex)
+```
+
+- `searchValue` (required): The substring to search for.
+- `fromIndex` (optional): The index to start the search from. The default is `0`.
+
+**Examples**
+
+1. **Basic Usage**
+   ```javascript
+   let str = "Hello, world!";
+   let index = str.indexOf("world");
+   console.log(index); // Outputs: 7
+   ```
+
+2. **Not Found**
+   ```javascript
+   let str = "Hello, world!";
+   let index = str.indexOf("planet");
+   console.log(index); // Outputs: -1
+   ```
+
+3. **Starting Search from a Specific Index**
+   ```javascript
+   let str = "Hello, world! Hello again!";
+   let index = str.indexOf("Hello", 10);
+   console.log(index); // Outputs: 13
+   ```
+
+### `lastIndexOf` Method
+
+The `lastIndexOf` method returns the index of the last occurrence of a specified substring within the string. If the substring is not found, it returns `-1`.
+
+**Syntax**
+```javascript
+string.lastIndexOf(searchValue, fromIndex)
+```
+
+- `searchValue` (required): The substring to search for.
+- `fromIndex` (optional): The index to start the search backward from. The default is `str.length - 1`.
+
+**Examples**
+
+1. **Basic Usage**
+   ```javascript
+   let str = "Hello, world! Hello again!";
+   let index = str.lastIndexOf("Hello");
+   console.log(index); // Outputs: 13
+   ```
+
+2. **Not Found**
+   ```javascript
+   let str = "Hello, world!";
+   let index = str.lastIndexOf("planet");
+   console.log(index); // Outputs: -1
+   ```
+
+3. **Starting Search Backward from a Specific Index**
+   ```javascript
+   let str = "Hello, world! Hello again!";
+   let index = str.lastIndexOf("Hello", 12);
+   console.log(index); // Outputs: 0
+   ```
+
+### Additional Examples
+
+1. **Finding All Occurrences Using a Loop**
+   ```javascript
+   let str = "Hello, world! Hello again!";
+   let searchValue = "Hello";
+   let indices = [];
+   let index = str.indexOf(searchValue);
+
+   while (index !== -1) {
+       indices.push(index);
+       index = str.indexOf(searchValue, index + 1);
+   }
+
+   console.log(indices); // Outputs: [0, 13]
+   ```
+
+2. **Case-Sensitive Search**
+   ```javascript
+   let str = "Hello, World!";
+   let index = str.indexOf("world");
+   console.log(index); // Outputs: -1 (case-sensitive)
+   ```
+
+3. **Using `lastIndexOf` for Substring Search**
+   ```javascript
+   let str = "banana";
+   let index = str.lastIndexOf("na");
+   console.log(index); // Outputs: 4
+   ```
+## serach() Method
+
+The `search` method in JavaScript is used to search a string for a specified value (pattern) and returns the index (position) of the first match. The search value can be a string or a regular expression. This method returns `-1` if no match is found.
+
+### Syntax
+```javascript
+string.search(pattern)
+```
+
+- `pattern` (required): A string or a regular expression to search for.
+
+### Key Points
+
+1. **Search Value**: The `pattern` can be a string or a regular expression.
+2. **Returns Index**: The method returns the index of the first match. If no match is found, it returns `-1`.
+3. **Case-Sensitive**: The search is case-sensitive.
+
+### Examples
+
+1. **Basic Usage with a String Pattern**
+   ```javascript
+   let str = "Hello, world!";
+   let index = str.search("world");
+   console.log(index); // Outputs: 7
+   ```
+
+2. **No Match Found**
+   ```javascript
+   let str = "Hello, world!";
+   let index = str.search("planet");
+   console.log(index); // Outputs: -1
+   ```
+
+3. **Using a Regular Expression**
+   ```javascript
+   let str = "Hello, world!";
+   let index = str.search(/world/);
+   console.log(index); // Outputs: 7
+   ```
+
+4. **Case-Sensitive Search**
+   ```javascript
+   let str = "Hello, World!";
+   let index = str.search(/world/i); // Using 'i' flag for case-insensitive search
+   console.log(index); // Outputs: 7
+   ```
+
+5. **Finding a Digit Using Regular Expression**
+   ```javascript
+   let str = "Hello, world! 2024";
+   let index = str.search(/\d/);
+   console.log(index); // Outputs: 13
+   ```
+
+6. **Using Special Characters in Regular Expression**
+   ```javascript
+   let str = "Hello, world!";
+   let index = str.search(/\W/); // Search for the first non-word character
+   console.log(index); // Outputs: 5
+   ```
+
+### Additional Considerations
+
+- **Regular Expressions**: When using regular expressions, you can take advantage of various flags and patterns for more complex searches.
+- **Difference from `indexOf`**: Unlike `indexOf`, which only searches for a simple substring, `search` can use regular expressions, providing more flexibility in pattern matching.
+
+## match() Method
+
+The `match` method in JavaScript is used to retrieve the result of matching a string against a regular expression. It returns an array containing all the matches, or `null` if no match is found. This method can be very powerful when combined with regular expressions for pattern matching and extraction.
+
+### Syntax
+```javascript
+string.match(regexp)
+```
+
+- `regexp` (required): A regular expression object to match against the string.
+
+### Key Points
+
+1. **Regular Expression**: The `regexp` parameter must be a regular expression.
+2. **Return Value**: Returns an array with the matches, or `null` if no match is found.
+3. **Global Flag**: If the regular expression includes the global (`g`) flag, the method returns an array of all matches. Otherwise, it returns an array with the first match and its capturing groups.
+
+### Examples
+
+1. **Basic Usage without Global Flag**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let result = str.match(/quick/);
+   console.log(result); // Outputs: ["quick"]
+   ```
+
+2. **No Match Found**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let result = str.match(/cat/);
+   console.log(result); // Outputs: null
+   ```
+
+3. **Using Global Flag**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let result = str.match(/\w+/g);
+   console.log(result); // Outputs: ["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
+   ```
+
+4. **Capturing Groups**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let result = str.match(/(quick) (brown)/);
+   console.log(result); // Outputs: ["quick brown", "quick", "brown"]
+   ```
+
+5. **Using Special Characters**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let result = str.match(/[aeiou]/g);
+   console.log(result); // Outputs: ["e", "u", "i", "o", "o", "u", "o", "e", "e", "a", "o"]
+   ```
+
+6. **Case-Insensitive Search**
+   ```javascript
+   let str = "The Quick Brown Fox Jumps Over The Lazy Dog.";
+   let result = str.match(/the/gi);
+   console.log(result); // Outputs: ["The", "The"]
+   ```
+
+### Additional Considerations
+
+- **Global vs. Non-Global**: Without the global flag (`g`), the `match` method returns an array with the first match and its capturing groups. With the global flag, it returns an array of all matches without capturing groups.
+- **Null Return**: If no matches are found, `match` returns `null`, so it's often a good practice to check the result before processing it.
+
+The `match` method is a versatile tool for pattern matching in strings, allowing for both simple and complex searches with regular expressions.
+
+## matchAll() Method
+
+The `matchAll` method in JavaScript is used to retrieve all matches of a regular expression within a string, along with their capturing groups. This method returns an iterator of all the matches, allowing for comprehensive and detailed pattern matching.
+
+### Syntax
+```javascript
+string.matchAll(regexp)
+```
+
+- `regexp` (required): A regular expression object. It must have the global (`g`) or sticky (`y`) flag set; otherwise, a `TypeError` is thrown.
+
+### Key Points
+
+1. **Global or Sticky Flag Required**: The regular expression must include the global (`g`) or sticky (`y`) flag.
+2. **Return Value**: Returns an iterator of arrays containing the matches, capturing groups, and their indices.
+3. **Iterator**: The method returns an iterator, which can be converted to an array using the spread operator (`...`) or `Array.from`.
+
+### Examples
+
+1. **Basic Usage with Global Flag**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let regexp = /\b\w+\b/g;
+   let matches = str.matchAll(regexp);
+
+   for (let match of matches) {
+       console.log(match);
+   }
+   // Outputs:
+   // ["The", index: 0, input: "The quick brown fox jumps over the lazy dog.", groups: undefined]
+   // ["quick", index: 4, input: "The quick brown fox jumps over the lazy dog.", groups: undefined]
+   // ["brown", index: 10, input: "The quick brown fox jumps over the lazy dog.", groups: undefined]
+   // ...
+   ```
+
+2. **Using the Spread Operator to Convert to Array**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let regexp = /\b\w+\b/g;
+   let matches = [...str.matchAll(regexp)];
+   console.log(matches);
+   // Outputs an array of all match objects
+   ```
+
+3. **Capturing Groups**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let regexp = /(\w+)\s(\w+)/g;
+   let matches = str.matchAll(regexp);
+
+   for (let match of matches) {
+       console.log(match);
+   }
+   // Outputs:
+   // ["The quick", "The", "quick", index: 0, input: "The quick brown fox jumps over the lazy dog.", groups: undefined]
+   // ["brown fox", "brown", "fox", index: 10, input: "The quick brown fox jumps over the lazy dog.", groups: undefined]
+   // ...
+   ```
+
+4. **Converting Iterator to Array Using Array.from**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let regexp = /\b\w+\b/g;
+   let matches = Array.from(str.matchAll(regexp));
+   console.log(matches);
+   // Outputs an array of all match objects
+   ```
+
+### Additional Considerations
+
+- **Iterator Nature**: Since `matchAll` returns an iterator, you can use it in a `for...of` loop, spread operator, or `Array.from` to process the matches.
+- **Detailed Match Information**: Each match object includes detailed information such as the match itself, the index where it was found, the input string, and any capturing groups.
+
+The `matchAll` method is a powerful tool for extracting multiple matches and their details from a string, making it ideal for comprehensive pattern matching with regular expressions.
+
+
+## includes() Method
+
+The `includes` method in JavaScript is used to determine whether one string contains another substring. It returns `true` if the substring is found within the string, and `false` otherwise.
+
+### Syntax
+```javascript
+string.includes(searchString, position)
+```
+
+- `searchString` (required): The substring to search for within the string.
+- `position` (optional): The position in the string at which to start searching. The default is `0`.
+
+### Key Points
+
+1. **Case-Sensitive**: The search is case-sensitive.
+2. **Default Position**: If the `position` parameter is not specified, the search starts from the beginning of the string.
+
+### Examples
+
+1. **Basic Usage**
+   ```javascript
+   let str = "Hello, world!";
+   let result = str.includes("world");
+   console.log(result); // Outputs: true
+   ```
+
+2. **Case-Sensitivity**
+   ```javascript
+   let str = "Hello, world!";
+   let result = str.includes("World");
+   console.log(result); // Outputs: false
+   ```
+
+3. **Starting Search from a Specific Position**
+   ```javascript
+   let str = "Hello, world!";
+   let result = str.includes("world", 8);
+   console.log(result); // Outputs: false
+   ```
+
+4. **Using `includes` with a Long String**
+   ```javascript
+   let str = "The quick brown fox jumps over the lazy dog.";
+   let result = str.includes("fox");
+   console.log(result); // Outputs: true
+   ```
+
+5. **Checking for a Substring Not Present**
+   ```javascript
+   let str = "Hello, world!";
+   let result = str.includes("planet");
+   console.log(result); // Outputs: false
+   ```
+
+### Additional Considerations
+
+- **Polyfill for Older Environments**: If you need to support environments that do not have `includes`, you can use a polyfill:
+  ```javascript
+  if (!String.prototype.includes) {
+    String.prototype.includes = function(search, start) {
+      'use strict';
+      if (typeof start !== 'number') {
+        start = 0;
+      }
+
+      if (start + search.length > this.length) {
+        return false;
+      } else {
+        return this.indexOf(search, start) !== -1;
+      }
+    };
+  }
+  ```
+
+- **Case-Insensitive Search**: If you need a case-insensitive search, you can convert both strings to the same case (either lower or upper) before using `includes`:
+  ```javascript
+  let str = "Hello, world!";
+  let result = str.toLowerCase().includes("world".toLowerCase());
+  console.log(result); // Outputs: true
+  ```
+
+The `includes` method is a straightforward and effective way to check for the presence of a substring within a string, making it useful for various string manipulation tasks in JavaScript.
+
+## startsWith() and endsWith() Methods
+
+The `startsWith` and `endsWith` methods in JavaScript are used to check whether a string begins or ends with a specified substring. They both return `true` if the string matches the specified characters at the start or end, respectively, and `false` otherwise.
+
+### `startsWith` Method
+
+The `startsWith` method checks if a string starts with the specified substring.
+
+**Syntax**
+```javascript
+string.startsWith(searchString, position)
+```
+
+- `searchString` (required): The substring to search for at the start of the string.
+- `position` (optional): The position in the string to start the search. The default is `0`.
+
+**Examples**
+
+1. **Basic Usage**
+   ```javascript
+   let str = "Hello, world!";
+   console.log(str.startsWith("Hello")); // Outputs: true
+   ```
+
+2. **Case-Sensitivity**
+   ```javascript
+   let str = "Hello, world!";
+   console.log(str.startsWith("hello")); // Outputs: false
+   ```
+
+3. **Starting from a Specific Position**
+   ```javascript
+   let str = "Hello, world!";
+   console.log(str.startsWith("world", 7)); // Outputs: true
+   ```
+
+### `endsWith` Method
+
+The `endsWith` method checks if a string ends with the specified substring.
+
+**Syntax**
+```javascript
+string.endsWith(searchString, length)
+```
+
+- `searchString` (required): The substring to search for at the end of the string.
+- `length` (optional): The length of the string to consider. The default is the full length of the string.
+
+**Examples**
+
+1. **Basic Usage**
+   ```javascript
+   let str = "Hello, world!";
+   console.log(str.endsWith("world!")); // Outputs: true
+   ```
+
+2. **Case-Sensitivity**
+   ```javascript
+   let str = "Hello, world!";
+   console.log(str.endsWith("World!")); // Outputs: false
+   ```
+
+3. **Considering a Substring Length**
+   ```javascript
+   let str = "Hello, world!";
+   console.log(str.endsWith("Hello", 5)); // Outputs: true
+   ```
+
+### Additional Considerations
+
+1. **Polyfills for Older Environments**
+
+   **`startsWith` Polyfill:**
+   ```javascript
+   if (!String.prototype.startsWith) {
+     String.prototype.startsWith = function(searchString, position) {
+       position = position || 0;
+       return this.indexOf(searchString, position) === position;
+     };
+   }
+   ```
+
+   **`endsWith` Polyfill:**
+   ```javascript
+   if (!String.prototype.endsWith) {
+     String.prototype.endsWith = function(searchString, this_len) {
+       if (this_len === undefined || this_len > this.length) {
+         this_len = this.length;
+       }
+       return this.substring(this_len - searchString.length, this_len) === searchString;
+     };
+   }
+   ```
+
+2. **Case-Insensitive Search**
+
+   For a case-insensitive check, convert both the string and the search substring to the same case:
+   ```javascript
+   let str = "Hello, world!";
+   console.log(str.toLowerCase().startsWith("hello".toLowerCase())); // Outputs: true
+   console.log(str.toLowerCase().endsWith("world!".toLowerCase())); // Outputs: true
+   ```
+
+Both `startsWith` and `endsWith` methods are useful for string validation and manipulation, providing a straightforward way to check if a string begins or ends with a specified substring.
+
+## JavaScript Template Strings
+
 
 
 <h3 align="right">

@@ -1,21 +1,8 @@
-
-function isPrime(n) {
-    let count = 0; 
-    for(let i=1;i<=n;i++){
-        if(n%i==0){
-            count++;
-        }
-    }
-    if(count>2 || count==1){
-        return false;
-    }else{
-        return true;
-    }
-}
-
-let x = isPrime(2);
-if(x==true){
-    console.log("Prime");
-}else{
-    console.log("Not Prime");
+function forOutput() {
+  const a = [20, 10 , 3, 19, 2, 19, 763, 23, 234];
+  let sm = 0;
+  for(let i = 0; i<a.length; i++) {
+    if(a[i]>sm) sm = a[i];
+  }
+  document.getElementById("ab").innerHTML = sm;
 }
