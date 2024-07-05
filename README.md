@@ -10,8 +10,8 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 |   [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)    |       [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)       |       Watch Now       |
 | [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function) | [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function) |       Watch Now       |
 |            [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)             |                        [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                         |       Watch Now       |
-|                                          [04](#chapter-04-javascript-object)                                           |     [JavaScript Object](#chapter-04-javascript-object)                                                                           []()                                                                                |     [Watch Now]()     |
-|                                          [05](#chapter-05-javascript-string)                                           |                                       [JavaScript String](#chapter-05-javascript-string)                                       |     [Watch Now]()     |
+|                            [04](#chapter-04-javascript-object)                            |                                                      [JavaScript Object](#chapter-04-javascript-object) []()                                                       |     [Watch Now]()     |
+|                            [05](#chapter-05-javascript-string)                            |                                                         [JavaScript String](#chapter-05-javascript-string)                                                         |     [Watch Now]()     |
 |                                          [06]()                                           |                                                                                []()                                                                                |     [Watch Now]()     |
 |                                            07                                             |                                                                                                                                                                    |                       |
 |                                            08                                             |                                                                                                                                                                    |                       |
@@ -53,9 +53,6 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 - [কোর্সটি কাদের জন্য?](#কোর্সটি-কাদের-জন্য)
 - [Prerequisite](#prerequisite)
 - [কোর্সটি যেভাবে সাজানো হয়েছে](#কোর্সটি-যেভাবে-সাজানো-হয়েছেঃ)
-
-
-
 
 ### কোর্সটি কাদের জন্য?
 
@@ -709,26 +706,27 @@ x.age = 10;
 ```js
 // Define the student object
 const student = {
-    // Properties
-    firstName: "Abdur",
-    lastName: "Rahim",
-    age: 21,
-    major: "Computer Science",
-    
-    // Method
-    getFullName: function() {
-        return `${this.firstName} ${this.lastName}`;
-    }
+  // Properties
+  firstName: "Abdur",
+  lastName: "Rahim",
+  age: 21,
+  major: "Computer Science",
+
+  // Method
+  getFullName: function () {
+    return `${this.firstName} ${this.lastName}`;
+  },
 };
 
 // Add a new property
 student.email = "abdurrahim@gmail.com";
 ```
+
 ### Deleting Properties
 
 ```js
 delete student.major;
-or 
+or;
 delete student["major"];
 ```
 
@@ -737,35 +735,35 @@ delete student["major"];
 ```js
 // Define the student object with nested objects
 const student = {
-    // Properties
-    firstName: "John",
-    lastName: "Doe",
-    age: 21,
-    major: "Computer Science",
-    
-    // Nested object for contact information
-    contactInfo: {
-        email: "john.doe@example.com",
-        phone: "123-456-7890"
-    },
-    
-    // Nested object for address
-    address: {
-        street: "123 Main St",
-        city: "Anytown",
-        state: "Anystate",
-        zip: "12345"
-    },
-    
-    // Method
-    getFullName: function() {
-        return `${this.firstName} ${this.lastName}`;
-    },
-    
-    // Method to get full address
-    getFullAddress: function() {
-        return `${this.address.street}, ${this.address.city}, ${this.address.state} ${this.address.zip}`;
-    }
+  // Properties
+  firstName: "John",
+  lastName: "Doe",
+  age: 21,
+  major: "Computer Science",
+
+  // Nested object for contact information
+  contactInfo: {
+    email: "john.doe@example.com",
+    phone: "123-456-7890",
+  },
+
+  // Nested object for address
+  address: {
+    street: "123 Main St",
+    city: "Anytown",
+    state: "Anystate",
+    zip: "12345",
+  },
+
+  // Method
+  getFullName: function () {
+    return `${this.firstName} ${this.lastName}`;
+  },
+
+  // Method to get full address
+  getFullAddress: function () {
+    return `${this.address.street}, ${this.address.city}, ${this.address.state} ${this.address.zip}`;
+  },
 };
 
 // Example usage of the object and its methods
@@ -773,7 +771,6 @@ console.log(student.getFullName()); // Output: John Doe
 console.log(student.getFullAddress()); // Output: 123 Main St, Anytown, Anystate 12345
 console.log(student.contactInfo.email); // Output: john.doe@example.com
 console.log(student.contactInfo.phone); // Output: 123-456-7890
-
 ```
 
 ## Looping through an object in JavaScript
@@ -784,29 +781,29 @@ console.log(student.contactInfo.phone); // Output: 123-456-7890
 
 ```js
 const student = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 21,
-    major: "Computer Science",
-    contactInfo: {
-        email: "john.doe@example.com",
-        phone: "123-456-7890"
-    },
-    address: {
-        street: "123 Main St",
-        city: "Anytown",
-        state: "Anystate",
-        zip: "12345"
-    }
+  firstName: "John",
+  lastName: "Doe",
+  age: 21,
+  major: "Computer Science",
+  contactInfo: {
+    email: "john.doe@example.com",
+    phone: "123-456-7890",
+  },
+  address: {
+    street: "123 Main St",
+    city: "Anytown",
+    state: "Anystate",
+    zip: "12345",
+  },
 };
 
 for (let key in student) {
-    if (student.hasOwnProperty(key)) {
-        console.log(`${key}: ${student[key]}`);
-    }
+  if (student.hasOwnProperty(key)) {
+    console.log(`${key}: ${student[key]}`);
+  }
 }
-
 ```
+
 Output:
 
 ```js
@@ -823,26 +820,25 @@ address: [object Object]
 
 ```js
 const student = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 21,
-    major: "Computer Science",
-    contactInfo: {
-        email: "john.doe@example.com",
-        phone: "123-456-7890"
-    },
-    address: {
-        street: "123 Main St",
-        city: "Anytown",
-        state: "Anystate",
-        zip: "12345"
-    }
+  firstName: "John",
+  lastName: "Doe",
+  age: 21,
+  major: "Computer Science",
+  contactInfo: {
+    email: "john.doe@example.com",
+    phone: "123-456-7890",
+  },
+  address: {
+    street: "123 Main St",
+    city: "Anytown",
+    state: "Anystate",
+    zip: "12345",
+  },
 };
 
-Object.keys(student).forEach(key => {
-    console.log(`${key}: ${student[key]}`);
+Object.keys(student).forEach((key) => {
+  console.log(`${key}: ${student[key]}`);
 });
-
 ```
 
 Output:
@@ -861,26 +857,25 @@ address: [object Object]
 
 ```js
 const student = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 21,
-    major: "Computer Science",
-    contactInfo: {
-        email: "john.doe@example.com",
-        phone: "123-456-7890"
-    },
-    address: {
-        street: "123 Main St",
-        city: "Anytown",
-        state: "Anystate",
-        zip: "12345"
-    }
+  firstName: "John",
+  lastName: "Doe",
+  age: 21,
+  major: "Computer Science",
+  contactInfo: {
+    email: "john.doe@example.com",
+    phone: "123-456-7890",
+  },
+  address: {
+    street: "123 Main St",
+    city: "Anytown",
+    state: "Anystate",
+    zip: "12345",
+  },
 };
 
 for (let [key, value] of Object.entries(student)) {
-    console.log(`${key}: ${value}`);
+  console.log(`${key}: ${value}`);
 }
-
 ```
 
 Output:
@@ -896,34 +891,34 @@ address: [object Object]
 ```
 
 ### 4. Looping through an object Using `Object.values()` with `forEach()`
-- `Object.values()` creates an array from the property values:
 
+- `Object.values()` creates an array from the property values:
 
 ```js
 const student = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 21,
-    major: "Computer Science",
-    contactInfo: {
-        email: "john.doe@example.com",
-        phone: "123-456-7890"
-    },
-    address: {
-        street: "123 Main St",
-        city: "Anytown",
-        state: "Anystate",
-        zip: "12345"
-    }
+  firstName: "John",
+  lastName: "Doe",
+  age: 21,
+  major: "Computer Science",
+  contactInfo: {
+    email: "john.doe@example.com",
+    phone: "123-456-7890",
+  },
+  address: {
+    street: "123 Main St",
+    city: "Anytown",
+    state: "Anystate",
+    zip: "12345",
+  },
 };
 
-Object.values(student).forEach(value => {
-    console.log(value);
+Object.values(student).forEach((value) => {
+  console.log(value);
 });
-
 ```
 
 Output:
+
 ```js
 John
 Doe
@@ -933,7 +928,6 @@ Computer Science
 [object Object]
 
 ```
-
 
 ## What is JSON
 
@@ -963,36 +957,35 @@ Example of JSON:
   "courses": ["CS101", "CS102", "CS103"],
   "graduated": false
 }
-
 ```
 
-
 ### JSON এর ব্যবহার
+
 - **Web APIs:** JSON হল ওয়েব API-এর জন্য সবচেয়ে সাধারণ ফর্ম্যাট। সার্ভার এবং ক্লায়েন্টের মধ্যে ডেটা আদান-প্রদানের একটি সহজ উপায়।
 - **Configuration Files:** Many applications use JSON for configuration files due to its readability and ease of use.
 - **Data Storage:** Some databases, such as MongoDB, store data in JSON-like formats.
 
 ### Converting Object to JSON String
 
-- JavaScript এ, Object থেকে JSON এ Convert করার জন্য `JSON.stringify()` এবং JSON থেকে Object করার জন্য `JSON.parse()` ব্যবহার করা হয়। 
+- JavaScript এ, Object থেকে JSON এ Convert করার জন্য `JSON.stringify()` এবং JSON থেকে Object করার জন্য `JSON.parse()` ব্যবহার করা হয়।
 
 ```js
 // Define a JavaScript object
 const student = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 21,
-    major: "Computer Science",
-    contactInfo: {
-        email: "john.doe@example.com",
-        phone: "123-456-7890"
-    },
-    address: {
-        street: "123 Main St",
-        city: "Anytown",
-        state: "Anystate",
-        zip: "12345"
-    }
+  firstName: "John",
+  lastName: "Doe",
+  age: 21,
+  major: "Computer Science",
+  contactInfo: {
+    email: "john.doe@example.com",
+    phone: "123-456-7890",
+  },
+  address: {
+    street: "123 Main St",
+    city: "Anytown",
+    state: "Anystate",
+    zip: "12345",
+  },
 };
 
 // Convert the JavaScript object to a JSON string
@@ -1000,16 +993,28 @@ const jsonString = JSON.stringify(student);
 
 // Output the JSON string
 console.log(jsonString);
-
 ```
+
 Output:
 
 ```json
-{"firstName":"John","lastName":"Doe","age":21,"major":"Computer Science","contactInfo":{"email":"john.doe@example.com","phone":"123-456-7890"},"address":{"street":"123 Main St","city":"Anytown","state":"Anystate","zip":"12345"}}
-
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "age": 21,
+  "major": "Computer Science",
+  "contactInfo": { "email": "john.doe@example.com", "phone": "123-456-7890" },
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "Anystate",
+    "zip": "12345"
+  }
+}
 ```
 
 More Readable:
+
 - To make the JSON string more readable, you can pass additional arguments to JSON.stringify() to include indentation.
 
 ```js
@@ -1018,7 +1023,6 @@ const prettyJsonString = JSON.stringify(student, null, 2);
 
 // Output the pretty-printed JSON string
 console.log(prettyJsonString);
-
 ```
 
 Output:
@@ -1040,15 +1044,15 @@ Output:
     "zip": "12345"
   }
 }
-
 ```
+
 - The third argument `(2)` specifies the number of spaces to use as white space for indentation, making the JSON string more readable.
 
 ## JavaScript Constructor Functions
 
-- অনেক সময় একই Type এর একাধিক Object আমাদের তৈরি করা লাগতে পারে। যেমনঃ 
+- অনেক সময় একই Type এর একাধিক Object আমাদের তৈরি করা লাগতে পারে। যেমনঃ
 
-Batch-05 এর Al Amin Student এর জন্য আমরা একটা Object তৈরি করতে পারি। 
+Batch-05 এর Al Amin Student এর জন্য আমরা একটা Object তৈরি করতে পারি।
 
 ```js
 let student = {
@@ -1057,17 +1061,17 @@ let student = {
   lastName: "Amin",
   id: "WD05020",
   batch: 5,
-  
-  // Method
-  getDetails: function() {
-    return `Name: ${this.firstName} ${this.lastName}, ID: ${this.id}, Batch: ${this.batch}`;
-  }
-};
-console.log(student.getDetails()); 
 
+  // Method
+  getDetails: function () {
+    return `Name: ${this.firstName} ${this.lastName}, ID: ${this.id}, Batch: ${this.batch}`;
+  },
+};
+console.log(student.getDetails());
 ```
 
-আবার Batch-05 এর Sujon Rana এর জন্য আমরা একটা Object তৈরি করতে পারি। 
+আবার Batch-05 এর Sujon Rana এর জন্য আমরা একটা Object তৈরি করতে পারি।
+
 ```js
 let student = {
   // Properties
@@ -1075,17 +1079,16 @@ let student = {
   lastName: "Rana",
   id: "WD05025",
   batch: 5,
-  
-  // Method
-  getDetails: function() {
-    return `Name: ${this.firstName} ${this.lastName}, ID: ${this.id}, Batch: ${this.batch}`;
-  }
-};
-console.log(student.getDetails()); 
 
+  // Method
+  getDetails: function () {
+    return `Name: ${this.firstName} ${this.lastName}, ID: ${this.id}, Batch: ${this.batch}`;
+  },
+};
+console.log(student.getDetails());
 ```
 
-- আপনাদের মনে আছে কি, আমাদের যদি একই Type এর অনেকগুলো Variable Declare করার প্রয়োজন হয়, তাহলে আমরা Array তৈরি করি। একইভাবে একই Type এর Object যদি আমাদের প্রয়োজন হয়, তাহলে আমরা **Costructor Function** তৈরি করতে পারি। এই Function আসলে Object তৈরির Machine এর মতো কাজ করে, যার মাধ্যমে একই Type এর Object যত খুশি তত তৈরি করা যায়। 
+- আপনাদের মনে আছে কি, আমাদের যদি একই Type এর অনেকগুলো Variable Declare করার প্রয়োজন হয়, তাহলে আমরা Array তৈরি করি। একইভাবে একই Type এর Object যদি আমাদের প্রয়োজন হয়, তাহলে আমরা **Costructor Function** তৈরি করতে পারি। এই Function আসলে Object তৈরির Machine এর মতো কাজ করে, যার মাধ্যমে একই Type এর Object যত খুশি তত তৈরি করা যায়।
 
 ```js
 // Define the constructor function
@@ -1095,9 +1098,9 @@ function Student(firstName, lastName, id, batch) {
   this.lastName = lastName;
   this.id = id;
   this.batch = batch;
-  
+
   // Method
-  this.getDetails = function() {
+  this.getDetails = function () {
     return `Name: ${this.firstName} ${this.lastName}, ID: ${this.id}, Batch: ${this.batch}`;
   };
 }
@@ -1109,10 +1112,10 @@ let sujon = new Student("Sujon", "Rana", "WD05025", 5);
 // Using the method
 console.log(alamin.getDetails()); // Output: Name: Al Amin, ID: WD05020, Batch: 5
 console.log(sujon.getDetails()); // Output: Name: Sujon Rana, ID: WD05025, Batch: 5
-
 ```
+
 - Constructor Function এর নাম Capital Letter এ লিখতে হয়। JavaScript এ অন্যান্য Function লিখার ক্ষেত্রে Camel Case এবং Constructor Function লিখার ক্ষেত্রে Capital Letter এ লিখতে হয়। যাতে যে কেউ কোড দেখলেই বুঝতে পারে এটা Constructor Function.
-- আমরা চাইলে Normal Object এর Property যেভাবে অ্যাড করি, এখানেও সেইভাবে New Property অ্যাড করা যায়। যেমনঃ 
+- আমরা চাইলে Normal Object এর Property যেভাবে অ্যাড করি, এখানেও সেইভাবে New Property অ্যাড করা যায়। যেমনঃ
 
 ```js
 alamin.score = 100;
@@ -1121,61 +1124,58 @@ alamin.score = 100;
 ### Built-in JavaScript Constructors
 
 ```js
-new Object()   // A new Object object
-new Array()    // A new Array object
-new Map()      // A new Map object
-new Set()      // A new Set object
-new Date()     // A new Date object
-new RegExp()   // A new RegExp object
-new Function() // A new Function object
+new Object(); // A new Object object
+new Array(); // A new Array object
+new Map(); // A new Map object
+new Set(); // A new Set object
+new Date(); // A new Date object
+new RegExp(); // A new RegExp object
+new Function(); // A new Function object
 ```
 
 - The `Math()` object is not in the list. `Math` is a global object. The `new` keyword cannot be used on `Math`.
 
-
 ## JavaScript Event
 
-- HTML Elements এর মাধ্যমে কোন ঘটনা ঘটাকেই **Event** বলে। যখন HTML Page এ JavaScript ব্যবহার করা হয়, তখন JavaScript এই ইভেন্টগুলিতে "React" বা "Listen" করতে পারে। অর্থাৎ Event হয় HTML এ, আর JavaScript সেই Event Listen করে বা React করে। যেমনঃ Button এ ক্লিক করা একটা Event, Mouse Hover করা  ইত্যাদি। 
+- HTML Elements এর মাধ্যমে কোন ঘটনা ঘটাকেই **Event** বলে। যখন HTML Page এ JavaScript ব্যবহার করা হয়, তখন JavaScript এই ইভেন্টগুলিতে "React" বা "Listen" করতে পারে। অর্থাৎ Event হয় HTML এ, আর JavaScript সেই Event Listen করে বা React করে। যেমনঃ Button এ ক্লিক করা একটা Event, Mouse Hover করা ইত্যাদি।
 
 ### Common JavaScript Events
 
-| Event Type         | Event      | Description                                                           |
-|--------------------|------------|-----------------------------------------------------------------------|
-| **Mouse Events**   | click      | Fires when a mouse button is clicked on an element.                   |
-|                    | dblclick   | Fires when a mouse button is double-clicked on an element.            |
-|                    | mouseover  | Fires when the mouse pointer is moved onto an element.                |
-|                    | mouseout   | Fires when the mouse pointer is moved out of an element.              |
-|                    | mousemove  | Fires when the mouse pointer is moved within an element.              |
-|                    | mousedown  | Fires when a mouse button is pressed on an element.                   |
-|                    | mouseup    | Fires when a mouse button is released over an element.                |
-| **Keyboard Events**| keydown    | Fires when a key is pressed.                                          |
-|                    | keyup      | Fires when a key is released.                                         |
-|                    | keypress   | Fires when a key is pressed and released.                             |
-| **Form Events**    | submit     | Fires when a form is submitted.                                       |
-|                    | change     | Fires when an element's value changes.                                |
-|                    | focus      | Fires when an element receives focus.                                 |
-|                    | blur       | Fires when an element loses focus.                                    |
-|                    | input      | Fires when the value of an input element changes.                     |
-| **Window Events**  | load       | Fires when the whole page has loaded, including all dependent resources like stylesheets and images. |
-|                    | resize     | Fires when the browser window is resized.                             |
-|                    | scroll     | Fires when the document view is scrolled.                             |
-|                    | unload     | Fires when the user navigates away from the page.                     |
-| **Touch Events**   | touchstart | Fires when a touch point is placed on the touch surface.              |
-|                    | touchmove  | Fires when a touch point is moved along the touch surface.            |
-|                    | touchend   | Fires when a touch point is removed from the touch surface.           |
-|                    | touchcancel| Fires when a touch point is interrupted.                              |
-| **Drag and Drop Events** | drag | Fires when an element is being dragged.                               |
-|                    | dragstart  | Fires when the user starts dragging an element.                       |
-|                    | dragend    | Fires when the user has finished dragging the element.                |
-|                    | dragenter  | Fires when the dragged element enters a drop target.                  |
-|                    | dragover   | Fires when the dragged element is over a drop target.                 |
-|                    | dragleave  | Fires when the dragged element leaves a drop target.                  |
-|                    | drop       | Fires when the dragged element is dropped on a drop target.           |
-| **Clipboard Events**| copy      | Fires when content is copied to the clipboard.                        |
-|                    | cut        | Fires when content is cut from the document and added to the clipboard.|
-|                    | paste      | Fires when content is pasted from the clipboard into the document.    |
-
-
+| Event Type               | Event       | Description                                                                                          |
+| ------------------------ | ----------- | ---------------------------------------------------------------------------------------------------- |
+| **Mouse Events**         | click       | Fires when a mouse button is clicked on an element.                                                  |
+|                          | dblclick    | Fires when a mouse button is double-clicked on an element.                                           |
+|                          | mouseover   | Fires when the mouse pointer is moved onto an element.                                               |
+|                          | mouseout    | Fires when the mouse pointer is moved out of an element.                                             |
+|                          | mousemove   | Fires when the mouse pointer is moved within an element.                                             |
+|                          | mousedown   | Fires when a mouse button is pressed on an element.                                                  |
+|                          | mouseup     | Fires when a mouse button is released over an element.                                               |
+| **Keyboard Events**      | keydown     | Fires when a key is pressed.                                                                         |
+|                          | keyup       | Fires when a key is released.                                                                        |
+|                          | keypress    | Fires when a key is pressed and released.                                                            |
+| **Form Events**          | submit      | Fires when a form is submitted.                                                                      |
+|                          | change      | Fires when an element's value changes.                                                               |
+|                          | focus       | Fires when an element receives focus.                                                                |
+|                          | blur        | Fires when an element loses focus.                                                                   |
+|                          | input       | Fires when the value of an input element changes.                                                    |
+| **Window Events**        | load        | Fires when the whole page has loaded, including all dependent resources like stylesheets and images. |
+|                          | resize      | Fires when the browser window is resized.                                                            |
+|                          | scroll      | Fires when the document view is scrolled.                                                            |
+|                          | unload      | Fires when the user navigates away from the page.                                                    |
+| **Touch Events**         | touchstart  | Fires when a touch point is placed on the touch surface.                                             |
+|                          | touchmove   | Fires when a touch point is moved along the touch surface.                                           |
+|                          | touchend    | Fires when a touch point is removed from the touch surface.                                          |
+|                          | touchcancel | Fires when a touch point is interrupted.                                                             |
+| **Drag and Drop Events** | drag        | Fires when an element is being dragged.                                                              |
+|                          | dragstart   | Fires when the user starts dragging an element.                                                      |
+|                          | dragend     | Fires when the user has finished dragging the element.                                               |
+|                          | dragenter   | Fires when the dragged element enters a drop target.                                                 |
+|                          | dragover    | Fires when the dragged element is over a drop target.                                                |
+|                          | dragleave   | Fires when the dragged element leaves a drop target.                                                 |
+|                          | drop        | Fires when the dragged element is dropped on a drop target.                                          |
+| **Clipboard Events**     | copy        | Fires when content is copied to the clipboard.                                                       |
+|                          | cut         | Fires when content is cut from the document and added to the clipboard.                              |
+|                          | paste       | Fires when content is pasted from the clipboard into the document.                                   |
 
 [Download the PDF](./chapter-04/resources/JavaScript_Events.pdf)
 
@@ -1219,50 +1219,49 @@ Example:
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>JavaScript Counter Example</title>
     <script>
-        // Initialize the counter variable
-        let counter = 0;
+      // Initialize the counter variable
+      let counter = 0;
 
-        // Function to increase the counter
-        function increaseCounter() {
-            counter++;
-            displayCounter();
-        }
+      // Function to increase the counter
+      function increaseCounter() {
+        counter++;
+        displayCounter();
+      }
 
-        // Function to decrease the counter
-        function decreaseCounter() {
-            counter--;
-            displayCounter();
-        }
+      // Function to decrease the counter
+      function decreaseCounter() {
+        counter--;
+        displayCounter();
+      }
 
-        // Function to display the counter value
-        function displayCounter() {
-            document.getElementById("counterDisplay").innerHTML = counter;
-        }
+      // Function to display the counter value
+      function displayCounter() {
+        document.getElementById("counterDisplay").innerHTML = counter;
+      }
     </script>
-</head>
-<body>
+  </head>
+  <body>
+    <h2>JavaScript Counter Example</h2>
 
-<h2>JavaScript Counter Example</h2>
+    <!-- Button to increase the counter -->
+    <button onclick="increaseCounter()">Increase</button>
 
-<!-- Button to increase the counter -->
-<button onclick="increaseCounter()">Increase</button>
+    <!-- Button to decrease the counter -->
+    <button onclick="decreaseCounter()">Decrease</button>
 
-<!-- Button to decrease the counter -->
-<button onclick="decreaseCounter()">Decrease</button>
-
-<!-- Paragraph to display the counter value -->
-<p>Counter: <span id="counterDisplay">0</span></p>
-
-</body>
+    <!-- Paragraph to display the counter value -->
+    <p>Counter: <span id="counterDisplay">0</span></p>
+  </body>
 </html>
-
 ```
 
 ### Explanation:
+
 1. **HTML Structure**:
+
    - Two `<button>` elements, one for increasing the counter and one for decreasing the counter.
    - A `<p>` element with a `<span>` inside it to display the counter value. The `<span>` has an id of `counterDisplay` to target it with JavaScript.
 
@@ -1274,38 +1273,36 @@ Example:
 When you click the "Increase" button, the `increaseCounter` function is called, which increments the counter and updates the display. Similarly, when you click the "Decrease" button, the `decreaseCounter` function is called, which decrements the counter and updates the display.
 
 - নিজের Element এর Content Change করতে চাইলে তাকে id দিয়ে আলাদা করে ধরার কোন দরকার নেই। এর বদলে `this.innerHTML` ব্যবহার করা যেতে পারে।
+
 ```html
 <button onclick="this.innerHTML = Date()">The time is?</button>
 ```
-
 
 # Chapter-05: JavaScript String
 
 - [String](#string)
 - [String Methods](#string-methods)
 
-
 ## String
 
 - Single এবং Double Quotation এর মধ্যে যা থাকে তাকেই String বলে। Single/Double Quotation এর মধ্যে প্রতিটা Character এর ASCII Value আছে। ASCII = American Standard Code for Information Interchange.
-- String Empty হতে পারে। 
+- String Empty হতে পারে।
 
 ### Escape Characters
 
 - JavaScript strings support various escape characters that allow you to include special characters within a string. Here are some common escape characters used in JavaScript:
 
-| Escape Character | Description                           | Example                                      | Output                            |
-|------------------|---------------------------------------|----------------------------------------------|-----------------------------------|
-| `\'`             | Single quote                          | `'It\'s a pen'`                              | `It's a pen`                      |
-| `\"`             | Double quote                          | `"He said, \"Hi\""`                          | `He said, "Hi"`                   |
-| `\\`             | Backslash                             | `"This is a backslash: \\ "`                 | `This is a backslash: \ `         |
-| `\n`             | New line                              | `"Line 1\nLine 2"`                           | `Line 1`<br>`Line 2`              |
-| `\r`             | Carriage return                       | `"Hello\rWorld"`                             | `World`                           |
-| `\t`             | Tab                                   | `"Hello\tWorld"`                             | `Hello   World`                   |
-| `\b`             | Backspace                             | `"ABC\bDEF"`                                 | `ABDEF`                           |
-| `\f`             | Form feed                             | `"Hello\fWorld"`                             | `Hello`<form feed>`World`         |
+| Escape Character | Description                              | Example                                           | Output                                           |
+| ---------------- | ---------------------------------------- | ------------------------------------------------- | ------------------------------------------------ |
+| `\'`             | Single quote                             | `'It\'s a pen'`                                   | `It's a pen`                                     |
+| `\"`             | Double quote                             | `"He said, \"Hi\""`                               | `He said, "Hi"`                                  |
+| `\\`             | Backslash                                | `"This is a backslash: \\ "`                      | `This is a backslash: \ `                        |
+| `\n`             | New line                                 | `"Line 1\nLine 2"`                                | `Line 1`<br>`Line 2`                             |
+| `\r`             | Carriage return                          | `"Hello\rWorld"`                                  | `World`                                          |
+| `\t`             | Tab                                      | `"Hello\tWorld"`                                  | `Hello   World`                                  |
+| `\b`             | Backspace                                | `"ABC\bDEF"`                                      | `ABDEF`                                          |
+| `\f`             | Form feed                                | `"Hello\fWorld"`                                  | `Hello`<form feed>`World`                        |
 | Example          | Demonstrating multiple escape characters | `"She said, \"Hello!\"\nThis is a backslash: \\"` | `She said, "Hello!"`<br>`This is a backslash: \` |
-
 
 - The backslash escape character `(\)` turns special characters into string characters.
 
@@ -1315,38 +1312,36 @@ When you click the "Increase" button, the `increaseCounter` function is called, 
 
 ### String Methods At A Glance
 
-| Method          | Description                                                  | Example Code                                        | Output                |
-|-----------------|--------------------------------------------------------------|-----------------------------------------------------|-----------------------|
-| `charAt()`      | Returns the character at a specified index in a string       | `let str = "Hello"; str.charAt(1);`                 | `e`                   |
-| `concat()`      | Joins two or more strings and returns a new string           | `let str1 = "Hello"; let str2 = "World"; str1.concat(" ", str2);` | `Hello World`        |
-| `includes()`    | Checks if a string contains a specified substring            | `let str = "Hello World"; str.includes("World");`   | `true`                |
-| `indexOf()`     | Returns the index of the first occurrence of a specified value | `let str = "Hello World"; str.indexOf("World");`    | `6`                   |
-| `slice()`       | Extracts a part of a string and returns a new string         | `let str = "Hello World"; str.slice(0, 5);`         | `Hello`               |
-| `split()`       | Splits a string into an array of substrings                  | `let str = "Hello World"; str.split(" ");`          | `["Hello", "World"]`  |
-| `toLowerCase()` | Converts a string to lowercase                               | `let str = "Hello World"; str.toLowerCase();`       | `hello world`         |
-| `toUpperCase()` | Converts a string to uppercase                               | `let str = "Hello World"; str.toUpperCase();`       | `HELLO WORLD`         |
-| `trim()`        | Removes whitespace from both ends of a string                | `let str = "  Hello World  "; str.trim();`          | `Hello World`         |
-| `replace()`     | Replaces a specified value with another value in a string    | `let str = "Hello World"; str.replace("World", "JavaScript");` | `Hello JavaScript`    |
-| `substring()`   | Extracts characters from a string, between two specified indices | `let str = "Hello World"; str.substring(0, 5);` | `Hello`               |
-| `startsWith()`  | Checks if a string starts with a specified value             | `let str = "Hello World"; str.startsWith("Hello");` | `true`                |
-| `endsWith()`    | Checks if a string ends with a specified value               | `let str = "Hello World"; str.endsWith("World");`   | `true`                |
-
+| Method          | Description                                                      | Example Code                                                      | Output               |
+| --------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------- |
+| `charAt()`      | Returns the character at a specified index in a string           | `let str = "Hello"; str.charAt(1);`                               | `e`                  |
+| `concat()`      | Joins two or more strings and returns a new string               | `let str1 = "Hello"; let str2 = "World"; str1.concat(" ", str2);` | `Hello World`        |
+| `includes()`    | Checks if a string contains a specified substring                | `let str = "Hello World"; str.includes("World");`                 | `true`               |
+| `indexOf()`     | Returns the index of the first occurrence of a specified value   | `let str = "Hello World"; str.indexOf("World");`                  | `6`                  |
+| `slice()`       | Extracts a part of a string and returns a new string             | `let str = "Hello World"; str.slice(0, 5);`                       | `Hello`              |
+| `split()`       | Splits a string into an array of substrings                      | `let str = "Hello World"; str.split(" ");`                        | `["Hello", "World"]` |
+| `toLowerCase()` | Converts a string to lowercase                                   | `let str = "Hello World"; str.toLowerCase();`                     | `hello world`        |
+| `toUpperCase()` | Converts a string to uppercase                                   | `let str = "Hello World"; str.toUpperCase();`                     | `HELLO WORLD`        |
+| `trim()`        | Removes whitespace from both ends of a string                    | `let str = "  Hello World  "; str.trim();`                        | `Hello World`        |
+| `replace()`     | Replaces a specified value with another value in a string        | `let str = "Hello World"; str.replace("World", "JavaScript");`    | `Hello JavaScript`   |
+| `substring()`   | Extracts characters from a string, between two specified indices | `let str = "Hello World"; str.substring(0, 5);`                   | `Hello`              |
+| `startsWith()`  | Checks if a string starts with a specified value                 | `let str = "Hello World"; str.startsWith("Hello");`               | `true`               |
+| `endsWith()`    | Checks if a string ends with a specified value                   | `let str = "Hello World"; str.endsWith("World");`                 | `true`               |
 
 ## Extracting String Characters
 
-- চার উপায়ে String এর Characters কে Extract করা যায়। যেমনঃ 
-  - `at(position)` ব্যবহার করে। 
+- চার উপায়ে String এর Characters কে Extract করা যায়। যেমনঃ
+  - `at(position)` ব্যবহার করে।
   - `charAt(position)` ব্যবহার করে।
   - `charCodeAt(position)` ব্যবহার করে।
-  - Array এর মতো `[]` ব্যবহার করে। 
+  - Array এর মতো `[]` ব্যবহার করে।
 
-| Method          | Description                                                                                   | Example Code                                        | Output                |
-|-----------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------|-----------------------|
-| `at()`          | Returns the character at a specified index. Supports negative indices to count from the end.  | `let str = "Hello"; str.at(1);`                     | `e`                   |
-|                 |                                                                                               | `let str = "Hello"; str.at(-1);`                    | `o`                   |
-| `charAt()`      | Returns the character at a specified index. It doesn't support negative index.                                                 | `let str = "Hello"; str.charAt(1);`                 | `e`                   |
-| `charCodeAt()`  | Returns the Unicode value of the character at a specified index.                              | `let str = "Hello"; str.charCodeAt(1);`             | `101`                 |
-
+| Method         | Description                                                                                  | Example Code                            | Output |
+| -------------- | -------------------------------------------------------------------------------------------- | --------------------------------------- | ------ |
+| `at()`         | Returns the character at a specified index. Supports negative indices to count from the end. | `let str = "Hello"; str.at(1);`         | `e`    |
+|                |                                                                                              | `let str = "Hello"; str.at(-1);`        | `o`    |
+| `charAt()`     | Returns the character at a specified index. It doesn't support negative index.               | `let str = "Hello"; str.charAt(1);`     | `e`    |
+| `charCodeAt()` | Returns the Unicode value of the character at a specified index.                             | `let str = "Hello"; str.charCodeAt(1);` | `101`  |
 
 ## Extracting String Parts
 
@@ -1361,7 +1356,7 @@ The `slice()` method in JavaScript is used to extract a portion of an array into
 ### Syntax
 
 ```javascript
-array.slice(start, end)
+array.slice(start, end);
 ```
 
 - `start`: Optional. The starting index at which to begin extraction. If negative, it indicates an offset from the end of the array. Default is `0`.
@@ -1406,8 +1401,9 @@ console.log(fromSecond); // Output: ["Orange", "Lemon", "Apple", "Mango"]
 - The difference is that start and end values less than 0 are treated as 0 in substring().
 
 ### Syntax
+
 ```javascript
-string.substring(indexStart, indexEnd)
+string.substring(indexStart, indexEnd);
 ```
 
 - `indexStart` (required): The index of the first character to include in the returned substring.
@@ -1423,6 +1419,7 @@ string.substring(indexStart, indexEnd)
 ### Examples
 
 1. **Basic Usage**
+
    ```javascript
    let str = "Hello, world!";
    let result = str.substring(0, 5);
@@ -1430,6 +1427,7 @@ string.substring(indexStart, indexEnd)
    ```
 
 2. **Omitting `indexEnd`**
+
    ```javascript
    let str = "Hello, world!";
    let result = str.substring(7);
@@ -1437,6 +1435,7 @@ string.substring(indexStart, indexEnd)
    ```
 
 3. **Swapping Indices**
+
    ```javascript
    let str = "Hello, world!";
    let result = str.substring(7, 0);
@@ -1444,6 +1443,7 @@ string.substring(indexStart, indexEnd)
    ```
 
 4. **Negative Index**
+
    ```javascript
    let str = "Hello, world!";
    let result = str.substring(-5, 5);
@@ -1457,7 +1457,8 @@ string.substring(indexStart, indexEnd)
    console.log(result); // Outputs: "world!"
    ```
 
-##  Substr Method
+## Substr Method
+
 - substr() is similar to slice().
 - The difference is that the second parameter specifies the **length** of the extracted part.
 
@@ -1469,17 +1470,18 @@ console.log(result); // Outputs: "world"
 
 ## Converting Uppercase and Lowercase
 
-
 ### `toUpperCase` Method
 
 The `toUpperCase` method converts all the characters in a string to uppercase.
 
 **Syntax**
+
 ```javascript
-string.toUpperCase()
+string.toUpperCase();
 ```
 
 **Example**
+
 ```javascript
 let str = "Hello, world!";
 let upperStr = str.toUpperCase();
@@ -1491,11 +1493,13 @@ console.log(upperStr); // Outputs: "HELLO, WORLD!"
 The `toLowerCase` method converts all the characters in a string to lowercase.
 
 **Syntax**
+
 ```javascript
-string.toLowerCase()
+string.toLowerCase();
 ```
 
 **Example**
+
 ```javascript
 let str = "Hello, World!";
 let lowerStr = str.toLowerCase();
@@ -1507,6 +1511,7 @@ console.log(lowerStr); // Outputs: "hello, world!"
 - The `concat` method in JavaScript is used to merge two or more strings into one. This method does not change the existing strings but returns a new string containing the combined text of the strings provided as arguments.
 
 ### Syntax
+
 ```javascript
 string1.concat(string2, string3, ..., stringN)
 ```
@@ -1522,6 +1527,7 @@ string1.concat(string2, string3, ..., stringN)
 ### Examples
 
 1. **Basic Usage**
+
    ```javascript
    let str1 = "Hello, ";
    let str2 = "world!";
@@ -1530,6 +1536,7 @@ string1.concat(string2, string3, ..., stringN)
    ```
 
 2. **Concatenating Multiple Strings**
+
    ```javascript
    let str1 = "Hello";
    let str2 = ", ";
@@ -1540,6 +1547,7 @@ string1.concat(string2, string3, ..., stringN)
    ```
 
 3. **Using `concat` with an Empty String**
+
    ```javascript
    let str1 = "Hello, ";
    let str2 = "";
@@ -1559,11 +1567,13 @@ string1.concat(string2, string3, ..., stringN)
 The `concat` method is a straightforward way to combine strings, and while the `+` operator is often used for its simplicity, `concat` can be particularly useful when concatenating multiple strings in a single method call.
 
 ## Trim Method
+
 - The `trim` method in JavaScript is used to remove whitespace from both ends of a string. It does not change the original string but returns a new string with the leading and trailing whitespace removed.
 
 ### Syntax
+
 ```javascript
-string.trim()
+string.trim();
 ```
 
 ### Key Points
@@ -1574,6 +1584,7 @@ string.trim()
 ### Examples
 
 1. **Basic Usage**
+
    ```javascript
    let str = "   Hello, world!   ";
    let trimmedStr = str.trim();
@@ -1581,6 +1592,7 @@ string.trim()
    ```
 
 2. **No Whitespace to Remove**
+
    ```javascript
    let str = "Hello, world!";
    let trimmedStr = str.trim();
@@ -1588,6 +1600,7 @@ string.trim()
    ```
 
 3. **String with Only Whitespace**
+
    ```javascript
    let str = "   ";
    let trimmedStr = str.trim();
@@ -1612,14 +1625,16 @@ The `padStart` and `padEnd` methods in JavaScript are used to pad the current st
 The `padStart` method pads the current string from the start with another string until the resulting string reaches the specified length.
 
 **Syntax**
+
 ```javascript
-string.padStart(targetLength, padString)
+string.padStart(targetLength, padString);
 ```
 
 - `targetLength` (required): The length of the resulting string once the current string has been padded. If this length is less than the length of the original string, no padding is added.
 - `padString` (optional): The string to pad the current string with. If this string is too long, it is truncated. The default value is a space character (" ").
 
 **Example**
+
 ```javascript
 let str = "5";
 let paddedStr = str.padStart(3, "0");
@@ -1631,14 +1646,16 @@ console.log(paddedStr); // Outputs: "005"
 The `padEnd` method pads the current string from the end with another string until the resulting string reaches the specified length.
 
 **Syntax**
+
 ```javascript
-string.padEnd(targetLength, padString)
+string.padEnd(targetLength, padString);
 ```
 
 - `targetLength` (required): The length of the resulting string once the current string has been padded. If this length is less than the length of the original string, no padding is added.
 - `padString` (optional): The string to pad the current string with. If this string is too long, it is truncated. The default value is a space character (" ").
 
 **Example**
+
 ```javascript
 let str = "5";
 let paddedStr = str.padEnd(3, "0");
@@ -1648,6 +1665,7 @@ console.log(paddedStr); // Outputs: "500"
 ### Additional Examples
 
 1. **Using `padStart` with Default Padding**
+
    ```javascript
    let str = "42";
    let paddedStr = str.padStart(5);
@@ -1655,6 +1673,7 @@ console.log(paddedStr); // Outputs: "500"
    ```
 
 2. **Using `padEnd` with Default Padding**
+
    ```javascript
    let str = "42";
    let paddedStr = str.padEnd(5);
@@ -1662,11 +1681,12 @@ console.log(paddedStr); // Outputs: "500"
    ```
 
 3. **Padding with a Custom String**
+
    ```javascript
    let str = "123";
    let paddedStrStart = str.padStart(6, "abc");
    console.log(paddedStrStart); // Outputs: "abc123"
-   
+
    let paddedStrEnd = str.padEnd(6, "abc");
    console.log(paddedStrEnd); // Outputs: "123abc"
    ```
@@ -1683,8 +1703,9 @@ console.log(paddedStr); // Outputs: "500"
 The `repeat` method in JavaScript is used to construct and return a new string which contains the specified number of copies of the string on which it was called, concatenated together.
 
 ### Syntax
+
 ```javascript
-string.repeat(count)
+string.repeat(count);
 ```
 
 - `count` (required): An integer between 0 and positive infinity, indicating the number of times to repeat the string. If this count is negative or infinity, a `RangeError` is thrown.
@@ -1692,6 +1713,7 @@ string.repeat(count)
 ### Examples
 
 1. **Basic Usage**
+
    ```javascript
    let str = "abc";
    let repeatedStr = str.repeat(3);
@@ -1699,6 +1721,7 @@ string.repeat(count)
    ```
 
 2. **Zero Count**
+
    ```javascript
    let str = "abc";
    let repeatedStr = str.repeat(0);
@@ -1706,6 +1729,7 @@ string.repeat(count)
    ```
 
 3. **Floating Point Count**
+
    ```javascript
    let str = "abc";
    let repeatedStr = str.repeat(2.5);
@@ -1713,16 +1737,18 @@ string.repeat(count)
    ```
 
 4. **RangeError for Negative Count**
+
    ```javascript
    let str = "abc";
    try {
-       let repeatedStr = str.repeat(-1);
+     let repeatedStr = str.repeat(-1);
    } catch (e) {
-       console.log(e); // Outputs: RangeError: Invalid count value
+     console.log(e); // Outputs: RangeError: Invalid count value
    }
    ```
 
 5. **Using Repeat for Padding**
+
    ```javascript
    let str = "abc";
    let paddedStr = str + " ".repeat(5) + "def";
@@ -1743,8 +1769,9 @@ The `repeat` method is useful for generating repeated sequences of a string, suc
 The `replace` method in JavaScript is used to return a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a regular expression, and the replacement can be a string or a function to generate the string.
 
 ### Syntax
+
 ```javascript
-string.replace(pattern, replacement)
+string.replace(pattern, replacement);
 ```
 
 - `pattern` (required): The substring or regular expression to be replaced.
@@ -1760,6 +1787,7 @@ string.replace(pattern, replacement)
 ### Examples
 
 1. **Basic Usage**
+
    ```javascript
    let str = "Hello, world!";
    let newStr = str.replace("world", "there");
@@ -1767,6 +1795,7 @@ string.replace(pattern, replacement)
    ```
 
 2. **Global Replacement with Regular Expression**
+
    ```javascript
    let str = "Hello, world! Hello, everyone!";
    let newStr = str.replace(/Hello/g, "Hi");
@@ -1774,6 +1803,7 @@ string.replace(pattern, replacement)
    ```
 
 3. **Using Special Replacement Patterns**
+
    ```javascript
    let str = "abc123";
    let newStr = str.replace(/(\d+)/, "Number: $1");
@@ -1781,15 +1811,17 @@ string.replace(pattern, replacement)
    ```
 
 4. **Replacement Function**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
-   let newStr = str.replace(/\b\w+\b/g, function(match) {
-       return match.toUpperCase();
+   let newStr = str.replace(/\b\w+\b/g, function (match) {
+     return match.toUpperCase();
    });
    console.log(newStr); // Outputs: "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
    ```
 
 5. **Replacing with Empty String**
+
    ```javascript
    let str = "Hello, world!";
    let newStr = str.replace("world", "");
@@ -1799,9 +1831,9 @@ string.replace(pattern, replacement)
 6. **Replacing Multiple Patterns**
    ```javascript
    let str = "Twas the night before Christmas.";
-   let newStr = str.replace(/night|Christmas/g, function(match) {
-       if (match === "night") return "day";
-       if (match === "Christmas") return "New Year";
+   let newStr = str.replace(/night|Christmas/g, function (match) {
+     if (match === "night") return "day";
+     if (match === "Christmas") return "New Year";
    });
    console.log(newStr); // Outputs: "Twas the day before New Year."
    ```
@@ -1813,8 +1845,9 @@ The `replace` method is powerful for string manipulation, offering flexibility t
 The `replaceAll` method in JavaScript is used to replace all occurrences of a specified substring or regular expression within a string with a new substring. It is a more convenient and readable way to perform a global replacement compared to using `replace` with a regular expression and the global flag (`/g`).
 
 ### Syntax
+
 ```javascript
-string.replaceAll(pattern, replacement)
+string.replaceAll(pattern, replacement);
 ```
 
 - `pattern` (required): The substring or regular expression to be replaced.
@@ -1829,6 +1862,7 @@ string.replaceAll(pattern, replacement)
 ### Examples
 
 1. **Basic Usage with a String Pattern**
+
    ```javascript
    let str = "Hello, world! Hello, everyone!";
    let newStr = str.replaceAll("Hello", "Hi");
@@ -1836,6 +1870,7 @@ string.replaceAll(pattern, replacement)
    ```
 
 2. **Using a Regular Expression Pattern**
+
    ```javascript
    let str = "Hello, world! Hello, everyone!";
    let newStr = str.replaceAll(/Hello/g, "Hi");
@@ -1843,6 +1878,7 @@ string.replaceAll(pattern, replacement)
    ```
 
 3. **Replacing with Special Characters**
+
    ```javascript
    let str = "Hello, world! Hello, everyone!";
    let newStr = str.replaceAll("!", "?");
@@ -1850,15 +1886,17 @@ string.replaceAll(pattern, replacement)
    ```
 
 4. **Replacing with a Function**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
-   let newStr = str.replaceAll(/\b\w+\b/g, function(match) {
-       return match.toUpperCase();
+   let newStr = str.replaceAll(/\b\w+\b/g, function (match) {
+     return match.toUpperCase();
    });
    console.log(newStr); // Outputs: "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
    ```
 
 5. **Replacing Multiple Different Patterns**
+
    ```javascript
    let str = "Apples are red. Apples are tasty.";
    let newStr = str.replaceAll("Apples", "Oranges").replaceAll("red", "orange");
@@ -1871,17 +1909,19 @@ string.replaceAll(pattern, replacement)
    let newStr = str.replaceAll(/abc/g, "XYZ");
    console.log(newStr); // Outputs: "XYZ123XYZ456"
    ```
+
 ## Converting a String to an Array
+
 - If you want to work with a string as an array, you can convert it to an array.
 - A string can be converted to an array with the `split()` method.
 - If the separator is "", the returned array will be an array of single characters.
 - If the separator is omitted, the returned array will contain the whole string in index [0].
 
 ```js
-text.split(",")    // Split on commas
-text.split(" ")    // Split on spaces
-text.split("|")    // Split on pipe
-text.split("")     //split by characters
+text.split(","); // Split on commas
+text.split(" "); // Split on spaces
+text.split("|"); // Split on pipe
+text.split(""); //split by characters
 ```
 
 ## JavaScript String Search
@@ -1895,8 +1935,9 @@ The `indexOf` and `lastIndexOf` methods in JavaScript are used to find the index
 The `indexOf` method returns the index of the first occurrence of a specified substring within the string. If the substring is not found, it returns `-1`.
 
 **Syntax**
+
 ```javascript
-string.indexOf(searchValue, fromIndex)
+string.indexOf(searchValue, fromIndex);
 ```
 
 - `searchValue` (required): The substring to search for.
@@ -1905,6 +1946,7 @@ string.indexOf(searchValue, fromIndex)
 **Examples**
 
 1. **Basic Usage**
+
    ```javascript
    let str = "Hello, world!";
    let index = str.indexOf("world");
@@ -1912,6 +1954,7 @@ string.indexOf(searchValue, fromIndex)
    ```
 
 2. **Not Found**
+
    ```javascript
    let str = "Hello, world!";
    let index = str.indexOf("planet");
@@ -1930,8 +1973,9 @@ string.indexOf(searchValue, fromIndex)
 The `lastIndexOf` method returns the index of the last occurrence of a specified substring within the string. If the substring is not found, it returns `-1`.
 
 **Syntax**
+
 ```javascript
-string.lastIndexOf(searchValue, fromIndex)
+string.lastIndexOf(searchValue, fromIndex);
 ```
 
 - `searchValue` (required): The substring to search for.
@@ -1940,6 +1984,7 @@ string.lastIndexOf(searchValue, fromIndex)
 **Examples**
 
 1. **Basic Usage**
+
    ```javascript
    let str = "Hello, world! Hello again!";
    let index = str.lastIndexOf("Hello");
@@ -1947,6 +1992,7 @@ string.lastIndexOf(searchValue, fromIndex)
    ```
 
 2. **Not Found**
+
    ```javascript
    let str = "Hello, world!";
    let index = str.lastIndexOf("planet");
@@ -1963,6 +2009,7 @@ string.lastIndexOf(searchValue, fromIndex)
 ### Additional Examples
 
 1. **Finding All Occurrences Using a Loop**
+
    ```javascript
    let str = "Hello, world! Hello again!";
    let searchValue = "Hello";
@@ -1970,14 +2017,15 @@ string.lastIndexOf(searchValue, fromIndex)
    let index = str.indexOf(searchValue);
 
    while (index !== -1) {
-       indices.push(index);
-       index = str.indexOf(searchValue, index + 1);
+     indices.push(index);
+     index = str.indexOf(searchValue, index + 1);
    }
 
    console.log(indices); // Outputs: [0, 13]
    ```
 
 2. **Case-Sensitive Search**
+
    ```javascript
    let str = "Hello, World!";
    let index = str.indexOf("world");
@@ -1990,13 +2038,15 @@ string.lastIndexOf(searchValue, fromIndex)
    let index = str.lastIndexOf("na");
    console.log(index); // Outputs: 4
    ```
+
 ## serach() Method
 
 The `search` method in JavaScript is used to search a string for a specified value (pattern) and returns the index (position) of the first match. The search value can be a string or a regular expression. This method returns `-1` if no match is found.
 
 ### Syntax
+
 ```javascript
-string.search(pattern)
+string.search(pattern);
 ```
 
 - `pattern` (required): A string or a regular expression to search for.
@@ -2010,6 +2060,7 @@ string.search(pattern)
 ### Examples
 
 1. **Basic Usage with a String Pattern**
+
    ```javascript
    let str = "Hello, world!";
    let index = str.search("world");
@@ -2017,6 +2068,7 @@ string.search(pattern)
    ```
 
 2. **No Match Found**
+
    ```javascript
    let str = "Hello, world!";
    let index = str.search("planet");
@@ -2024,6 +2076,7 @@ string.search(pattern)
    ```
 
 3. **Using a Regular Expression**
+
    ```javascript
    let str = "Hello, world!";
    let index = str.search(/world/);
@@ -2031,6 +2084,7 @@ string.search(pattern)
    ```
 
 4. **Case-Sensitive Search**
+
    ```javascript
    let str = "Hello, World!";
    let index = str.search(/world/i); // Using 'i' flag for case-insensitive search
@@ -2038,6 +2092,7 @@ string.search(pattern)
    ```
 
 5. **Finding a Digit Using Regular Expression**
+
    ```javascript
    let str = "Hello, world! 2024";
    let index = str.search(/\d/);
@@ -2061,8 +2116,9 @@ string.search(pattern)
 The `match` method in JavaScript is used to retrieve the result of matching a string against a regular expression. It returns an array containing all the matches, or `null` if no match is found. This method can be very powerful when combined with regular expressions for pattern matching and extraction.
 
 ### Syntax
+
 ```javascript
-string.match(regexp)
+string.match(regexp);
 ```
 
 - `regexp` (required): A regular expression object to match against the string.
@@ -2076,6 +2132,7 @@ string.match(regexp)
 ### Examples
 
 1. **Basic Usage without Global Flag**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
    let result = str.match(/quick/);
@@ -2083,6 +2140,7 @@ string.match(regexp)
    ```
 
 2. **No Match Found**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
    let result = str.match(/cat/);
@@ -2090,6 +2148,7 @@ string.match(regexp)
    ```
 
 3. **Using Global Flag**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
    let result = str.match(/\w+/g);
@@ -2097,6 +2156,7 @@ string.match(regexp)
    ```
 
 4. **Capturing Groups**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
    let result = str.match(/(quick) (brown)/);
@@ -2104,6 +2164,7 @@ string.match(regexp)
    ```
 
 5. **Using Special Characters**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
    let result = str.match(/[aeiou]/g);
@@ -2129,8 +2190,9 @@ The `match` method is a versatile tool for pattern matching in strings, allowing
 The `matchAll` method in JavaScript is used to retrieve all matches of a regular expression within a string, along with their capturing groups. This method returns an iterator of all the matches, allowing for comprehensive and detailed pattern matching.
 
 ### Syntax
+
 ```javascript
-string.matchAll(regexp)
+string.matchAll(regexp);
 ```
 
 - `regexp` (required): A regular expression object. It must have the global (`g`) or sticky (`y`) flag set; otherwise, a `TypeError` is thrown.
@@ -2144,13 +2206,14 @@ string.matchAll(regexp)
 ### Examples
 
 1. **Basic Usage with Global Flag**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
    let regexp = /\b\w+\b/g;
    let matches = str.matchAll(regexp);
 
    for (let match of matches) {
-       console.log(match);
+     console.log(match);
    }
    // Outputs:
    // ["The", index: 0, input: "The quick brown fox jumps over the lazy dog.", groups: undefined]
@@ -2160,6 +2223,7 @@ string.matchAll(regexp)
    ```
 
 2. **Using the Spread Operator to Convert to Array**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
    let regexp = /\b\w+\b/g;
@@ -2169,13 +2233,14 @@ string.matchAll(regexp)
    ```
 
 3. **Capturing Groups**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
    let regexp = /(\w+)\s(\w+)/g;
    let matches = str.matchAll(regexp);
 
    for (let match of matches) {
-       console.log(match);
+     console.log(match);
    }
    // Outputs:
    // ["The quick", "The", "quick", index: 0, input: "The quick brown fox jumps over the lazy dog.", groups: undefined]
@@ -2199,14 +2264,14 @@ string.matchAll(regexp)
 
 The `matchAll` method is a powerful tool for extracting multiple matches and their details from a string, making it ideal for comprehensive pattern matching with regular expressions.
 
-
 ## includes() Method
 
 The `includes` method in JavaScript is used to determine whether one string contains another substring. It returns `true` if the substring is found within the string, and `false` otherwise.
 
 ### Syntax
+
 ```javascript
-string.includes(searchString, position)
+string.includes(searchString, position);
 ```
 
 - `searchString` (required): The substring to search for within the string.
@@ -2220,6 +2285,7 @@ string.includes(searchString, position)
 ### Examples
 
 1. **Basic Usage**
+
    ```javascript
    let str = "Hello, world!";
    let result = str.includes("world");
@@ -2227,6 +2293,7 @@ string.includes(searchString, position)
    ```
 
 2. **Case-Sensitivity**
+
    ```javascript
    let str = "Hello, world!";
    let result = str.includes("World");
@@ -2234,6 +2301,7 @@ string.includes(searchString, position)
    ```
 
 3. **Starting Search from a Specific Position**
+
    ```javascript
    let str = "Hello, world!";
    let result = str.includes("world", 8);
@@ -2241,6 +2309,7 @@ string.includes(searchString, position)
    ```
 
 4. **Using `includes` with a Long String**
+
    ```javascript
    let str = "The quick brown fox jumps over the lazy dog.";
    let result = str.includes("fox");
@@ -2257,11 +2326,12 @@ string.includes(searchString, position)
 ### Additional Considerations
 
 - **Polyfill for Older Environments**: If you need to support environments that do not have `includes`, you can use a polyfill:
+
   ```javascript
   if (!String.prototype.includes) {
-    String.prototype.includes = function(search, start) {
-      'use strict';
-      if (typeof start !== 'number') {
+    String.prototype.includes = function (search, start) {
+      "use strict";
+      if (typeof start !== "number") {
         start = 0;
       }
 
@@ -2292,8 +2362,9 @@ The `startsWith` and `endsWith` methods in JavaScript are used to check whether 
 The `startsWith` method checks if a string starts with the specified substring.
 
 **Syntax**
+
 ```javascript
-string.startsWith(searchString, position)
+string.startsWith(searchString, position);
 ```
 
 - `searchString` (required): The substring to search for at the start of the string.
@@ -2302,12 +2373,14 @@ string.startsWith(searchString, position)
 **Examples**
 
 1. **Basic Usage**
+
    ```javascript
    let str = "Hello, world!";
    console.log(str.startsWith("Hello")); // Outputs: true
    ```
 
 2. **Case-Sensitivity**
+
    ```javascript
    let str = "Hello, world!";
    console.log(str.startsWith("hello")); // Outputs: false
@@ -2324,8 +2397,9 @@ string.startsWith(searchString, position)
 The `endsWith` method checks if a string ends with the specified substring.
 
 **Syntax**
+
 ```javascript
-string.endsWith(searchString, length)
+string.endsWith(searchString, length);
 ```
 
 - `searchString` (required): The substring to search for at the end of the string.
@@ -2334,12 +2408,14 @@ string.endsWith(searchString, length)
 **Examples**
 
 1. **Basic Usage**
+
    ```javascript
    let str = "Hello, world!";
    console.log(str.endsWith("world!")); // Outputs: true
    ```
 
 2. **Case-Sensitivity**
+
    ```javascript
    let str = "Hello, world!";
    console.log(str.endsWith("World!")); // Outputs: false
@@ -2356,9 +2432,10 @@ string.endsWith(searchString, length)
 1. **Polyfills for Older Environments**
 
    **`startsWith` Polyfill:**
+
    ```javascript
    if (!String.prototype.startsWith) {
-     String.prototype.startsWith = function(searchString, position) {
+     String.prototype.startsWith = function (searchString, position) {
        position = position || 0;
        return this.indexOf(searchString, position) === position;
      };
@@ -2366,13 +2443,17 @@ string.endsWith(searchString, length)
    ```
 
    **`endsWith` Polyfill:**
+
    ```javascript
    if (!String.prototype.endsWith) {
-     String.prototype.endsWith = function(searchString, this_len) {
+     String.prototype.endsWith = function (searchString, this_len) {
        if (this_len === undefined || this_len > this.length) {
          this_len = this.length;
        }
-       return this.substring(this_len - searchString.length, this_len) === searchString;
+       return (
+         this.substring(this_len - searchString.length, this_len) ===
+         searchString
+       );
      };
    }
    ```
@@ -2380,6 +2461,7 @@ string.endsWith(searchString, length)
 2. **Case-Insensitive Search**
 
    For a case-insensitive check, convert both the string and the search substring to the same case:
+
    ```javascript
    let str = "Hello, world!";
    console.log(str.toLowerCase().startsWith("hello".toLowerCase())); // Outputs: true
@@ -2390,7 +2472,134 @@ Both `startsWith` and `endsWith` methods are useful for string validation and ma
 
 ## JavaScript Template Strings
 
+- এর অনেকগুলো নাম আছে, যেমনঃ
+  - String Templates
+  - Template Strings
+  - Template Literals
+- একটি String Define করার জন্য Template String Double Quotation("") বা Single Quotation('') এর পরিবর্তে Back-tics(``)ব্যবহার করে। যেমনঃ
 
+```js
+let text = `Hello World!`;
+```
+
+## Features of Template String
+
+- **Quotes Inside Strings:** Template Strings allow both single and double quotes inside a string. যেমনঃ
+
+```js
+let text = `He's often called "Johnny"`;
+```
+
+- **Multiline Strings:** Template Strings allow multiline strings. যেমনঃ
+
+```js
+let text = `Bangladesh is
+a beautiful
+country`;
+```
+
+- **Interpolation:** Template String Interpolation Support করে। কোন একটা Variable তার Value দিয়ে Automatically Replace হয়ে যাওয়াকে String Interpolation বলে। Interpolation Syntax: `${expression}`, যেমনঃ
+
+```js
+let x = 10;
+let y = 20;
+let text = `He has got ${x + y} marks`;
+```
+
+- **HTML Template:**
+
+```html
+<body>
+  <div id="app"></div>
+
+  <script src="script.js"></script>
+</body>
+```
+
+```js
+// JavaScript function to create and return an HTML template
+function createTemplate(title, content) {
+  return `
+    <div class="container">
+      <h2>${title}</h2>
+      <p>${content}</p>
+    </div>
+  `;
+}
+
+// JavaScript function to insert the template into the DOM
+function insertTemplate(template) {
+  const app = document.getElementById("app");
+  app.innerHTML += template;
+}
+
+// Example usage
+const title = "Dynamic HTML Template";
+const content =
+  "This is an example of creating an HTML template using JavaScript.";
+const template = createTemplate(title, content);
+
+insertTemplate(template);
+```
+
+## JavaScript Numbers
+
+## Binary Search Algorithm
+
+```js
+function binarySearch(arr, value) {
+  let low = 0;
+  let high = arr.length - 1;
+
+  while (low <= high) {
+    let mid = Math.floor((low + high) / 2);
+    if (arr[mid] === value) {
+      return true;
+    } else if (arr[mid] < value) {
+      low = mid + 1;
+    } else {
+      high = mid - 1;
+    }
+  }
+  return false;
+}
+
+// Example usage:
+let arr = [1, 3, 5, 7, 9, 11, 13, 15];
+arr.sort((a, b) => a - b); // Ensure the array is sorted
+let value = 7;
+
+if (binarySearch(arr, value)) {
+  console.log("Found");
+} else {
+  console.log("Not Found");
+}
+```
+
+How arr.sort((a, b) => a - b) line works:
+The line `arr.sort((a, b) => a - b);` is used to sort the array `arr` in ascending order. Here's a detailed explanation:
+
+1. **`arr.sort(...)`:** This is the JavaScript `Array.prototype.sort()` method, which sorts the elements of an array in place and returns the sorted array. By default, this method sorts elements as strings in ascending order. This can lead to unexpected results when sorting numbers. For example, without a comparison function, the array `[10, 2, 30, 4]` would be sorted as `[10, 2, 30, 4]`, not `[2, 4, 10, 30]`.
+
+2. **Comparison function:** To correctly sort numbers, you need to provide a comparison function. The comparison function is passed two arguments (often referred to as `a` and `b`), which represent two elements in the array that are being compared.
+
+3. **`(a, b) => a - b`:** This is an arrow function used as the comparison function for sorting. It works as follows:
+   - If the result of `a - b` is negative, `a` is considered smaller than `b`, and `a` will be placed before `b` in the sorted array.
+   - If the result of `a - b` is positive, `a` is considered larger than `b`, and `a` will be placed after `b` in the sorted array.
+   - If the result of `a - b` is zero, `a` and `b` are considered equal, and their order relative to each other will not be changed.
+
+By using this comparison function, the array elements are sorted numerically in ascending order. Here is a step-by-step example:
+
+For the array `[10, 2, 30, 4]`:
+
+- When comparing `10` and `2`, `10 - 2` is `8` (positive), so `2` comes before `10`.
+- When comparing `2` and `30`, `2 - 30` is `-28` (negative), so `2` remains before `30`.
+- When comparing `10` and `30`, `10 - 30` is `-20` (negative), so `10` remains before `30`.
+- When comparing `4` and `2`, `4 - 2` is `2` (positive), so `2` remains before `4`.
+- When comparing `4` and `10`, `4 - 10` is `-6` (negative), so `4` comes before `10`.
+- When comparing `4` and `30`, `4 - 30` is `-26` (negative), so `4` comes before `30`.
+
+The sorted array will be `[2, 4, 10, 30]`.
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
