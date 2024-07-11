@@ -1,38 +1,15 @@
 /*
-1) Sorting an Array
-[10, 7, 19, 5]
-2) Recursion
-  a) Base Case
-  b) Recursive Case
+Algorithm: Binary Search Algorithm
 */
 
 
 function mainFunction() {
-  let s = sumFunction(5);
-  console.log(s);
+  let a = 2, b=4;
+  console.log(f(n));
 } 
 
-function findingLargestPalindrome(){
-  let mainString = "CodeJogot";
-  let str = substring(mainString);
-  let maxLength = 0;
-  let largestPalindrome = "";
-  for(let i= 0; i<str.length; i++) {
-    if(palindrome(str[i])==true) {
-      if(maxLength>str[i].length) {
-        maxLength = str[i].length;
-        largestPalindrome = str[i];
-      }
-    }
-  }
-}
-
-
-function substring() {
-
-}
-
-function palindrome()
+function f(a, b)
 {
-  
+  if(a==b) return b;
+  return a + f(a+1, b);
 }

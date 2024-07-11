@@ -12,7 +12,7 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 |            [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)             |                        [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                         |       Watch Now       |
 |                            [04](#chapter-04-javascript-object)                            |                                                      [JavaScript Object](#chapter-04-javascript-object) []()                                                       |     [Watch Now]()     |
 |                            [05](#chapter-05-javascript-string)                            |                                                         [JavaScript String](#chapter-05-javascript-string)                                                         |     [Watch Now]()     |
-|                                          [06]()                                           |                                                                                []()                                                                                |     [Watch Now]()     |
+|                                          [06](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)                                           |                                                                                [JavaScript Numbers, Bigint, Number Methods, Number Methods, Number Properties](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)                                                                                |     [Watch Now]()     |
 |                                            07                                             |                                                                                                                                                                    |                       |
 |                                            08                                             |                                                                                                                                                                    |                       |
 |                                            09                                             |                                                                                                                                                                    |                       |
@@ -2604,6 +2604,496 @@ The sorted array will be `[2, 4, 10, 30]`.
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
+
+# Chapter-06: JavaScript Numbers, Bigint, Number Methods, Number Methods, Number Properties
+
+- [JavaScript Numbers](#javascript-numbers)
+
+## JavaScript Numbers
+- C, C++, Java ইত্যাদি Programming Language এ যেমন পূর্ণ সংখ্যা ও দশমিক সংখ্যার জন্য আলাদা আলাদা Keyword দিয়ে Declare করতে হয়, JavaScript এ এমন নেই। শুধু একটা Keyword দিয়েই পূর্ণ সংখ্যা ও দশমিক সংখ্যা Declare করা যায়। উদাহরণঃ 
+
+```cpp
+int x = 57; // for integer value
+float y = 12.92; // for floating point value
+```
+
+```js
+let x = 57; // for integer value
+let y = 12.92; // for floating point value
+```
+- অতিরিক্ত বড় বা অতিরিক্ত ছোট সংখ্যাগুলি  scientific (exponent) notation দিয়ে লেখা যেতে পারে। যেমনঃ 
+
+```js
+let x = 123e5;    // 12300000
+let y = 123e-5;   // 0.00123
+```
+
+## JavaScript Numbers are Always 64-bit Floating Point Numbers
+
+### What is 64-bit floating point?
+- 64-bit floating point হলো একটা নাম্বারের binary representation. JavaScript এ এই 64-bit Number System কে ৩ ভাগে ভাগ করা হয়েছে। 1 bit for the sign, 11 bits for the exponent and 52 bits for the fraction.
+
+![64-bit](./chapter-06/images/1.png)
+
+- **Sign Bit:** Sign Bit দ্বারা নির্ধারণ হয় সংখ্যাটি Positive নাকি Negative. 0 থাকলে সংখ্যাটি Positive, 1 থাকলে সংখ্যাটি Negative.
+- **Exponent:** পরের ১১ টি Bit. 
+- **Fraction/Mantissa:** পরের ৫২ টি Bit. 
+
+## NaN (Not a Number) in JavaScript
+
+- `NaN` is a JavaScript reserved word indicating that a number is not a legal number.
+
+### Introduction
+
+`NaN` stands for "Not-a-Number". It is a property of the global object in JavaScript and indicates a value that is not a legal number. This value is unique in that it is not equal to itself.
+
+In JavaScript, `NaN` is a property of the global object. The global object is a special object that always exists in the global scope.
+
+### When NaN is Returned
+
+`NaN` is typically returned in situations where a mathematical operation cannot be performed. Here are a few scenarios where `NaN` might be encountered:
+
+1. **Arithmetic Operations**:
+   ```javascript
+   let result = 0 / 0; // NaN
+   ```
+
+2. **Invalid Number Conversion**:
+   ```javascript
+   let result = Number("hello"); // NaN
+   ```
+
+3. **Math Functions**:
+   ```javascript
+   let result = Math.sqrt(-1); // NaN
+   ```
+
+### Checking for NaN
+
+Due to `NaN` being the only value in JavaScript that is not equal to itself, you cannot use the equality operator to check for `NaN`. Instead, you should use the `isNaN()` function or the `Number.isNaN()` method.
+
+### `isNaN()` Function
+
+The `isNaN()` function converts the value to a number before testing it, which can lead to some unexpected results:
+
+```javascript
+console.log(isNaN("hello")); // true (string "hello" is converted to NaN)
+console.log(isNaN(123)); // false (123 is a number)
+```
+
+### `Number.isNaN()` Method
+
+The `Number.isNaN()` method is more reliable because it does not convert the value before testing it:
+
+```javascript
+console.log(Number.isNaN("hello")); // false (string "hello" is not converted)
+console.log(Number.isNaN(NaN)); // true
+```
+
+### Examples of NaN
+
+Let's look at some examples to understand how `NaN` works in JavaScript:
+
+### Example 1: Division by Zero
+
+```javascript
+let result = 0 / 0;
+console.log(result); // NaN
+```
+
+### Example 2: Invalid Number Conversion
+
+```javascript
+let result = Number("hello");
+console.log(result); // NaN
+```
+
+### Example 3: Mathematical Functions
+
+```javascript
+let result = Math.sqrt(-1);
+console.log(result); // NaN
+```
+
+### Example 4: Checking for NaN
+
+Using `isNaN()`:
+
+```javascript
+let value = "hello";
+if (isNaN(value)) {
+    console.log(value + " is NaN"); // hello is NaN
+}
+```
+
+Using `Number.isNaN()`:
+
+```javascript
+let value = NaN;
+if (Number.isNaN(value)) {
+    console.log("Value is NaN"); // Value is NaN
+}
+```
+
+## Infinity in JavaScript
+
+- In JavaScript, `Infinity` is a property of the global object and represents a value that is larger than any other number. It is a special numeric value that behaves mathematically as infinity does. `Infinity` can be positive or negative.
+
+### Positive Infinity
+
+Positive `Infinity` is the value JavaScript returns when a number exceeds the upper limit of the floating-point numbers. You can get positive `Infinity` by dividing a positive number by zero or by performing calculations that result in a number too large to represent.
+
+#### Examples of Positive Infinity
+
+1. **Division by Zero**:
+   ```javascript
+   let result = 1 / 0;
+   console.log(result); // Infinity
+   ```
+
+2. **Exponentiation**:
+   ```javascript
+   let result = Math.pow(10, 1000);
+   console.log(result); // Infinity
+   ```
+
+#### Checking for Infinity
+
+You can check if a value is `Infinity` by comparing it to `Infinity`:
+
+```javascript
+let value = 1 / 0;
+if (value === Infinity) {
+    console.log("Value is positive Infinity");
+}
+```
+
+### Negative Infinity
+
+Negative `Infinity` is the value JavaScript returns when a number exceeds the lower limit of the floating-point numbers in the negative direction. You can get negative `Infinity` by dividing a negative number by zero or by performing calculations that result in a number too large in the negative direction to represent.
+
+#### Examples of Negative Infinity
+
+1. **Division by Zero**:
+   ```javascript
+   let result = -1 / 0;
+   console.log(result); // -Infinity
+   ```
+
+2. **Exponentiation**:
+   ```javascript
+   let result = Math.pow(-10, 1000);
+   console.log(result); // -Infinity
+   ```
+
+#### Checking for Negative Infinity
+
+You can check if a value is negative `Infinity` by comparing it to `-Infinity`:
+
+```javascript
+let value = -1 / 0;
+if (value === -Infinity) {
+    console.log("Value is negative Infinity");
+}
+```
+
+### Mathematical Operations with Infinity
+
+Infinity can be used in various mathematical operations:
+
+- **Adding Infinity**:
+  ```javascript
+  let result = Infinity + 1;
+  console.log(result); // Infinity
+  ```
+
+- **Subtracting Infinity**:
+  ```javascript
+  let result = Infinity - 1;
+  console.log(result); // Infinity
+  ```
+
+- **Multiplying Infinity**:
+  ```javascript
+  let result = Infinity * 2;
+  console.log(result); // Infinity
+  ```
+
+- **Dividing Infinity**:
+  ```javascript
+  let result = Infinity / 2;
+  console.log(result); // Infinity
+  ```
+
+## Hexadecimal
+
+- In JavaScript, hexadecimal numbers are prefixed with `0x` or `0X`. যেমনঃ 
+
+```js
+let hexNumber = 0x1A; // 1A in hexadecimal is 26 in decimal
+console.log(hexNumber); // Output: 26
+```
+
+- By default, JavaScript displays numbers as base 10 decimals. But you can use the **toString()** method to output numbers from **base 2 to base 36**. যেমনঃ 
+
+```js
+let myNumber = 32;
+console.log(myNumber.toString(32)); // Convert to base 32
+console.log(myNumber.toString(16)); // Convert to base 16 (hexadecimal)
+console.log(myNumber.toString(12)); // Convert to base 12
+console.log(myNumber.toString(10)); // Convert to base 10 (decimal)
+console.log(myNumber.toString(8));  // Convert to base 8 (octal)
+console.log(myNumber.toString(2));  // Convert to base 2 (binary)
+```
+
+Output: 
+
+```js
+10
+20
+28
+32
+40
+100000
+```
+## Bigint in JavaScript
+
+- **BigInt** is a built-in object in JavaScript that provides a way to represent whole numbers larger than the largest number JavaScript can reliably represent with the `Number` primitive, which is \(2^{53} - 1\) (Number.MAX_SAFE_INTEGER). BigInt can be used for arbitrarily large integers.
+
+### Creating BigInt
+
+You can create a BigInt by appending `n` to the end of an integer literal or by calling the `BigInt` function.
+
+**Example:**
+
+```javascript
+// Using the 'n' suffix
+let bigInt1 = 1234567890123456789012345678901234567890n;
+
+// Using the BigInt function
+let bigInt2 = BigInt("1234567890123456789012345678901234567890");
+
+console.log(bigInt1); // Output: 1234567890123456789012345678901234567890n
+console.log(bigInt2); // Output: 1234567890123456789012345678901234567890n
+```
+
+### Operations with BigInt
+
+BigInts support the standard arithmetic operations such as addition, subtraction, multiplication, division, and exponentiation. However, you cannot mix BigInt with `Number` types directly. If you need to operate on both, you must convert them to the same type.
+
+**Example:**
+
+```javascript
+let a = 100000000000000000000n;
+let b = 200000000000000000000n;
+
+// Addition
+let sum = a + b;
+console.log(sum); // Output: 300000000000000000000n
+
+// Subtraction
+let difference = b - a;
+console.log(difference); // Output: 100000000000000000000n
+
+// Multiplication
+let product = a * b;
+console.log(product); // Output: 20000000000000000000000000000000000000000n
+
+// Division
+let quotient = b / a;
+console.log(quotient); // Output: 2n
+
+// Exponentiation
+let power = a ** 2n;
+console.log(power); // Output: 10000000000000000000000000000000000000000n
+```
+
+### Mixing BigInt and Number
+
+You cannot directly mix `BigInt` and `Number` types in arithmetic operations. You need to convert one type to the other.
+
+**Example:**
+
+```javascript
+let bigIntValue = 100000000000000000000n;
+let numberValue = 20;
+
+// Convert Number to BigInt
+let result1 = bigIntValue + BigInt(numberValue);
+console.log(result1); // Output: 100000000000000000020n
+
+// Convert BigInt to Number
+let result2 = Number(bigIntValue) + numberValue;
+console.log(result2); // Output: 100000000000000000020
+```
+
+### Comparisons
+
+BigInts can be compared to other BigInts and Numbers using comparison operators.
+
+**Example:**
+
+```javascript
+let bigIntValue = 100000000000000000000n;
+let numberValue = 100000000000000000000;
+
+console.log(bigIntValue > 50n); // Output: true
+console.log(bigIntValue === BigInt(numberValue)); // Output: true
+console.log(bigIntValue === numberValue); // Output: false
+console.log(bigIntValue == numberValue); // Output: true (loose equality)
+```
+
+### Use Cases for BigInt
+
+- **Cryptography**: Handling large integers is common in cryptographic algorithms.
+- **Accurate Large Number Calculations**: Situations where you need precise calculations with very large numbers, such as financial calculations, astronomical calculations, etc.
+- **Database IDs**: Some databases use very large integers for unique identifiers.
+
+### JavaScript Number Methods
+
+1. **`toString()`**: Converts a number to a string.
+   ```javascript
+   let num = 123;
+   num.toString(); // "123"
+   ```
+
+2. **`toExponential()`**: Converts a number to an exponential notation string.
+   ```javascript
+   let num = 123;
+   num.toExponential(2); // "1.23e+2"
+   ```
+
+3. **`toFixed()`**: Formats a number using fixed-point notation.
+   ```javascript
+   let num = 123.456;
+   num.toFixed(2); // "123.46"
+   ```
+
+4. **`toPrecision()`**: Formats a number to a specified length.
+   ```javascript
+   let num = 123.456;
+   num.toPrecision(4); // "123.5"
+   ```
+
+5. **`valueOf()`**: Returns the primitive value of a `Number` object.
+   ```javascript
+   let numObj = new Number(123);
+   numObj.valueOf(); // 123
+   ```
+
+6. **`Number()`**: Converts an object to a number.
+   ```javascript
+   Number("123"); // 123
+   ```
+
+7. **`parseFloat()`**: Parses a string and returns a floating-point number.
+   ```javascript
+   parseFloat("123.45"); // 123.45
+   ```
+
+8. **`parseInt()`**: Parses a string and returns an integer of the specified radix.
+   ```javascript
+   parseInt("101", 2); // 5
+   ```
+
+9. **`isNaN()`**: Determines whether a value is `NaN`.
+   ```javascript
+   isNaN("hello"); // true
+   ```
+
+10. **`isFinite()`**: Determines whether a value is a finite number.
+    ```javascript
+    isFinite(123); // true
+    ```
+
+### JavaScript Number Properties
+
+| Property                  | Description                                    | Example                                           |
+|---------------------------|------------------------------------------------|---------------------------------------------------|
+| `Number.EPSILON`          | The smallest interval between two numbers.     | `console.log(Number.EPSILON);` // 2.220446049250313e-16 |
+| `Number.MAX_SAFE_INTEGER` | Maximum safe integer in JavaScript (2^53 - 1). | `console.log(Number.MAX_SAFE_INTEGER);` // 9007199254740991 |
+| `Number.MIN_SAFE_INTEGER` | Minimum safe integer in JavaScript (-(2^53 - 1)). | `console.log(Number.MIN_SAFE_INTEGER);` // -9007199254740991 |
+| `Number.MAX_VALUE`        | Largest positive representable number.         | `console.log(Number.MAX_VALUE);` // 1.7976931348623157e+308 |
+| `Number.MIN_VALUE`        | Smallest positive representable number.        | `console.log(Number.MIN_VALUE);` // 5e-324        |
+| `Number.NaN`              | Represents Not-A-Number.                       | `console.log(Number.NaN);` // NaN                 |
+| `Number.NEGATIVE_INFINITY`| Represents negative infinity.                  | `console.log(Number.NEGATIVE_INFINITY);` // -Infinity |
+| `Number.POSITIVE_INFINITY`| Represents positive infinity.                  | `console.log(Number.POSITIVE_INFINITY);` // Infinity |
+
+
+
+
+## Quiz
+
+1. What will be the result after the following JavaScript code is executed?
+
+```
+let x = 10;
+let y = 20;
+let z = "30";
+let result = x + y + z;
+```
+
+<details>
+  <summary>Click here to see the answer</summary>
+  
+  ### 3030
+</details>
+
+2. What will be the result after the following JavaScript code is executed?
+
+```
+let x = "100";
+let y = "10";
+let z = x * y;
+```
+
+<details>
+  <summary>Click here to see the answer</summary>
+  
+  ### 1000
+</details>
+
+3. What will be the result after the following JavaScript code is executed?
+
+```
+let x = "100";
+let y = "10";
+let z = x - y;
+```
+
+<details>
+  <summary>Click here to see the answer</summary>
+  
+  ### 90
+</details>
+
+4. What will be the result after the following JavaScript code is executed?
+
+```
+let x = "100";
+let y = "10";
+let z = x + y;
+```
+
+<details>
+  <summary>Click here to see the answer</summary>
+  
+  ### 10010
+</details>
+
+
+
+
+
+
+
+
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
+# Chapter-07: JavaScript Array
 
 # Project-03: Simple Website Layout with Flexbox
 
