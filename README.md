@@ -13,7 +13,7 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 |                             [04](#chapter-04-javascript-object)                             |                                                        [JavaScript Object](#chapter-04-javascript-object) []()                                                         |     [Watch Now]()     |
 |                             [05](#chapter-05-javascript-string)                             |                                                           [JavaScript String](#chapter-05-javascript-string)                                                           |     [Watch Now]()     |
 | [06](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties) | [JavaScript Numbers, Bigint, Number Methods, Number Methods, Number Properties](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties) |     [Watch Now]()     |
-|                             [07](#chapter-07-javascript-array)                              |                                                            [JavaScript Array](#chapter-07-javascript-array)                                                            |     [Watch Now]()     |
+|                             [07](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                              |                                                            [JavaScript Array](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                                                            |     [Watch Now]()     |
 |                                             08                                              |                                                                                                                                                                        |                       |
 |                                             09                                              |                                                                                                                                                                        |                       |
 |                                             10                                              |                                                                                                                                                                        |                       |
@@ -4091,13 +4091,10 @@ Here's the detailed explanation of all 27 JavaScript array methods with source c
     - **Explanation:** Sorts the elements of the array according to the provided compare function. If no function is provided, elements are sorted as strings.
     - **Example:**
       ```javascript
-      const arr = [3, 1, 4
+      const arr = [3, 1, 4, 2];
+      arr.sort((a, b) => a - b);
+      console.log(arr); // [1, 2, 3, 4]
       ```
-
-, 2];
-arr.sort((a, b) => a - b);
-console.log(arr); // [1, 2, 3, 4]
-```
 
 20. **`splice()`**
 
