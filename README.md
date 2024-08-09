@@ -4427,13 +4427,21 @@ Here's the markdown table with the provided list of sorting-related functions an
 
 ### Explanation of the Code
 
-- **Single Property Sorting:**
-  - In the first example, the `sort()` method is used to sort objects by the `price` property. The comparator function subtracts `b.price` from `a.price` for ascending order and `a.price` from `b.price` for descending order.
+The line `return a.name.localeCompare(b.name);` is used to compare two strings (in this case, the `name` properties of the objects `a` and `b`). This method is part of JavaScript's `String` prototype and returns a number that indicates the order of the two strings relative to each other. Specifically, it works as follows:
 
-- **Multiple Property Sorting:**
-  - In the second example, the array is first sorted by `price`. If two objects have the same `price`, the comparator then uses `localeCompare()` to sort by `name` alphabetically. This allows for a secondary sorting criterion when the primary criterion results in a tie.
+- **Returns `-1`** if `a.name` comes before `b.name` in lexicographical order (i.e., alphabetical order).
+- **Returns `1`** if `a.name` comes after `b.name` in lexicographical order.
+- **Returns `0`** if `a.name` and `b.name` are identical.
 
-This approach is versatile and allows you to sort object arrays in a variety of ways depending on the properties you're interested in.
+### Explanation in the Context of Sorting:
+- **If the `price` values of `a` and `b` are equal** (checked by `a.price === b.price`), the sort function doesn't know which object should come first based on price. So, it then compares the `name` properties.
+- The `localeCompare` method ensures that the names are sorted alphabetically. If `a.name` comes before `b.name`, the method returns `-1`, meaning `a` should come before `b` in the sorted array. If `a.name` comes after `b.name`, it returns `1`, meaning `b` should come before `a`.
+
+In your example, when the prices are the same, the sorting falls back to comparing the names alphabetically:
+- For `{ name: 'apple', price: 30 }` and `{ name: 'banana', price: 30 }`, since `apple` comes before `banana` alphabetically, `localeCompare` returns `-1`, so `apple` stays before `banana`.
+- For `{ name: 'apple', price: 20 }` and `{ name: 'cherry', price: 20 }`, since `apple` comes before `cherry` alphabetically, `localeCompare` returns `-1`, so `apple` stays before `cherry`.
+
+This is why the final sorted array has items ordered by price first and, for equal prices, by name alphabetically.
 
 ## JavaScript Array Map
 
@@ -4462,7 +4470,7 @@ This approach is versatile and allows you to sort object arrays in a variety of 
 
    **Explanation:** Here, the `map()` method takes each element from the `numbers` array, squares it, and returns a new array `squared` with the squared values.
 
-2. **Converting an Array of Objects**
+2. **Converting an Array from Objects**
    ```javascript
    const users = [
      { firstName: 'John', lastName: 'Doe' },
@@ -4562,7 +4570,57 @@ This approach is versatile and allows you to sort object arrays in a variety of 
    console.log(uniqueNumbers); // [1, 2, 3, 4, 5]
    ```
 
-   **Explanation:** This example uses `filter()` to remove duplicate values from an array, resulting in an array of unique numbers.
+   **Explanation:** This example uses `filter()` to remove duplicate values from an array, resulting in an array of unique numbers. The `indexOf` method returns the index of the **first occurrence** of the element num in the array arr.
+
+   **Detailed Explanation:**
+
+    1. **Array `numbers`**:  
+      This is the original array containing the numbers, including duplicates: `[1, 2, 2, 3, 4, 4, 5]`.
+
+    2. **`filter` Method**:  
+      The `filter` method creates a new array with all elements that pass the test implemented by the provided function. In this case, the function checks if the current element's index matches the first occurrence of that element in the array.
+
+    3. **Callback Function**:
+      ```javascript
+      (num, index, arr) => arr.indexOf(num) === index
+      ```
+      This is the callback function passed to the `filter` method. It takes three arguments:
+      - `num`: The current element being processed in the array.
+      - `index`: The index of the current element.
+      - `arr`: The array that `filter` was called on (in this case, `numbers`).
+
+    4. **`indexOf(num)`**:
+      The `indexOf` method returns the index of the **first occurrence** of the element `num` in the array `arr`.
+
+    5. **Comparison `arr.indexOf(num) === index`**:
+      - For each element in the array, the code checks if the index of its first occurrence (`arr.indexOf(num)`) is the same as its current index (`index`).
+      - If they match, it means that the element has not appeared earlier in the array, so it is considered unique up to this point.
+      - If they don't match, it means the element has already appeared earlier in the array, so it's a duplicate and is filtered out.
+
+    ### Step-by-Step Execution:
+    - **Iteration 1**: `num = 1`, `index = 0`, `arr.indexOf(1) = 0`  
+      `0 === 0` → true → include `1` in `uniqueNumbers`.
+      
+    - **Iteration 2**: `num = 2`, `index = 1`, `arr.indexOf(2) = 1`  
+      `1 === 1` → true → include `2` in `uniqueNumbers`.
+      
+    - **Iteration 3**: `num = 2`, `index = 2`, `arr.indexOf(2) = 1`  
+      `1 === 2` → false → exclude this `2` from `uniqueNumbers`.
+      
+    - **Iteration 4**: `num = 3`, `index = 3`, `arr.indexOf(3) = 3`  
+      `3 === 3` → true → include `3` in `uniqueNumbers`.
+      
+    - **Iteration 5**: `num = 4`, `index = 4`, `arr.indexOf(4) = 4`  
+      `4 === 4` → true → include `4` in `uniqueNumbers`.
+      
+    - **Iteration 6**: `num = 4`, `index = 5`, `arr.indexOf(4) = 4`  
+      `4 === 5` → false → exclude this `4` from `uniqueNumbers`.
+      
+    - **Iteration 7**: `num = 5`, `index = 6`, `arr.indexOf(5) = 6`  
+      `6 === 6` → true → include `5` in `uniqueNumbers`.
+
+    ### Result:
+    After filtering, `uniqueNumbers` contains `[1, 2, 3, 4, 5]`, which is the original array without any duplicates.
 
 ### Key Points
 - `filter()` returns a new array containing only the elements that satisfy the condition specified in the callback function.
