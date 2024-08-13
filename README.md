@@ -5367,6 +5367,7 @@ console.log("Formatted Date:", formattedDate);
 **Explanation:**
 - `toLocaleDateString()` formats the date according to locale-specific conventions.
 - The options object allows customization of the output (e.g., full weekday name, numeric year, etc.).
+- ১ম Parameter **en-BD** দিলে Bangladesh Time Zone এ দেখাবে, কিন্তু English Font এ দেখাবে। আর **bn-BD** দিলে Bangla Font এ দেখাবে।
 
 **Use Case:**
 This method is ideal for presenting dates in a user-friendly and localized manner, especially in international applications.
