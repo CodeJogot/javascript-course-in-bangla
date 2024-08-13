@@ -6508,6 +6508,69 @@ myMap.forEach((value, key) => {
 **Explanation**:
 - The `forEach()` method iterates over each key-value pair in the Map and executes the provided function.
 
+## How To find the frequency of elements in an array using a JavaScript Map
+
+### Example:
+Let's say you have an array:
+
+```javascript
+const array = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4];
+```
+
+### Steps:
+
+1. **Create a Map:** Initialize an empty `Map` to store the frequency of each element.
+
+2. **Iterate over the Array:** Loop through each element in the array.
+
+3. **Update the Map:** For each element, check if it already exists in the `Map`. If it does, increment its value by 1. If it doesn’t, set its value to 1.
+
+4. **Result:** The `Map` will have the element as the key and its frequency as the value.
+
+### Implementation:
+
+```javascript
+const array = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4];
+
+// Create an empty Map
+const frequencyMap = new Map();
+
+// Iterate over the array
+array.forEach(element => {
+    if (frequencyMap.has(element)) {
+        // If the element exists in the map, increment its value
+        frequencyMap.set(element, frequencyMap.get(element) + 1);
+    } else {
+        // If the element doesn't exist in the map, add it with a value of 1
+        frequencyMap.set(element, 1);
+    }
+});
+
+// To display the frequency of elements
+frequencyMap.forEach((value, key) => {
+    console.log(`Element: ${key}, Frequency: ${value}`);
+});
+```
+
+### Explanation:
+- `frequencyMap.set(element, frequencyMap.get(element) + 1)` increments the count for the element if it already exists in the `Map`.
+- `frequencyMap.set(element, 1)` adds the element to the `Map` with an initial count of `1` if it doesn’t exist yet.
+
+### Output:
+For the array `[1, 2, 2, 3, 3, 3, 4, 4, 4, 4]`, the output will be:
+```
+Element: 1, Frequency: 1
+Element: 2, Frequency: 2
+Element: 3, Frequency: 3
+Element: 4, Frequency: 4
+```
+
+This approach effectively counts the frequency of each element using a `Map` in JavaScript.
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
 # Project-03: Simple Website Layout with Flexbox
 
 ### Difficulty: Easy (2/10)
