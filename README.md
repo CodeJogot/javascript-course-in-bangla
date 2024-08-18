@@ -16,7 +16,7 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 |                             [07](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                              |                                                            [JavaScript Array](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                                                            |     [Watch Now]()     |
 |                                             [08](#chapter-08-javascript-date-object-and-math-object)                                              |  [JavaScript Date and Math Object](#chapter-08-javascript-date-object-and-math-object)                                                                                                                                                                      |                       |
 |                                             [09](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                              |    [JavaScript Iterables, Sets, Set Methods, Map and Map Methods](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                                                                                                                                                      |                       |
-|                                             10                                              |                                                                                                                                                                        |                       |
+|                                             [10](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                                              |    [JavaScript Type Conversion, Destructuring, Bitwise Operations and Regular Expressions](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                                                                                                                                                                      |                       |
 |                                             11                                              |                                                                                                                                                                        |                       |
 |                                             12                                              |                                                                                                                                                                        |                       |
 |                                             13                                              |                                                                                                                                                                        |                       |
@@ -6570,6 +6570,813 @@ This approach effectively counts the frequency of each element using a `Map` in 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
+
+# Chapter-10: JavaScript Type Conversion, Destructuring, Bitwise Operations and Regular Expressions
+
+- [JavaScript Type Conversion](#javascript-type-conversion)
+- [JavaScript Destructuring](#javascript-destructuring)
+- [JavaScript Bitwise Operations](#javascript-bitwise-operations)
+- [JavaScript Regular Expressions](#javascript-regular-expressions)
+
+
+## JavaScript Type Conversion
+
+#### Table of Contents
+1. [What is Type Conversion?](#what-is-type-conversion)
+2. [Type Conversion Methods Overview](#type-conversion-methods-overview)
+3. [Detailed Explanation with Examples](#detailed-explanation-with-examples)
+   - [String()](#string)
+   - [Number()](#number)
+   - [Boolean()](#boolean)
+   - [parseInt()](#parseint)
+   - [parseFloat()](#parsefloat)
+   - [toString()](#tostring)
+   - [toFixed()](#tofixed)
+   - [toPrecision()](#toprecision)
+
+---
+
+### What is Type Conversion?
+
+Type conversion in JavaScript refers to the process of converting a value from one data type to another. This can happen automatically (known as type coercion) or explicitly through functions and methods. Common conversions include converting between strings, numbers, and booleans.
+
+##### Example:
+```javascript
+let num = 10;
+let str = String(num);  // Converts number to string "10"
+let bool = Boolean(num); // Converts number to boolean true
+```
+
+**Explanation**:
+- The `String()` function converts a number to a string, and the `Boolean()` function converts it to a boolean.
+
+---
+
+### Type Conversion Methods Overview
+
+| Method          | Description                                                      | Example                                   |
+|-----------------|------------------------------------------------------------------|-------------------------------------------|
+| `String(value)` | Converts a value to a string.                                     | `String(123)` ➜ `"123"`                   |
+| `Number(value)` | Converts a value to a number.                                     | `Number("123")` ➜ `123`                   |
+| `Boolean(value)`| Converts a value to a boolean.                                    | `Boolean(1)` ➜ `true`                     |
+| `parseInt(value)` | Parses a string and returns an integer.                          | `parseInt("123")` ➜ `123`                 |
+| `parseFloat(value)` | Parses a string and returns a floating-point number.            | `parseFloat("12.34")` ➜ `12.34`           |
+| `value.toString()` | Converts a value to a string using the `toString()` method.     | `(123).toString()` ➜ `"123"`              |
+| `value.toFixed(n)`  | Formats a number using fixed-point notation.                    | `(12.3456).toFixed(2)` ➜ `"12.35"`        |
+| `value.toPrecision(n)` | Formats a number to a specified precision.                   | `(12.3456).toPrecision(3)` ➜ `"12.3"`     |
+
+---
+
+### Detailed Explanation with Examples
+
+#### String()
+
+The `String()` function converts a given value to a string.
+
+##### Syntax:
+```javascript
+String(value);
+```
+
+##### Example:
+```javascript
+let num = 123;
+let str = String(num);
+
+console.log(str);        // Output: "123"
+console.log(typeof str); // Output: "string"
+```
+
+**Explanation**:
+- The `String()` function converts the number `123` to the string `"123"`.
+
+---
+
+#### Number()
+
+The `Number()` function converts a given value to a number. If the value cannot be converted, it returns `NaN` (Not-a-Number).
+
+##### Syntax:
+```javascript
+Number(value);
+```
+
+##### Example:
+```javascript
+let str = "123";
+let num = Number(str);
+
+console.log(num);        // Output: 123
+console.log(typeof num); // Output: "number"
+```
+
+**Explanation**:
+- The `Number()` function converts the string `"123"` to the number `123`.
+
+---
+
+#### Boolean()
+
+The `Boolean()` function converts a given value to a boolean. Values like `0`, `null`, `undefined`, `NaN`, `""` (empty string) are converted to `false`, while all other values are converted to `true`.
+
+##### Syntax:
+```javascript
+Boolean(value);
+```
+
+##### Example:
+```javascript
+let num = 0;
+let bool = Boolean(num);
+
+console.log(bool);       // Output: false
+console.log(typeof bool); // Output: "boolean"
+```
+
+**Explanation**:
+- The `Boolean()` function converts the number `0` to `false`.
+
+---
+
+#### parseInt()
+
+The `parseInt()` function parses a string and returns an integer of the specified radix (base). The function ignores leading whitespace and stops at the first character that cannot be converted to a number.
+
+##### Syntax:
+```javascript
+parseInt(string, radix);
+```
+
+##### Example:
+```javascript
+let str = "123px";
+let num = parseInt(str);
+
+console.log(num);        // Output: 123
+console.log(typeof num); // Output: "number"
+```
+
+**Explanation**:
+- The `parseInt()` function parses the string `"123px"` and returns the integer `123`.
+
+---
+
+#### parseFloat()
+
+The `parseFloat()` function parses a string and returns a floating-point number. Like `parseInt()`, it stops parsing at the first character that is not part of the number.
+
+##### Syntax:
+```javascript
+parseFloat(string);
+```
+
+##### Example:
+```javascript
+let str = "12.34px";
+let num = parseFloat(str);
+
+console.log(num);        // Output: 12.34
+console.log(typeof num); // Output: "number"
+```
+
+**Explanation**:
+- The `parseFloat()` function parses the string `"12.34px"` and returns the floating-point number `12.34`.
+
+---
+
+#### toString()
+
+The `toString()` method converts a number, boolean, or other data types to a string. This method is commonly used on numbers to convert them to strings.
+
+##### Syntax:
+```javascript
+value.toString();
+```
+
+##### Example:
+```javascript
+let num = 123;
+let str = num.toString();
+
+console.log(str);        // Output: "123"
+console.log(typeof str); // Output: "string"
+```
+
+**Explanation**:
+- The `toString()` method converts the number `123` to the string `"123"`.
+
+---
+
+#### toFixed()
+
+The `toFixed()` method formats a number using fixed-point notation. It returns the string representation of the number rounded to the specified number of decimal places.
+
+##### Syntax:
+```javascript
+value.toFixed(digits);
+```
+
+##### Example:
+```javascript
+let num = 12.3456;
+let str = num.toFixed(2);
+
+console.log(str);        // Output: "12.35"
+console.log(typeof str); // Output: "string"
+```
+
+**Explanation**:
+- The `toFixed()` method rounds the number `12.3456` to two decimal places, resulting in the string `"12.35"`.
+
+---
+
+#### toPrecision()
+
+The `toPrecision()` method formats a number to the specified precision (number of significant digits). It returns the string representation of the number.
+
+##### Syntax:
+```javascript
+value.toPrecision(precision);
+```
+
+##### Example:
+```javascript
+let num = 12.3456;
+let str = num.toPrecision(3);
+
+console.log(str);        // Output: "12.3"
+console.log(typeof str); // Output: "string"
+```
+
+**Explanation**:
+- The `toPrecision()` method formats the number `12.3456` to three significant digits, resulting in the string `"12.3"`.
+
+## JavaScript Destructuring
+
+#### Table of Contents
+1. [What is Destructuring?](#what-is-destructuring)
+2. [Array Destructuring](#array-destructuring)
+3. [Object Destructuring](#object-destructuring)
+4. [Nested Destructuring](#nested-destructuring)
+5. [Default Values](#default-values)
+6. [Swapping Variables](#swapping-variables)
+7. [Function Parameters Destructuring](#function-parameters-destructuring)
+
+---
+
+### What is Destructuring?
+
+Destructuring is a JavaScript feature that allows you to unpack values from arrays or properties from objects into distinct variables. It provides a concise way to extract data from complex structures, making code easier to read and maintain.
+
+##### Example:
+```javascript
+let [a, b] = [1, 2];
+let {x, y} = {x: 10, y: 20};
+
+console.log(a); // 1
+console.log(y); // 20
+```
+
+**Explanation**:
+- Array destructuring assigns values from an array to variables `a` and `b`.
+- Object destructuring assigns properties `x` and `y` from an object to corresponding variables.
+
+---
+
+### Array Destructuring
+
+Array destructuring allows you to unpack values from an array and assign them to variables.
+
+##### Syntax:
+```javascript
+let [variable1, variable2, ...] = array;
+```
+
+##### Example:
+```javascript
+let colors = ["red", "green", "blue"];
+let [firstColor, secondColor] = colors;
+
+console.log(firstColor);  // Output: "red"
+console.log(secondColor); // Output: "green"
+```
+
+**Explanation**:
+- The values `"red"` and `"green"` from the `colors` array are unpacked into the variables `firstColor` and `secondColor`.
+
+---
+
+### Object Destructuring
+
+Object destructuring allows you to extract properties from an object and assign them to variables with the same name as the properties.
+
+##### Syntax:
+```javascript
+let {property1, property2, ...} = object;
+```
+
+##### Example:
+```javascript
+let person = {name: "John", age: 30};
+let {name, age} = person;
+
+console.log(name); // Output: "John"
+console.log(age);  // Output: 30
+```
+
+**Explanation**:
+- The `name` and `age` properties from the `person` object are assigned to variables with the same names.
+
+---
+
+### Nested Destructuring
+
+You can use destructuring to extract values from nested arrays and objects.
+
+##### Syntax:
+```javascript
+let {property: {nestedProperty}} = object;
+```
+
+##### Example:
+```javascript
+let person = {
+  name: "John",
+  address: {
+    city: "New York",
+    zip: "10001"
+  }
+};
+
+let {address: {city}} = person;
+
+console.log(city); // Output: "New York"
+```
+
+**Explanation**:
+- The `city` property inside the nested `address` object is extracted and assigned to the `city` variable.
+
+---
+
+### Default Values
+
+You can assign default values to variables when the value unpacked from the array or object is `undefined`.
+
+##### Syntax:
+```javascript
+let [variable = defaultValue] = array;
+let {property = defaultValue} = object;
+```
+
+##### Example:
+```javascript
+let colors = ["red"];
+let [firstColor, secondColor = "green"] = colors;
+
+console.log(firstColor);  // Output: "red"
+console.log(secondColor); // Output: "green"
+```
+
+**Explanation**:
+- `secondColor` is assigned the default value `"green"` because the array does not provide a second element.
+
+---
+
+### Swapping Variables
+
+Destructuring can be used to swap the values of two variables without needing a temporary variable.
+
+##### Syntax:
+```javascript
+[variable1, variable2] = [variable2, variable1];
+```
+
+##### Example:
+```javascript
+let a = 1, b = 2;
+[a, b] = [b, a];
+
+console.log(a); // Output: 2
+console.log(b); // Output: 1
+```
+
+**Explanation**:
+- The values of `a` and `b` are swapped using array destructuring.
+
+---
+
+### Function Parameters Destructuring
+
+You can destructure objects directly in function parameters, which is useful for handling configuration objects.
+
+##### Syntax:
+```javascript
+function functionName({property1, property2}) {
+  // function body
+}
+```
+
+##### Example:
+```javascript
+function displayPerson({name, age}) {
+  console.log(`Name: ${name}, Age: ${age}`);
+}
+
+let person = {name: "John", age: 30};
+displayPerson(person); // Output: "Name: John, Age: 30"
+```
+
+**Explanation**:
+- The `name` and `age` properties are destructured directly in the function's parameter list, making it easier to work with the `person` object.
+
+## JavaScript Bitwise Operations
+
+#### Table of Contents
+1. [What are Bitwise Operations?](#what-are-bitwise-operations)
+2. [Bitwise Operators Overview](#bitwise-operators-overview)
+3. [Detailed Explanation with Examples](#detailed-explanation-with-examples)
+   - [Bitwise AND (`&`)](#bitwise-and)
+   - [Bitwise OR (`|`)](#bitwise-or)
+   - [Bitwise XOR (`^`)](#bitwise-xor)
+   - [Bitwise NOT (`~`)](#bitwise-not)
+   - [Bitwise Left Shift (`<<`)](#bitwise-left-shift)
+   - [Bitwise Right Shift (`>>`)](#bitwise-right-shift)
+   - [Bitwise Zero-Fill Right Shift (`>>>`)](#bitwise-zero-fill-right-shift)
+
+---
+
+### What are Bitwise Operations?
+
+Bitwise operations in JavaScript work on the binary representations of numbers. Instead of manipulating the numbers in their decimal form, these operations perform actions on each individual bit within the binary representation. Understanding bitwise operations is crucial for tasks that involve low-level data manipulation, such as working with binary data, performing encryption, or optimizing certain algorithms.
+
+##### Example:
+```javascript
+let a = 5;  // Binary: 0101
+let b = 3;  // Binary: 0011
+let result = a & b;  // Result: 0001 (1 in decimal)
+```
+
+**Explanation**:
+- The `&` operator performs a bitwise AND operation on the binary representations of `5` and `3`, resulting in `1`.
+
+---
+
+### Bitwise Operators Overview
+
+| Operator         | Description                                               | Example                       | Example Result |
+|------------------|-----------------------------------------------------------|-------------------------------|----------------|
+| `&` (AND)        | Performs a bitwise AND operation.                         | `5 & 3` ➜ `0001`              | `1`            |
+| `|` (OR)         | Performs a bitwise OR operation.                          | `5 | 3` ➜ `0111`              | `7`            |
+| `^` (XOR)        | Performs a bitwise XOR (exclusive OR) operation.          | `5 ^ 3` ➜ `0110`              | `6`            |
+| `~` (NOT)        | Performs a bitwise NOT operation (inverts bits).          | `~5` ➜ `...11111010`          | `-6`           |
+| `<<` (Left Shift)| Shifts bits to the left, filling with zeros.              | `5 << 1` ➜ `1010`             | `10`           |
+| `>>` (Right Shift) | Shifts bits to the right, keeping the sign bit.          | `5 >> 1` ➜ `0010`             | `2`            |
+| `>>>` (Zero-Fill Right Shift) | Shifts bits to the right, filling with zeros. | `5 >>> 1` ➜ `0010`            | `2`            |
+
+---
+
+### Detailed Explanation with Examples
+
+#### Bitwise AND (`&`)
+
+The bitwise AND operator compares each bit of its first operand to the corresponding bit of the second operand. If both bits are `1`, the corresponding result bit is set to `1`. Otherwise, the result bit is set to `0`.
+
+##### Syntax:
+```javascript
+result = a & b;
+```
+
+##### Example:
+```javascript
+let a = 5;  // Binary: 0101
+let b = 3;  // Binary: 0011
+let result = a & b;
+
+console.log(result); // Output: 1
+```
+
+**Explanation**:
+- `5 & 3` evaluates to `0001` in binary, which is `1` in decimal.
+
+---
+
+#### Bitwise OR (`|`)
+
+The bitwise OR operator compares each bit of its first operand to the corresponding bit of the second operand. If either of the bits is `1`, the corresponding result bit is set to `1`.
+
+##### Syntax:
+```javascript
+result = a | b;
+```
+
+##### Example:
+```javascript
+let a = 5;  // Binary: 0101
+let b = 3;  // Binary: 0011
+let result = a | b;
+
+console.log(result); // Output: 7
+```
+
+**Explanation**:
+- `5 | 3` evaluates to `0111` in binary, which is `7` in decimal.
+
+---
+
+#### Bitwise XOR (`^`)
+
+The bitwise XOR operator compares each bit of its first operand to the corresponding bit of the second operand. If the bits are different, the corresponding result bit is set to `1`. If the bits are the same, the result bit is set to `0`.
+
+##### Syntax:
+```javascript
+result = a ^ b;
+```
+
+##### Example:
+```javascript
+let a = 5;  // Binary: 0101
+let b = 3;  // Binary: 0011
+let result = a ^ b;
+
+console.log(result); // Output: 6
+```
+
+**Explanation**:
+- `5 ^ 3` evaluates to `0110` in binary, which is `6` in decimal.
+
+---
+
+#### Bitwise NOT (`~`)
+
+The bitwise NOT operator inverts each bit of its operand. This operation is equivalent to subtracting the number from `-1`.
+
+##### Syntax:
+```javascript
+result = ~a;
+```
+
+##### Example:
+```javascript
+let a = 5;  // Binary: 0101
+let result = ~a;
+
+console.log(result); // Output: -6
+```
+
+**Explanation**:
+- `~5` inverts the bits of `5` (`0101` in binary) to `...11111010`, which is `-6` in decimal (considering 32-bit signed integers).
+
+---
+
+#### Bitwise Left Shift (`<<`)
+
+The bitwise left shift operator shifts the bits of the first operand to the left by the number of positions specified by the second operand. The empty bits on the right are filled with zeros.
+
+##### Syntax:
+```javascript
+result = a << b;
+```
+
+##### Example:
+```javascript
+let a = 5;  // Binary: 0101
+let result = a << 1;
+
+console.log(result); // Output: 10
+```
+
+**Explanation**:
+- `5 << 1` shifts the bits of `5` to the left by one position, resulting in `1010` in binary, which is `10` in decimal.
+
+---
+
+#### Bitwise Right Shift (`>>`)
+
+The bitwise right shift operator shifts the bits of the first operand to the right by the number of positions specified by the second operand. The empty bits on the left are filled with the sign bit (the most significant bit), which preserves the sign of the number.
+
+##### Syntax:
+```javascript
+result = a >> b;
+```
+
+##### Example:
+```javascript
+let a = 5;  // Binary: 0101
+let result = a >> 1;
+
+console.log(result); // Output: 2
+```
+
+**Explanation**:
+- `5 >> 1` shifts the bits of `5` to the right by one position, resulting in `0010` in binary, which is `2` in decimal.
+
+---
+
+#### Bitwise Zero-Fill Right Shift (`>>>`)
+
+The bitwise zero-fill right shift operator shifts the bits of the first operand to the right by the number of positions specified by the second operand. The empty bits on the left are filled with zeros, regardless of the sign of the number.
+
+##### Syntax:
+```javascript
+result = a >>> b;
+```
+
+##### Example:
+```javascript
+let a = -5;  // Binary: ...11111011
+let result = a >>> 1;
+
+console.log(result); // Output: 2147483645
+```
+
+**Explanation**:
+- `-5 >>> 1` shifts the bits of `-5` to the right by one position, filling the leftmost bit with `0`. This results in `2147483645`, considering the 32-bit representation.
+
+### Converting Binary to Decimal in JavaScript
+
+To convert a binary number (as a string) to a decimal number in JavaScript, you can use the `parseInt()` function with a radix (base) of `2`.
+
+#### Example: Binary to Decimal Conversion
+```javascript
+let binary = "101"; // Binary string
+let decimal = parseInt(binary, 2); // Converts to decimal
+
+console.log(decimal); // Output: 5
+```
+
+- **Explanation**: 
+  - The `parseInt()` function takes two arguments: the string to be converted and the base (radix) of the number system being used. Here, `2` specifies that the number is in binary.
+
+### Converting Decimal to Binary in JavaScript
+
+To convert a decimal number to binary, you can use the `toString()` method with a radix of `2`.
+
+#### Example: Decimal to Binary Conversion
+```javascript
+let decimal = 5; // Decimal number
+let binary = decimal.toString(2); // Converts to binary string
+
+console.log(binary); // Output: "101"
+```
+
+- **Explanation**:
+  - The `toString()` method converts the number to a string representation in the specified base. Here, `2` specifies that the number should be converted to binary.
+
+### Summary
+
+- **Binary to Decimal**: Use `parseInt(binaryString, 2)`.
+- **Decimal to Binary**: Use `decimalNumber.toString(2)`.
+
+These methods make it easy to switch between binary and decimal representations in JavaScript.
+
+## JavaScript Regular Expressions
+
+#### Table of Contents
+1. [What are Regular Expressions?](#what-are-regular-expressions)
+2. [Creating a Regular Expression](#creating-a-regular-expression)
+3. [Using Regular Expressions](#using-regular-expressions)
+4. [Regular Expression Methods](#regular-expression-methods)
+5. [Regular Expression Patterns](#regular-expression-patterns)
+6. [Flags in Regular Expressions](#flags-in-regular-expressions)
+
+---
+
+### What are Regular Expressions?
+
+Regular expressions (regex or regexp) are sequences of characters that form search patterns. They can be used for various tasks such as searching, editing, and manipulating text. In JavaScript, regular expressions are objects used to match character combinations in strings.
+
+##### Example:
+```javascript
+let pattern = /hello/;
+let text = "hello world";
+let result = pattern.test(text);
+
+console.log(result); // Output: true
+```
+
+**Explanation**:
+- The pattern `/hello/` is a regular expression that searches for the substring `"hello"` in the given `text`.
+
+---
+
+### Creating a Regular Expression
+
+You can create a regular expression in two ways:
+
+1. **Literal Notation**: The pattern is enclosed between forward slashes (`/`).
+2. **Constructor Function**: The `RegExp` constructor is used to create the pattern.
+
+##### Syntax:
+```javascript
+// Literal notation
+let pattern = /pattern/;
+
+// Constructor function
+let pattern = new RegExp("pattern");
+```
+
+##### Example:
+```javascript
+let regex1 = /abc/;            // Literal notation
+let regex2 = new RegExp("abc"); // Constructor function
+
+console.log(regex1.test("abc")); // Output: true
+console.log(regex2.test("abc")); // Output: true
+```
+
+**Explanation**:
+- Both `regex1` and `regex2` match the string `"abc"`.
+
+---
+
+### Using Regular Expressions
+
+Regular expressions can be used in JavaScript with various string methods, such as `test()`, `exec()`, `match()`, `replace()`, `search()`, and `split()`.
+
+##### Example:
+```javascript
+let pattern = /world/;
+let text = "hello world";
+
+console.log(pattern.test(text)); // Output: true
+console.log(text.search(pattern)); // Output: 6
+console.log(text.match(pattern));  // Output: ["world"]
+console.log(text.replace(pattern, "everyone")); // Output: "hello everyone"
+```
+
+**Explanation**:
+- The `test()` method checks if the pattern is found in the string.
+- The `search()` method returns the index of the first match.
+- The `match()` method returns an array containing the matched substring.
+- The `replace()` method replaces the matched substring with a new string.
+
+---
+
+### Regular Expression Methods
+
+Here’s a table summarizing the commonly used regular expression methods in JavaScript:
+
+| Method          | Description                                             | Syntax                          | Example                                |
+|-----------------|---------------------------------------------------------|---------------------------------|----------------------------------------|
+| `test()`        | Tests for a match in a string and returns `true` or `false`. | `regex.test(string)`            | `/abc/.test("abc")` ➜ `true`           |
+| `exec()`        | Executes a search for a match and returns an array or `null`. | `regex.exec(string)`            | `/abc/.exec("abc")` ➜ `["abc"]`        |
+| `match()`       | Returns an array of matches or `null`.                  | `string.match(regex)`           | `"abcabc".match(/abc/g)` ➜ `["abc", "abc"]` |
+| `search()`      | Tests for a match and returns the index of the match or `-1`. | `string.search(regex)`          | `"abc".search(/b/)` ➜ `1`              |
+| `replace()`     | Returns a new string with some or all matches replaced. | `string.replace(regex, newText)`| `"abc".replace(/a/, "x")` ➜ `"xbc"`    |
+| `split()`       | Splits a string into an array of substrings.            | `string.split(regex)`           | `"a,b,c".split(/,/)` ➜ `["a", "b", "c"]` |
+
+---
+
+### Regular Expression Patterns
+
+Regular expressions can include various patterns and special characters to create complex search criteria.
+
+##### Common Patterns:
+
+| Pattern       | Description                                                     | Example                              |
+|---------------|-----------------------------------------------------------------|--------------------------------------|
+| `.`           | Matches any single character except newline.                    | `/a.c/` ➜ Matches `"abc"`, `"a1c"`   |
+| `\d`          | Matches any digit (equivalent to `[0-9]`).                      | `/\d/` ➜ Matches `"1"`, `"5"`        |
+| `\w`          | Matches any alphanumeric character (equivalent to `[a-zA-Z0-9_]`). | `/\w/` ➜ Matches `"a"`, `"1"`    |
+| `\s`          | Matches any whitespace character (spaces, tabs, line breaks).   | `/\s/` ➜ Matches `" "`               |
+| `\b`          | Matches a word boundary.                                        | `/\bword\b/` ➜ Matches `"word"`      |
+| `^`           | Matches the beginning of a string.                              | `/^abc/` ➜ Matches `"abc"` at the start |
+| `$`           | Matches the end of a string.                                    | `/abc$/` ➜ Matches `"abc"` at the end |
+| `*`           | Matches 0 or more occurrences of the preceding pattern.         | `/a*/` ➜ Matches `""`, `"a"`, `"aaa"`|
+| `+`           | Matches 1 or more occurrences of the preceding pattern.         | `/a+/` ➜ Matches `"a"`, `"aaa"`      |
+| `?`           | Matches 0 or 1 occurrence of the preceding pattern.             | `/a?/` ➜ Matches `""`, `"a"`         |
+| `{n}`         | Matches exactly `n` occurrences of the preceding pattern.       | `/a{3}/` ➜ Matches `"aaa"`           |
+| `{n,}`        | Matches `n` or more occurrences of the preceding pattern.       | `/a{2,}/` ➜ Matches `"aa"`, `"aaa"`  |
+| `{n,m}`       | Matches between `n` and `m` occurrences of the preceding pattern. | `/a{1,3}/` ➜ Matches `"a"`, `"aa"`, `"aaa"` |
+| `(pattern)`   | Captures and groups the matching pattern.                       | `/(abc)/` ➜ Matches `"abc"`          |
+| `|`           | Acts as an OR operator between patterns.                        | `/a|b/` ➜ Matches `"a"`, `"b"`       |
+| `\`           | Escapes a special character so it can be matched literally.     | `/\./` ➜ Matches `"."`               |
+
+---
+
+### Flags in Regular Expressions
+
+Flags modify how a regular expression is executed. They are placed after the closing slash in literal notation or as the second argument to the `RegExp` constructor.
+
+##### Common Flags:
+
+| Flag | Description                                                    | Example                                 |
+|------|----------------------------------------------------------------|-----------------------------------------|
+| `g`  | Global search (find all matches, not just the first).          | `/abc/g` ➜ Matches all occurrences of `"abc"` |
+| `i`  | Case-insensitive search.                                       | `/abc/i` ➜ Matches `"ABC"`, `"abc"`     |
+| `m`  | Multi-line search (treats beginning and end characters `^` and `$` as working across multiple lines). | `/^abc/m` ➜ Matches `"abc"` at the start of each line |
+| `u`  | Unicode; enables full Unicode matching.                        | `/\u{1F600}/u` ➜ Matches the Unicode character "😀" |
+| `s`  | DotAll; allows `.` to match newline characters as well.        | `/abc\s.def/s` ➜ Matches across lines where normally it wouldn't |
+
+
+
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
+
+
 
 # Project-03: Simple Website Layout with Flexbox
 
