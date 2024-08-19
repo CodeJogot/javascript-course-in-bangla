@@ -1,5 +1,11 @@
 
 function mainFunction() {
-  const array = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4];
+  let pattern = /a+/i;
+  let text = "bdsgd vsdfdAdsfbc";
+
+  console.log(pattern.test(text)); 
   
 }
+
+
+
