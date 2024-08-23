@@ -18,9 +18,9 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 |                                             [09](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                              |    [JavaScript Iterables, Sets, Set Methods, Map and Map Methods](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                                                                                                                                                      |                       |
 |                                             [10](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                                              |    [JavaScript Type Conversion, Destructuring, Bitwise Operations and Regular Expressions](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                                                                                                                                                                      |                       |
 |                                             [11](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                                              |    [JavaScript Errors, Use Strict, This Keyword and Arrow Function](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                                                                                                                                                                      |                       |
-|                                             12                                              |                                                                                                                                                                        |                       |
-|                                             13                                              |                                                                                                                                                                        |                       |
-|                                             14                                              |                                                                                                                                                                        |                       |
+|                                             [12](#chapter-12-javascript-classes-json-and-debugging)                                              |    [JavaScript Classes, JSON and Debugging](#chapter-12-javascript-classes-json-and-debugging)                                                                                                                                                                      |                       |
+|                                             [13](#chapter-13-javascript-object-in-detail)                                              |    [JavaScript Object in Detail](#chapter-13-javascript-object-in-detail)                                                                                                                                                                      |                       |
+|                                             [14](#chapter-14-javascript-functions-in-detail)                                              |    [JavaScript Functions in Detail](#chapter-14-javascript-functions-in-detail)                                                                                                                                                                      |                       |
 |                                             15                                              |                                                                                                                                                                        |                       |
 |                                             16                                              |                                                                                                                                                                        |                       |
 |                                             17                                              |                                                                                                                                                                        |                       |
@@ -8055,6 +8055,2747 @@ Arrow functions simplify the syntax for writing functions and provide a convenie
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
 
+# Chapter-12: JavaScript Classes, JSON and Debugging
+
+- [JavaScript Classes](#javascript-classes)
+- [JavaScript JSON](#javascript-json)
+- [JavaScript Debugging](#javascript-debugging)
+
+## JavaScript Classes
+
+#### Table of Contents
+1. [What are JavaScript Classes?](#what-are-javascript-classes)
+2. [Defining a Class](#defining-a-class)
+3. [Class Methods](#class-methods)
+4. [Constructor Method](#constructor-method)
+5. [Instance of a Class](#instance-of-a-class)
+6. [Static Methods](#static-methods)
+7. [Inheritance](#inheritance)
+8. [Getters and Setters](#getters-and-setters)
+9. [Private Fields and Methods](#private-fields-and-methods)
+10. [Class Method Table](#class-method-table)
+
+---
+
+### What are JavaScript Classes?
+
+JavaScript classes are a blueprint for creating objects. They encapsulate data and behavior associated with an object. Classes were introduced in ECMAScript 6 (ES6) and provide a more familiar syntax for working with objects and inheritance compared to the traditional prototype-based inheritance model.
+
+### Defining a Class
+
+A class is defined using the `class` keyword, followed by the class name and a block containing the constructor and methods.
+
+```javascript
+class Car {
+    constructor(brand, model) {
+        this.brand = brand;
+        this.model = model;
+    }
+
+    display() {
+        console.log(`${this.brand} ${this.model}`);
+    }
+}
+```
+
+### Class Methods
+
+Methods in a class are defined without the `function` keyword. These methods are associated with the class and can be called on instances of the class.
+
+```javascript
+class Car {
+    constructor(brand, model) {
+        this.brand = brand;
+        this.model = model;
+    }
+
+    display() {
+        console.log(`${this.brand} ${this.model}`);
+    }
+}
+
+let myCar = new Car("Toyota", "Corolla");
+myCar.display(); // Outputs: Toyota Corolla
+```
+
+### Constructor Method
+
+The `constructor` method is a special method for creating and initializing an object created with a class. It is automatically called when a new instance of the class is created.
+
+```javascript
+class Car {
+    constructor(brand, model) {
+        this.brand = brand;
+        this.model = model;
+    }
+}
+```
+
+### Instance of a Class
+
+An instance is a specific realization of a class. You can create an instance of a class using the `new` keyword.
+
+```javascript
+let myCar = new Car("Toyota", "Corolla");
+```
+
+### Static Methods
+
+Static methods are defined using the `static` keyword and are called on the class itself, not on instances of the class.
+
+```javascript
+class Car {
+    static honk() {
+        console.log("Beep beep!");
+    }
+}
+
+Car.honk(); // Outputs: Beep beep!
+```
+
+### Inheritance
+
+Inheritance allows one class to extend another, inheriting all of its properties and methods. The `extends` keyword is used to create a subclass.
+
+```javascript
+class ElectricCar extends Car {
+    constructor(brand, model, batteryCapacity) {
+        super(brand, model);
+        this.batteryCapacity = batteryCapacity;
+    }
+
+    display() {
+        console.log(`${this.brand} ${this.model} with a battery capacity of ${this.batteryCapacity}`);
+    }
+}
+
+let myTesla = new ElectricCar("Tesla", "Model 3", "75 kWh");
+myTesla.display(); // Outputs: Tesla Model 3 with a battery capacity of 75 kWh
+```
+
+### Getters and Setters
+
+Getters and setters allow you to define methods that get and set the values of an object's properties.
+
+```javascript
+class Car {
+    constructor(brand, model) {
+        this._brand = brand;
+        this._model = model;
+    }
+
+    get brand() {
+        return this._brand;
+    }
+
+    set brand(newBrand) {
+        this._brand = newBrand;
+    }
+}
+
+let myCar = new Car("Toyota", "Corolla");
+console.log(myCar.brand); // Outputs: Toyota
+myCar.brand = "Honda";
+console.log(myCar.brand); // Outputs: Honda
+```
+
+### Private Fields and Methods
+
+Private fields and methods are declared using the `#` syntax and are not accessible outside the class.
+
+```javascript
+class Car {
+    #brand;
+    constructor(brand, model) {
+        this.#brand = brand;
+        this.model = model;
+    }
+
+    #displayBrand() {
+        console.log(this.#brand);
+    }
+}
+
+let myCar = new Car("Toyota", "Corolla");
+// myCar.#brand; // Error: Private field '#brand' must be declared in an enclosing class
+// myCar.#displayBrand(); // Error: Private method '#displayBrand' must be declared in an enclosing class
+```
+
+---
+
+### Class Method Table
+
+| Method Type       | Syntax                                     | Description                                                | Example                          |
+|-------------------|--------------------------------------------|------------------------------------------------------------|----------------------------------|
+| **Constructor**   | `constructor(parameters) { ... }`          | Initializes a new instance of the class.                   | `constructor(brand, model) { }` |
+| **Instance Method** | `methodName(parameters) { ... }`         | Defines a method available on all instances of the class.  | `display() { }`                 |
+| **Static Method** | `static methodName(parameters) { ... }`    | Defines a method on the class itself, not on instances.    | `static honk() { }`             |
+| **Getter**        | `get propertyName() { ... }`               | Defines a getter for accessing a property.                 | `get brand() { }`               |
+| **Setter**        | `set propertyName(value) { ... }`          | Defines a setter for updating a property.                  | `set brand(newBrand) { }`       |
+| **Private Field** | `#fieldName`                               | Declares a private field within the class.                 | `#brand;`                       |
+| **Private Method**| `#methodName(parameters) { ... }`          | Declares a private method within the class.                | `#displayBrand() { }`           |
+
+## JavaScript JSON
+
+#### Table of Contents
+1. [What is JSON?](#what-is-json)
+2. [JSON Syntax](#json-syntax)
+3. [Converting JSON to JavaScript Object](#converting-json-to-javascript-object)
+4. [Converting JavaScript Object to JSON](#converting-javascript-object-to-json)
+5. [Accessing Data in JSON](#accessing-data-in-json)
+6. [Modifying JSON Data](#modifying-json-data)
+7. [Common Methods for JSON Handling](#common-methods-for-json-handling)
+8. [JSON Method Table](#json-method-table)
+9. [Examples of JSON Usage](#examples-of-json-usage)
+
+---
+
+### What is JSON?
+
+JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is often used for transmitting data in web applications between a server and a client.
+
+JSON is text-based and is derived from JavaScript object syntax, but it is language-independent, meaning it can be used with many different programming languages.
+
+---
+
+### JSON Syntax
+
+JSON data is written as key-value pairs, where the keys are strings and the values can be strings, numbers, arrays, objects, or booleans.
+
+```json
+{
+  "name": "John",
+  "age": 30,
+  "isStudent": false,
+  "courses": ["Math", "Science"],
+  "address": {
+    "city": "New York",
+    "zip": "10001"
+  }
+}
+```
+
+- **Strings** are enclosed in double quotes.
+- **Numbers** are written without quotes.
+- **Booleans** are `true` or `false`.
+- **Arrays** are enclosed in square brackets `[]`.
+- **Objects** are enclosed in curly braces `{}`.
+
+---
+
+### Converting JSON to JavaScript Object
+
+To convert a JSON string into a JavaScript object, use the `JSON.parse()` method.
+
+```javascript
+let jsonString = '{"name":"John", "age":30, "isStudent":false}';
+let jsObject = JSON.parse(jsonString);
+
+console.log(jsObject.name); // Outputs: John
+```
+
+### Converting JavaScript Object to JSON
+
+To convert a JavaScript object into a JSON string, use the `JSON.stringify()` method.
+
+```javascript
+let jsObject = { name: "John", age: 30, isStudent: false };
+let jsonString = JSON.stringify(jsObject);
+
+console.log(jsonString); // Outputs: {"name":"John","age":30,"isStudent":false}
+```
+
+### Accessing Data in JSON
+
+After converting JSON to a JavaScript object, you can access the data using dot notation or bracket notation.
+
+```javascript
+let jsonString = '{"name":"John", "age":30, "isStudent":false}';
+let jsObject = JSON.parse(jsonString);
+
+console.log(jsObject.name); // Outputs: John
+console.log(jsObject["age"]); // Outputs: 30
+```
+
+### Modifying JSON Data
+
+To modify data in JSON, first convert it to a JavaScript object, then update the desired properties, and finally convert it back to a JSON string.
+
+```javascript
+let jsonString = '{"name":"John", "age":30, "isStudent":false}';
+let jsObject = JSON.parse(jsonString);
+
+jsObject.age = 31;
+
+let updatedJsonString = JSON.stringify(jsObject);
+console.log(updatedJsonString); // Outputs: {"name":"John","age":31,"isStudent":false}
+```
+
+---
+
+### Common Methods for JSON Handling
+
+#### JSON.parse()
+
+Converts a JSON string into a JavaScript object.
+
+```javascript
+let jsonString = '{"name":"John", "age":30}';
+let jsObject = JSON.parse(jsonString);
+```
+
+#### JSON.stringify()
+
+Converts a JavaScript object into a JSON string.
+
+```javascript
+let jsObject = { name: "John", age: 30 };
+let jsonString = JSON.stringify(jsObject);
+```
+
+---
+
+### JSON Method Table
+
+| Method            | Description                                       | Example Code                                                   | Output/Result                                       |
+|-------------------|---------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------|
+| **JSON.parse()**  | Converts JSON string to JavaScript object.        | `JSON.parse('{"name":"John"}')`                                | `{ name: "John" }`                                  |
+| **JSON.stringify()** | Converts JavaScript object to JSON string.     | `JSON.stringify({ name: "John" })`                             | `'{"name":"John"}'`                                 |
+
+---
+
+### Examples of JSON Usage
+
+#### Example 1: Storing User Data
+
+```javascript
+let user = {
+    name: "Alice",
+    age: 25,
+    hobbies: ["reading", "gaming"],
+    address: {
+        city: "Los Angeles",
+        state: "CA"
+    }
+};
+
+let jsonString = JSON.stringify(user);
+console.log(jsonString);
+
+// Convert back to JavaScript object
+let userObject = JSON.parse(jsonString);
+console.log(userObject.name); // Outputs: Alice
+```
+
+#### Example 2: Sending Data to a Server
+
+When sending data to a server via an API, you typically convert your data to JSON:
+
+```javascript
+let userData = {
+    name: "Bob",
+    age: 28
+};
+
+fetch("https://example.com/api/user", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify(userData)
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error("Error:", error));
+```
+
+In this example, `userData` is converted to a JSON string before being sent to the server.
+
+---
+
+JSON is an essential part of working with data in JavaScript, especially in web development. Understanding how to convert between JSON and JavaScript objects, and how to manipulate and access JSON data, is crucial for building dynamic applications.
+
+## JavaScript Debugging
+
+#### Table of Contents
+1. [What is JavaScript Debugging?](#what-is-javascript-debugging)
+2. [Common Debugging Techniques](#common-debugging-techniques)
+   - [Using `console.log()`](#using-consolelog)
+   - [Using `debugger` Keyword](#using-debugger-keyword)
+   - [Browser Developer Tools](#browser-developer-tools)
+3. [Setting Breakpoints](#setting-breakpoints)
+4. [Watching Variables](#watching-variables)
+5. [Handling Exceptions](#handling-exceptions)
+6. [Debugging Best Practices](#debugging-best-practices)
+7. [JavaScript Debugging Tool Table](#javascript-debugging-tool-table)
+8. [Examples of Debugging Scenarios](#examples-of-debugging-scenarios)
+
+---
+
+### What is JavaScript Debugging?
+
+JavaScript debugging is the process of identifying and fixing errors or bugs in your JavaScript code. Debugging helps ensure that your code behaves as expected and is free from issues that could lead to incorrect behavior or crashes. It involves using various tools and techniques to locate and resolve issues efficiently.
+
+---
+
+### Common Debugging Techniques
+
+#### Using `console.log()`
+
+One of the simplest ways to debug JavaScript code is by using the `console.log()` function. This method allows you to output variable values, messages, and more to the browser's console, helping you track the flow of your code and identify where things might be going wrong.
+
+```javascript
+let x = 5;
+let y = 10;
+console.log("x:", x); // Outputs: x: 5
+console.log("y:", y); // Outputs: y: 10
+console.log("Sum:", x + y); // Outputs: Sum: 15
+```
+
+#### Using `debugger` Keyword
+
+The `debugger` keyword is another powerful tool for debugging. When the browser encounters a `debugger` statement, it pauses execution, allowing you to inspect variables, step through code, and understand the program's flow.
+
+```javascript
+function calculateSum(a, b) {
+    debugger; // The execution will pause here
+    return a + b;
+}
+
+let result = calculateSum(5, 10);
+console.log(result); // Outputs: 15
+```
+
+#### Browser Developer Tools
+
+Modern browsers like Chrome, Firefox, and Edge offer robust developer tools for debugging. These tools provide features like inspecting elements, viewing the console, setting breakpoints, and stepping through code line by line.
+
+- **Chrome DevTools**: Access by pressing `F12` or `Ctrl+Shift+I`.
+- **Firefox Developer Tools**: Access by pressing `F12` or `Ctrl+Shift+I`.
+- **Edge DevTools**: Access by pressing `F12` or `Ctrl+Shift+I`.
+
+---
+
+### Setting Breakpoints
+
+Breakpoints allow you to pause the execution of your code at a specific line, enabling you to inspect the current state of your variables and step through your code one line at a time.
+
+#### How to Set Breakpoints:
+1. Open your browser's developer tools.
+2. Go to the "Sources" tab (or "Debugger" in Firefox).
+3. Navigate to the desired script file.
+4. Click on the line number where you want to set a breakpoint.
+
+---
+
+### Watching Variables
+
+Watching variables allows you to monitor the value of specific variables as your code executes. You can add variables to the "Watch" list in your developer tools, and their values will update in real-time as you step through your code.
+
+#### How to Watch Variables:
+1. Set a breakpoint in your code.
+2. Open the "Watch" section in the developer tools.
+3. Add variables to the watch list to monitor their values.
+
+---
+
+### Handling Exceptions
+
+Handling exceptions is crucial to prevent your code from crashing unexpectedly. You can use `try...catch` blocks to catch and handle errors, allowing your code to continue running smoothly.
+
+```javascript
+try {
+    let result = riskyOperation();
+    console.log(result);
+} catch (error) {
+    console.error("An error occurred:", error.message);
+}
+```
+
+---
+
+### Debugging Best Practices
+
+- **Isolate the Problem**: Break down your code into smaller parts and test them individually to isolate where the issue might be.
+- **Use Descriptive Console Messages**: When using `console.log()`, include clear and descriptive messages to understand the output better.
+- **Check Browser Compatibility**: Ensure your code is compatible with the browsers your users will be using.
+- **Avoid `console.log()` in Production**: Remove or disable `console.log()` statements before deploying your code to production to avoid cluttering the console.
+
+---
+
+### JavaScript Debugging Tool Table
+
+| Debugging Tool/Technique | Description                                           | Example Code/Usage                                    | Output/Result                                             |
+|--------------------------|-------------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------|
+| **`console.log()`**       | Outputs variable values or messages to the console.   | `console.log("Value:", x);`                            | `Value: 5`                                                |
+| **`debugger`**            | Pauses code execution at the point where it's placed. | `debugger;`                                            | Execution pauses, allowing for inspection.                |
+| **Breakpoints**           | Stops execution at a specific line in your code.      | Set via Developer Tools                                | Execution pauses at the set line, allowing step-by-step execution. |
+| **Watch Variables**       | Monitors the value of specific variables.             | Add in Developer Tools                                 | Real-time updates of variable values during execution.    |
+| **`try...catch`**         | Handles exceptions to prevent crashes.                | `try { /* code */ } catch (error) { /* handle error */ }` | Catches and handles errors gracefully.                     |
+
+---
+
+### Examples of Debugging Scenarios
+
+#### Example 1: Debugging a Function Not Returning Expected Results
+
+```javascript
+function multiply(a, b) {
+    console.log("a:", a, "b:", b); // Checking inputs
+    let result = a * b;
+    console.log("Result:", result); // Checking output
+    return result;
+}
+
+multiply(5, "2"); // Outputs: a: 5 b: 2, Result: 10
+```
+
+In this example, `console.log()` is used to verify that the function receives the correct inputs and outputs the correct result.
+
+#### Example 2: Using `debugger` to Pause and Inspect Code
+
+```javascript
+function divide(a, b) {
+    debugger; // Execution will pause here
+    return a / b;
+}
+
+let result = divide(10, 2);
+console.log(result); // Outputs: 5
+```
+
+Here, the `debugger` keyword is used to pause execution before the division operation, allowing you to inspect the state of your program at that point.
+
+---
+
+Debugging is an essential skill for any JavaScript developer. By mastering tools like `console.log()`, breakpoints, and browser developer tools, you can efficiently find and fix errors in your code, leading to more robust and reliable applications.
+
+
+
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
+# Chapter-13: JavaScript Object in Detail
+
+- [JavaScript Object Definition](#javascript-object-definition)
+- [JavaScript Object Prototypes](#javascript-object-prototypes)
+- [JavaScript Object Methods](#javascript-object-methods)
+- [JavaScript Object Properties](#javascript-object-properties)
+- [JavaScript Object Accessors](#javascript-object-accessors)
+- [JavaScript Object Protection](#javascript-object-protection)
+
+
+## JavaScript Object Definition
+
+#### Table of Contents
+1. [What is a JavaScript Object?](#what-is-a-javascript-object)
+2. [Creating JavaScript Objects](#creating-javascript-objects)
+   - [Object Literals](#object-literals)
+   - [Using the `new Object()` Syntax](#using-the-new-object-syntax)
+   - [Using Object Constructors](#using-object-constructors)
+3. [Accessing Object Properties](#accessing-object-properties)
+   - [Dot Notation](#dot-notation)
+   - [Bracket Notation](#bracket-notation)
+4. [Adding, Modifying, and Deleting Properties](#adding-modifying-and-deleting-properties)
+5. [JavaScript Object Methods](#javascript-object-methods)
+6. [JavaScript Object Method Table](#javascript-object-method-table)
+7. [Examples of Object Usage](#examples-of-object-usage)
+
+---
+
+### What is a JavaScript Object?
+
+A JavaScript object is a standalone entity that holds properties and values. Properties are the values associated with an object, and these properties can be of any data type, including other objects, functions, or arrays. In essence, an object is a collection of key-value pairs where the keys are strings (referred to as properties) and the values can be any type of data.
+
+JavaScript objects are fundamental building blocks used to store and manage data in a structured way. They are similar to real-world objects, where properties define the characteristics of the object.
+
+---
+
+### Creating JavaScript Objects
+
+#### Object Literals
+
+The most straightforward way to create an object in JavaScript is by using object literals. You can define an object by specifying its properties and values within curly braces `{}`.
+
+```javascript
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2021
+};
+```
+
+#### Using the `new Object()` Syntax
+
+Another approach to creating an object is using the `new Object()` constructor. This method is less common but still valid.
+
+```javascript
+let car = new Object();
+car.brand = "Toyota";
+car.model = "Corolla";
+car.year = 2021;
+```
+
+#### Using Object Constructors
+
+You can define a custom constructor function to create objects with a specific structure. This method allows you to create multiple objects with similar properties.
+
+```javascript
+function Car(brand, model, year) {
+    this.brand = brand;
+    this.model = model;
+    this.year = year;
+}
+
+let myCar = new Car("Toyota", "Corolla", 2021);
+```
+
+---
+
+### Accessing Object Properties
+
+You can access properties of a JavaScript object using two main methods: dot notation and bracket notation.
+
+#### Dot Notation
+
+Dot notation is the most common way to access properties. It involves using a period `.` followed by the property name.
+
+```javascript
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2021
+};
+
+console.log(car.brand); // Outputs: Toyota
+```
+
+#### Bracket Notation
+
+Bracket notation is useful when the property name is dynamic or not a valid JavaScript identifier (e.g., contains spaces or starts with a number).
+
+```javascript
+let car = {
+    "car brand": "Toyota",
+    model: "Corolla",
+    year: 2021
+};
+
+console.log(car["car brand"]); // Outputs: Toyota
+```
+
+---
+
+### Adding, Modifying, and Deleting Properties
+
+You can add new properties, modify existing ones, or delete properties from an object.
+
+```javascript
+let car = {
+    brand: "Toyota",
+    model: "Corolla"
+};
+
+// Adding a new property
+car.year = 2021;
+
+// Modifying an existing property
+car.model = "Camry";
+
+// Deleting a property
+delete car.year;
+
+console.log(car); // Outputs: { brand: "Toyota", model: "Camry" }
+```
+
+---
+
+### JavaScript Object Methods
+
+JavaScript objects can have methods, which are functions stored as properties within the object. These methods can perform actions using the object's data.
+
+```javascript
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2021,
+    displayInfo: function() {
+        console.log(this.brand + " " + this.model + " (" + this.year + ")");
+    }
+};
+
+car.displayInfo(); // Outputs: Toyota Corolla (2021)
+```
+
+---
+
+### JavaScript Object Method Table
+
+| Method                | Description                                            | Example Code                                                  | Output/Result                                       |
+|-----------------------|--------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------|
+| **`Object.assign()`** | Copies properties from one or more source objects to a target object. | `Object.assign(target, source);`                               | Combines properties of source into target.          |
+| **`Object.keys()`**   | Returns an array of a given object's own property names. | `Object.keys(car);`                                            | `["brand", "model", "year"]`                        |
+| **`Object.values()`** | Returns an array of a given object's own property values. | `Object.values(car);`                                          | `["Toyota", "Corolla", 2021]`                       |
+| **`Object.entries()`**| Returns an array of a given object's own key-value pairs. | `Object.entries(car);`                                         | `[["brand", "Toyota"], ["model", "Corolla"], ["year", 2021]]` |
+| **`Object.freeze()`** | Freezes an object, preventing new properties from being added or existing properties from being modified or deleted. | `Object.freeze(car);`                                          | The `car` object is now immutable.                  |
+| **`Object.seal()`**   | Seals an object, preventing new properties from being added, but allowing modification of existing properties. | `Object.seal(car);`                                            | New properties can't be added, but existing ones can be modified. |
+
+---
+
+### Examples of Object Usage
+
+#### Example 1: Defining a Person Object
+
+```javascript
+let person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 25,
+    greet: function() {
+        console.log("Hello, my name is " + this.firstName + " " + this.lastName);
+    }
+};
+
+person.greet(); // Outputs: Hello, my name is John Doe
+```
+
+#### Example 2: Creating a Method to Calculate Age
+
+```javascript
+let person = {
+    firstName: "John",
+    lastName: "Doe",
+    birthYear: 1995,
+    calculateAge: function() {
+        let currentYear = new Date().getFullYear();
+        return currentYear - this.birthYear;
+    }
+};
+
+console.log(person.calculateAge()); // Outputs the current age based on birthYear
+```
+
+JavaScript objects are versatile and powerful, enabling developers to structure and manipulate data efficiently. Understanding the fundamentals of objects, including creation, property management, and method utilization, is crucial for mastering JavaScript.
+
+
+## JavaScript Object Prototypes
+
+#### Table of Contents
+1. [What is a JavaScript Prototype?](#what-is-a-javascript-prototype)
+2. [Prototype Chain](#prototype-chain)
+3. [Understanding `__proto__` and `prototype`](#understanding-__proto__-and-prototype)
+4. [Adding Properties and Methods to Prototypes](#adding-properties-and-methods-to-prototypes)
+5. [Prototype Inheritance](#prototype-inheritance)
+6. [JavaScript Prototype Method Table](#javascript-prototype-method-table)
+7. [Examples of Prototype Usage](#examples-of-prototype-usage)
+
+---
+
+### What is a JavaScript Prototype?
+
+In JavaScript, every object has a prototype. A prototype is also an object, and it acts as a template that other objects can inherit properties and methods from. When you create an object, JavaScript automatically links it to a prototype object. This allows for shared properties and methods among objects without having to define them directly within each object.
+
+JavaScript uses prototypes to implement inheritance, which is a way for an object to access properties and methods from another object. This mechanism is central to how JavaScript handles object-oriented programming.
+
+---
+
+### Prototype Chain
+
+The prototype chain is a series of links between objects where one object’s prototype is linked to another object’s prototype. This chain continues until it reaches `null`, which signifies the end of the chain.
+
+When you attempt to access a property or method on an object, JavaScript first checks if the property or method exists on that object. If it doesn't, JavaScript checks the object's prototype, and if it's not found there, it continues up the prototype chain until it either finds the property or method or reaches the end of the chain (`null`).
+
+```javascript
+let car = {
+    brand: "Toyota"
+};
+
+console.log(car.toString()); // Outputs: [object Object]
+```
+
+In the example above, the `toString` method isn't directly defined in the `car` object, but it is found in the `Object.prototype`, which is part of the prototype chain.
+
+---
+
+### Understanding `__proto__` and `prototype`
+
+- **`__proto__`:** Every object in JavaScript has a `__proto__` property that points to the prototype object it was inherited from. This property is often used for accessing the prototype directly.
+
+- **`prototype`:** The `prototype` property is associated with functions, specifically constructor functions. When you create an object using a constructor function, that object's `__proto__` is set to the constructor function's `prototype`.
+
+```javascript
+function Car(brand, model) {
+    this.brand = brand;
+    this.model = model;
+}
+
+let myCar = new Car("Toyota", "Corolla");
+
+console.log(myCar.__proto__ === Car.prototype); // Outputs: true
+```
+
+---
+
+### Adding Properties and Methods to Prototypes
+
+You can add properties and methods to an object's prototype even after the object has been created. This allows all instances of that object to share these properties and methods.
+
+```javascript
+function Car(brand, model) {
+    this.brand = brand;
+    this.model = model;
+}
+
+// Adding a method to the prototype
+Car.prototype.displayInfo = function() {
+    console.log(this.brand + " " + this.model);
+};
+
+let myCar = new Car("Toyota", "Corolla");
+myCar.displayInfo(); // Outputs: Toyota Corolla
+```
+
+---
+
+### Prototype Inheritance
+
+JavaScript objects can inherit properties and methods from other objects through prototypes. This is known as prototype inheritance. It allows one object to acquire the properties and methods of another object.
+
+```javascript
+function Vehicle(type) {
+    this.type = type;
+}
+
+Vehicle.prototype.start = function() {
+    console.log("Starting the " + this.type);
+};
+
+function Car(brand, model) {
+    Vehicle.call(this, "car");
+    this.brand = brand;
+    this.model = model;
+}
+
+Car.prototype = Object.create(Vehicle.prototype);
+Car.prototype.constructor = Car;
+
+let myCar = new Car("Toyota", "Corolla");
+myCar.start(); // Outputs: Starting the car
+```
+
+In this example, the `Car` object inherits the `start` method from the `Vehicle` object.
+
+---
+
+### JavaScript Prototype Method Table
+
+| Method                | Description                                            | Example Code                                                  | Output/Result                                       |
+|-----------------------|--------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------|
+| **`Object.getPrototypeOf()`** | Returns the prototype of the specified object. | `Object.getPrototypeOf(myCar);`                                | Returns the prototype object of `myCar`.            |
+| **`Object.setPrototypeOf()`** | Sets the prototype (i.e., `__proto__`) of a specified object to another object or null. | `Object.setPrototypeOf(obj, prototypeObj);`                    | Changes the prototype of `obj`.                     |
+| **`Object.create()`** | Creates a new object with the specified prototype object and properties. | `Object.create(proto, props);`                                  | Creates a new object that inherits from `proto`.    |
+| **`hasOwnProperty()`** | Returns a boolean indicating whether the object has the specified property as its own property (not inherited). | `obj.hasOwnProperty('prop');`                                  | `true` if `obj` has `prop` as its own property.     |
+| **`isPrototypeOf()`**  | Checks if an object exists in another object's prototype chain. | `prototypeObj.isPrototypeOf(obj);`                             | `true` if `prototypeObj` is in `obj`'s prototype chain. |
+
+---
+
+### Examples of Prototype Usage
+
+#### Example 1: Inheriting Methods from a Prototype
+
+```javascript
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+Person.prototype.greet = function() {
+    console.log("Hello, my name is " + this.name);
+};
+
+let john = new Person("John", 30);
+john.greet(); // Outputs: Hello, my name is John
+```
+
+#### Example 2: Modifying Prototypes
+
+```javascript
+function Animal(species) {
+    this.species = species;
+}
+
+Animal.prototype.speak = function() {
+    console.log(this.species + " makes a sound");
+};
+
+let dog = new Animal("Dog");
+dog.speak(); // Outputs: Dog makes a sound
+
+// Adding a new method to the prototype
+Animal.prototype.eat = function() {
+    console.log(this.species + " is eating");
+};
+
+dog.eat(); // Outputs: Dog is eating
+```
+
+In this example, the `Animal` object is extended with a new method `eat`, which is then available to all instances of `Animal`.
+
+---
+
+JavaScript prototypes are a powerful feature that allows for inheritance and sharing of methods and properties across objects. By understanding how to work with prototypes, you can create more efficient and organized code, leveraging JavaScript's object-oriented capabilities to their fullest.
+
+## JavaScript Object Methods
+
+#### Table of Contents
+1. [What are JavaScript Object Methods?](#what-are-javascript-object-methods)
+2. [Common JavaScript Object Methods](#common-javascript-object-methods)
+3. [JavaScript Object Method Table](#javascript-object-method-table)
+4. [Examples of Using Object Methods](#examples-of-using-object-methods)
+
+---
+
+### What are JavaScript Object Methods?
+
+JavaScript object methods are functions that are properties of an object. These methods are used to perform actions on the data within the object. JavaScript provides built-in object methods to manipulate, interact with, and access the properties and values of objects. By using these methods, developers can effectively manage and manipulate objects in JavaScript.
+
+---
+
+### Common JavaScript Object Methods
+
+Here are some of the most commonly used JavaScript object methods:
+
+- **`Object.keys()`**: Returns an array containing the names of all the object’s own enumerable properties.
+- **`Object.values()`**: Returns an array containing the values of all the object’s own enumerable properties.
+- **`Object.entries()`**: Returns an array of the object’s own enumerable properties in key-value pair format.
+- **`Object.assign()`**: Copies all enumerable properties from one or more source objects to a target object.
+- **`Object.freeze()`**: Freezes an object, preventing new properties from being added, existing properties from being removed, or any changes to property values.
+- **`Object.seal()`**: Seals an object, preventing new properties from being added and making existing properties non-configurable.
+- **`Object.create()`**: Creates a new object with a specified prototype object and properties.
+- **`Object.hasOwnProperty()`**: Returns a boolean indicating whether the object has the specified property as its own property.
+- **`Object.is()`**: Compares two values to determine if they are the same.
+- **`Object.defineProperty()`**: Adds a new property directly to an object or modifies an existing property on an object.
+- **`Object.defineProperties()`**: Adds multiple properties directly to an object or modifies existing properties on an object.
+
+---
+
+### JavaScript Object Method Table
+
+| Method                     | Description                                                                                   | Example Code                                                   | Output/Result                                       |
+|----------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------|
+| **`Object.keys()`**         | Returns an array of the object’s own enumerable property names.                               | ```javascript let obj = {a: 1, b: 2}; Object.keys(obj);```      | `["a", "b"]`                                        |
+| **`Object.values()`**       | Returns an array of the object’s own enumerable property values.                              | ```javascript let obj = {a: 1, b: 2}; Object.values(obj);```    | `[1, 2]`                                            |
+| **`Object.entries()`**      | Returns an array of the object’s own enumerable key-value pairs.                              | ```javascript let obj = {a: 1, b: 2}; Object.entries(obj);```   | `[['a', 1], ['b', 2]]`                              |
+| **`Object.assign()`**       | Copies the values of all enumerable own properties from one or more source objects to a target object. | ```javascript let obj1 = {a: 1}; let obj2 = {b: 2}; Object.assign(obj1, obj2);``` | `{a: 1, b: 2}`                                      |
+| **`Object.freeze()`**       | Freezes the object, preventing any changes to it.                                             | ```javascript let obj = {a: 1}; Object.freeze(obj); obj.a = 2;``` | `{a: 1}`                                           |
+| **`Object.seal()`**         | Seals the object, preventing new properties from being added but allowing modification of existing properties. | ```javascript let obj = {a: 1}; Object.seal(obj); obj.b = 2;``` | `{a: 1}`                                           |
+| **`Object.create()`**       | Creates a new object with the specified prototype object and properties.                      | ```javascript let proto = {a: 1}; let obj = Object.create(proto);``` | An object linked to `proto`.                        |
+| **`Object.hasOwnProperty()`** | Returns `true` if the object has the specified property as its own property.                | ```javascript let obj = {a: 1}; obj.hasOwnProperty('a');```    | `true`                                              |
+| **`Object.is()`**           | Compares two values to determine if they are the same.                                        | ```javascript Object.is(0, 0); Object.is(NaN, NaN);```          | `true` for both                                     |
+| **`Object.defineProperty()`** | Adds or modifies a property directly on an object.                                          | ```javascript let obj = {}; Object.defineProperty(obj, 'a', {value: 42});``` | `{a: 42}`                                           |
+| **`Object.defineProperties()`** | Adds or modifies multiple properties directly on an object.                               | ```javascript let obj = {}; Object.defineProperties(obj, {a: {value: 42}, b: {value: 36}});``` | `{a: 42, b: 36}`                                   |
+
+---
+
+### Examples of Using Object Methods
+
+#### Example 1: Using `Object.keys()` and `Object.values()`
+
+```javascript
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2021
+};
+
+let keys = Object.keys(car);
+console.log(keys); // Outputs: ["brand", "model", "year"]
+
+let values = Object.values(car);
+console.log(values); // Outputs: ["Toyota", "Corolla", 2021]
+```
+
+#### Example 2: Using `Object.entries()`
+
+```javascript
+let user = {
+    name: "John",
+    age: 30
+};
+
+let entries = Object.entries(user);
+console.log(entries); // Outputs: [["name", "John"], ["age", 30]]
+```
+
+#### Example 3: Using `Object.assign()` to Merge Objects
+
+```javascript
+let obj1 = { a: 1, b: 2 };
+let obj2 = { b: 3, c: 4 };
+
+let mergedObj = Object.assign({}, obj1, obj2);
+console.log(mergedObj); // Outputs: { a: 1, b: 3, c: 4 }
+```
+
+#### Example 4: Using `Object.freeze()` and `Object.seal()`
+
+```javascript
+let car = {
+    brand: "Toyota",
+    model: "Corolla",
+    year: 2021
+};
+
+// Freezing the object
+Object.freeze(car);
+car.year = 2022; // This will have no effect
+console.log(car.year); // Outputs: 2021
+
+// Sealing the object
+let bike = {
+    brand: "Yamaha",
+    model: "FZ"
+};
+
+Object.seal(bike);
+bike.model = "FZS"; // This is allowed
+bike.year = 2021;   // This will have no effect as adding new properties is not allowed
+console.log(bike); // Outputs: { brand: "Yamaha", model: "FZS" }
+```
+
+#### Example 5: Using `Object.create()`
+
+```javascript
+let vehicle = {
+    type: "Vehicle",
+    displayType: function() {
+        console.log(this.type);
+    }
+};
+
+let car = Object.create(vehicle);
+car.type = "Car";
+car.displayType(); // Outputs: Car
+```
+
+#### Example 6: Using `Object.hasOwnProperty()`
+
+```javascript
+let person = {
+    name: "Alice",
+    age: 25
+};
+
+console.log(person.hasOwnProperty('name')); // Outputs: true
+console.log(person.hasOwnProperty('gender')); // Outputs: false
+```
+
+#### Example 7: Using `Object.is()`
+
+```javascript
+console.log(Object.is(25, 25)); // Outputs: true
+console.log(Object.is(NaN, NaN)); // Outputs: true
+console.log(Object.is(0, -0)); // Outputs: false
+```
+
+#### Example 8: Using `Object.defineProperty()`
+
+```javascript
+let obj = {};
+Object.defineProperty(obj, 'a', {
+    value: 42,
+    writable: false
+});
+
+console.log(obj.a); // Outputs: 42
+obj.a = 25; // This will not change the value
+console.log(obj.a); // Still outputs: 42
+```
+
+#### Example 9: Using `Object.defineProperties()`
+
+```javascript
+let person = {};
+
+Object.defineProperties(person, {
+    name: {
+        value: "John",
+        writable: true
+    },
+    age: {
+        value: 30,
+        writable: false
+    }
+});
+
+console.log(person.name); // Outputs: John
+console.log(person.age); // Outputs: 30
+
+person.age = 35; // This will not change the value
+console.log(person.age); // Still outputs: 30
+```
+
+By using these object methods effectively, you can manage and manipulate objects in JavaScript more efficiently, allowing for cleaner and more maintainable code.
+
+## JavaScript Object Properties
+
+#### Table of Contents
+1. [What are JavaScript Object Properties?](#what-are-javascript-object-properties)
+2. [Types of JavaScript Object Properties](#types-of-javascript-object-properties)
+3. [JavaScript Object Property Table](#javascript-object-property-table)
+4. [Examples of Using Object Properties](#examples-of-using-object-properties)
+
+---
+
+### What are JavaScript Object Properties?
+
+JavaScript object properties are key-value pairs where the key is a string (property name) and the value can be any data type. These properties define the characteristics and behavior of an object. They allow you to store and access data within an object.
+
+---
+
+### Types of JavaScript Object Properties
+
+JavaScript properties can be categorized into two main types:
+
+1. **Data Properties**: These are the most common type of properties, which store data values. Each data property has the following attributes:
+   - **`value`**: The value of the property.
+   - **`writable`**: A boolean indicating if the property can be changed.
+   - **`enumerable`**: A boolean indicating if the property can be iterated over.
+   - **`configurable`**: A boolean indicating if the property can be deleted or changed.
+
+2. **Accessor Properties**: These properties are defined by getter and setter methods. They don't store a value directly but compute it based on other values.
+   - **`get`**: A function that is called when the property is accessed.
+   - **`set`**: A function that is called when the property is set.
+
+---
+
+### JavaScript Object Property Table
+
+| Property Type     | Description                                                                                     | Example Code                                                        | Output/Result                                      |
+|-------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------|
+| **Data Property** | Stores a value. Has attributes: `value`, `writable`, `enumerable`, and `configurable`.           | ```javascript let obj = {name: "Alice"}; obj.name = "Bob";```       | `"Bob"`                                            |
+| **Accessor Property** | Defined by getter and setter methods. It does not store a value directly.                     | ```javascript let obj = { get fullName() { return "John Doe"; } }; console.log(obj.fullName);``` | `"John Doe"`                                   |
+
+---
+
+### Examples of Using Object Properties
+
+#### Example 1: Defining and Accessing Data Properties
+
+```javascript
+let person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30
+};
+
+console.log(person.firstName); // Outputs: John
+console.log(person.age); // Outputs: 30
+
+// Modifying a data property
+person.age = 31;
+console.log(person.age); // Outputs: 31
+```
+
+#### Example 2: Defining and Accessing Accessor Properties
+
+```javascript
+let user = {
+    firstName: "Alice",
+    lastName: "Johnson",
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
+    },
+    set fullName(name) {
+        let parts = name.split(' ');
+        this.firstName = parts[0];
+        this.lastName = parts[1];
+    }
+};
+
+// Accessing the full name using getter
+console.log(user.fullName); // Outputs: Alice Johnson
+
+// Setting the full name using setter
+user.fullName = "Bob Smith";
+console.log(user.firstName); // Outputs: Bob
+console.log(user.lastName); // Outputs: Smith
+```
+
+#### Example 3: Using `Object.defineProperty()` to Control Property Attributes
+
+```javascript
+let car = {};
+
+Object.defineProperty(car, 'brand', {
+    value: "Toyota",
+    writable: false,  // The brand cannot be changed
+    enumerable: true,  // The brand will appear in a for-in loop
+    configurable: true  // The brand property can be deleted or changed
+});
+
+console.log(car.brand); // Outputs: Toyota
+car.brand = "Honda";    // This will not change the value
+console.log(car.brand); // Still outputs: Toyota
+```
+
+#### Example 4: Using `Object.defineProperties()` to Define Multiple Properties
+
+```javascript
+let book = {};
+
+Object.defineProperties(book, {
+    title: {
+        value: "JavaScript: The Good Parts",
+        writable: true
+    },
+    author: {
+        value: "Douglas Crockford",
+        writable: false
+    }
+});
+
+console.log(book.title);  // Outputs: JavaScript: The Good Parts
+console.log(book.author); // Outputs: Douglas Crockford
+
+book.author = "John Doe"; // This will not change the author
+console.log(book.author); // Still outputs: Douglas Crockford
+```
+
+Using object properties in JavaScript allows you to define and manipulate the characteristics and behaviors of objects, providing more control over how data is managed within your applications.
+
+
+## JavaScript Object Accessors
+
+#### Table of Contents
+1. [What are JavaScript Object Accessors?](#what-are-javascript-object-accessors)
+2. [JavaScript Object Accessor Table](#javascript-object-accessor-table)
+3. [Examples of Using Object Accessors](#examples-of-using-object-accessors)
+
+---
+
+### What are JavaScript Object Accessors?
+
+JavaScript Object Accessors are special methods that allow you to access and update object properties indirectly. Accessors are defined using `get` and `set` keywords. A **getter** is a method that retrieves the value of a property, while a **setter** is a method that sets or updates the value of a property.
+
+**Key Points:**
+- **Getter**: Used to access (get) the value of an object’s property.
+- **Setter**: Used to change (set) the value of an object’s property.
+
+---
+
+### JavaScript Object Accessor Table
+
+| Accessor Type   | Description                                        | Example Code                                                                                   | Output/Result                          |
+|-----------------|----------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------|
+| **Getter**      | Retrieves the value of a property.                 | ```javascript let obj = { get fullName() { return "John Doe"; } }; console.log(obj.fullName);``` | `"John Doe"`                           |
+| **Setter**      | Updates the value of a property.                   | ```javascript let obj = { set fullName(name) { [this.first, this.last] = name.split(' '); } }; obj.fullName = "Jane Doe";``` | Updates `obj.first` to `"Jane"`       |
+
+---
+
+### Examples of Using Object Accessors
+
+#### Example 1: Basic Getter
+
+```javascript
+let person = {
+    firstName: "John",
+    lastName: "Doe",
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+};
+
+console.log(person.fullName); // Outputs: John Doe
+```
+
+In this example, the `fullName` getter concatenates `firstName` and `lastName` properties and returns the full name of the person.
+
+#### Example 2: Basic Setter
+
+```javascript
+let person = {
+    firstName: "John",
+    lastName: "Doe",
+    set fullName(name) {
+        let parts = name.split(' ');
+        this.firstName = parts[0];
+        this.lastName = parts[1];
+    }
+};
+
+person.fullName = "Jane Smith";
+console.log(person.firstName); // Outputs: Jane
+console.log(person.lastName);  // Outputs: Smith
+```
+
+Here, the `fullName` setter splits the given name into `firstName` and `lastName` and updates the respective properties.
+
+#### Example 3: Combining Getter and Setter
+
+```javascript
+let user = {
+    firstName: "Alice",
+    lastName: "Johnson",
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`;
+    },
+    set fullName(name) {
+        let parts = name.split(' ');
+        this.firstName = parts[0];
+        this.lastName = parts[1];
+    }
+};
+
+console.log(user.fullName); // Outputs: Alice Johnson
+user.fullName = "Bob Brown";
+console.log(user.firstName); // Outputs: Bob
+console.log(user.lastName);  // Outputs: Brown
+```
+
+In this example, both a getter and setter for `fullName` are defined. The getter returns the full name, and the setter updates the `firstName` and `lastName` properties based on the provided input.
+
+#### Example 4: Defining Accessors Using `Object.defineProperty()`
+
+```javascript
+let car = {
+    brand: "Toyota",
+    model: "Camry"
+};
+
+Object.defineProperty(car, 'description', {
+    get: function() {
+        return `${this.brand} ${this.model}`;
+    },
+    set: function(value) {
+        let parts = value.split(' ');
+        this.brand = parts[0];
+        this.model = parts[1];
+    }
+});
+
+console.log(car.description); // Outputs: Toyota Camry
+car.description = "Honda Accord";
+console.log(car.brand); // Outputs: Honda
+console.log(car.model); // Outputs: Accord
+```
+
+Using `Object.defineProperty()`, you can define both getters and setters for object properties, providing more control over how properties are accessed and updated.
+
+### Summary
+
+JavaScript accessors offer a powerful way to control how properties of an object are accessed and updated, making it easier to maintain and manipulate data in a structured manner.
+
+## JavaScript Object Protection
+
+#### Table of Contents
+1. [What is Object Protection in JavaScript?](#what-is-object-protection-in-javascript)
+2. [Methods for Protecting Objects](#methods-for-protecting-objects)
+    - [2.1. `Object.freeze()`](#21-objectfreeze)
+    - [2.2. `Object.seal()`](#22-objectseal)
+    - [2.3. `Object.preventExtensions()`](#23-objectpreventextensions)
+    - [2.4. Defining Non-Writable and Non-Configurable Properties](#24-defining-non-writable-and-non-configurable-properties)
+    - [2.5. Using Closures for Private Data](#25-using-closures-for-private-data)
+    - [2.6. Using Symbols for Private Properties](#26-using-symbols-for-private-properties)
+    - [2.7. Using WeakMaps for Private Data](#27-using-weakmaps-for-private-data)
+3. [Comparison of Object Protection Methods](#comparison-of-object-protection-methods)
+4. [Examples of Using Object Protection](#examples-of-using-object-protection)
+    - [4.1. Example with `Object.freeze()`](#41-example-with-objectfreeze)
+    - [4.2. Example with `Object.seal()`](#42-example-with-objectseal)
+    - [4.3. Example with `Object.preventExtensions()`](#43-example-with-objectpreventextensions)
+    - [4.4. Example with Closures for Private Data](#44-example-with-closures-for-private-data)
+    - [4.5. Example with Symbols for Private Properties](#45-example-with-symbols-for-private-properties)
+    - [4.6. Example with WeakMaps for Private Data](#46-example-with-weakmaps-for-private-data)
+5. [Summary](#summary)
+
+---
+
+### What is Object Protection in JavaScript?
+
+**Object Protection** in JavaScript refers to techniques and methods used to control and restrict the modification of objects. By protecting objects, developers can ensure data integrity, prevent unintended mutations, and enforce encapsulation within their code.
+
+JavaScript provides several built-in methods and patterns to achieve different levels and types of object protection, such as:
+
+- Preventing addition of new properties.
+- Preventing deletion or modification of existing properties.
+- Creating truly private properties that cannot be accessed or modified from outside the object.
+
+Understanding and utilizing these object protection mechanisms is essential for writing robust, secure, and maintainable JavaScript code.
+
+---
+
+### Methods for Protecting Objects
+
+JavaScript offers various methods and techniques to protect objects. Each method provides different levels of restriction and serves different purposes. Below are the most commonly used methods:
+
+#### 2.1. `Object.freeze()`
+
+**Description:**
+- The `Object.freeze()` method freezes an object, making it **immutable**.
+- Once an object is frozen:
+  - **No new properties** can be added.
+  - **Existing properties** cannot be **removed or modified**.
+  - The **prototype** cannot be changed.
+- All properties become **non-configurable and non-writable**.
+
+**Syntax:**
+```javascript
+Object.freeze(object);
+```
+
+**Example:**
+```javascript
+const obj = { name: "Alice" };
+Object.freeze(obj);
+
+obj.age = 30;            // Fails silently in non-strict mode
+obj.name = "Bob";        // Fails silently in non-strict mode
+delete obj.name;         // Fails silently in non-strict mode
+
+console.log(obj);        // Outputs: { name: "Alice" }
+```
+
+**Use Cases:**
+- Ensuring that an object remains constant throughout the program.
+- Preventing accidental mutations in objects that should not change.
+
+---
+
+#### 2.2. `Object.seal()`
+
+**Description:**
+- The `Object.seal()` method seals an object.
+- Once an object is sealed:
+  - **No new properties** can be added.
+  - **Existing properties** cannot be **deleted**.
+  - **Property values** can still be **modified** if they are writable.
+- All properties become **non-configurable**, but existing writable properties remain **writable**.
+
+**Syntax:**
+```javascript
+Object.seal(object);
+```
+
+**Example:**
+```javascript
+const obj = { name: "Alice" };
+Object.seal(obj);
+
+obj.age = 30;            // Fails silently in non-strict mode
+obj.name = "Bob";        // Successfully updates the value
+delete obj.name;         // Fails silently in non-strict mode
+
+console.log(obj);        // Outputs: { name: "Bob" }
+```
+
+**Use Cases:**
+- Preventing addition or removal of properties while allowing updates to existing properties.
+- Maintaining the structure of an object while permitting value changes.
+
+---
+
+#### 2.3. `Object.preventExtensions()`
+
+**Description:**
+- The `Object.preventExtensions()` method prevents an object from having new properties added to it.
+- Once an object is made non-extensible:
+  - **No new properties** can be added.
+  - **Existing properties** can be **deleted**.
+  - **Existing properties** can be **modified**.
+- The object’s **prototype** cannot be changed.
+
+**Syntax:**
+```javascript
+Object.preventExtensions(object);
+```
+
+**Example:**
+```javascript
+const obj = { name: "Alice" };
+Object.preventExtensions(obj);
+
+obj.age = 30;            // Fails silently in non-strict mode
+obj.name = "Bob";        // Successfully updates the value
+delete obj.name;         // Successfully deletes the property
+
+console.log(obj);        // Outputs: {}
+```
+
+**Use Cases:**
+- Locking down the structure of an object to prevent accidental addition of new properties.
+- Allowing flexibility to modify or remove existing properties as needed.
+
+---
+
+#### 2.4. Defining Non-Writable and Non-Configurable Properties
+
+**Description:**
+- Using `Object.defineProperty()` or `Object.defineProperties()`, you can define properties with specific attributes:
+  - **`writable`**: Determines if the property value can be changed.
+  - **`configurable`**: Determines if the property can be deleted or its attributes can be modified.
+  - **`enumerable`**: Determines if the property shows up during enumeration (e.g., in `for...in` loops).
+- By setting properties as **non-writable** or **non-configurable**, you can control how and whether properties can be altered.
+
+**Syntax:**
+```javascript
+Object.defineProperty(object, propertyName, descriptor);
+```
+
+**Example:**
+```javascript
+const obj = {};
+
+Object.defineProperty(obj, 'name', {
+    value: "Alice",
+    writable: false,
+    configurable: false,
+    enumerable: true
+});
+
+obj.name = "Bob";        // Fails silently in non-strict mode
+delete obj.name;         // Fails silently
+
+console.log(obj.name);   // Outputs: "Alice"
+```
+
+**Use Cases:**
+- Creating constants within objects.
+- Protecting critical properties from being changed or deleted.
+
+---
+
+#### 2.5. Using Closures for Private Data
+
+**Description:**
+- Closures can be used to create **truly private variables**.
+- Variables defined within a function scope are not accessible from outside.
+- Public methods (privileged methods) can access these private variables through closure.
+
+**Syntax:**
+```javascript
+function createObject() {
+    let privateVar = "secret";
+
+    return {
+        getPrivateVar: function() {
+            return privateVar;
+        },
+        setPrivateVar: function(value) {
+            privateVar = value;
+        }
+    };
+}
+```
+
+**Example:**
+```javascript
+const obj = (function() {
+    let privateCounter = 0;
+
+    function changeBy(val) {
+        privateCounter += val;
+    }
+
+    return {
+        increment: function() {
+            changeBy(1);
+        },
+        decrement: function() {
+            changeBy(-1);
+        },
+        value: function() {
+            return privateCounter;
+        }
+    };
+})();
+
+console.log(obj.value()); // Outputs: 0
+obj.increment();
+obj.increment();
+console.log(obj.value()); // Outputs: 2
+console.log(obj.privateCounter); // Outputs: undefined
+```
+
+**Use Cases:**
+- Encapsulating data and providing controlled access.
+- Implementing module patterns and maintaining clean namespaces.
+
+---
+
+#### 2.6. Using Symbols for Private Properties
+
+**Description:**
+- **Symbols** are a new primitive type introduced in ES6, and they are unique and immutable.
+- Using symbols as property keys makes them **non-enumerable** and **less accessible**.
+- Although not truly private, symbol-keyed properties are harder to access unintentionally.
+
+**Syntax:**
+```javascript
+const privateProp = Symbol('privateProp');
+const obj = {
+    [privateProp]: "secret"
+};
+```
+
+**Example:**
+```javascript
+const password = Symbol('password');
+
+const user = {
+    username: "alice",
+    [password]: "12345"
+};
+
+console.log(user.username);         // Outputs: "alice"
+console.log(user.password);         // Outputs: undefined
+console.log(user[password]);        // Outputs: "12345"
+
+// Symbols are not listed in for...in loops
+for (let key in user) {
+    console.log(key);               // Outputs: "username"
+}
+
+console.log(Object.keys(user));     // Outputs: ["username"]
+```
+
+**Use Cases:**
+- Hiding properties from enumeration and casual access.
+- Preventing property name clashes in large codebases or libraries.
+
+---
+
+#### 2.7. Using WeakMaps for Private Data
+
+**Description:**
+- **WeakMaps** allow associating private data with objects.
+- Keys in WeakMaps must be objects, and the associated values can be accessed only through these keys.
+- Provides true privacy as the WeakMap is not accessible outside the scope.
+
+**Syntax:**
+```javascript
+const privateData = new WeakMap();
+
+function MyClass() {
+    privateData.set(this, { secret: "hidden" });
+}
+
+MyClass.prototype.getSecret = function() {
+    return privateData.get(this).secret;
+};
+```
+
+**Example:**
+```javascript
+const privateData = new WeakMap();
+
+class Person {
+    constructor(name) {
+        this.name = name;
+        privateData.set(this, { age: 30 });
+    }
+
+    getAge() {
+        return privateData.get(this).age;
+    }
+
+    setAge(age) {
+        privateData.get(this).age = age;
+    }
+}
+
+const person = new Person("Alice");
+console.log(person.name);       // Outputs: "Alice"
+console.log(person.getAge());   // Outputs: 30
+person.setAge(31);
+console.log(person.getAge());   // Outputs: 31
+console.log(person.age);        // Outputs: undefined
+```
+
+**Use Cases:**
+- Storing private data associated with object instances.
+- Preventing external access and modification to sensitive data.
+
+---
+
+### Comparison of Object Protection Methods
+
+The table below summarizes the differences between various object protection methods:
+
+| Feature                                   | `Object.freeze()` | `Object.seal()` | `Object.preventExtensions()` | Non-Writable Properties |
+|-------------------------------------------|:-----------------:|:---------------:|:---------------------------:|:-----------------------:|
+| **Add new properties**                    |        ❌         |       ❌        |             ❌              |           ✅            |
+| **Delete existing properties**            |        ❌         |       ❌        |             ✅              |           ✅            |
+| **Modify existing property values**       |        ❌         |       ✅        |             ✅              |           ❌            |
+| **Modify property descriptors**           |        ❌         |       ❌        |             ✅              |           ❌            |
+| **Change prototype**                      |        ❌         |       ❌        |             ❌              |           ✅            |
+| **Use Cases**                             | Immutable objects | Fixed structure with mutable values | Fixed structure | Immutable properties |
+
+**Legend:**
+- ✅ = Allowed
+- ❌ = Not Allowed
+
+**Notes:**
+- **`Object.freeze()`** provides the highest level of immutability by making all properties non-writable and non-configurable.
+- **`Object.seal()`** allows modification of existing properties but prevents adding or deleting properties.
+- **`Object.preventExtensions()`** only prevents adding new properties; existing properties can be modified or deleted.
+- **Non-Writable Properties** can be achieved using `Object.defineProperty()` by setting `writable: false`.
+
+---
+
+### Examples of Using Object Protection
+
+#### 4.1. Example with `Object.freeze()`
+
+```javascript
+const config = {
+    apiEndpoint: "https://api.example.com",
+    timeout: 5000
+};
+
+Object.freeze(config);
+
+config.timeout = 10000;      // Fails silently
+config.newProp = true;       // Fails silently
+delete config.apiEndpoint;   // Fails silently
+
+console.log(config);
+// Outputs: { apiEndpoint: "https://api.example.com", timeout: 5000 }
+```
+
+**Explanation:**
+- After freezing, attempts to modify, add, or delete properties fail silently (or throw errors in strict mode).
+- Useful for configuration objects that should remain constant.
+
+---
+
+#### 4.2. Example with `Object.seal()`
+
+```javascript
+const user = {
+    name: "Bob",
+    role: "Admin"
+};
+
+Object.seal(user);
+
+user.role = "User";          // Successful
+user.age = 30;               // Fails silently
+delete user.name;            // Fails silently
+
+console.log(user);
+// Outputs: { name: "Bob", role: "User" }
+```
+
+**Explanation:**
+- Modification of existing properties is allowed.
+- Addition or deletion of properties is not allowed.
+- Suitable when the object's structure should remain fixed but values may change.
+
+---
+
+#### 4.3. Example with `Object.preventExtensions()`
+
+```javascript
+const settings = {
+    theme: "dark",
+    notifications: true
+};
+
+Object.preventExtensions(settings);
+
+settings.theme = "light";    // Successful
+delete settings.notifications; // Successful
+settings.language = "en";    // Fails silently
+
+console.log(settings);
+// Outputs: { theme: "light" }
+```
+
+**Explanation:**
+- Allows modification and deletion of existing properties.
+- Prevents addition of new properties.
+- Ideal when you want to prevent expansion of the object but allow modifications.
+
+---
+
+#### 4.4. Example with Closures for Private Data
+
+```javascript
+function createBankAccount(initialBalance) {
+    let balance = initialBalance;
+
+    return {
+        deposit(amount) {
+            if (amount > 0) balance += amount;
+        },
+        withdraw(amount) {
+            if (amount > 0 && amount <= balance) balance -= amount;
+        },
+        getBalance() {
+            return balance;
+        }
+    };
+}
+
+const account = createBankAccount(1000);
+account.deposit(500);
+account.withdraw(200);
+console.log(account.getBalance()); // Outputs: 1300
+console.log(account.balance);      // Outputs: undefined
+```
+
+**Explanation:**
+- The `balance` variable is private and cannot be accessed directly.
+- Access is controlled through the returned methods.
+- Ensures encapsulation and protects sensitive data.
+
+---
+
+#### 4.5. Example with Symbols for Private Properties
+
+```javascript
+const _salary = Symbol('salary');
+
+class Employee {
+    constructor(name, salary) {
+        this.name = name;
+        this[_salary] = salary;
+    }
+
+    getSalary() {
+        return this[_salary];
+    }
+}
+
+const emp = new Employee("Alice", 50000);
+console.log(emp.name);          // Outputs: "Alice"
+console.log(emp.getSalary());   // Outputs: 50000
+console.log(emp.salary);        // Outputs: undefined
+console.log(Object.keys(emp));  // Outputs: ["name"]
+```
+
+**Explanation:**
+- The `_salary` property is not accessible through normal means.
+- It does not appear during enumeration.
+- Provides a level of privacy suitable for many applications.
+
+---
+
+#### 4.6. Example with WeakMaps for Private Data
+
+```javascript
+const privateProps = new WeakMap();
+
+class Car {
+    constructor(brand, model) {
+        this.brand = brand;
+        this.model = model;
+        privateProps.set(this, { mileage: 0 });
+    }
+
+    drive(distance) {
+        const props = privateProps.get(this);
+        props.mileage += distance;
+    }
+
+    getMileage() {
+        return privateProps.get(this).mileage;
+    }
+}
+
+const myCar = new Car("Toyota", "Corolla");
+myCar.drive(100);
+myCar.drive(200);
+console.log(myCar.getMileage()); // Outputs: 300
+console.log(myCar.mileage);      // Outputs: undefined
+```
+
+**Explanation:**
+- The `mileage` property is truly private and cannot be accessed externally.
+- WeakMap keys are garbage collected when the object is no longer in use.
+- Ensures strong encapsulation and memory efficiency.
+
+---
+
+### Summary
+
+JavaScript provides multiple methods and patterns to protect and control access to object properties. Choosing the appropriate method depends on the specific requirements of your application:
+
+- Use **`Object.freeze()`** when you need complete immutability.
+- Use **`Object.seal()`** to prevent structural changes while allowing value updates.
+- Use **`Object.preventExtensions()`** to stop addition of new properties but allow modification and deletion.
+- Define **non-writable and non-configurable properties** for fine-grained control over individual properties.
+- Utilize **closures**, **symbols**, and **WeakMaps** to implement various levels of property privacy and encapsulation.
+
+Understanding these techniques enhances code reliability, security, and maintainability by preventing unintended side effects and enforcing proper access controls.
+
+---
+
+
+
+
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
+# Chapter-14: JavaScript Functions in Detail
+
+- [JavaScript Function Definitions](#javascript-function-definitions)
+- [JavaScript Function Parameters](#javascript-function-parameters)
+- [JavaScript Function Invocation](#javascript-function-invocation)
+
+## JavaScript Function Definitions
+
+#### Table of Contents
+1. [What is a Function in JavaScript?](#what-is-a-function-in-javascript)
+2. [Types of Function Definitions](#types-of-function-definitions)
+    - [2.1. Function Declaration](#21-function-declaration)
+    - [2.2. Function Expression](#22-function-expression)
+    - [2.3. Arrow Function](#23-arrow-function)
+    - [2.4. Anonymous Function](#24-anonymous-function)
+    - [2.5. Immediately Invoked Function Expression (IIFE)](#25-immediately-invoked-function-expression-iife)
+    - [2.6. Constructor Function](#26-constructor-function)
+3. [Parameters and Arguments](#parameters-and-arguments)
+4. [Function Scope and Closures](#function-scope-and-closures)
+5. [Higher-Order Functions](#higher-order-functions)
+6. [Function Methods and Properties](#function-methods-and-properties)
+7. [Examples of Function Definitions](#examples-of-function-definitions)
+    - [7.1. Example with Function Declaration](#71-example-with-function-declaration)
+    - [7.2. Example with Function Expression](#72-example-with-function-expression)
+    - [7.3. Example with Arrow Function](#73-example-with-arrow-function)
+    - [7.4. Example with Anonymous Function](#74-example-with-anonymous-function)
+    - [7.5. Example with IIFE](#75-example-with-iife)
+    - [7.6. Example with Constructor Function](#76-example-with-constructor-function)
+8. [Summary](#summary)
+
+---
+
+### What is a Function in JavaScript?
+
+A **function** in JavaScript is a block of code designed to perform a specific task. It is one of the fundamental building blocks in JavaScript programming and is used to encapsulate reusable code, allowing developers to execute the same code with different inputs.
+
+Functions help organize code, reduce repetition, and enable better structure and maintainability. They can take inputs (called parameters) and can return an output. Functions can also be defined in several ways, each with its characteristics.
+
+---
+
+### Types of Function Definitions
+
+JavaScript provides several ways to define functions. Each method offers different capabilities and use cases. Below are the most common types:
+
+#### 2.1. Function Declaration
+
+**Description:**
+- A **function declaration** defines a named function using the `function` keyword.
+- Function declarations are hoisted, meaning they can be called before they are defined in the code.
+
+**Syntax:**
+```javascript
+function functionName(parameters) {
+    // Function body
+}
+```
+
+**Example:**
+```javascript
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+console.log(greet("Alice")); // Outputs: "Hello, Alice!"
+```
+
+**Use Cases:**
+- When you need a function that is available throughout your code, even before the function is defined.
+
+---
+
+#### 2.2. Function Expression
+
+**Description:**
+- A **function expression** defines a function as part of a variable assignment.
+- Unlike function declarations, function expressions are not hoisted.
+
+**Syntax:**
+```javascript
+const functionName = function(parameters) {
+    // Function body
+};
+```
+
+**Example:**
+```javascript
+const greet = function(name) {
+    return `Hello, ${name}!`;
+};
+
+console.log(greet("Bob")); // Outputs: "Hello, Bob!"
+```
+
+**Use Cases:**
+- When you want to define a function that is not available before its definition in the code.
+- Useful for inline functions or assigning functions to variables, objects, or arrays.
+
+---
+
+#### 2.3. Arrow Function
+
+**Description:**
+- An **arrow function** is a shorthand syntax for writing function expressions, introduced in ES6.
+- Arrow functions do not have their own `this`, `arguments`, `super`, or `new.target` bindings.
+- They are often used in situations where you need concise syntax, such as in callbacks or functional programming.
+
+**Syntax:**
+```javascript
+const functionName = (parameters) => {
+    // Function body
+};
+```
+
+**Example:**
+```javascript
+const greet = (name) => `Hello, ${name}!`;
+
+console.log(greet("Charlie")); // Outputs: "Hello, Charlie!"
+```
+
+**Use Cases:**
+- When you need a shorter syntax for writing functions, particularly in callbacks, or when you want to maintain the `this` context from the surrounding scope.
+
+---
+
+#### 2.4. Anonymous Function
+
+**Description:**
+- An **anonymous function** is a function that is defined without a name.
+- These functions are often used as arguments to other functions or as immediately invoked function expressions (IIFE).
+
+**Syntax:**
+```javascript
+const functionName = function(parameters) {
+    // Function body
+};
+```
+
+**Example:**
+```javascript
+setTimeout(function() {
+    console.log("This is an anonymous function.");
+}, 1000);
+```
+
+**Use Cases:**
+- When you need a function temporarily, such as for event handlers, callbacks, or immediately invoked function expressions.
+
+---
+
+#### 2.5. Immediately Invoked Function Expression (IIFE)
+
+**Description:**
+- An **immediately invoked function expression (IIFE)** is a function that is defined and executed immediately after it is created.
+- IIFEs are used to create a private scope, avoiding the pollution of the global scope.
+
+**Syntax:**
+```javascript
+(function() {
+    // Function body
+})();
+```
+
+**Example:**
+```javascript
+(function() {
+    console.log("This IIFE runs immediately after its creation.");
+})();
+```
+
+**Use Cases:**
+- When you need to execute a function immediately while keeping the variables inside it private and isolated from the global scope.
+
+---
+
+#### 2.6. Constructor Function
+
+**Description:**
+- A **constructor function** is a special type of function used to create and initialize objects in JavaScript.
+- When a function is used as a constructor, it is called with the `new` keyword, creating a new object instance with the properties and methods defined in the constructor.
+
+**Syntax:**
+```javascript
+function ConstructorFunction(parameters) {
+    // Initialize properties
+    this.propertyName = value;
+}
+```
+
+**Example:**
+```javascript
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+const alice = new Person("Alice", 25);
+console.log(alice.name); // Outputs: "Alice"
+console.log(alice.age);  // Outputs: 25
+```
+
+**Use Cases:**
+- When you need to create multiple objects with the same properties and methods, using a function as a blueprint.
+
+---
+
+### Parameters and Arguments
+
+**Parameters** are the names listed in the function definition, while **arguments** are the actual values passed to the function when it is invoked.
+
+- **Default Parameters:** Functions can have default values for parameters, allowing them to be optional.
+- **Rest Parameters:** The rest parameter syntax (`...`) allows a function to accept an indefinite number of arguments as an array.
+
+**Example with Default and Rest Parameters:**
+```javascript
+function sum(a = 0, b = 0, ...rest) {
+    return a + b + rest.reduce((acc, val) => acc + val, 0);
+}
+
+console.log(sum(1, 2));           // Outputs: 3
+console.log(sum(1, 2, 3, 4));     // Outputs: 10
+console.log(sum());               // Outputs: 0
+```
+
+---
+
+### Function Scope and Closures
+
+**Scope** refers to the accessibility of variables within different parts of the code. Functions create their own scope, meaning variables declared inside a function are not accessible outside of it.
+
+**Closures** are functions that "remember" the environment in which they were created, allowing them to access variables from their outer scope even after the outer function has finished executing.
+
+**Example of Closure:**
+```javascript
+function outer() {
+    let counter = 0;
+
+    return function() {
+        counter++;
+        return counter;
+    };
+}
+
+const increment = outer();
+console.log(increment()); // Outputs: 1
+console.log(increment()); // Outputs: 2
+```
+
+---
+
+### Higher-Order Functions
+
+A **higher-order function** is a function that takes one or more functions as arguments or returns a function as its result. Higher-order functions are a key concept in functional programming.
+
+**Example of Higher-Order Function:**
+```javascript
+function greet(name) {
+    return function(message) {
+        return `${message}, ${name}!`;
+    };
+}
+
+const greetAlice = greet("Alice");
+console.log(greetAlice("Good morning")); // Outputs: "Good morning, Alice!"
+```
+
+**Use Cases:**
+- Higher-order functions are commonly used for function composition, callbacks, and other functional programming techniques.
+
+---
+
+### Function Methods and Properties
+
+In JavaScript, functions are objects, and as such, they have methods and properties. Some important methods include:
+
+- **`call()`**: Calls a function with a given `this` value and arguments provided individually.
+- **`apply()`**: Similar to `call()`, but arguments are provided as an array.
+- **`bind()`**: Creates a new function that, when called, has its `this` value set to the provided value, with a given sequence of arguments.
+
+**Example with `call()`, `apply()`, and `bind()`:**
+```javascript
+function introduce(greeting, punctuation) {
+    console.log(`${greeting}, I'm ${this.name}${punctuation}`);
+}
+
+const person = { name: "Bob" };
+
+introduce.call(person, "Hello", "!");    // Outputs: "Hello, I'm Bob!"
+introduce.apply(person,
+
+ ["Hi", "."]);    // Outputs: "Hi, I'm Bob."
+const boundFunction = introduce.bind(person);
+boundFunction("Hey", "...");             // Outputs: "Hey, I'm Bob..."
+```
+
+---
+
+### Examples of Function Definitions
+
+#### 7.1. Example with Function Declaration
+
+```javascript
+function add(a, b) {
+    return a + b;
+}
+
+console.log(add(3, 4)); // Outputs: 7
+```
+
+#### 7.2. Example with Function Expression
+
+```javascript
+const subtract = function(a, b) {
+    return a - b;
+};
+
+console.log(subtract(9, 5)); // Outputs: 4
+```
+
+#### 7.3. Example with Arrow Function
+
+```javascript
+const multiply = (a, b) => a * b;
+
+console.log(multiply(4, 6)); // Outputs: 24
+```
+
+#### 7.4. Example with Anonymous Function
+
+```javascript
+const divide = function(a, b) {
+    return a / b;
+};
+
+console.log(divide(10, 2)); // Outputs: 5
+```
+
+#### 7.5. Example with IIFE
+
+```javascript
+(function() {
+    console.log("This IIFE runs immediately.");
+})();
+```
+
+#### 7.6. Example with Constructor Function
+
+```javascript
+function Car(make, model) {
+    this.make = make;
+    this.model = model;
+}
+
+const myCar = new Car("Toyota", "Corolla");
+console.log(myCar.make);  // Outputs: "Toyota"
+console.log(myCar.model); // Outputs: "Corolla"
+```
+
+---
+
+### Summary
+
+JavaScript offers various ways to define functions, each with its strengths and best use cases. Understanding function declarations, expressions, arrow functions, anonymous functions, IIFEs, and constructor functions is essential for writing efficient and maintainable code. By mastering these function types, you can better structure your code, improve readability, and leverage the full power of JavaScript.
+
+## JavaScript Function Parameters
+
+#### Table of Contents
+1. [What are Function Parameters?](#what-are-function-parameters)
+2. [Types of Function Parameters](#types-of-function-parameters)
+    - [2.1. Default Parameters](#21-default-parameters)
+    - [2.2. Rest Parameters](#22-rest-parameters)
+    - [2.3. Named Parameters](#23-named-parameters)
+3. [Passing Parameters by Value vs. Reference](#passing-parameters-by-value-vs-reference)
+4. [Parameter Destructuring](#parameter-destructuring)
+5. [Examples of Function Parameters](#examples-of-function-parameters)
+    - [5.1. Example with Default Parameters](#51-example-with-default-parameters)
+    - [5.2. Example with Rest Parameters](#52-example-with-rest-parameters)
+    - [5.3. Example with Named Parameters](#53-example-with-named-parameters)
+    - [5.4. Example with Destructuring Parameters](#54-example-with-destructuring-parameters)
+6. [Summary](#summary)
+
+---
+
+### What are Function Parameters?
+
+Function parameters are the variables listed as part of the function definition. They are placeholders for the values (called arguments) that will be passed to the function when it is called. Parameters allow functions to be more flexible and reusable by accepting different inputs.
+
+**Syntax:**
+```javascript
+function functionName(parameter1, parameter2, ...) {
+    // Function body
+}
+```
+
+---
+
+### Types of Function Parameters
+
+#### 2.1. Default Parameters
+
+**Description:**
+- Default parameters allow you to initialize function parameters with default values if no arguments or `undefined` are passed.
+
+**Syntax:**
+```javascript
+function functionName(param1 = defaultValue1, param2 = defaultValue2) {
+    // Function body
+}
+```
+
+**Example:**
+```javascript
+function greet(name = "Guest") {
+    return `Hello, ${name}!`;
+}
+
+console.log(greet("Alice")); // Outputs: "Hello, Alice!"
+console.log(greet());        // Outputs: "Hello, Guest!"
+```
+
+**Use Cases:**
+- When you want to ensure that a parameter always has a value, even if the caller doesn't provide one.
+
+---
+
+#### 2.2. Rest Parameters
+
+**Description:**
+- Rest parameters allow a function to accept an indefinite number of arguments as an array. The rest parameter syntax uses the `...` notation.
+
+**Syntax:**
+```javascript
+function functionName(...rest) {
+    // Function body
+}
+```
+
+**Example:**
+```javascript
+function sum(...numbers) {
+    return numbers.reduce((acc, num) => acc + num, 0);
+}
+
+console.log(sum(1, 2, 3)); // Outputs: 6
+console.log(sum(4, 5));    // Outputs: 9
+```
+
+**Use Cases:**
+- When you need a function that can handle an unknown number of arguments, such as in mathematical operations or variadic functions.
+
+---
+
+#### 2.3. Named Parameters
+
+**Description:**
+- Named parameters are an object-oriented way to pass parameters, allowing the function to receive an object where the properties match the parameter names.
+
+**Syntax:**
+```javascript
+function functionName({param1, param2}) {
+    // Function body
+}
+```
+
+**Example:**
+```javascript
+function createUser({name, age, email}) {
+    return `Name: ${name}, Age: ${age}, Email: ${email}`;
+}
+
+const user = {name: "Bob", age: 30, email: "bob@example.com"};
+console.log(createUser(user)); // Outputs: "Name: Bob, Age: 30, Email: bob@example.com"
+```
+
+**Use Cases:**
+- When you want to improve readability and avoid confusion with the order of parameters, especially when there are many optional parameters.
+
+---
+
+### Passing Parameters by Value vs. Reference
+
+JavaScript function parameters can be passed by value or by reference, depending on the type of the argument.
+
+- **Primitive Types (e.g., numbers, strings, booleans):** Passed by value, meaning the function works with a copy of the original value.
+- **Reference Types (e.g., objects, arrays):** Passed by reference, meaning the function works with a reference to the original object.
+
+**Example of Passing by Value:**
+```javascript
+function changeValue(value) {
+    value = 10;
+}
+
+let num = 5;
+changeValue(num);
+console.log(num); // Outputs: 5
+```
+
+**Example of Passing by Reference:**
+```javascript
+function changeObject(obj) {
+    obj.name = "Alice";
+}
+
+let person = { name: "Bob" };
+changeObject(person);
+console.log(person.name); // Outputs: "Alice"
+```
+
+---
+
+### Parameter Destructuring
+
+**Description:**
+- Parameter destructuring is a feature that allows you to extract values from objects or arrays directly within the function parameters, making the code more concise and readable.
+
+**Syntax:**
+```javascript
+function functionName({param1, param2}) {
+    // Function body
+}
+```
+
+**Example with Object Destructuring:**
+```javascript
+function displayUser({name, age}) {
+    return `Name: ${name}, Age: ${age}`;
+}
+
+const user = {name: "Alice", age: 25};
+console.log(displayUser(user)); // Outputs: "Name: Alice, Age: 25"
+```
+
+**Example with Array Destructuring:**
+```javascript
+function sum([a, b, c]) {
+    return a + b + c;
+}
+
+console.log(sum([1, 2, 3])); // Outputs: 6
+```
+
+**Use Cases:**
+- When you want to work directly with specific properties or elements from an object or array passed as a parameter, reducing the need for additional variable assignments.
+
+---
+
+### Examples of Function Parameters
+
+#### 5.1. Example with Default Parameters
+
+```javascript
+function greet(name = "Guest") {
+    return `Hello, ${name}!`;
+}
+
+console.log(greet("Alice")); // Outputs: "Hello, Alice!"
+console.log(greet());        // Outputs: "Hello, Guest!"
+```
+
+#### 5.2. Example with Rest Parameters
+
+```javascript
+function sum(...numbers) {
+    return numbers.reduce((acc, num) => acc + num, 0);
+}
+
+console.log(sum(1, 2, 3)); // Outputs: 6
+console.log(sum(4, 5));    // Outputs: 9
+```
+
+#### 5.3. Example with Named Parameters
+
+```javascript
+function createUser({name, age, email}) {
+    return `Name: ${name}, Age: ${age}, Email: ${email}`;
+}
+
+const user = {name: "Bob", age: 30, email: "bob@example.com"};
+console.log(createUser(user)); // Outputs: "Name: Bob, Age: 30, Email: bob@example.com"
+```
+
+#### 5.4. Example with Destructuring Parameters
+
+```javascript
+function displayUser({name, age}) {
+    return `Name: ${name}, Age: ${age}`;
+}
+
+const user = {name: "Alice", age: 25};
+console.log(displayUser(user)); // Outputs: "Name: Alice, Age: 25"
+```
+
+---
+
+### Summary
+
+Understanding how to use function parameters effectively allows you to write more flexible and reusable functions in JavaScript. By mastering default parameters, rest parameters, named parameters, and destructuring, you can enhance the readability and maintainability of your code.
+
+## JavaScript Function Invocation
+
+### JavaScript Function Invocation
+
+#### Table of Contents
+1. [What is Function Invocation?](#what-is-function-invocation)
+2. [Types of Function Invocation](#types-of-function-invocation)
+    - [2.1. Function Invocation as a Function](#21-function-invocation-as-a-function)
+    - [2.2. Function Invocation as a Method](#22-function-invocation-as-a-method)
+    - [2.3. Function Invocation with `call` and `apply`](#23-function-invocation-with-call-and-apply)
+    - [2.4. Constructor Invocation](#24-constructor-invocation)
+    - [2.5. Indirect Invocation with `bind`](#25-indirect-invocation-with-bind)
+3. [The `this` Keyword in Different Invocations](#the-this-keyword-in-different-invocations)
+4. [Examples of Function Invocation](#examples-of-function-invocation)
+    - [4.1. Example with Function Invocation as a Function](#41-example-with-function-invocation-as-a-function)
+    - [4.2. Example with Function Invocation as a Method](#42-example-with-function-invocation-as-a-method)
+    - [4.3. Example with `call` and `apply` Invocation](#43-example-with-call-and-apply-invocation)
+    - [4.4. Example with Constructor Invocation](#44-example-with-constructor-invocation)
+    - [4.5. Example with `bind` Invocation](#45-example-with-bind-invocation)
+5. [Summary](#summary)
+
+---
+
+### What is Function Invocation?
+
+Function invocation is the process of calling or executing a function in JavaScript. When a function is invoked, the code inside the function body is executed. The way a function is invoked determines the context in which the function is executed and affects the value of the `this` keyword.
+
+**Syntax:**
+```javascript
+functionName(arguments);
+```
+
+---
+
+### Types of Function Invocation
+
+#### 2.1. Function Invocation as a Function
+
+**Description:**
+- This is the simplest form of invocation. The function is invoked directly using its name followed by parentheses.
+
+**Syntax:**
+```javascript
+functionName();
+```
+
+**Example:**
+```javascript
+function greet() {
+    console.log("Hello, world!");
+}
+
+greet(); // Outputs: "Hello, world!"
+```
+
+**Use Cases:**
+- Standard way of executing a function.
+
+---
+
+#### 2.2. Function Invocation as a Method
+
+**Description:**
+- When a function is invoked as a method of an object, it is executed in the context of that object. The `this` keyword refers to the object that owns the method.
+
+**Syntax:**
+```javascript
+object.methodName();
+```
+
+**Example:**
+```javascript
+const person = {
+    name: "Alice",
+    greet: function() {
+        console.log(`Hello, my name is ${this.name}`);
+    }
+};
+
+person.greet(); // Outputs: "Hello, my name is Alice"
+```
+
+**Use Cases:**
+- Useful when working with object-oriented programming in JavaScript.
+
+---
+
+#### 2.3. Function Invocation with `call` and `apply`
+
+**Description:**
+- The `call` and `apply` methods allow a function to be invoked with a specified `this` value and arguments.
+
+**Syntax:**
+```javascript
+functionName.call(thisArg, arg1, arg2, ...);
+functionName.apply(thisArg, [arg1, arg2, ...]);
+```
+
+**Example:**
+```javascript
+function introduce(greeting) {
+    console.log(`${greeting}, I'm ${this.name}`);
+}
+
+const person = { name: "Bob" };
+
+introduce.call(person, "Hi");   // Outputs: "Hi, I'm Bob"
+introduce.apply(person, ["Hey"]); // Outputs: "Hey, I'm Bob"
+```
+
+**Use Cases:**
+- When you need to explicitly set the `this` value for a function, such as when borrowing methods from another object.
+
+---
+
+#### 2.4. Constructor Invocation
+
+**Description:**
+- When a function is invoked with the `new` keyword, it acts as a constructor, creating a new object and setting the `this` keyword to that new object.
+
+**Syntax:**
+```javascript
+new FunctionName(arguments);
+```
+
+**Example:**
+```javascript
+function Car(make, model) {
+    this.make = make;
+    this.model = model;
+}
+
+const myCar = new Car("Toyota", "Corolla");
+console.log(myCar.make);  // Outputs: "Toyota"
+console.log(myCar.model); // Outputs: "Corolla"
+```
+
+**Use Cases:**
+- Used for creating instances of objects using constructor functions.
+
+---
+
+#### 2.5. Indirect Invocation with `bind`
+
+**Description:**
+- The `bind` method creates a new function that, when invoked, has its `this` keyword set to the provided value.
+
+**Syntax:**
+```javascript
+const boundFunction = functionName.bind(thisArg);
+```
+
+**Example:**
+```javascript
+function introduce(greeting) {
+    console.log(`${greeting}, I'm ${this.name}`);
+}
+
+const person = { name: "Bob" };
+
+const boundIntroduce = introduce.bind(person);
+boundIntroduce("Hello"); // Outputs: "Hello, I'm Bob"
+```
+
+**Use Cases:**
+- When you want to create a function with a fixed `this` context, useful in event handling or callback functions.
+
+---
+
+### The `this` Keyword in Different Invocations
+
+The value of `this` depends on how the function is invoked:
+- **Function Invocation as a Function:** `this` refers to the global object (in non-strict mode) or `undefined` (in strict mode).
+- **Function Invocation as a Method:** `this` refers to the object the method belongs to.
+- **Function Invocation with `call` and `apply`:** `this` is explicitly set to the specified object.
+- **Constructor Invocation:** `this` refers to the newly created object.
+- **Indirect Invocation with `bind`:** `this` is set to the value provided to `bind`.
+
+---
+
+### Examples of Function Invocation
+
+#### 4.1. Example with Function Invocation as a Function
+
+```javascript
+function greet() {
+    console.log("Hello, world!");
+}
+
+greet(); // Outputs: "Hello, world!"
+```
+
+#### 4.2. Example with Function Invocation as a Method
+
+```javascript
+const person = {
+    name: "Alice",
+    greet: function() {
+        console.log(`Hello, my name is ${this.name}`);
+    }
+};
+
+person.greet(); // Outputs: "Hello, my name is Alice"
+```
+
+#### 4.3. Example with `call` and `apply` Invocation
+
+```javascript
+function introduce(greeting) {
+    console.log(`${greeting}, I'm ${this.name}`);
+}
+
+const person = { name: "Bob" };
+
+introduce.call(person, "Hi");   // Outputs: "Hi, I'm Bob"
+introduce.apply(person, ["Hey"]); // Outputs: "Hey, I'm Bob"
+```
+
+#### 4.4. Example with Constructor Invocation
+
+```javascript
+function Car(make, model) {
+    this.make = make;
+    this.model = model;
+}
+
+const myCar = new Car("Toyota", "Corolla");
+console.log(myCar.make);  // Outputs: "Toyota"
+console.log(myCar.model); // Outputs: "Corolla"
+```
+
+#### 4.5. Example with `bind` Invocation
+
+```javascript
+function introduce(greeting) {
+    console.log(`${greeting}, I'm ${this.name}`);
+}
+
+const person = { name: "Bob" };
+
+const boundIntroduce = introduce.bind(person);
+boundIntroduce("Hello"); // Outputs: "Hello, I'm Bob"
+```
+
+---
+
+### Summary
+
+Function invocation is a fundamental concept in JavaScript that determines how and in what context a function is executed. Understanding the different types of invocation—whether as a regular function, method, constructor, or through `call`, `apply`, or `bind`—is crucial for controlling the execution context (`this`) and writing robust, reusable code.
+
+## JavaScript Function call()
+
+##
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
 
 # Project-03: Simple Website Layout with Flexbox
 

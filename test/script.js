@@ -1,11 +1,18 @@
 
+
 function mainFunction() {
-  let pattern = /a+/i;
-  let text = "bdsgd vsdfdAdsfbc";
+  function greet() {
+    console.log("Hello, " + this.name);
+  }
+  const person = {
+      name: "Nirob"
+  };
 
-  console.log(pattern.test(text)); 
-  
+  const codejogot = {
+    name: "Alim",
+    ID: "dfdf"
+  }
+
+  greet.call(codejogot); 
+
 }
-
-
-
