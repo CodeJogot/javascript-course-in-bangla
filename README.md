@@ -8795,7 +8795,7 @@ JavaScript objects are versatile and powerful, enabling developers to structure 
 
 ### What is a JavaScript Prototype?
 
-In JavaScript, every object has a prototype. A prototype is also an object, and it acts as a template that other objects can inherit properties and methods from. When you create an object, JavaScript automatically links it to a prototype object. This allows for shared properties and methods among objects without having to define them directly within each object.
+জাভাস্ক্রিপ্টে, প্রতিটি অবজেক্টের একটি প্রোটোটাইপ রয়েছে। একটি প্রোটোটাইপও একটি অবজেক্ট, এবং এটি একটি টেমপ্লেট হিসাবে কাজ করে যা থেকে অন্যান্য অবজেক্টগুলোর Properties এবং Methods এর উত্তরাধিকারী হতে পারে। আপনি যখন একটি অবজেক্ট তৈরি করেন, জাভাস্ক্রিপ্ট স্বয়ংক্রিয়ভাবে এটি একটি প্রোটোটাইপ অবজেক্টের সাথে লিঙ্ক করে। এটি প্রতিটি অবজেক্টের মধ্যে সরাসরি Define না করেই Objects গুলোর মধ্যে Share করা Properties এবং Methods ব্যবহারের জন্য অনুমতি দেয়।
 
 JavaScript uses prototypes to implement inheritance, which is a way for an object to access properties and methods from another object. This mechanism is central to how JavaScript handles object-oriented programming.
 
