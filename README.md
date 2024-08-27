@@ -9946,6 +9946,10 @@ Understanding these techniques enhances code reliability, security, and maintain
 - [JavaScript Function Definitions](#javascript-function-definitions)
 - [JavaScript Function Parameters](#javascript-function-parameters)
 - [JavaScript Function Invocation](#javascript-function-invocation)
+- [JavaScript `call()` Method](#javascript-call-method)
+- [JavaScript `apply()` Method](#javascript-apply-method)
+- [JavaScript `bind()` Method](#javascript-bind-method)
+- [JavaScript Closures](#javascript-closures)
 
 ## JavaScript Function Definitions
 
@@ -9975,15 +9979,14 @@ Understanding these techniques enhances code reliability, security, and maintain
 
 ### What is a Function in JavaScript?
 
-A **function** in JavaScript is a block of code designed to perform a specific task. It is one of the fundamental building blocks in JavaScript programming and is used to encapsulate reusable code, allowing developers to execute the same code with different inputs.
-
-Functions help organize code, reduce repetition, and enable better structure and maintainability. They can take inputs (called parameters) and can return an output. Functions can also be defined in several ways, each with its characteristics.
+- Function একটি নির্দিষ্ট কাজ সম্পন্ন করে। যখন Programming এ আমাদের একই কাজ বার বার দরকার হয়, তখন আমরা Function তৈরি করি এবং প্রয়োজন অনুসারে বার বার ব্যবহার করি। 
+- প্রতিটা Function ইনপুট নেয় (যাদেরকে Parameters বলা হয়) এবং একটি Output Return করে। এটিই Function এর General Concept. তবে ক্ষেত্র বিশেষে Input/Output নাও থাকতে পারে।
 
 ---
 
 ### Types of Function Definitions
 
-JavaScript provides several ways to define functions. Each method offers different capabilities and use cases. Below are the most common types:
+- JavaScript এ বিভিন্ন ধরনের Function আছে। যেমনঃ
 
 #### 2.1. Function Declaration
 
@@ -10541,8 +10544,6 @@ Understanding how to use function parameters effectively allows you to write mor
 
 ## JavaScript Function Invocation
 
-### JavaScript Function Invocation
-
 #### Table of Contents
 1. [What is Function Invocation?](#what-is-function-invocation)
 2. [Types of Function Invocation](#types-of-function-invocation)
@@ -10789,9 +10790,558 @@ boundIntroduce("Hello"); // Outputs: "Hello, I'm Bob"
 
 Function invocation is a fundamental concept in JavaScript that determines how and in what context a function is executed. Understanding the different types of invocation—whether as a regular function, method, constructor, or through `call`, `apply`, or `bind`—is crucial for controlling the execution context (`this`) and writing robust, reusable code.
 
-## JavaScript Function call()
 
-##
+## JavaScript `call()` Method
+
+#### Table of Contents
+1. [Introduction to `call()`](#introduction-to-call)
+2. [Syntax of `call()`](#syntax-of-call)
+3. [How `call()` Works](#how-call-works)
+4. [Examples of Using `call()`](#examples-of-using-call)
+    - [4.1. Example with Method Borrowing](#41-example-with-method-borrowing)
+    - [4.2. Example with Inheriting Methods from Other Objects](#42-example-with-inheriting-methods-from-other-objects)
+    - [4.3. Example with Function Invocation](#43-example-with-function-invocation)
+    - [4.4. Example with `call()` for `this` Binding](#44-example-with-call-for-this-binding)
+5. [Advantages of `call()`](#advantages-of-call)
+6. [Summary](#summary)
+
+---
+
+### Introduction to `call()`
+
+- Scenario যদি এরকম হয় যে ধরুন, আমারা একটা A Object এর একটা Method কে Call করতে চাচ্ছি এবং ঐ A Object এর ঐ Method এ **this** আছে। এখন এই **this** অবশ্যই কোন একটা Object কে Refer করবে। এই **this** কোন Object কে নির্দেশ করবে সেটা যদি আমারা বাইরে থেকে বলে দিতে চাই, তাহলে **call()** Method এর ১ম Argument এ সেই Object এর নাম বলে দিতে পারি।
+
+
+---
+
+### Syntax of `call()`
+
+**Syntax:**
+```javascript
+function.call(objectName, arg1, arg2, ...);
+```
+
+- **objectName**: The value to be passed as the `this` context. If `null` or `undefined`, the global object will be used.
+- **arg1, arg2, ...**: Arguments to be passed to the function.
+
+---
+
+### Examples of Using `call()`
+
+#### 4.1. Example with Method Borrowing
+
+**Example:**
+```javascript
+const person = {
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+const person1 = {
+    firstName: "Abdul",
+    lastName: "Alim"
+};
+const person2 = {
+    firstName: "Abdur",
+    lastName: "Rahim"
+};
+
+console.log(person.fullName.call(person1)); // Outputs: "Abdul Alim"
+console.log(person.fullName.call(person2)); // Outputs: "Abdur Rahim"
+```
+
+#### 4.2. Example with Inheriting Methods from Other Objects
+
+**Example:**
+```javascript
+const person = {
+    firstName: "Abdul",
+    lastName: "Alim",
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+const anotherPerson = {
+    firstName: "Abdur",
+    lastName: "Rahim"
+};
+
+console.log(person.fullName.call(anotherPerson)); // Outputs: "Abdur Rahim"
+```
+
+---
+
+#### 4.3. Example with Function Invocation
+
+**Example:**
+```javascript
+function greet(greeting) {
+    console.log(`${greeting}, I'm ${this.name}`);
+}
+
+const person = { name: "Alice" };
+
+greet.call(person, "Hello"); // Outputs: "Hello, I'm Alice"
+```
+
+**Explanation:**
+The `greet` function is invoked with `call()`, and the `this` keyword inside `greet` is set to `person`, allowing the function to access `person`'s `name` property.
+
+---
+
+#### 4.4. Example with `call()` for `this` Binding
+
+**Example:**
+```javascript
+const car = {
+    brand: "Toyota",
+    showBrand: function() {
+        console.log(`This car is a ${this.brand}`);
+    }
+};
+
+const bike = {
+    brand: "Honda"
+};
+
+car.showBrand.call(bike); // Outputs: "This bike is a Honda"
+```
+
+**Explanation:**
+Here, the `call()` method is used to set the `this` value inside `showBrand` to `bike`, making it display "Honda" instead of "Toyota".
+
+---
+
+### Advantages of `call()`
+
+1. **Method Borrowing:** Easily borrow methods from other objects without duplicating code.
+2. **Explicit `this` Binding:** Explicitly set the `this` value for any function, providing more control over function execution.
+3. **Function Reusability:** Reuse functions across different objects, making your code DRY (Don't Repeat Yourself).
+
+---
+
+
+## JavaScript `apply()` Method
+
+#### Table of Contents
+1. [Introduction to `apply()`](#introduction-to-apply)
+2. [Syntax of `apply()`](#syntax-of-apply)
+3. [How `apply()` Works](#how-apply-works)
+4. [Examples of Using `apply()`](#examples-of-using-apply)
+    - [4.1. Example with Array as Arguments](#41-example-with-array-as-arguments)
+    - [4.2. Example with Method Borrowing](#42-example-with-method-borrowing)
+    - [4.3. Example with Math Functions](#43-example-with-math-functions)
+    - [4.4. Example with `apply()` for `this` Binding](#44-example-with-apply-for-this-binding)
+5. [Advantages of `apply()`](#advantages-of-apply)
+
+---
+
+### Introduction to `apply()`
+
+The `apply()` method in JavaScript is similar to `call()`, but with a key difference: it allows you to call a function with a specified `this` value and arguments provided as an array (or an array-like object). This is particularly useful when you have a variable number of arguments or an array of arguments that you want to pass to a function.
+
+---
+
+### Syntax of `apply()`
+
+**Syntax:**
+```javascript
+function.apply(thisArg, [argsArray]);
+```
+
+- **thisArg**: The value to be passed as the `this` context. If `null` or `undefined`, the global object will be used.
+- **argsArray**: An array or array-like object containing the arguments to be passed to the function.
+
+---
+
+### Examples of Using `apply()`
+
+#### 4.1. Example with Array as Arguments
+
+**Example:**
+```javascript
+function sum(a, b, c) {
+    return a + b + c;
+}
+
+const numbers = [1, 2, 3];
+console.log(sum.apply(null, numbers)); // Outputs: 6
+```
+
+**Explanation:**
+In this example, the `sum` function is invoked using `apply()`, with the arguments provided as an array. The function adds the numbers in the array and returns the result.
+
+---
+
+#### 4.2. Example with Method Borrowing
+
+**Example:**
+```javascript
+const person1 = {
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+const person2 = {
+    firstName: "Jane",
+    lastName: "Doe"
+};
+
+console.log(person1.fullName.apply(person2)); // Outputs: "Jane Doe"
+```
+
+**Explanation:**
+Here, `person2` borrows the `fullName` method from `person1` using `apply()`, allowing `person2` to use the method as if it were its own.
+
+---
+
+#### 4.3. Example with Math Functions
+
+**Example:**
+```javascript
+const numbers = [5, 6, 2, 3, 7];
+
+const max = Math.max.apply(null, numbers);
+const min = Math.min.apply(null, numbers);
+
+console.log(max); // Outputs: 7
+console.log(min); // Outputs: 2
+```
+
+**Explanation:**
+The `apply()` method is used here to pass an array of numbers to the `Math.max` and `Math.min` functions, which return the largest and smallest numbers in the array, respectively.
+
+---
+
+#### 4.4. Example with `apply()` for `this` Binding
+
+**Example:**
+```javascript
+const car = {
+    brand: "Tesla",
+    showBrand: function(speed, time) {
+        console.log(`This car is a ${this.brand} and it travels ${speed * time} miles in ${time} hours.`);
+    }
+};
+
+const bike = {
+    brand: "Yamaha"
+};
+
+car.showBrand.apply(bike, [60, 2]); // Outputs: "This car is a Yamaha and it travels 120 miles in 2 hours."
+```
+
+**Explanation:**
+In this example, the `apply()` method is used to invoke the `showBrand` method with `bike` as the `this` context, passing the speed and time as an array.
+
+
+## JavaScript `bind()` Method
+
+#### Table of Contents
+1. [Introduction to `bind()`](#introduction-to-bind)
+2. [Syntax of `bind()`](#syntax-of-bind)
+3. [How `bind()` Works](#how-bind-works)
+4. [Examples of Using `bind()`](#examples-of-using-bind)
+    - [4.1. Example with Preserving `this` Context](#41-example-with-preserving-this-context)
+    - [4.2. Example with Partial Application](#42-example-with-partial-application)
+    - [4.3. Example with Event Handlers](#43-example-with-event-handlers)
+    - [4.4. Example with Method Borrowing](#44-example-with-method-borrowing)
+5. [Advantages of `bind()`](#advantages-of-bind)
+6. [Summary](#summary)
+
+---
+
+### Introduction to `bind()`
+
+The `bind()` method in JavaScript is used to create a new function that, when called, has its `this` keyword set to the provided value. It also allows you to pass in a sequence of arguments that will be prepended to any arguments provided when the new function is invoked. This is particularly useful for preserving the `this` context across different scopes and for partial function application.
+
+---
+
+### Syntax of `bind()`
+
+**Syntax:**
+```javascript
+function.bind(thisArg, arg1, arg2, ...);
+```
+
+- **thisArg**: The value to be passed as the `this` context. If `null` or `undefined`, the global object will be used.
+- **arg1, arg2, ...**: Arguments to be passed to the function.
+
+---
+
+### How `bind()` Works
+
+The `bind()` method returns a new function with the `this` value set to `thisArg` and any arguments provided in the initial `bind()` call. When the new function is invoked, it will use the bound `this` value and arguments, along with any arguments passed during the invocation.
+
+---
+
+### Examples of Using `bind()`
+
+#### 4.1. Example with Preserving `this` Context
+
+**Example:**
+```javascript
+const person = {
+    name: "Alice",
+    greet: function() {
+        console.log(`Hello, my name is ${this.name}`);
+    }
+};
+
+const greet = person.greet.bind(person);
+greet(); // Outputs: "Hello, my name is Alice"
+```
+
+**Explanation:**
+In this example, the `greet` function is bound to the `person` object, preserving the `this` context so that when `greet` is called later, it correctly references `person`.
+
+---
+
+#### 4.2. Example with Partial Application
+
+**Example:**
+```javascript
+function multiply(a, b) {
+    return a * b;
+}
+
+const double = multiply.bind(null, 2);
+console.log(double(5)); // Outputs: 10
+```
+
+**Explanation:**
+Here, the `multiply` function is partially applied using `bind()`, creating a new function `double` that always multiplies its argument by 2.
+
+---
+
+#### 4.3. Example with Event Handlers
+
+**Example:**
+```javascript
+function Button() {
+    this.clicked = false;
+    this.click = function() {
+        this.clicked = true;
+        console.log("Button clicked:", this.clicked);
+    };
+}
+
+const button = new Button();
+const boundClick = button.click.bind(button);
+document.getElementById("myButton").addEventListener("click", boundClick);
+```
+
+**Explanation:**
+In this example, `bind()` is used to ensure that the `this` context inside the `click` method of the `Button` class remains correctly set, even when the method is used as an event handler.
+
+---
+
+#### 4.4. Example with Method Borrowing
+
+**Example:**
+```javascript
+const person1 = {
+    name: "John",
+    getName: function() {
+        return this.name;
+    }
+};
+
+const person2 = {
+    name: "Doe"
+};
+
+const getName = person1.getName.bind(person2);
+console.log(getName()); // Outputs: "Doe"
+```
+
+**Explanation:**
+In this example, `bind()` is used to borrow the `getName` method from `person1` and bind it to `person2`, so that when the method is invoked, it returns `person2`'s name.
+
+---
+
+### Advantages of `bind()`
+
+1. **Preserve `this` Context:** Ensure that the `this` context is maintained across different scopes, especially in asynchronous operations or event handlers.
+2. **Partial Application:** Create new functions with pre-filled arguments, making your code more modular and reusable.
+3. **Function Borrowing:** Borrow methods from other objects and bind them to a different `this` context.
+
+---
+
+### Summary
+
+The `bind()` method is a powerful tool in JavaScript that allows you to control the `this` context and create partially applied functions. Whether you're dealing with event handlers, asynchronous operations, or method borrowing, `bind()` can help you write more maintainable and flexible code. Understanding how to use `bind()` effectively is essential for working with JavaScript functions.
+
+## JavaScript Closures
+
+#### Table of Contents
+1. [Why Do You Need Closures?](#why-do-you-need-closures)
+2. [Introduction to Closures](#introduction-to-closures)
+3. [How Closures Work](#how-closures-work)
+4. [Examples of Closures](#examples-of-closures)
+   - [4.1. Example with Nested Functions](#41-example-with-nested-functions)
+   - [4.2. Example with Private Variables](#42-example-with-private-variables)
+   - [4.3. Example with Callbacks](#43-example-with-callbacks)
+   - [4.4. Example with Looping Constructs](#44-example-with-looping-constructs)
+5. [Advantages of Closures](#advantages-of-closures)
+6. [Common Use Cases for Closures](#common-use-cases-for-closures)
+7. [Summary](#summary)
+
+---
+
+### Why Do You Need Closures?
+
+Imagine you're creating a counter in JavaScript. You want the counter to start at zero and increase by one each time you call it. However, you also want to ensure that the count value is not accessible or modifiable from outside the counter function—essentially keeping it private.
+
+Without closures, it can be challenging to maintain this private state across multiple calls to the counter function. Closures allow you to encapsulate the counter logic within a function, ensuring that the count variable remains private and is only accessible through the function itself.
+
+**Real Example:**
+```javascript
+function createCounter() {
+    let count = 0; // Private variable
+
+    return function() {
+        count += 1;
+        return count;
+    };
+}
+
+const counter = createCounter();
+console.log(counter()); // Outputs: 1
+console.log(counter()); // Outputs: 2
+console.log(counter()); // Outputs: 3
+```
+
+In this example, the `count` variable is protected within the `createCounter` function. Each time the inner function is called, it accesses and modifies the `count` variable, demonstrating the power of closures to maintain a private state across function calls.
+
+---
+
+### Introduction to Closures
+
+A **closure** is a feature in JavaScript where an inner function has access to the outer (enclosing) function’s variables— a scope chain. Closures are created every time a function is created, at function creation time. Closures allow a function to access variables from an outer function even after the outer function has completed its execution.
+
+---
+
+### How Closures Work
+
+In JavaScript, when a function is declared inside another function, it forms a closure. This closure allows the inner function to access variables from its outer function even after the outer function has finished executing. This happens because the inner function maintains a reference to its outer function's scope.
+
+---
+
+### Examples of Closures
+
+#### 4.1. Example with Nested Functions
+
+**Example:**
+```javascript
+function outerFunction() {
+    let outerVariable = "I am outside!";
+
+    function innerFunction() {
+        console.log(outerVariable);
+    }
+
+    return innerFunction;
+}
+
+const myClosure = outerFunction();
+myClosure(); // Outputs: "I am outside!"
+```
+
+**Explanation:**
+In this example, `innerFunction` forms a closure with `outerFunction`, allowing it to access `outerVariable` even after `outerFunction` has returned.
+
+---
+
+#### 4.2. Example with Private Variables
+
+**Example:**
+```javascript
+function createCounter() {
+    let count = 0;
+
+    return function() {
+        count += 1;
+        return count;
+    };
+}
+
+const counter = createCounter();
+console.log(counter()); // Outputs: 1
+console.log(counter()); // Outputs: 2
+console.log(counter()); // Outputs: 3
+```
+
+**Explanation:**
+Here, the `count` variable is private to the `createCounter` function, and it can only be accessed and modified through the inner function returned by `createCounter`. Each call to `counter()` increments and returns the updated count, demonstrating how closures can be used to create private variables.
+
+---
+
+#### 4.3. Example with Callbacks
+
+**Example:**
+```javascript
+function fetchData(url) {
+    const secretKey = "my-secret-key";
+
+    return function() {
+        console.log(`Fetching data from ${url} using key ${secretKey}`);
+    };
+}
+
+const fetchDataFromAPI = fetchData("https://api.example.com");
+fetchDataFromAPI(); // Outputs: "Fetching data from https://api.example.com using key my-secret-key"
+```
+
+**Explanation:**
+In this example, the `fetchData` function returns a closure that remembers the `url` and `secretKey` variables, allowing the inner function to access them later, even after `fetchData` has completed.
+
+---
+
+#### 4.4. Example with Looping Constructs
+
+**Example:**
+```javascript
+function createTimers() {
+    for (let i = 0; i < 5; i++) {
+        setTimeout(function() {
+            console.log(i);
+        }, i * 1000);
+    }
+}
+
+createTimers(); 
+// Outputs: 0, 1, 2, 3, 4 (each after 1 second interval)
+```
+
+**Explanation:**
+In this example, the loop creates a closure for each iteration of the loop. Since `let` is block-scoped, each closure maintains a reference to its specific `i` value, allowing it to print the correct number at the correct time.
+
+---
+
+### Advantages of Closures
+
+1. **Data Encapsulation:** Closures allow you to encapsulate data within a function, keeping it private and protected from the global scope.
+2. **Persistent State:** Closures help maintain a persistent state across function calls, which is useful in scenarios like counters or settings.
+3. **Modular Code:** By using closures, you can write more modular and reusable code, avoiding global variables and minimizing side effects.
+
+---
+
+### Common Use Cases for Closures
+
+1. **Event Handlers:** Closures are often used in event handlers to maintain access to variables from the outer scope.
+2. **Callback Functions:** Closures are commonly used in asynchronous programming and callbacks to preserve the state between function calls.
+3. **Module Patterns:** Closures form the basis for creating modules in JavaScript, where functions and variables are encapsulated within a single scope.
+
+---
+
+### Summary
+
+Closures are a powerful feature in JavaScript that allow functions to access variables from their outer scope, even after the outer function has completed execution. They provide a way to create private variables, maintain state, and write more modular code. Understanding closures is crucial for mastering JavaScript, as they are fundamental to many advanced programming patterns and techniques.
+
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
