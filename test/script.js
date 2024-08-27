@@ -1,17 +1,14 @@
 
 
 function mainFunction() {
+
   
-  let obj = {};
-  Object.defineProperty(obj, 'a', {
-      value: 42,
-      writable: true
-  });
-  
-  console.log(obj.a); // Outputs: 42
-  obj.a = 25; // This will not change the value
-  console.log(obj.a); // Still outputs: 42
-  
+
+  function sum(a=0, b=0, ...rest) {
+    return a+b+rest.reduce((acc, val)=>acc+val, 0);
+  }
+  console.log(sum(12));
+  console.log(sum(12, 2, 3, 1, 2, 3));
 }
 
 

@@ -9950,6 +9950,7 @@ Understanding these techniques enhances code reliability, security, and maintain
 - [JavaScript `apply()` Method](#javascript-apply-method)
 - [JavaScript `bind()` Method](#javascript-bind-method)
 - [JavaScript Closures](#javascript-closures)
+- [Higher-Order Functions](#higher-order-functions)
 
 ## JavaScript Function Definitions
 
@@ -11341,6 +11342,157 @@ In this example, the loop creates a closure for each iteration of the loop. Sinc
 ### Summary
 
 Closures are a powerful feature in JavaScript that allow functions to access variables from their outer scope, even after the outer function has completed execution. They provide a way to create private variables, maintain state, and write more modular code. Understanding closures is crucial for mastering JavaScript, as they are fundamental to many advanced programming patterns and techniques.
+
+
+## Higher-Order Functions
+
+#### Table of Contents
+1. [Why Do You Need Higher-Order Functions?](#why-do-you-need-higher-order-functions)
+2. [Introduction to Higher-Order Functions](#introduction-to-higher-order-functions)
+3. [How Higher-Order Functions Work](#how-higher-order-functions-work)
+4. [Examples of Higher-Order Functions](#examples-of-higher-order-functions)
+   - [4.1. Array Methods as Higher-Order Functions](#41-array-methods-as-higher-order-functions)
+   - [4.2. Creating a Custom Higher-Order Function](#42-creating-a-custom-higher-order-function)
+   - [4.3. Using Higher-Order Functions for Event Handling](#43-using-higher-order-functions-for-event-handling)
+   - [4.4. Functional Composition with Higher-Order Functions](#44-functional-composition-with-higher-order-functions)
+5. [Advantages of Higher-Order Functions](#advantages-of-higher-order-functions)
+6. [Common Use Cases for Higher-Order Functions](#common-use-cases-for-higher-order-functions)
+7. [Summary](#summary)
+
+---
+
+### Why Do You Need Higher-Order Functions?
+
+Higher-order functions are a powerful concept in JavaScript that allow you to write more flexible, reusable, and expressive code. Imagine you need to apply a series of transformations to an array of numbers, such as doubling each number and then filtering out those greater than 10. Instead of writing repetitive loops, you can use higher-order functions like `map()` and `filter()` to achieve this in a clean and efficient way.
+
+**Real Example:**
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+
+const doubled = numbers.map(num => num * 2); // [2, 4, 6, 8, 10]
+const filtered = doubled.filter(num => num <= 10); // [2, 4, 6, 8, 10]
+
+console.log(filtered); // Outputs: [2, 4, 6, 8, 10]
+```
+
+In this example, the `map()` and `filter()` functions are higher-order functions that help you transform and filter the array with minimal code. Without higher-order functions, achieving the same result would require more verbose and less readable code.
+
+---
+
+### Introduction to Higher-Order Functions
+
+A **higher-order function** is a function that can take another function as an argument, return a function as its result, or do both. This capability allows you to create more abstract and reusable code by encapsulating behavior that can be easily passed around and applied in different contexts.
+
+---
+
+### How Higher-Order Functions Work
+
+Higher-order functions work by accepting a function as an argument or returning a function as a result. This allows for a more functional programming style, where functions can be composed, reused, and passed around as first-class citizens in your code.
+
+---
+
+### Examples of Higher-Order Functions
+
+#### 4.1. Array Methods as Higher-Order Functions
+
+**Example:**
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+
+const squared = numbers.map(num => num * num);
+console.log(squared); // Outputs: [1, 4, 9, 16, 25]
+```
+
+**Explanation:**
+In this example, `map()` is a higher-order function that takes a function (`num => num * num`) as its argument and applies it to each element in the array, returning a new array with the results.
+
+---
+
+#### 4.2. Creating a Custom Higher-Order Function
+
+**Example:**
+```javascript
+function repeat(operation, num) {
+    return function() {
+        for (let i = 0; i < num; i++) {
+            operation();
+        }
+    };
+}
+
+const sayHello = repeat(() => console.log('Hello!'), 3);
+sayHello();
+// Outputs: "Hello!" three times
+```
+
+**Explanation:**
+Here, `repeat` is a higher-order function that takes an `operation` function and a `num` value as arguments. It returns a new function that, when called, repeats the `operation` a specified number of times.
+
+---
+
+#### 4.3. Using Higher-Order Functions for Event Handling
+
+**Example:**
+```javascript
+function addEventListenerWithLog(element, event, handler) {
+    element.addEventListener(event, function(event) {
+        console.log(`Event triggered: ${event.type}`);
+        handler(event);
+    });
+}
+
+addEventListenerWithLog(document.getElementById('myButton'), 'click', function() {
+    console.log('Button clicked!');
+});
+```
+
+**Explanation:**
+In this example, `addEventListenerWithLog` is a higher-order function that wraps the original event handler with additional logging functionality. This allows you to add custom behavior to existing event handlers without modifying them directly.
+
+---
+
+#### 4.4. Functional Composition with Higher-Order Functions
+
+**Example:**
+```javascript
+function compose(f, g) {
+    return function(x) {
+        return f(g(x));
+    };
+}
+
+const addOne = x => x + 1;
+const square = x => x * x;
+
+const addOneThenSquare = compose(square, addOne);
+
+console.log(addOneThenSquare(2)); // Outputs: 9
+```
+
+**Explanation:**
+Here, `compose` is a higher-order function that takes two functions, `f` and `g`, as arguments and returns a new function that applies `g` to its input and then applies `f` to the result. This demonstrates how higher-order functions can be used to create function compositions.
+
+---
+
+### Advantages of Higher-Order Functions
+
+1. **Code Reusability:** Higher-order functions promote code reuse by allowing you to create generic functions that can be customized with different behaviors.
+2. **Functional Programming:** They enable a more functional programming style, where functions can be composed and reused in a declarative manner.
+3. **Cleaner Code:** By abstracting repetitive behavior into higher-order functions, your code becomes more concise and easier to read.
+
+---
+
+### Common Use Cases for Higher-Order Functions
+
+1. **Array Operations:** Functions like `map`, `filter`, and `reduce` are commonly used higher-order functions for transforming and processing arrays.
+2. **Event Handling:** Higher-order functions can be used to enhance or modify event handlers with additional functionality.
+3. **Function Composition:** They are often used to compose multiple functions into a single function, enabling more modular and reusable code.
+
+---
+
+### Summary
+
+Higher-order functions are a fundamental concept in JavaScript that allow you to write more modular, reusable, and expressive code. They enable a functional programming style, where functions can be passed around, composed, and applied in various contexts. Understanding and using higher-order functions is key to mastering JavaScript and writing clean, efficient code.
 
 
 <h3 align="right">
