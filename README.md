@@ -11495,6 +11495,15 @@ Here, `compose` is a higher-order function that takes two functions, `f` and `g`
 Higher-order functions are a fundamental concept in JavaScript that allow you to write more modular, reusable, and expressive code. They enable a functional programming style, where functions can be passed around, composed, and applied in various contexts. Understanding and using higher-order functions is key to mastering JavaScript and writing clean, efficient code.
 
 
+# Chapter-15: Asynchronous JavaScript
+
+- [JavaScript Callbacks](#javascript-callbacks)
+
+
+## JavaScript Callbacks
+
+
+
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>

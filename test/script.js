@@ -1,14 +1,32 @@
+/*
+1) Hoisted
+2) Parameter
+3) Arguments
+4) call
+5) apply
+6) Higher Order Function
+*/
+
+
 
 
 function mainFunction() {
 
-  
-
-  function sum(a=0, b=0, ...rest) {
-    return a+b+rest.reduce((acc, val)=>acc+val, 0);
-  }
-  console.log(sum(12));
-  console.log(sum(12, 2, 3, 1, 2, 3));
+  function repeat(operation, num) {
+    return function() {
+        for (let i = 0; i < num; i++) {
+            operation();
+        }
+    };
 }
+
+const sayHello = repeat(() => console.log('CodeJogot'), 5);
+sayHello();
+sayHello();
+
+
+}
+
+
 
 
