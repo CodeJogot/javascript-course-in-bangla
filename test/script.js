@@ -1,29 +1,18 @@
-/*
-1) Hoisted
-2) Parameter
-3) Arguments
-4) call
-5) apply
-6) Higher Order Function
-*/
-
-
-
 
 function mainFunction() {
 
-  function repeat(operation, num) {
-    return function() {
-        for (let i = 0; i < num; i++) {
-            operation();
-        }
-    };
-}
+    console.log("2");
+    console.log("3");
+    setTimeout(myFunction, 0);
 
-const sayHello = repeat(() => console.log('CodeJogot'), 5);
-sayHello();
-sayHello();
-
+    function myFunction() {
+      console.log("4");
+    }
+    console.log("5");
+    console.log("5");
+    console.log("5");
+    console.log("5");
+    console.log("5");
 
 }
 
