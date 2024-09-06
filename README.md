@@ -13571,18 +13571,33 @@ Example:
 <h2>User Profile</h2>
 <p id="username">John Doe</p>
 <p id="email">john@example.com</p>
+
+<!-- Input fields for username and email -->
+<label for="newUsername">New Username:</label>
+<input type="text" id="newUsername" placeholder="Enter new username"><br><br>
+
+<label for="newEmail">New Email:</label>
+<input type="email" id="newEmail" placeholder="Enter new email"><br><br>
+
 <button onclick="updateProfile()">Update Profile</button>
 
 <script>
 function updateProfile() {
-    document.getElementById('username').innerText = 'Jane Doe';
-    document.getElementById('email').innerText = 'jane@example.com';
+    // Get the values from the input fields
+    const newUsername = document.getElementById('newUsername').value;
+    const newEmail = document.getElementById('newEmail').value;
 
+    // Update the profile information
+    document.getElementById('username').innerText = newUsername;
+    document.getElementById('email').innerText = newEmail;
+
+    // Display a confirmation message
     let confirmation = document.createElement('p');
     confirmation.innerText = 'Profile updated successfully!';
     document.body.appendChild(confirmation);
 }
 </script>
+
 
 ```
 
