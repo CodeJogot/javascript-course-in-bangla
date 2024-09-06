@@ -1,7 +1,7 @@
 
 function mainFunction() {
 
-console.log(document);
+  console.log(document.head); 
 
 }
 

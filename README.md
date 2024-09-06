@@ -4,39 +4,39 @@
 
 After completing the 30-chapters module, jump in the [Projects Section](#).
 
-|                                            **Chapter No.**                                            |                                                                                        **Topics**                                                                                        | **Video Explanation** |
-| :---------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
-|                             [00](#chapter-00-how-the-course-is-designed)                              |                                                           [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                                           |       Watch Now       |
-|         [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)          |                  [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                  |       Watch Now       |
-|       [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)       |            [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)            |       Watch Now       |
-|                  [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)                   |                                   [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                    |       Watch Now       |
-|                                  [04](#chapter-04-javascript-object)                                  |                                                                 [JavaScript Object](#chapter-04-javascript-object) []()                                                                  |     [Watch Now]()     |
-|                                  [05](#chapter-05-javascript-string)                                  |                                                                    [JavaScript String](#chapter-05-javascript-string)                                                                    |     [Watch Now]()     |
-|      [06](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)      |          [JavaScript Numbers, Bigint, Number Methods, Number Methods, Number Properties](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)          |     [Watch Now]()     |
-|       [07](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)        |                                          [JavaScript Array](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                                          |     [Watch Now]()     |
-|                       [08](#chapter-08-javascript-date-object-and-math-object)                        |                                                  [JavaScript Date and Math Object](#chapter-08-javascript-date-object-and-math-object)                                                   |                       |
-|              [09](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)              |                          [JavaScript Iterables, Sets, Set Methods, Map and Map Methods](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                           |                       |
-| [10](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions) | [JavaScript Type Conversion, Destructuring, Bitwise Operations and Regular Expressions](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions) |                       |
-|            [11](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)             |                        [JavaScript Errors, Use Strict, This Keyword and Arrow Function](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                        |                       |
-|                        [12](#chapter-12-javascript-classes-json-and-debugging)                        |                                               [JavaScript Classes, JSON and Debugging](#chapter-12-javascript-classes-json-and-debugging)                                                |                       |
-|                             [13](#chapter-13-javascript-object-in-detail)                             |                                                          [JavaScript Object in Detail](#chapter-13-javascript-object-in-detail)                                                          |                       |
-|                           [14](#chapter-14-javascript-functions-in-detail)                            |                                                       [JavaScript Functions in Detail](#chapter-14-javascript-functions-in-detail)                                                       |                       |
-|                               [15](#chapter-15-asynchronous-javascript)                               |                                                              [Asynchronous JavaScript](#chapter-15-asynchronous-javascript)                                                              |                       |
-|                                                  [16](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object)                                                   |      [DOM, DOM Methods, DOM Documents, DOM Elements, DOM Events, DOM Event Listener, DOM Nodes, DOM Collections, DOM NodeList Object](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object)                                                                                                                                                                                    |                       |
-|                                                  17                                                   |                                                                                                                                                                                          |                       |
-|                                                  18                                                   |                                                                                                                                                                                          |                       |
-|                                                  19                                                   |                                                                                                                                                                                          |                       |
-|                                                  20                                                   |                                                                                                                                                                                          |                       |
-|                                                  21                                                   |                                                                                                                                                                                          |                       |
-|                                                  22                                                   |                                                                                                                                                                                          |                       |
-|                                                  23                                                   |                                                                                                                                                                                          |                       |
-|                                                  24                                                   |                                                                                                                                                                                          |                       |
-|                                                  25                                                   |                                                                                                                                                                                          |                       |
-|                                                  26                                                   |                                                                                                                                                                                          |                       |
-|                                                  27                                                   |                                                                                                                                                                                          |                       |
-|                                                  28                                                   |                                                                                                                                                                                          |                       |
-|                                                  29                                                   |                                                                                                                                                                                          |                       |
-|                                                  30                                                   |                                                                                                                                                                                          |                       |
+|                                                             **Chapter No.**                                                              |                                                                                                                              **Topics**                                                                                                                              | **Video Explanation** |
+| :--------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
+|                                               [00](#chapter-00-how-the-course-is-designed)                                               |                                                                                                 [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                                                                                 |       Watch Now       |
+|                           [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                           |                                                        [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                                                        |       Watch Now       |
+|                        [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                         |                                                  [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                                                  |       Watch Now       |
+|                                    [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                    |                                                                         [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                                                          |       Watch Now       |
+|                                                   [04](#chapter-04-javascript-object)                                                    |                                                                                                       [JavaScript Object](#chapter-04-javascript-object) []()                                                                                                        |     [Watch Now]()     |
+|                                                   [05](#chapter-05-javascript-string)                                                    |                                                                                                          [JavaScript String](#chapter-05-javascript-string)                                                                                                          |     [Watch Now]()     |
+|                       [06](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)                        |                                                [JavaScript Numbers, Bigint, Number Methods, Number Methods, Number Properties](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)                                                |     [Watch Now]()     |
+|                         [07](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                         |                                                                                [JavaScript Array](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                                                                                |     [Watch Now]()     |
+|                                         [08](#chapter-08-javascript-date-object-and-math-object)                                         |                                                                                        [JavaScript Date and Math Object](#chapter-08-javascript-date-object-and-math-object)                                                                                         |                       |
+|                               [09](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                |                                                                [JavaScript Iterables, Sets, Set Methods, Map and Map Methods](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                                                 |                       |
+|                  [10](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                   |                                       [JavaScript Type Conversion, Destructuring, Bitwise Operations and Regular Expressions](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                                       |                       |
+|                              [11](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                              |                                                              [JavaScript Errors, Use Strict, This Keyword and Arrow Function](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                                                              |                       |
+|                                         [12](#chapter-12-javascript-classes-json-and-debugging)                                          |                                                                                     [JavaScript Classes, JSON and Debugging](#chapter-12-javascript-classes-json-and-debugging)                                                                                      |                       |
+|                                              [13](#chapter-13-javascript-object-in-detail)                                               |                                                                                                [JavaScript Object in Detail](#chapter-13-javascript-object-in-detail)                                                                                                |                       |
+|                                             [14](#chapter-14-javascript-functions-in-detail)                                             |                                                                                             [JavaScript Functions in Detail](#chapter-14-javascript-functions-in-detail)                                                                                             |                       |
+|                                                [15](#chapter-15-asynchronous-javascript)                                                 |                                                                                                    [Asynchronous JavaScript](#chapter-15-asynchronous-javascript)                                                                                                    |                       |
+| [16](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object) | [DOM, DOM Methods, DOM Documents, DOM Elements, DOM Events, DOM Event Listener, DOM Nodes, DOM Collections, DOM NodeList Object](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object) |                       |
+|                                                                    17                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    18                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    19                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    20                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    21                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    22                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    23                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    24                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    25                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    26                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    27                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    28                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    29                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                                    30                                                                    |                                                                                                                                                                                                                                                                      |                       |
 
 # 5 JavaScript Projects
 
@@ -13337,8 +13337,6 @@ Async/Await হলো JavaScript এর একটি modern এবং powerful f
 
 - When a web page is loaded, the browser creates a Document Object Model of the page.
 
-
-
 ### 2. Why Use the DOM?
 
 DOM এর মাধ্যমে JavaScript ব্যবহার করে একটি webpage এর content এবং structure পরিবর্তন করা যায়। User interaction এর ভিত্তিতে dynamically HTML elements update, remove, অথবা add করা যায়। DOM manipulation user experience এবং webpage এর interactivity উন্নত করতে সহায়ক।
@@ -13569,8 +13567,8 @@ Example:
 
 ```js
 <h2>User Profile</h2>
-<p id="username">John Doe</p>
-<p id="email">john@example.com</p>
+<p id="username">Rahim</p>
+<p id="email">rahim@gmail.com</p>
 
 <!-- Input fields for username and email -->
 <label for="newUsername">New Username:</label>
@@ -13600,22 +13598,6 @@ function updateProfile() {
 
 
 ```
-
-Output:
-
-```css
-User Profile
-Jane Doe
-jane@example.com
-
-Profile updated successfully!
-
-```
-
-**Detailed Explanation:**
-
-1. **Changing Content:** User এর নাম এবং ইমেইল address কে dynamically পরিবর্তন করা হয়েছে।
-2. **Adding an Element:** Profile update হওয়ার পরে একটি নতুন paragraph dynamically তৈরি করা হয়েছে এবং সেটি body element এর শেষে append করা হয়েছে।
 
 ### 8. Conclusion
 
@@ -13841,40 +13823,40 @@ My Image
 ##### Example:
 
 ```html
-<h2>To-do List</h2>
-<ul id="todoList">
-  <li>Learn JavaScript</li>
-</ul>
+<h2>User Profile</h2>
+<p id="username">Rahim</p>
+<p id="email">rahim@gmail.com</p>
 
-<input type="text" id="newTask" placeholder="Add a new task" />
-<button onclick="addTask()">Add Task</button>
+<!-- Input fields for username and email -->
+<label for="newUsername">New Username:</label>
+<input
+  type="text"
+  id="newUsername"
+  placeholder="Enter new username"
+/><br /><br />
+
+<label for="newEmail">New Email:</label>
+<input type="email" id="newEmail" placeholder="Enter new email" /><br /><br />
+
+<button onclick="updateProfile()">Update Profile</button>
 
 <script>
-  function addTask() {
-    let task = document.getElementById("newTask").value;
-    let list = document.getElementById("todoList");
+  function updateProfile() {
+    // Get the values from the input fields
+    const newUsername = document.getElementById("newUsername").value;
+    const newEmail = document.getElementById("newEmail").value;
 
-    let newItem = document.createElement("li");
-    newItem.innerText = task;
+    // Update the profile information
+    document.getElementById("username").innerText = newUsername;
+    document.getElementById("email").innerText = newEmail;
 
-    list.appendChild(newItem);
+    // Display a confirmation message
+    let confirmation = document.createElement("p");
+    confirmation.innerText = "Profile updated successfully!";
+    document.body.appendChild(confirmation);
   }
 </script>
 ```
-
-**Output on Webpage:**
-
-```
-To-do List
-- Learn JavaScript
-- (Newly added task by user)
-```
-
-**Detailed Explanation:**
-
-1. **Accessing Elements:** Input field এবং unordered list কে JavaScript এর মাধ্যমে access করা হয়েছে।
-2. **Creating New Element:** `createElement()` method ব্যবহার করে নতুন `li` element তৈরি করা হয়েছে।
-3. **Appending New Item:** নতুন task add করার জন্য dynamically নতুন element list এ append করা হয়েছে।
 
 ### 4. Conclusion
 
@@ -14155,8 +14137,8 @@ Hello, (User's Name)!
 
 ## HTML DOM Elements
 
-
 ### Table of Contents
+
 1. [Introduction to HTML DOM Elements](#introduction-to-html-dom-elements)
 2. [Why Use the DOM for Accessing Elements?](#why-use-the-dom-for-accessing-elements)
 3. [Accessing HTML DOM Elements](#accessing-html-dom-elements)
@@ -14203,12 +14185,13 @@ HTML DOM elements dynamically access করার জন্য JavaScript এর
 <p id="myParagraph">This is a paragraph.</p>
 
 <script>
-    let element = document.getElementById('myParagraph');
-    console.log(element.innerText);
+  let element = document.getElementById("myParagraph");
+  console.log(element.innerText);
 </script>
 ```
 
 **Console Output:**
+
 ```
 This is a paragraph.
 ```
@@ -14226,13 +14209,14 @@ This is a paragraph.
 <p class="text">Paragraph 2</p>
 
 <script>
-    let elements = document.getElementsByClassName('text');
-    console.log(elements[0].innerText);  // First element's text content
-    console.log(elements[1].innerText);  // Second element's text content
+  let elements = document.getElementsByClassName("text");
+  console.log(elements[0].innerText); // First element's text content
+  console.log(elements[1].innerText); // Second element's text content
 </script>
 ```
 
 **Console Output:**
+
 ```
 Paragraph 1
 Paragraph 2
@@ -14251,13 +14235,14 @@ Paragraph 2
 <p>Second Paragraph</p>
 
 <script>
-    let elements = document.getElementsByTagName('p');
-    console.log(elements[0].innerText);  // First paragraph text content
-    console.log(elements[1].innerText);  // Second paragraph text content
+  let elements = document.getElementsByTagName("p");
+  console.log(elements[0].innerText); // First paragraph text content
+  console.log(elements[1].innerText); // Second paragraph text content
 </script>
 ```
 
 **Console Output:**
+
 ```
 First Paragraph
 Second Paragraph
@@ -14273,16 +14258,17 @@ Second Paragraph
 
 ```html
 <div class="container">
-    <p>This is a paragraph inside a container.</p>
+  <p>This is a paragraph inside a container.</p>
 </div>
 
 <script>
-    let element = document.querySelector('.container p');
-    console.log(element.innerText);  // Output the paragraph's text
+  let element = document.querySelector(".container p");
+  console.log(element.innerText); // Output the paragraph's text
 </script>
 ```
 
 **Console Output:**
+
 ```
 This is a paragraph inside a container.
 ```
@@ -14303,16 +14289,27 @@ HTML element এর text content dynamically পরিবর্তন করা�
 <p id="myText">Old Text</p>
 
 <script>
-    document.getElementById('myText').innerText = 'New Text';
+  document.getElementById("myText").innerText = "New Text";
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 New Text
 ```
 
 **Explanation:** এখানে `innerText` property ব্যবহার করে paragraph element এর text content পরিবর্তন করা হয়েছে।
+
+- নিচে `innerText` এবং `innerHTML` এর মধ্যে পার্থক্য একটি টেবিল আকারে দেখানো হল:
+
+| বৈশিষ্ট্য          | `innerText`                                   | `innerHTML`                                                    |
+| ------------------ | --------------------------------------------- | -------------------------------------------------------------- |
+| প্রদর্শিত কন্টেন্ট | শুধুমাত্র দৃশ্যমান টেক্সট প্রদর্শন করে        | HTML ট্যাগ সহ সম্পূর্ণ কন্টেন্ট প্রদর্শন করে                   |
+| HTML ট্যাগ         | HTML ট্যাগ ইগনোর করে                          | HTML ট্যাগসহ কন্টেন্ট দেখায়                                   |
+| হিডেন এলিমেন্ট     | হিডেন এলিমেন্টের টেক্সট উপেক্ষা করে           | হিডেন এলিমেন্টের কন্টেন্টও অন্তর্ভুক্ত করে                     |
+| ব্যবহার            | শুধুমাত্র পাঠযোগ্য টেক্সট পেতে ব্যবহার করা হয় | HTML ফরম্যাট সহ কন্টেন্ট পেতে এবং পরিবর্তন করতে ব্যবহার করা হয় |
+| পরিবর্তন           | শুধুমাত্র টেক্সট পরিবর্তন করা যায়             | HTML ট্যাগসহ কন্টেন্ট পরিবর্তন করা যায়                         |
 
 #### 4.2 Changing HTML Attributes
 
@@ -14321,10 +14318,10 @@ HTML element এর attributes dynamically পরিবর্তন করা �
 ##### Example:
 
 ```html
-<img id="myImage" src="old_image.jpg" alt="Old Image">
+<img id="myImage" src="old_image.jpg" alt="Old Image" />
 
 <script>
-    document.getElementById('myImage').src = 'new_image.jpg';  // Change the image source
+  document.getElementById("myImage").src = "new_image.jpg"; // Change the image source
 </script>
 ```
 
@@ -14340,12 +14337,13 @@ JavaScript এর মাধ্যমে HTML element এর CSS styles dynamical
 <p id="myText">Style me!</p>
 
 <script>
-    document.getElementById('myText').style.color = 'blue';
-    document.getElementById('myText').style.fontSize = '20px';
+  document.getElementById("myText").style.color = "blue";
+  document.getElementById("myText").style.fontSize = "20px";
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 (This text will appear in blue and 20px size)
 ```
@@ -14356,18 +14354,18 @@ JavaScript এর মাধ্যমে HTML element এর CSS styles dynamical
 
 নিচে HTML DOM elements এর কিছু common properties এবং methods এর তালিকা দেওয়া হলো, যা **W3Schools** থেকে নেওয়া হয়েছে:
 
-| Property / Method                 | Description                                              |
-|------------------------------------|----------------------------------------------------------|
-| `element.innerHTML`                | Changes or returns the inner HTML content of an element   |
-| `element.innerText`                | Changes or returns the text content of an element         |
-| `element.setAttribute()`           | Changes or adds an attribute                              |
-| `element.getAttribute()`           | Gets the value of an attribute                            |
-| `element.style.property`           | Changes the style of an element                           |
-| `document.getElementById()`        | Returns the element with the specified `id`               |
-| `document.getElementsByClassName()`| Returns all elements with the specified class name        |
-| `document.getElementsByTagName()`  | Returns all elements with the specified tag name          |
-| `document.querySelector()`         | Returns the first matching element for a CSS selector     |
-| `document.querySelectorAll()`      | Returns all matching elements for a CSS selector          |
+| Property / Method                   | Description                                             |
+| ----------------------------------- | ------------------------------------------------------- |
+| `element.innerHTML`                 | Changes or returns the inner HTML content of an element |
+| `element.innerText`                 | Changes or returns the text content of an element       |
+| `element.setAttribute()`            | Changes or adds an attribute                            |
+| `element.getAttribute()`            | Gets the value of an attribute                          |
+| `element.style.property`            | Changes the style of an element                         |
+| `document.getElementById()`         | Returns the element with the specified `id`             |
+| `document.getElementsByClassName()` | Returns all elements with the specified class name      |
+| `document.getElementsByTagName()`   | Returns all elements with the specified tag name        |
+| `document.querySelector()`          | Returns the first matching element for a CSS selector   |
+| `document.querySelectorAll()`       | Returns all matching elements for a CSS selector        |
 
 Source: [W3Schools - HTML DOM Elements](https://www.w3schools.com/js/js_htmldom_elements.asp)
 
@@ -14382,26 +14380,27 @@ Source: [W3Schools - HTML DOM Elements](https://www.w3schools.com/js/js_htmldom_
 ```html
 <h2>Shopping Cart</h2>
 <ul id="cartList">
-    <li>Item 1</li>
+  <li>Item 1</li>
 </ul>
 
-<input type="text" id="newItem" placeholder="Enter new item">
+<input type="text" id="newItem" placeholder="Enter new item" />
 <button onclick="addItem()">Add Item</button>
 
 <script>
-function addItem() {
-    let item = document.getElementById('newItem').value;
-    let list = document.getElementById('cartList');
+  function addItem() {
+    let item = document.getElementById("newItem").value;
+    let list = document.getElementById("cartList");
 
-    let newItem = document.createElement('li');
+    let newItem = document.createElement("li");
     newItem.innerText = item;
 
     list.appendChild(newItem);
-}
+  }
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 Item 1
 (Newly added item by user)
@@ -14410,11 +14409,10 @@ Item 1
 **Detailed Explanation:**
 
 1. **Accessing Elements:** `getElementById()` method ব্যবহার করে input field এবং unordered list access করা হয়েছে।
-   
-2. **Creating New
+2. \*\*Creating New
 
- Elements:** `createElement()` method ব্যবহার করে নতুন `li` element তৈরি করা হয়েছে।
-   
+Elements:\*\* `createElement()` method ব্যবহার করে নতুন `li` element তৈরি করা হয়েছে।
+
 3. **Appending New Item:** নতুন item কে dynamically list এ append করা হয়েছে।
 
 ### 7. Conclusion
@@ -14424,6 +14422,7 @@ HTML DOM Elements হল HTML document এর primary building blocks, যাদ
 ## JavaScript Form Validation Using DOM
 
 ### Table of Contents
+
 1. [Introduction to Form Validation](#introduction-to-form-validation)
 2. [Why Use JavaScript for Form Validation?](#why-use-javascript-for-form-validation)
 3. [Accessing Form Elements via DOM](#accessing-form-elements-via-dom)
@@ -14444,6 +14443,7 @@ Form validation হলো একটি technique যা user এর form input d
 ### 2. Why Use JavaScript for Form Validation?
 
 JavaScript ব্যবহার করে form validation করার কিছু গুরুত্বপূর্ণ কারণ:
+
 - **Fast Feedback:** User কে দ্রুত feedback দেওয়া যায় input field এর ভুল নিয়ে।
 - **Reduce Server Load:** Validation client-side এ হওয়ার ফলে server-side validation এর উপর load কমে।
 - **Improved User Experience:** Validation errors এবং suggestions user-friendly ভাবে দেখানো যায়।
@@ -14461,13 +14461,13 @@ JavaScript এর মাধ্যমে DOM methods ব্যবহার কর
 
 ```html
 <form id="myForm">
-    <input type="text" id="username">
-    <input type="submit">
+  <input type="text" id="username" />
+  <input type="submit" />
 </form>
 
 <script>
-    let username = document.getElementById('username').value;
-    console.log(username);
+  let username = document.getElementById("username").value;
+  console.log(username);
 </script>
 ```
 
@@ -14481,13 +14481,13 @@ JavaScript এর মাধ্যমে DOM methods ব্যবহার কর
 
 ```html
 <form id="myForm">
-    <input type="text" class="input-field" name="email">
-    <input type="submit">
+  <input type="text" class="input-field" name="email" />
+  <input type="submit" />
 </form>
 
 <script>
-    let emailField = document.querySelector('.input-field');
-    console.log(emailField.value);
+  let emailField = document.querySelector(".input-field");
+  console.log(emailField.value);
 </script>
 ```
 
@@ -14505,12 +14505,12 @@ Text fields validation এর ক্ষেত্রে সাধারণত che
 
 ```javascript
 function validateText() {
-    let username = document.getElementById('username').value;
-    if (username === "") {
-        alert("Username cannot be empty");
-        return false;
-    }
-    return true;
+  let username = document.getElementById("username").value;
+  if (username === "") {
+    alert("Username cannot be empty");
+    return false;
+  }
+  return true;
 }
 ```
 
@@ -14524,14 +14524,14 @@ Email fields validation এর ক্ষেত্রে email format সঠি�
 
 ```javascript
 function validateEmail() {
-    let email = document.getElementById('email').value;
-    let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-    
-    if (!emailPattern.test(email)) {
-        alert("Please enter a valid email address");
-        return false;
-    }
-    return true;
+  let email = document.getElementById("email").value;
+  let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address");
+    return false;
+  }
+  return true;
 }
 ```
 
@@ -14545,12 +14545,12 @@ Password fields validation এর ক্ষেত্রে password length এ�
 
 ```javascript
 function validatePassword() {
-    let password = document.getElementById('password').value;
-    if (password.length < 8) {
-        alert("Password must be at least 8 characters long");
-        return false;
-    }
-    return true;
+  let password = document.getElementById("password").value;
+  if (password.length < 8) {
+    alert("Password must be at least 8 characters long");
+    return false;
+  }
+  return true;
 }
 ```
 
@@ -14564,12 +14564,12 @@ Checkbox এবং radio button validation এর ক্ষেত্রে check
 
 ```javascript
 function validateCheckbox() {
-    let isChecked = document.getElementById('terms').checked;
-    if (!isChecked) {
-        alert("You must agree to the terms and conditions");
-        return false;
-    }
-    return true;
+  let isChecked = document.getElementById("terms").checked;
+  if (!isChecked) {
+    alert("You must agree to the terms and conditions");
+    return false;
+  }
+  return true;
 }
 ```
 
@@ -14585,49 +14585,48 @@ function validateCheckbox() {
 
 ```html
 <form id="registrationForm" onsubmit="return validateForm()">
-    Username: <input type="text" id="username"><br>
-    Email: <input type="text" id="email"><br>
-    Password: <input type="password" id="password"><br>
-    
-    <div class="checkbox">
-        <input type="checkbox" id="terms">
-        <label for="terms">I agree to the terms and conditions</label>
-    </div>
-    
-    <input type="submit" value="Register">
+  Username: <input type="text" id="username" /><br />
+  Email: <input type="text" id="email" /><br />
+  Password: <input type="password" id="password" /><br />
+
+  <div class="checkbox">
+    <input type="checkbox" id="terms" />
+    <label for="terms">I agree to the terms and conditions</label>
+  </div>
+
+  <input type="submit" value="Register" />
 </form>
 
-
 <script>
-function validateForm() {
-    let username = document.getElementById('username').value;
-    let email = document.getElementById('email').value;
-    let password = document.getElementById('password').value;
-    let terms = document.getElementById('terms').checked;
+  function validateForm() {
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let terms = document.getElementById("terms").checked;
 
     if (username === "") {
-        alert("Username cannot be empty");
-        return false;
+      alert("Username cannot be empty");
+      return false;
     }
 
     let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     if (!emailPattern.test(email)) {
-        alert("Please enter a valid email address");
-        return false;
+      alert("Please enter a valid email address");
+      return false;
     }
 
     if (password.length < 8) {
-        alert("Password must be at least 8 characters long");
-        return false;
+      alert("Password must be at least 8 characters long");
+      return false;
     }
 
     if (!terms) {
-        alert("You must agree to the terms and conditions");
-        return false;
+      alert("You must agree to the terms and conditions");
+      return false;
     }
 
     return true;
-}
+  }
 </script>
 ```
 
@@ -14635,85 +14634,84 @@ function validateForm() {
 
 ```css
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 form {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    width: 320px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 320px;
 }
 
 form input[type="text"],
 form input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 form input[type="checkbox"] {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 form input[type="submit"] {
-    width: 100%;
-    padding: 12px;
-    background-color: #28a745;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 form input[type="submit"]:hover {
-    background-color: #218838;
+  background-color: #218838;
 }
 
 label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 form br {
-    display: none;
+  display: none;
 }
 
 form .checkbox {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
 }
 
 form .checkbox label {
-    font-weight: normal;
-    margin-left: 5px;
+  font-weight: normal;
+  margin-left: 5px;
 }
 
 h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
 }
-
 ```
 
 Form Screenshot:
@@ -14725,7 +14723,6 @@ Code: https://codepen.io/FarmerAbdulAlim/pen/oNrJxeB
 **Detailed Explanation:**
 
 1. **Accessing Form Elements:** `getElementById()` method ব্যবহার করে username, email, password, এবং checkbox elements কে access করা হয়েছে।
-   
 2. **Validating Fields:** Username, email, এবং password field এর value validate করা হয়েছে এবং checkbox এর checked state check করা হয়েছে।
 
 3. **Alert Messages:** Validation fail হলে user কে একটি error message দেখানো হয়েছে।
@@ -14734,10 +14731,10 @@ Code: https://codepen.io/FarmerAbdulAlim/pen/oNrJxeB
 
 JavaScript Form Validation using DOM হলো একটি সহজ এবং কার্যকরী পদ্ধতি user-side validation করার জন্য। এটি user এর input data কে verify করে এবং server এর load কমায়। `getElementById()` এবং `querySelector()` এর মাধ্যমে form elements access করা যায় এবং তাদের উপর validation করা যায়। Proper validation করা form কে আরো secure এবং user-friendly করে তোলে, কারণ এতে real-time error feedback দেওয়া সম্ভব হয়।
 
-
 ## Changing CSS Using DOM
 
 ### Table of Contents
+
 1. [Introduction to Changing CSS Using DOM](#introduction-to-changing-css-using-dom)
 2. [Why Change CSS Dynamically Using DOM?](#why-change-css-dynamically-using-dom)
 3. [Accessing Elements to Change CSS](#accessing-elements-to-change-css)
@@ -14757,10 +14754,11 @@ JavaScript Form Validation using DOM হলো একটি সহজ এবং 
 ### 2. Why Change CSS Dynamically Using DOM?
 
 CSS dynamically change করা হলে একটি webpage এর structure ও layout user এর interaction অনুযায়ী পরিবর্তন করা যায়। নিচে কিছু কারণ উল্লেখ করা হলো কেন CSS dynamically change করা হয়:
+
 - **Real-time User Interaction:** User actions (click, hover) অনুযায়ী styles পরিবর্তন করা।
 - **Responsive Design Enhancements:** Screen size বা resolution অনুযায়ী dynamically styles পরিবর্তন করা।
 - **Improved User Experience:** Context-sensitive feedback প্রদানের মাধ্যমে UI কে more interactive করা।
-  
+
 ### 3. Accessing Elements to Change CSS
 
 JavaScript এর মাধ্যমে DOM এর elements dynamically access করা হয়, যেগুলোর styles change করা যাবে।
@@ -14775,8 +14773,8 @@ JavaScript এর মাধ্যমে DOM এর elements dynamically access �
 <p id="myText">Change my color</p>
 
 <script>
-    let element = document.getElementById('myText');
-    element.style.color = "red";
+  let element = document.getElementById("myText");
+  element.style.color = "red";
 </script>
 ```
 
@@ -14792,8 +14790,8 @@ JavaScript এর মাধ্যমে DOM এর elements dynamically access �
 <p class="content">Change my background color</p>
 
 <script>
-    let element = document.querySelector('.content');
-    element.style.backgroundColor = "lightblue";
+  let element = document.querySelector(".content");
+  element.style.backgroundColor = "lightblue";
 </script>
 ```
 
@@ -14813,7 +14811,7 @@ HTML element এর CSS এর কোনো একটি property পরিব�
 <p id="textElement">Change my font size</p>
 
 <script>
-    document.getElementById('textElement').style.fontSize = "24px";
+  document.getElementById("textElement").style.fontSize = "24px";
 </script>
 ```
 
@@ -14829,10 +14827,10 @@ Multiple CSS properties একসাথে change করা যেতে পা�
 <p id="textElement">Style me with multiple properties</p>
 
 <script>
-    let element = document.getElementById('textElement');
-    element.style.color = "green";
-    element.style.fontSize = "20px";
-    element.style.border = "2px solid black";
+  let element = document.getElementById("textElement");
+  element.style.color = "green";
+  element.style.fontSize = "20px";
+  element.style.border = "2px solid black";
 </script>
 ```
 
@@ -14846,17 +14844,17 @@ Sometimes, instead of changing individual styles directly, it's better to add or
 
 ```html
 <style>
-    .highlight {
-        background-color: yellow;
-        font-weight: bold;
-    }
+  .highlight {
+    background-color: yellow;
+    font-weight: bold;
+  }
 </style>
 
 <p id="textElement">Add class to me</p>
 
 <script>
-    let element = document.getElementById('textElement');
-    element.classList.add('highlight');
+  let element = document.getElementById("textElement");
+  element.classList.add("highlight");
 </script>
 ```
 
@@ -14868,8 +14866,8 @@ Sometimes, instead of changing individual styles directly, it's better to add or
 <p id="textElement" class="highlight">Remove class from me</p>
 
 <script>
-    let element = document.getElementById('textElement');
-    element.classList.remove('highlight');
+  let element = document.getElementById("textElement");
+  element.classList.remove("highlight");
 </script>
 ```
 
@@ -14888,24 +14886,21 @@ Sometimes, instead of changing individual styles directly, it's better to add or
 <button onclick="changeBackground()">Change Background Color</button>
 
 <script>
-function changeBackground() {
+  function changeBackground() {
     document.body.style.backgroundColor = "lightgreen";
-}
+  }
 </script>
 ```
 
 **Explanation:**
 
 1. **Accessing Elements:** Button এ click করার পর JavaScript function call হয়, যা `document.body` কে access করে।
-   
 2. **Changing CSS Dynamically:** `style.backgroundColor` property ব্যবহার করে পুরো page এর background color change করা হয়েছে।
-
-
-
 
 ## Creating Animation Using DOM
 
 ### Table of Contents
+
 1. [Introduction to Creating Animation Using DOM](#introduction-to-creating-animation-using-dom)
 2. [Why Use JavaScript and DOM for Animations?](#why-use-javascript-and-dom-for-animations)
 3. [Basic Concepts of DOM-Based Animation](#basic-concepts-of-dom-based-animation)
@@ -14915,7 +14910,6 @@ function changeBackground() {
 5. [Animating CSS Properties with DOM](#animating-css-properties-with-dom)
 6. [Real-life Example of DOM Animation](#real-life-example-of-dom-animation)
 
-
 ### 1. Introduction to Creating Animation Using DOM
 
 **DOM-based animations** হলো JavaScript ব্যবহার করে HTML elements dynamically animate করা। JavaScript functions যেমন `setInterval()` এবং `requestAnimationFrame()` এর মাধ্যমে এই animations তৈরি করা যায়। DOM এর মাধ্যমে webpage এর elements এর size, position, color ইত্যাদি পরিবর্তন করে visually appealing এবং interactive animations তৈরি করা সম্ভব হয়।
@@ -14923,6 +14917,7 @@ function changeBackground() {
 ### 2. Why Use JavaScript and DOM for Animations?
 
 CSS animation powerful হলেও, JavaScript এবং DOM ব্যবহার করলে animation এর উপর আরও বেশি control পাওয়া যায়। নিচে JavaScript এবং DOM ব্যবহার করে animation করার কয়েকটি কারণ দেওয়া হলো:
+
 - **Dynamic and Interactive Animations:** User interaction এর উপর ভিত্তি করে animations তৈরি করা যায়।
 - **Precise Control:** Frame-by-frame animation control পাওয়া যায়, যা speed এবং direction manipulate করতে সাহায্য করে।
 - **Complex Logic:** Conditional logic এবং loops এর মাধ্যমে complex animations তৈরি করা যায়।
@@ -14946,22 +14941,25 @@ DOM-based animation সাধারণত তিনটি ধাপের মা
 ##### Example: Moving a Box Horizontally
 
 ```html
-<div id="box" style="width:50px; height:50px; background:red; position:absolute;"></div>
+<div
+  id="box"
+  style="width:50px; height:50px; background:red; position:absolute;"
+></div>
 
 <script>
-let position = 0;
-let box = document.getElementById('box');
+  let position = 0;
+  let box = document.getElementById("box");
 
-function moveBox() {
+  function moveBox() {
     position += 2;
-    box.style.left = position + 'px';
+    box.style.left = position + "px";
 
     if (position >= 300) {
-        clearInterval(interval);  // 300px position এ পৌঁছালে animation বন্ধ হবে
+      clearInterval(interval); // 300px position এ পৌঁছালে animation বন্ধ হবে
     }
-}
+  }
 
-let interval = setInterval(moveBox, 10);  // প্রতি 10ms পরপর moveBox function call হবে
+  let interval = setInterval(moveBox, 10); // প্রতি 10ms পরপর moveBox function call হবে
 </script>
 ```
 
@@ -14978,22 +14976,25 @@ let interval = setInterval(moveBox, 10);  // প্রতি 10ms পরপর m
 ##### Example: Smooth Animation Using `requestAnimationFrame()`
 
 ```html
-<div id="box" style="width:50px; height:50px; background:blue; position:absolute;"></div>
+<div
+  id="box"
+  style="width:50px; height:50px; background:blue; position:absolute;"
+></div>
 
 <script>
-let position = 0;
-let box = document.getElementById('box');
+  let position = 0;
+  let box = document.getElementById("box");
 
-function moveBox() {
+  function moveBox() {
     position += 2;
-    box.style.left = position + 'px';
+    box.style.left = position + "px";
 
     if (position < 300) {
-        requestAnimationFrame(moveBox);  // 300px position এ পৌঁছানোর আগ পর্যন্ত animation চলবে
+      requestAnimationFrame(moveBox); // 300px position এ পৌঁছানোর আগ পর্যন্ত animation চলবে
     }
-}
+  }
 
-requestAnimationFrame(moveBox);
+  requestAnimationFrame(moveBox);
 </script>
 ```
 
@@ -15009,31 +15010,34 @@ JavaScript এর মাধ্যমে DOM ব্যবহার করে ব�
 #### Example: Fading In and Out Animation
 
 ```html
-<div id="box" style="width:100px; height:100px; background:green; opacity:1;"></div>
+<div
+  id="box"
+  style="width:100px; height:100px; background:green; opacity:1;"
+></div>
 
 <script>
-let opacity = 1;
-let box = document.getElementById('box');
-let fadingOut = true;
+  let opacity = 1;
+  let box = document.getElementById("box");
+  let fadingOut = true;
 
-function fadeBox() {
+  function fadeBox() {
     if (fadingOut) {
-        opacity -= 0.02;
-        if (opacity <= 0) {
-            fadingOut = false;
-        }
+      opacity -= 0.02;
+      if (opacity <= 0) {
+        fadingOut = false;
+      }
     } else {
-        opacity += 0.02;
-        if (opacity >= 1) {
-            fadingOut = true;
-        }
+      opacity += 0.02;
+      if (opacity >= 1) {
+        fadingOut = true;
+      }
     }
 
     box.style.opacity = opacity;
     requestAnimationFrame(fadeBox);
-}
+  }
 
-requestAnimationFrame(fadeBox);
+  requestAnimationFrame(fadeBox);
 </script>
 ```
 
@@ -15053,26 +15057,29 @@ Code: https://codepen.io/FarmerAbdulAlim/pen/gONZree
 ##### Example:
 
 ```html
-<div id="ball" style="width:50px; height:50px; background:orange; border-radius:50%; position:absolute; top:0;"></div>
+<div
+  id="ball"
+  style="width:50px; height:50px; background:orange; border-radius:50%; position:absolute; top:0;"
+></div>
 
 <script>
-let position = 0;
-let speed = 2;
-let direction = 1;  // 1 মানে নিচের দিকে যাচ্ছে, -1 মানে উপরের দিকে যাচ্ছে
-let ball = document.getElementById('ball');
+  let position = 0;
+  let speed = 2;
+  let direction = 1; // 1 মানে নিচের দিকে যাচ্ছে, -1 মানে উপরের দিকে যাচ্ছে
+  let ball = document.getElementById("ball");
 
-function bounceBall() {
+  function bounceBall() {
     position += speed * direction;
-    ball.style.top = position + 'px';
+    ball.style.top = position + "px";
 
     if (position >= 300 || position <= 0) {
-        direction *= -1;  // Ball উপরে বা নিচে পৌঁছালে direction পরিবর্তন হবে
+      direction *= -1; // Ball উপরে বা নিচে পৌঁছালে direction পরিবর্তন হবে
     }
 
     requestAnimationFrame(bounceBall);
-}
+  }
 
-requestAnimationFrame(bounceBall);
+  requestAnimationFrame(bounceBall);
 </script>
 ```
 
@@ -15081,10 +15088,10 @@ requestAnimationFrame(bounceBall);
 1. **Bouncing Mechanism:** Ball এর `top` property প্রতি frame এ adjust করা হয় এবং direction পরিবর্তন করা হয় যখন ball screen এর উপরের বা নিচের অংশে পৌঁছায়।
 2. **Smooth Animation:** `requestAnimationFrame()` ব্যবহার করে ball এর smooth movement নিশ্চিত করা হয়েছে।
 
-
 ## DOM Events
 
 ### Table of Contents
+
 1. [Introduction to DOM Events](#introduction-to-dom-events)
 2. [Why Use DOM Events?](#why-use-dom-events)
 3. [Types of DOM Events](#types-of-dom-events)
@@ -15103,6 +15110,7 @@ requestAnimationFrame(bounceBall);
 ### 2. Why Use DOM Events?
 
 DOM events ব্যবহার করার মাধ্যমে webpages interactive করা যায়। যখন user কোনো event trigger করে, তখন JavaScript সেই event handle করতে পারে এবং dynamically element এর behavior পরিবর্তন করতে পারে। DOM events ব্যবহার করে অনেক কাজ করা সম্ভব, যেমন:
+
 - **User Interaction:** Button click, form submission, বা input field এ typing এর response handle করা।
 - **Dynamic Changes:** Real-time content change, color change, বা animations trigger করা।
 - **Form Validation:** User data validate করা form submission এর আগে।
@@ -15126,9 +15134,9 @@ Mouse events mouse এর সাথে সম্পর্কিত actions handl
 <button id="myButton">Click Me</button>
 
 <script>
-    document.getElementById('myButton').addEventListener('click', function() {
-        alert('Button clicked!');
-    });
+  document.getElementById("myButton").addEventListener("click", function () {
+    alert("Button clicked!");
+  });
 </script>
 ```
 
@@ -15145,11 +15153,13 @@ Keyboard events keyboard এর key press বা release এর response এ tri
 ##### Example:
 
 ```html
-<input type="text" id="myInput" placeholder="Type something">
+<input type="text" id="myInput" placeholder="Type something" />
 
 <script>
-    document.getElementById('myInput').addEventListener('keydown', function(event) {
-        console.log('Key pressed: ' + event.key);
+  document
+    .getElementById("myInput")
+    .addEventListener("keydown", function (event) {
+      console.log("Key pressed: " + event.key);
     });
 </script>
 ```
@@ -15168,14 +15178,16 @@ Form events form elements এর সাথে ঘটে, যেমন form submi
 
 ```html
 <form id="myForm">
-    Username: <input type="text" id="username"><br>
-    <input type="submit" value="Submit">
+  Username: <input type="text" id="username" /><br />
+  <input type="submit" value="Submit" />
 </form>
 
 <script>
-    document.getElementById('myForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        alert('Form submitted!');
+  document
+    .getElementById("myForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      alert("Form submitted!");
     });
 </script>
 ```
@@ -15202,9 +15214,9 @@ element.addEventListener(event, function);
 <button id="myButton">Click Me</button>
 
 <script>
-    document.getElementById('myButton').addEventListener('click', function() {
-        alert('Button was clicked!');
-    });
+  document.getElementById("myButton").addEventListener("click", function () {
+    alert("Button was clicked!");
+  });
 </script>
 ```
 
@@ -15223,17 +15235,19 @@ element.addEventListener(event, function);
 <button id="toggleButton">Toggle Background Color</button>
 
 <script>
-let isBlack = false;  // Initial color status
+  let isBlack = false; // Initial color status
 
-document.getElementById('toggleButton').addEventListener('click', function() {
-    if (isBlack) {
-        document.body.style.backgroundColor = "white";  // Change to white
+  document
+    .getElementById("toggleButton")
+    .addEventListener("click", function () {
+      if (isBlack) {
+        document.body.style.backgroundColor = "white"; // Change to white
         isBlack = false;
-    } else {
-        document.body.style.backgroundColor = "black";  // Change to black
+      } else {
+        document.body.style.backgroundColor = "black"; // Change to black
         isBlack = true;
-    }
-});
+      }
+    });
 </script>
 ```
 
@@ -15250,6 +15264,7 @@ DOM events user এবং webpage এর মধ্যে interaction তৈর�
 ## DOM Event Listener
 
 ### Table of Contents
+
 1. [Introduction to Event Listeners](#introduction-to-event-listeners)
 2. [Why Use Event Listeners in DOM?](#why-use-event-listeners-in-dom)
 3. [Adding an Event Listener](#adding-an-event-listener)
@@ -15269,6 +15284,7 @@ DOM events user এবং webpage এর মধ্যে interaction তৈর�
 ### 2. Why Use Event Listeners in DOM?
 
 Event listeners ব্যবহারের কিছু গুরুত্বপূর্ণ কারণ:
+
 - **Separation of Concerns:** HTML code এবং JavaScript code কে আলাদা রাখা যায়, কারণ `addEventListener()` ব্যবহার করে events directly HTML elements এ লিখতে হয় না।
 - **Multiple Events:** একটি element এ একাধিক event attach করা যায়।
 - **Dynamic Interaction:** User interaction এর উপর ভিত্তি করে real-time পরিবর্তন করা যায়, যেমন button click, mouse hover, এবং keyboard input এর response অনুযায়ী।
@@ -15297,9 +15313,9 @@ element.addEventListener(event, function);
 <button id="myButton">Click Me</button>
 
 <script>
-    document.getElementById('myButton').addEventListener('click', function() {
-        alert('Button was clicked!');
-    });
+  document.getElementById("myButton").addEventListener("click", function () {
+    alert("Button was clicked!");
+  });
 </script>
 ```
 
@@ -15321,16 +15337,16 @@ element.removeEventListener(event, function);
 <button id="myButton">Click Me</button>
 
 <script>
-    function showAlert() {
-        alert('Button was clicked!');
-    }
+  function showAlert() {
+    alert("Button was clicked!");
+  }
 
-    document.getElementById('myButton').addEventListener('click', showAlert);
+  document.getElementById("myButton").addEventListener("click", showAlert);
 
-    // Remove the event listener after 5 seconds
-    setTimeout(function() {
-        document.getElementById('myButton').removeEventListener('click', showAlert);
-    }, 5000);
+  // Remove the event listener after 5 seconds
+  setTimeout(function () {
+    document.getElementById("myButton").removeEventListener("click", showAlert);
+  }, 5000);
 </script>
 ```
 
@@ -15350,8 +15366,10 @@ Mouse events user এর mouse interaction handle করে, যেমন click,
 <button id="hoverButton">Hover over me</button>
 
 <script>
-    document.getElementById('hoverButton').addEventListener('mouseover', function() {
-        this.style.backgroundColor = 'yellow';
+  document
+    .getElementById("hoverButton")
+    .addEventListener("mouseover", function () {
+      this.style.backgroundColor = "yellow";
     });
 </script>
 ```
@@ -15365,11 +15383,13 @@ Keyboard events user এর key press বা release এর উপর ভিত�
 ##### Example:
 
 ```html
-<input type="text" id="inputField" placeholder="Type something">
+<input type="text" id="inputField" placeholder="Type something" />
 
 <script>
-    document.getElementById('inputField').addEventListener('keydown', function(event) {
-        console.log('Key pressed: ' + event.key);
+  document
+    .getElementById("inputField")
+    .addEventListener("keydown", function (event) {
+      console.log("Key pressed: " + event.key);
     });
 </script>
 ```
@@ -15384,14 +15404,16 @@ Form events form elements এর সাথে ঘটে, যেমন form submi
 
 ```html
 <form id="myForm">
-    <input type="text" id="username" placeholder="Enter username"><br>
-    <input type="submit" value="Submit">
+  <input type="text" id="username" placeholder="Enter username" /><br />
+  <input type="submit" value="Submit" />
 </form>
 
 <script>
-    document.getElementById('myForm').addEventListener('submit', function(event) {
-        event.preventDefault();  // Prevent form from submitting
-        alert('Form is being submitted');
+  document
+    .getElementById("myForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent form from submitting
+      alert("Form is being submitted");
     });
 </script>
 ```
@@ -15411,18 +15433,20 @@ Form events form elements এর সাথে ঘটে, যেমন form submi
 <button id="toggleButton">Toggle Text Color</button>
 
 <script>
-let isRed = false;
+  let isRed = false;
 
-document.getElementById('toggleButton').addEventListener('click', function() {
-    let textElement = document.getElementById('myText');
-    if (isRed) {
-        textElement.style.color = 'black';  // Change to black
+  document
+    .getElementById("toggleButton")
+    .addEventListener("click", function () {
+      let textElement = document.getElementById("myText");
+      if (isRed) {
+        textElement.style.color = "black"; // Change to black
         isRed = false;
-    } else {
-        textElement.style.color = 'red';  // Change to red
+      } else {
+        textElement.style.color = "red"; // Change to red
         isRed = true;
-    }
-});
+      }
+    });
 </script>
 ```
 
@@ -15436,11 +15460,10 @@ document.getElementById('toggleButton').addEventListener('click', function() {
 
 DOM Event Listeners user interaction অনুযায়ী elements এর behavior dynamically control করতে ব্যবহৃত হয়। JavaScript এর `addEventListener()` এবং `removeEventListener()` methods DOM elements এর সাথে events attach এবং detach করতে সাহায্য করে। বিভিন্ন ধরনের events, যেমন mouse events, keyboard events, এবং form events, ব্যবহার করে dynamic এবং interactive webpages তৈরি করা যায়। Event listeners modern web development এর একটি গুরুত্বপূর্ণ অংশ, কারণ এটি real-time user interaction এবং webpage behavior পরিবর্তন করতে সহায়ক।
 
-
-
 ## DOM Nodes
 
 ### Table of Contents
+
 1. [Introduction to DOM Nodes](#introduction-to-dom-nodes)
 2. [Types of DOM Nodes](#types-of-dom-nodes)
    - [Element Nodes](#element-nodes)
@@ -15485,7 +15508,7 @@ DOM এ বিভিন্ন ধরনের nodes থাকে, যা HTML do
 ##### Example:
 
 ```html
-<img src="image.jpg" alt="Sample Image">
+<img src="image.jpg" alt="Sample Image" />
 ```
 
 এখানে `src` এবং `alt` attributes দুটি attribute node.
@@ -15528,7 +15551,7 @@ DOM tree তে nodes এর মধ্যে parent, child, এবং sibling re
 
 ```html
 <div>
-    <p>This is a child paragraph.</p>
+  <p>This is a child paragraph.</p>
 </div>
 ```
 
@@ -15537,9 +15560,9 @@ DOM tree তে nodes এর মধ্যে parent, child, এবং sibling re
 ##### Accessing Parent Node:
 
 ```javascript
-let paragraph = document.querySelector('p');
+let paragraph = document.querySelector("p");
 let parent = paragraph.parentNode;
-console.log(parent);  // Outputs the parent <div> element
+console.log(parent); // Outputs the parent <div> element
 ```
 
 #### 3.2 Child Nodes
@@ -15549,21 +15572,21 @@ console.log(parent);  // Outputs the parent <div> element
 ##### Accessing Child Nodes:
 
 ```javascript
-let parentElement = document.querySelector('div');
-let childNodes = parentElement.childNodes;  // Returns a NodeList of child nodes
+let parentElement = document.querySelector("div");
+let childNodes = parentElement.childNodes; // Returns a NodeList of child nodes
 console.log(childNodes);
 ```
 
 #### 3.3 Sibling Nodes
 
-**Sibling nodes** হল একই parent node এর অধীনে থাকা nodes। Parent node এর child nodes যেগুলো একই level এ থাকে, তারা একে অপরের sibling হিসেবে পরিচিত। 
+**Sibling nodes** হল একই parent node এর অধীনে থাকা nodes। Parent node এর child nodes যেগুলো একই level এ থাকে, তারা একে অপরের sibling হিসেবে পরিচিত।
 
 ##### Example:
 
 ```html
 <ul>
-    <li>First item</li>
-    <li>Second item</li>
+  <li>First item</li>
+  <li>Second item</li>
 </ul>
 ```
 
@@ -15572,8 +15595,8 @@ console.log(childNodes);
 ##### Accessing Sibling Nodes:
 
 ```javascript
-let firstItem = document.querySelector('li');
-let nextSibling = firstItem.nextSibling;  // Access the next sibling node
+let firstItem = document.querySelector("li");
+let nextSibling = firstItem.nextSibling; // Access the next sibling node
 console.log(nextSibling);
 ```
 
@@ -15582,39 +15605,39 @@ console.log(nextSibling);
 JavaScript এর বিভিন্ন method ব্যবহার করে DOM nodes access এবং manipulate করা যায়। নিচে কিছু commonly used DOM navigation methods এবং properties দেওয়া হলো:
 
 - **`getElementById()`**: `id` attribute এর মাধ্যমে নির্দিষ্ট node access করতে ব্যবহৃত হয়।
-  
+
   ```javascript
-  let element = document.getElementById('myElement');
+  let element = document.getElementById("myElement");
   ```
 
 - **`querySelector()`**: CSS selector এর মতো করে নির্দিষ্ট প্রথম matching node return করে।
-  
+
   ```javascript
-  let firstDiv = document.querySelector('div');
+  let firstDiv = document.querySelector("div");
   ```
 
 - **`childNodes`**: একটি element এর সব child nodes return করে (যা text এবং element nodes উভয়ই হতে পারে)।
-  
+
   ```javascript
-  let children = document.getElementById('parentDiv').childNodes;
+  let children = document.getElementById("parentDiv").childNodes;
   ```
 
 - **`parentNode`**: একটি node এর parent node return করে।
-  
+
   ```javascript
-  let parent = document.getElementById('childElement').parentNode;
+  let parent = document.getElementById("childElement").parentNode;
   ```
 
 - **`nextSibling`**: একটি node এর পরবর্তী sibling node return করে।
-  
+
   ```javascript
-  let next = document.getElementById('currentElement').nextSibling;
+  let next = document.getElementById("currentElement").nextSibling;
   ```
 
 - **`previousSibling`**: একটি node এর আগের sibling node return করে।
-  
+
   ```javascript
-  let previous = document.getElementById('currentElement').previousSibling;
+  let previous = document.getElementById("currentElement").previousSibling;
   ```
 
 ### 5. Real-life Example of DOM Node Navigation
@@ -15627,18 +15650,18 @@ JavaScript এর বিভিন্ন method ব্যবহার করে D
 
 ```html
 <div id="content">
-    <p>This is the first paragraph.</p>
-    <p>This is the second paragraph.</p>
-    <p>This is the third paragraph.</p>
+  <p>This is the first paragraph.</p>
+  <p>This is the second paragraph.</p>
+  <p>This is the third paragraph.</p>
 </div>
 
 <script>
-    let contentDiv = document.getElementById('content');
-    let paragraphs = contentDiv.getElementsByTagName('p');
+  let contentDiv = document.getElementById("content");
+  let paragraphs = contentDiv.getElementsByTagName("p");
 
-    for (let i = 0; i < paragraphs.length; i++) {
-        paragraphs[i].style.backgroundColor = 'yellow';  // Highlight paragraphs
-    }
+  for (let i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].style.backgroundColor = "yellow"; // Highlight paragraphs
+  }
 </script>
 ```
 
@@ -15652,10 +15675,10 @@ JavaScript এর বিভিন্ন method ব্যবহার করে D
 
 DOM Nodes হলো HTML document এর প্রতিটি অংশকে represent করার একটি structure। Element nodes, attribute nodes, text nodes, comment nodes, এবং document nodes এর মাধ্যমে একটি webpage এর পুরো structure তৈরি হয়। JavaScript এর মাধ্যমে DOM nodes access এবং manipulate করা সম্ভব, যা webpage এর content এবং structure dynamically পরিবর্তন করতে সাহায্য করে। Nodes এর মধ্যে parent-child এবং sibling relationships এর মাধ্যমে DOM tree navigate করা যায়, যা dynamic এবং interactive webpages তৈরি করতে গুরুত্বপূর্ণ ভূমিকা পালন করে।
 
-
 ## DOM Collections
 
 ### Table of Contents
+
 1. [Introduction to DOM Collections](#introduction-to-dom-collections)
 2. [Why Use DOM Collections?](#why-use-dom-collections)
 3. [Common DOM Collections](#common-dom-collections)
@@ -15664,7 +15687,6 @@ DOM Nodes হলো HTML document এর প্রতিটি অংশকে r
 4. [Differences Between HTMLCollection and NodeList](#differences-between-htmlcollection-and-nodelist)
 5. [Accessing and Using DOM Collections](#accessing-and-using-dom-collections)
 6. [Real-life Example of Using DOM Collections](#real-life-example-of-using-dom-collections)
-
 
 ### 1. Introduction to DOM Collections
 
@@ -15679,6 +15701,7 @@ DOM collections ব্যবহার করার মূল কারণ হল
 ### 3. Common DOM Collections
 
 DOM এ দুটি প্রধান collection type রয়েছে যা JavaScript এর মাধ্যমে access করা যায়:
+
 1. **HTMLCollection**
 2. **NodeList**
 
@@ -15690,14 +15713,14 @@ DOM এ দুটি প্রধান collection type রয়েছে য�
 
 ```html
 <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
 </ul>
 
 <script>
-    let items = document.getElementsByTagName('li');
-    console.log(items);  // Outputs an HTMLCollection of <li> elements
+  let items = document.getElementsByTagName("li");
+  console.log(items); // Outputs an HTMLCollection of <li> elements
 </script>
 ```
 
@@ -15714,8 +15737,8 @@ DOM এ দুটি প্রধান collection type রয়েছে য�
 <p>This is another paragraph.</p>
 
 <script>
-    let paragraphs = document.querySelectorAll('p');
-    console.log(paragraphs);  // Outputs a NodeList of <p> elements
+  let paragraphs = document.querySelectorAll("p");
+  console.log(paragraphs); // Outputs a NodeList of <p> elements
 </script>
 ```
 
@@ -15723,12 +15746,12 @@ DOM এ দুটি প্রধান collection type রয়েছে য�
 
 ### 4. Differences Between HTMLCollection and NodeList
 
-| Feature                   | HTMLCollection                       | NodeList                              |
-|---------------------------|---------------------------------------|---------------------------------------|
-| **Type of Nodes**          | Contains only element nodes           | Can contain element nodes, text nodes, and comment nodes |
-| **Live or Static**         | Always live                          | Can be live or static (most often static) |
-| **Accessing Method**       | `getElementsByClassName()`, `getElementsByTagName()` | `querySelectorAll()`                   |
-| **Iteration**              | Can iterate using `for` loop, but not `forEach` | Can iterate using both `for` loop and `forEach` |
+| Feature              | HTMLCollection                                       | NodeList                                                 |
+| -------------------- | ---------------------------------------------------- | -------------------------------------------------------- |
+| **Type of Nodes**    | Contains only element nodes                          | Can contain element nodes, text nodes, and comment nodes |
+| **Live or Static**   | Always live                                          | Can be live or static (most often static)                |
+| **Accessing Method** | `getElementsByClassName()`, `getElementsByTagName()` | `querySelectorAll()`                                     |
+| **Iteration**        | Can iterate using `for` loop, but not `forEach`      | Can iterate using both `for` loop and `forEach`          |
 
 ### 5. Accessing and Using DOM Collections
 
@@ -15738,22 +15761,22 @@ DOM collections access করার জন্য JavaScript এর built-in meth
 
 ```html
 <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
 </ul>
 
 <p>Paragraph 1</p>
 <p>Paragraph 2</p>
 
 <script>
-    // Accessing HTMLCollection using getElementsByTagName()
-    let items = document.getElementsByTagName('li');
-    console.log(items);  // HTMLCollection of <li> elements
-    
-    // Accessing NodeList using querySelectorAll()
-    let paragraphs = document.querySelectorAll('p');
-    console.log(paragraphs);  // NodeList of <p> elements
+  // Accessing HTMLCollection using getElementsByTagName()
+  let items = document.getElementsByTagName("li");
+  console.log(items); // HTMLCollection of <li> elements
+
+  // Accessing NodeList using querySelectorAll()
+  let paragraphs = document.querySelectorAll("p");
+  console.log(paragraphs); // NodeList of <p> elements
 </script>
 ```
 
@@ -15773,13 +15796,13 @@ DOM collections access করার জন্য JavaScript এর built-in meth
 <p>Third paragraph</p>
 
 <script>
-    // Get all paragraphs using querySelectorAll() (returns a NodeList)
-    let paragraphs = document.querySelectorAll('p');
+  // Get all paragraphs using querySelectorAll() (returns a NodeList)
+  let paragraphs = document.querySelectorAll("p");
 
-    // Loop through the NodeList and change the background color
-    paragraphs.forEach(function(paragraph) {
-        paragraph.style.backgroundColor = 'lightblue';
-    });
+  // Loop through the NodeList and change the background color
+  paragraphs.forEach(function (paragraph) {
+    paragraph.style.backgroundColor = "lightblue";
+  });
 </script>
 ```
 
@@ -15788,11 +15811,10 @@ DOM collections access করার জন্য JavaScript এর built-in meth
 1. **Accessing Paragraphs:** `querySelectorAll('p')` method ব্যবহার করে সব paragraph elements এর একটি NodeList return করা হয়েছে।
 2. **Changing Background Color:** `forEach()` method ব্যবহার করে সব paragraphs এর background color change করা হয়েছে।
 
-
-
 ## DOM NodeList Object
 
 ### Table of Contents
+
 1. [Introduction to NodeList](#introduction-to-nodelist)
 2. [Why Use NodeList?](#why-use-nodelist)
 3. [Accessing NodeList](#accessing-nodelist)
@@ -15810,6 +15832,7 @@ DOM collections access করার জন্য JavaScript এর built-in meth
 ### 2. Why Use NodeList?
 
 NodeList ব্যবহার করার কারণগুলো হলো:
+
 - **Batch Manipulation:** একসাথে একাধিক element এর উপর কাজ করা। উদাহরণস্বরূপ, সব paragraph element এর text color পরিবর্তন করা।
 - **Efficient Navigation:** Multiple nodes একই সাথে access করা এবং তাদের properties modify করা সম্ভব।
 - **Looping Over Elements:** NodeList এর elements এর উপর looping এর মাধ্যমে dynamically তাদের উপর কাজ করা যায়।
@@ -15819,27 +15842,27 @@ NodeList ব্যবহার করার কারণগুলো হলো:
 NodeList access করার জন্য JavaScript এর কিছু common methods আছে:
 
 - **`querySelectorAll()`**: এটি CSS selectors এর মাধ্যমে নির্দিষ্ট elements কে select করে এবং একটি static NodeList return করে। Static NodeList DOM পরিবর্তিত হলে update হয় না।
-  
+
   ```javascript
-  let paragraphs = document.querySelectorAll('p');  // Returns a NodeList of all <p> elements
+  let paragraphs = document.querySelectorAll("p"); // Returns a NodeList of all <p> elements
   ```
 
 - **`getElementsByClassName()` এবং `getElementsByTagName()`**: যদিও এই methods একটি live HTMLCollection return করে, এগুলো থেকে NodeList হিসেবে কাজ করা যায়। তবে এরা live collection হওয়ায় DOM পরিবর্তিত হলে automatic update হয়।
 
   ```javascript
-  let divs = document.getElementsByTagName('div');  // Returns a live NodeList-like HTMLCollection
+  let divs = document.getElementsByTagName("div"); // Returns a live NodeList-like HTMLCollection
   ```
 
 ### 4. NodeList vs HTMLCollection
 
 NodeList এবং HTMLCollection উভয়ই elements এর collection হিসেবে কাজ করে, তবে এদের মধ্যে কিছু পার্থক্য আছে:
 
-| Feature                   | NodeList                              | HTMLCollection                       |
-|---------------------------|---------------------------------------|--------------------------------------|
-| **Types of Nodes**         | Element, text, comment nodes          | Only element nodes                  |
-| **Live or Static**         | Usually static                        | Always live                         |
-| **Methods for Access**     | `querySelectorAll()`                  | `getElementsByClassName()`, `getElementsByTagName()` |
-| **Iteration**              | Can use `forEach()` and `for` loop    | Can use only `for` loop             |
+| Feature                | NodeList                           | HTMLCollection                                       |
+| ---------------------- | ---------------------------------- | ---------------------------------------------------- |
+| **Types of Nodes**     | Element, text, comment nodes       | Only element nodes                                   |
+| **Live or Static**     | Usually static                     | Always live                                          |
+| **Methods for Access** | `querySelectorAll()`               | `getElementsByClassName()`, `getElementsByTagName()` |
+| **Iteration**          | Can use `forEach()` and `for` loop | Can use only `for` loop                              |
 
 ### 5. Properties and Methods of NodeList
 
@@ -15848,25 +15871,25 @@ NodeList এর কিছু গুরুত্বপূর্ণ properties এ
 #### 5.1 Properties
 
 - **`length`**: NodeList এর total number of nodes return করে।
-  
+
   ```javascript
-  let paragraphs = document.querySelectorAll('p');
-  console.log(paragraphs.length);  // Outputs the number of <p> elements
+  let paragraphs = document.querySelectorAll("p");
+  console.log(paragraphs.length); // Outputs the number of <p> elements
   ```
 
 #### 5.2 Methods
 
 - **`item(index)`**: NodeList এর নির্দিষ্ট index এর element access করতে ব্যবহার করা হয়।
-  
+
   ```javascript
-  let firstParagraph = paragraphs.item(0);  // Access the first <p> element
+  let firstParagraph = paragraphs.item(0); // Access the first <p> element
   ```
 
 - **`forEach()`**: NodeList এর উপর iterate করার জন্য এই method ব্যবহার করা হয়। এটি `for` loop এর মতো কাজ করে।
-  
+
   ```javascript
-  paragraphs.forEach(function(p) {
-      p.style.color = 'blue';  // Changes text color of all <p> elements to blue
+  paragraphs.forEach(function (p) {
+    p.style.color = "blue"; // Changes text color of all <p> elements to blue
   });
   ```
 
@@ -15880,29 +15903,28 @@ NodeList এর কিছু গুরুত্বপূর্ণ properties এ
 
 ```html
 <ul>
-    <li>First item</li>
-    <li>Second item</li>
-    <li>Third item</li>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
 </ul>
 
 <script>
-    let listItems = document.querySelectorAll('li');  // Returns a NodeList of all <li> elements
+  let listItems = document.querySelectorAll("li"); // Returns a NodeList of all <li> elements
 
-    listItems.forEach(function(item, index) {
-        item.textContent = 'Updated item ' + (index + 1);  // Changes the text of each list item
-    });
+  listItems.forEach(function (item, index) {
+    item.textContent = "Updated item " + (index + 1); // Changes the text of each list item
+  });
 </script>
 ```
 
 **Explanation:**
+
 1. **Accessing List Items:** `querySelectorAll('li')` method ব্যবহার করে সব list items এর একটি NodeList return করা হয়েছে।
 2. **Updating Text Content:** `forEach()` method ব্যবহার করে সব list items এর text dynamically update করা হয়েছে।
 
 ### 7. Conclusion
 
 NodeList হল DOM এর একটি powerful object, যা একাধিক nodes বা elements এর list return করে। এর মাধ্যমে multiple elements এর উপর কাজ করা সহজ হয়, এবং `forEach()` method ব্যবহার করে NodeList এর উপর loop করা যায়। Static এবং live NodeList এর মধ্যে পার্থক্য থাকে, এবং `querySelectorAll()` method ব্যবহার করলে static NodeList পাওয়া যায়। NodeList dynamically webpages এর content পরিবর্তন এবং modify করার জন্য JavaScript এর একটি গুরুত্বপূর্ণ অংশ।
-
-
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
