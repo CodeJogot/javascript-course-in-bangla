@@ -4,39 +4,39 @@
 
 After completing the 30-chapters module, jump in the [Projects Section](#).
 
-|                                       **Chapter No.**                                       |                                                                               **Topics**                                                                               | **Video Explanation** |
-| :-----------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
-|                        [00](#chapter-00-how-the-course-is-designed)                         |                                                  [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                                  |       Watch Now       |
-|    [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)     |         [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)         |       Watch Now       |
-|  [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)  |   [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)   |       Watch Now       |
-|             [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)              |                          [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                           |       Watch Now       |
-|                             [04](#chapter-04-javascript-object)                             |                                                        [JavaScript Object](#chapter-04-javascript-object) []()                                                         |     [Watch Now]()     |
-|                             [05](#chapter-05-javascript-string)                             |                                                           [JavaScript String](#chapter-05-javascript-string)                                                           |     [Watch Now]()     |
-| [06](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties) | [JavaScript Numbers, Bigint, Number Methods, Number Methods, Number Properties](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties) |     [Watch Now]()     |
-|                             [07](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                              |                                                            [JavaScript Array](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                                                            |     [Watch Now]()     |
-|                                             [08](#chapter-08-javascript-date-object-and-math-object)                                              |  [JavaScript Date and Math Object](#chapter-08-javascript-date-object-and-math-object)                                                                                                                                                                      |                       |
-|                                             [09](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                              |    [JavaScript Iterables, Sets, Set Methods, Map and Map Methods](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                                                                                                                                                      |                       |
-|                                             [10](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                                              |    [JavaScript Type Conversion, Destructuring, Bitwise Operations and Regular Expressions](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                                                                                                                                                                      |                       |
-|                                             [11](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                                              |    [JavaScript Errors, Use Strict, This Keyword and Arrow Function](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                                                                                                                                                                      |                       |
-|                                             [12](#chapter-12-javascript-classes-json-and-debugging)                                              |    [JavaScript Classes, JSON and Debugging](#chapter-12-javascript-classes-json-and-debugging)                                                                                                                                                                      |                       |
-|                                             [13](#chapter-13-javascript-object-in-detail)                                              |    [JavaScript Object in Detail](#chapter-13-javascript-object-in-detail)                                                                                                                                                                      |                       |
-|                                             [14](#chapter-14-javascript-functions-in-detail)                                              |    [JavaScript Functions in Detail](#chapter-14-javascript-functions-in-detail)                                                                                                                                                                      |                       |
-|                                             [15](#chapter-15-asynchronous-javascript)                                              |    [Asynchronous JavaScript](#chapter-15-asynchronous-javascript)                                                                                                                                                                      |                       |
-|                                             16                                              |                                                                                                                                                                        |                       |
-|                                             17                                              |                                                                                                                                                                        |                       |
-|                                             18                                              |                                                                                                                                                                        |                       |
-|                                             19                                              |                                                                                                                                                                        |                       |
-|                                             20                                              |                                                                                                                                                                        |                       |
-|                                             21                                              |                                                                                                                                                                        |                       |
-|                                             22                                              |                                                                                                                                                                        |                       |
-|                                             23                                              |                                                                                                                                                                        |                       |
-|                                             24                                              |                                                                                                                                                                        |                       |
-|                                             25                                              |                                                                                                                                                                        |                       |
-|                                             26                                              |                                                                                                                                                                        |                       |
-|                                             27                                              |                                                                                                                                                                        |                       |
-|                                             28                                              |                                                                                                                                                                        |                       |
-|                                             29                                              |                                                                                                                                                                        |                       |
-|                                             30                                              |                                                                                                                                                                        |                       |
+|                                            **Chapter No.**                                            |                                                                                        **Topics**                                                                                        | **Video Explanation** |
+| :---------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
+|                             [00](#chapter-00-how-the-course-is-designed)                              |                                                           [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                                           |       Watch Now       |
+|         [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)          |                  [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                  |       Watch Now       |
+|       [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)       |            [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)            |       Watch Now       |
+|                  [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)                   |                                   [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                    |       Watch Now       |
+|                                  [04](#chapter-04-javascript-object)                                  |                                                                 [JavaScript Object](#chapter-04-javascript-object) []()                                                                  |     [Watch Now]()     |
+|                                  [05](#chapter-05-javascript-string)                                  |                                                                    [JavaScript String](#chapter-05-javascript-string)                                                                    |     [Watch Now]()     |
+|      [06](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)      |          [JavaScript Numbers, Bigint, Number Methods, Number Methods, Number Properties](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)          |     [Watch Now]()     |
+|       [07](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)        |                                          [JavaScript Array](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                                          |     [Watch Now]()     |
+|                       [08](#chapter-08-javascript-date-object-and-math-object)                        |                                                  [JavaScript Date and Math Object](#chapter-08-javascript-date-object-and-math-object)                                                   |                       |
+|              [09](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)              |                          [JavaScript Iterables, Sets, Set Methods, Map and Map Methods](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                           |                       |
+| [10](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions) | [JavaScript Type Conversion, Destructuring, Bitwise Operations and Regular Expressions](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions) |                       |
+|            [11](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)             |                        [JavaScript Errors, Use Strict, This Keyword and Arrow Function](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                        |                       |
+|                        [12](#chapter-12-javascript-classes-json-and-debugging)                        |                                               [JavaScript Classes, JSON and Debugging](#chapter-12-javascript-classes-json-and-debugging)                                                |                       |
+|                             [13](#chapter-13-javascript-object-in-detail)                             |                                                          [JavaScript Object in Detail](#chapter-13-javascript-object-in-detail)                                                          |                       |
+|                           [14](#chapter-14-javascript-functions-in-detail)                            |                                                       [JavaScript Functions in Detail](#chapter-14-javascript-functions-in-detail)                                                       |                       |
+|                               [15](#chapter-15-asynchronous-javascript)                               |                                                              [Asynchronous JavaScript](#chapter-15-asynchronous-javascript)                                                              |                       |
+|                                                  [16](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object)                                                   |      [DOM, DOM Methods, DOM Documents, DOM Elements, DOM Events, DOM Event Listener, DOM Nodes, DOM Collections, DOM NodeList Object](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object)                                                                                                                                                                                    |                       |
+|                                                  17                                                   |                                                                                                                                                                                          |                       |
+|                                                  18                                                   |                                                                                                                                                                                          |                       |
+|                                                  19                                                   |                                                                                                                                                                                          |                       |
+|                                                  20                                                   |                                                                                                                                                                                          |                       |
+|                                                  21                                                   |                                                                                                                                                                                          |                       |
+|                                                  22                                                   |                                                                                                                                                                                          |                       |
+|                                                  23                                                   |                                                                                                                                                                                          |                       |
+|                                                  24                                                   |                                                                                                                                                                                          |                       |
+|                                                  25                                                   |                                                                                                                                                                                          |                       |
+|                                                  26                                                   |                                                                                                                                                                                          |                       |
+|                                                  27                                                   |                                                                                                                                                                                          |                       |
+|                                                  28                                                   |                                                                                                                                                                                          |                       |
+|                                                  29                                                   |                                                                                                                                                                                          |                       |
+|                                                  30                                                   |                                                                                                                                                                                          |                       |
 
 # 5 JavaScript Projects
 
@@ -4087,6 +4087,7 @@ Here's the detailed explanation of all 27 JavaScript array methods with source c
       ```
 
 19. **`sort()`**
+
     - **Description:** Sorts the elements of an array in place and returns the sorted array.
     - **Explanation:** Sorts the elements of the array according to the provided compare function. If no function is provided, elements are sorted as strings.
     - **Example:**
@@ -4205,9 +4206,9 @@ Here's the markdown table with the provided list of sorting-related functions an
 
    - If the return value is negative, a is sorted before b.
 
-    - If the return value is positive, b is sorted before a.
+   - If the return value is positive, b is sorted before a.
 
-    - If the return value is 0, no changes are done with the sort order of the two values.
+   - If the return value is 0, no changes are done with the sort order of the two values.
    - **Example:**
 
      ```javascript
@@ -4316,12 +4317,12 @@ Here's the markdown table with the provided list of sorting-related functions an
      console.log(min); // 1
      ```
    - Math.min.apply(null, [1, 2, 3]) is equivalent to Math.min(1, 2, 3)
-   - Example: 
+   - Example:
+
    ```javascript
    const min = Math.min.apply(null, [3, 1, 4, 2]);
    console.log(min); // 1
    ```
-
 
 9. **`Math.max()`**
 
@@ -4333,7 +4334,8 @@ Here's the markdown table with the provided list of sorting-related functions an
      console.log(max); // 4
      ```
    - Math.max.apply(null, [1, 2, 3]) is equivalent to Math.max(1, 2, 3).
-   - Example: 
+   - Example:
+
    ```javascript
    const max = Math.max.apply(null, [3, 1, 4, 2]);
    console.log(max); // 4
@@ -4374,9 +4376,9 @@ Here's the markdown table with the provided list of sorting-related functions an
 
    ```javascript
    const items = [
-     { name: 'apple', price: 50 },
-     { name: 'banana', price: 30 },
-     { name: 'cherry', price: 20 }
+     { name: "apple", price: 50 },
+     { name: "banana", price: 30 },
+     { name: "cherry", price: 20 },
    ];
 
    // Sort by price (ascending)
@@ -4402,10 +4404,10 @@ Here's the markdown table with the provided list of sorting-related functions an
 
    ```javascript
    const items = [
-     { name: 'apple', price: 30 },
-     { name: 'banana', price: 30 },
-     { name: 'cherry', price: 20 },
-     { name: 'apple', price: 20 }
+     { name: "apple", price: 30 },
+     { name: "banana", price: 30 },
+     { name: "cherry", price: 20 },
+     { name: "apple", price: 20 },
    ];
 
    // Sort by price first (ascending), then by name (ascending)
@@ -4434,10 +4436,12 @@ The line `return a.name.localeCompare(b.name);` is used to compare two strings (
 - **Returns `0`** if `a.name` and `b.name` are identical.
 
 ### Explanation in the Context of Sorting:
+
 - **If the `price` values of `a` and `b` are equal** (checked by `a.price === b.price`), the sort function doesn't know which object should come first based on price. So, it then compares the `name` properties.
 - The `localeCompare` method ensures that the names are sorted alphabetically. If `a.name` comes before `b.name`, the method returns `-1`, meaning `a` should come before `b` in the sorted array. If `a.name` comes after `b.name`, it returns `1`, meaning `b` should come before `a`.
 
 In your example, when the prices are the same, the sorting falls back to comparing the names alphabetically:
+
 - For `{ name: 'apple', price: 30 }` and `{ name: 'banana', price: 30 }`, since `apple` comes before `banana` alphabetically, `localeCompare` returns `-1`, so `apple` stays before `banana`.
 - For `{ name: 'apple', price: 20 }` and `{ name: 'cherry', price: 20 }`, since `apple` comes before `cherry` alphabetically, `localeCompare` returns `-1`, so `apple` stays before `cherry`.
 
@@ -4446,12 +4450,11 @@ This is why the final sorted array has items ordered by price first and, for equ
 ## JavaScript Array Map
 
 - **Description:** The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array.
-  
 - **Explanation:** The `map()` method iterates over each element in the original array, applies the provided function to each element, and returns a new array containing the results of those function calls. The original array remains unchanged. It's a powerful method when you want to transform elements of an array, such as applying a mathematical operation to each element or converting data formats.
 
 - **Syntax:**
   ```javascript
-  let newArray = array.map(function(currentValue, index, array) {
+  let newArray = array.map(function (currentValue, index, array) {
     // return element for newArray
   });
   ```
@@ -4462,29 +4465,32 @@ This is why the final sorted array has items ordered by price first and, for equ
 ### Examples
 
 1. **Basic Example: Squaring Numbers**
+
    ```javascript
    const numbers = [1, 2, 3, 4];
-   const squared = numbers.map(num => num * num);
+   const squared = numbers.map((num) => num * num);
    console.log(squared); // [1, 4, 9, 16]
    ```
 
    **Explanation:** Here, the `map()` method takes each element from the `numbers` array, squares it, and returns a new array `squared` with the squared values.
 
 2. **Converting an Array from Objects**
+
    ```javascript
    const users = [
-     { firstName: 'John', lastName: 'Doe' },
-     { firstName: 'Jane', lastName: 'Smith' },
-     { firstName: 'Emily', lastName: 'Jones' }
+     { firstName: "John", lastName: "Doe" },
+     { firstName: "Jane", lastName: "Smith" },
+     { firstName: "Emily", lastName: "Jones" },
    ];
 
-   const fullNames = users.map(user => `${user.firstName} ${user.lastName}`);
+   const fullNames = users.map((user) => `${user.firstName} ${user.lastName}`);
    console.log(fullNames); // ['John Doe', 'Jane Smith', 'Emily Jones']
    ```
 
    **Explanation:** The `map()` method is used here to transform an array of user objects into an array of full names by concatenating the `firstName` and `lastName` properties of each object.
 
 3. **Mapping Indexes**
+
    ```javascript
    const numbers = [10, 20, 30];
    const indices = numbers.map((num, index) => index);
@@ -4494,15 +4500,19 @@ This is why the final sorted array has items ordered by price first and, for equ
    **Explanation:** In this example, `map()` is used to create a new array of the indices of the original array. The function returns the `index` for each element.
 
 4. **Transforming Data**
+
    ```javascript
    const temperaturesInCelsius = [0, 10, 20, 30];
-   const temperaturesInFahrenheit = temperaturesInCelsius.map(celsius => celsius * 9/5 + 32);
+   const temperaturesInFahrenheit = temperaturesInCelsius.map(
+     (celsius) => (celsius * 9) / 5 + 32
+   );
    console.log(temperaturesInFahrenheit); // [32, 50, 68, 86]
    ```
 
    **Explanation:** This example demonstrates using `map()` to convert an array of temperatures from Celsius to Fahrenheit.
 
 ### Key Points
+
 - `map()` always returns a new array without modifying the original array.
 - The number of elements in the new array will always match the number of elements in the original array.
 - It’s commonly used for data transformation tasks where you need to perform the same operation on every element of an array and store the results in a new array.
@@ -4517,7 +4527,7 @@ This is why the final sorted array has items ordered by price first and, for equ
 
 - **Syntax:**
   ```javascript
-  let newArray = array.filter(function(currentValue, index, array) {
+  let newArray = array.filter(function (currentValue, index, array) {
     // return true to keep the element, false otherwise
   });
   ```
@@ -4528,23 +4538,25 @@ This is why the final sorted array has items ordered by price first and, for equ
 ### Examples
 
 1. **Filtering Even Numbers**
+
    ```javascript
    const numbers = [1, 2, 3, 4, 5, 6];
-   const evenNumbers = numbers.filter(num => num % 2 === 0);
+   const evenNumbers = numbers.filter((num) => num % 2 === 0);
    console.log(evenNumbers); // [2, 4, 6]
    ```
 
    **Explanation:** The `filter()` method is used here to create a new array `evenNumbers` that contains only the elements from the original array `numbers` that are even.
 
 2. **Filtering Objects Based on a Property**
+
    ```javascript
    const people = [
-     { name: 'John', age: 20 },
-     { name: 'Jane', age: 25 },
-     { name: 'Emily', age: 30 }
+     { name: "John", age: 20 },
+     { name: "Jane", age: 25 },
+     { name: "Emily", age: 30 },
    ];
 
-   const adults = people.filter(person => person.age >= 25);
+   const adults = people.filter((person) => person.age >= 25);
    console.log(adults);
    // [
    //   { name: 'Jane', age: 25 },
@@ -4555,8 +4567,9 @@ This is why the final sorted array has items ordered by price first and, for equ
    **Explanation:** In this example, `filter()` is used to create a new array `adults` that includes only the people who are 25 years old or older.
 
 3. **Filtering Out Falsy Values**
+
    ```javascript
-   const mixedArray = [0, 'hello', false, 42, '', null, 'world'];
+   const mixedArray = [0, "hello", false, 42, "", null, "world"];
    const truthyValues = mixedArray.filter(Boolean);
    console.log(truthyValues); // ['hello', 42, 'world']
    ```
@@ -4564,9 +4577,12 @@ This is why the final sorted array has items ordered by price first and, for equ
    **Explanation:** By passing the built-in `Boolean` function to `filter()`, the method filters out all falsy values (`false`, `0`, `''`, `null`, `undefined`, and `NaN`) from the array.
 
 4. **Filtering Unique Values**
+
    ```javascript
    const numbers = [1, 2, 2, 3, 4, 4, 5];
-   const uniqueNumbers = numbers.filter((num, index, arr) => arr.indexOf(num) === index);
+   const uniqueNumbers = numbers.filter(
+     (num, index, arr) => arr.indexOf(num) === index
+   );
    console.log(uniqueNumbers); // [1, 2, 3, 4, 5]
    ```
 
@@ -4574,55 +4590,56 @@ This is why the final sorted array has items ordered by price first and, for equ
 
    **Detailed Explanation:**
 
-    1. **Array `numbers`**:  
+   1. **Array `numbers`**:  
       This is the original array containing the numbers, including duplicates: `[1, 2, 2, 3, 4, 4, 5]`.
 
-    2. **`filter` Method**:  
+   2. **`filter` Method**:  
       The `filter` method creates a new array with all elements that pass the test implemented by the provided function. In this case, the function checks if the current element's index matches the first occurrence of that element in the array.
 
-    3. **Callback Function**:
-      ```javascript
-      (num, index, arr) => arr.indexOf(num) === index
-      ```
-      This is the callback function passed to the `filter` method. It takes three arguments:
-      - `num`: The current element being processed in the array.
-      - `index`: The index of the current element.
-      - `arr`: The array that `filter` was called on (in this case, `numbers`).
+   3. **Callback Function**:
 
-    4. **`indexOf(num)`**:
+   ```javascript
+   (num, index, arr) => arr.indexOf(num) === index;
+   ```
+
+   This is the callback function passed to the `filter` method. It takes three arguments:
+
+   - `num`: The current element being processed in the array.
+   - `index`: The index of the current element.
+   - `arr`: The array that `filter` was called on (in this case, `numbers`).
+
+   4. **`indexOf(num)`**:
       The `indexOf` method returns the index of the **first occurrence** of the element `num` in the array `arr`.
 
-    5. **Comparison `arr.indexOf(num) === index`**:
-      - For each element in the array, the code checks if the index of its first occurrence (`arr.indexOf(num)`) is the same as its current index (`index`).
-      - If they match, it means that the element has not appeared earlier in the array, so it is considered unique up to this point.
-      - If they don't match, it means the element has already appeared earlier in the array, so it's a duplicate and is filtered out.
+   5. **Comparison `arr.indexOf(num) === index`**:
 
-    ### Step-by-Step Execution:
-    - **Iteration 1**: `num = 1`, `index = 0`, `arr.indexOf(1) = 0`  
-      `0 === 0` → true → include `1` in `uniqueNumbers`.
-      
-    - **Iteration 2**: `num = 2`, `index = 1`, `arr.indexOf(2) = 1`  
-      `1 === 1` → true → include `2` in `uniqueNumbers`.
-      
-    - **Iteration 3**: `num = 2`, `index = 2`, `arr.indexOf(2) = 1`  
-      `1 === 2` → false → exclude this `2` from `uniqueNumbers`.
-      
-    - **Iteration 4**: `num = 3`, `index = 3`, `arr.indexOf(3) = 3`  
-      `3 === 3` → true → include `3` in `uniqueNumbers`.
-      
-    - **Iteration 5**: `num = 4`, `index = 4`, `arr.indexOf(4) = 4`  
-      `4 === 4` → true → include `4` in `uniqueNumbers`.
-      
-    - **Iteration 6**: `num = 4`, `index = 5`, `arr.indexOf(4) = 4`  
-      `4 === 5` → false → exclude this `4` from `uniqueNumbers`.
-      
-    - **Iteration 7**: `num = 5`, `index = 6`, `arr.indexOf(5) = 6`  
-      `6 === 6` → true → include `5` in `uniqueNumbers`.
+   - For each element in the array, the code checks if the index of its first occurrence (`arr.indexOf(num)`) is the same as its current index (`index`).
+   - If they match, it means that the element has not appeared earlier in the array, so it is considered unique up to this point.
+   - If they don't match, it means the element has already appeared earlier in the array, so it's a duplicate and is filtered out.
 
-    ### Result:
-    After filtering, `uniqueNumbers` contains `[1, 2, 3, 4, 5]`, which is the original array without any duplicates.
+   ### Step-by-Step Execution:
+
+   - **Iteration 1**: `num = 1`, `index = 0`, `arr.indexOf(1) = 0`  
+     `0 === 0` → true → include `1` in `uniqueNumbers`.
+   - **Iteration 2**: `num = 2`, `index = 1`, `arr.indexOf(2) = 1`  
+     `1 === 1` → true → include `2` in `uniqueNumbers`.
+   - **Iteration 3**: `num = 2`, `index = 2`, `arr.indexOf(2) = 1`  
+     `1 === 2` → false → exclude this `2` from `uniqueNumbers`.
+   - **Iteration 4**: `num = 3`, `index = 3`, `arr.indexOf(3) = 3`  
+     `3 === 3` → true → include `3` in `uniqueNumbers`.
+   - **Iteration 5**: `num = 4`, `index = 4`, `arr.indexOf(4) = 4`  
+     `4 === 4` → true → include `4` in `uniqueNumbers`.
+   - **Iteration 6**: `num = 4`, `index = 5`, `arr.indexOf(4) = 4`  
+     `4 === 5` → false → exclude this `4` from `uniqueNumbers`.
+   - **Iteration 7**: `num = 5`, `index = 6`, `arr.indexOf(5) = 6`  
+     `6 === 6` → true → include `5` in `uniqueNumbers`.
+
+   ### Result:
+
+   After filtering, `uniqueNumbers` contains `[1, 2, 3, 4, 5]`, which is the original array without any duplicates.
 
 ### Key Points
+
 - `filter()` returns a new array containing only the elements that satisfy the condition specified in the callback function.
 - The original array is not modified.
 - The new array may contain fewer elements than the original array, or it may be empty if no elements pass the test.
@@ -4635,14 +4652,15 @@ This is why the final sorted array has items ordered by price first and, for equ
 - **Description:** The `reduce()` method executes a reducer function (that you provide) on each element of the array, resulting in a single output value. This method can be used to aggregate array data, like summing all elements, calculating a product, or flattening an array.
 
 - **Explanation:** The `reduce()` method processes each element of the array (from left to right) and accumulates the result into a single value. The callback function you pass to `reduce()` receives two main arguments:
+
   - The **accumulator**, which accumulates the callback's return values.
   - The **current value**, which is the current element being processed in the array.
-  
+
   Additionally, `reduce()` can take an initial value as a second argument, which is used as the initial accumulator value. If no initial value is provided, `reduce()` will use the first element of the array as the initial accumulator and start the iteration from the second element.
 
 - **Syntax:**
   ```javascript
-  array.reduce(function(accumulator, currentValue, index, array) {
+  array.reduce(function (accumulator, currentValue, index, array) {
     // return the new accumulator value
   }, initialValue);
   ```
@@ -4655,6 +4673,7 @@ This is why the final sorted array has items ordered by price first and, for equ
 ### Examples
 
 1. **Summing an Array of Numbers**
+
    ```javascript
    const numbers = [1, 2, 3, 4, 5];
    const sum = numbers.reduce((acc, curr) => acc + curr, 0);
@@ -4664,8 +4683,13 @@ This is why the final sorted array has items ordered by price first and, for equ
    **Explanation:** Here, `reduce()` adds each number in the `numbers` array to the accumulator (`acc`), starting from 0, to produce the total sum of the array.
 
 2. **Flattening a Nested Array**
+
    ```javascript
-   const nestedArray = [[1, 2], [3, 4], [5, 6]];
+   const nestedArray = [
+     [1, 2],
+     [3, 4],
+     [5, 6],
+   ];
    const flatArray = nestedArray.reduce((acc, curr) => acc.concat(curr), []);
    console.log(flatArray); // [1, 2, 3, 4, 5, 6]
    ```
@@ -4673,8 +4697,9 @@ This is why the final sorted array has items ordered by price first and, for equ
    **Explanation:** This example uses `reduce()` to flatten a 2D array into a single array by concatenating each sub-array to the accumulator.
 
 3. **Counting Instances of Values in an Array**
+
    ```javascript
-   const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'];
+   const fruits = ["apple", "banana", "apple", "orange", "banana", "apple"];
    const count = fruits.reduce((acc, fruit) => {
      acc[fruit] = (acc[fruit] || 0) + 1;
      return acc;
@@ -4685,20 +4710,25 @@ This is why the final sorted array has items ordered by price first and, for equ
    **Explanation:** In this example, `reduce()` is used to create an object that counts the occurrences of each fruit in the `fruits` array.
 
 4. **Finding the Maximum Value in an Array**
+
    ```javascript
    const numbers = [10, 5, 20, 3, 100];
-   const max = numbers.reduce((acc, curr) => (curr > acc ? curr : acc), numbers[0]);
+   const max = numbers.reduce(
+     (acc, curr) => (curr > acc ? curr : acc),
+     numbers[0]
+   );
    console.log(max); // 100
    ```
 
    **Explanation:** The `reduce()` method iterates through the `numbers` array, comparing each value to the current maximum (`acc`) and updating it if a larger value is found.
 
 5. **Grouping Objects by a Property**
+
    ```javascript
    const people = [
-     { name: 'Alice', age: 21 },
-     { name: 'Bob', age: 25 },
-     { name: 'Charlie', age: 21 }
+     { name: "Alice", age: 21 },
+     { name: "Bob", age: 25 },
+     { name: "Charlie", age: 21 },
    ];
 
    const groupedByAge = people.reduce((acc, person) => {
@@ -4720,6 +4750,7 @@ This is why the final sorted array has items ordered by price first and, for equ
    **Explanation:** This example uses `reduce()` to group an array of objects by a specific property (`age` in this case). The result is an object where the keys are ages and the values are arrays of people who have that age.
 
 ### Key Points
+
 - `reduce()` is a versatile method that can be used to perform complex data transformations and aggregations.
 - It always returns a single value, which can be of any type (number, string, object, array, etc.).
 - It is particularly useful for operations like summing arrays, counting elements, flattening arrays, and more.
@@ -4735,7 +4766,7 @@ This is why the final sorted array has items ordered by price first and, for equ
 
 - **Syntax:**
   ```javascript
-  array.every(function(currentValue, index, array) {
+  array.every(function (currentValue, index, array) {
     // return true or false based on the condition
   });
   ```
@@ -4746,42 +4777,47 @@ This is why the final sorted array has items ordered by price first and, for equ
 ### Examples
 
 1. **Checking if All Elements are Even**
+
    ```javascript
    const numbers = [2, 4, 6, 8];
-   const allEven = numbers.every(num => num % 2 === 0);
+   const allEven = numbers.every((num) => num % 2 === 0);
    console.log(allEven); // true
    ```
 
    **Explanation:** The `every()` method is used here to check if all elements in the `numbers` array are even. Since all elements pass the test (`num % 2 === 0`), `every()` returns `true`.
 
 2. **Checking if All Elements are Greater Than a Value**
+
    ```javascript
    const numbers = [10, 20, 30, 40];
-   const allGreaterThanFive = numbers.every(num => num > 5);
+   const allGreaterThanFive = numbers.every((num) => num > 5);
    console.log(allGreaterThanFive); // true
    ```
 
    **Explanation:** In this example, `every()` checks if all elements in the `numbers` array are greater than 5. Since all elements satisfy the condition, `every()` returns `true`.
 
 3. **Checking if All Elements are Strings**
+
    ```javascript
-   const mixedArray = ['hello', 'world', 42, 'JavaScript'];
-   const allStrings = mixedArray.every(item => typeof item === 'string');
+   const mixedArray = ["hello", "world", 42, "JavaScript"];
+   const allStrings = mixedArray.every((item) => typeof item === "string");
    console.log(allStrings); // false
    ```
 
    **Explanation:** Here, `every()` checks if all elements in `mixedArray` are strings. Since one element is a number (`42`), `every()` returns `false`.
 
 4. **Using `every()` with an Empty Array**
+
    ```javascript
    const emptyArray = [];
-   const result = emptyArray.every(item => item > 0);
+   const result = emptyArray.every((item) => item > 0);
    console.log(result); // true
    ```
 
    **Explanation:** When `every()` is called on an empty array, it returns `true` by default. This is because there are no elements in the array to fail the test, so it is considered that "all" elements (which are none) pass the test.
 
 ### Key Points
+
 - `every()` returns `true` only if the provided function returns `true` for every element in the array.
 - If the function returns `false` for any element, `every()` immediately stops and returns `false`.
 - It does not modify the original array.
@@ -4798,7 +4834,7 @@ The `every()` method is useful in scenarios where you need to ensure that all el
 
 - **Syntax:**
   ```javascript
-  array.some(function(currentValue, index, array) {
+  array.some(function (currentValue, index, array) {
     // return true or false based on the condition
   });
   ```
@@ -4809,42 +4845,47 @@ The `every()` method is useful in scenarios where you need to ensure that all el
 ### Examples
 
 1. **Checking if Any Element is Even**
+
    ```javascript
    const numbers = [1, 3, 5, 7, 8];
-   const hasEven = numbers.some(num => num % 2 === 0);
+   const hasEven = numbers.some((num) => num % 2 === 0);
    console.log(hasEven); // true
    ```
 
    **Explanation:** The `some()` method checks if any element in the `numbers` array is even. Since the number `8` is even, `some()` returns `true`.
 
 2. **Checking if Any Element is Greater Than a Value**
+
    ```javascript
    const numbers = [1, 2, 3, 4, 5];
-   const anyGreaterThanThree = numbers.some(num => num > 3);
+   const anyGreaterThanThree = numbers.some((num) => num > 3);
    console.log(anyGreaterThanThree); // true
    ```
 
    **Explanation:** Here, `some()` checks if any element in the `numbers` array is greater than 3. Since there are elements that satisfy this condition, `some()` returns `true`.
 
 3. **Checking if Any Element is a String**
+
    ```javascript
-   const mixedArray = [10, 'hello', 42, 'world'];
-   const hasString = mixedArray.some(item => typeof item === 'string');
+   const mixedArray = [10, "hello", 42, "world"];
+   const hasString = mixedArray.some((item) => typeof item === "string");
    console.log(hasString); // true
    ```
 
    **Explanation:** The `some()` method is used here to check if any element in `mixedArray` is a string. Since the array contains strings like `'hello'` and `'world'`, `some()` returns `true`.
 
 4. **Using `some()` with an Empty Array**
+
    ```javascript
    const emptyArray = [];
-   const result = emptyArray.some(item => item > 0);
+   const result = emptyArray.some((item) => item > 0);
    console.log(result); // false
    ```
 
    **Explanation:** When `some()` is called on an empty array, it returns `false` because there are no elements to test, meaning no element can pass the test.
 
 ### Key Points
+
 - `some()` returns `true` if at least one element passes the test implemented by the provided function.
 - If no elements pass the test, `some()` returns `false`.
 - It does not modify the original array.
@@ -4861,7 +4902,7 @@ The `some()` method is particularly useful in scenarios where you want to verify
 
 - **Syntax:**
   ```javascript
-  Array.from(arrayLike, mapFn, thisArg)
+  Array.from(arrayLike, mapFn, thisArg);
   ```
   - **arrayLike:** The array-like or iterable object to convert to an array.
   - **mapFn (optional):** A function to call on every element of the array before adding it to the new array.
@@ -4870,8 +4911,9 @@ The `some()` method is particularly useful in scenarios where you want to verify
 ### Examples
 
 1. **Converting a String to an Array**
+
    ```javascript
-   const str = 'hello';
+   const str = "hello";
    const strArray = Array.from(str);
    console.log(strArray); // ['h', 'e', 'l', 'l', 'o']
    ```
@@ -4879,8 +4921,9 @@ The `some()` method is particularly useful in scenarios where you want to verify
    **Explanation:** The `Array.from()` method converts the string `'hello'` into an array of characters.
 
 2. **Converting a Set to an Array**
+
    ```javascript
-   const set = new Set(['apple', 'banana', 'cherry']);
+   const set = new Set(["apple", "banana", "cherry"]);
    const array = Array.from(set);
    console.log(array); // ['apple', 'banana', 'cherry']
    ```
@@ -4888,17 +4931,19 @@ The `some()` method is particularly useful in scenarios where you want to verify
    **Explanation:** Here, `Array.from()` is used to convert a `Set` into an array. This is useful when you need to manipulate or access the elements of the `Set` as an array.
 
 3. **Mapping with `Array.from()`**
+
    ```javascript
    const numbers = [1, 2, 3];
-   const doubled = Array.from(numbers, num => num * 2);
+   const doubled = Array.from(numbers, (num) => num * 2);
    console.log(doubled); // [2, 4, 6]
    ```
 
    **Explanation:** In this example, `Array.from()` not only converts the array-like `numbers` into an array but also applies a mapping function that doubles each number.
 
 4. **Converting a NodeList to an Array**
+
    ```javascript
-   const nodeList = document.querySelectorAll('p');
+   const nodeList = document.querySelectorAll("p");
    const nodesArray = Array.from(nodeList);
    console.log(nodesArray); // Array of <p> elements
    ```
@@ -4906,6 +4951,7 @@ The `some()` method is particularly useful in scenarios where you want to verify
    **Explanation:** `Array.from()` is used here to convert a `NodeList` (which is returned by `querySelectorAll`) into an array, allowing for array methods like `map`, `filter`, or `forEach` to be used on the DOM elements.
 
 5. **Using `Array.from()` with Arguments Object**
+
    ```javascript
    function sum() {
      const argsArray = Array.from(arguments);
@@ -4918,6 +4964,7 @@ The `some()` method is particularly useful in scenarios where you want to verify
    **Explanation:** This example demonstrates how `Array.from()` can be used to convert the `arguments` object, which is array-like but not an actual array, into a true array. This allows you to then apply array methods like `reduce` to calculate the sum of all arguments.
 
 ### Key Points
+
 - `Array.from()` is a static method of `Array`, meaning it is called on the `Array` class itself, not on an instance of an array.
 - It is often used to convert array-like objects or iterables into a real array.
 - You can also use it with a mapping function, similar to how `Array.prototype.map()` works, to transform each element in the array-like object before adding it to the new array.
@@ -4930,11 +4977,13 @@ The `some()` method is particularly useful in scenarios where you want to verify
 The `keys()` method in JavaScript returns a new Array Iterator object that contains the keys (or indices) for each element in the array. This method is useful when you want to iterate over the indices of an array.
 
 ### Syntax
+
 ```javascript
-array.keys()
+array.keys();
 ```
 
 ### Example
+
 Here's a simple example to demonstrate how `keys()` works:
 
 ```javascript
@@ -4947,12 +4996,15 @@ for (let key of iterator) {
 ```
 
 ### Explanation
+
 - In the example above, we have an array `fruits` with three elements.
 - The `keys()` method returns an iterator object that contains the keys (indices) of the array elements.
 - We then use a `for...of` loop to iterate over the keys and log them to the console.
 
 ### Output
+
 The output of the code will be:
+
 ```
 0
 1
@@ -4962,18 +5014,20 @@ The output of the code will be:
 Each number corresponds to the index of each element in the `fruits` array.
 
 ### Additional Example
+
 You can also use the `keys()` method in combination with other array methods, like `forEach`:
 
 ```javascript
 const colors = ["red", "green", "blue"];
 const keys = colors.keys();
 
-keys.forEach(key => {
+keys.forEach((key) => {
   console.log(`Index: ${key}, Value: ${colors[key]}`);
 });
 ```
 
 ### Output
+
 ```
 Index: 0, Value: red
 Index: 1, Value: green
@@ -4987,11 +5041,13 @@ In this example, we used `forEach` to iterate through the keys and access the co
 The `entries()` method in JavaScript returns a new Array Iterator object that contains key/value pairs for each index in the array. Each pair consists of the index (the key) and the value at that index in the array. This method is useful when you want to iterate over both the indices and the values of an array.
 
 ### Syntax
+
 ```javascript
-array.entries()
+array.entries();
 ```
 
 ### Example
+
 Here's a simple example to demonstrate how `entries()` works:
 
 ```javascript
@@ -5004,12 +5060,15 @@ for (let entry of iterator) {
 ```
 
 ### Explanation
+
 - In the example above, we have an array `fruits` with three elements.
 - The `entries()` method returns an iterator object that contains key/value pairs for each element in the array.
 - We then use a `for...of` loop to iterate over these key/value pairs and log them to the console.
 
 ### Output
+
 The output of the code will be:
+
 ```
 [0, "apple"]
 [1, "banana"]
@@ -5019,6 +5078,7 @@ The output of the code will be:
 Each pair represents the index (first value) and the corresponding array element (second value).
 
 ### Using Destructuring
+
 You can also use destructuring to make it easier to work with the key/value pairs:
 
 ```javascript
@@ -5031,6 +5091,7 @@ for (let [index, value] of iterator) {
 ```
 
 ### Output
+
 ```
 Index: 0, Value: red
 Index: 1, Value: green
@@ -5040,6 +5101,7 @@ Index: 2, Value: blue
 In this example, we use array destructuring within the `for...of` loop to directly extract the index and value from each entry.
 
 ### Practical Example: Looping Over Entries
+
 The `entries()` method can be particularly useful when you need to loop over both the index and value of array elements:
 
 ```javascript
@@ -5052,6 +5114,7 @@ for (let [index, name] of studentEntries) {
 ```
 
 ### Output
+
 ```
 Student 1: Alice
 Student 2: Bob
@@ -5071,12 +5134,9 @@ const months = ["Januar", "Februar", "Mar", "April"];
 const myMonths = months.with(2, "March");
 ```
 
-
-
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
-
 
 # Chapter-08: JavaScript Date Object and Math Object
 
@@ -5087,6 +5147,7 @@ const myMonths = months.with(2, "March");
 - The JavaScript `Date` object is used to work with dates and times. It provides methods for getting and setting year, month, day, hour, minute, second, and millisecond values of a date object. It also has methods to format and manipulate dates.
 
 ### **Common Uses**
+
 - Displaying the current date and time.
 - Calculating time intervals (e.g., age, countdowns).
 - Scheduling events.
@@ -5102,12 +5163,14 @@ There are four main ways to create a `Date` object in JavaScript:
 This method creates a new `Date` object representing the current date and time.
 
 **Code:**
+
 ```javascript
 let currentDate = new Date();
 console.log("Current Date and Time:", currentDate);
 ```
 
 **Explanation:**
+
 - The `new Date()` constructor creates a new `Date` object with the current date and time.
 - The `currentDate` object holds the exact date and time at the moment of creation.
 
@@ -5120,12 +5183,14 @@ This can be used to display the current date and time on a webpage, such as in a
 This method creates a `Date` object for a specific date and time using a date string.
 
 **Code:**
+
 ```javascript
 let specificDate = new Date("August 13, 2024 15:30:00");
 console.log("Specific Date and Time:", specificDate);
 ```
 
 **Explanation:**
+
 - You can create a `Date` object using a date string.
 - The string must be in a format recognized by the JavaScript `Date` object, such as `"August 13, 2024 15:30:00"`.
 
@@ -5171,6 +5236,7 @@ This method allows you to create a `Date` object by specifying the year, month, 
   ```
 
 **Explanation:**
+
 - The `Date` constructor can accept from two to seven parameters, representing `year`, `month` (0-indexed), `day`, `hour`, `minute`, `second`, and `millisecond`.
 - The example code demonstrates how omitting certain parameters defaults them to `0` or `1`, depending on the position (e.g., day defaults to `1`, hour defaults to `0`).
 
@@ -5183,6 +5249,7 @@ This approach is useful for programmatically generating dates based on user inpu
 This method creates a `Date` object from a timestamp, which is the number of milliseconds since January 1, 1970.
 
 **Code:**
+
 ```javascript
 let timestamp = 1658329800000;
 let dateFromTimestamp = new Date(timestamp);
@@ -5190,6 +5257,7 @@ console.log("Date from Timestamp:", dateFromTimestamp);
 ```
 
 **Explanation:**
+
 - A timestamp represents the number of milliseconds since January 1, 1970 (the Unix Epoch).
 - The `Date` constructor can convert a timestamp into a human-readable date.
 
@@ -5206,12 +5274,14 @@ JavaScript supports multiple formats for dates, but the most reliable is the ISO
 The ISO 8601 format is a standardized way to represent dates and times, often used in APIs and databases.
 
 **Code:**
+
 ```javascript
 let isoDate = new Date("2024-08-13T15:30:00Z");
 console.log("ISO Date:", isoDate);
 ```
 
 **Explanation:**
+
 - The ISO 8601 format (`YYYY-MM-DDTHH:MM:SSZ`) is the most universally recognized format.
 - `T` separates the date and time, and `Z` denotes UTC time.
 
@@ -5224,12 +5294,14 @@ ISO format is ideal for passing dates between systems or when consistency is cri
 The short date format is commonly used in the United States and follows the `MM/DD/YYYY` pattern.
 
 **Code:**
+
 ```javascript
 let shortDate = new Date("08/13/2024");
 console.log("Short Date:", shortDate);
 ```
 
 **Explanation:**
+
 - The short date format `MM/DD/YYYY` is common in the U.S.
 - It can be convenient for local applications, but less ideal for global use due to format variations.
 
@@ -5242,12 +5314,14 @@ Use short dates in user interfaces where the format is clearly understood by you
 The long date format uses the full name of the month and day, making it easy to read.
 
 **Code:**
+
 ```javascript
 let longDate = new Date("August 13, 2024");
 console.log("Long Date:", longDate);
 ```
 
 **Explanation:**
+
 - The long date format (`Month DD, YYYY`) is user-friendly and easy to read.
 - It can be used in contexts where dates need to be clearly communicated to users.
 
@@ -5262,6 +5336,7 @@ This format is perfect for displaying dates in reports, articles, or any content
 These methods allow you to retrieve individual components of a date, such as the year, month, or day.
 
 **Code:**
+
 ```javascript
 let date = new Date("August 13, 2024 15:30:00");
 let year = date.getFullYear();
@@ -5271,6 +5346,7 @@ console.log(`Year: ${year}, Month: ${month}, Day: ${day}`);
 ```
 
 **Explanation:**
+
 - `getFullYear()` returns the year.
 - `getMonth()` returns the month (0-indexed).
 - `getDate()` returns the day of the month.
@@ -5284,6 +5360,7 @@ These methods are useful for extracting specific components from a date, such as
 These methods allow you to set individual components of a date, modifying the year, month, or day as needed.
 
 **Code:**
+
 ```javascript
 let date = new Date("August 13, 2024 15:30:00");
 date.setFullYear(2025);
@@ -5293,6 +5370,7 @@ console.log("Updated Date:", date);
 ```
 
 **Explanation:**
+
 - `setFullYear()`, `setMonth()`, and `setDate()` allow you to modify the respective components of a date object.
 - **Note:** Changing one component does not affect others unless the new value overflows (e.g., setting the day to 32 will change the month).
 
@@ -5307,6 +5385,7 @@ Use these methods when you need to adjust dates based on user input or specific 
 This method allows you to add or subtract days from a date object.
 
 **Code:**
+
 ```javascript
 let today = new Date();
 let fiveDaysLater = new Date();
@@ -5315,6 +5394,7 @@ console.log("Five Days Later:", fiveDaysLater);
 ```
 
 **Explanation:**
+
 - `setDate()` can add days by modifying the current date.
 - This method automatically handles month and year transitions.
 
@@ -5327,17 +5407,17 @@ This is useful for creating deadlines, reminders, or countdowns.
 This method calculates the difference between two dates, typically to determine the number of days between them.
 
 **Code:**
+
 ```javascript
 let startDate = new Date("August 1, 2024");
-let endDate
-
- = new Date("August 13, 2024");
+let endDate = new Date("August 13, 2024");
 let differenceInTime = endDate.getTime() - startDate.getTime();
 let differenceInDays = differenceInTime / (1000 * 3600 * 24);
 console.log(`Difference in Days: ${differenceInDays}`);
 ```
 
 **Explanation:**
+
 - `getTime()` returns the time in milliseconds.
 - Subtracting two dates gives the difference in milliseconds.
 - Dividing by `(1000 * 3600 * 24)` converts milliseconds to days.
@@ -5353,18 +5433,20 @@ This is essential for applications that require date comparisons, such as tracki
 This method formats a date according to the locale-specific conventions, allowing for customized date displays.
 
 **Code:**
+
 ```javascript
 let currentDate = new Date();
 let formattedDate = currentDate.toLocaleDateString("en-US", {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric"
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
 });
 console.log("Formatted Date:", formattedDate);
 ```
 
 **Explanation:**
+
 - `toLocaleDateString()` formats the date according to locale-specific conventions.
 - The options object allows customization of the output (e.g., full weekday name, numeric year, etc.).
 - ১ম Parameter **en-BD** দিলে Bangladesh Time Zone এ দেখাবে, কিন্তু English Font এ দেখাবে। আর **bn-BD** দিলে Bangla Font এ দেখাবে।
@@ -5378,6 +5460,7 @@ This method is ideal for presenting dates in a user-friendly and localized manne
 This method returns a date object as a string in the ISO 8601 format, which is commonly used for data storage and transfer.
 
 **Code:**
+
 ```javascript
 let currentDate = new Date();
 let isoString = currentDate.toISOString();
@@ -5385,6 +5468,7 @@ console.log("ISO String:", isoString);
 ```
 
 **Explanation:**
+
 - `toISOString()` returns a date as a string in ISO 8601 format (`YYYY-MM-DDTHH:MM:SSZ`).
 - It’s particularly useful for storing dates in databases or transferring data between systems.
 
@@ -5399,20 +5483,22 @@ Use this method when you need a consistent and standard format for dates across 
 This method demonstrates how to compare two dates to determine which is earlier, later, or if they are the same.
 
 **Code:**
+
 ```javascript
 let date1 = new Date("August 13, 2024");
 let date2 = new Date("August 14, 2024");
 
 if (date1 > date2) {
-    console.log("Date1 is later than Date2");
+  console.log("Date1 is later than Date2");
 } else if (date1 < date2) {
-    console.log("Date1 is earlier than Date2");
+  console.log("Date1 is earlier than Date2");
 } else {
-    console.log("Date1 is the same as Date2");
+  console.log("Date1 is the same as Date2");
 }
 ```
 
 **Explanation:**
+
 - Date objects can be compared directly using comparison operators (`>`, `<`, `===`).
 - The comparison is based on the internal timestamp value.
 
@@ -5427,12 +5513,14 @@ This is useful for sorting dates, checking deadlines, or determining if a specif
 This method shows how to create a date object in UTC and convert it to a readable UTC string.
 
 **Code:**
+
 ```javascript
 let utcDate = new Date(Date.UTC(2024, 7, 13, 12, 0, 0));
 console.log("UTC Date:", utcDate.toUTCString());
 ```
 
 **Explanation:**
+
 - `Date.UTC()` creates a date in UTC time.
 - `toUTCString()` converts a date object to a string, representing the date in UTC format.
 
@@ -5442,6 +5530,7 @@ This is essential for applications that operate across different time zones, ens
 ## JavaScript Math Object
 
 #### Table of Contents
+
 1. [Math Object Basics](#math-object-basics)
 2. [Commonly Used Math Methods](#commonly-used-math-methods)
 3. [Examples with Code](#examples-with-code)
@@ -5452,12 +5541,14 @@ This is essential for applications that operate across different time zones, ens
 - The `Math` object in JavaScript is a global object that provides various properties and methods for mathematical constants and functions. You don't need to instantiate the `Math` object, as it is available globally. You can use its properties to access constants like `Math.PI`, and methods like `Math.abs()` to perform operations.
 
 ##### Example:
+
 ```javascript
 // Accessing the value of PI
 console.log(Math.PI); // Output: 3.141592653589793
 ```
 
 #### Explanation:
+
 - **Math.PI**: This property returns the value of π (Pi), which is approximately 3.14159.
 
 ---
@@ -5476,6 +5567,7 @@ Here are some of the most commonly used methods provided by the `Math` object:
 8. **Math.sqrt(x)** - Returns the square root of `x`.
 
 #### Explanation:
+
 - **Math.abs(x)**: Converts any negative number to positive. If the number is already positive, it returns the number as it is.
 - **Math.ceil(x)**: Rounds a number upward to its nearest integer.
 - **Math.floor(x)**: Rounds a number downward to its nearest integer.
@@ -5492,6 +5584,7 @@ Here are some of the most commonly used methods provided by the `Math` object:
 Let's dive into some examples to understand how these methods work:
 
 #### 1. **Math.abs(x)**
+
 ```javascript
 let negativeNumber = -10;
 let absoluteValue = Math.abs(negativeNumber);
@@ -5501,6 +5594,7 @@ console.log(absoluteValue); // Output: 10
 **Explanation**: The `Math.abs()` method converts `-10` into `10` by removing the negative sign.
 
 #### 2. **Math.ceil(x)**
+
 ```javascript
 let number = 4.3;
 let roundedUp = Math.ceil(number);
@@ -5510,6 +5604,7 @@ console.log(roundedUp); // Output: 5
 **Explanation**: The `Math.ceil()` method rounds `4.3` up to `5`.
 
 #### 3. **Math.floor(x)**
+
 ```javascript
 let number = 4.8;
 let roundedDown = Math.floor(number);
@@ -5519,6 +5614,7 @@ console.log(roundedDown); // Output: 4
 **Explanation**: The `Math.floor()` method rounds `4.8` down to `4`.
 
 #### 4. **Math.random()**
+
 ```javascript
 let randomNum = Math.random();
 console.log(randomNum); // Output: A random number between 0 and 1 (e.g., 0.5343)
@@ -5527,6 +5623,7 @@ console.log(randomNum); // Output: A random number between 0 and 1 (e.g., 0.5343
 **Explanation**: The `Math.random()` method generates a random floating-point number between 0 and 1.
 
 #### 5. **Math.sqrt(x)**
+
 ```javascript
 let squareRoot = Math.sqrt(16);
 console.log(squareRoot); // Output: 4
@@ -5540,21 +5637,18 @@ console.log(squareRoot); // Output: 4
 
 Below is a table summarizing some key methods of the JavaScript `Math` object:
 
-| Method             | Description                                           | Example                            | Output            |
-|--------------------|-------------------------------------------------------|------------------------------------|-------------------|
-| `Math.abs(x)`      | Returns the absolute value of `x`                     | `Math.abs(-5)`                     | `5`               |
-| `Math.ceil(x)`     | Rounds `x` up to the nearest integer                  | `Math.ceil(4.2)`                   | `5`               |
-| `Math.floor(x)`    | Rounds `x` down to the nearest integer                | `Math.floor(4.8)`                  | `4`               |
-| `Math.max(x, y)`   | Returns the highest value among the arguments         | `Math.max(1, 2, 3)`                | `3`               |
-| `Math.min(x, y)`   | Returns the lowest value among the arguments          | `Math.min(1, 2, 3)`                | `1`               |
-| `Math.pow(x, y)`   | Returns `x` to the power of `y`                       | `Math.pow(2, 3)`                   | `8`               |
-| `Math.random()`    | Returns a random number between 0 (inclusive) and 1 (exclusive) | `Math.random()`               | Varies            |
-| `Math.round(x)`    | Rounds `x` to the nearest integer                     | `Math.round(4.5)`                  | `5`               |
-| `Math.sqrt(x)`     | Returns the square root of `x`                        | `Math.sqrt(25)`                    | `5`               |
-| `Math.trunc(x)`    | Returns the integer part of `x` by removing the fractional part | `Math.trunc(4.9)`            | `4`               |
-
-
-
+| Method           | Description                                                     | Example             | Output |
+| ---------------- | --------------------------------------------------------------- | ------------------- | ------ |
+| `Math.abs(x)`    | Returns the absolute value of `x`                               | `Math.abs(-5)`      | `5`    |
+| `Math.ceil(x)`   | Rounds `x` up to the nearest integer                            | `Math.ceil(4.2)`    | `5`    |
+| `Math.floor(x)`  | Rounds `x` down to the nearest integer                          | `Math.floor(4.8)`   | `4`    |
+| `Math.max(x, y)` | Returns the highest value among the arguments                   | `Math.max(1, 2, 3)` | `3`    |
+| `Math.min(x, y)` | Returns the lowest value among the arguments                    | `Math.min(1, 2, 3)` | `1`    |
+| `Math.pow(x, y)` | Returns `x` to the power of `y`                                 | `Math.pow(2, 3)`    | `8`    |
+| `Math.random()`  | Returns a random number between 0 (inclusive) and 1 (exclusive) | `Math.random()`     | Varies |
+| `Math.round(x)`  | Rounds `x` to the nearest integer                               | `Math.round(4.5)`   | `5`    |
+| `Math.sqrt(x)`   | Returns the square root of `x`                                  | `Math.sqrt(25)`     | `5`    |
+| `Math.trunc(x)`  | Returns the integer part of `x` by removing the fractional part | `Math.trunc(4.9)`   | `4`    |
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
@@ -5565,6 +5659,7 @@ Below is a table summarizing some key methods of the JavaScript `Math` object:
 ## JavaScript Iterables
 
 #### Table of Contents
+
 1. [What Are Iterables?](#what-are-iterables)
 2. [Common JavaScript Iterables](#common-javascript-iterables)
 3. [Using the `for...of` Loop](#using-the-for-of-loop)
@@ -5577,12 +5672,12 @@ Below is a table summarizing some key methods of the JavaScript `Math` object:
 
 ### What Are Iterables?
 
-
 - In JavaScript, an iterable is an object that can be iterated over, meaning you can loop through its elements one by one. Iterables are a fundamental concept in JavaScript, allowing for easy access and manipulation of sequences of data, such as arrays, strings, and more.
 
 - An iterable is any object that has a method with the key `[Symbol.iterator]`. This method returns an iterator, which is an object that defines how to iterate over the iterable's elements. The most common iterables in JavaScript are arrays and strings, but other data structures like Maps and Sets are also iterable.
 
 ##### Example:
+
 ```javascript
 let array = [1, 2, 3];
 let string = "Hello";
@@ -5597,6 +5692,7 @@ for (let char of string) {
 ```
 
 **Explanation**:
+
 - The `for...of` loop is used to iterate over iterable objects like arrays and strings.
 
 ---
@@ -5605,12 +5701,12 @@ for (let char of string) {
 
 Here is a table summarizing some of the most commonly used iterables in JavaScript:
 
-| Iterable Type | Description                                           | Explanation                                           |
-|---------------|-------------------------------------------------------|-------------------------------------------------------|
-| **Arrays**    | A collection of elements that can be iterated over.   | Each element in an array can be accessed in sequence using iteration. |
+| Iterable Type | Description                                                            | Explanation                                                             |
+| ------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Arrays**    | A collection of elements that can be iterated over.                    | Each element in an array can be accessed in sequence using iteration.   |
 | **Strings**   | A sequence of characters that can be iterated one character at a time. | Each character in a string can be accessed in sequence using iteration. |
-| **Maps**      | A collection of key-value pairs where each key is unique. | Iteration over a Map gives you access to both keys and values. |
-| **Sets**      | A collection of unique values.                        | Iteration over a Set gives you access to each unique value. |
+| **Maps**      | A collection of key-value pairs where each key is unique.              | Iteration over a Map gives you access to both keys and values.          |
+| **Sets**      | A collection of unique values.                                         | Iteration over a Set gives you access to each unique value.             |
 
 ---
 
@@ -5619,6 +5715,7 @@ Here is a table summarizing some of the most commonly used iterables in JavaScri
 The `for...of` loop is specifically designed for iterating over iterable objects. It provides a simple and clean syntax for accessing each element in an iterable.
 
 #### Example:
+
 ```javascript
 let numbers = [10, 20, 30];
 
@@ -5632,7 +5729,8 @@ for (let number of numbers) {
 // 30
 ```
 
-**Explanation**: 
+**Explanation**:
+
 - The `for...of` loop iterates over each element in the `numbers` array and prints it to the console.
 
 ---
@@ -5642,11 +5740,12 @@ for (let number of numbers) {
 You can create your own iterable objects by defining the `[Symbol.iterator]` method in an object. This method should return an iterator that follows a specific protocol.
 
 #### Example:
+
 ```javascript
 let customIterable = {
   from: 1,
   to: 5,
-  
+
   [Symbol.iterator]() {
     return {
       current: this.from,
@@ -5658,9 +5757,9 @@ let customIterable = {
         } else {
           return { done: true };
         }
-      }
+      },
     };
-  }
+  },
 };
 
 for (let value of customIterable) {
@@ -5676,6 +5775,7 @@ for (let value of customIterable) {
 ```
 
 **Explanation**:
+
 - The custom object `customIterable` has a `[Symbol.iterator]` method, making it iterable.
 - The `next()` method returns an object with `done` (a boolean indicating if the iteration is complete) and `value` (the current value in the iteration).
 
@@ -5686,6 +5786,7 @@ for (let value of customIterable) {
 JavaScript provides built-in iterators for its iterables. These iterators can be accessed using methods like `.entries()`, `.keys()`, and `.values()` for objects like arrays, Maps, and Sets.
 
 #### Example:
+
 ```javascript
 let fruits = ["Apple", "Banana", "Cherry"];
 
@@ -5702,6 +5803,7 @@ for (let entry of iterator) {
 ```
 
 **Explanation**:
+
 - The `.entries()` method returns an iterator that contains key-value pairs for each index and element in the array.
 
 ---
@@ -5711,6 +5813,7 @@ for (let entry of iterator) {
 Let's explore some practical examples of using iterables in JavaScript:
 
 #### 1. **Iterating Over a String**
+
 ```javascript
 let message = "Hello, World!";
 
@@ -5725,7 +5828,7 @@ for (let char of message) {
 // l
 // o
 // ,
-//  
+//
 // W
 // o
 // r
@@ -5737,6 +5840,7 @@ for (let char of message) {
 **Explanation**: The `for...of` loop iterates over each character in the `message` string.
 
 #### 2. **Iterating Over a Set**
+
 ```javascript
 let uniqueNumbers = new Set([1, 2, 3, 3, 4]);
 
@@ -5754,10 +5858,11 @@ for (let num of uniqueNumbers) {
 **Explanation**: The `for...of` loop iterates over the unique values in the `Set`.
 
 #### 3. **Iterating Over a Map**
+
 ```javascript
 let userMap = new Map();
-userMap.set('name', 'John');
-userMap.set('age', 30);
+userMap.set("name", "John");
+userMap.set("age", 30);
 
 for (let [key, value] of userMap) {
   console.log(`${key}: ${value}`);
@@ -5775,6 +5880,7 @@ for (let [key, value] of userMap) {
 ### JavaScript Sets
 
 #### Table of Contents
+
 1. [What is a Set?](#what-is-a-set)
 2. [Creating a Set](#creating-a-set)
 3. [Adding and Removing Elements](#adding-and-removing-elements)
@@ -5792,6 +5898,7 @@ A `Set` in JavaScript is a collection of unique values. Unlike arrays, a `Set` d
 Sets are also ordered based on the insertion order, meaning elements are iterated over in the order they were added. This characteristic makes it easy to loop through the values in the sequence of their addition.
 
 ##### Example:
+
 ```javascript
 let uniqueNumbers = new Set([1, 2, 3, 4, 4, 5]);
 
@@ -5799,6 +5906,7 @@ console.log(uniqueNumbers); // Output: Set(5) { 1, 2, 3, 4, 5 }
 ```
 
 **Explanation**:
+
 - In the example, even though `4` is repeated in the array, the `Set` only keeps one instance of it, ensuring all values are unique.
 
 ---
@@ -5808,17 +5916,20 @@ console.log(uniqueNumbers); // Output: Set(5) { 1, 2, 3, 4, 5 }
 You can create a `Set` using the `Set` constructor, which can take an iterable object (like an array) as an argument.
 
 #### Syntax:
+
 ```javascript
 let mySet = new Set([iterable]);
 ```
 
 #### Example:
+
 ```javascript
 let fruits = new Set(["Apple", "Banana", "Cherry"]);
 console.log(fruits); // Output: Set(3) { 'Apple', 'Banana', 'Cherry' }
 ```
 
 **Explanation**:
+
 - The `Set` is created with three unique elements: "Apple," "Banana," and "Cherry."
 
 ---
@@ -5828,6 +5939,7 @@ console.log(fruits); // Output: Set(3) { 'Apple', 'Banana', 'Cherry' }
 You can add elements to a `Set` using the `add()` method and remove elements using the `delete()` method.
 
 #### Example:
+
 ```javascript
 let mySet = new Set();
 
@@ -5843,6 +5955,7 @@ console.log(mySet); // Output: Set(2) { 1, 3 }
 ```
 
 **Explanation**:
+
 - The `add()` method adds elements to the `Set`, and the `delete()` method removes a specified element.
 
 ---
@@ -5858,6 +5971,7 @@ Here are some common methods used with Sets:
 5. **size** - Returns the number of elements in the Set.
 
 #### Example:
+
 ```javascript
 let mySet = new Set(["Apple", "Banana"]);
 
@@ -5872,6 +5986,7 @@ console.log(mySet.size); // Output: 0
 ```
 
 **Explanation**:
+
 - `has()` checks if "Banana" is in the Set.
 - `delete()` removes "Banana" from the Set.
 - `size` gives the number of elements in the Set.
@@ -5884,6 +5999,7 @@ console.log(mySet.size); // Output: 0
 You can iterate over the elements of a `Set` using the `for...of` loop or the `forEach()` method.
 
 #### Example 1: Using `for...of`
+
 ```javascript
 let fruits = new Set(["Apple", "Banana", "Cherry"]);
 
@@ -5898,6 +6014,7 @@ for (let fruit of fruits) {
 ```
 
 #### Example 2: Using `forEach()`
+
 ```javascript
 fruits.forEach((fruit) => {
   console.log(fruit);
@@ -5910,6 +6027,7 @@ fruits.forEach((fruit) => {
 ```
 
 **Explanation**:
+
 - Both `for...of` and `forEach()` methods allow you to loop through each element in the `Set`.
 
 ---
@@ -5919,6 +6037,7 @@ fruits.forEach((fruit) => {
 Let's explore some practical examples of using Sets in JavaScript:
 
 #### 1. **Removing Duplicates from an Array**
+
 ```javascript
 let numbers = [1, 2, 2, 3, 4, 4, 5];
 let uniqueNumbers = new Set(numbers);
@@ -5929,6 +6048,7 @@ console.log(uniqueNumbers); // Output: Set(5) { 1, 2, 3, 4, 5 }
 **Explanation**: The `Set` automatically removes duplicate values from the array.
 
 #### 2. **Converting a Set Back to an Array**
+
 ```javascript
 let uniqueNumbersArray = Array.from(uniqueNumbers);
 
@@ -5948,6 +6068,7 @@ Sets are particularly useful in scenarios where you need to ensure that a collec
 3. **Set Operations**: Perform operations like union, intersection, and difference between sets of data.
 
 #### Example: Set Operations
+
 ```javascript
 let setA = new Set([1, 2, 3]);
 let setB = new Set([3, 4, 5]);
@@ -5957,15 +6078,16 @@ let union = new Set([...setA, ...setB]);
 console.log(union); // Output: Set(5) { 1, 2, 3, 4, 5 }
 
 // Intersection
-let intersection = new Set([...setA].filter(x => setB.has(x)));
+let intersection = new Set([...setA].filter((x) => setB.has(x)));
 console.log(intersection); // Output: Set(1) { 3 }
 
 // Difference
-let difference = new Set([...setA].filter(x => !setB.has(x)));
+let difference = new Set([...setA].filter((x) => !setB.has(x)));
 console.log(difference); // Output: Set(2) { 1, 2 }
 ```
 
 **Explanation**:
+
 - **Union**: Combines all elements from `setA` and `setB`.
 - **Intersection**: Returns the common elements between `setA` and `setB`.
 - **Difference**: Returns the elements that are in `setA` but not in `setB`.
@@ -5973,6 +6095,7 @@ console.log(difference); // Output: Set(2) { 1, 2 }
 ### JavaScript Set Methods
 
 #### Table of Contents
+
 1. [List of Set Methods](#list-of-set-methods)
 2. [Detailed Explanation with Examples](#detailed-explanation-with-examples)
    - [add(value)](#addvalue)
@@ -5988,16 +6111,16 @@ console.log(difference); // Output: Set(2) { 1, 2 }
 
 ### List of Set Methods
 
-| Method             | Description                                                | Example                              |
-|--------------------|------------------------------------------------------------|--------------------------------------|
-| `add(value)`       | Adds a new element to the Set.                              | `mySet.add(1)`                       |
-| `delete(value)`    | Removes the specified element from the Set.                | `mySet.delete(2)`                    |
-| `has(value)`       | Checks if the Set contains the specified value.            | `mySet.has(2)`                       |
-| `clear()`          | Removes all elements from the Set.                         | `mySet.clear()`                      |
-| `size`             | Returns the number of elements in the Set.                 | `mySet.size`                         |
-| `entries()`        | Returns an iterator with `[value, value]` pairs for each element in the Set. | `mySet.entries()`         |
-| `forEach(callback)`| Executes a function for each element in the Set.           | `mySet.forEach(value => {...})`      |
-| `keys()` and `values()` | Return an iterator with the values of the Set.        | `mySet.keys()` or `mySet.values()`   |
+| Method                  | Description                                                                  | Example                            |
+| ----------------------- | ---------------------------------------------------------------------------- | ---------------------------------- |
+| `add(value)`            | Adds a new element to the Set.                                               | `mySet.add(1)`                     |
+| `delete(value)`         | Removes the specified element from the Set.                                  | `mySet.delete(2)`                  |
+| `has(value)`            | Checks if the Set contains the specified value.                              | `mySet.has(2)`                     |
+| `clear()`               | Removes all elements from the Set.                                           | `mySet.clear()`                    |
+| `size`                  | Returns the number of elements in the Set.                                   | `mySet.size`                       |
+| `entries()`             | Returns an iterator with `[value, value]` pairs for each element in the Set. | `mySet.entries()`                  |
+| `forEach(callback)`     | Executes a function for each element in the Set.                             | `mySet.forEach(value => {...})`    |
+| `keys()` and `values()` | Return an iterator with the values of the Set.                               | `mySet.keys()` or `mySet.values()` |
 
 ---
 
@@ -6008,11 +6131,13 @@ console.log(difference); // Output: Set(2) { 1, 2 }
 The `add(value)` method adds a new element with the specified value to a Set. If the value already exists in the Set, it won't be added again, ensuring all values are unique.
 
 ##### Syntax:
+
 ```javascript
 mySet.add(value);
 ```
 
 ##### Example:
+
 ```javascript
 let mySet = new Set();
 mySet.add(1);
@@ -6023,6 +6148,7 @@ console.log(mySet); // Output: Set(2) { 1, 2 }
 ```
 
 **Explanation**:
+
 - The `add()` method adds unique values to the Set. Attempting to add a duplicate value has no effect.
 
 ---
@@ -6032,11 +6158,13 @@ console.log(mySet); // Output: Set(2) { 1, 2 }
 The `delete(value)` method removes the specified value from a Set. If the value is not found, the Set remains unchanged.
 
 ##### Syntax:
+
 ```javascript
 mySet.delete(value);
 ```
 
 ##### Example:
+
 ```javascript
 let mySet = new Set([1, 2, 3]);
 mySet.delete(2);
@@ -6045,6 +6173,7 @@ console.log(mySet); // Output: Set(2) { 1, 3 }
 ```
 
 **Explanation**:
+
 - The `delete()` method removes the value `2` from the Set.
 
 ---
@@ -6054,11 +6183,13 @@ console.log(mySet); // Output: Set(2) { 1, 3 }
 The `has(value)` method checks if a Set contains a specific value. It returns `true` if the value exists in the Set, otherwise `false`.
 
 ##### Syntax:
+
 ```javascript
 mySet.has(value);
 ```
 
 ##### Example:
+
 ```javascript
 let mySet = new Set([1, 2, 3]);
 
@@ -6067,6 +6198,7 @@ console.log(mySet.has(4)); // Output: false
 ```
 
 **Explanation**:
+
 - The `has()` method checks for the existence of a value in the Set.
 
 ---
@@ -6076,11 +6208,13 @@ console.log(mySet.has(4)); // Output: false
 The `clear()` method removes all elements from a Set, leaving it empty.
 
 ##### Syntax:
+
 ```javascript
 mySet.clear();
 ```
 
 ##### Example:
+
 ```javascript
 let mySet = new Set([1, 2, 3]);
 mySet.clear();
@@ -6089,6 +6223,7 @@ console.log(mySet); // Output: Set(0) {}
 ```
 
 **Explanation**:
+
 - The `clear()` method removes all values from the Set.
 
 ---
@@ -6098,11 +6233,13 @@ console.log(mySet); // Output: Set(0) {}
 The `size` property returns the number of elements in a Set.
 
 ##### Syntax:
+
 ```javascript
 mySet.size;
 ```
 
 ##### Example:
+
 ```javascript
 let mySet = new Set([1, 2, 3]);
 
@@ -6110,6 +6247,7 @@ console.log(mySet.size); // Output: 3
 ```
 
 **Explanation**:
+
 - The `size` property provides the count of elements in the Set.
 
 ---
@@ -6119,13 +6257,15 @@ console.log(mySet.size); // Output: 3
 The `entries()` method returns a new Iterator object that contains an array of `[value, value]` for each element in the Set, in insertion order. This method is primarily used for compatibility with the `Map` object.
 
 ##### Syntax:
+
 ```javascript
 mySet.entries();
 ```
 
 ##### Example:
+
 ```javascript
-let mySet = new Set(['a', 'b', 'c']);
+let mySet = new Set(["a", "b", "c"]);
 let iterator = mySet.entries();
 
 for (let entry of iterator) {
@@ -6139,6 +6279,7 @@ for (let entry of iterator) {
 ```
 
 **Explanation**:
+
 - The `entries()` method returns an iterator where each element is represented as an array of the form `[value, value]`.
 
 ---
@@ -6148,15 +6289,17 @@ for (let entry of iterator) {
 The `forEach(callback)` method executes a provided function once for each value in the Set, in insertion order.
 
 ##### Syntax:
+
 ```javascript
 mySet.forEach(callback);
 ```
 
 ##### Example:
+
 ```javascript
 let mySet = new Set([1, 2, 3]);
 
-mySet.forEach(value => {
+mySet.forEach((value) => {
   console.log(value * 2);
 });
 
@@ -6167,6 +6310,7 @@ mySet.forEach(value => {
 ```
 
 **Explanation**:
+
 - The `forEach()` method applies the provided function to each element in the Set.
 
 ---
@@ -6176,12 +6320,14 @@ mySet.forEach(value => {
 The `keys()` and `values()` methods both return a new Iterator object containing the values for each element in the Set. Since a Set's elements are unique, and there are no keys in the usual sense, `keys()` and `values()` return the same values.
 
 ##### Syntax:
+
 ```javascript
 mySet.keys();
 mySet.values();
 ```
 
 ##### Example:
+
 ```javascript
 let mySet = new Set([1, 2, 3]);
 let keyIterator = mySet.keys();
@@ -6192,11 +6338,13 @@ console.log([...valueIterator]); // Output: [1, 2, 3]
 ```
 
 **Explanation**:
+
 - Both `keys()` and `values()` return an iterator containing the values of the Set elements.
 
 ### JavaScript Map and Map Methods
 
 #### Table of Contents
+
 1. [What is a Map?](#what-is-a-map)
 2. [List of Map Methods](#list-of-map-methods)
 3. [Detailed Explanation with Examples](#detailed-explanation-with-examples)
@@ -6216,38 +6364,41 @@ console.log([...valueIterator]); // Output: [1, 2, 3]
 ### What is a Map?
 
 A `Map` in JavaScript is a collection of key-value pairs where both keys and values can be of any data type. Maps are similar to plain JavaScript objects (`{}`), but with some key differences:
+
 - **Maps maintain the order of elements**: Unlike objects, Maps preserve the order of insertion, meaning that when you iterate over a Map, the elements are returned in the order they were added.
 - **Keys can be of any type**: While object keys are typically strings, Map keys can be any value (including functions, objects, or any primitive).
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
-myMap.set(42, 'The answer to life');
+myMap.set("name", "John");
+myMap.set(42, "The answer to life");
 
-console.log(myMap.get('name')); // Output: John
-console.log(myMap.get(42));     // Output: The answer to life
+console.log(myMap.get("name")); // Output: John
+console.log(myMap.get(42)); // Output: The answer to life
 ```
 
 **Explanation**:
+
 - The `set()` method adds key-value pairs to the Map, and the `get()` method retrieves the value associated with a key.
 
 ---
 
 ### List of Map Methods
 
-| Method                 | Description                                                | Example                                |
-|------------------------|------------------------------------------------------------|----------------------------------------|
-| `set(key, value)`      | Adds or updates a key-value pair in the Map.               | `myMap.set('name', 'John')`            |
-| `get(key)`             | Retrieves the value associated with the specified key.     | `myMap.get('name')`                    |
-| `has(key)`             | Checks if the Map contains the specified key.              | `myMap.has('name')`                    |
-| `delete(key)`          | Removes the specified key and its associated value.        | `myMap.delete('name')`                 |
-| `clear()`              | Removes all key-value pairs from the Map.                  | `myMap.clear()`                        |
-| `size`                 | Returns the number of key-value pairs in the Map.          | `myMap.size`                           |
-| `keys()`               | Returns an iterator for all keys in the Map.               | `myMap.keys()`                         |
-| `values()`             | Returns an iterator for all values in the Map.             | `myMap.values()`                       |
-| `entries()`            | Returns an iterator for all key-value pairs in the Map.    | `myMap.entries()`                      |
-| `forEach(callback)`    | Executes a function for each key-value pair in the Map.    | `myMap.forEach((value, key) => {...})` |
+| Method              | Description                                             | Example                                |
+| ------------------- | ------------------------------------------------------- | -------------------------------------- |
+| `set(key, value)`   | Adds or updates a key-value pair in the Map.            | `myMap.set('name', 'John')`            |
+| `get(key)`          | Retrieves the value associated with the specified key.  | `myMap.get('name')`                    |
+| `has(key)`          | Checks if the Map contains the specified key.           | `myMap.has('name')`                    |
+| `delete(key)`       | Removes the specified key and its associated value.     | `myMap.delete('name')`                 |
+| `clear()`           | Removes all key-value pairs from the Map.               | `myMap.clear()`                        |
+| `size`              | Returns the number of key-value pairs in the Map.       | `myMap.size`                           |
+| `keys()`            | Returns an iterator for all keys in the Map.            | `myMap.keys()`                         |
+| `values()`          | Returns an iterator for all values in the Map.          | `myMap.values()`                       |
+| `entries()`         | Returns an iterator for all key-value pairs in the Map. | `myMap.entries()`                      |
+| `forEach(callback)` | Executes a function for each key-value pair in the Map. | `myMap.forEach((value, key) => {...})` |
 
 ---
 
@@ -6258,20 +6409,23 @@ console.log(myMap.get(42));     // Output: The answer to life
 The `set(key, value)` method adds a new key-value pair to the Map or updates the value if the key already exists.
 
 ##### Syntax:
+
 ```javascript
 myMap.set(key, value);
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
-myMap.set('age', 30);
+myMap.set("name", "John");
+myMap.set("age", 30);
 
 console.log(myMap); // Output: Map(2) { 'name' => 'John', 'age' => 30 }
 ```
 
 **Explanation**:
+
 - The `set()` method adds the key `'name'` with the value `'John'` and the key `'age'` with the value `30` to the Map.
 
 ---
@@ -6281,20 +6435,23 @@ console.log(myMap); // Output: Map(2) { 'name' => 'John', 'age' => 30 }
 The `get(key)` method returns the value associated with the specified key. If the key is not found, it returns `undefined`.
 
 ##### Syntax:
+
 ```javascript
 myMap.get(key);
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
+myMap.set("name", "John");
 
-console.log(myMap.get('name')); // Output: John
-console.log(myMap.get('age'));  // Output: undefined
+console.log(myMap.get("name")); // Output: John
+console.log(myMap.get("age")); // Output: undefined
 ```
 
 **Explanation**:
+
 - The `get()` method retrieves the value associated with the key `'name'`, which is `'John'`.
 
 ---
@@ -6304,20 +6461,23 @@ console.log(myMap.get('age'));  // Output: undefined
 The `has(key)` method checks whether the Map contains a specified key. It returns `true` if the key is found, otherwise `false`.
 
 ##### Syntax:
+
 ```javascript
 myMap.has(key);
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
+myMap.set("name", "John");
 
-console.log(myMap.has('name')); // Output: true
-console.log(myMap.has('age'));  // Output: false
+console.log(myMap.has("name")); // Output: true
+console.log(myMap.has("age")); // Output: false
 ```
 
 **Explanation**:
+
 - The `has()` method checks if the key `'name'` exists in the Map and returns `true`.
 
 ---
@@ -6327,20 +6487,23 @@ console.log(myMap.has('age'));  // Output: false
 The `delete(key)` method removes the specified key and its associated value from the Map.
 
 ##### Syntax:
+
 ```javascript
 myMap.delete(key);
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
-myMap.delete('name');
+myMap.set("name", "John");
+myMap.delete("name");
 
-console.log(myMap.has('name')); // Output: false
+console.log(myMap.has("name")); // Output: false
 ```
 
 **Explanation**:
+
 - The `delete()` method removes the key `'name'` and its value from the Map.
 
 ---
@@ -6350,21 +6513,24 @@ console.log(myMap.has('name')); // Output: false
 The `clear()` method removes all key-value pairs from the Map, leaving it empty.
 
 ##### Syntax:
+
 ```javascript
 myMap.clear();
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
-myMap.set('age', 30);
+myMap.set("name", "John");
+myMap.set("age", 30);
 myMap.clear();
 
 console.log(myMap.size); // Output: 0
 ```
 
 **Explanation**:
+
 - The `clear()` method removes all key-value pairs from the Map.
 
 ---
@@ -6374,20 +6540,23 @@ console.log(myMap.size); // Output: 0
 The `size` property returns the number of key-value pairs currently in the Map.
 
 ##### Syntax:
+
 ```javascript
 myMap.size;
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
-myMap.set('age', 30);
+myMap.set("name", "John");
+myMap.set("age", 30);
 
 console.log(myMap.size); // Output: 2
 ```
 
 **Explanation**:
+
 - The `size` property gives the total count of key-value pairs in the Map.
 
 ---
@@ -6397,15 +6566,17 @@ console.log(myMap.size); // Output: 2
 The `keys()` method returns a new iterator object that contains the keys for each element in the Map, in insertion order.
 
 ##### Syntax:
+
 ```javascript
 myMap.keys();
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
-myMap.set('age', 30);
+myMap.set("name", "John");
+myMap.set("age", 30);
 
 for (let key of myMap.keys()) {
   console.log(key);
@@ -6417,6 +6588,7 @@ for (let key of myMap.keys()) {
 ```
 
 **Explanation**:
+
 - The `keys()` method returns an iterator for the keys in the Map.
 
 ---
@@ -6426,15 +6598,17 @@ for (let key of myMap.keys()) {
 The `values()` method returns a new iterator object that contains the values for each element in the Map, in insertion order.
 
 ##### Syntax:
+
 ```javascript
 myMap.values();
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
-myMap.set('age', 30);
+myMap.set("name", "John");
+myMap.set("age", 30);
 
 for (let value of myMap.values()) {
   console.log(value);
@@ -6446,6 +6620,7 @@ for (let value of myMap.values()) {
 ```
 
 **Explanation**:
+
 - The `values()` method returns an iterator for the values in the Map.
 
 ---
@@ -6455,15 +6630,17 @@ for (let value of myMap.values()) {
 The `entries()` method returns a new iterator object that contains an array of `[key, value]` for each element in the Map, in insertion order.
 
 ##### Syntax:
+
 ```javascript
 myMap.entries();
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
-myMap.set('age', 30);
+myMap.set("name", "John");
+myMap.set("age", 30);
 
 for (let entry of myMap.entries()) {
   console.log(entry);
@@ -6475,6 +6652,7 @@ for (let entry of myMap.entries()) {
 ```
 
 **Explanation**:
+
 - The `entries()` method returns an iterator with `[key, value]` pairs for each element in the Map.
 
 ---
@@ -6484,6 +6662,7 @@ for (let entry of myMap.entries()) {
 The `forEach(callback)` method executes a provided function once for each key-value pair in the Map, in insertion order.
 
 ##### Syntax:
+
 ```javascript
 myMap.forEach((value, key) => {
   // code to execute
@@ -6491,10 +6670,11 @@ myMap.forEach((value, key) => {
 ```
 
 ##### Example:
+
 ```javascript
 let myMap = new Map();
-myMap.set('name', 'John');
-myMap.set('age', 30);
+myMap.set("name", "John");
+myMap.set("age", 30);
 
 myMap.forEach((value, key) => {
   console.log(`${key}: ${value}`);
@@ -6506,11 +6686,13 @@ myMap.forEach((value, key) => {
 ```
 
 **Explanation**:
+
 - The `forEach()` method iterates over each key-value pair in the Map and executes the provided function.
 
 ## How To find the frequency of elements in an array using a JavaScript Map
 
 ### Example:
+
 Let's say you have an array:
 
 ```javascript
@@ -6536,28 +6718,31 @@ const array = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4];
 const frequencyMap = new Map();
 
 // Iterate over the array
-array.forEach(element => {
-    if (frequencyMap.has(element)) {
-        // If the element exists in the map, increment its value
-        frequencyMap.set(element, frequencyMap.get(element) + 1);
-    } else {
-        // If the element doesn't exist in the map, add it with a value of 1
-        frequencyMap.set(element, 1);
-    }
+array.forEach((element) => {
+  if (frequencyMap.has(element)) {
+    // If the element exists in the map, increment its value
+    frequencyMap.set(element, frequencyMap.get(element) + 1);
+  } else {
+    // If the element doesn't exist in the map, add it with a value of 1
+    frequencyMap.set(element, 1);
+  }
 });
 
 // To display the frequency of elements
 frequencyMap.forEach((value, key) => {
-    console.log(`Element: ${key}, Frequency: ${value}`);
+  console.log(`Element: ${key}, Frequency: ${value}`);
 });
 ```
 
 ### Explanation:
+
 - `frequencyMap.set(element, frequencyMap.get(element) + 1)` increments the count for the element if it already exists in the `Map`.
 - `frequencyMap.set(element, 1)` adds the element to the `Map` with an initial count of `1` if it doesn’t exist yet.
 
 ### Output:
+
 For the array `[1, 2, 2, 3, 3, 3, 4, 4, 4, 4]`, the output will be:
+
 ```
 Element: 1, Frequency: 1
 Element: 2, Frequency: 2
@@ -6578,10 +6763,10 @@ This approach effectively counts the frequency of each element using a `Map` in 
 - [JavaScript Bitwise Operations](#javascript-bitwise-operations)
 - [JavaScript Regular Expressions](#javascript-regular-expressions)
 
-
 ## JavaScript Type Conversion
 
 #### Table of Contents
+
 1. [What is Type Conversion?](#what-is-type-conversion)
 2. [Type Conversion Methods Overview](#type-conversion-methods-overview)
 3. [Detailed Explanation with Examples](#detailed-explanation-with-examples)
@@ -6601,29 +6786,31 @@ This approach effectively counts the frequency of each element using a `Map` in 
 Type conversion in JavaScript refers to the process of converting a value from one data type to another. This can happen automatically (known as type coercion) or explicitly through functions and methods. Common conversions include converting between strings, numbers, and booleans.
 
 ##### Example:
+
 ```javascript
 let num = 10;
-let str = String(num);  // Converts number to string "10"
+let str = String(num); // Converts number to string "10"
 let bool = Boolean(num); // Converts number to boolean true
 ```
 
 **Explanation**:
+
 - The `String()` function converts a number to a string, and the `Boolean()` function converts it to a boolean.
 
 ---
 
 ### Type Conversion Methods Overview
 
-| Method          | Description                                                      | Example                                   |
-|-----------------|------------------------------------------------------------------|-------------------------------------------|
-| `String(value)` | Converts a value to a string.                                     | `String(123)` ➜ `"123"`                   |
-| `Number(value)` | Converts a value to a number.                                     | `Number("123")` ➜ `123`                   |
-| `Boolean(value)`| Converts a value to a boolean.                                    | `Boolean(1)` ➜ `true`                     |
-| `parseInt(value)` | Parses a string and returns an integer.                          | `parseInt("123")` ➜ `123`                 |
-| `parseFloat(value)` | Parses a string and returns a floating-point number.            | `parseFloat("12.34")` ➜ `12.34`           |
-| `value.toString()` | Converts a value to a string using the `toString()` method.     | `(123).toString()` ➜ `"123"`              |
-| `value.toFixed(n)`  | Formats a number using fixed-point notation.                    | `(12.3456).toFixed(2)` ➜ `"12.35"`        |
-| `value.toPrecision(n)` | Formats a number to a specified precision.                   | `(12.3456).toPrecision(3)` ➜ `"12.3"`     |
+| Method                 | Description                                                 | Example                               |
+| ---------------------- | ----------------------------------------------------------- | ------------------------------------- |
+| `String(value)`        | Converts a value to a string.                               | `String(123)` ➜ `"123"`               |
+| `Number(value)`        | Converts a value to a number.                               | `Number("123")` ➜ `123`               |
+| `Boolean(value)`       | Converts a value to a boolean.                              | `Boolean(1)` ➜ `true`                 |
+| `parseInt(value)`      | Parses a string and returns an integer.                     | `parseInt("123")` ➜ `123`             |
+| `parseFloat(value)`    | Parses a string and returns a floating-point number.        | `parseFloat("12.34")` ➜ `12.34`       |
+| `value.toString()`     | Converts a value to a string using the `toString()` method. | `(123).toString()` ➜ `"123"`          |
+| `value.toFixed(n)`     | Formats a number using fixed-point notation.                | `(12.3456).toFixed(2)` ➜ `"12.35"`    |
+| `value.toPrecision(n)` | Formats a number to a specified precision.                  | `(12.3456).toPrecision(3)` ➜ `"12.3"` |
 
 ---
 
@@ -6634,20 +6821,23 @@ let bool = Boolean(num); // Converts number to boolean true
 The `String()` function converts a given value to a string.
 
 ##### Syntax:
+
 ```javascript
 String(value);
 ```
 
 ##### Example:
+
 ```javascript
 let num = 123;
 let str = String(num);
 
-console.log(str);        // Output: "123"
+console.log(str); // Output: "123"
 console.log(typeof str); // Output: "string"
 ```
 
 **Explanation**:
+
 - The `String()` function converts the number `123` to the string `"123"`.
 
 ---
@@ -6657,20 +6847,23 @@ console.log(typeof str); // Output: "string"
 The `Number()` function converts a given value to a number. If the value cannot be converted, it returns `NaN` (Not-a-Number).
 
 ##### Syntax:
+
 ```javascript
 Number(value);
 ```
 
 ##### Example:
+
 ```javascript
 let str = "123";
 let num = Number(str);
 
-console.log(num);        // Output: 123
+console.log(num); // Output: 123
 console.log(typeof num); // Output: "number"
 ```
 
 **Explanation**:
+
 - The `Number()` function converts the string `"123"` to the number `123`.
 
 ---
@@ -6680,20 +6873,23 @@ console.log(typeof num); // Output: "number"
 The `Boolean()` function converts a given value to a boolean. Values like `0`, `null`, `undefined`, `NaN`, `""` (empty string) are converted to `false`, while all other values are converted to `true`.
 
 ##### Syntax:
+
 ```javascript
 Boolean(value);
 ```
 
 ##### Example:
+
 ```javascript
 let num = 0;
 let bool = Boolean(num);
 
-console.log(bool);       // Output: false
+console.log(bool); // Output: false
 console.log(typeof bool); // Output: "boolean"
 ```
 
 **Explanation**:
+
 - The `Boolean()` function converts the number `0` to `false`.
 
 ---
@@ -6703,20 +6899,23 @@ console.log(typeof bool); // Output: "boolean"
 The `parseInt()` function parses a string and returns an integer of the specified radix (base). The function ignores leading whitespace and stops at the first character that cannot be converted to a number.
 
 ##### Syntax:
+
 ```javascript
 parseInt(string, radix);
 ```
 
 ##### Example:
+
 ```javascript
 let str = "123px";
 let num = parseInt(str);
 
-console.log(num);        // Output: 123
+console.log(num); // Output: 123
 console.log(typeof num); // Output: "number"
 ```
 
 **Explanation**:
+
 - The `parseInt()` function parses the string `"123px"` and returns the integer `123`.
 
 ---
@@ -6726,20 +6925,23 @@ console.log(typeof num); // Output: "number"
 The `parseFloat()` function parses a string and returns a floating-point number. Like `parseInt()`, it stops parsing at the first character that is not part of the number.
 
 ##### Syntax:
+
 ```javascript
 parseFloat(string);
 ```
 
 ##### Example:
+
 ```javascript
 let str = "12.34px";
 let num = parseFloat(str);
 
-console.log(num);        // Output: 12.34
+console.log(num); // Output: 12.34
 console.log(typeof num); // Output: "number"
 ```
 
 **Explanation**:
+
 - The `parseFloat()` function parses the string `"12.34px"` and returns the floating-point number `12.34`.
 
 ---
@@ -6749,20 +6951,23 @@ console.log(typeof num); // Output: "number"
 The `toString()` method converts a number, boolean, or other data types to a string. This method is commonly used on numbers to convert them to strings.
 
 ##### Syntax:
+
 ```javascript
 value.toString();
 ```
 
 ##### Example:
+
 ```javascript
 let num = 123;
 let str = num.toString();
 
-console.log(str);        // Output: "123"
+console.log(str); // Output: "123"
 console.log(typeof str); // Output: "string"
 ```
 
 **Explanation**:
+
 - The `toString()` method converts the number `123` to the string `"123"`.
 
 ---
@@ -6772,20 +6977,23 @@ console.log(typeof str); // Output: "string"
 The `toFixed()` method formats a number using fixed-point notation. It returns the string representation of the number rounded to the specified number of decimal places.
 
 ##### Syntax:
+
 ```javascript
 value.toFixed(digits);
 ```
 
 ##### Example:
+
 ```javascript
 let num = 12.3456;
 let str = num.toFixed(2);
 
-console.log(str);        // Output: "12.35"
+console.log(str); // Output: "12.35"
 console.log(typeof str); // Output: "string"
 ```
 
 **Explanation**:
+
 - The `toFixed()` method rounds the number `12.3456` to two decimal places, resulting in the string `"12.35"`.
 
 ---
@@ -6795,25 +7003,29 @@ console.log(typeof str); // Output: "string"
 The `toPrecision()` method formats a number to the specified precision (number of significant digits). It returns the string representation of the number.
 
 ##### Syntax:
+
 ```javascript
 value.toPrecision(precision);
 ```
 
 ##### Example:
+
 ```javascript
 let num = 12.3456;
 let str = num.toPrecision(3);
 
-console.log(str);        // Output: "12.3"
+console.log(str); // Output: "12.3"
 console.log(typeof str); // Output: "string"
 ```
 
 **Explanation**:
+
 - The `toPrecision()` method formats the number `12.3456` to three significant digits, resulting in the string `"12.3"`.
 
 ## JavaScript Destructuring
 
 #### Table of Contents
+
 1. [What is Destructuring?](#what-is-destructuring)
 2. [Array Destructuring](#array-destructuring)
 3. [Object Destructuring](#object-destructuring)
@@ -6829,15 +7041,17 @@ console.log(typeof str); // Output: "string"
 Destructuring is a JavaScript feature that allows you to unpack values from arrays or properties from objects into distinct variables. It provides a concise way to extract data from complex structures, making code easier to read and maintain.
 
 ##### Example:
+
 ```javascript
 let [a, b] = [1, 2];
-let {x, y} = {x: 10, y: 20};
+let { x, y } = { x: 10, y: 20 };
 
 console.log(a); // 1
 console.log(y); // 20
 ```
 
 **Explanation**:
+
 - Array destructuring assigns values from an array to variables `a` and `b`.
 - Object destructuring assigns properties `x` and `y` from an object to corresponding variables.
 
@@ -6848,20 +7062,23 @@ console.log(y); // 20
 Array destructuring allows you to unpack values from an array and assign them to variables.
 
 ##### Syntax:
+
 ```javascript
 let [variable1, variable2, ...] = array;
 ```
 
 ##### Example:
+
 ```javascript
 let colors = ["red", "green", "blue"];
 let [firstColor, secondColor] = colors;
 
-console.log(firstColor);  // Output: "red"
+console.log(firstColor); // Output: "red"
 console.log(secondColor); // Output: "green"
 ```
 
 **Explanation**:
+
 - The values `"red"` and `"green"` from the `colors` array are unpacked into the variables `firstColor` and `secondColor`.
 
 ---
@@ -6871,20 +7088,23 @@ console.log(secondColor); // Output: "green"
 Object destructuring allows you to extract properties from an object and assign them to variables with the same name as the properties.
 
 ##### Syntax:
+
 ```javascript
 let {property1, property2, ...} = object;
 ```
 
 ##### Example:
+
 ```javascript
-let person = {name: "John", age: 30};
-let {name, age} = person;
+let person = { name: "John", age: 30 };
+let { name, age } = person;
 
 console.log(name); // Output: "John"
-console.log(age);  // Output: 30
+console.log(age); // Output: 30
 ```
 
 **Explanation**:
+
 - The `name` and `age` properties from the `person` object are assigned to variables with the same names.
 
 ---
@@ -6894,26 +7114,33 @@ console.log(age);  // Output: 30
 You can use destructuring to extract values from nested arrays and objects.
 
 ##### Syntax:
+
 ```javascript
-let {property: {nestedProperty}} = object;
+let {
+  property: { nestedProperty },
+} = object;
 ```
 
 ##### Example:
+
 ```javascript
 let person = {
   name: "John",
   address: {
     city: "New York",
-    zip: "10001"
-  }
+    zip: "10001",
+  },
 };
 
-let {address: {city}} = person;
+let {
+  address: { city },
+} = person;
 
 console.log(city); // Output: "New York"
 ```
 
 **Explanation**:
+
 - The `city` property inside the nested `address` object is extracted and assigned to the `city` variable.
 
 ---
@@ -6923,21 +7150,24 @@ console.log(city); // Output: "New York"
 You can assign default values to variables when the value unpacked from the array or object is `undefined`.
 
 ##### Syntax:
+
 ```javascript
 let [variable = defaultValue] = array;
-let {property = defaultValue} = object;
+let { property = defaultValue } = object;
 ```
 
 ##### Example:
+
 ```javascript
 let colors = ["red"];
 let [firstColor, secondColor = "green"] = colors;
 
-console.log(firstColor);  // Output: "red"
+console.log(firstColor); // Output: "red"
 console.log(secondColor); // Output: "green"
 ```
 
 **Explanation**:
+
 - `secondColor` is assigned the default value `"green"` because the array does not provide a second element.
 
 ---
@@ -6947,13 +7177,16 @@ console.log(secondColor); // Output: "green"
 Destructuring can be used to swap the values of two variables without needing a temporary variable.
 
 ##### Syntax:
+
 ```javascript
 [variable1, variable2] = [variable2, variable1];
 ```
 
 ##### Example:
+
 ```javascript
-let a = 1, b = 2;
+let a = 1,
+  b = 2;
 [a, b] = [b, a];
 
 console.log(a); // Output: 2
@@ -6961,6 +7194,7 @@ console.log(b); // Output: 1
 ```
 
 **Explanation**:
+
 - The values of `a` and `b` are swapped using array destructuring.
 
 ---
@@ -6970,28 +7204,32 @@ console.log(b); // Output: 1
 You can destructure objects directly in function parameters, which is useful for handling configuration objects.
 
 ##### Syntax:
+
 ```javascript
-function functionName({property1, property2}) {
+function functionName({ property1, property2 }) {
   // function body
 }
 ```
 
 ##### Example:
+
 ```javascript
-function displayPerson({name, age}) {
+function displayPerson({ name, age }) {
   console.log(`Name: ${name}, Age: ${age}`);
 }
 
-let person = {name: "John", age: 30};
+let person = { name: "John", age: 30 };
 displayPerson(person); // Output: "Name: John, Age: 30"
 ```
 
 **Explanation**:
+
 - The `name` and `age` properties are destructured directly in the function's parameter list, making it easier to work with the `person` object.
 
 ## JavaScript Bitwise Operations
 
 #### Table of Contents
+
 1. [What are Bitwise Operations?](#what-are-bitwise-operations)
 2. [Bitwise Operators Overview](#bitwise-operators-overview)
 3. [Detailed Explanation with Examples](#detailed-explanation-with-examples)
@@ -7010,28 +7248,30 @@ displayPerson(person); // Output: "Name: John, Age: 30"
 Bitwise operations in JavaScript work on the binary representations of numbers. Instead of manipulating the numbers in their decimal form, these operations perform actions on each individual bit within the binary representation. Understanding bitwise operations is crucial for tasks that involve low-level data manipulation, such as working with binary data, performing encryption, or optimizing certain algorithms.
 
 ##### Example:
+
 ```javascript
-let a = 5;  // Binary: 0101
-let b = 3;  // Binary: 0011
-let result = a & b;  // Result: 0001 (1 in decimal)
+let a = 5; // Binary: 0101
+let b = 3; // Binary: 0011
+let result = a & b; // Result: 0001 (1 in decimal)
 ```
 
 **Explanation**:
+
 - The `&` operator performs a bitwise AND operation on the binary representations of `5` and `3`, resulting in `1`.
 
 ---
 
 ### Bitwise Operators Overview
 
-| Operator         | Description                                               | Example                       | Example Result |
-|------------------|-----------------------------------------------------------|-------------------------------|----------------|
-| `&` (AND)        | Performs a bitwise AND operation.                         | `5 & 3` ➜ `0001`              | `1`            |
-| `|` (OR)         | Performs a bitwise OR operation.                          | `5 | 3` ➜ `0111`              | `7`            |
-| `^` (XOR)        | Performs a bitwise XOR (exclusive OR) operation.          | `5 ^ 3` ➜ `0110`              | `6`            |
-| `~` (NOT)        | Performs a bitwise NOT operation (inverts bits).          | `~5` ➜ `...11111010`          | `-6`           |
-| `<<` (Left Shift)| Shifts bits to the left, filling with zeros.              | `5 << 1` ➜ `1010`             | `10`           |
-| `>>` (Right Shift) | Shifts bits to the right, keeping the sign bit.          | `5 >> 1` ➜ `0010`             | `2`            |
-| `>>>` (Zero-Fill Right Shift) | Shifts bits to the right, filling with zeros. | `5 >>> 1` ➜ `0010`            | `2`            |
+| Operator                      | Description                                      | Example                          | Example Result |
+| ----------------------------- | ------------------------------------------------ | -------------------------------- | -------------- | --------- | --- |
+| `&` (AND)                     | Performs a bitwise AND operation.                | `5 & 3` ➜ `0001`                 | `1`            |
+| `                             | ` (OR)                                           | Performs a bitwise OR operation. | `5             | 3`➜`0111` | `7` |
+| `^` (XOR)                     | Performs a bitwise XOR (exclusive OR) operation. | `5 ^ 3` ➜ `0110`                 | `6`            |
+| `~` (NOT)                     | Performs a bitwise NOT operation (inverts bits). | `~5` ➜ `...11111010`             | `-6`           |
+| `<<` (Left Shift)             | Shifts bits to the left, filling with zeros.     | `5 << 1` ➜ `1010`                | `10`           |
+| `>>` (Right Shift)            | Shifts bits to the right, keeping the sign bit.  | `5 >> 1` ➜ `0010`                | `2`            |
+| `>>>` (Zero-Fill Right Shift) | Shifts bits to the right, filling with zeros.    | `5 >>> 1` ➜ `0010`               | `2`            |
 
 ---
 
@@ -7042,20 +7282,23 @@ let result = a & b;  // Result: 0001 (1 in decimal)
 The bitwise AND operator compares each bit of its first operand to the corresponding bit of the second operand. If both bits are `1`, the corresponding result bit is set to `1`. Otherwise, the result bit is set to `0`.
 
 ##### Syntax:
+
 ```javascript
 result = a & b;
 ```
 
 ##### Example:
+
 ```javascript
-let a = 5;  // Binary: 0101
-let b = 3;  // Binary: 0011
+let a = 5; // Binary: 0101
+let b = 3; // Binary: 0011
 let result = a & b;
 
 console.log(result); // Output: 1
 ```
 
 **Explanation**:
+
 - `5 & 3` evaluates to `0001` in binary, which is `1` in decimal.
 
 ---
@@ -7065,20 +7308,23 @@ console.log(result); // Output: 1
 The bitwise OR operator compares each bit of its first operand to the corresponding bit of the second operand. If either of the bits is `1`, the corresponding result bit is set to `1`.
 
 ##### Syntax:
+
 ```javascript
 result = a | b;
 ```
 
 ##### Example:
+
 ```javascript
-let a = 5;  // Binary: 0101
-let b = 3;  // Binary: 0011
+let a = 5; // Binary: 0101
+let b = 3; // Binary: 0011
 let result = a | b;
 
 console.log(result); // Output: 7
 ```
 
 **Explanation**:
+
 - `5 | 3` evaluates to `0111` in binary, which is `7` in decimal.
 
 ---
@@ -7088,20 +7334,23 @@ console.log(result); // Output: 7
 The bitwise XOR operator compares each bit of its first operand to the corresponding bit of the second operand. If the bits are different, the corresponding result bit is set to `1`. If the bits are the same, the result bit is set to `0`.
 
 ##### Syntax:
+
 ```javascript
 result = a ^ b;
 ```
 
 ##### Example:
+
 ```javascript
-let a = 5;  // Binary: 0101
-let b = 3;  // Binary: 0011
+let a = 5; // Binary: 0101
+let b = 3; // Binary: 0011
 let result = a ^ b;
 
 console.log(result); // Output: 6
 ```
 
 **Explanation**:
+
 - `5 ^ 3` evaluates to `0110` in binary, which is `6` in decimal.
 
 ---
@@ -7111,19 +7360,22 @@ console.log(result); // Output: 6
 The bitwise NOT operator inverts each bit of its operand. This operation is equivalent to subtracting the number from `-1`.
 
 ##### Syntax:
+
 ```javascript
 result = ~a;
 ```
 
 ##### Example:
+
 ```javascript
-let a = 5;  // Binary: 0101
+let a = 5; // Binary: 0101
 let result = ~a;
 
 console.log(result); // Output: -6
 ```
 
 **Explanation**:
+
 - `~5` inverts the bits of `5` (`0101` in binary) to `...11111010`, which is `-6` in decimal (considering 32-bit signed integers).
 
 ---
@@ -7133,19 +7385,22 @@ console.log(result); // Output: -6
 The bitwise left shift operator shifts the bits of the first operand to the left by the number of positions specified by the second operand. The empty bits on the right are filled with zeros.
 
 ##### Syntax:
+
 ```javascript
 result = a << b;
 ```
 
 ##### Example:
+
 ```javascript
-let a = 5;  // Binary: 0101
+let a = 5; // Binary: 0101
 let result = a << 1;
 
 console.log(result); // Output: 10
 ```
 
 **Explanation**:
+
 - `5 << 1` shifts the bits of `5` to the left by one position, resulting in `1010` in binary, which is `10` in decimal.
 
 ---
@@ -7155,19 +7410,22 @@ console.log(result); // Output: 10
 The bitwise right shift operator shifts the bits of the first operand to the right by the number of positions specified by the second operand. The empty bits on the left are filled with the sign bit (the most significant bit), which preserves the sign of the number.
 
 ##### Syntax:
+
 ```javascript
 result = a >> b;
 ```
 
 ##### Example:
+
 ```javascript
-let a = 5;  // Binary: 0101
+let a = 5; // Binary: 0101
 let result = a >> 1;
 
 console.log(result); // Output: 2
 ```
 
 **Explanation**:
+
 - `5 >> 1` shifts the bits of `5` to the right by one position, resulting in `0010` in binary, which is `2` in decimal.
 
 ---
@@ -7177,19 +7435,22 @@ console.log(result); // Output: 2
 The bitwise zero-fill right shift operator shifts the bits of the first operand to the right by the number of positions specified by the second operand. The empty bits on the left are filled with zeros, regardless of the sign of the number.
 
 ##### Syntax:
+
 ```javascript
 result = a >>> b;
 ```
 
 ##### Example:
+
 ```javascript
-let a = -5;  // Binary: ...11111011
+let a = -5; // Binary: ...11111011
 let result = a >>> 1;
 
 console.log(result); // Output: 2147483645
 ```
 
 **Explanation**:
+
 - `-5 >>> 1` shifts the bits of `-5` to the right by one position, filling the leftmost bit with `0`. This results in `2147483645`, considering the 32-bit representation.
 
 ### Converting Binary to Decimal in JavaScript
@@ -7197,6 +7458,7 @@ console.log(result); // Output: 2147483645
 To convert a binary number (as a string) to a decimal number in JavaScript, you can use the `parseInt()` function with a radix (base) of `2`.
 
 #### Example: Binary to Decimal Conversion
+
 ```javascript
 let binary = "101"; // Binary string
 let decimal = parseInt(binary, 2); // Converts to decimal
@@ -7204,7 +7466,7 @@ let decimal = parseInt(binary, 2); // Converts to decimal
 console.log(decimal); // Output: 5
 ```
 
-- **Explanation**: 
+- **Explanation**:
   - The `parseInt()` function takes two arguments: the string to be converted and the base (radix) of the number system being used. Here, `2` specifies that the number is in binary.
 
 ### Converting Decimal to Binary in JavaScript
@@ -7212,6 +7474,7 @@ console.log(decimal); // Output: 5
 To convert a decimal number to binary, you can use the `toString()` method with a radix of `2`.
 
 #### Example: Decimal to Binary Conversion
+
 ```javascript
 let decimal = 5; // Decimal number
 let binary = decimal.toString(2); // Converts to binary string
@@ -7232,6 +7495,7 @@ These methods make it easy to switch between binary and decimal representations 
 ## JavaScript Regular Expressions
 
 #### Table of Contents
+
 1. [What are Regular Expressions?](#what-are-regular-expressions)
 2. [Creating a Regular Expression](#creating-a-regular-expression)
 3. [Using Regular Expressions](#using-regular-expressions)
@@ -7246,6 +7510,7 @@ These methods make it easy to switch between binary and decimal representations 
 Regular expressions (regex or regexp) are sequences of characters that form search patterns. They can be used for various tasks such as searching, editing, and manipulating text. In JavaScript, regular expressions are objects used to match character combinations in strings.
 
 ##### Example:
+
 ```javascript
 let pattern = /hello/;
 let text = "hello world";
@@ -7255,6 +7520,7 @@ console.log(result); // Output: true
 ```
 
 **Explanation**:
+
 - The pattern `/hello/` is a regular expression that searches for the substring `"hello"` in the given `text`.
 
 ---
@@ -7267,6 +7533,7 @@ You can create a regular expression in two ways:
 2. **Constructor Function**: The `RegExp` constructor is used to create the pattern.
 
 ##### Syntax:
+
 ```javascript
 // Literal notation
 let pattern = /pattern/;
@@ -7276,8 +7543,9 @@ let pattern = new RegExp("pattern");
 ```
 
 ##### Example:
+
 ```javascript
-let regex1 = /abc/;            // Literal notation
+let regex1 = /abc/; // Literal notation
 let regex2 = new RegExp("abc"); // Constructor function
 
 console.log(regex1.test("abc")); // Output: true
@@ -7285,6 +7553,7 @@ console.log(regex2.test("abc")); // Output: true
 ```
 
 **Explanation**:
+
 - Both `regex1` and `regex2` match the string `"abc"`.
 
 ---
@@ -7294,17 +7563,19 @@ console.log(regex2.test("abc")); // Output: true
 Regular expressions can be used in JavaScript with various string methods, such as `test()`, `exec()`, `match()`, `replace()`, `search()`, and `split()`.
 
 ##### Example:
+
 ```javascript
 let pattern = /world/;
 let text = "hello world";
 
 console.log(pattern.test(text)); // Output: true
 console.log(text.search(pattern)); // Output: 6
-console.log(text.match(pattern));  // Output: ["world"]
+console.log(text.match(pattern)); // Output: ["world"]
 console.log(text.replace(pattern, "everyone")); // Output: "hello everyone"
 ```
 
 **Explanation**:
+
 - The `test()` method checks if the pattern is found in the string.
 - The `search()` method returns the index of the first match.
 - The `match()` method returns an array containing the matched substring.
@@ -7316,14 +7587,14 @@ console.log(text.replace(pattern, "everyone")); // Output: "hello everyone"
 
 Here’s a table summarizing the commonly used regular expression methods in JavaScript:
 
-| Method          | Description                                             | Syntax                          | Example                                |
-|-----------------|---------------------------------------------------------|---------------------------------|----------------------------------------|
-| `test()`        | Tests for a match in a string and returns `true` or `false`. | `regex.test(string)`            | `/abc/.test("abc")` ➜ `true`           |
-| `exec()`        | Executes a search for a match and returns an array or `null`. | `regex.exec(string)`            | `/abc/.exec("abc")` ➜ `["abc"]`        |
-| `match()`       | Returns an array of matches or `null`.                  | `string.match(regex)`           | `"abcabc".match(/abc/g)` ➜ `["abc", "abc"]` |
-| `search()`      | Tests for a match and returns the index of the match or `-1`. | `string.search(regex)`          | `"abc".search(/b/)` ➜ `1`              |
-| `replace()`     | Returns a new string with some or all matches replaced. | `string.replace(regex, newText)`| `"abc".replace(/a/, "x")` ➜ `"xbc"`    |
-| `split()`       | Splits a string into an array of substrings.            | `string.split(regex)`           | `"a,b,c".split(/,/)` ➜ `["a", "b", "c"]` |
+| Method      | Description                                                   | Syntax                           | Example                                     |
+| ----------- | ------------------------------------------------------------- | -------------------------------- | ------------------------------------------- |
+| `test()`    | Tests for a match in a string and returns `true` or `false`.  | `regex.test(string)`             | `/abc/.test("abc")` ➜ `true`                |
+| `exec()`    | Executes a search for a match and returns an array or `null`. | `regex.exec(string)`             | `/abc/.exec("abc")` ➜ `["abc"]`             |
+| `match()`   | Returns an array of matches or `null`.                        | `string.match(regex)`            | `"abcabc".match(/abc/g)` ➜ `["abc", "abc"]` |
+| `search()`  | Tests for a match and returns the index of the match or `-1`. | `string.search(regex)`           | `"abc".search(/b/)` ➜ `1`                   |
+| `replace()` | Returns a new string with some or all matches replaced.       | `string.replace(regex, newText)` | `"abc".replace(/a/, "x")` ➜ `"xbc"`         |
+| `split()`   | Splits a string into an array of substrings.                  | `string.split(regex)`            | `"a,b,c".split(/,/)` ➜ `["a", "b", "c"]`    |
 
 ---
 
@@ -7333,24 +7604,24 @@ Regular expressions can include various patterns and special characters to creat
 
 ##### Common Patterns:
 
-| Pattern       | Description                                                     | Example                              |
-|---------------|-----------------------------------------------------------------|--------------------------------------|
-| `.`           | Matches any single character except newline.                    | `/a.c/` ➜ Matches `"abc"`, `"a1c"`   |
-| `\d`          | Matches any digit (equivalent to `[0-9]`).                      | `/\d/` ➜ Matches `"1"`, `"5"`        |
-| `\w`          | Matches any alphanumeric character (equivalent to `[a-zA-Z0-9_]`). | `/\w/` ➜ Matches `"a"`, `"1"`    |
-| `\s`          | Matches any whitespace character (spaces, tabs, line breaks).   | `/\s/` ➜ Matches `" "`               |
-| `\b`          | Matches a word boundary.                                        | `/\bword\b/` ➜ Matches `"word"`      |
-| `^`           | Matches the beginning of a string.                              | `/^abc/` ➜ Matches `"abc"` at the start |
-| `$`           | Matches the end of a string.                                    | `/abc$/` ➜ Matches `"abc"` at the end |
-| `*`           | Matches 0 or more occurrences of the preceding pattern.         | `/a*/` ➜ Matches `""`, `"a"`, `"aaa"`|
-| `+`           | Matches 1 or more occurrences of the preceding pattern.         | `/a+/` ➜ Matches `"a"`, `"aaa"`      |
-| `?`           | Matches 0 or 1 occurrence of the preceding pattern.             | `/a?/` ➜ Matches `""`, `"a"`         |
-| `{n}`         | Matches exactly `n` occurrences of the preceding pattern.       | `/a{3}/` ➜ Matches `"aaa"`           |
-| `{n,}`        | Matches `n` or more occurrences of the preceding pattern.       | `/a{2,}/` ➜ Matches `"aa"`, `"aaa"`  |
-| `{n,m}`       | Matches between `n` and `m` occurrences of the preceding pattern. | `/a{1,3}/` ➜ Matches `"a"`, `"aa"`, `"aaa"` |
-| `(pattern)`   | Captures and groups the matching pattern.                       | `/(abc)/` ➜ Matches `"abc"`          |
-| `|`           | Acts as an OR operator between patterns.                        | `/a|b/` ➜ Matches `"a"`, `"b"`       |
-| `\`           | Escapes a special character so it can be matched literally.     | `/\./` ➜ Matches `"."`               |
+| Pattern     | Description                                                        | Example                                     |
+| ----------- | ------------------------------------------------------------------ | ------------------------------------------- | --- | ------------------------ |
+| `.`         | Matches any single character except newline.                       | `/a.c/` ➜ Matches `"abc"`, `"a1c"`          |
+| `\d`        | Matches any digit (equivalent to `[0-9]`).                         | `/\d/` ➜ Matches `"1"`, `"5"`               |
+| `\w`        | Matches any alphanumeric character (equivalent to `[a-zA-Z0-9_]`). | `/\w/` ➜ Matches `"a"`, `"1"`               |
+| `\s`        | Matches any whitespace character (spaces, tabs, line breaks).      | `/\s/` ➜ Matches `" "`                      |
+| `\b`        | Matches a word boundary.                                           | `/\bword\b/` ➜ Matches `"word"`             |
+| `^`         | Matches the beginning of a string.                                 | `/^abc/` ➜ Matches `"abc"` at the start     |
+| `$`         | Matches the end of a string.                                       | `/abc$/` ➜ Matches `"abc"` at the end       |
+| `*`         | Matches 0 or more occurrences of the preceding pattern.            | `/a*/` ➜ Matches `""`, `"a"`, `"aaa"`       |
+| `+`         | Matches 1 or more occurrences of the preceding pattern.            | `/a+/` ➜ Matches `"a"`, `"aaa"`             |
+| `?`         | Matches 0 or 1 occurrence of the preceding pattern.                | `/a?/` ➜ Matches `""`, `"a"`                |
+| `{n}`       | Matches exactly `n` occurrences of the preceding pattern.          | `/a{3}/` ➜ Matches `"aaa"`                  |
+| `{n,}`      | Matches `n` or more occurrences of the preceding pattern.          | `/a{2,}/` ➜ Matches `"aa"`, `"aaa"`         |
+| `{n,m}`     | Matches between `n` and `m` occurrences of the preceding pattern.  | `/a{1,3}/` ➜ Matches `"a"`, `"aa"`, `"aaa"` |
+| `(pattern)` | Captures and groups the matching pattern.                          | `/(abc)/` ➜ Matches `"abc"`                 |
+| `           | `                                                                  | Acts as an OR operator between patterns.    | `/a | b/`➜ Matches`"a"`, `"b"` |
+| `\`         | Escapes a special character so it can be matched literally.        | `/\./` ➜ Matches `"."`                      |
 
 ---
 
@@ -7360,16 +7631,13 @@ Flags modify how a regular expression is executed. They are placed after the clo
 
 ##### Common Flags:
 
-| Flag | Description                                                    | Example                                 |
-|------|----------------------------------------------------------------|-----------------------------------------|
-| `g`  | Global search (find all matches, not just the first).          | `/abc/g` ➜ Matches all occurrences of `"abc"` |
-| `i`  | Case-insensitive search.                                       | `/abc/i` ➜ Matches `"ABC"`, `"abc"`     |
-| `m`  | Multi-line search (treats beginning and end characters `^` and `$` as working across multiple lines). | `/^abc/m` ➜ Matches `"abc"` at the start of each line |
-| `u`  | Unicode; enables full Unicode matching.                        | `/\u{1F600}/u` ➜ Matches the Unicode character "😀" |
-| `s`  | DotAll; allows `.` to match newline characters as well.        | `/abc\s.def/s` ➜ Matches across lines where normally it wouldn't |
-
-
-
+| Flag | Description                                                                                           | Example                                                          |
+| ---- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `g`  | Global search (find all matches, not just the first).                                                 | `/abc/g` ➜ Matches all occurrences of `"abc"`                    |
+| `i`  | Case-insensitive search.                                                                              | `/abc/i` ➜ Matches `"ABC"`, `"abc"`                              |
+| `m`  | Multi-line search (treats beginning and end characters `^` and `$` as working across multiple lines). | `/^abc/m` ➜ Matches `"abc"` at the start of each line            |
+| `u`  | Unicode; enables full Unicode matching.                                                               | `/\u{1F600}/u` ➜ Matches the Unicode character "😀"              |
+| `s`  | DotAll; allows `.` to match newline characters as well.                                               | `/abc\s.def/s` ➜ Matches across lines where normally it wouldn't |
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
@@ -7385,6 +7653,7 @@ Flags modify how a regular expression is executed. They are placed after the clo
 ## JavaScript Errors
 
 #### Table of Contents
+
 1. [What are JavaScript Errors?](#what-are-javascript-errors)
 2. [Types of JavaScript Errors](#types-of-javascript-errors)
 3. [Common JavaScript Errors and Examples](#common-javascript-errors-and-examples)
@@ -7403,15 +7672,15 @@ JavaScript errors occur when the JavaScript engine encounters a problem while ex
 
 JavaScript errors are categorized into different types, each indicating a specific kind of problem. Here's an overview of the primary error types:
 
-| Error Type            | Description                                                                                         | Example                                      |
-|-----------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------|
-| **SyntaxError**       | Thrown when the JavaScript engine encounters code that violates the language's syntax rules.         | `var x = ;`                                  |
-| **ReferenceError**    | Thrown when trying to access a variable that is not declared or is outside the current scope.        | `console.log(undeclaredVar);`                |
-| **TypeError**         | Thrown when a value is not of the expected type, such as calling a non-function as a function.       | `var num = 5; num.toUpperCase();`            |
-| **RangeError**        | Thrown when a number is outside an allowable range, like creating an array with an invalid length.   | `new Array(-1);`                             |
-| **URIError**          | Thrown when `encodeURI()` or `decodeURI()` are used incorrectly with an invalid URI.                 | `decodeURI('%');`                            |
-| **EvalError**         | Thrown when there is an error in the `eval()` function, though it’s rarely used.                     | `eval("invalid code");`                      |
-| **AggregateError**    | Thrown when multiple errors need to be reported by a single operation, typically in `Promise.all()`. | `new AggregateError([error1, error2], "Errors occurred");` |
+| Error Type         | Description                                                                                          | Example                                                    |
+| ------------------ | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **SyntaxError**    | Thrown when the JavaScript engine encounters code that violates the language's syntax rules.         | `var x = ;`                                                |
+| **ReferenceError** | Thrown when trying to access a variable that is not declared or is outside the current scope.        | `console.log(undeclaredVar);`                              |
+| **TypeError**      | Thrown when a value is not of the expected type, such as calling a non-function as a function.       | `var num = 5; num.toUpperCase();`                          |
+| **RangeError**     | Thrown when a number is outside an allowable range, like creating an array with an invalid length.   | `new Array(-1);`                                           |
+| **URIError**       | Thrown when `encodeURI()` or `decodeURI()` are used incorrectly with an invalid URI.                 | `decodeURI('%');`                                          |
+| **EvalError**      | Thrown when there is an error in the `eval()` function, though it’s rarely used.                     | `eval("invalid code");`                                    |
+| **AggregateError** | Thrown when multiple errors need to be reported by a single operation, typically in `Promise.all()`. | `new AggregateError([error1, error2], "Errors occurred");` |
 
 ---
 
@@ -7419,25 +7688,26 @@ JavaScript errors are categorized into different types, each indicating a specif
 
 Below is a table with common JavaScript errors along with examples and explanations.
 
-| Error Type    | Description                                                          | Example                             | Explanation                                              |
-|---------------|----------------------------------------------------------------------|-------------------------------------|----------------------------------------------------------|
-| **SyntaxError** | Incorrect syntax in the code.                                        | `if (true { console.log("Hi"); }`  | Missing parenthesis after `true` causes a syntax error.  |
-| **ReferenceError** | Accessing a variable that doesn’t exist.                          | `console.log(notDefinedVar);`       | The variable `notDefinedVar` has not been declared.      |
-| **TypeError**  | Performing an operation on a value of the wrong type.               | `null.f();`                         | Trying to call `f()` on `null` results in a type error.  |
-| **RangeError** | Using a value that is not in the allowed range.                     | `new Array(-5);`                    | Arrays cannot have a negative length, causing a range error. |
-| **URIError**   | Malformed URI passed to `encodeURI()` or `decodeURI()`.             | `decodeURI('%');`                   | `%` is not a valid URI character, causing a URI error.   |
+| Error Type         | Description                                             | Example                           | Explanation                                                  |
+| ------------------ | ------------------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| **SyntaxError**    | Incorrect syntax in the code.                           | `if (true { console.log("Hi"); }` | Missing parenthesis after `true` causes a syntax error.      |
+| **ReferenceError** | Accessing a variable that doesn’t exist.                | `console.log(notDefinedVar);`     | The variable `notDefinedVar` has not been declared.          |
+| **TypeError**      | Performing an operation on a value of the wrong type.   | `null.f();`                       | Trying to call `f()` on `null` results in a type error.      |
+| **RangeError**     | Using a value that is not in the allowed range.         | `new Array(-5);`                  | Arrays cannot have a negative length, causing a range error. |
+| **URIError**       | Malformed URI passed to `encodeURI()` or `decodeURI()`. | `decodeURI('%');`                 | `%` is not a valid URI character, causing a URI error.       |
 
 ##### Example:
 
 ```javascript
 try {
-    let x = undefinedVar; // ReferenceError
+  let x = undefinedVar; // ReferenceError
 } catch (e) {
-    console.log(e.name + ": " + e.message); // Output: ReferenceError: undefinedVar is not defined
+  console.log(e.name + ": " + e.message); // Output: ReferenceError: undefinedVar is not defined
 }
 ```
 
 **Explanation**:
+
 - The code tries to access an undefined variable, resulting in a `ReferenceError`.
 
 ---
@@ -7447,31 +7717,34 @@ try {
 JavaScript provides the `try...catch` statement to handle errors gracefully, preventing the entire script from failing when an error occurs.
 
 ##### Syntax:
+
 ```javascript
 try {
-    // Code that may throw an error
+  // Code that may throw an error
 } catch (error) {
-    // Handle the error
+  // Handle the error
 } finally {
-    // Code that runs regardless of an error
+  // Code that runs regardless of an error
 }
 ```
 
 ##### Example:
+
 ```javascript
 try {
-    let result = 10 / 0;
-    if (!isFinite(result)) {
-        throw new Error("Cannot divide by zero");
-    }
+  let result = 10 / 0;
+  if (!isFinite(result)) {
+    throw new Error("Cannot divide by zero");
+  }
 } catch (e) {
-    console.log(e.message); // Output: Cannot divide by zero
+  console.log(e.message); // Output: Cannot divide by zero
 } finally {
-    console.log("This runs regardless of the error."); // Output: This runs regardless of the error.
+  console.log("This runs regardless of the error."); // Output: This runs regardless of the error.
 }
 ```
 
 **Explanation**:
+
 - The `try` block contains code that may throw an error.
 - The `catch` block captures the error and allows you to handle it.
 - The `finally` block runs after the `try` and `catch` blocks, whether an error occurred or not.
@@ -7483,45 +7756,49 @@ try {
 JavaScript allows you to create custom error objects for more specific error handling.
 
 ##### Syntax:
+
 ```javascript
 class CustomError extends Error {
-    constructor(message) {
-        super(message);
-        this.name = this.constructor.name;
-    }
+  constructor(message) {
+    super(message);
+    this.name = this.constructor.name;
+  }
 }
 ```
 
 ##### Example:
+
 ```javascript
 class DivideByZeroError extends Error {
-    constructor(message) {
-        super(message);
-        this.name = "DivideByZeroError";
-    }
+  constructor(message) {
+    super(message);
+    this.name = "DivideByZeroError";
+  }
 }
 
 function divide(a, b) {
-    if (b === 0) {
-        throw new DivideByZeroError("You cannot divide by zero.");
-    }
-    return a / b;
+  if (b === 0) {
+    throw new DivideByZeroError("You cannot divide by zero.");
+  }
+  return a / b;
 }
 
 try {
-    divide(10, 0);
+  divide(10, 0);
 } catch (e) {
-    console.log(e.name + ": " + e.message); // Output: DivideByZeroError: You cannot divide by zero.
+  console.log(e.name + ": " + e.message); // Output: DivideByZeroError: You cannot divide by zero.
 }
 ```
 
 **Explanation**:
+
 - A custom error `DivideByZeroError` is created by extending the built-in `Error` class.
 - The custom error is thrown when an attempt to divide by zero is detected.
 
 ## JavaScript Use Strict
 
 #### Table of Contents
+
 1. [What is "use strict"?](#what-is-use-strict)
 2. [Why Use Strict Mode?](#why-use-strict-mode)
 3. [How to Enable Strict Mode](#how-to-enable-strict-mode)
@@ -7556,17 +7833,18 @@ Strict mode can be enabled in two ways:
 2. **Function-Level Strict Mode**: To apply strict mode only within a specific function, place `"use strict";` at the beginning of the function body.
 
 ##### Syntax:
+
 ```javascript
 // Global strict mode
 "use strict";
 function exampleFunction() {
-    // Function code here
+  // Function code here
 }
 
 // Function-level strict mode
 function anotherFunction() {
-    "use strict";
-    // Function code here
+  "use strict";
+  // Function code here
 }
 ```
 
@@ -7576,14 +7854,14 @@ function anotherFunction() {
 
 Strict mode introduces several changes to JavaScript behavior. Here are some examples:
 
-| Feature                  | Non-Strict Mode Behavior                                           | Strict Mode Behavior                                                    | Example |
-|--------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------|---------|
-| **Undeclared Variables**  | Assigning a value to an undeclared variable silently creates a global variable. | Throws a `ReferenceError`.                                               | `x = 10;` ➜ `ReferenceError: x is not defined` |
-| **Duplicate Parameter Names** | Allowed in function definitions.                                  | Throws a `SyntaxError`.                                                  | `function(x, x) {}` ➜ `SyntaxError` |
-| **`this` in Functions**  | Defaults to global object (`window` in browsers) in non-method functions. | `this` is `undefined` in functions not called as methods.                | `function() { return this; }` ➜ `undefined` |
-| **Deleting Variables**   | Silently fails when trying to delete undeletable properties.       | Throws a `SyntaxError` if trying to delete an undeletable property.      | `delete Object.prototype;` ➜ `SyntaxError` |
-| **Octal Literals**       | Octal numbers (e.g., `010`) are allowed.                          | Throws a `SyntaxError` for octal literals.                               | `var num = 010;` ➜ `SyntaxError` |
-| **`with` Statement**     | Permitted, but generally considered bad practice.                 | Throws a `SyntaxError`, prohibiting its use.                             | `with (obj) {}` ➜ `SyntaxError` |
+| Feature                       | Non-Strict Mode Behavior                                                        | Strict Mode Behavior                                                | Example                                        |
+| ----------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------- |
+| **Undeclared Variables**      | Assigning a value to an undeclared variable silently creates a global variable. | Throws a `ReferenceError`.                                          | `x = 10;` ➜ `ReferenceError: x is not defined` |
+| **Duplicate Parameter Names** | Allowed in function definitions.                                                | Throws a `SyntaxError`.                                             | `function(x, x) {}` ➜ `SyntaxError`            |
+| **`this` in Functions**       | Defaults to global object (`window` in browsers) in non-method functions.       | `this` is `undefined` in functions not called as methods.           | `function() { return this; }` ➜ `undefined`    |
+| **Deleting Variables**        | Silently fails when trying to delete undeletable properties.                    | Throws a `SyntaxError` if trying to delete an undeletable property. | `delete Object.prototype;` ➜ `SyntaxError`     |
+| **Octal Literals**            | Octal numbers (e.g., `010`) are allowed.                                        | Throws a `SyntaxError` for octal literals.                          | `var num = 010;` ➜ `SyntaxError`               |
+| **`with` Statement**          | Permitted, but generally considered bad practice.                               | Throws a `SyntaxError`, prohibiting its use.                        | `with (obj) {}` ➜ `SyntaxError`                |
 
 ##### Example 1: Undeclared Variable
 
@@ -7593,6 +7871,7 @@ x = 5; // ReferenceError: x is not defined
 ```
 
 **Explanation**:
+
 - In strict mode, assigning a value to `x` without declaring it first results in a `ReferenceError`.
 
 ##### Example 2: Duplicate Parameter Names
@@ -7600,11 +7879,12 @@ x = 5; // ReferenceError: x is not defined
 ```javascript
 "use strict";
 function myFunction(a, a) {
-    // SyntaxError: Duplicate parameter name not allowed in this context
+  // SyntaxError: Duplicate parameter name not allowed in this context
 }
 ```
 
 **Explanation**:
+
 - In strict mode, defining a function with duplicate parameter names throws a `SyntaxError`.
 
 ---
@@ -7622,16 +7902,17 @@ Strict mode is an excellent tool for writing safer and cleaner JavaScript code. 
 ## JavaScript this Keyword
 
 #### Table of Contents
+
 1. [What is the `this` Keyword?](#what-is-the-this-keyword)
 2. [How `this` Works in Different Contexts](#how-this-works-in-different-contexts)
-    - [Global Context](#global-context)
-    - [Function Context](#function-context)
-    - [Method Context](#method-context)
-    - [Constructor Context](#constructor-context)
-    - [Arrow Functions](#arrow-functions)
+   - [Global Context](#global-context)
+   - [Function Context](#function-context)
+   - [Method Context](#method-context)
+   - [Constructor Context](#constructor-context)
+   - [Arrow Functions](#arrow-functions)
 3. [Binding `this`](#binding-this)
-    - [Explicit Binding with `call()` and `apply()`](#explicit-binding-with-call-and-apply)
-    - [Binding with `bind()`](#binding-with-bind)
+   - [Explicit Binding with `call()` and `apply()`](#explicit-binding-with-call-and-apply)
+   - [Binding with `bind()`](#binding-with-bind)
 4. [Common Pitfalls with `this`](#common-pitfalls-with-this)
 
 ---
@@ -7650,79 +7931,86 @@ The behavior of `this` varies depending on the context in which it is used. Belo
 
 In the global context (outside of any function or object), `this` refers to the global object. In browsers, this is typically the `window` object.
 
-| Context          | Description                                           | Example                                      | Output                        |
-|------------------|-------------------------------------------------------|----------------------------------------------|--------------------------------|
-| **Global Scope** | `this` refers to the global object (`window` in browsers). | `console.log(this);`                         | `window` object                |
+| Context          | Description                                                | Example              | Output          |
+| ---------------- | ---------------------------------------------------------- | -------------------- | --------------- |
+| **Global Scope** | `this` refers to the global object (`window` in browsers). | `console.log(this);` | `window` object |
 
 ##### Example:
+
 ```javascript
 console.log(this); // Outputs: [object Window] in browsers
 ```
 
 **Explanation**:
+
 - In the global scope, `this` points to the `window` object in a browser.
 
 #### Function Context
 
 When used inside a regular function, `this` refers to the global object (in non-strict mode) or `undefined` (in strict mode).
 
-| Context          | Description                                           | Example                                      | Output                        |
-|------------------|-------------------------------------------------------|----------------------------------------------|--------------------------------|
-| **Function Scope (Non-Strict)** | `this` refers to the global object inside a function. | `function showThis() { console.log(this); } showThis();` | `window` object                |
-| **Function Scope (Strict)** | `this` is `undefined` in strict mode inside a function. | `"use strict"; function showThis() { console.log(this); } showThis();` | `undefined`                    |
+| Context                         | Description                                             | Example                                                                | Output          |
+| ------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------- | --------------- |
+| **Function Scope (Non-Strict)** | `this` refers to the global object inside a function.   | `function showThis() { console.log(this); } showThis();`               | `window` object |
+| **Function Scope (Strict)**     | `this` is `undefined` in strict mode inside a function. | `"use strict"; function showThis() { console.log(this); } showThis();` | `undefined`     |
 
 ##### Example:
+
 ```javascript
 function showThis() {
-    console.log(this); // Outputs: [object Window] in non-strict mode
+  console.log(this); // Outputs: [object Window] in non-strict mode
 }
 showThis();
 
-"use strict";
+("use strict");
 function showThisStrict() {
-    console.log(this); // Outputs: undefined in strict mode
+  console.log(this); // Outputs: undefined in strict mode
 }
 showThisStrict();
 ```
 
 **Explanation**:
+
 - In a function, `this` defaults to the global object in non-strict mode, but in strict mode, it becomes `undefined`.
 
 #### Method Context
 
 When `this` is used inside an object's method, it refers to the object itself.
 
-| Context          | Description                                           | Example                                      | Output                        |
-|------------------|-------------------------------------------------------|----------------------------------------------|--------------------------------|
-| **Method Scope** | `this` refers to the object that owns the method.      | `let obj = { prop: 10, getProp: function() { return this.prop; } }; console.log(obj.getProp());` | `10`                           |
+| Context          | Description                                       | Example                                                                                          | Output |
+| ---------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------ |
+| **Method Scope** | `this` refers to the object that owns the method. | `let obj = { prop: 10, getProp: function() { return this.prop; } }; console.log(obj.getProp());` | `10`   |
 
 ##### Example:
+
 ```javascript
 let car = {
-    brand: "Toyota",
-    getBrand: function() {
-        return this.brand;
-    }
+  brand: "Toyota",
+  getBrand: function () {
+    return this.brand;
+  },
 };
 
 console.log(car.getBrand()); // Outputs: Toyota
 ```
 
 **Explanation**:
+
 - In the `getBrand` method, `this` refers to the `car` object, so it returns the value of the `brand` property.
 
 #### Constructor Context
 
 In a constructor function or class, `this` refers to the newly created object instance.
 
-| Context          | Description                                           | Example                                      | Output                        |
-|------------------|-------------------------------------------------------|----------------------------------------------|--------------------------------|
-| **Constructor Scope** | `this` refers to the newly created object instance. | `function Person(name) { this.name = name; } let person = new Person("John"); console.log(person.name);` | `John`                         |
+| Context               | Description                                         | Example                                                                                                  | Output |
+| --------------------- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------ |
+| **Constructor Scope** | `this` refers to the newly created object instance. | `function Person(name) { this.name = name; } let person = new Person("John"); console.log(person.name);` | `John` |
 
 ##### Example:
+
 ```javascript
 function Person(name) {
-    this.name = name;
+  this.name = name;
 }
 
 let person1 = new Person("Alice");
@@ -7730,29 +8018,32 @@ console.log(person1.name); // Outputs: Alice
 ```
 
 **Explanation**:
+
 - In the `Person` constructor function, `this` refers to the new object being created, so the `name` property is assigned to the object.
 
 #### Arrow Functions
 
 In arrow functions, `this` is lexically bound, meaning it does not refer to the object that owns the method but to the context in which the arrow function was defined.
 
-| Context          | Description                                           | Example                                      | Output                        |
-|------------------|-------------------------------------------------------|----------------------------------------------|--------------------------------|
+| Context            | Description                                             | Example                                                                              | Output                       |
+| ------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------- |
 | **Arrow Function** | `this` refers to the enclosing context, not the object. | `let obj = { prop: 10, arrowFunc: () => console.log(this.prop); }; obj.arrowFunc();` | `undefined` (in strict mode) |
 
 ##### Example:
+
 ```javascript
 let obj = {
-    value: 42,
-    arrowFunc: () => {
-        console.log(this.value);
-    }
+  value: 42,
+  arrowFunc: () => {
+    console.log(this.value);
+  },
 };
 
 obj.arrowFunc(); // Outputs: undefined (in strict mode) because `this` refers to the global object
 ```
 
 **Explanation**:
+
 - In the arrow function `arrowFunc`, `this` refers to the surrounding lexical context, not the `obj` object.
 
 ---
@@ -7765,39 +8056,42 @@ JavaScript provides ways to manually set the value of `this` using `call()`, `ap
 
 The `call()` and `apply()` methods allow you to call a function with a specific `this` value.
 
-| Method         | Description                                           | Example                                      | Output                        |
-|----------------|-------------------------------------------------------|----------------------------------------------|--------------------------------|
-| **`call()`**   | Calls a function with a specified `this` value and arguments. | `function showName() { console.log(this.name); } let obj = { name: "Alice" }; showName.call(obj);` | `Alice`                        |
-| **`apply()`**  | Calls a function with a specified `this` value and arguments as an array. | `function sum(a, b) { return a + b; } let obj = { a: 1, b: 2 }; console.log(sum.apply(obj, [1, 2]));` | `3`                            |
+| Method        | Description                                                               | Example                                                                                               | Output  |
+| ------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------- |
+| **`call()`**  | Calls a function with a specified `this` value and arguments.             | `function showName() { console.log(this.name); } let obj = { name: "Alice" }; showName.call(obj);`    | `Alice` |
+| **`apply()`** | Calls a function with a specified `this` value and arguments as an array. | `function sum(a, b) { return a + b; } let obj = { a: 1, b: 2 }; console.log(sum.apply(obj, [1, 2]));` | `3`     |
 
 ##### Example:
+
 ```javascript
 function greet() {
-    console.log("Hello, " + this.name);
+  console.log("Hello, " + this.name);
 }
 
 let person = {
-    name: "Bob"
+  name: "Bob",
 };
 
 greet.call(person); // Outputs: Hello, Bob
 ```
 
 **Explanation**:
+
 - The `call()` method sets `this` to refer to the `person` object, so the `greet` function outputs "Hello, Bob".
 
 #### Binding with `bind()`
 
 The `bind()` method creates a new function that, when called, has its `this` value set to the provided value.
 
-| Method         | Description                                           | Example                                      | Output                        |
-|----------------|-------------------------------------------------------|----------------------------------------------|--------------------------------|
-| **`bind()`**   | Returns a new function with a specified `this` value. | `let boundFunc = greet.bind(person); boundFunc();` | `Hello, Bob`                   |
+| Method       | Description                                           | Example                                            | Output       |
+| ------------ | ----------------------------------------------------- | -------------------------------------------------- | ------------ |
+| **`bind()`** | Returns a new function with a specified `this` value. | `let boundFunc = greet.bind(person); boundFunc();` | `Hello, Bob` |
 
 ##### Example:
+
 ```javascript
 let person2 = {
-    name: "Charlie"
+  name: "Charlie",
 };
 
 let greetPerson = greet.bind(person2);
@@ -7805,6 +8099,7 @@ greetPerson(); // Outputs: Hello, Charlie
 ```
 
 **Explanation**:
+
 - The `bind()` method creates a new function `greetPerson` with `this` permanently set to `person2`.
 
 ---
@@ -7817,27 +8112,28 @@ greetPerson(); // Outputs: Hello, Charlie
 
 Understanding the `this` keyword and how it behaves in different contexts is key to avoiding these pitfalls and writing effective JavaScript code.
 
-## JavaScript Arrow Function 
+## JavaScript Arrow Function
 
 #### Table of Contents
+
 1. [What are Arrow Functions?](#what-are-arrow-functions)
 2. [Syntax of Arrow Functions](#syntax-of-arrow-functions)
-    - [Basic Syntax](#basic-syntax)
-    - [Returning Values](#returning-values)
-    - [Implicit Return](#implicit-return)
+   - [Basic Syntax](#basic-syntax)
+   - [Returning Values](#returning-values)
+   - [Implicit Return](#implicit-return)
 3. [Differences Between Arrow Functions and Regular Functions](#differences-between-arrow-functions-and-regular-functions)
-    - [No `this` Binding](#no-this-binding)
-    - [No `arguments` Object](#no-arguments-object)
-    - [Cannot be Used as Constructors](#cannot-be-used-as-constructors)
-    - [No `prototype`](#no-prototype)
+   - [No `this` Binding](#no-this-binding)
+   - [No `arguments` Object](#no-arguments-object)
+   - [Cannot be Used as Constructors](#cannot-be-used-as-constructors)
+   - [No `prototype`](#no-prototype)
 4. [Examples of Arrow Functions](#examples-of-arrow-functions)
-    - [Example 1: Simplifying Function Expressions](#example-1-simplifying-function-expressions)
-    - [Example 2: Using `this` in Arrow Functions](#example-2-using-this-in-arrow-functions)
-    - [Example 3: No `arguments` Object](#example-3-no-arguments-object)
+   - [Example 1: Simplifying Function Expressions](#example-1-simplifying-function-expressions)
+   - [Example 2: Using `this` in Arrow Functions](#example-2-using-this-in-arrow-functions)
+   - [Example 3: No `arguments` Object](#example-3-no-arguments-object)
 5. [Common Use Cases for Arrow Functions](#common-use-cases-for-arrow-functions)
-    - [Short Functions](#short-functions)
-    - [Array Methods](#array-methods)
-    - [Event Handlers](#event-handlers)
+   - [Short Functions](#short-functions)
+   - [Array Methods](#array-methods)
+   - [Event Handlers](#event-handlers)
 
 ---
 
@@ -7849,7 +8145,7 @@ Arrow functions are a concise way to write functions in JavaScript, introduced i
 
 ### Syntax of Arrow Functions
 
-Arrow functions have a streamlined syntax that eliminates the need for the `function` keyword. 
+Arrow functions have a streamlined syntax that eliminates the need for the `function` keyword.
 
 #### Basic Syntax
 
@@ -7864,9 +8160,9 @@ The basic syntax of an arrow function looks like this:
 If the function takes a single parameter, the parentheses can be omitted:
 
 ```javascript
-parameter => {
-    // function body
-}
+(parameter) => {
+  // function body
+};
 ```
 
 #### Returning Values
@@ -7875,8 +8171,8 @@ Arrow functions can return values explicitly using the `return` keyword, just li
 
 ```javascript
 (a, b) => {
-    return a + b;
-}
+  return a + b;
+};
 ```
 
 #### Implicit Return
@@ -7897,62 +8193,65 @@ Arrow functions differ from regular functions in several key ways:
 
 Arrow functions do not have their own `this` context. Instead, they inherit `this` from the surrounding lexical context, meaning `this` is determined by the scope in which the arrow function is defined.
 
-| Feature          | Regular Function Behavior | Arrow Function Behavior                        |
-|------------------|---------------------------|------------------------------------------------|
+| Feature            | Regular Function Behavior                                   | Arrow Function Behavior                                        |
+| ------------------ | ----------------------------------------------------------- | -------------------------------------------------------------- |
 | **`this` Binding** | `this` is dynamic, depending on how the function is called. | `this` is lexically bound, inherited from the enclosing scope. |
 
 ##### Example:
+
 ```javascript
 function regularFunc() {
-    console.log(this);
+  console.log(this);
 }
 
 let arrowFunc = () => {
-    console.log(this);
+  console.log(this);
 };
 
 regularFunc(); // `this` depends on how the function is called
-arrowFunc();   // `this` refers to the enclosing scope
+arrowFunc(); // `this` refers to the enclosing scope
 ```
 
 #### No `arguments` Object
 
 Arrow functions do not have their own `arguments` object. If you need to access the arguments, you'll need to use the `arguments` object from the enclosing scope or use rest parameters.
 
-| Feature           | Regular Function Behavior                            | Arrow Function Behavior                        |
-|-------------------|------------------------------------------------------|------------------------------------------------|
+| Feature                | Regular Function Behavior                                      | Arrow Function Behavior                               |
+| ---------------------- | -------------------------------------------------------------- | ----------------------------------------------------- |
 | **`arguments` Object** | `arguments` object available, containing all passed arguments. | No `arguments` object; use rest parameters if needed. |
 
 ##### Example:
+
 ```javascript
 function regularFunc() {
-    console.log(arguments);
+  console.log(arguments);
 }
 
 let arrowFunc = () => {
-    console.log(arguments);
+  console.log(arguments);
 };
 
 regularFunc(1, 2, 3); // Outputs: [1, 2, 3]
-arrowFunc(1, 2, 3);   // Outputs: ReferenceError: arguments is not defined
+arrowFunc(1, 2, 3); // Outputs: ReferenceError: arguments is not defined
 ```
 
 #### Cannot be Used as Constructors
 
 Arrow functions cannot be used with the `new` keyword and do not have a `prototype` property. This means they are not suitable for creating constructor functions.
 
-| Feature           | Regular Function Behavior                            | Arrow Function Behavior                        |
-|-------------------|------------------------------------------------------|------------------------------------------------|
+| Feature             | Regular Function Behavior                           | Arrow Function Behavior                          |
+| ------------------- | --------------------------------------------------- | ------------------------------------------------ |
 | **Constructor Use** | Can be used as constructors with the `new` keyword. | Cannot be used as constructors; throws an error. |
 
 ##### Example:
+
 ```javascript
 function Person(name) {
-    this.name = name;
+  this.name = name;
 }
 
 let ArrowPerson = (name) => {
-    this.name = name;
+  this.name = name;
 };
 
 let person1 = new Person("Alice"); // Works fine
@@ -7970,14 +8269,14 @@ Arrow functions are great for simplifying short function expressions, such as ca
 ```javascript
 // Regular function
 let numbers = [1, 2, 3];
-let squares = numbers.map(function(n) {
-    return n * n;
+let squares = numbers.map(function (n) {
+  return n * n;
 });
 
 // Arrow function
-let squaresArrow = numbers.map(n => n * n);
+let squaresArrow = numbers.map((n) => n * n);
 
-console.log(squares);      // Outputs: [1, 4, 9]
+console.log(squares); // Outputs: [1, 4, 9]
 console.log(squaresArrow); // Outputs: [1, 4, 9]
 ```
 
@@ -7987,18 +8286,19 @@ Arrow functions are useful when you want to retain the `this` context from the e
 
 ```javascript
 let person = {
-    name: "Alice",
-    greet: function() {
-        setTimeout(() => {
-            console.log("Hello, " + this.name);
-        }, 1000);
-    }
+  name: "Alice",
+  greet: function () {
+    setTimeout(() => {
+      console.log("Hello, " + this.name);
+    }, 1000);
+  },
 };
 
 person.greet(); // Outputs: Hello, Alice
 ```
 
 **Explanation**:
+
 - The arrow function inside `setTimeout` inherits `this` from the `greet` method's scope, which refers to the `person` object.
 
 #### Example 3: No `arguments` Object
@@ -8007,13 +8307,14 @@ Arrow functions do not have an `arguments` object, so you cannot directly access
 
 ```javascript
 let sum = (...args) => {
-    return args.reduce((acc, curr) => acc + curr, 0);
+  return args.reduce((acc, curr) => acc + curr, 0);
 };
 
 console.log(sum(1, 2, 3, 4)); // Outputs: 10
 ```
 
 **Explanation**:
+
 - Rest parameters (`...args`) are used to capture all arguments passed to the `sum` function, allowing the function to work like a traditional function with an `arguments` object.
 
 ---
@@ -8025,7 +8326,7 @@ console.log(sum(1, 2, 3, 4)); // Outputs: 10
 Arrow functions are ideal for short, single-line functions or when you want to write concise code.
 
 ```javascript
-let isEven = num => num % 2 === 0;
+let isEven = (num) => num % 2 === 0;
 console.log(isEven(4)); // Outputs: true
 ```
 
@@ -8035,7 +8336,7 @@ Arrow functions are frequently used with array methods like `map()`, `filter()`,
 
 ```javascript
 let nums = [1, 2, 3, 4, 5];
-let evens = nums.filter(n => n % 2 === 0);
+let evens = nums.filter((n) => n % 2 === 0);
 console.log(evens); // Outputs: [2, 4]
 ```
 
@@ -8045,7 +8346,7 @@ Arrow functions can be used as event handlers, but be cautious as `this` will no
 
 ```javascript
 document.getElementById("btn").addEventListener("click", () => {
-    console.log(this); // `this` refers to the enclosing scope, not the button
+  console.log(this); // `this` refers to the enclosing scope, not the button
 });
 ```
 
@@ -8064,6 +8365,7 @@ Arrow functions simplify the syntax for writing functions and provide a convenie
 ## JavaScript Classes
 
 #### Table of Contents
+
 1. [What are JavaScript Classes?](#what-are-javascript-classes)
 2. [Defining a Class](#defining-a-class)
 3. [Class Methods](#class-methods)
@@ -8087,14 +8389,14 @@ A class is defined using the `class` keyword, followed by the class name and a b
 
 ```javascript
 class Car {
-    constructor(brand, model) {
-        this.brand = brand;
-        this.model = model;
-    }
+  constructor(brand, model) {
+    this.brand = brand;
+    this.model = model;
+  }
 
-    display() {
-        console.log(`${this.brand} ${this.model}`);
-    }
+  display() {
+    console.log(`${this.brand} ${this.model}`);
+  }
 }
 ```
 
@@ -8104,14 +8406,14 @@ Methods in a class are defined without the `function` keyword. These methods are
 
 ```javascript
 class Car {
-    constructor(brand, model) {
-        this.brand = brand;
-        this.model = model;
-    }
+  constructor(brand, model) {
+    this.brand = brand;
+    this.model = model;
+  }
 
-    display() {
-        console.log(`${this.brand} ${this.model}`);
-    }
+  display() {
+    console.log(`${this.brand} ${this.model}`);
+  }
 }
 
 let myCar = new Car("Toyota", "Corolla");
@@ -8124,10 +8426,10 @@ The `constructor` method is a special method for creating and initializing an ob
 
 ```javascript
 class Car {
-    constructor(brand, model) {
-        this.brand = brand;
-        this.model = model;
-    }
+  constructor(brand, model) {
+    this.brand = brand;
+    this.model = model;
+  }
 }
 ```
 
@@ -8145,9 +8447,9 @@ Static methods are defined using the `static` keyword and are called on the clas
 
 ```javascript
 class Car {
-    static honk() {
-        console.log("Beep beep!");
-    }
+  static honk() {
+    console.log("Beep beep!");
+  }
 }
 
 Car.honk(); // Outputs: Beep beep!
@@ -8159,14 +8461,16 @@ Inheritance allows one class to extend another, inheriting all of its properties
 
 ```javascript
 class ElectricCar extends Car {
-    constructor(brand, model, batteryCapacity) {
-        super(brand, model);
-        this.batteryCapacity = batteryCapacity;
-    }
+  constructor(brand, model, batteryCapacity) {
+    super(brand, model);
+    this.batteryCapacity = batteryCapacity;
+  }
 
-    display() {
-        console.log(`${this.brand} ${this.model} with a battery capacity of ${this.batteryCapacity}`);
-    }
+  display() {
+    console.log(
+      `${this.brand} ${this.model} with a battery capacity of ${this.batteryCapacity}`
+    );
+  }
 }
 
 let myTesla = new ElectricCar("Tesla", "Model 3", "75 kWh");
@@ -8179,18 +8483,18 @@ Getters and setters allow you to define methods that get and set the values of a
 
 ```javascript
 class Car {
-    constructor(brand, model) {
-        this._brand = brand;
-        this._model = model;
-    }
+  constructor(brand, model) {
+    this._brand = brand;
+    this._model = model;
+  }
 
-    get brand() {
-        return this._brand;
-    }
+  get brand() {
+    return this._brand;
+  }
 
-    set brand(newBrand) {
-        this._brand = newBrand;
-    }
+  set brand(newBrand) {
+    this._brand = newBrand;
+  }
 }
 
 let myCar = new Car("Toyota", "Corolla");
@@ -8205,15 +8509,15 @@ Private fields and methods are declared using the `#` syntax and are not accessi
 
 ```javascript
 class Car {
-    #brand;
-    constructor(brand, model) {
-        this.#brand = brand;
-        this.model = model;
-    }
+  #brand;
+  constructor(brand, model) {
+    this.#brand = brand;
+    this.model = model;
+  }
 
-    #displayBrand() {
-        console.log(this.#brand);
-    }
+  #displayBrand() {
+    console.log(this.#brand);
+  }
 }
 
 let myCar = new Car("Toyota", "Corolla");
@@ -8225,19 +8529,20 @@ let myCar = new Car("Toyota", "Corolla");
 
 ### Class Method Table
 
-| Method Type       | Syntax                                     | Description                                                | Example                          |
-|-------------------|--------------------------------------------|------------------------------------------------------------|----------------------------------|
-| **Constructor**   | `constructor(parameters) { ... }`          | Initializes a new instance of the class.                   | `constructor(brand, model) { }` |
-| **Instance Method** | `methodName(parameters) { ... }`         | Defines a method available on all instances of the class.  | `display() { }`                 |
-| **Static Method** | `static methodName(parameters) { ... }`    | Defines a method on the class itself, not on instances.    | `static honk() { }`             |
-| **Getter**        | `get propertyName() { ... }`               | Defines a getter for accessing a property.                 | `get brand() { }`               |
-| **Setter**        | `set propertyName(value) { ... }`          | Defines a setter for updating a property.                  | `set brand(newBrand) { }`       |
-| **Private Field** | `#fieldName`                               | Declares a private field within the class.                 | `#brand;`                       |
-| **Private Method**| `#methodName(parameters) { ... }`          | Declares a private method within the class.                | `#displayBrand() { }`           |
+| Method Type         | Syntax                                  | Description                                               | Example                         |
+| ------------------- | --------------------------------------- | --------------------------------------------------------- | ------------------------------- |
+| **Constructor**     | `constructor(parameters) { ... }`       | Initializes a new instance of the class.                  | `constructor(brand, model) { }` |
+| **Instance Method** | `methodName(parameters) { ... }`        | Defines a method available on all instances of the class. | `display() { }`                 |
+| **Static Method**   | `static methodName(parameters) { ... }` | Defines a method on the class itself, not on instances.   | `static honk() { }`             |
+| **Getter**          | `get propertyName() { ... }`            | Defines a getter for accessing a property.                | `get brand() { }`               |
+| **Setter**          | `set propertyName(value) { ... }`       | Defines a setter for updating a property.                 | `set brand(newBrand) { }`       |
+| **Private Field**   | `#fieldName`                            | Declares a private field within the class.                | `#brand;`                       |
+| **Private Method**  | `#methodName(parameters) { ... }`       | Declares a private method within the class.               | `#displayBrand() { }`           |
 
 ## JavaScript JSON
 
 #### Table of Contents
+
 1. [What is JSON?](#what-is-json)
 2. [JSON Syntax](#json-syntax)
 3. [Converting JSON to JavaScript Object](#converting-json-to-javascript-object)
@@ -8357,10 +8662,10 @@ let jsonString = JSON.stringify(jsObject);
 
 ### JSON Method Table
 
-| Method            | Description                                       | Example Code                                                   | Output/Result                                       |
-|-------------------|---------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------|
-| **JSON.parse()**  | Converts JSON string to JavaScript object.        | `JSON.parse('{"name":"John"}')`                                | `{ name: "John" }`                                  |
-| **JSON.stringify()** | Converts JavaScript object to JSON string.     | `JSON.stringify({ name: "John" })`                             | `'{"name":"John"}'`                                 |
+| Method               | Description                                | Example Code                       | Output/Result       |
+| -------------------- | ------------------------------------------ | ---------------------------------- | ------------------- |
+| **JSON.parse()**     | Converts JSON string to JavaScript object. | `JSON.parse('{"name":"John"}')`    | `{ name: "John" }`  |
+| **JSON.stringify()** | Converts JavaScript object to JSON string. | `JSON.stringify({ name: "John" })` | `'{"name":"John"}'` |
 
 ---
 
@@ -8370,13 +8675,13 @@ let jsonString = JSON.stringify(jsObject);
 
 ```javascript
 let user = {
-    name: "Alice",
-    age: 25,
-    hobbies: ["reading", "gaming"],
-    address: {
-        city: "Los Angeles",
-        state: "CA"
-    }
+  name: "Alice",
+  age: 25,
+  hobbies: ["reading", "gaming"],
+  address: {
+    city: "Los Angeles",
+    state: "CA",
+  },
 };
 
 let jsonString = JSON.stringify(user);
@@ -8393,20 +8698,20 @@ When sending data to a server via an API, you typically convert your data to JSO
 
 ```javascript
 let userData = {
-    name: "Bob",
-    age: 28
+  name: "Bob",
+  age: 28,
 };
 
 fetch("https://example.com/api/user", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json"
-    },
-    body: JSON.stringify(userData)
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(userData),
 })
-.then(response => response.json())
-.then(data => console.log(data))
-.catch(error => console.error("Error:", error));
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.error("Error:", error));
 ```
 
 In this example, `userData` is converted to a JSON string before being sent to the server.
@@ -8418,6 +8723,7 @@ JSON is an essential part of working with data in JavaScript, especially in web 
 ## JavaScript Debugging
 
 #### Table of Contents
+
 1. [What is JavaScript Debugging?](#what-is-javascript-debugging)
 2. [Common Debugging Techniques](#common-debugging-techniques)
    - [Using `console.log()`](#using-consolelog)
@@ -8458,8 +8764,8 @@ The `debugger` keyword is another powerful tool for debugging. When the browser 
 
 ```javascript
 function calculateSum(a, b) {
-    debugger; // The execution will pause here
-    return a + b;
+  debugger; // The execution will pause here
+  return a + b;
 }
 
 let result = calculateSum(5, 10);
@@ -8481,6 +8787,7 @@ Modern browsers like Chrome, Firefox, and Edge offer robust developer tools for 
 Breakpoints allow you to pause the execution of your code at a specific line, enabling you to inspect the current state of your variables and step through your code one line at a time.
 
 #### How to Set Breakpoints:
+
 1. Open your browser's developer tools.
 2. Go to the "Sources" tab (or "Debugger" in Firefox).
 3. Navigate to the desired script file.
@@ -8493,6 +8800,7 @@ Breakpoints allow you to pause the execution of your code at a specific line, en
 Watching variables allows you to monitor the value of specific variables as your code executes. You can add variables to the "Watch" list in your developer tools, and their values will update in real-time as you step through your code.
 
 #### How to Watch Variables:
+
 1. Set a breakpoint in your code.
 2. Open the "Watch" section in the developer tools.
 3. Add variables to the watch list to monitor their values.
@@ -8505,10 +8813,10 @@ Handling exceptions is crucial to prevent your code from crashing unexpectedly. 
 
 ```javascript
 try {
-    let result = riskyOperation();
-    console.log(result);
+  let result = riskyOperation();
+  console.log(result);
 } catch (error) {
-    console.error("An error occurred:", error.message);
+  console.error("An error occurred:", error.message);
 }
 ```
 
@@ -8525,13 +8833,13 @@ try {
 
 ### JavaScript Debugging Tool Table
 
-| Debugging Tool/Technique | Description                                           | Example Code/Usage                                    | Output/Result                                             |
-|--------------------------|-------------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------|
-| **`console.log()`**       | Outputs variable values or messages to the console.   | `console.log("Value:", x);`                            | `Value: 5`                                                |
-| **`debugger`**            | Pauses code execution at the point where it's placed. | `debugger;`                                            | Execution pauses, allowing for inspection.                |
-| **Breakpoints**           | Stops execution at a specific line in your code.      | Set via Developer Tools                                | Execution pauses at the set line, allowing step-by-step execution. |
-| **Watch Variables**       | Monitors the value of specific variables.             | Add in Developer Tools                                 | Real-time updates of variable values during execution.    |
-| **`try...catch`**         | Handles exceptions to prevent crashes.                | `try { /* code */ } catch (error) { /* handle error */ }` | Catches and handles errors gracefully.                     |
+| Debugging Tool/Technique | Description                                           | Example Code/Usage                                        | Output/Result                                                      |
+| ------------------------ | ----------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------ |
+| **`console.log()`**      | Outputs variable values or messages to the console.   | `console.log("Value:", x);`                               | `Value: 5`                                                         |
+| **`debugger`**           | Pauses code execution at the point where it's placed. | `debugger;`                                               | Execution pauses, allowing for inspection.                         |
+| **Breakpoints**          | Stops execution at a specific line in your code.      | Set via Developer Tools                                   | Execution pauses at the set line, allowing step-by-step execution. |
+| **Watch Variables**      | Monitors the value of specific variables.             | Add in Developer Tools                                    | Real-time updates of variable values during execution.             |
+| **`try...catch`**        | Handles exceptions to prevent crashes.                | `try { /* code */ } catch (error) { /* handle error */ }` | Catches and handles errors gracefully.                             |
 
 ---
 
@@ -8541,10 +8849,10 @@ try {
 
 ```javascript
 function multiply(a, b) {
-    console.log("a:", a, "b:", b); // Checking inputs
-    let result = a * b;
-    console.log("Result:", result); // Checking output
-    return result;
+  console.log("a:", a, "b:", b); // Checking inputs
+  let result = a * b;
+  console.log("Result:", result); // Checking output
+  return result;
 }
 
 multiply(5, "2"); // Outputs: a: 5 b: 2, Result: 10
@@ -8556,8 +8864,8 @@ In this example, `console.log()` is used to verify that the function receives th
 
 ```javascript
 function divide(a, b) {
-    debugger; // Execution will pause here
-    return a / b;
+  debugger; // Execution will pause here
+  return a / b;
 }
 
 let result = divide(10, 2);
@@ -8569,9 +8877,6 @@ Here, the `debugger` keyword is used to pause execution before the division oper
 ---
 
 Debugging is an essential skill for any JavaScript developer. By mastering tools like `console.log()`, breakpoints, and browser developer tools, you can efficiently find and fix errors in your code, leading to more robust and reliable applications.
-
-
-
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
@@ -8586,10 +8891,10 @@ Debugging is an essential skill for any JavaScript developer. By mastering tools
 - [JavaScript Object Accessors](#javascript-object-accessors)
 - [JavaScript Object Protection](#javascript-object-protection)
 
-
 ## JavaScript Object Definition
 
 #### Table of Contents
+
 1. [What is a JavaScript Object?](#what-is-a-javascript-object)
 2. [Creating JavaScript Objects](#creating-javascript-objects)
    - [Object Literals](#object-literals)
@@ -8621,9 +8926,9 @@ The most straightforward way to create an object in JavaScript is by using objec
 
 ```javascript
 let car = {
-    brand: "Toyota",
-    model: "Corolla",
-    year: 2021
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2021,
 };
 ```
 
@@ -8644,9 +8949,9 @@ You can define a custom constructor function to create objects with a specific s
 
 ```javascript
 function Car(brand, model, year) {
-    this.brand = brand;
-    this.model = model;
-    this.year = year;
+  this.brand = brand;
+  this.model = model;
+  this.year = year;
 }
 
 let myCar = new Car("Toyota", "Corolla", 2021);
@@ -8664,9 +8969,9 @@ Dot notation is the most common way to access properties. It involves using a pe
 
 ```javascript
 let car = {
-    brand: "Toyota",
-    model: "Corolla",
-    year: 2021
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2021,
 };
 
 console.log(car.brand); // Outputs: Toyota
@@ -8678,9 +8983,9 @@ Bracket notation is useful when the property name is dynamic or not a valid Java
 
 ```javascript
 let car = {
-    "car brand": "Toyota",
-    model: "Corolla",
-    year: 2021
+  "car brand": "Toyota",
+  model: "Corolla",
+  year: 2021,
 };
 
 console.log(car["car brand"]); // Outputs: Toyota
@@ -8694,8 +8999,8 @@ You can add new properties, modify existing ones, or delete properties from an o
 
 ```javascript
 let car = {
-    brand: "Toyota",
-    model: "Corolla"
+  brand: "Toyota",
+  model: "Corolla",
 };
 
 // Adding a new property
@@ -8718,12 +9023,12 @@ JavaScript objects can have methods, which are functions stored as properties wi
 
 ```javascript
 let car = {
-    brand: "Toyota",
-    model: "Corolla",
-    year: 2021,
-    displayInfo: function() {
-        console.log(this.brand + " " + this.model + " (" + this.year + ")");
-    }
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2021,
+  displayInfo: function () {
+    console.log(this.brand + " " + this.model + " (" + this.year + ")");
+  },
 };
 
 car.displayInfo(); // Outputs: Toyota Corolla (2021)
@@ -8733,14 +9038,14 @@ car.displayInfo(); // Outputs: Toyota Corolla (2021)
 
 ### JavaScript Object Method Table
 
-| Method                | Description                                            | Example Code                                                  | Output/Result                                       |
-|-----------------------|--------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------|
-| **`Object.assign()`** | Copies properties from one or more source objects to a target object. | `Object.assign(target, source);`                               | Combines properties of source into target.          |
-| **`Object.keys()`**   | Returns an array of a given object's own property names. | `Object.keys(car);`                                            | `["brand", "model", "year"]`                        |
-| **`Object.values()`** | Returns an array of a given object's own property values. | `Object.values(car);`                                          | `["Toyota", "Corolla", 2021]`                       |
-| **`Object.entries()`**| Returns an array of a given object's own key-value pairs. | `Object.entries(car);`                                         | `[["brand", "Toyota"], ["model", "Corolla"], ["year", 2021]]` |
-| **`Object.freeze()`** | Freezes an object, preventing new properties from being added or existing properties from being modified or deleted. | `Object.freeze(car);`                                          | The `car` object is now immutable.                  |
-| **`Object.seal()`**   | Seals an object, preventing new properties from being added, but allowing modification of existing properties. | `Object.seal(car);`                                            | New properties can't be added, but existing ones can be modified. |
+| Method                 | Description                                                                                                          | Example Code                     | Output/Result                                                     |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------- | ----------------------------------------------------------------- |
+| **`Object.assign()`**  | Copies properties from one or more source objects to a target object.                                                | `Object.assign(target, source);` | Combines properties of source into target.                        |
+| **`Object.keys()`**    | Returns an array of a given object's own property names.                                                             | `Object.keys(car);`              | `["brand", "model", "year"]`                                      |
+| **`Object.values()`**  | Returns an array of a given object's own property values.                                                            | `Object.values(car);`            | `["Toyota", "Corolla", 2021]`                                     |
+| **`Object.entries()`** | Returns an array of a given object's own key-value pairs.                                                            | `Object.entries(car);`           | `[["brand", "Toyota"], ["model", "Corolla"], ["year", 2021]]`     |
+| **`Object.freeze()`**  | Freezes an object, preventing new properties from being added or existing properties from being modified or deleted. | `Object.freeze(car);`            | The `car` object is now immutable.                                |
+| **`Object.seal()`**    | Seals an object, preventing new properties from being added, but allowing modification of existing properties.       | `Object.seal(car);`              | New properties can't be added, but existing ones can be modified. |
 
 ---
 
@@ -8750,12 +9055,12 @@ car.displayInfo(); // Outputs: Toyota Corolla (2021)
 
 ```javascript
 let person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 25,
-    greet: function() {
-        console.log("Hello, my name is " + this.firstName + " " + this.lastName);
-    }
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+  greet: function () {
+    console.log("Hello, my name is " + this.firstName + " " + this.lastName);
+  },
 };
 
 person.greet(); // Outputs: Hello, my name is John Doe
@@ -8765,13 +9070,13 @@ person.greet(); // Outputs: Hello, my name is John Doe
 
 ```javascript
 let person = {
-    firstName: "John",
-    lastName: "Doe",
-    birthYear: 1995,
-    calculateAge: function() {
-        let currentYear = new Date().getFullYear();
-        return currentYear - this.birthYear;
-    }
+  firstName: "John",
+  lastName: "Doe",
+  birthYear: 1995,
+  calculateAge: function () {
+    let currentYear = new Date().getFullYear();
+    return currentYear - this.birthYear;
+  },
 };
 
 console.log(person.calculateAge()); // Outputs the current age based on birthYear
@@ -8779,10 +9084,10 @@ console.log(person.calculateAge()); // Outputs the current age based on birthYea
 
 JavaScript objects are versatile and powerful, enabling developers to structure and manipulate data efficiently. Understanding the fundamentals of objects, including creation, property management, and method utilization, is crucial for mastering JavaScript.
 
-
 ## JavaScript Object Prototypes
 
 #### Table of Contents
+
 1. [What is a JavaScript Prototype?](#what-is-a-javascript-prototype)
 2. [Prototype Chain](#prototype-chain)
 3. [Understanding `__proto__` and `prototype`](#understanding-__proto__-and-prototype)
@@ -8809,7 +9114,7 @@ When you attempt to access a property or method on an object, JavaScript first c
 
 ```javascript
 let car = {
-    brand: "Toyota"
+  brand: "Toyota",
 };
 
 console.log(car.toString()); // Outputs: [object Object]
@@ -8827,8 +9132,8 @@ In the example above, the `toString` method isn't directly defined in the `car` 
 
 ```javascript
 function Car(brand, model) {
-    this.brand = brand;
-    this.model = model;
+  this.brand = brand;
+  this.model = model;
 }
 
 let myCar = new Car("Toyota", "Corolla");
@@ -8844,13 +9149,13 @@ You can add properties and methods to an object's prototype even after the objec
 
 ```javascript
 function Car(brand, model) {
-    this.brand = brand;
-    this.model = model;
+  this.brand = brand;
+  this.model = model;
 }
 
 // Adding a method to the prototype
-Car.prototype.displayInfo = function() {
-    console.log(this.brand + " " + this.model);
+Car.prototype.displayInfo = function () {
+  console.log(this.brand + " " + this.model);
 };
 
 let myCar = new Car("Toyota", "Corolla");
@@ -8865,17 +9170,17 @@ JavaScript objects can inherit properties and methods from other objects through
 
 ```javascript
 function Vehicle(type) {
-    this.type = type;
+  this.type = type;
 }
 
-Vehicle.prototype.start = function() {
-    console.log("Starting the " + this.type);
+Vehicle.prototype.start = function () {
+  console.log("Starting the " + this.type);
 };
 
 function Car(brand, model) {
-    Vehicle.call(this, "car");
-    this.brand = brand;
-    this.model = model;
+  Vehicle.call(this, "car");
+  this.brand = brand;
+  this.model = model;
 }
 
 Car.prototype = Object.create(Vehicle.prototype);
@@ -8891,13 +9196,13 @@ In this example, the `Car` object inherits the `start` method from the `Vehicle`
 
 ### JavaScript Prototype Method Table
 
-| Method                | Description                                            | Example Code                                                  | Output/Result                                       |
-|-----------------------|--------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------|
-| **`Object.getPrototypeOf()`** | Returns the prototype of the specified object. | `Object.getPrototypeOf(myCar);`                                | Returns the prototype object of `myCar`.            |
-| **`Object.setPrototypeOf()`** | Sets the prototype (i.e., `__proto__`) of a specified object to another object or null. | `Object.setPrototypeOf(obj, prototypeObj);`                    | Changes the prototype of `obj`.                     |
-| **`Object.create()`** | Creates a new object with the specified prototype object and properties. | `Object.create(proto, props);`                                  | Creates a new object that inherits from `proto`.    |
-| **`hasOwnProperty()`** | Returns a boolean indicating whether the object has the specified property as its own property (not inherited). | `obj.hasOwnProperty('prop');`                                  | `true` if `obj` has `prop` as its own property.     |
-| **`isPrototypeOf()`**  | Checks if an object exists in another object's prototype chain. | `prototypeObj.isPrototypeOf(obj);`                             | `true` if `prototypeObj` is in `obj`'s prototype chain. |
+| Method                        | Description                                                                                                     | Example Code                                | Output/Result                                           |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------- |
+| **`Object.getPrototypeOf()`** | Returns the prototype of the specified object.                                                                  | `Object.getPrototypeOf(myCar);`             | Returns the prototype object of `myCar`.                |
+| **`Object.setPrototypeOf()`** | Sets the prototype (i.e., `__proto__`) of a specified object to another object or null.                         | `Object.setPrototypeOf(obj, prototypeObj);` | Changes the prototype of `obj`.                         |
+| **`Object.create()`**         | Creates a new object with the specified prototype object and properties.                                        | `Object.create(proto, props);`              | Creates a new object that inherits from `proto`.        |
+| **`hasOwnProperty()`**        | Returns a boolean indicating whether the object has the specified property as its own property (not inherited). | `obj.hasOwnProperty('prop');`               | `true` if `obj` has `prop` as its own property.         |
+| **`isPrototypeOf()`**         | Checks if an object exists in another object's prototype chain.                                                 | `prototypeObj.isPrototypeOf(obj);`          | `true` if `prototypeObj` is in `obj`'s prototype chain. |
 
 ---
 
@@ -8907,12 +9212,12 @@ In this example, the `Car` object inherits the `start` method from the `Vehicle`
 
 ```javascript
 function Person(name, age) {
-    this.name = name;
-    this.age = age;
+  this.name = name;
+  this.age = age;
 }
 
-Person.prototype.greet = function() {
-    console.log("Hello, my name is " + this.name);
+Person.prototype.greet = function () {
+  console.log("Hello, my name is " + this.name);
 };
 
 let john = new Person("John", 30);
@@ -8923,19 +9228,19 @@ john.greet(); // Outputs: Hello, my name is John
 
 ```javascript
 function Animal(species) {
-    this.species = species;
+  this.species = species;
 }
 
-Animal.prototype.speak = function() {
-    console.log(this.species + " makes a sound");
+Animal.prototype.speak = function () {
+  console.log(this.species + " makes a sound");
 };
 
 let dog = new Animal("Dog");
 dog.speak(); // Outputs: Dog makes a sound
 
 // Adding a new method to the prototype
-Animal.prototype.eat = function() {
-    console.log(this.species + " is eating");
+Animal.prototype.eat = function () {
+  console.log(this.species + " is eating");
 };
 
 dog.eat(); // Outputs: Dog is eating
@@ -8950,6 +9255,7 @@ JavaScript prototypes are a powerful feature that allows for inheritance and sha
 ## JavaScript Object Methods
 
 #### Table of Contents
+
 1. [What are JavaScript Object Methods?](#what-are-javascript-object-methods)
 2. [Common JavaScript Object Methods](#common-javascript-object-methods)
 3. [JavaScript Object Method Table](#javascript-object-method-table)
@@ -8983,19 +9289,19 @@ Here are some of the most commonly used JavaScript object methods:
 
 ### JavaScript Object Method Table
 
-| Method                     | Description                                                                                   | Example Code                                                   | Output/Result                                       |
-|----------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------|
-| **`Object.keys()`**         | Returns an array of the object’s own enumerable property names.                               | ```javascript let obj = {a: 1, b: 2}; Object.keys(obj);```      | `["a", "b"]`                                        |
-| **`Object.values()`**       | Returns an array of the object’s own enumerable property values.                              | ```javascript let obj = {a: 1, b: 2}; Object.values(obj);```    | `[1, 2]`                                            |
-| **`Object.entries()`**      | Returns an array of the object’s own enumerable key-value pairs.                              | ```javascript let obj = {a: 1, b: 2}; Object.entries(obj);```   | `[['a', 1], ['b', 2]]`                              |
-| **`Object.assign()`**       | Copies the values of all enumerable own properties from one or more source objects to a target object. | ```javascript let obj1 = {a: 1}; let obj2 = {b: 2}; Object.assign(obj1, obj2);``` | `{a: 1, b: 2}`                                      |
-| **`Object.freeze()`**       | Freezes the object, preventing any changes to it.                                             | ```javascript let obj = {a: 1}; Object.freeze(obj); obj.a = 2;``` | `{a: 1}`                                           |
-| **`Object.seal()`**         | Seals the object, preventing new properties from being added but allowing modification of existing properties. | ```javascript let obj = {a: 1}; Object.seal(obj); obj.b = 2;``` | `{a: 1}`                                           |
-| **`Object.create()`**       | Creates a new object with the specified prototype object and properties.                      | ```javascript let proto = {a: 1}; let obj = Object.create(proto);``` | An object linked to `proto`.                        |
-| **`Object.hasOwnProperty()`** | Returns `true` if the object has the specified property as its own property.                | ```javascript let obj = {a: 1}; obj.hasOwnProperty('a');```    | `true`                                              |
-| **`Object.is()`**           | Compares two values to determine if they are the same.                                        | ```javascript Object.is(0, 0); Object.is(NaN, NaN);```          | `true` for both                                     |
-| **`Object.defineProperty()`** | Adds or modifies a property directly on an object.                                          | ```javascript let obj = {}; Object.defineProperty(obj, 'a', {value: 42});``` | `{a: 42}`                                           |
-| **`Object.defineProperties()`** | Adds or modifies multiple properties directly on an object.                               | ```javascript let obj = {}; Object.defineProperties(obj, {a: {value: 42}, b: {value: 36}});``` | `{a: 42, b: 36}`                                   |
+| Method                          | Description                                                                                                    | Example Code                                                                               | Output/Result                |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------- |
+| **`Object.keys()`**             | Returns an array of the object’s own enumerable property names.                                                | `javascript let obj = {a: 1, b: 2}; Object.keys(obj);`                                     | `["a", "b"]`                 |
+| **`Object.values()`**           | Returns an array of the object’s own enumerable property values.                                               | `javascript let obj = {a: 1, b: 2}; Object.values(obj);`                                   | `[1, 2]`                     |
+| **`Object.entries()`**          | Returns an array of the object’s own enumerable key-value pairs.                                               | `javascript let obj = {a: 1, b: 2}; Object.entries(obj);`                                  | `[['a', 1], ['b', 2]]`       |
+| **`Object.assign()`**           | Copies the values of all enumerable own properties from one or more source objects to a target object.         | `javascript let obj1 = {a: 1}; let obj2 = {b: 2}; Object.assign(obj1, obj2);`              | `{a: 1, b: 2}`               |
+| **`Object.freeze()`**           | Freezes the object, preventing any changes to it.                                                              | `javascript let obj = {a: 1}; Object.freeze(obj); obj.a = 2;`                              | `{a: 1}`                     |
+| **`Object.seal()`**             | Seals the object, preventing new properties from being added but allowing modification of existing properties. | `javascript let obj = {a: 1}; Object.seal(obj); obj.b = 2;`                                | `{a: 1}`                     |
+| **`Object.create()`**           | Creates a new object with the specified prototype object and properties.                                       | `javascript let proto = {a: 1}; let obj = Object.create(proto);`                           | An object linked to `proto`. |
+| **`Object.hasOwnProperty()`**   | Returns `true` if the object has the specified property as its own property.                                   | `javascript let obj = {a: 1}; obj.hasOwnProperty('a');`                                    | `true`                       |
+| **`Object.is()`**               | Compares two values to determine if they are the same.                                                         | `javascript Object.is(0, 0); Object.is(NaN, NaN);`                                         | `true` for both              |
+| **`Object.defineProperty()`**   | Adds or modifies a property directly on an object.                                                             | `javascript let obj = {}; Object.defineProperty(obj, 'a', {value: 42});`                   | `{a: 42}`                    |
+| **`Object.defineProperties()`** | Adds or modifies multiple properties directly on an object.                                                    | `javascript let obj = {}; Object.defineProperties(obj, {a: {value: 42}, b: {value: 36}});` | `{a: 42, b: 36}`             |
 
 ---
 
@@ -9005,9 +9311,9 @@ Here are some of the most commonly used JavaScript object methods:
 
 ```javascript
 let car = {
-    brand: "Toyota",
-    model: "Corolla",
-    year: 2021
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2021,
 };
 
 let keys = Object.keys(car);
@@ -9021,8 +9327,8 @@ console.log(values); // Outputs: ["Toyota", "Corolla", 2021]
 
 ```javascript
 let user = {
-    name: "John",
-    age: 30
+  name: "John",
+  age: 30,
 };
 
 let entries = Object.entries(user);
@@ -9043,9 +9349,9 @@ console.log(mergedObj); // Outputs: { a: 1, b: 3, c: 4 }
 
 ```javascript
 let car = {
-    brand: "Toyota",
-    model: "Corolla",
-    year: 2021
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2021,
 };
 
 // Freezing the object
@@ -9055,13 +9361,13 @@ console.log(car.year); // Outputs: 2021
 
 // Sealing the object
 let bike = {
-    brand: "Yamaha",
-    model: "FZ"
+  brand: "Yamaha",
+  model: "FZ",
 };
 
 Object.seal(bike);
 bike.model = "FZS"; // This is allowed
-bike.year = 2021;   // This will have no effect as adding new properties is not allowed
+bike.year = 2021; // This will have no effect as adding new properties is not allowed
 console.log(bike); // Outputs: { brand: "Yamaha", model: "FZS" }
 ```
 
@@ -9069,10 +9375,10 @@ console.log(bike); // Outputs: { brand: "Yamaha", model: "FZS" }
 
 ```javascript
 let vehicle = {
-    type: "Vehicle",
-    displayType: function() {
-        console.log(this.type);
-    }
+  type: "Vehicle",
+  displayType: function () {
+    console.log(this.type);
+  },
 };
 
 let car = Object.create(vehicle);
@@ -9084,12 +9390,12 @@ car.displayType(); // Outputs: Car
 
 ```javascript
 let person = {
-    name: "Alice",
-    age: 25
+  name: "Alice",
+  age: 25,
 };
 
-console.log(person.hasOwnProperty('name')); // Outputs: true
-console.log(person.hasOwnProperty('gender')); // Outputs: false
+console.log(person.hasOwnProperty("name")); // Outputs: true
+console.log(person.hasOwnProperty("gender")); // Outputs: false
 ```
 
 #### Example 7: Using `Object.is()`
@@ -9104,9 +9410,9 @@ console.log(Object.is(0, -0)); // Outputs: false
 
 ```javascript
 let obj = {};
-Object.defineProperty(obj, 'a', {
-    value: 42,
-    writable: false
+Object.defineProperty(obj, "a", {
+  value: 42,
+  writable: false,
 });
 
 console.log(obj.a); // Outputs: 42
@@ -9120,14 +9426,14 @@ console.log(obj.a); // Still outputs: 42
 let person = {};
 
 Object.defineProperties(person, {
-    name: {
-        value: "John",
-        writable: true
-    },
-    age: {
-        value: 30,
-        writable: false
-    }
+  name: {
+    value: "John",
+    writable: true,
+  },
+  age: {
+    value: 30,
+    writable: false,
+  },
 });
 
 console.log(person.name); // Outputs: John
@@ -9142,6 +9448,7 @@ By using these object methods effectively, you can manage and manipulate objects
 ## JavaScript Object Properties
 
 #### Table of Contents
+
 1. [What are JavaScript Object Properties?](#what-are-javascript-object-properties)
 2. [Types of JavaScript Object Properties](#types-of-javascript-object-properties)
 3. [JavaScript Object Property Table](#javascript-object-property-table)
@@ -9160,6 +9467,7 @@ JavaScript object properties are key-value pairs where the key is a string (prop
 JavaScript properties can be categorized into two main types:
 
 1. **Data Properties**: These are the most common type of properties, which store data values. Each data property has the following attributes:
+
    - **`value`**: The value of the property.
    - **`writable`**: A boolean indicating if the property can be changed.
    - **`enumerable`**: A boolean indicating if the property can be iterated over.
@@ -9173,10 +9481,10 @@ JavaScript properties can be categorized into two main types:
 
 ### JavaScript Object Property Table
 
-| Property Type     | Description                                                                                     | Example Code                                                        | Output/Result                                      |
-|-------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------|
-| **Data Property** | Stores a value. Has attributes: `value`, `writable`, `enumerable`, and `configurable`.           | ```javascript let obj = {name: "Alice"}; obj.name = "Bob";```       | `"Bob"`                                            |
-| **Accessor Property** | Defined by getter and setter methods. It does not store a value directly.                     | ```javascript let obj = { get fullName() { return "John Doe"; } }; console.log(obj.fullName);``` | `"John Doe"`                                   |
+| Property Type         | Description                                                                            | Example Code                                                                                 | Output/Result |
+| --------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------- |
+| **Data Property**     | Stores a value. Has attributes: `value`, `writable`, `enumerable`, and `configurable`. | `javascript let obj = {name: "Alice"}; obj.name = "Bob";`                                    | `"Bob"`       |
+| **Accessor Property** | Defined by getter and setter methods. It does not store a value directly.              | `javascript let obj = { get fullName() { return "John Doe"; } }; console.log(obj.fullName);` | `"John Doe"`  |
 
 ---
 
@@ -9186,9 +9494,9 @@ JavaScript properties can be categorized into two main types:
 
 ```javascript
 let person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 30
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
 };
 
 console.log(person.firstName); // Outputs: John
@@ -9203,16 +9511,16 @@ console.log(person.age); // Outputs: 31
 
 ```javascript
 let user = {
-    firstName: "Alice",
-    lastName: "Johnson",
-    get fullName() {
-        return `${this.firstName} ${this.lastName}`;
-    },
-    set fullName(name) {
-        let parts = name.split(' ');
-        this.firstName = parts[0];
-        this.lastName = parts[1];
-    }
+  firstName: "Alice",
+  lastName: "Johnson",
+  get fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  },
+  set fullName(name) {
+    let parts = name.split(" ");
+    this.firstName = parts[0];
+    this.lastName = parts[1];
+  },
 };
 
 // Accessing the full name using getter
@@ -9229,15 +9537,15 @@ console.log(user.lastName); // Outputs: Smith
 ```javascript
 let car = {};
 
-Object.defineProperty(car, 'brand', {
-    value: "Toyota",
-    writable: false,  // The brand cannot be changed
-    enumerable: true,  // The brand will appear in a for-in loop
-    configurable: true  // The brand property can be deleted or changed
+Object.defineProperty(car, "brand", {
+  value: "Toyota",
+  writable: false, // The brand cannot be changed
+  enumerable: true, // The brand will appear in a for-in loop
+  configurable: true, // The brand property can be deleted or changed
 });
 
 console.log(car.brand); // Outputs: Toyota
-car.brand = "Honda";    // This will not change the value
+car.brand = "Honda"; // This will not change the value
 console.log(car.brand); // Still outputs: Toyota
 ```
 
@@ -9247,17 +9555,17 @@ console.log(car.brand); // Still outputs: Toyota
 let book = {};
 
 Object.defineProperties(book, {
-    title: {
-        value: "JavaScript: The Good Parts",
-        writable: true
-    },
-    author: {
-        value: "Douglas Crockford",
-        writable: false
-    }
+  title: {
+    value: "JavaScript: The Good Parts",
+    writable: true,
+  },
+  author: {
+    value: "Douglas Crockford",
+    writable: false,
+  },
 });
 
-console.log(book.title);  // Outputs: JavaScript: The Good Parts
+console.log(book.title); // Outputs: JavaScript: The Good Parts
 console.log(book.author); // Outputs: Douglas Crockford
 
 book.author = "John Doe"; // This will not change the author
@@ -9266,10 +9574,10 @@ console.log(book.author); // Still outputs: Douglas Crockford
 
 Using object properties in JavaScript allows you to define and manipulate the characteristics and behaviors of objects, providing more control over how data is managed within your applications.
 
-
 ## JavaScript Object Accessors
 
 #### Table of Contents
+
 1. [What are JavaScript Object Accessors?](#what-are-javascript-object-accessors)
 2. [JavaScript Object Accessor Table](#javascript-object-accessor-table)
 3. [Examples of Using Object Accessors](#examples-of-using-object-accessors)
@@ -9281,6 +9589,7 @@ Using object properties in JavaScript allows you to define and manipulate the ch
 JavaScript Object Accessors are special methods that allow you to access and update object properties indirectly. Accessors are defined using `get` and `set` keywords. A **getter** is a method that retrieves the value of a property, while a **setter** is a method that sets or updates the value of a property.
 
 **Key Points:**
+
 - **Getter**: Used to access (get) the value of an object’s property.
 - **Setter**: Used to change (set) the value of an object’s property.
 
@@ -9288,10 +9597,10 @@ JavaScript Object Accessors are special methods that allow you to access and upd
 
 ### JavaScript Object Accessor Table
 
-| Accessor Type   | Description                                        | Example Code                                                                                   | Output/Result                          |
-|-----------------|----------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------|
-| **Getter**      | Retrieves the value of a property.                 | ```javascript let obj = { get fullName() { return "John Doe"; } }; console.log(obj.fullName);``` | `"John Doe"`                           |
-| **Setter**      | Updates the value of a property.                   | ```javascript let obj = { set fullName(name) { [this.first, this.last] = name.split(' '); } }; obj.fullName = "Jane Doe";``` | Updates `obj.first` to `"Jane"`       |
+| Accessor Type | Description                        | Example Code                                                                                                             | Output/Result                   |
+| ------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------- |
+| **Getter**    | Retrieves the value of a property. | `javascript let obj = { get fullName() { return "John Doe"; } }; console.log(obj.fullName);`                             | `"John Doe"`                    |
+| **Setter**    | Updates the value of a property.   | `javascript let obj = { set fullName(name) { [this.first, this.last] = name.split(' '); } }; obj.fullName = "Jane Doe";` | Updates `obj.first` to `"Jane"` |
 
 ---
 
@@ -9301,11 +9610,11 @@ JavaScript Object Accessors are special methods that allow you to access and upd
 
 ```javascript
 let person = {
-    firstName: "John",
-    lastName: "Doe",
-    get fullName() {
-        return `${this.firstName} ${this.lastName}`;
-    }
+  firstName: "John",
+  lastName: "Doe",
+  get fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  },
 };
 
 console.log(person.fullName); // Outputs: John Doe
@@ -9317,18 +9626,18 @@ In this example, the `fullName` getter concatenates `firstName` and `lastName` p
 
 ```javascript
 let person = {
-    firstName: "John",
-    lastName: "Doe",
-    set fullName(name) {
-        let parts = name.split(' ');
-        this.firstName = parts[0];
-        this.lastName = parts[1];
-    }
+  firstName: "John",
+  lastName: "Doe",
+  set fullName(name) {
+    let parts = name.split(" ");
+    this.firstName = parts[0];
+    this.lastName = parts[1];
+  },
 };
 
 person.fullName = "Jane Smith";
 console.log(person.firstName); // Outputs: Jane
-console.log(person.lastName);  // Outputs: Smith
+console.log(person.lastName); // Outputs: Smith
 ```
 
 Here, the `fullName` setter splits the given name into `firstName` and `lastName` and updates the respective properties.
@@ -9337,22 +9646,22 @@ Here, the `fullName` setter splits the given name into `firstName` and `lastName
 
 ```javascript
 let user = {
-    firstName: "Alice",
-    lastName: "Johnson",
-    get fullName() {
-        return `${this.firstName} ${this.lastName}`;
-    },
-    set fullName(name) {
-        let parts = name.split(' ');
-        this.firstName = parts[0];
-        this.lastName = parts[1];
-    }
+  firstName: "Alice",
+  lastName: "Johnson",
+  get fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  },
+  set fullName(name) {
+    let parts = name.split(" ");
+    this.firstName = parts[0];
+    this.lastName = parts[1];
+  },
 };
 
 console.log(user.fullName); // Outputs: Alice Johnson
 user.fullName = "Bob Brown";
 console.log(user.firstName); // Outputs: Bob
-console.log(user.lastName);  // Outputs: Brown
+console.log(user.lastName); // Outputs: Brown
 ```
 
 In this example, both a getter and setter for `fullName` are defined. The getter returns the full name, and the setter updates the `firstName` and `lastName` properties based on the provided input.
@@ -9361,19 +9670,19 @@ In this example, both a getter and setter for `fullName` are defined. The getter
 
 ```javascript
 let car = {
-    brand: "Toyota",
-    model: "Camry"
+  brand: "Toyota",
+  model: "Camry",
 };
 
-Object.defineProperty(car, 'description', {
-    get: function() {
-        return `${this.brand} ${this.model}`;
-    },
-    set: function(value) {
-        let parts = value.split(' ');
-        this.brand = parts[0];
-        this.model = parts[1];
-    }
+Object.defineProperty(car, "description", {
+  get: function () {
+    return `${this.brand} ${this.model}`;
+  },
+  set: function (value) {
+    let parts = value.split(" ");
+    this.brand = parts[0];
+    this.model = parts[1];
+  },
 });
 
 console.log(car.description); // Outputs: Toyota Camry
@@ -9391,23 +9700,24 @@ JavaScript accessors offer a powerful way to control how properties of an object
 ## JavaScript Object Protection
 
 #### Table of Contents
+
 1. [What is Object Protection in JavaScript?](#what-is-object-protection-in-javascript)
 2. [Methods for Protecting Objects](#methods-for-protecting-objects)
-    - [2.1. `Object.freeze()`](#21-objectfreeze)
-    - [2.2. `Object.seal()`](#22-objectseal)
-    - [2.3. `Object.preventExtensions()`](#23-objectpreventextensions)
-    - [2.4. Defining Non-Writable and Non-Configurable Properties](#24-defining-non-writable-and-non-configurable-properties)
-    - [2.5. Using Closures for Private Data](#25-using-closures-for-private-data)
-    - [2.6. Using Symbols for Private Properties](#26-using-symbols-for-private-properties)
-    - [2.7. Using WeakMaps for Private Data](#27-using-weakmaps-for-private-data)
+   - [2.1. `Object.freeze()`](#21-objectfreeze)
+   - [2.2. `Object.seal()`](#22-objectseal)
+   - [2.3. `Object.preventExtensions()`](#23-objectpreventextensions)
+   - [2.4. Defining Non-Writable and Non-Configurable Properties](#24-defining-non-writable-and-non-configurable-properties)
+   - [2.5. Using Closures for Private Data](#25-using-closures-for-private-data)
+   - [2.6. Using Symbols for Private Properties](#26-using-symbols-for-private-properties)
+   - [2.7. Using WeakMaps for Private Data](#27-using-weakmaps-for-private-data)
 3. [Comparison of Object Protection Methods](#comparison-of-object-protection-methods)
 4. [Examples of Using Object Protection](#examples-of-using-object-protection)
-    - [4.1. Example with `Object.freeze()`](#41-example-with-objectfreeze)
-    - [4.2. Example with `Object.seal()`](#42-example-with-objectseal)
-    - [4.3. Example with `Object.preventExtensions()`](#43-example-with-objectpreventextensions)
-    - [4.4. Example with Closures for Private Data](#44-example-with-closures-for-private-data)
-    - [4.5. Example with Symbols for Private Properties](#45-example-with-symbols-for-private-properties)
-    - [4.6. Example with WeakMaps for Private Data](#46-example-with-weakmaps-for-private-data)
+   - [4.1. Example with `Object.freeze()`](#41-example-with-objectfreeze)
+   - [4.2. Example with `Object.seal()`](#42-example-with-objectseal)
+   - [4.3. Example with `Object.preventExtensions()`](#43-example-with-objectpreventextensions)
+   - [4.4. Example with Closures for Private Data](#44-example-with-closures-for-private-data)
+   - [4.5. Example with Symbols for Private Properties](#45-example-with-symbols-for-private-properties)
+   - [4.6. Example with WeakMaps for Private Data](#46-example-with-weakmaps-for-private-data)
 5. [Summary](#summary)
 
 ---
@@ -9433,6 +9743,7 @@ JavaScript offers various methods and techniques to protect objects. Each method
 #### 2.1. `Object.freeze()`
 
 **Description:**
+
 - The `Object.freeze()` method freezes an object, making it **immutable**.
 - Once an object is frozen:
   - **No new properties** can be added.
@@ -9441,23 +9752,26 @@ JavaScript offers various methods and techniques to protect objects. Each method
 - All properties become **non-configurable and non-writable**.
 
 **Syntax:**
+
 ```javascript
 Object.freeze(object);
 ```
 
 **Example:**
+
 ```javascript
 const obj = { name: "Alice" };
 Object.freeze(obj);
 
-obj.age = 30;            // Fails silently in non-strict mode
-obj.name = "Bob";        // Fails silently in non-strict mode
-delete obj.name;         // Fails silently in non-strict mode
+obj.age = 30; // Fails silently in non-strict mode
+obj.name = "Bob"; // Fails silently in non-strict mode
+delete obj.name; // Fails silently in non-strict mode
 
-console.log(obj);        // Outputs: { name: "Alice" }
+console.log(obj); // Outputs: { name: "Alice" }
 ```
 
 **Use Cases:**
+
 - Ensuring that an object remains constant throughout the program.
 - Preventing accidental mutations in objects that should not change.
 
@@ -9466,6 +9780,7 @@ console.log(obj);        // Outputs: { name: "Alice" }
 #### 2.2. `Object.seal()`
 
 **Description:**
+
 - The `Object.seal()` method seals an object.
 - Once an object is sealed:
   - **No new properties** can be added.
@@ -9474,23 +9789,26 @@ console.log(obj);        // Outputs: { name: "Alice" }
 - All properties become **non-configurable**, but existing writable properties remain **writable**.
 
 **Syntax:**
+
 ```javascript
 Object.seal(object);
 ```
 
 **Example:**
+
 ```javascript
 const obj = { name: "Alice" };
 Object.seal(obj);
 
-obj.age = 30;            // Fails silently in non-strict mode
-obj.name = "Bob";        // Successfully updates the value
-delete obj.name;         // Fails silently in non-strict mode
+obj.age = 30; // Fails silently in non-strict mode
+obj.name = "Bob"; // Successfully updates the value
+delete obj.name; // Fails silently in non-strict mode
 
-console.log(obj);        // Outputs: { name: "Bob" }
+console.log(obj); // Outputs: { name: "Bob" }
 ```
 
 **Use Cases:**
+
 - Preventing addition or removal of properties while allowing updates to existing properties.
 - Maintaining the structure of an object while permitting value changes.
 
@@ -9499,6 +9817,7 @@ console.log(obj);        // Outputs: { name: "Bob" }
 #### 2.3. `Object.preventExtensions()`
 
 **Description:**
+
 - The `Object.preventExtensions()` method prevents an object from having new properties added to it.
 - Once an object is made non-extensible:
   - **No new properties** can be added.
@@ -9507,23 +9826,26 @@ console.log(obj);        // Outputs: { name: "Bob" }
 - The object’s **prototype** cannot be changed.
 
 **Syntax:**
+
 ```javascript
 Object.preventExtensions(object);
 ```
 
 **Example:**
+
 ```javascript
 const obj = { name: "Alice" };
 Object.preventExtensions(obj);
 
-obj.age = 30;            // Fails silently in non-strict mode
-obj.name = "Bob";        // Successfully updates the value
-delete obj.name;         // Successfully deletes the property
+obj.age = 30; // Fails silently in non-strict mode
+obj.name = "Bob"; // Successfully updates the value
+delete obj.name; // Successfully deletes the property
 
-console.log(obj);        // Outputs: {}
+console.log(obj); // Outputs: {}
 ```
 
 **Use Cases:**
+
 - Locking down the structure of an object to prevent accidental addition of new properties.
 - Allowing flexibility to modify or remove existing properties as needed.
 
@@ -9532,6 +9854,7 @@ console.log(obj);        // Outputs: {}
 #### 2.4. Defining Non-Writable and Non-Configurable Properties
 
 **Description:**
+
 - Using `Object.defineProperty()` or `Object.defineProperties()`, you can define properties with specific attributes:
   - **`writable`**: Determines if the property value can be changed.
   - **`configurable`**: Determines if the property can be deleted or its attributes can be modified.
@@ -9539,28 +9862,31 @@ console.log(obj);        // Outputs: {}
 - By setting properties as **non-writable** or **non-configurable**, you can control how and whether properties can be altered.
 
 **Syntax:**
+
 ```javascript
 Object.defineProperty(object, propertyName, descriptor);
 ```
 
 **Example:**
+
 ```javascript
 const obj = {};
 
-Object.defineProperty(obj, 'name', {
-    value: "Alice",
-    writable: false,
-    configurable: false,
-    enumerable: true
+Object.defineProperty(obj, "name", {
+  value: "Alice",
+  writable: false,
+  configurable: false,
+  enumerable: true,
 });
 
-obj.name = "Bob";        // Fails silently in non-strict mode
-delete obj.name;         // Fails silently
+obj.name = "Bob"; // Fails silently in non-strict mode
+delete obj.name; // Fails silently
 
-console.log(obj.name);   // Outputs: "Alice"
+console.log(obj.name); // Outputs: "Alice"
 ```
 
 **Use Cases:**
+
 - Creating constants within objects.
 - Protecting critical properties from being changed or deleted.
 
@@ -9569,46 +9895,49 @@ console.log(obj.name);   // Outputs: "Alice"
 #### 2.5. Using Closures for Private Data
 
 **Description:**
+
 - Closures can be used to create **truly private variables**.
 - Variables defined within a function scope are not accessible from outside.
 - Public methods (privileged methods) can access these private variables through closure.
 
 **Syntax:**
+
 ```javascript
 function createObject() {
-    let privateVar = "secret";
+  let privateVar = "secret";
 
-    return {
-        getPrivateVar: function() {
-            return privateVar;
-        },
-        setPrivateVar: function(value) {
-            privateVar = value;
-        }
-    };
+  return {
+    getPrivateVar: function () {
+      return privateVar;
+    },
+    setPrivateVar: function (value) {
+      privateVar = value;
+    },
+  };
 }
 ```
 
 **Example:**
+
 ```javascript
-const obj = (function() {
-    let privateCounter = 0;
+const obj = (function () {
+  let privateCounter = 0;
 
-    function changeBy(val) {
-        privateCounter += val;
-    }
+  function changeBy(val) {
+    privateCounter += val;
+  }
 
-    return {
-        increment: function() {
-            changeBy(1);
-        },
-        decrement: function() {
-            changeBy(-1);
-        },
-        value: function() {
-            return privateCounter;
-        }
-    };
+  return {
+    increment: function () {
+      changeBy(1);
+    },
+    decrement: function () {
+      changeBy(-1);
+    },
+    value: function () {
+      return privateCounter;
+    },
+  };
 })();
 
 console.log(obj.value()); // Outputs: 0
@@ -9619,6 +9948,7 @@ console.log(obj.privateCounter); // Outputs: undefined
 ```
 
 **Use Cases:**
+
 - Encapsulating data and providing controlled access.
 - Implementing module patterns and maintaining clean namespaces.
 
@@ -9627,40 +9957,44 @@ console.log(obj.privateCounter); // Outputs: undefined
 #### 2.6. Using Symbols for Private Properties
 
 **Description:**
+
 - **Symbols** are a new primitive type introduced in ES6, and they are unique and immutable.
 - Using symbols as property keys makes them **non-enumerable** and **less accessible**.
 - Although not truly private, symbol-keyed properties are harder to access unintentionally.
 
 **Syntax:**
+
 ```javascript
-const privateProp = Symbol('privateProp');
+const privateProp = Symbol("privateProp");
 const obj = {
-    [privateProp]: "secret"
+  [privateProp]: "secret",
 };
 ```
 
 **Example:**
+
 ```javascript
-const password = Symbol('password');
+const password = Symbol("password");
 
 const user = {
-    username: "alice",
-    [password]: "12345"
+  username: "alice",
+  [password]: "12345",
 };
 
-console.log(user.username);         // Outputs: "alice"
-console.log(user.password);         // Outputs: undefined
-console.log(user[password]);        // Outputs: "12345"
+console.log(user.username); // Outputs: "alice"
+console.log(user.password); // Outputs: undefined
+console.log(user[password]); // Outputs: "12345"
 
 // Symbols are not listed in for...in loops
 for (let key in user) {
-    console.log(key);               // Outputs: "username"
+  console.log(key); // Outputs: "username"
 }
 
-console.log(Object.keys(user));     // Outputs: ["username"]
+console.log(Object.keys(user)); // Outputs: ["username"]
 ```
 
 **Use Cases:**
+
 - Hiding properties from enumeration and casual access.
 - Preventing property name clashes in large codebases or libraries.
 
@@ -9669,51 +10003,55 @@ console.log(Object.keys(user));     // Outputs: ["username"]
 #### 2.7. Using WeakMaps for Private Data
 
 **Description:**
+
 - **WeakMaps** allow associating private data with objects.
 - Keys in WeakMaps must be objects, and the associated values can be accessed only through these keys.
 - Provides true privacy as the WeakMap is not accessible outside the scope.
 
 **Syntax:**
+
 ```javascript
 const privateData = new WeakMap();
 
 function MyClass() {
-    privateData.set(this, { secret: "hidden" });
+  privateData.set(this, { secret: "hidden" });
 }
 
-MyClass.prototype.getSecret = function() {
-    return privateData.get(this).secret;
+MyClass.prototype.getSecret = function () {
+  return privateData.get(this).secret;
 };
 ```
 
 **Example:**
+
 ```javascript
 const privateData = new WeakMap();
 
 class Person {
-    constructor(name) {
-        this.name = name;
-        privateData.set(this, { age: 30 });
-    }
+  constructor(name) {
+    this.name = name;
+    privateData.set(this, { age: 30 });
+  }
 
-    getAge() {
-        return privateData.get(this).age;
-    }
+  getAge() {
+    return privateData.get(this).age;
+  }
 
-    setAge(age) {
-        privateData.get(this).age = age;
-    }
+  setAge(age) {
+    privateData.get(this).age = age;
+  }
 }
 
 const person = new Person("Alice");
-console.log(person.name);       // Outputs: "Alice"
-console.log(person.getAge());   // Outputs: 30
+console.log(person.name); // Outputs: "Alice"
+console.log(person.getAge()); // Outputs: 30
 person.setAge(31);
-console.log(person.getAge());   // Outputs: 31
-console.log(person.age);        // Outputs: undefined
+console.log(person.getAge()); // Outputs: 31
+console.log(person.age); // Outputs: undefined
 ```
 
 **Use Cases:**
+
 - Storing private data associated with object instances.
 - Preventing external access and modification to sensitive data.
 
@@ -9723,20 +10061,22 @@ console.log(person.age);        // Outputs: undefined
 
 The table below summarizes the differences between various object protection methods:
 
-| Feature                                   | `Object.freeze()` | `Object.seal()` | `Object.preventExtensions()` | Non-Writable Properties |
-|-------------------------------------------|:-----------------:|:---------------:|:---------------------------:|:-----------------------:|
-| **Add new properties**                    |        ❌         |       ❌        |             ❌              |           ✅            |
-| **Delete existing properties**            |        ❌         |       ❌        |             ✅              |           ✅            |
-| **Modify existing property values**       |        ❌         |       ✅        |             ✅              |           ❌            |
-| **Modify property descriptors**           |        ❌         |       ❌        |             ✅              |           ❌            |
-| **Change prototype**                      |        ❌         |       ❌        |             ❌              |           ✅            |
-| **Use Cases**                             | Immutable objects | Fixed structure with mutable values | Fixed structure | Immutable properties |
+| Feature                             | `Object.freeze()` |           `Object.seal()`           | `Object.preventExtensions()` | Non-Writable Properties |
+| ----------------------------------- | :---------------: | :---------------------------------: | :--------------------------: | :---------------------: |
+| **Add new properties**              |        ❌         |                 ❌                  |              ❌              |           ✅            |
+| **Delete existing properties**      |        ❌         |                 ❌                  |              ✅              |           ✅            |
+| **Modify existing property values** |        ❌         |                 ✅                  |              ✅              |           ❌            |
+| **Modify property descriptors**     |        ❌         |                 ❌                  |              ✅              |           ❌            |
+| **Change prototype**                |        ❌         |                 ❌                  |              ❌              |           ✅            |
+| **Use Cases**                       | Immutable objects | Fixed structure with mutable values |       Fixed structure        |  Immutable properties   |
 
 **Legend:**
+
 - ✅ = Allowed
 - ❌ = Not Allowed
 
 **Notes:**
+
 - **`Object.freeze()`** provides the highest level of immutability by making all properties non-writable and non-configurable.
 - **`Object.seal()`** allows modification of existing properties but prevents adding or deleting properties.
 - **`Object.preventExtensions()`** only prevents adding new properties; existing properties can be modified or deleted.
@@ -9750,21 +10090,22 @@ The table below summarizes the differences between various object protection met
 
 ```javascript
 const config = {
-    apiEndpoint: "https://api.example.com",
-    timeout: 5000
+  apiEndpoint: "https://api.example.com",
+  timeout: 5000,
 };
 
 Object.freeze(config);
 
-config.timeout = 10000;      // Fails silently
-config.newProp = true;       // Fails silently
-delete config.apiEndpoint;   // Fails silently
+config.timeout = 10000; // Fails silently
+config.newProp = true; // Fails silently
+delete config.apiEndpoint; // Fails silently
 
 console.log(config);
 // Outputs: { apiEndpoint: "https://api.example.com", timeout: 5000 }
 ```
 
 **Explanation:**
+
 - After freezing, attempts to modify, add, or delete properties fail silently (or throw errors in strict mode).
 - Useful for configuration objects that should remain constant.
 
@@ -9774,21 +10115,22 @@ console.log(config);
 
 ```javascript
 const user = {
-    name: "Bob",
-    role: "Admin"
+  name: "Bob",
+  role: "Admin",
 };
 
 Object.seal(user);
 
-user.role = "User";          // Successful
-user.age = 30;               // Fails silently
-delete user.name;            // Fails silently
+user.role = "User"; // Successful
+user.age = 30; // Fails silently
+delete user.name; // Fails silently
 
 console.log(user);
 // Outputs: { name: "Bob", role: "User" }
 ```
 
 **Explanation:**
+
 - Modification of existing properties is allowed.
 - Addition or deletion of properties is not allowed.
 - Suitable when the object's structure should remain fixed but values may change.
@@ -9799,21 +10141,22 @@ console.log(user);
 
 ```javascript
 const settings = {
-    theme: "dark",
-    notifications: true
+  theme: "dark",
+  notifications: true,
 };
 
 Object.preventExtensions(settings);
 
-settings.theme = "light";    // Successful
+settings.theme = "light"; // Successful
 delete settings.notifications; // Successful
-settings.language = "en";    // Fails silently
+settings.language = "en"; // Fails silently
 
 console.log(settings);
 // Outputs: { theme: "light" }
 ```
 
 **Explanation:**
+
 - Allows modification and deletion of existing properties.
 - Prevents addition of new properties.
 - Ideal when you want to prevent expansion of the object but allow modifications.
@@ -9824,29 +10167,30 @@ console.log(settings);
 
 ```javascript
 function createBankAccount(initialBalance) {
-    let balance = initialBalance;
+  let balance = initialBalance;
 
-    return {
-        deposit(amount) {
-            if (amount > 0) balance += amount;
-        },
-        withdraw(amount) {
-            if (amount > 0 && amount <= balance) balance -= amount;
-        },
-        getBalance() {
-            return balance;
-        }
-    };
+  return {
+    deposit(amount) {
+      if (amount > 0) balance += amount;
+    },
+    withdraw(amount) {
+      if (amount > 0 && amount <= balance) balance -= amount;
+    },
+    getBalance() {
+      return balance;
+    },
+  };
 }
 
 const account = createBankAccount(1000);
 account.deposit(500);
 account.withdraw(200);
 console.log(account.getBalance()); // Outputs: 1300
-console.log(account.balance);      // Outputs: undefined
+console.log(account.balance); // Outputs: undefined
 ```
 
 **Explanation:**
+
 - The `balance` variable is private and cannot be accessed directly.
 - Access is controlled through the returned methods.
 - Ensures encapsulation and protects sensitive data.
@@ -9856,27 +10200,28 @@ console.log(account.balance);      // Outputs: undefined
 #### 4.5. Example with Symbols for Private Properties
 
 ```javascript
-const _salary = Symbol('salary');
+const _salary = Symbol("salary");
 
 class Employee {
-    constructor(name, salary) {
-        this.name = name;
-        this[_salary] = salary;
-    }
+  constructor(name, salary) {
+    this.name = name;
+    this[_salary] = salary;
+  }
 
-    getSalary() {
-        return this[_salary];
-    }
+  getSalary() {
+    return this[_salary];
+  }
 }
 
 const emp = new Employee("Alice", 50000);
-console.log(emp.name);          // Outputs: "Alice"
-console.log(emp.getSalary());   // Outputs: 50000
-console.log(emp.salary);        // Outputs: undefined
-console.log(Object.keys(emp));  // Outputs: ["name"]
+console.log(emp.name); // Outputs: "Alice"
+console.log(emp.getSalary()); // Outputs: 50000
+console.log(emp.salary); // Outputs: undefined
+console.log(Object.keys(emp)); // Outputs: ["name"]
 ```
 
 **Explanation:**
+
 - The `_salary` property is not accessible through normal means.
 - It does not appear during enumeration.
 - Provides a level of privacy suitable for many applications.
@@ -9889,30 +10234,31 @@ console.log(Object.keys(emp));  // Outputs: ["name"]
 const privateProps = new WeakMap();
 
 class Car {
-    constructor(brand, model) {
-        this.brand = brand;
-        this.model = model;
-        privateProps.set(this, { mileage: 0 });
-    }
+  constructor(brand, model) {
+    this.brand = brand;
+    this.model = model;
+    privateProps.set(this, { mileage: 0 });
+  }
 
-    drive(distance) {
-        const props = privateProps.get(this);
-        props.mileage += distance;
-    }
+  drive(distance) {
+    const props = privateProps.get(this);
+    props.mileage += distance;
+  }
 
-    getMileage() {
-        return privateProps.get(this).mileage;
-    }
+  getMileage() {
+    return privateProps.get(this).mileage;
+  }
 }
 
 const myCar = new Car("Toyota", "Corolla");
 myCar.drive(100);
 myCar.drive(200);
 console.log(myCar.getMileage()); // Outputs: 300
-console.log(myCar.mileage);      // Outputs: undefined
+console.log(myCar.mileage); // Outputs: undefined
 ```
 
 **Explanation:**
+
 - The `mileage` property is truly private and cannot be accessed externally.
 - WeakMap keys are garbage collected when the object is no longer in use.
 - Ensures strong encapsulation and memory efficiency.
@@ -9933,10 +10279,6 @@ Understanding these techniques enhances code reliability, security, and maintain
 
 ---
 
-
-
-
-
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
@@ -9955,32 +10297,33 @@ Understanding these techniques enhances code reliability, security, and maintain
 ## JavaScript Function Definitions
 
 #### Table of Contents
+
 1. [What is a Function in JavaScript?](#what-is-a-function-in-javascript)
 2. [Types of Function Definitions](#types-of-function-definitions)
-    - [2.1. Function Declaration](#21-function-declaration)
-    - [2.2. Function Expression](#22-function-expression)
-    - [2.3. Arrow Function](#23-arrow-function)
-    - [2.4. Anonymous Function](#24-anonymous-function)
-    - [2.5. Immediately Invoked Function Expression (IIFE)](#25-immediately-invoked-function-expression-iife)
-    - [2.6. Constructor Function](#26-constructor-function)
+   - [2.1. Function Declaration](#21-function-declaration)
+   - [2.2. Function Expression](#22-function-expression)
+   - [2.3. Arrow Function](#23-arrow-function)
+   - [2.4. Anonymous Function](#24-anonymous-function)
+   - [2.5. Immediately Invoked Function Expression (IIFE)](#25-immediately-invoked-function-expression-iife)
+   - [2.6. Constructor Function](#26-constructor-function)
 3. [Parameters and Arguments](#parameters-and-arguments)
 4. [Function Scope and Closures](#function-scope-and-closures)
 5. [Higher-Order Functions](#higher-order-functions)
 6. [Function Methods and Properties](#function-methods-and-properties)
 7. [Examples of Function Definitions](#examples-of-function-definitions)
-    - [7.1. Example with Function Declaration](#71-example-with-function-declaration)
-    - [7.2. Example with Function Expression](#72-example-with-function-expression)
-    - [7.3. Example with Arrow Function](#73-example-with-arrow-function)
-    - [7.4. Example with Anonymous Function](#74-example-with-anonymous-function)
-    - [7.5. Example with IIFE](#75-example-with-iife)
-    - [7.6. Example with Constructor Function](#76-example-with-constructor-function)
+   - [7.1. Example with Function Declaration](#71-example-with-function-declaration)
+   - [7.2. Example with Function Expression](#72-example-with-function-expression)
+   - [7.3. Example with Arrow Function](#73-example-with-arrow-function)
+   - [7.4. Example with Anonymous Function](#74-example-with-anonymous-function)
+   - [7.5. Example with IIFE](#75-example-with-iife)
+   - [7.6. Example with Constructor Function](#76-example-with-constructor-function)
 8. [Summary](#summary)
 
 ---
 
 ### What is a Function in JavaScript?
 
-- Function একটি নির্দিষ্ট কাজ সম্পন্ন করে। যখন Programming এ আমাদের একই কাজ বার বার দরকার হয়, তখন আমরা Function তৈরি করি এবং প্রয়োজন অনুসারে বার বার ব্যবহার করি। 
+- Function একটি নির্দিষ্ট কাজ সম্পন্ন করে। যখন Programming এ আমাদের একই কাজ বার বার দরকার হয়, তখন আমরা Function তৈরি করি এবং প্রয়োজন অনুসারে বার বার ব্যবহার করি।
 - প্রতিটা Function ইনপুট নেয় (যাদেরকে Parameters বলা হয়) এবং একটি Output Return করে। এটিই Function এর General Concept. তবে ক্ষেত্র বিশেষে Input/Output নাও থাকতে পারে।
 
 ---
@@ -9992,26 +10335,30 @@ Understanding these techniques enhances code reliability, security, and maintain
 #### 2.1. Function Declaration
 
 **Description:**
+
 - A **function declaration** defines a named function using the `function` keyword.
 - Function declarations are hoisted, meaning they can be called before they are defined in the code.
 
 **Syntax:**
+
 ```javascript
 function functionName(parameters) {
-    // Function body
+  // Function body
 }
 ```
 
 **Example:**
+
 ```javascript
 function greet(name) {
-    return `Hello, ${name}!`;
+  return `Hello, ${name}!`;
 }
 
 console.log(greet("Alice")); // Outputs: "Hello, Alice!"
 ```
 
 **Use Cases:**
+
 - When you need a function that is available throughout your code, even before the function is defined.
 
 ---
@@ -10019,26 +10366,30 @@ console.log(greet("Alice")); // Outputs: "Hello, Alice!"
 #### 2.2. Function Expression
 
 **Description:**
+
 - A **function expression** defines a function as part of a variable assignment.
 - Unlike function declarations, function expressions are not hoisted.
 
 **Syntax:**
+
 ```javascript
-const functionName = function(parameters) {
-    // Function body
+const functionName = function (parameters) {
+  // Function body
 };
 ```
 
 **Example:**
+
 ```javascript
-const greet = function(name) {
-    return `Hello, ${name}!`;
+const greet = function (name) {
+  return `Hello, ${name}!`;
 };
 
 console.log(greet("Bob")); // Outputs: "Hello, Bob!"
 ```
 
 **Use Cases:**
+
 - When you want to define a function that is not available before its definition in the code.
 - Useful for inline functions or assigning functions to variables, objects, or arrays.
 
@@ -10047,18 +10398,21 @@ console.log(greet("Bob")); // Outputs: "Hello, Bob!"
 #### 2.3. Arrow Function
 
 **Description:**
+
 - An **arrow function** is a shorthand syntax for writing function expressions, introduced in ES6.
 - Arrow functions do not have their own `this`, `arguments`, `super`, or `new.target` bindings.
 - They are often used in situations where you need concise syntax, such as in callbacks or functional programming.
 
 **Syntax:**
+
 ```javascript
 const functionName = (parameters) => {
-    // Function body
+  // Function body
 };
 ```
 
 **Example:**
+
 ```javascript
 const greet = (name) => `Hello, ${name}!`;
 
@@ -10066,6 +10420,7 @@ console.log(greet("Charlie")); // Outputs: "Hello, Charlie!"
 ```
 
 **Use Cases:**
+
 - When you need a shorter syntax for writing functions, particularly in callbacks, or when you want to maintain the `this` context from the surrounding scope.
 
 ---
@@ -10073,24 +10428,28 @@ console.log(greet("Charlie")); // Outputs: "Hello, Charlie!"
 #### 2.4. Anonymous Function
 
 **Description:**
+
 - An **anonymous function** is a function that is defined without a name.
 - These functions are often used as arguments to other functions or as immediately invoked function expressions (IIFE).
 
 **Syntax:**
+
 ```javascript
-const functionName = function(parameters) {
-    // Function body
+const functionName = function (parameters) {
+  // Function body
 };
 ```
 
 **Example:**
+
 ```javascript
-setTimeout(function() {
-    console.log("This is an anonymous function.");
+setTimeout(function () {
+  console.log("This is an anonymous function.");
 }, 1000);
 ```
 
 **Use Cases:**
+
 - When you need a function temporarily, such as for event handlers, callbacks, or immediately invoked function expressions.
 
 ---
@@ -10098,24 +10457,28 @@ setTimeout(function() {
 #### 2.5. Immediately Invoked Function Expression (IIFE)
 
 **Description:**
+
 - An **immediately invoked function expression (IIFE)** is a function that is defined and executed immediately after it is created.
 - IIFEs are used to create a private scope, avoiding the pollution of the global scope.
 
 **Syntax:**
+
 ```javascript
-(function() {
-    // Function body
+(function () {
+  // Function body
 })();
 ```
 
 **Example:**
+
 ```javascript
-(function() {
-    console.log("This IIFE runs immediately after its creation.");
+(function () {
+  console.log("This IIFE runs immediately after its creation.");
 })();
 ```
 
 **Use Cases:**
+
 - When you need to execute a function immediately while keeping the variables inside it private and isolated from the global scope.
 
 ---
@@ -10123,30 +10486,34 @@ setTimeout(function() {
 #### 2.6. Constructor Function
 
 **Description:**
+
 - A **constructor function** is a special type of function used to create and initialize objects in JavaScript.
 - When a function is used as a constructor, it is called with the `new` keyword, creating a new object instance with the properties and methods defined in the constructor.
 
 **Syntax:**
+
 ```javascript
 function ConstructorFunction(parameters) {
-    // Initialize properties
-    this.propertyName = value;
+  // Initialize properties
+  this.propertyName = value;
 }
 ```
 
 **Example:**
+
 ```javascript
 function Person(name, age) {
-    this.name = name;
-    this.age = age;
+  this.name = name;
+  this.age = age;
 }
 
 const alice = new Person("Alice", 25);
 console.log(alice.name); // Outputs: "Alice"
-console.log(alice.age);  // Outputs: 25
+console.log(alice.age); // Outputs: 25
 ```
 
 **Use Cases:**
+
 - When you need to create multiple objects with the same properties and methods, using a function as a blueprint.
 
 ---
@@ -10159,14 +10526,15 @@ console.log(alice.age);  // Outputs: 25
 - **Rest Parameters:** The rest parameter syntax (`...`) allows a function to accept an indefinite number of arguments as an array.
 
 **Example with Default and Rest Parameters:**
+
 ```javascript
 function sum(a = 0, b = 0, ...rest) {
-    return a + b + rest.reduce((acc, val) => acc + val, 0);
+  return a + b + rest.reduce((acc, val) => acc + val, 0);
 }
 
-console.log(sum(1, 2));           // Outputs: 3
-console.log(sum(1, 2, 3, 4));     // Outputs: 10
-console.log(sum());               // Outputs: 0
+console.log(sum(1, 2)); // Outputs: 3
+console.log(sum(1, 2, 3, 4)); // Outputs: 10
+console.log(sum()); // Outputs: 0
 ```
 
 ---
@@ -10178,14 +10546,15 @@ console.log(sum());               // Outputs: 0
 **Closures** are functions that "remember" the environment in which they were created, allowing them to access variables from their outer scope even after the outer function has finished executing.
 
 **Example of Closure:**
+
 ```javascript
 function outer() {
-    let counter = 0;
+  let counter = 0;
 
-    return function() {
-        counter++;
-        return counter;
-    };
+  return function () {
+    counter++;
+    return counter;
+  };
 }
 
 const increment = outer();
@@ -10200,11 +10569,12 @@ console.log(increment()); // Outputs: 2
 A **higher-order function** is a function that takes one or more functions as arguments or returns a function as its result. Higher-order functions are a key concept in functional programming.
 
 **Example of Higher-Order Function:**
+
 ```javascript
 function greet(name) {
-    return function(message) {
-        return `${message}, ${name}!`;
-    };
+  return function (message) {
+    return `${message}, ${name}!`;
+  };
 }
 
 const greetAlice = greet("Alice");
@@ -10212,6 +10582,7 @@ console.log(greetAlice("Good morning")); // Outputs: "Good morning, Alice!"
 ```
 
 **Use Cases:**
+
 - Higher-order functions are commonly used for function composition, callbacks, and other functional programming techniques.
 
 ---
@@ -10225,19 +10596,22 @@ In JavaScript, functions are objects, and as such, they have methods and propert
 - **`bind()`**: Creates a new function that, when called, has its `this` value set to the provided value, with a given sequence of arguments.
 
 **Example with `call()`, `apply()`, and `bind()`:**
+
 ```javascript
 function introduce(greeting, punctuation) {
-    console.log(`${greeting}, I'm ${this.name}${punctuation}`);
+  console.log(`${greeting}, I'm ${this.name}${punctuation}`);
 }
 
 const person = { name: "Bob" };
 
-introduce.call(person, "Hello", "!");    // Outputs: "Hello, I'm Bob!"
-introduce.apply(person,
+introduce.call(person, "Hello", "!"); // Outputs: "Hello, I'm Bob!"
+introduce.apply(
+  person,
 
- ["Hi", "."]);    // Outputs: "Hi, I'm Bob."
+  ["Hi", "."]
+); // Outputs: "Hi, I'm Bob."
 const boundFunction = introduce.bind(person);
-boundFunction("Hey", "...");             // Outputs: "Hey, I'm Bob..."
+boundFunction("Hey", "..."); // Outputs: "Hey, I'm Bob..."
 ```
 
 ---
@@ -10248,7 +10622,7 @@ boundFunction("Hey", "...");             // Outputs: "Hey, I'm Bob..."
 
 ```javascript
 function add(a, b) {
-    return a + b;
+  return a + b;
 }
 
 console.log(add(3, 4)); // Outputs: 7
@@ -10257,8 +10631,8 @@ console.log(add(3, 4)); // Outputs: 7
 #### 7.2. Example with Function Expression
 
 ```javascript
-const subtract = function(a, b) {
-    return a - b;
+const subtract = function (a, b) {
+  return a - b;
 };
 
 console.log(subtract(9, 5)); // Outputs: 4
@@ -10275,8 +10649,8 @@ console.log(multiply(4, 6)); // Outputs: 24
 #### 7.4. Example with Anonymous Function
 
 ```javascript
-const divide = function(a, b) {
-    return a / b;
+const divide = function (a, b) {
+  return a / b;
 };
 
 console.log(divide(10, 2)); // Outputs: 5
@@ -10285,8 +10659,8 @@ console.log(divide(10, 2)); // Outputs: 5
 #### 7.5. Example with IIFE
 
 ```javascript
-(function() {
-    console.log("This IIFE runs immediately.");
+(function () {
+  console.log("This IIFE runs immediately.");
 })();
 ```
 
@@ -10294,12 +10668,12 @@ console.log(divide(10, 2)); // Outputs: 5
 
 ```javascript
 function Car(make, model) {
-    this.make = make;
-    this.model = model;
+  this.make = make;
+  this.model = model;
 }
 
 const myCar = new Car("Toyota", "Corolla");
-console.log(myCar.make);  // Outputs: "Toyota"
+console.log(myCar.make); // Outputs: "Toyota"
 console.log(myCar.model); // Outputs: "Corolla"
 ```
 
@@ -10312,18 +10686,19 @@ JavaScript offers various ways to define functions, each with its strengths and 
 ## JavaScript Function Parameters
 
 #### Table of Contents
+
 1. [What are Function Parameters?](#what-are-function-parameters)
 2. [Types of Function Parameters](#types-of-function-parameters)
-    - [2.1. Default Parameters](#21-default-parameters)
-    - [2.2. Rest Parameters](#22-rest-parameters)
-    - [2.3. Named Parameters](#23-named-parameters)
+   - [2.1. Default Parameters](#21-default-parameters)
+   - [2.2. Rest Parameters](#22-rest-parameters)
+   - [2.3. Named Parameters](#23-named-parameters)
 3. [Passing Parameters by Value vs. Reference](#passing-parameters-by-value-vs-reference)
 4. [Parameter Destructuring](#parameter-destructuring)
 5. [Examples of Function Parameters](#examples-of-function-parameters)
-    - [5.1. Example with Default Parameters](#51-example-with-default-parameters)
-    - [5.2. Example with Rest Parameters](#52-example-with-rest-parameters)
-    - [5.3. Example with Named Parameters](#53-example-with-named-parameters)
-    - [5.4. Example with Destructuring Parameters](#54-example-with-destructuring-parameters)
+   - [5.1. Example with Default Parameters](#51-example-with-default-parameters)
+   - [5.2. Example with Rest Parameters](#52-example-with-rest-parameters)
+   - [5.3. Example with Named Parameters](#53-example-with-named-parameters)
+   - [5.4. Example with Destructuring Parameters](#54-example-with-destructuring-parameters)
 6. [Summary](#summary)
 
 ---
@@ -10333,6 +10708,7 @@ JavaScript offers various ways to define functions, each with its strengths and 
 Function parameters are the variables listed as part of the function definition. They are placeholders for the values (called arguments) that will be passed to the function when it is called. Parameters allow functions to be more flexible and reusable by accepting different inputs.
 
 **Syntax:**
+
 ```javascript
 function functionName(parameter1, parameter2, ...) {
     // Function body
@@ -10346,26 +10722,30 @@ function functionName(parameter1, parameter2, ...) {
 #### 2.1. Default Parameters
 
 **Description:**
+
 - Default parameters allow you to initialize function parameters with default values if no arguments or `undefined` are passed.
 
 **Syntax:**
+
 ```javascript
 function functionName(param1 = defaultValue1, param2 = defaultValue2) {
-    // Function body
+  // Function body
 }
 ```
 
 **Example:**
+
 ```javascript
 function greet(name = "Guest") {
-    return `Hello, ${name}!`;
+  return `Hello, ${name}!`;
 }
 
 console.log(greet("Alice")); // Outputs: "Hello, Alice!"
-console.log(greet());        // Outputs: "Hello, Guest!"
+console.log(greet()); // Outputs: "Hello, Guest!"
 ```
 
 **Use Cases:**
+
 - When you want to ensure that a parameter always has a value, even if the caller doesn't provide one.
 
 ---
@@ -10373,26 +10753,30 @@ console.log(greet());        // Outputs: "Hello, Guest!"
 #### 2.2. Rest Parameters
 
 **Description:**
+
 - Rest parameters allow a function to accept an indefinite number of arguments as an array. The rest parameter syntax uses the `...` notation.
 
 **Syntax:**
+
 ```javascript
 function functionName(...rest) {
-    // Function body
+  // Function body
 }
 ```
 
 **Example:**
+
 ```javascript
 function sum(...numbers) {
-    return numbers.reduce((acc, num) => acc + num, 0);
+  return numbers.reduce((acc, num) => acc + num, 0);
 }
 
 console.log(sum(1, 2, 3)); // Outputs: 6
-console.log(sum(4, 5));    // Outputs: 9
+console.log(sum(4, 5)); // Outputs: 9
 ```
 
 **Use Cases:**
+
 - When you need a function that can handle an unknown number of arguments, such as in mathematical operations or variadic functions.
 
 ---
@@ -10400,26 +10784,30 @@ console.log(sum(4, 5));    // Outputs: 9
 #### 2.3. Named Parameters
 
 **Description:**
+
 - Named parameters are an object-oriented way to pass parameters, allowing the function to receive an object where the properties match the parameter names.
 
 **Syntax:**
+
 ```javascript
-function functionName({param1, param2}) {
-    // Function body
+function functionName({ param1, param2 }) {
+  // Function body
 }
 ```
 
 **Example:**
+
 ```javascript
-function createUser({name, age, email}) {
-    return `Name: ${name}, Age: ${age}, Email: ${email}`;
+function createUser({ name, age, email }) {
+  return `Name: ${name}, Age: ${age}, Email: ${email}`;
 }
 
-const user = {name: "Bob", age: 30, email: "bob@example.com"};
+const user = { name: "Bob", age: 30, email: "bob@example.com" };
 console.log(createUser(user)); // Outputs: "Name: Bob, Age: 30, Email: bob@example.com"
 ```
 
 **Use Cases:**
+
 - When you want to improve readability and avoid confusion with the order of parameters, especially when there are many optional parameters.
 
 ---
@@ -10432,9 +10820,10 @@ JavaScript function parameters can be passed by value or by reference, depending
 - **Reference Types (e.g., objects, arrays):** Passed by reference, meaning the function works with a reference to the original object.
 
 **Example of Passing by Value:**
+
 ```javascript
 function changeValue(value) {
-    value = 10;
+  value = 10;
 }
 
 let num = 5;
@@ -10443,9 +10832,10 @@ console.log(num); // Outputs: 5
 ```
 
 **Example of Passing by Reference:**
+
 ```javascript
 function changeObject(obj) {
-    obj.name = "Alice";
+  obj.name = "Alice";
 }
 
 let person = { name: "Bob" };
@@ -10458,35 +10848,40 @@ console.log(person.name); // Outputs: "Alice"
 ### Parameter Destructuring
 
 **Description:**
+
 - Parameter destructuring is a feature that allows you to extract values from objects or arrays directly within the function parameters, making the code more concise and readable.
 
 **Syntax:**
+
 ```javascript
-function functionName({param1, param2}) {
-    // Function body
+function functionName({ param1, param2 }) {
+  // Function body
 }
 ```
 
 **Example with Object Destructuring:**
+
 ```javascript
-function displayUser({name, age}) {
-    return `Name: ${name}, Age: ${age}`;
+function displayUser({ name, age }) {
+  return `Name: ${name}, Age: ${age}`;
 }
 
-const user = {name: "Alice", age: 25};
+const user = { name: "Alice", age: 25 };
 console.log(displayUser(user)); // Outputs: "Name: Alice, Age: 25"
 ```
 
 **Example with Array Destructuring:**
+
 ```javascript
 function sum([a, b, c]) {
-    return a + b + c;
+  return a + b + c;
 }
 
 console.log(sum([1, 2, 3])); // Outputs: 6
 ```
 
 **Use Cases:**
+
 - When you want to work directly with specific properties or elements from an object or array passed as a parameter, reducing the need for additional variable assignments.
 
 ---
@@ -10497,43 +10892,43 @@ console.log(sum([1, 2, 3])); // Outputs: 6
 
 ```javascript
 function greet(name = "Guest") {
-    return `Hello, ${name}!`;
+  return `Hello, ${name}!`;
 }
 
 console.log(greet("Alice")); // Outputs: "Hello, Alice!"
-console.log(greet());        // Outputs: "Hello, Guest!"
+console.log(greet()); // Outputs: "Hello, Guest!"
 ```
 
 #### 5.2. Example with Rest Parameters
 
 ```javascript
 function sum(...numbers) {
-    return numbers.reduce((acc, num) => acc + num, 0);
+  return numbers.reduce((acc, num) => acc + num, 0);
 }
 
 console.log(sum(1, 2, 3)); // Outputs: 6
-console.log(sum(4, 5));    // Outputs: 9
+console.log(sum(4, 5)); // Outputs: 9
 ```
 
 #### 5.3. Example with Named Parameters
 
 ```javascript
-function createUser({name, age, email}) {
-    return `Name: ${name}, Age: ${age}, Email: ${email}`;
+function createUser({ name, age, email }) {
+  return `Name: ${name}, Age: ${age}, Email: ${email}`;
 }
 
-const user = {name: "Bob", age: 30, email: "bob@example.com"};
+const user = { name: "Bob", age: 30, email: "bob@example.com" };
 console.log(createUser(user)); // Outputs: "Name: Bob, Age: 30, Email: bob@example.com"
 ```
 
 #### 5.4. Example with Destructuring Parameters
 
 ```javascript
-function displayUser({name, age}) {
-    return `Name: ${name}, Age: ${age}`;
+function displayUser({ name, age }) {
+  return `Name: ${name}, Age: ${age}`;
 }
 
-const user = {name: "Alice", age: 25};
+const user = { name: "Alice", age: 25 };
 console.log(displayUser(user)); // Outputs: "Name: Alice, Age: 25"
 ```
 
@@ -10546,20 +10941,21 @@ Understanding how to use function parameters effectively allows you to write mor
 ## JavaScript Function Invocation
 
 #### Table of Contents
+
 1. [What is Function Invocation?](#what-is-function-invocation)
 2. [Types of Function Invocation](#types-of-function-invocation)
-    - [2.1. Function Invocation as a Function](#21-function-invocation-as-a-function)
-    - [2.2. Function Invocation as a Method](#22-function-invocation-as-a-method)
-    - [2.3. Function Invocation with `call` and `apply`](#23-function-invocation-with-call-and-apply)
-    - [2.4. Constructor Invocation](#24-constructor-invocation)
-    - [2.5. Indirect Invocation with `bind`](#25-indirect-invocation-with-bind)
+   - [2.1. Function Invocation as a Function](#21-function-invocation-as-a-function)
+   - [2.2. Function Invocation as a Method](#22-function-invocation-as-a-method)
+   - [2.3. Function Invocation with `call` and `apply`](#23-function-invocation-with-call-and-apply)
+   - [2.4. Constructor Invocation](#24-constructor-invocation)
+   - [2.5. Indirect Invocation with `bind`](#25-indirect-invocation-with-bind)
 3. [The `this` Keyword in Different Invocations](#the-this-keyword-in-different-invocations)
 4. [Examples of Function Invocation](#examples-of-function-invocation)
-    - [4.1. Example with Function Invocation as a Function](#41-example-with-function-invocation-as-a-function)
-    - [4.2. Example with Function Invocation as a Method](#42-example-with-function-invocation-as-a-method)
-    - [4.3. Example with `call` and `apply` Invocation](#43-example-with-call-and-apply-invocation)
-    - [4.4. Example with Constructor Invocation](#44-example-with-constructor-invocation)
-    - [4.5. Example with `bind` Invocation](#45-example-with-bind-invocation)
+   - [4.1. Example with Function Invocation as a Function](#41-example-with-function-invocation-as-a-function)
+   - [4.2. Example with Function Invocation as a Method](#42-example-with-function-invocation-as-a-method)
+   - [4.3. Example with `call` and `apply` Invocation](#43-example-with-call-and-apply-invocation)
+   - [4.4. Example with Constructor Invocation](#44-example-with-constructor-invocation)
+   - [4.5. Example with `bind` Invocation](#45-example-with-bind-invocation)
 5. [Summary](#summary)
 
 ---
@@ -10569,6 +10965,7 @@ Understanding how to use function parameters effectively allows you to write mor
 Function invocation is the process of calling or executing a function in JavaScript. When a function is invoked, the code inside the function body is executed. The way a function is invoked determines the context in which the function is executed and affects the value of the `this` keyword.
 
 **Syntax:**
+
 ```javascript
 functionName(arguments);
 ```
@@ -10580,23 +10977,27 @@ functionName(arguments);
 #### 2.1. Function Invocation as a Function
 
 **Description:**
+
 - This is the simplest form of invocation. The function is invoked directly using its name followed by parentheses.
 
 **Syntax:**
+
 ```javascript
 functionName();
 ```
 
 **Example:**
+
 ```javascript
 function greet() {
-    console.log("Hello, world!");
+  console.log("Hello, world!");
 }
 
 greet(); // Outputs: "Hello, world!"
 ```
 
 **Use Cases:**
+
 - Standard way of executing a function.
 
 ---
@@ -10604,26 +11005,30 @@ greet(); // Outputs: "Hello, world!"
 #### 2.2. Function Invocation as a Method
 
 **Description:**
+
 - When a function is invoked as a method of an object, it is executed in the context of that object. The `this` keyword refers to the object that owns the method.
 
 **Syntax:**
+
 ```javascript
 object.methodName();
 ```
 
 **Example:**
+
 ```javascript
 const person = {
-    name: "Alice",
-    greet: function() {
-        console.log(`Hello, my name is ${this.name}`);
-    }
+  name: "Alice",
+  greet: function () {
+    console.log(`Hello, my name is ${this.name}`);
+  },
 };
 
 person.greet(); // Outputs: "Hello, my name is Alice"
 ```
 
 **Use Cases:**
+
 - Useful when working with object-oriented programming in JavaScript.
 
 ---
@@ -10631,27 +11036,31 @@ person.greet(); // Outputs: "Hello, my name is Alice"
 #### 2.3. Function Invocation with `call` and `apply`
 
 **Description:**
+
 - The `call` and `apply` methods allow a function to be invoked with a specified `this` value and arguments.
 
 **Syntax:**
+
 ```javascript
 functionName.call(thisArg, arg1, arg2, ...);
 functionName.apply(thisArg, [arg1, arg2, ...]);
 ```
 
 **Example:**
+
 ```javascript
 function introduce(greeting) {
-    console.log(`${greeting}, I'm ${this.name}`);
+  console.log(`${greeting}, I'm ${this.name}`);
 }
 
 const person = { name: "Bob" };
 
-introduce.call(person, "Hi");   // Outputs: "Hi, I'm Bob"
+introduce.call(person, "Hi"); // Outputs: "Hi, I'm Bob"
 introduce.apply(person, ["Hey"]); // Outputs: "Hey, I'm Bob"
 ```
 
 **Use Cases:**
+
 - When you need to explicitly set the `this` value for a function, such as when borrowing methods from another object.
 
 ---
@@ -10659,26 +11068,30 @@ introduce.apply(person, ["Hey"]); // Outputs: "Hey, I'm Bob"
 #### 2.4. Constructor Invocation
 
 **Description:**
+
 - When a function is invoked with the `new` keyword, it acts as a constructor, creating a new object and setting the `this` keyword to that new object.
 
 **Syntax:**
+
 ```javascript
 new FunctionName(arguments);
 ```
 
 **Example:**
+
 ```javascript
 function Car(make, model) {
-    this.make = make;
-    this.model = model;
+  this.make = make;
+  this.model = model;
 }
 
 const myCar = new Car("Toyota", "Corolla");
-console.log(myCar.make);  // Outputs: "Toyota"
+console.log(myCar.make); // Outputs: "Toyota"
 console.log(myCar.model); // Outputs: "Corolla"
 ```
 
 **Use Cases:**
+
 - Used for creating instances of objects using constructor functions.
 
 ---
@@ -10686,17 +11099,20 @@ console.log(myCar.model); // Outputs: "Corolla"
 #### 2.5. Indirect Invocation with `bind`
 
 **Description:**
+
 - The `bind` method creates a new function that, when invoked, has its `this` keyword set to the provided value.
 
 **Syntax:**
+
 ```javascript
 const boundFunction = functionName.bind(thisArg);
 ```
 
 **Example:**
+
 ```javascript
 function introduce(greeting) {
-    console.log(`${greeting}, I'm ${this.name}`);
+  console.log(`${greeting}, I'm ${this.name}`);
 }
 
 const person = { name: "Bob" };
@@ -10706,6 +11122,7 @@ boundIntroduce("Hello"); // Outputs: "Hello, I'm Bob"
 ```
 
 **Use Cases:**
+
 - When you want to create a function with a fixed `this` context, useful in event handling or callback functions.
 
 ---
@@ -10713,6 +11130,7 @@ boundIntroduce("Hello"); // Outputs: "Hello, I'm Bob"
 ### The `this` Keyword in Different Invocations
 
 The value of `this` depends on how the function is invoked:
+
 - **Function Invocation as a Function:** `this` refers to the global object (in non-strict mode) or `undefined` (in strict mode).
 - **Function Invocation as a Method:** `this` refers to the object the method belongs to.
 - **Function Invocation with `call` and `apply`:** `this` is explicitly set to the specified object.
@@ -10727,7 +11145,7 @@ The value of `this` depends on how the function is invoked:
 
 ```javascript
 function greet() {
-    console.log("Hello, world!");
+  console.log("Hello, world!");
 }
 
 greet(); // Outputs: "Hello, world!"
@@ -10737,10 +11155,10 @@ greet(); // Outputs: "Hello, world!"
 
 ```javascript
 const person = {
-    name: "Alice",
-    greet: function() {
-        console.log(`Hello, my name is ${this.name}`);
-    }
+  name: "Alice",
+  greet: function () {
+    console.log(`Hello, my name is ${this.name}`);
+  },
 };
 
 person.greet(); // Outputs: "Hello, my name is Alice"
@@ -10750,12 +11168,12 @@ person.greet(); // Outputs: "Hello, my name is Alice"
 
 ```javascript
 function introduce(greeting) {
-    console.log(`${greeting}, I'm ${this.name}`);
+  console.log(`${greeting}, I'm ${this.name}`);
 }
 
 const person = { name: "Bob" };
 
-introduce.call(person, "Hi");   // Outputs: "Hi, I'm Bob"
+introduce.call(person, "Hi"); // Outputs: "Hi, I'm Bob"
 introduce.apply(person, ["Hey"]); // Outputs: "Hey, I'm Bob"
 ```
 
@@ -10763,12 +11181,12 @@ introduce.apply(person, ["Hey"]); // Outputs: "Hey, I'm Bob"
 
 ```javascript
 function Car(make, model) {
-    this.make = make;
-    this.model = model;
+  this.make = make;
+  this.model = model;
 }
 
 const myCar = new Car("Toyota", "Corolla");
-console.log(myCar.make);  // Outputs: "Toyota"
+console.log(myCar.make); // Outputs: "Toyota"
 console.log(myCar.model); // Outputs: "Corolla"
 ```
 
@@ -10776,7 +11194,7 @@ console.log(myCar.model); // Outputs: "Corolla"
 
 ```javascript
 function introduce(greeting) {
-    console.log(`${greeting}, I'm ${this.name}`);
+  console.log(`${greeting}, I'm ${this.name}`);
 }
 
 const person = { name: "Bob" };
@@ -10791,18 +11209,18 @@ boundIntroduce("Hello"); // Outputs: "Hello, I'm Bob"
 
 Function invocation is a fundamental concept in JavaScript that determines how and in what context a function is executed. Understanding the different types of invocation—whether as a regular function, method, constructor, or through `call`, `apply`, or `bind`—is crucial for controlling the execution context (`this`) and writing robust, reusable code.
 
-
 ## JavaScript `call()` Method
 
 #### Table of Contents
+
 1. [Introduction to `call()`](#introduction-to-call)
 2. [Syntax of `call()`](#syntax-of-call)
 3. [How `call()` Works](#how-call-works)
 4. [Examples of Using `call()`](#examples-of-using-call)
-    - [4.1. Example with Method Borrowing](#41-example-with-method-borrowing)
-    - [4.2. Example with Inheriting Methods from Other Objects](#42-example-with-inheriting-methods-from-other-objects)
-    - [4.3. Example with Function Invocation](#43-example-with-function-invocation)
-    - [4.4. Example with `call()` for `this` Binding](#44-example-with-call-for-this-binding)
+   - [4.1. Example with Method Borrowing](#41-example-with-method-borrowing)
+   - [4.2. Example with Inheriting Methods from Other Objects](#42-example-with-inheriting-methods-from-other-objects)
+   - [4.3. Example with Function Invocation](#43-example-with-function-invocation)
+   - [4.4. Example with `call()` for `this` Binding](#44-example-with-call-for-this-binding)
 5. [Advantages of `call()`](#advantages-of-call)
 6. [Summary](#summary)
 
@@ -10812,12 +11230,12 @@ Function invocation is a fundamental concept in JavaScript that determines how a
 
 - Scenario যদি এরকম হয় যে ধরুন, আমারা একটা A Object এর একটা Method কে Call করতে চাচ্ছি এবং ঐ A Object এর ঐ Method এ **this** আছে। এখন এই **this** অবশ্যই কোন একটা Object কে Refer করবে। এই **this** কোন Object কে নির্দেশ করবে সেটা যদি আমারা বাইরে থেকে বলে দিতে চাই, তাহলে **call()** Method এর ১ম Argument এ সেই Object এর নাম বলে দিতে পারি।
 
-
 ---
 
 ### Syntax of `call()`
 
 **Syntax:**
+
 ```javascript
 function.call(objectName, arg1, arg2, ...);
 ```
@@ -10832,20 +11250,21 @@ function.call(objectName, arg1, arg2, ...);
 #### 4.1. Example with Method Borrowing
 
 **Example:**
+
 ```javascript
 const person = {
-    fullName: function() {
-        return this.firstName + " " + this.lastName;
-    }
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
 };
 
 const person1 = {
-    firstName: "Abdul",
-    lastName: "Alim"
+  firstName: "Abdul",
+  lastName: "Alim",
 };
 const person2 = {
-    firstName: "Abdur",
-    lastName: "Rahim"
+  firstName: "Abdur",
+  lastName: "Rahim",
 };
 
 console.log(person.fullName.call(person1)); // Outputs: "Abdul Alim"
@@ -10855,18 +11274,19 @@ console.log(person.fullName.call(person2)); // Outputs: "Abdur Rahim"
 #### 4.2. Example with Inheriting Methods from Other Objects
 
 **Example:**
+
 ```javascript
 const person = {
-    firstName: "Abdul",
-    lastName: "Alim",
-    fullName: function() {
-        return this.firstName + " " + this.lastName;
-    }
+  firstName: "Abdul",
+  lastName: "Alim",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
 };
 
 const anotherPerson = {
-    firstName: "Abdur",
-    lastName: "Rahim"
+  firstName: "Abdur",
+  lastName: "Rahim",
 };
 
 console.log(person.fullName.call(anotherPerson)); // Outputs: "Abdur Rahim"
@@ -10877,9 +11297,10 @@ console.log(person.fullName.call(anotherPerson)); // Outputs: "Abdur Rahim"
 #### 4.3. Example with Function Invocation
 
 **Example:**
+
 ```javascript
 function greet(greeting) {
-    console.log(`${greeting}, I'm ${this.name}`);
+  console.log(`${greeting}, I'm ${this.name}`);
 }
 
 const person = { name: "Alice" };
@@ -10895,16 +11316,17 @@ The `greet` function is invoked with `call()`, and the `this` keyword inside `gr
 #### 4.4. Example with `call()` for `this` Binding
 
 **Example:**
+
 ```javascript
 const car = {
-    brand: "Toyota",
-    showBrand: function() {
-        console.log(`This car is a ${this.brand}`);
-    }
+  brand: "Toyota",
+  showBrand: function () {
+    console.log(`This car is a ${this.brand}`);
+  },
 };
 
 const bike = {
-    brand: "Honda"
+  brand: "Honda",
 };
 
 car.showBrand.call(bike); // Outputs: "This bike is a Honda"
@@ -10923,18 +11345,18 @@ Here, the `call()` method is used to set the `this` value inside `showBrand` to 
 
 ---
 
-
 ## JavaScript `apply()` Method
 
 #### Table of Contents
+
 1. [Introduction to `apply()`](#introduction-to-apply)
 2. [Syntax of `apply()`](#syntax-of-apply)
 3. [How `apply()` Works](#how-apply-works)
 4. [Examples of Using `apply()`](#examples-of-using-apply)
-    - [4.1. Example with Array as Arguments](#41-example-with-array-as-arguments)
-    - [4.2. Example with Method Borrowing](#42-example-with-method-borrowing)
-    - [4.3. Example with Math Functions](#43-example-with-math-functions)
-    - [4.4. Example with `apply()` for `this` Binding](#44-example-with-apply-for-this-binding)
+   - [4.1. Example with Array as Arguments](#41-example-with-array-as-arguments)
+   - [4.2. Example with Method Borrowing](#42-example-with-method-borrowing)
+   - [4.3. Example with Math Functions](#43-example-with-math-functions)
+   - [4.4. Example with `apply()` for `this` Binding](#44-example-with-apply-for-this-binding)
 5. [Advantages of `apply()`](#advantages-of-apply)
 
 ---
@@ -10948,6 +11370,7 @@ The `apply()` method in JavaScript is similar to `call()`, but with a key differ
 ### Syntax of `apply()`
 
 **Syntax:**
+
 ```javascript
 function.apply(thisArg, [argsArray]);
 ```
@@ -10962,9 +11385,10 @@ function.apply(thisArg, [argsArray]);
 #### 4.1. Example with Array as Arguments
 
 **Example:**
+
 ```javascript
 function sum(a, b, c) {
-    return a + b + c;
+  return a + b + c;
 }
 
 const numbers = [1, 2, 3];
@@ -10979,16 +11403,17 @@ In this example, the `sum` function is invoked using `apply()`, with the argumen
 #### 4.2. Example with Method Borrowing
 
 **Example:**
+
 ```javascript
 const person1 = {
-    fullName: function() {
-        return this.firstName + " " + this.lastName;
-    }
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
 };
 
 const person2 = {
-    firstName: "Jane",
-    lastName: "Doe"
+  firstName: "Jane",
+  lastName: "Doe",
 };
 
 console.log(person1.fullName.apply(person2)); // Outputs: "Jane Doe"
@@ -11002,6 +11427,7 @@ Here, `person2` borrows the `fullName` method from `person1` using `apply()`, al
 #### 4.3. Example with Math Functions
 
 **Example:**
+
 ```javascript
 const numbers = [5, 6, 2, 3, 7];
 
@@ -11020,16 +11446,21 @@ The `apply()` method is used here to pass an array of numbers to the `Math.max` 
 #### 4.4. Example with `apply()` for `this` Binding
 
 **Example:**
+
 ```javascript
 const car = {
-    brand: "Tesla",
-    showBrand: function(speed, time) {
-        console.log(`This car is a ${this.brand} and it travels ${speed * time} miles in ${time} hours.`);
-    }
+  brand: "Tesla",
+  showBrand: function (speed, time) {
+    console.log(
+      `This car is a ${this.brand} and it travels ${
+        speed * time
+      } miles in ${time} hours.`
+    );
+  },
 };
 
 const bike = {
-    brand: "Yamaha"
+  brand: "Yamaha",
 };
 
 car.showBrand.apply(bike, [60, 2]); // Outputs: "This car is a Yamaha and it travels 120 miles in 2 hours."
@@ -11038,18 +11469,18 @@ car.showBrand.apply(bike, [60, 2]); // Outputs: "This car is a Yamaha and it tra
 **Explanation:**
 In this example, the `apply()` method is used to invoke the `showBrand` method with `bike` as the `this` context, passing the speed and time as an array.
 
-
 ## JavaScript `bind()` Method
 
 #### Table of Contents
+
 1. [Introduction to `bind()`](#introduction-to-bind)
 2. [Syntax of `bind()`](#syntax-of-bind)
 3. [How `bind()` Works](#how-bind-works)
 4. [Examples of Using `bind()`](#examples-of-using-bind)
-    - [4.1. Example with Preserving `this` Context](#41-example-with-preserving-this-context)
-    - [4.2. Example with Partial Application](#42-example-with-partial-application)
-    - [4.3. Example with Event Handlers](#43-example-with-event-handlers)
-    - [4.4. Example with Method Borrowing](#44-example-with-method-borrowing)
+   - [4.1. Example with Preserving `this` Context](#41-example-with-preserving-this-context)
+   - [4.2. Example with Partial Application](#42-example-with-partial-application)
+   - [4.3. Example with Event Handlers](#43-example-with-event-handlers)
+   - [4.4. Example with Method Borrowing](#44-example-with-method-borrowing)
 5. [Advantages of `bind()`](#advantages-of-bind)
 6. [Summary](#summary)
 
@@ -11064,6 +11495,7 @@ The `bind()` method in JavaScript is used to create a new function that, when ca
 ### Syntax of `bind()`
 
 **Syntax:**
+
 ```javascript
 function.bind(thisArg, arg1, arg2, ...);
 ```
@@ -11084,12 +11516,13 @@ The `bind()` method returns a new function with the `this` value set to `thisArg
 #### 4.1. Example with Preserving `this` Context
 
 **Example:**
+
 ```javascript
 const person = {
-    name: "Alice",
-    greet: function() {
-        console.log(`Hello, my name is ${this.name}`);
-    }
+  name: "Alice",
+  greet: function () {
+    console.log(`Hello, my name is ${this.name}`);
+  },
 };
 
 const greet = person.greet.bind(person);
@@ -11104,9 +11537,10 @@ In this example, the `greet` function is bound to the `person` object, preservin
 #### 4.2. Example with Partial Application
 
 **Example:**
+
 ```javascript
 function multiply(a, b) {
-    return a * b;
+  return a * b;
 }
 
 const double = multiply.bind(null, 2);
@@ -11121,13 +11555,14 @@ Here, the `multiply` function is partially applied using `bind()`, creating a ne
 #### 4.3. Example with Event Handlers
 
 **Example:**
+
 ```javascript
 function Button() {
-    this.clicked = false;
-    this.click = function() {
-        this.clicked = true;
-        console.log("Button clicked:", this.clicked);
-    };
+  this.clicked = false;
+  this.click = function () {
+    this.clicked = true;
+    console.log("Button clicked:", this.clicked);
+  };
 }
 
 const button = new Button();
@@ -11143,16 +11578,17 @@ In this example, `bind()` is used to ensure that the `this` context inside the `
 #### 4.4. Example with Method Borrowing
 
 **Example:**
+
 ```javascript
 const person1 = {
-    name: "John",
-    getName: function() {
-        return this.name;
-    }
+  name: "John",
+  getName: function () {
+    return this.name;
+  },
 };
 
 const person2 = {
-    name: "Doe"
+  name: "Doe",
 };
 
 const getName = person1.getName.bind(person2);
@@ -11179,6 +11615,7 @@ The `bind()` method is a powerful tool in JavaScript that allows you to control 
 ## JavaScript Closures
 
 #### Table of Contents
+
 1. [Why Do You Need Closures?](#why-do-you-need-closures)
 2. [Introduction to Closures](#introduction-to-closures)
 3. [How Closures Work](#how-closures-work)
@@ -11200,14 +11637,15 @@ Imagine you're creating a counter in JavaScript. You want the counter to start a
 Without closures, it can be challenging to maintain this private state across multiple calls to the counter function. Closures allow you to encapsulate the counter logic within a function, ensuring that the count variable remains private and is only accessible through the function itself.
 
 **Real Example:**
+
 ```javascript
 function createCounter() {
-    let count = 0; // Private variable
+  let count = 0; // Private variable
 
-    return function() {
-        count += 1;
-        return count;
-    };
+  return function () {
+    count += 1;
+    return count;
+  };
 }
 
 const counter = createCounter();
@@ -11237,15 +11675,16 @@ In JavaScript, when a function is declared inside another function, it forms a c
 #### 4.1. Example with Nested Functions
 
 **Example:**
+
 ```javascript
 function outerFunction() {
-    let outerVariable = "I am outside!";
+  let outerVariable = "I am outside!";
 
-    function innerFunction() {
-        console.log(outerVariable);
-    }
+  function innerFunction() {
+    console.log(outerVariable);
+  }
 
-    return innerFunction;
+  return innerFunction;
 }
 
 const myClosure = outerFunction();
@@ -11260,14 +11699,15 @@ In this example, `innerFunction` forms a closure with `outerFunction`, allowing 
 #### 4.2. Example with Private Variables
 
 **Example:**
+
 ```javascript
 function createCounter() {
-    let count = 0;
+  let count = 0;
 
-    return function() {
-        count += 1;
-        return count;
-    };
+  return function () {
+    count += 1;
+    return count;
+  };
 }
 
 const counter = createCounter();
@@ -11284,13 +11724,14 @@ Here, the `count` variable is private to the `createCounter` function, and it ca
 #### 4.3. Example with Callbacks
 
 **Example:**
+
 ```javascript
 function fetchData(url) {
-    const secretKey = "my-secret-key";
+  const secretKey = "my-secret-key";
 
-    return function() {
-        console.log(`Fetching data from ${url} using key ${secretKey}`);
-    };
+  return function () {
+    console.log(`Fetching data from ${url} using key ${secretKey}`);
+  };
 }
 
 const fetchDataFromAPI = fetchData("https://api.example.com");
@@ -11305,16 +11746,17 @@ In this example, the `fetchData` function returns a closure that remembers the `
 #### 4.4. Example with Looping Constructs
 
 **Example:**
+
 ```javascript
 function createTimers() {
-    for (let i = 0; i < 5; i++) {
-        setTimeout(function() {
-            console.log(i);
-        }, i * 1000);
-    }
+  for (let i = 0; i < 5; i++) {
+    setTimeout(function () {
+      console.log(i);
+    }, i * 1000);
+  }
 }
 
-createTimers(); 
+createTimers();
 // Outputs: 0, 1, 2, 3, 4 (each after 1 second interval)
 ```
 
@@ -11343,10 +11785,10 @@ In this example, the loop creates a closure for each iteration of the loop. Sinc
 
 Closures are a powerful feature in JavaScript that allow functions to access variables from their outer scope, even after the outer function has completed execution. They provide a way to create private variables, maintain state, and write more modular code. Understanding closures is crucial for mastering JavaScript, as they are fundamental to many advanced programming patterns and techniques.
 
-
 ## Higher-Order Functions
 
 #### Table of Contents
+
 1. [Why Do You Need Higher-Order Functions?](#why-do-you-need-higher-order-functions)
 2. [Introduction to Higher-Order Functions](#introduction-to-higher-order-functions)
 3. [How Higher-Order Functions Work](#how-higher-order-functions-work)
@@ -11366,11 +11808,12 @@ Closures are a powerful feature in JavaScript that allow functions to access var
 Higher-order functions are a powerful concept in JavaScript that allow you to write more flexible, reusable, and expressive code. Imagine you need to apply a series of transformations to an array of numbers, such as doubling each number and then filtering out those greater than 10. Instead of writing repetitive loops, you can use higher-order functions like `map()` and `filter()` to achieve this in a clean and efficient way.
 
 **Real Example:**
+
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
 
-const doubled = numbers.map(num => num * 2); // [2, 4, 6, 8, 10]
-const filtered = doubled.filter(num => num <= 10); // [2, 4, 6, 8, 10]
+const doubled = numbers.map((num) => num * 2); // [2, 4, 6, 8, 10]
+const filtered = doubled.filter((num) => num <= 10); // [2, 4, 6, 8, 10]
 
 console.log(filtered); // Outputs: [2, 4, 6, 8, 10]
 ```
@@ -11396,10 +11839,11 @@ Higher-order functions work by accepting a function as an argument or returning 
 #### 4.1. Array Methods as Higher-Order Functions
 
 **Example:**
+
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
 
-const squared = numbers.map(num => num * num);
+const squared = numbers.map((num) => num * num);
 console.log(squared); // Outputs: [1, 4, 9, 16, 25]
 ```
 
@@ -11411,16 +11855,17 @@ In this example, `map()` is a higher-order function that takes a function (`num 
 #### 4.2. Creating a Custom Higher-Order Function
 
 **Example:**
+
 ```javascript
 function repeat(operation, num) {
-    return function() {
-        for (let i = 0; i < num; i++) {
-            operation();
-        }
-    };
+  return function () {
+    for (let i = 0; i < num; i++) {
+      operation();
+    }
+  };
 }
 
-const sayHello = repeat(() => console.log('Hello!'), 3);
+const sayHello = repeat(() => console.log("Hello!"), 3);
 sayHello();
 // Outputs: "Hello!" three times
 ```
@@ -11433,17 +11878,22 @@ Here, `repeat` is a higher-order function that takes an `operation` function and
 #### 4.3. Using Higher-Order Functions for Event Handling
 
 **Example:**
+
 ```javascript
 function addEventListenerWithLog(element, event, handler) {
-    element.addEventListener(event, function(event) {
-        console.log(`Event triggered: ${event.type}`);
-        handler(event);
-    });
+  element.addEventListener(event, function (event) {
+    console.log(`Event triggered: ${event.type}`);
+    handler(event);
+  });
 }
 
-addEventListenerWithLog(document.getElementById('myButton'), 'click', function() {
-    console.log('Button clicked!');
-});
+addEventListenerWithLog(
+  document.getElementById("myButton"),
+  "click",
+  function () {
+    console.log("Button clicked!");
+  }
+);
 ```
 
 **Explanation:**
@@ -11454,15 +11904,16 @@ In this example, `addEventListenerWithLog` is a higher-order function that wraps
 #### 4.4. Functional Composition with Higher-Order Functions
 
 **Example:**
+
 ```javascript
 function compose(f, g) {
-    return function(x) {
-        return f(g(x));
-    };
+  return function (x) {
+    return f(g(x));
+  };
 }
 
-const addOne = x => x + 1;
-const square = x => x * x;
+const addOne = (x) => x + 1;
+const square = (x) => x * x;
 
 const addOneThenSquare = compose(square, addOne);
 
@@ -11494,7 +11945,6 @@ Here, `compose` is a higher-order function that takes two functions, `f` and `g`
 
 Higher-order functions are a fundamental concept in JavaScript that allow you to write more modular, reusable, and expressive code. They enable a functional programming style, where functions can be passed around, composed, and applied in various contexts. Understanding and using higher-order functions is key to mastering JavaScript and writing clean, efficient code.
 
-
 # Chapter-15: Asynchronous JavaScript
 
 - [JavaScript Callbacks](#javascript-callbacks)
@@ -11502,10 +11952,10 @@ Higher-order functions are a fundamental concept in JavaScript that allow you to
 - [JavaScript Promises](#javascript-promises)
 - [JavaScript Async/Await](#javascript-asyncawait)
 
-
 ## JavaScript Callbacks
 
 ### Table of Contents
+
 1. [Introduction to Callbacks](#introduction-to-callbacks)
 2. [Why Use Callbacks?](#why-use-callbacks)
 3. [Creating a Callback Function](#creating-a-callback-function)
@@ -11526,24 +11976,25 @@ Higher-order functions are a fundamental concept in JavaScript that allow you to
 
 #### Understanding with Simple Terms:
 
-ধরুন আপনি আপনার বন্ধুকে একটি কাজ করার জন্য বললেন, এবং বললেন কাজটি শেষ হলে আপনাকে ফোন করতে। এখানেই callback এর মূল ধারণা। আপনি আপনার বন্ধুকে বললেন কাজটি শেষ হলে আপনাকে ফোন করতে (যেটা হলো callback function), এবং আপনার বন্ধু কাজ শেষে আপনাকে ফোন করবে (যেটা হলো function call)। 
+ধরুন আপনি আপনার বন্ধুকে একটি কাজ করার জন্য বললেন, এবং বললেন কাজটি শেষ হলে আপনাকে ফোন করতে। এখানেই callback এর মূল ধারণা। আপনি আপনার বন্ধুকে বললেন কাজটি শেষ হলে আপনাকে ফোন করতে (যেটা হলো callback function), এবং আপনার বন্ধু কাজ শেষে আপনাকে ফোন করবে (যেটা হলো function call)।
 
 #### Example:
 
 ```javascript
 function greet(name, callback) {
-    console.log('Hello ' + name);
-    callback();
+  console.log("Hello " + name);
+  callback();
 }
 
 function sayGoodbye() {
-    console.log('Goodbye!');
+  console.log("Goodbye!");
 }
 
-greet('John', sayGoodbye);
+greet("John", sayGoodbye);
 ```
 
 **Console Output:**
+
 ```
 Hello John
 Goodbye!
@@ -11561,21 +12012,22 @@ JavaScript একটি asynchronous programming language। অর্থাৎ,
 
 ```javascript
 function downloadFile(url, callback) {
-    console.log('Downloading file from ' + url);
-    setTimeout(function() {
-        console.log('File downloaded');
-        callback();
-    }, 3000);
+  console.log("Downloading file from " + url);
+  setTimeout(function () {
+    console.log("File downloaded");
+    callback();
+  }, 3000);
 }
 
 function processFile() {
-    console.log('Processing the downloaded file');
+  console.log("Processing the downloaded file");
 }
 
-downloadFile('http://example.com/file', processFile);
+downloadFile("http://example.com/file", processFile);
 ```
 
 **Console Output:**
+
 ```
 Downloading file from http://example.com/file
 File downloaded
@@ -11588,7 +12040,7 @@ Processing the downloaded file
 
 #### How to Create a Callback Function
 
-একটি callback function তৈরি করা খুবই সহজ। এটি মূলত একটি function যা অন্য একটি function এর argument হিসেবে pass করা হয় এবং সেই function এর মধ্যে নির্দিষ্ট সময়ে call করা হয়। 
+একটি callback function তৈরি করা খুবই সহজ। এটি মূলত একটি function যা অন্য একটি function এর argument হিসেবে pass করা হয় এবং সেই function এর মধ্যে নির্দিষ্ট সময়ে call করা হয়।
 
 #### Step-by-Step Example:
 
@@ -11600,16 +12052,17 @@ Processing the downloaded file
 
 ```javascript
 function performTask(task, callback) {
-    console.log('Performing task: ' + task);
-    callback();
+  console.log("Performing task: " + task);
+  callback();
 }
 
-performTask('Cleaning', function() {
-    console.log('Task completed!');
+performTask("Cleaning", function () {
+  console.log("Task completed!");
 });
 ```
 
 **Console Output:**
+
 ```
 Performing task: Cleaning
 Task completed!
@@ -11627,20 +12080,21 @@ JavaScript একটি single-threaded language, অর্থাৎ এটি �
 
 ```javascript
 function fetchData(callback) {
-    setTimeout(function() {
-        console.log('Data fetched from server');
-        callback();
-    }, 2000);
+  setTimeout(function () {
+    console.log("Data fetched from server");
+    callback();
+  }, 2000);
 }
 
 function processData() {
-    console.log('Processing data...');
+  console.log("Processing data...");
 }
 
 fetchData(processData);
 ```
 
 **Console Output:**
+
 ```
 Data fetched from server
 Processing data...
@@ -11655,8 +12109,8 @@ Processing data...
 ইভেন্ট handling এ callback functions ব্যবহার করা হয়। যখন user কোন button এ click করে বা কোন input field এ কিছু লেখে, তখন ইভেন্ট ঘটে। সেই ইভেন্টগুলো handle করতে callback functions ব্যবহার করা হয়।
 
 ```javascript
-document.getElementById('myButton').addEventListener('click', function() {
-    console.log('Button clicked!');
+document.getElementById("myButton").addEventListener("click", function () {
+  console.log("Button clicked!");
 });
 ```
 
@@ -11664,24 +12118,25 @@ document.getElementById('myButton').addEventListener('click', function() {
 
 #### 5.2 Server Requests
 
-AJAX বা অন্য কোন server requests এ callbacks অত্যন্ত গুরুত্বপূর্ণ। 
+AJAX বা অন্য কোন server requests এ callbacks অত্যন্ত গুরুত্বপূর্ণ।
 
 ```javascript
 function makeRequest(url, callback) {
-    console.log('Making request to ' + url);
-    // Hypothetical request simulation
-    setTimeout(function() {
-        console.log('Request completed!');
-        callback();
-    }, 2000);
+  console.log("Making request to " + url);
+  // Hypothetical request simulation
+  setTimeout(function () {
+    console.log("Request completed!");
+    callback();
+  }, 2000);
 }
 
-makeRequest('http://example.com', function() {
-    console.log('Data received and processed!');
+makeRequest("http://example.com", function () {
+  console.log("Data received and processed!");
 });
 ```
 
 **Console Output:**
+
 ```
 Making request to http://example.com
 Request completed!
@@ -11692,16 +12147,17 @@ Data received and processed!
 
 #### 5.3 Array Methods
 
-JavaScript এর built-in array methods, যেমন: `forEach`, `map`, `filter`, এও callback functions ব্যবহার করা হয়। 
+JavaScript এর built-in array methods, যেমন: `forEach`, `map`, `filter`, এও callback functions ব্যবহার করা হয়।
 
 ```javascript
 let numbers = [1, 2, 3, 4, 5];
-numbers.forEach(function(number) {
-    console.log(number * 2);
+numbers.forEach(function (number) {
+  console.log(number * 2);
 });
 ```
 
 **Console Output:**
+
 ```
 2
 4
@@ -11725,24 +12181,25 @@ numbers.forEach(function(number) {
 
 ```javascript
 function uploadImage(image, callback) {
-    console.log('Uploading image...');
-    setTimeout(function() {
-        console.log('Image uploaded.');
-        callback();
-    }, 2000);
+  console.log("Uploading image...");
+  setTimeout(function () {
+    console.log("Image uploaded.");
+    callback();
+  }, 2000);
 }
 
 function resizeImage() {
-    console.log('Resizing image...');
-    setTimeout(function() {
-        console.log('Image resized and saved to database.');
-    }, 1000);
+  console.log("Resizing image...");
+  setTimeout(function () {
+    console.log("Image resized and saved to database.");
+  }, 1000);
 }
 
-uploadImage('profile.jpg', resizeImage);
+uploadImage("profile.jpg", resizeImage);
 ```
 
 **Console Output:**
+
 ```
 Uploading image...
 Image uploaded.
@@ -11752,7 +12209,7 @@ Image resized and saved to database.
 
 **Detailed Explanation:**
 
-1. **Upload Image:** `uploadImage` function টি image upload করার জন্য simulate করা হয়েছে। এখানে, `setTimeout` function ব্যবহার করে asynchronous কাজ করা হয়েছে যা ২ সেকেন্ড সময় নিয়ে image upload complete করেছে। 
+1. **Upload Image:** `uploadImage` function টি image upload করার জন্য simulate করা হয়েছে। এখানে, `setTimeout` function ব্যবহার করে asynchronous কাজ করা হয়েছে যা ২ সেকেন্ড সময় নিয়ে image upload complete করেছে।
 
 2. **Resize Image:** Image upload হওয়ার পর `resizeImage` function call হয়, যা image resize এবং database এ save করার কাজটি সম্পন্ন করে। এটি আরও ১ সেকেন্ড সময় নেয়।
 
@@ -11763,27 +12220,26 @@ Image resized and saved to database.
 ধরুন, আপনি একটি user registration system তৈরি করছেন যেখানে user তার নাম এবং email address দিয়ে register করবে। Registration প্রক্রিয়া সম্পন্ন করার পর user কে একটি welcome email পাঠানো হবে। এই ধরনের কাজ sequential ভাবে করতে হবে।
 
 ```javascript
-function registerUser(name, email, callback
-
-) {
-    console.log('Registering user: ' + name);
-    setTimeout(function() {
-        console.log('User registered successfully.');
-        callback();
-    }, 1500);
+function registerUser(name, email, callback) {
+  console.log("Registering user: " + name);
+  setTimeout(function () {
+    console.log("User registered successfully.");
+    callback();
+  }, 1500);
 }
 
 function sendWelcomeEmail() {
-    console.log('Sending welcome email...');
-    setTimeout(function() {
-        console.log('Welcome email sent!');
-    }, 1000);
+  console.log("Sending welcome email...");
+  setTimeout(function () {
+    console.log("Welcome email sent!");
+  }, 1000);
 }
 
-registerUser('John Doe', 'john@example.com', sendWelcomeEmail);
+registerUser("John Doe", "john@example.com", sendWelcomeEmail);
 ```
 
 **Console Output:**
+
 ```
 Registering user: John Doe
 User registered successfully.
@@ -11793,11 +12249,11 @@ Welcome email sent!
 
 **Detailed Explanation:**
 
-1. **Register User:** প্রথমে `registerUser` function call করে user registration সম্পন্ন করা হচ্ছে। এটি ১.৫ সেকেন্ড সময় নিচ্ছে। 
+1. **Register User:** প্রথমে `registerUser` function call করে user registration সম্পন্ন করা হচ্ছে। এটি ১.৫ সেকেন্ড সময় নিচ্ছে।
 
 2. **Send Welcome Email:** Registration সম্পন্ন হলে `sendWelcomeEmail` function call করা হচ্ছে যা user কে একটি welcome email পাঠাচ্ছে।
 
-এখানে callback function ব্যবহার করা হয়েছে যাতে registration সম্পন্ন হওয়ার পর welcome email পাঠানো হয়। 
+এখানে callback function ব্যবহার করা হয়েছে যাতে registration সম্পন্ন হওয়ার পর welcome email পাঠানো হয়।
 
 ### 7. Handling Errors in Callbacks
 
@@ -11809,51 +12265,52 @@ Callback functions error handling এর জন্যও ব্যবহার �
 
 ```javascript
 function doTask(task, callback) {
-    if (!task) {
-        callback('No task provided', null); // Passing error message
-    } else {
-        console.log('Task is being done');
-        callback(null, 'Task completed'); // No error, passing result
-    }
+  if (!task) {
+    callback("No task provided", null); // Passing error message
+  } else {
+    console.log("Task is being done");
+    callback(null, "Task completed"); // No error, passing result
+  }
 }
 
-doTask(null, function(error, result) {
-    if (error) {
-        console.log('Error: ' + error);
-    } else {
-        console.log(result);
-    }
+doTask(null, function (error, result) {
+  if (error) {
+    console.log("Error: " + error);
+  } else {
+    console.log(result);
+  }
 });
 ```
 
 **Console Output:**
+
 ```
 Error: No task provided
 ```
 
-**Explanation:** এই উদাহরণে, যদি কোনো task provide না করা হয়, তাহলে `callback` function এ error message pass করা হয় এবং error handle করা হয়। 
+**Explanation:** এই উদাহরণে, যদি কোনো task provide না করা হয়, তাহলে `callback` function এ error message pass করা হয় এবং error handle করা হয়।
 
 ### 8. Conclusion
 
 JavaScript callbacks powerful এবং flexible functions যা asynchronous এবং synchronous উভয় কাজেই ব্যবহৃত হয়। callbacks ব্যবহার করার ফলে JavaScript non-blocking, event-driven programming করতে পারে। Proper callback usage করার মাধ্যমে complex asynchronous tasks সহজে manage করা যায় এবং error handling সহজ হয়।
 
-
 ## Asynchronous JavaScript
 
 ### Table of Contents
+
 1. [Introduction to Asynchronous JavaScript](#introduction-to-asynchronous-javascript)
 2. [Synchronous vs Asynchronous Programming](#synchronous-vs-asynchronous-programming)
 3. [Callbacks in Asynchronous JavaScript](#callbacks-in-asynchronous-javascript)
 4. [Promises](#promises)
-    - [Creating a Promise](#creating-a-promise)
-    - [Chaining Promises](#chaining-promises)
-    - [Handling Errors with Promises](#handling-errors-with-promises)
+   - [Creating a Promise](#creating-a-promise)
+   - [Chaining Promises](#chaining-promises)
+   - [Handling Errors with Promises](#handling-errors-with-promises)
 5. [Async/Await](#asyncawait)
-    - [Using Async Functions](#using-async-functions)
-    - [Error Handling in Async/Await](#error-handling-in-asyncawait)
+   - [Using Async Functions](#using-async-functions)
+   - [Error Handling in Async/Await](#error-handling-in-asyncawait)
 6. [Real-life Examples of Asynchronous JavaScript](#real-life-examples-of-asynchronous-javascript)
-    - [Fetching Data from an API](#fetching-data-from-an-api)
-    - [Reading Files](#reading-files)
+   - [Fetching Data from an API](#fetching-data-from-an-api)
+   - [Reading Files](#reading-files)
 7. [Conclusion](#conclusion)
 
 ### 1. Introduction to Asynchronous JavaScript
@@ -11881,12 +12338,13 @@ JavaScript callbacks powerful এবং flexible functions যা asynchronous �
 ##### Example:
 
 ```javascript
-console.log('Task 1: Starting');
-console.log('Task 2: In Progress');
-console.log('Task 3: Completed');
+console.log("Task 1: Starting");
+console.log("Task 2: In Progress");
+console.log("Task 3: Completed");
 ```
 
 **Console Output:**
+
 ```
 Task 1: Starting
 Task 2: In Progress
@@ -11903,16 +12361,17 @@ Task 3: Completed
 ##### Example:
 
 ```javascript
-console.log('Task 1: Starting');
+console.log("Task 1: Starting");
 
-setTimeout(function() {
-    console.log('Task 2: In Progress');
+setTimeout(function () {
+  console.log("Task 2: In Progress");
 }, 2000);
 
-console.log('Task 3: Completed');
+console.log("Task 3: Completed");
 ```
 
 **Console Output:**
+
 ```
 Task 1: Starting
 Task 3: Completed
@@ -11920,6 +12379,7 @@ Task 2: In Progress
 ```
 
 **Explanation:**
+
 - `Task 1` immediate execute হয়।
 - `setTimeout` function asynchronous ভাবে execute হয় এবং 2 সেকেন্ড delay করে `Task 2` print করে।
 - meantime, `Task 3` execute হয়ে যায় without waiting for `Task 2` to complete।
@@ -11933,6 +12393,7 @@ Time 2s: Task 2 executed
 ```
 
 **Benefits of Asynchronous Programming:**
+
 - Long-running operations UI কে freeze করে না।
 - Multiple operations parallelly handle করা যায়।
 - Network requests এবং file operations efficiently manage করা যায়।
@@ -11951,24 +12412,25 @@ JavaScript এ callbacks asynchronous operations handle করতে ব্য�
 
 ```javascript
 function fetchData(callback) {
-    console.log('Fetching data...');
+  console.log("Fetching data...");
 
-    setTimeout(function() {
-        const data = { name: 'John', age: 30 };
-        console.log('Data fetched');
-        callback(data);
-    }, 3000);
+  setTimeout(function () {
+    const data = { name: "John", age: 30 };
+    console.log("Data fetched");
+    callback(data);
+  }, 3000);
 }
 
 function processData(data) {
-    console.log('Processing data...');
-    console.log(`Name: ${data.name}, Age: ${data.age}`);
+  console.log("Processing data...");
+  console.log(`Name: ${data.name}, Age: ${data.age}`);
 }
 
 fetchData(processData);
 ```
 
 **Console Output:**
+
 ```
 Fetching data...
 Data fetched
@@ -11977,10 +12439,12 @@ Name: John, Age: 30
 ```
 
 **Explanation:**
+
 1. `fetchData` function asynchronous ভাবে data fetch করে (simulate করা হয়েছে `setTimeout` দিয়ে)।
 2. Data fetch complete হওয়ার পর, `callback` হিসেবে pass করা `processData` function execute হয় এবং fetched data process করে।
 
 **Real-life Analogy:**
+
 - **Fetching Data:** আপনি কোনো website থেকে information download করছেন।
 - **Callback Function:** ডাউনলোড complete হওয়ার পর সেই information process করছেন।
 
@@ -11992,33 +12456,34 @@ Multiple asynchronous operations sequentially execute করতে গেলে 
 
 ```javascript
 function firstTask(callback) {
-    setTimeout(function() {
-        console.log('First task completed');
-        callback();
-    }, 1000);
+  setTimeout(function () {
+    console.log("First task completed");
+    callback();
+  }, 1000);
 }
 
 function secondTask(callback) {
-    setTimeout(function() {
-        console.log('Second task completed');
-        callback();
-    }, 1000);
+  setTimeout(function () {
+    console.log("Second task completed");
+    callback();
+  }, 1000);
 }
 
 function thirdTask() {
-    setTimeout(function() {
-        console.log('Third task completed');
-    }, 1000);
+  setTimeout(function () {
+    console.log("Third task completed");
+  }, 1000);
 }
 
-firstTask(function() {
-    secondTask(function() {
-        thirdTask();
-    });
+firstTask(function () {
+  secondTask(function () {
+    thirdTask();
+  });
 });
 ```
 
 **Console Output:**
+
 ```
 First task completed
 Second task completed
@@ -12026,11 +12491,13 @@ Third task completed
 ```
 
 **Problems with Callback Hell:**
+
 - Code readability কমে যায়।
 - Error handling কঠিন হয়ে যায়।
 - Maintenance এবং debugging challenging হয়।
 
 **Solution:**
+
 - **Promises** এবং **Async/Await** ব্যবহার করে callback hell avoid করা যায়।
 
 ### 4. Promises
@@ -12040,6 +12507,7 @@ Third task completed
 **Promise** হলো JavaScript এ asynchronous operations handle করার modern approach। এটি asynchronous operation এর eventual completion বা failure কে represent করে এবং সেই অনুযায়ী value return করে।
 
 **States of a Promise:**
+
 1. **Pending:** Initial state, neither fulfilled nor rejected।
 2. **Fulfilled:** Operation সফলভাবে complete হয়েছে।
 3. **Rejected:** Operation ব্যর্থ হয়েছে।
@@ -12055,12 +12523,13 @@ Third task completed
 ##### Basic Structure:
 
 ```javascript
-const promise = new Promise(function(resolve, reject) {
-    // asynchronous operation
+const promise = new Promise(function (resolve, reject) {
+  // asynchronous operation
 });
 ```
 
 **Explanation:**
+
 - `resolve` function call হয় যখন operation successful হয়।
 - `reject` function call হয় যখন operation failure হয়।
 
@@ -12068,33 +12537,34 @@ const promise = new Promise(function(resolve, reject) {
 
 ```javascript
 function fetchData() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            const success = true; // Try changing this to false to see rejection
-            if (success) {
-                const data = { name: 'Alice', age: 25 };
-                console.log('Data fetched successfully');
-                resolve(data);
-            } else {
-                reject('Error fetching data');
-            }
-        }, 2000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      const success = true; // Try changing this to false to see rejection
+      if (success) {
+        const data = { name: "Alice", age: 25 };
+        console.log("Data fetched successfully");
+        resolve(data);
+      } else {
+        reject("Error fetching data");
+      }
+    }, 2000);
+  });
 }
 
 function processData(data) {
-    console.log('Processing data...');
-    console.log(`Name: ${data.name}, Age: ${data.age}`);
+  console.log("Processing data...");
+  console.log(`Name: ${data.name}, Age: ${data.age}`);
 }
 
 fetchData()
-    .then(processData)
-    .catch(function(error) {
-        console.error(error);
-    });
+  .then(processData)
+  .catch(function (error) {
+    console.error(error);
+  });
 ```
 
 **Console Output (when success is true):**
+
 ```
 Data fetched successfully
 Processing data...
@@ -12102,11 +12572,13 @@ Name: Alice, Age: 25
 ```
 
 **Console Output (when success is false):**
+
 ```
 Error fetching data
 ```
 
 **Explanation:**
+
 - `fetchData` function একটি promise return করে।
 - `then` method use করে successful result handle করা হয়।
 - `catch` method use করে errors handle করা হয়।
@@ -12119,44 +12591,45 @@ Multiple asynchronous operations sequentially execute করতে promises chai
 
 ```javascript
 function stepOne() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            console.log('Step One completed');
-            resolve('Data from Step One');
-        }, 1000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      console.log("Step One completed");
+      resolve("Data from Step One");
+    }, 1000);
+  });
 }
 
 function stepTwo(data) {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            console.log(`Step Two received: ${data}`);
-            resolve('Data from Step Two');
-        }, 1000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      console.log(`Step Two received: ${data}`);
+      resolve("Data from Step Two");
+    }, 1000);
+  });
 }
 
 function stepThree(data) {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            console.log(`Step Three received: ${data}`);
-            resolve('All steps completed');
-        }, 1000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      console.log(`Step Three received: ${data}`);
+      resolve("All steps completed");
+    }, 1000);
+  });
 }
 
 stepOne()
-    .then(stepTwo)
-    .then(stepThree)
-    .then(function(result) {
-        console.log(result);
-    })
-    .catch(function(error) {
-        console.error(error);
-    });
+  .then(stepTwo)
+  .then(stepThree)
+  .then(function (result) {
+    console.log(result);
+  })
+  .catch(function (error) {
+    console.error(error);
+  });
 ```
 
 **Console Output:**
+
 ```
 Step One completed
 Step Two received: Data from Step One
@@ -12165,6 +12638,7 @@ All steps completed
 ```
 
 **Explanation:**
+
 - Each function returns a promise and passes data to the next function in the chain.
 - This approach maintains code readability and manages asynchronous tasks efficiently.
 
@@ -12176,43 +12650,46 @@ Promises provide robust error handling mechanisms.
 
 ```javascript
 function fetchUserData() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            const error = false;
-            if (!error) {
-                resolve({ username: 'Bob', email: 'bob@example.com' });
-            } else {
-                reject('Failed to fetch user data');
-            }
-        }, 1000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      const error = false;
+      if (!error) {
+        resolve({ username: "Bob", email: "bob@example.com" });
+      } else {
+        reject("Failed to fetch user data");
+      }
+    }, 1000);
+  });
 }
 
 fetchUserData()
-    .then(function(user) {
-        console.log(`User fetched: ${user.username}`);
-    })
-    .catch(function(error) {
-        console.error(`Error: ${error}`);
-    })
-    .finally(function() {
-        console.log('Operation completed');
-    });
+  .then(function (user) {
+    console.log(`User fetched: ${user.username}`);
+  })
+  .catch(function (error) {
+    console.error(`Error: ${error}`);
+  })
+  .finally(function () {
+    console.log("Operation completed");
+  });
 ```
 
 **Console Output (when error is false):**
+
 ```
 User fetched: Bob
 Operation completed
 ```
 
 **Console Output (when error is true):**
+
 ```
 Error: Failed to fetch user data
 Operation completed
 ```
 
 **Explanation:**
+
 - `catch` method catches any errors during the promise execution.
 - `finally` method executes regardless of success or failure, useful for cleanup operations.
 
@@ -12230,34 +12707,36 @@ Operation completed
 
 ```javascript
 function fetchData() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            const data = { product: 'Laptop', price: 1500 };
-            resolve(data);
-        }, 2000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      const data = { product: "Laptop", price: 1500 };
+      resolve(data);
+    }, 2000);
+  });
 }
 
 async function getData() {
-    console.log('Fetching data...');
-    try {
-        const result = await fetchData();
-        console.log('Data received:', result);
-    } catch (error) {
-        console.error('Error:', error);
-    }
+  console.log("Fetching data...");
+  try {
+    const result = await fetchData();
+    console.log("Data received:", result);
+  } catch (error) {
+    console.error("Error:", error);
+  }
 }
 
 getData();
 ```
 
 **Console Output:**
+
 ```
 Fetching data...
 Data received: { product: 'Laptop', price: 1500 }
 ```
 
 **Explanation:**
+
 - `getData` function asynchronous হলেও code sequentially পড়া যায়।
 - `await` fetchData এর result পাওয়ার জন্য wait করে।
 - `try...catch` block use করে errors handle করা হয়।
@@ -12270,43 +12749,46 @@ Errors সহজে handle করা যায় `try...catch` blocks এর �
 
 ```javascript
 function fetchUser() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            const error = true;
-            if (!error) {
-                resolve({ user: 'Charlie', age: 28 });
-            } else {
-                reject('User not found');
-            }
-        }, 1000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      const error = true;
+      if (!error) {
+        resolve({ user: "Charlie", age: 28 });
+      } else {
+        reject("User not found");
+      }
+    }, 1000);
+  });
 }
 
 async function displayUser() {
-    try {
-        const user = await fetchUser();
-        console.log(`User: ${user.user}, Age: ${user.age}`);
-    } catch (error) {
-        console.error('Error:', error);
-    } finally {
-        console.log('Execution completed');
-    }
+  try {
+    const user = await fetchUser();
+    console.log(`User: ${user.user}, Age: ${user.age}`);
+  } catch (error) {
+    console.error("Error:", error);
+  } finally {
+    console.log("Execution completed");
+  }
 }
 
 displayUser();
 ```
 
 **Console Output:**
+
 ```
 Error: User not found
 Execution completed
 ```
 
 **Explanation:**
+
 - Error occurs in `fetchUser` promise and is caught in the `catch` block.
 - `finally` block executes regardless of success or failure.
 
 **Benefits of Async/Await:**
+
 - Cleaner and more readable code.
 - Easier error handling.
 - Sequential execution makes logic easier to follow.
@@ -12321,26 +12803,30 @@ Suppose you want to fetch user data from an external API and display it on your 
 
 ```javascript
 async function getUser() {
-    try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users/1');
-        const user = await response.json();
-        console.log('User Name:', user.name);
-        console.log('User Email:', user.email);
-    } catch (error) {
-        console.error('Error fetching user:', error);
-    }
+  try {
+    const response = await fetch(
+      "https://jsonplaceholder.typicode.com/users/1"
+    );
+    const user = await response.json();
+    console.log("User Name:", user.name);
+    console.log("User Email:", user.email);
+  } catch (error) {
+    console.error("Error fetching user:", error);
+  }
 }
 
 getUser();
 ```
 
 **Console Output:**
+
 ```
 User Name: Leanne Graham
 User Email: Sincere@april.biz
 ```
 
 **Explanation:**
+
 - `fetch` API asynchronously data retrieve করে।
 - `await` keywords response এবং json conversion এর জন্য wait করে।
 - Errors network issues বা invalid responses handle করতে `try...catch` block ব্যবহৃত হয়।
@@ -12352,26 +12838,28 @@ Suppose you want to read a file from the file system using Node.js.
 ##### Example (Node.js):
 
 ```javascript
-const fs = require('fs').promises;
+const fs = require("fs").promises;
 
 async function readFile() {
-    try {
-        const data = await fs.readFile('example.txt', 'utf8');
-        console.log('File Content:', data);
-    } catch (error) {
-        console.error('Error reading file:', error);
-    }
+  try {
+    const data = await fs.readFile("example.txt", "utf8");
+    console.log("File Content:", data);
+  } catch (error) {
+    console.error("Error reading file:", error);
+  }
 }
 
 readFile();
 ```
 
 **Console Output:**
+
 ```
 File Content: This is an example file content.
 ```
 
 **Explanation:**
+
 - `fs.readFile` asynchronously file read করে এবং promise return করে।
 - `await` keyword file content পাওয়ার জন্য wait করে।
 - Errors যেমন file not found সহজে catch করা যায়।
@@ -12385,6 +12873,7 @@ Asynchronous JavaScript modern web development এর একটি essential par
 ## JavaScript Promises
 
 ### Table of Contents
+
 1. [Introduction to Promises](#introduction-to-promises)
 2. [Why Use Promises?](#why-use-promises)
 3. [States of a Promise](#states-of-a-promise)
@@ -12417,18 +12906,18 @@ JavaScript এ asynchronous কাজ করতে গেলে callback functio
 
 ### 4. Creating a Promise
 
-একটি Promise তৈরি করতে হলে, নতুন Promise constructor (`new Promise`) ব্যবহার করতে হয়। এই constructor দুটি function নেয়: `resolve` এবং `reject`. 
+একটি Promise তৈরি করতে হলে, নতুন Promise constructor (`new Promise`) ব্যবহার করতে হয়। এই constructor দুটি function নেয়: `resolve` এবং `reject`.
 
 #### Example:
 
 ```javascript
-let promise = new Promise(function(resolve, reject) {
-    let success = true;
-    if (success) {
-        resolve('The operation was successful!');
-    } else {
-        reject('The operation failed.');
-    }
+let promise = new Promise(function (resolve, reject) {
+  let success = true;
+  if (success) {
+    resolve("The operation was successful!");
+  } else {
+    reject("The operation failed.");
+  }
 });
 ```
 
@@ -12440,21 +12929,22 @@ let promise = new Promise(function(resolve, reject) {
 
 #### 5.1 Using `.then()`
 
-`.then()` method ব্যবহার করে fulfilled (resolved) Promise এর result handle করা হয়। 
+`.then()` method ব্যবহার করে fulfilled (resolved) Promise এর result handle করা হয়।
 
 ##### Example:
 
 ```javascript
-let promise = new Promise(function(resolve, reject) {
-    resolve('Data fetched successfully!');
+let promise = new Promise(function (resolve, reject) {
+  resolve("Data fetched successfully!");
 });
 
-promise.then(function(message) {
-    console.log(message);
+promise.then(function (message) {
+  console.log(message);
 });
 ```
 
 **Console Output:**
+
 ```
 Data fetched successfully!
 ```
@@ -12468,20 +12958,21 @@ Data fetched successfully!
 ##### Example:
 
 ```javascript
-let promise = new Promise(function(resolve, reject) {
-    reject('Failed to fetch data.');
+let promise = new Promise(function (resolve, reject) {
+  reject("Failed to fetch data.");
 });
 
 promise
-    .then(function(message) {
-        console.log(message);
-    })
-    .catch(function(error) {
-        console.log('Error: ' + error);
-    });
+  .then(function (message) {
+    console.log(message);
+  })
+  .catch(function (error) {
+    console.log("Error: " + error);
+  });
 ```
 
 **Console Output:**
+
 ```
 Error: Failed to fetch data.
 ```
@@ -12495,23 +12986,24 @@ Error: Failed to fetch data.
 ##### Example:
 
 ```javascript
-let promise = new Promise(function(resolve, reject) {
-    resolve('Data processed successfully!');
+let promise = new Promise(function (resolve, reject) {
+  resolve("Data processed successfully!");
 });
 
 promise
-    .then(function(message) {
-        console.log(message);
-    })
-    .catch(function(error) {
-        console.log('Error: ' + error);
-    })
-    .finally(function() {
-        console.log('This will run regardless of the result.');
-    });
+  .then(function (message) {
+    console.log(message);
+  })
+  .catch(function (error) {
+    console.log("Error: " + error);
+  })
+  .finally(function () {
+    console.log("This will run regardless of the result.");
+  });
 ```
 
 **Console Output:**
+
 ```
 Data processed successfully!
 This will run regardless of the result.
@@ -12526,28 +13018,29 @@ Promises কে chain করা যায় যাতে একের পর �
 ##### Example:
 
 ```javascript
-let promise = new Promise(function(resolve, reject) {
-    resolve('Step 1 completed');
+let promise = new Promise(function (resolve, reject) {
+  resolve("Step 1 completed");
 });
 
 promise
-    .then(function(message) {
-        console.log(message);
-        return 'Step 2 completed';
-    })
-    .then(function(message) {
-        console.log(message);
-        return 'Step 3 completed';
-    })
-    .then(function(message) {
-        console.log(message);
-    })
-    .catch(function(error) {
-        console.log('Error: ' + error);
-    });
+  .then(function (message) {
+    console.log(message);
+    return "Step 2 completed";
+  })
+  .then(function (message) {
+    console.log(message);
+    return "Step 3 completed";
+  })
+  .then(function (message) {
+    console.log(message);
+  })
+  .catch(function (error) {
+    console.log("Error: " + error);
+  });
 ```
 
 **Console Output:**
+
 ```
 Step 1 completed
 Step 2 completed
@@ -12564,35 +13057,36 @@ Step 3 completed
 
 ```javascript
 function fetchData() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            resolve('Data fetched from server');
-        }, 2000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve("Data fetched from server");
+    }, 2000);
+  });
 }
 
 function processData(data) {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            resolve(`${data} and processed successfully`);
-        }, 1500);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve(`${data} and processed successfully`);
+    }, 1500);
+  });
 }
 
 fetchData()
-    .then(function(result) {
-        console.log(result);
-        return processData(result);
-    })
-    .then(function(result) {
-        console.log(result);
-    })
-    .catch(function(error) {
-        console.log('Error: ' + error);
-    });
+  .then(function (result) {
+    console.log(result);
+    return processData(result);
+  })
+  .then(function (result) {
+    console.log(result);
+  })
+  .catch(function (error) {
+    console.log("Error: " + error);
+  });
 ```
 
 **Console Output:**
+
 ```
 Data fetched from server
 Data fetched from server and processed successfully
@@ -12604,7 +13098,7 @@ Data fetched from server and processed successfully
 
 2. **processData:** Data fetch হওয়ার পরে, সেই data process করার জন্য আরেকটি Promise return করা হয়েছে যা ১.৫ সেকেন্ড পরে resolve হয়।
 
-3. **Promise Chaining:** এখানে Promises chain করে sequentially data fetch এবং data process করা হয়েছে। 
+3. **Promise Chaining:** এখানে Promises chain করে sequentially data fetch এবং data process করা হয়েছে।
 
 ### 8. Conclusion
 
@@ -12613,6 +13107,7 @@ JavaScript Promises asynchronous কাজগুলোকে handle করতে
 ## JavaScript Async/Await
 
 ### Table of Contents
+
 1. [Introduction to Async/Await](#introduction-to-asyncawait)
 2. [Why Use Async/Await?](#why-use-asyncawait)
 3. [Understanding Async Functions](#understanding-async-functions)
@@ -12630,28 +13125,29 @@ JavaScript Promises asynchronous কাজগুলোকে handle করতে
 Async/Await ব্যবহার করার কারণগুলোর মধ্যে অন্যতম হলো:
 
 1. **Readability:** Async/Await এর মাধ্যমে asynchronous code কে synchronous code এর মতো দেখায়, যা পড়তে এবং বোঝা সহজ।
-  
+
 2. **Error Handling:** Async/Await এর মাধ্যমে error handling করা অনেক সহজ। এটি try/catch block ব্যবহার করে errors handle করা যায়।
-  
+
 3. **Cleaner Code:** Async/Await এর মাধ্যমে nested callbacks বা promise chaining এর জটিলতা এড়ানো যায় এবং code আরও পরিষ্কার ও সুন্দর হয়।
 
 ### 3. Understanding Async Functions
 
-`async` keyword ব্যবহার করে একটি function কে asynchronous function হিসেবে declare করা হয়। একটি `async` function স্বাভাবিকভাবে একটি Promise return করে। 
+`async` keyword ব্যবহার করে একটি function কে asynchronous function হিসেবে declare করা হয়। একটি `async` function স্বাভাবিকভাবে একটি Promise return করে।
 
 #### Example:
 
 ```javascript
 async function fetchData() {
-    return 'Data fetched successfully!';
+  return "Data fetched successfully!";
 }
 
-fetchData().then(function(result) {
-    console.log(result);
+fetchData().then(function (result) {
+  console.log(result);
 });
 ```
 
 **Console Output:**
+
 ```
 Data fetched successfully!
 ```
@@ -12666,23 +13162,24 @@ Data fetched successfully!
 
 ```javascript
 function fetchData() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            resolve('Data fetched from server');
-        }, 2000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve("Data fetched from server");
+    }, 2000);
+  });
 }
 
 async function processData() {
-    let data = await fetchData();
-    console.log(data);
-    console.log('Processing data...');
+  let data = await fetchData();
+  console.log(data);
+  console.log("Processing data...");
 }
 
 processData();
 ```
 
 **Console Output:**
+
 ```
 Data fetched from server
 Processing data...
@@ -12692,32 +13189,33 @@ Processing data...
 
 ### 5. Error Handling with Async/Await
 
-Async/Await এর মাধ্যমে error handling করা খুবই সহজ। `try/catch` block ব্যবহার করে asynchronous code এ errors handle করা যায়। 
+Async/Await এর মাধ্যমে error handling করা খুবই সহজ। `try/catch` block ব্যবহার করে asynchronous code এ errors handle করা যায়।
 
 #### Example:
 
 ```javascript
 function fetchData() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            reject('Failed to fetch data');
-        }, 2000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      reject("Failed to fetch data");
+    }, 2000);
+  });
 }
 
 async function processData() {
-    try {
-        let data = await fetchData();
-        console.log(data);
-    } catch (error) {
-        console.log('Error: ' + error);
-    }
+  try {
+    let data = await fetchData();
+    console.log(data);
+  } catch (error) {
+    console.log("Error: " + error);
+  }
 }
 
 processData();
 ```
 
 **Console Output:**
+
 ```
 Error: Failed to fetch data
 ```
@@ -12732,39 +13230,40 @@ Error: Failed to fetch data
 
 ```javascript
 function fetchUserData() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            resolve('User data fetched');
-        }, 2000);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve("User data fetched");
+    }, 2000);
+  });
 }
 
 function fetchOrdersData() {
-    return new Promise(function(resolve, reject) {
-        setTimeout(function() {
-            resolve('Orders data fetched');
-        }, 1500);
-    });
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve("Orders data fetched");
+    }, 1500);
+  });
 }
 
 async function processData() {
-    try {
-        let userData = await fetchUserData();
-        console.log(userData);
+  try {
+    let userData = await fetchUserData();
+    console.log(userData);
 
-        let ordersData = await fetchOrdersData();
-        console.log(ordersData);
+    let ordersData = await fetchOrdersData();
+    console.log(ordersData);
 
-        console.log('Data processing complete.');
-    } catch (error) {
-        console.log('Error: ' + error);
-    }
+    console.log("Data processing complete.");
+  } catch (error) {
+    console.log("Error: " + error);
+  }
 }
 
 processData();
 ```
 
 **Console Output:**
+
 ```
 User data fetched
 Orders data fetched
@@ -12783,23 +13282,29 @@ Data processing complete.
 
 Async/Await হলো JavaScript এর একটি modern এবং powerful feature যা asynchronous code কে synchronous code এর মতো দেখতে এবং behave করতে সাহায্য করে। এটি asynchronous কাজগুলোকে সহজ এবং পরিষ্কারভাবে handle করতে সাহায্য করে এবং callback hell বা promise chaining এর জটিলতা থেকে মুক্তি দেয়। Async/Await এর মাধ্যমে JavaScript এর asynchronous প্রোগ্রামিং আরও readable এবং maintainable হয়।
 
-
-
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
 
-
-
-# Chapter-16: DOM, DOM Methods, DOM Documents, DOM Elements
+# Chapter-16: DOM, DOM Methods, DOM Documents, DOM Elements, DOM Events, DOM Event Listener, DOM Nodes, DOM Collections, DOM NodeList Object
 
 - [Document Object Model](#document-object-model)
 - [DOM Methods](#dom-methods)
 - [HTML DOM Document](#html-dom-document)
+- [HTML DOM Elements](#html-dom-elements)
+- [JavaScript Form Validation Using DOM](#javascript-form-validation-using-dom)
+- [Changing CSS Using DOM](#changing-css-using-dom)
+- [Creating Animation Using DOM](#creating-animation-using-dom)
+- [DOM Events](#dom-events)
+- [DOM Event Listener](#dom-event-listener)
+- [DOM Nodes](#dom-nodes)
+- [DOM Collections](#dom-collections)
+- [DOM NodeList Object](#dom-nodelist-object)
 
 ## Document Object Model
 
 ### Table of Contents
+
 1. [Introduction to the DOM](#introduction-to-the-dom)
 2. [Why Use the DOM?](#why-use-the-dom)
 3. [DOM Structure](#dom-structure)
@@ -12824,7 +13329,6 @@ Async/Await হলো JavaScript এর একটি modern এবং powerful f
 
 - DOM মূলত browser এবং webpage এর মধ্যে একটি bridge হিসাবে কাজ করে।
 
-
 ### 2. Why Use the DOM?
 
 DOM এর মাধ্যমে JavaScript ব্যবহার করে একটি webpage এর content এবং structure পরিবর্তন করা যায়। User interaction এর ভিত্তিতে dynamically HTML elements update, remove, অথবা add করা যায়। DOM manipulation user experience এবং webpage এর interactivity উন্নত করতে সহায়ক।
@@ -12835,14 +13339,15 @@ DOM একটি tree structure হিসেবে কাজ করে, যে�
 
 ![DOM](./chapter-16/images/dom.jpg)
 
+আমরা একটি HTML Document কে এভাবে Object আকারে চিন্তা করতে পারিঃ
+![DOM2](./chapter-16/images/dom2.png)
+
 #### 3.1 Node Types
 
 DOM এ বিভিন্ন ধরনের nodes রয়েছে:
 
 1. **Element Node:** HTML tags গুলো DOM এ element node হিসেবে কাজ করে। যেমন: `<p>`, `<div>`, `<img>`.
-   
 2. **Text Node:** Element এর মধ্যে থাকা text গুলো text node হিসেবে থাকে।
-   
 3. **Attribute Node:** HTML element এর attributes গুলো attribute node হিসেবে থাকে। যেমন: `id`, `class`, `src` ইত্যাদি।
 
 #### 3.2 Parent-Child Relationships
@@ -12851,7 +13356,7 @@ DOM tree তে প্রতিটি node এর মধ্যে parent-child �
 
 ```html
 <div>
-    <p>This is a paragraph</p>
+  <p>This is a paragraph</p>
 </div>
 ```
 
@@ -12871,12 +13376,13 @@ JavaScript এর মাধ্যমে DOM এর elements access করার 
 <p id="myParagraph">This is a paragraph</p>
 
 <script>
-    let element = document.getElementById('myParagraph');
-    console.log(element.innerText);
+  let element = document.getElementById("myParagraph");
+  console.log(element.innerText);
 </script>
 ```
 
 **Console Output:**
+
 ```
 This is a paragraph
 ```
@@ -12891,16 +13397,17 @@ This is a paragraph
 
 ```html
 <div class="container">
-    <p>This is inside the container</p>
+  <p>This is inside the container</p>
 </div>
 
 <script>
-    let element = document.querySelector('.container p');
-    console.log(element.innerText);
+  let element = document.querySelector(".container p");
+  console.log(element.innerText);
 </script>
 ```
 
 **Console Output:**
+
 ```
 This is inside the container
 ```
@@ -12909,7 +13416,7 @@ This is inside the container
 
 ### 5. Manipulating DOM Elements
 
-DOM এর elements access করার পরে JavaScript ব্যবহার করে তাদের modify করা যায়। 
+DOM এর elements access করার পরে JavaScript ব্যবহার করে তাদের modify করা যায়।
 
 #### 5.1 Changing Text Content
 
@@ -12921,11 +13428,12 @@ DOM এর element এর text content পরিবর্তন করতে `in
 <p id="myText">Old Text</p>
 
 <script>
-    document.getElementById('myText').innerText = 'New Text';
+  document.getElementById("myText").innerText = "New Text";
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 New Text
 ```
@@ -12939,10 +13447,10 @@ Element এর attributes, যেমন: `src`, `href`, `alt`, dynamically JavaS
 ##### Example:
 
 ```html
-<img id="myImage" src="old_image.jpg" alt="Old Image">
+<img id="myImage" src="old_image.jpg" alt="Old Image" />
 
 <script>
-    document.getElementById('myImage').src = 'new_image.jpg';
+  document.getElementById("myImage").src = "new_image.jpg";
 </script>
 ```
 
@@ -12958,12 +13466,13 @@ CSS styles dynamically JavaScript এর মাধ্যমে পরিবর�
 <p id="myText">Change my style!</p>
 
 <script>
-    document.getElementById('myText').style.color = 'blue';
-    document.getElementById('myText').style.fontSize = '20px';
+  document.getElementById("myText").style.color = "blue";
+  document.getElementById("myText").style.fontSize = "20px";
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 (This text will appear in blue and 20px size)
 ```
@@ -12978,19 +13487,20 @@ DOM এর elements এর মধ্যে traversal করা যায়, অ
 
 ```html
 <ul id="myList">
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
 </ul>
 
 <script>
-    let list = document.getElementById('myList');
-    let firstItem = list.firstElementChild;  // Access first child
-    console.log(firstItem.innerText);
+  let list = document.getElementById("myList");
+  let firstItem = list.firstElementChild; // Access first child
+  console.log(firstItem.innerText);
 </script>
 ```
 
 **Console Output:**
+
 ```
 Item 1
 ```
@@ -13008,26 +13518,27 @@ Item 1
 ```html
 <h2>To-do List</h2>
 <ul id="todoList">
-    <li>Learn JavaScript</li>
+  <li>Learn JavaScript</li>
 </ul>
 
-<input type="text" id="newTask" placeholder="Add a new task">
+<input type="text" id="newTask" placeholder="Add a new task" />
 <button onclick="addTask()">Add Task</button>
 
 <script>
-function addTask() {
-    let task = document.getElementById('newTask').value;
-    let list = document.getElementById('todoList');
+  function addTask() {
+    let task = document.getElementById("newTask").value;
+    let list = document.getElementById("todoList");
 
-    let newItem = document.createElement('li');
+    let newItem = document.createElement("li");
     newItem.innerText = task;
 
     list.appendChild(newItem);
-}
+  }
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 To-do List
 - Learn JavaScript
@@ -13037,9 +13548,7 @@ To-do List
 **Detailed Explanation:**
 
 1. **Accessing Elements:** Input field এবং unordered list কে JavaScript এর মাধ্যমে access করা হয়েছে।
-   
 2. **Creating New Element:** `createElement()` method ব্যবহার করে নতুন `li` element তৈরি করা হয়েছে।
-   
 3. **Appending New Item:** নতুন task add করার জন্য dynamically নতুন element list এ append করা হয়েছে।
 
 #### Scenario-02: Updating User Profile Information
@@ -13066,6 +13575,7 @@ function updateProfile() {
 </script>
 
 ```
+
 Output:
 
 ```css
@@ -13079,11 +13589,8 @@ Profile updated successfully!
 
 **Detailed Explanation:**
 
-
 1. **Changing Content:** User এর নাম এবং ইমেইল address কে dynamically পরিবর্তন করা হয়েছে।
-   
 2. **Adding an Element:** Profile update হওয়ার পরে একটি নতুন paragraph dynamically তৈরি করা হয়েছে এবং সেটি body element এর শেষে append করা হয়েছে।
-
 
 ### 8. Conclusion
 
@@ -13094,6 +13601,7 @@ Document Object Model (DOM) হলো JavaScript এর মাধ্যমে HT
 ## DOM Methods
 
 ### Table of Contents
+
 1. [Introduction to DOM Methods](#introduction-to-dom-methods)
 2. [Commonly Used DOM Methods](#commonly-used-dom-methods)
    - [getElementById()](#getelementbyid)
@@ -13109,7 +13617,7 @@ Document Object Model (DOM) হলো JavaScript এর মাধ্যমে HT
 
 ### 1. Introduction to DOM Methods
 
-**DOM methods** হলো JavaScript এর functions, যা HTML document এর elements গুলো dynamically access, manipulate, এবং modify করতে সাহায্য করে। DOM methods এর মাধ্যমে webpage এর elements এর structure, attributes, এবং content পরিবর্তন করা সম্ভব হয়। 
+**DOM methods** হলো JavaScript এর functions, যা HTML document এর elements গুলো dynamically access, manipulate, এবং modify করতে সাহায্য করে। DOM methods এর মাধ্যমে webpage এর elements এর structure, attributes, এবং content পরিবর্তন করা সম্ভব হয়।
 
 ### 2. Commonly Used DOM Methods
 
@@ -13125,12 +13633,13 @@ DOM এর বিভিন্ন methods রয়েছে, যা বিভি
 <p id="myParagraph">This is a paragraph</p>
 
 <script>
-    let element = document.getElementById('myParagraph');
-    console.log(element.innerText);
+  let element = document.getElementById("myParagraph");
+  console.log(element.innerText);
 </script>
 ```
 
 **Console Output:**
+
 ```
 This is a paragraph
 ```
@@ -13148,13 +13657,14 @@ This is a paragraph
 <p class="myClass">Paragraph 2</p>
 
 <script>
-    let elements = document.getElementsByClassName('myClass');
-    console.log(elements[0].innerText);  // First element
-    console.log(elements[1].innerText);  // Second element
+  let elements = document.getElementsByClassName("myClass");
+  console.log(elements[0].innerText); // First element
+  console.log(elements[1].innerText); // Second element
 </script>
 ```
 
 **Console Output:**
+
 ```
 Paragraph 1
 Paragraph 2
@@ -13170,16 +13680,17 @@ Paragraph 2
 
 ```html
 <div class="container">
-    <p>This is a paragraph inside a container.</p>
+  <p>This is a paragraph inside a container.</p>
 </div>
 
 <script>
-    let element = document.querySelector('.container p');
-    console.log(element.innerText);
+  let element = document.querySelector(".container p");
+  console.log(element.innerText);
 </script>
 ```
 
 **Console Output:**
+
 ```
 This is a paragraph inside a container.
 ```
@@ -13194,17 +13705,18 @@ This is a paragraph inside a container.
 
 ```html
 <ul id="myList">
-    <li>Item 1</li>
+  <li>Item 1</li>
 </ul>
 
 <script>
-    let newItem = document.createElement('li');
-    newItem.innerText = 'Item 2';
-    document.getElementById('myList').appendChild(newItem);
+  let newItem = document.createElement("li");
+  newItem.innerText = "Item 2";
+  document.getElementById("myList").appendChild(newItem);
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 Item 1
 Item 2
@@ -13220,17 +13732,18 @@ Item 2
 
 ```html
 <div id="myDiv">
-    <p>First paragraph</p>
+  <p>First paragraph</p>
 </div>
 
 <script>
-    let newParagraph = document.createElement('p');
-    newParagraph.innerText = 'Second paragraph';
-    document.getElementById('myDiv').appendChild(newParagraph);
+  let newParagraph = document.createElement("p");
+  newParagraph.innerText = "Second paragraph";
+  document.getElementById("myDiv").appendChild(newParagraph);
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 First paragraph
 Second paragraph
@@ -13248,8 +13761,8 @@ Second paragraph
 <p id="myParagraph">This will be removed.</p>
 
 <script>
-    let element = document.getElementById('myParagraph');
-    element.remove();
+  let element = document.getElementById("myParagraph");
+  element.remove();
 </script>
 ```
 
@@ -13262,10 +13775,10 @@ Second paragraph
 ##### Example:
 
 ```html
-<img id="myImage" src="old_image.jpg">
+<img id="myImage" src="old_image.jpg" />
 
 <script>
-    document.getElementById('myImage').setAttribute('src', 'new_image.jpg');
+  document.getElementById("myImage").setAttribute("src", "new_image.jpg");
 </script>
 ```
 
@@ -13278,15 +13791,16 @@ Second paragraph
 ##### Example:
 
 ```html
-<img id="myImage" src="image.jpg" alt="My Image">
+<img id="myImage" src="image.jpg" alt="My Image" />
 
 <script>
-    let altText = document.getElementById('myImage').getAttribute('alt');
-    console.log(altText);
+  let altText = document.getElementById("myImage").getAttribute("alt");
+  console.log(altText);
 </script>
 ```
 
 **Console Output:**
+
 ```
 My Image
 ```
@@ -13304,26 +13818,27 @@ My Image
 ```html
 <h2>To-do List</h2>
 <ul id="todoList">
-    <li>Learn JavaScript</li>
+  <li>Learn JavaScript</li>
 </ul>
 
-<input type="text" id="newTask" placeholder="Add a new task">
+<input type="text" id="newTask" placeholder="Add a new task" />
 <button onclick="addTask()">Add Task</button>
 
 <script>
-function addTask() {
-    let task = document.getElementById('newTask').value;
-    let list = document.getElementById('todoList');
+  function addTask() {
+    let task = document.getElementById("newTask").value;
+    let list = document.getElementById("todoList");
 
-    let newItem = document.createElement('li');
+    let newItem = document.createElement("li");
     newItem.innerText = task;
 
     list.appendChild(newItem);
-}
+  }
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 To-do List
 - Learn JavaScript
@@ -13333,19 +13848,17 @@ To-do List
 **Detailed Explanation:**
 
 1. **Accessing Elements:** Input field এবং unordered list কে JavaScript এর মাধ্যমে access করা হয়েছে।
-   
 2. **Creating New Element:** `createElement()` method ব্যবহার করে নতুন `li` element তৈরি করা হয়েছে।
-   
 3. **Appending New Item:** নতুন task add করার জন্য dynamically নতুন element list এ append করা হয়েছে।
 
 ### 4. Conclusion
 
 DOM methods হলো JavaScript এর powerful tools, যা HTML document এর elements dynamically access, modify, এবং manipulate করতে সাহায্য করে। Commonly used DOM methods এর মধ্যে `getElementById()`, `querySelector()`, `createElement()`, `appendChild()` এবং `remove()` ইত্যাদি methods উল্লেখযোগ্য। DOM methods এর মাধ্যমে dynamic এবং interactive webpages তৈরি করা যায়, যা user experience উন্নত করতে সহায়ক।
 
-
 ## HTML DOM Document
 
 ### Table of Contents
+
 1. [Introduction to the HTML DOM Document](#introduction-to-the-html-dom-document)
 2. [Why Use the DOM Document Object?](#why-use-the-dom-document-object)
 3. [Accessing the Document Object](#accessing-the-document-object)
@@ -13372,6 +13885,7 @@ Source: [W3Schools - HTML DOM Document](https://www.w3schools.com/js/js_htmldom_
 ### 2. Why Use the DOM Document Object?
 
 JavaScript এ `document` object automatically available থাকে এবং এটি webpage এর সমস্ত structure এবং elements এর সাথে interact করার জন্য ব্যবহার করা যায়। কিছু কাজ যা document object এর মাধ্যমে করা যায়:
+
 - Webpage এর title dynamically পরিবর্তন করা
 - Content add বা remove করা
 - User interaction অনুযায়ী element modify করা
@@ -13387,6 +13901,7 @@ console.log(document);
 ```
 
 **Console Output:**
+
 ```
 #document
 ```
@@ -13405,8 +13920,8 @@ The `document` object এর বিভিন্ন properties রয়েছে
 
 ```html
 <script>
-    console.log(document.title);  // Current title দেখাবে
-    document.title = 'New Page Title';  // Title dynamically পরিবর্তন করবে
+  console.log(document.title); // Current title দেখাবে
+  document.title = "New Page Title"; // Title dynamically পরিবর্তন করবে
 </script>
 ```
 
@@ -13420,11 +13935,12 @@ The `document` object এর বিভিন্ন properties রয়েছে
 
 ```html
 <script>
-    console.log(document.URL);  // Current page এর URL দেখাবে
+  console.log(document.URL); // Current page এর URL দেখাবে
 </script>
 ```
 
 **Console Output:**
+
 ```
 http://example.com
 ```
@@ -13439,7 +13955,7 @@ http://example.com
 
 ```html
 <script>
-    document.body.style.backgroundColor = 'lightblue';  // Body এর background color পরিবর্তন করা হয়েছে
+  document.body.style.backgroundColor = "lightblue"; // Body এর background color পরিবর্তন করা হয়েছে
 </script>
 ```
 
@@ -13453,7 +13969,7 @@ http://example.com
 
 ```html
 <script>
-    console.log(document.head);  // Head section কে console এ print করবে
+  console.log(document.head); // Head section কে console এ print করবে
 </script>
 ```
 
@@ -13473,12 +13989,13 @@ The `document` object এর বিভিন্ন methods রয়েছে �
 <p id="myParagraph">This is a paragraph.</p>
 
 <script>
-    let element = document.getElementById('myParagraph');
-    console.log(element.innerText);  // Paragraph এর text content console এ দেখাবে
+  let element = document.getElementById("myParagraph");
+  console.log(element.innerText); // Paragraph এর text content console এ দেখাবে
 </script>
 ```
 
 **Console Output:**
+
 ```
 This is a paragraph.
 ```
@@ -13496,13 +14013,14 @@ This is a paragraph.
 <p class="text">Paragraph 2</p>
 
 <script>
-    let elements = document.getElementsByClassName('text');
-    console.log(elements[0].innerText);  // First element এর text দেখাবে
-    console.log(elements[1].innerText);  // Second element এর text দেখাবে
+  let elements = document.getElementsByClassName("text");
+  console.log(elements[0].innerText); // First element এর text দেখাবে
+  console.log(elements[1].innerText); // Second element এর text দেখাবে
 </script>
 ```
 
 **Console Output:**
+
 ```
 Paragraph 1
 Paragraph 2
@@ -13518,16 +14036,17 @@ Paragraph 2
 
 ```html
 <div class="container">
-    <p>This is inside the container.</p>
+  <p>This is inside the container.</p>
 </div>
 
 <script>
-    let element = document.querySelector('.container p');
-    console.log(element.innerText);  // Paragraph এর text দেখাবে
+  let element = document.querySelector(".container p");
+  console.log(element.innerText); // Paragraph এর text দেখাবে
 </script>
 ```
 
 **Console Output:**
+
 ```
 This is inside the container.
 ```
@@ -13544,13 +14063,14 @@ This is inside the container.
 <div id="myDiv"></div>
 
 <script>
-    let newParagraph = document.createElement('p');  // নতুন paragraph তৈরি করা হলো
-    newParagraph.innerText = 'This is a new paragraph.';  // Text set করা হলো
-    document.getElementById('myDiv').appendChild(newParagraph);  // Paragraph কে div এর মধ্যে append করা হলো
+  let newParagraph = document.createElement("p"); // নতুন paragraph তৈরি করা হলো
+  newParagraph.innerText = "This is a new paragraph."; // Text set করা হলো
+  document.getElementById("myDiv").appendChild(newParagraph); // Paragraph কে div এর মধ্যে append করা হলো
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 This is a new paragraph.
 ```
@@ -13561,16 +14081,16 @@ This is a new paragraph.
 
 নিচে HTML DOM document এর কিছু common properties এবং methods এর তালিকা দেওয়া হলো, যা **W3Schools** থেকে নেওয়া হয়েছে:
 
-| Property / Method      | Description                                            |
-|------------------------|--------------------------------------------------------|
-| `document.URL`          | Returns the full URL of the document                   |
-| `document.title`        | Returns or sets the title of the document              |
-| `document.body`         | Returns the `<body>` element                           |
-| `document.head`         | Returns the `<head>` element                           |
-| `document.getElementById()` | Returns the element that has the ID attribute     |
-| `document.getElementsByClassName()` | Returns all elements with the specified class name |
-| `document.querySelector()` | Returns the first matching element from a CSS selector |
-| `document.createElement()` | Creates a new element                              |
+| Property / Method                   | Description                                            |
+| ----------------------------------- | ------------------------------------------------------ |
+| `document.URL`                      | Returns the full URL of the document                   |
+| `document.title`                    | Returns or sets the title of the document              |
+| `document.body`                     | Returns the `<body>` element                           |
+| `document.head`                     | Returns the `<head>` element                           |
+| `document.getElementById()`         | Returns the element that has the ID attribute          |
+| `document.getElementsByClassName()` | Returns all elements with the specified class name     |
+| `document.querySelector()`          | Returns the first matching element from a CSS selector |
+| `document.createElement()`          | Creates a new element                                  |
 
 Source: [W3Schools - HTML DOM Document](https://www.w3schools.com/js/js_htmldom_document.asp)
 
@@ -13584,20 +14104,21 @@ Source: [W3Schools - HTML DOM Document](https://www.w3schools.com/js/js_htmldom_
 
 ```html
 <h2>Enter your name:</h2>
-<input type="text" id="nameInput">
+<input type="text" id="nameInput" />
 <button onclick="displayGreeting()">Submit</button>
 
 <p id="greeting"></p>
 
 <script>
-function displayGreeting() {
-    let name = document.getElementById('nameInput').value;
-    document.getElementById('greeting').innerText = 'Hello, ' + name + '!';
-}
+  function displayGreeting() {
+    let name = document.getElementById("nameInput").value;
+    document.getElementById("greeting").innerText = "Hello, " + name + "!";
+  }
 </script>
 ```
 
 **Output on Webpage:**
+
 ```
 Hello, (User's Name)!
 ```
@@ -13605,12 +14126,1757 @@ Hello, (User's Name)!
 **Detailed Explanation:**
 
 1. **Accessing Elements:** `getElementById()` method ব্যবহার করে user input এবং paragraph element কে access করা হয়েছে।
-   
 2. **Dynamically Changing Content:** Button এ click করার পর user এর input নিয়ে dynamically greeting message
 
-## 
+## HTML DOM Elements
 
-##
+
+### Table of Contents
+1. [Introduction to HTML DOM Elements](#introduction-to-html-dom-elements)
+2. [Why Use the DOM for Accessing Elements?](#why-use-the-dom-for-accessing-elements)
+3. [Accessing HTML DOM Elements](#accessing-html-dom-elements)
+   - [getElementById()](#getelementbyid)
+   - [getElementsByClassName()](#getelementsbyclassname)
+   - [getElementsByTagName()](#getelementsbytagname)
+   - [querySelector() and querySelectorAll()](#queryselector-and-queryselectorall)
+4. [Manipulating HTML DOM Elements](#manipulating-html-dom-elements)
+   - [Changing HTML Content](#changing-html-content)
+   - [Changing HTML Attributes](#changing-html-attributes)
+   - [Changing HTML Styles](#changing-html-styles)
+5. [HTML DOM Elements Properties and Methods (W3Schools List)](#html-dom-elements-properties-and-methods-w3schools-list)
+6. [Real-life Example of DOM Element Manipulation](#real-life-example-of-dom-element-manipulation)
+7. [Conclusion](#conclusion)
+
+### 1. Introduction to HTML DOM Elements
+
+**HTML DOM Elements** refer করে HTML document এর প্রতিটি অংশকে, যেমন: `<p>`, `<div>`, `<img>`, ইত্যাদি। The **Document Object Model (DOM)** হল একটি tree structure যা JavaScript এর মাধ্যমে webpage এর elements dynamically access এবং manipulate করতে সাহায্য করে। DOM elements dynamically change করা যায় user interaction অনুযায়ী, যা modern, dynamic websites তৈরি করতে গুরুত্বপূর্ণ।
+
+Each HTML tag, including its content and attributes, is treated as a DOM element. JavaScript এর মাধ্যমে DOM elements modify করা সম্ভব, যা webpage কে more interactive করে তোলে।
+
+Source: [W3Schools - HTML DOM Elements](https://www.w3schools.com/js/js_htmldom_elements.asp)
+
+### 2. Why Use the DOM for Accessing Elements?
+
+DOM এর মাধ্যমে HTML elements access করার মূল উদ্দেশ্য হল webpage এর বিভিন্ন অংশ dynamically modify করা। নিচে কিছু কারণে DOM elements access করা হয়:
+
+- **Dynamic Content Update:** Real-time content পরিবর্তন করতে
+- **User Interaction Handling:** Form validation, button clicks, বা user input অনুযায়ী webpage update করতে
+- **Responsive Design:** Screen size বা other factors অনুযায়ী styles পরিবর্তন করতে
+- **Real-time Data Rendering:** API থেকে data fetch করে dynamically page এ display করা
+
+### 3. Accessing HTML DOM Elements
+
+HTML DOM elements dynamically access করার জন্য JavaScript এর অনেক methods রয়েছে। নিচে কিছু গুরুত্বপূর্ণ methods দেওয়া হলো:
+
+#### 3.1 getElementById()
+
+`getElementById()` method ব্যবহার করে HTML element এর unique `id` attribute এর মাধ্যমে ঐ element কে access করা যায়। এটি একটি element return করে।
+
+##### Example:
+
+```html
+<p id="myParagraph">This is a paragraph.</p>
+
+<script>
+    let element = document.getElementById('myParagraph');
+    console.log(element.innerText);
+</script>
+```
+
+**Console Output:**
+```
+This is a paragraph.
+```
+
+**Explanation:** এখানে `id="myParagraph"` সহ একটি paragraph element কে access করে তার content console এ print করা হয়েছে।
+
+#### 3.2 getElementsByClassName()
+
+`getElementsByClassName()` method একই `class` attribute সহ একাধিক elements কে access করতে সাহায্য করে। এটি একটি HTMLCollection (array-like structure) return করে।
+
+##### Example:
+
+```html
+<p class="text">Paragraph 1</p>
+<p class="text">Paragraph 2</p>
+
+<script>
+    let elements = document.getElementsByClassName('text');
+    console.log(elements[0].innerText);  // First element's text content
+    console.log(elements[1].innerText);  // Second element's text content
+</script>
+```
+
+**Console Output:**
+```
+Paragraph 1
+Paragraph 2
+```
+
+**Explanation:** এখানে `class="text"` সহ দুটি paragraph element access করা হয়েছে এবং console এ তাদের text content দেখানো হয়েছে।
+
+#### 3.3 getElementsByTagName()
+
+`getElementsByTagName()` method HTML elements এর tag name এর ভিত্তিতে একাধিক elements কে access করতে সাহায্য করে। এটি একটি HTMLCollection return করে।
+
+##### Example:
+
+```html
+<p>First Paragraph</p>
+<p>Second Paragraph</p>
+
+<script>
+    let elements = document.getElementsByTagName('p');
+    console.log(elements[0].innerText);  // First paragraph text content
+    console.log(elements[1].innerText);  // Second paragraph text content
+</script>
+```
+
+**Console Output:**
+```
+First Paragraph
+Second Paragraph
+```
+
+**Explanation:** এখানে `getElementsByTagName()` method ব্যবহার করে সমস্ত paragraph elements access করা হয়েছে এবং তাদের text content console এ দেখানো হয়েছে।
+
+#### 3.4 querySelector() and querySelectorAll()
+
+`querySelector()` method CSS selector এর মতো করে কাজ করে এবং প্রথম matching element return করে, যেখানে `querySelectorAll()` সব matching elements return করে।
+
+##### Example:
+
+```html
+<div class="container">
+    <p>This is a paragraph inside a container.</p>
+</div>
+
+<script>
+    let element = document.querySelector('.container p');
+    console.log(element.innerText);  // Output the paragraph's text
+</script>
+```
+
+**Console Output:**
+```
+This is a paragraph inside a container.
+```
+
+**Explanation:** এখানে CSS selector এর মাধ্যমে `class="container"` এর মধ্যে থাকা `p` element কে access করা হয়েছে।
+
+### 4. Manipulating HTML DOM Elements
+
+JavaScript ব্যবহার করে DOM elements এর properties, attributes, এবং styles dynamically manipulate করা যায়। নিচে কিছু উদাহরণ দেওয়া হলো:
+
+#### 4.1 Changing HTML Content
+
+HTML element এর text content dynamically পরিবর্তন করার জন্য `innerText` বা `innerHTML` property ব্যবহার করা হয়।
+
+##### Example:
+
+```html
+<p id="myText">Old Text</p>
+
+<script>
+    document.getElementById('myText').innerText = 'New Text';
+</script>
+```
+
+**Output on Webpage:**
+```
+New Text
+```
+
+**Explanation:** এখানে `innerText` property ব্যবহার করে paragraph element এর text content পরিবর্তন করা হয়েছে।
+
+#### 4.2 Changing HTML Attributes
+
+HTML element এর attributes dynamically পরিবর্তন করা যায়, যেমন: `src`, `href`, অথবা `alt`.
+
+##### Example:
+
+```html
+<img id="myImage" src="old_image.jpg" alt="Old Image">
+
+<script>
+    document.getElementById('myImage').src = 'new_image.jpg';  // Change the image source
+</script>
+```
+
+**Explanation:** এখানে `src` attribute পরিবর্তন করে নতুন image set করা হয়েছে।
+
+#### 4.3 Changing HTML Styles
+
+JavaScript এর মাধ্যমে HTML element এর CSS styles dynamically পরিবর্তন করা যায়।
+
+##### Example:
+
+```html
+<p id="myText">Style me!</p>
+
+<script>
+    document.getElementById('myText').style.color = 'blue';
+    document.getElementById('myText').style.fontSize = '20px';
+</script>
+```
+
+**Output on Webpage:**
+```
+(This text will appear in blue and 20px size)
+```
+
+**Explanation:** এখানে paragraph element এর color এবং font size dynamically পরিবর্তন করা হয়েছে।
+
+### 5. HTML DOM Elements Properties and Methods (W3Schools List)
+
+নিচে HTML DOM elements এর কিছু common properties এবং methods এর তালিকা দেওয়া হলো, যা **W3Schools** থেকে নেওয়া হয়েছে:
+
+| Property / Method                 | Description                                              |
+|------------------------------------|----------------------------------------------------------|
+| `element.innerHTML`                | Changes or returns the inner HTML content of an element   |
+| `element.innerText`                | Changes or returns the text content of an element         |
+| `element.setAttribute()`           | Changes or adds an attribute                              |
+| `element.getAttribute()`           | Gets the value of an attribute                            |
+| `element.style.property`           | Changes the style of an element                           |
+| `document.getElementById()`        | Returns the element with the specified `id`               |
+| `document.getElementsByClassName()`| Returns all elements with the specified class name        |
+| `document.getElementsByTagName()`  | Returns all elements with the specified tag name          |
+| `document.querySelector()`         | Returns the first matching element for a CSS selector     |
+| `document.querySelectorAll()`      | Returns all matching elements for a CSS selector          |
+
+Source: [W3Schools - HTML DOM Elements](https://www.w3schools.com/js/js_htmldom_elements.asp)
+
+### 6. Real-life Example of DOM Element Manipulation
+
+#### Scenario: Adding Items to a Shopping Cart Dynamically
+
+ধরুন, আপনি একটি shopping cart তৈরি করছেন যেখানে user dynamically নতুন items add করতে পারে। DOM methods ব্যবহার করে এটি করা যাবে।
+
+##### Example:
+
+```html
+<h2>Shopping Cart</h2>
+<ul id="cartList">
+    <li>Item 1</li>
+</ul>
+
+<input type="text" id="newItem" placeholder="Enter new item">
+<button onclick="addItem()">Add Item</button>
+
+<script>
+function addItem() {
+    let item = document.getElementById('newItem').value;
+    let list = document.getElementById('cartList');
+
+    let newItem = document.createElement('li');
+    newItem.innerText = item;
+
+    list.appendChild(newItem);
+}
+</script>
+```
+
+**Output on Webpage:**
+```
+Item 1
+(Newly added item by user)
+```
+
+**Detailed Explanation:**
+
+1. **Accessing Elements:** `getElementById()` method ব্যবহার করে input field এবং unordered list access করা হয়েছে।
+   
+2. **Creating New
+
+ Elements:** `createElement()` method ব্যবহার করে নতুন `li` element তৈরি করা হয়েছে।
+   
+3. **Appending New Item:** নতুন item কে dynamically list এ append করা হয়েছে।
+
+### 7. Conclusion
+
+HTML DOM Elements হল HTML document এর primary building blocks, যাদের JavaScript এর মাধ্যমে dynamically access এবং modify করা যায়। Common methods যেমন: `getElementById()`, `getElementsByClassName()`, `getElementsByTagName()`, এবং `querySelector()` ব্যবহার করে আমরা elements access এবং তাদের content, attributes, এবং styles modify করতে পারি। DOM manipulation এর মাধ্যমে আমরা dynamic এবং interactive webpages তৈরি করতে পারি, যা user experience উন্নত করে।
+
+## JavaScript Form Validation Using DOM
+
+### Table of Contents
+1. [Introduction to Form Validation](#introduction-to-form-validation)
+2. [Why Use JavaScript for Form Validation?](#why-use-javascript-for-form-validation)
+3. [Accessing Form Elements via DOM](#accessing-form-elements-via-dom)
+   - [getElementById()](#getelementbyid)
+   - [querySelector()](#queryselector)
+4. [Validating Common Form Fields](#validating-common-form-fields)
+   - [Validating Text Fields](#validating-text-fields)
+   - [Validating Email Fields](#validating-email-fields)
+   - [Validating Password Fields](#validating-password-fields)
+   - [Validating Checkboxes and Radio Buttons](#validating-checkboxes-and-radio-buttons)
+5. [Real-life Example of Form Validation](#real-life-example-of-form-validation)
+6. [Conclusion](#conclusion)
+
+### 1. Introduction to Form Validation
+
+Form validation হলো একটি technique যা user এর form input data এর integrity এবং correctness যাচাই করতে ব্যবহৃত হয়। JavaScript এর মাধ্যমে DOM (Document Object Model) ব্যবহার করে dynamically এই validation করা যায়। JavaScript form validation user-side validation, যা user data submit করার পূর্বে check করে data সঠিক কি না।
+
+### 2. Why Use JavaScript for Form Validation?
+
+JavaScript ব্যবহার করে form validation করার কিছু গুরুত্বপূর্ণ কারণ:
+- **Fast Feedback:** User কে দ্রুত feedback দেওয়া যায় input field এর ভুল নিয়ে।
+- **Reduce Server Load:** Validation client-side এ হওয়ার ফলে server-side validation এর উপর load কমে।
+- **Improved User Experience:** Validation errors এবং suggestions user-friendly ভাবে দেখানো যায়।
+- **Prevention of Invalid Data Submission:** Incorrect data submission থেকে user কে বাধা দেওয়া যায়।
+
+### 3. Accessing Form Elements via DOM
+
+JavaScript এর মাধ্যমে DOM methods ব্যবহার করে form elements dynamically access করা যায়।
+
+#### 3.1 getElementById()
+
+`getElementById()` method ব্যবহার করে form এর specific element access করা যায় `id` attribute এর মাধ্যমে।
+
+##### Example:
+
+```html
+<form id="myForm">
+    <input type="text" id="username">
+    <input type="submit">
+</form>
+
+<script>
+    let username = document.getElementById('username').value;
+    console.log(username);
+</script>
+```
+
+**Explanation:** এখানে `id="username"` সহ input element কে access করা হয়েছে এবং console এ তার value দেখানো হয়েছে।
+
+#### 3.2 querySelector()
+
+`querySelector()` method CSS selectors এর মতো কাজ করে এবং form element access করতে সাহায্য করে।
+
+##### Example:
+
+```html
+<form id="myForm">
+    <input type="text" class="input-field" name="email">
+    <input type="submit">
+</form>
+
+<script>
+    let emailField = document.querySelector('.input-field');
+    console.log(emailField.value);
+</script>
+```
+
+**Explanation:** এখানে CSS selector ব্যবহার করে input element কে access করা হয়েছে এবং তার value console এ দেখানো হয়েছে।
+
+### 4. Validating Common Form Fields
+
+JavaScript form validation এর মাধ্যমে বিভিন্ন ধরনের input fields validate করা যায়।
+
+#### 4.1 Validating Text Fields
+
+Text fields validation এর ক্ষেত্রে সাধারণত check করা হয় field টি খালি আছে কি না, অথবা একটি নির্দিষ্ট character length পূরণ হয়েছে কি না।
+
+##### Example:
+
+```javascript
+function validateText() {
+    let username = document.getElementById('username').value;
+    if (username === "") {
+        alert("Username cannot be empty");
+        return false;
+    }
+    return true;
+}
+```
+
+**Explanation:** এখানে `validateText()` function এ check করা হয়েছে `username` field খালি আছে কি না।
+
+#### 4.2 Validating Email Fields
+
+Email fields validation এর ক্ষেত্রে email format সঠিক আছে কি না তা check করা হয়। এটি regular expressions (RegEx) ব্যবহার করে করা যেতে পারে।
+
+##### Example:
+
+```javascript
+function validateEmail() {
+    let email = document.getElementById('email').value;
+    let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    
+    if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address");
+        return false;
+    }
+    return true;
+}
+```
+
+**Explanation:** এখানে email format validation এর জন্য একটি RegEx pattern ব্যবহার করা হয়েছে, যা check করে email সঠিক আছে কি না।
+
+#### 4.3 Validating Password Fields
+
+Password fields validation এর ক্ষেত্রে password length এবং complexity check করা হয়, যেমন: minimum character length, numbers, এবং special characters এর presence।
+
+##### Example:
+
+```javascript
+function validatePassword() {
+    let password = document.getElementById('password').value;
+    if (password.length < 8) {
+        alert("Password must be at least 8 characters long");
+        return false;
+    }
+    return true;
+}
+```
+
+**Explanation:** এখানে `password` field এর length check করা হয়েছে এবং যদি ৮ characters এর কম হয়, তাহলে error message দেখানো হয়েছে।
+
+#### 4.4 Validating Checkboxes and Radio Buttons
+
+Checkbox এবং radio button validation এর ক্ষেত্রে check করা হয় user options select করেছে কি না।
+
+##### Example:
+
+```javascript
+function validateCheckbox() {
+    let isChecked = document.getElementById('terms').checked;
+    if (!isChecked) {
+        alert("You must agree to the terms and conditions");
+        return false;
+    }
+    return true;
+}
+```
+
+**Explanation:** এখানে checkbox এর checked state check করা হয়েছে এবং যদি unchecked থাকে, error message দেখানো হয়েছে।
+
+### 5. Real-life Example of Form Validation
+
+#### Scenario: Simple User Registration Form Validation
+
+ধরুন, আপনি একটি user registration form তৈরি করছেন যেখানে username, email, এবং password এর validation করতে হবে।
+
+##### Example:
+
+```html
+<form id="registrationForm" onsubmit="return validateForm()">
+    Username: <input type="text" id="username"><br>
+    Email: <input type="text" id="email"><br>
+    Password: <input type="password" id="password"><br>
+    
+    <div class="checkbox">
+        <input type="checkbox" id="terms">
+        <label for="terms">I agree to the terms and conditions</label>
+    </div>
+    
+    <input type="submit" value="Register">
+</form>
+
+
+<script>
+function validateForm() {
+    let username = document.getElementById('username').value;
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+    let terms = document.getElementById('terms').checked;
+
+    if (username === "") {
+        alert("Username cannot be empty");
+        return false;
+    }
+
+    let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address");
+        return false;
+    }
+
+    if (password.length < 8) {
+        alert("Password must be at least 8 characters long");
+        return false;
+    }
+
+    if (!terms) {
+        alert("You must agree to the terms and conditions");
+        return false;
+    }
+
+    return true;
+}
+</script>
+```
+
+ফর্মটাকে একটু Style দেয়ার জন্য নিচের CSS কে ব্যবহার করা যেতে পারে:
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 320px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form br {
+    display: none;
+}
+
+form .checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+form .checkbox label {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+```
+
+Form Screenshot:
+
+![Form Screenshot](./chapter-16/images/form.png)
+
+Code: https://codepen.io/FarmerAbdulAlim/pen/oNrJxeB
+
+**Detailed Explanation:**
+
+1. **Accessing Form Elements:** `getElementById()` method ব্যবহার করে username, email, password, এবং checkbox elements কে access করা হয়েছে।
+   
+2. **Validating Fields:** Username, email, এবং password field এর value validate করা হয়েছে এবং checkbox এর checked state check করা হয়েছে।
+
+3. **Alert Messages:** Validation fail হলে user কে একটি error message দেখানো হয়েছে।
+
+### 6. Conclusion
+
+JavaScript Form Validation using DOM হলো একটি সহজ এবং কার্যকরী পদ্ধতি user-side validation করার জন্য। এটি user এর input data কে verify করে এবং server এর load কমায়। `getElementById()` এবং `querySelector()` এর মাধ্যমে form elements access করা যায় এবং তাদের উপর validation করা যায়। Proper validation করা form কে আরো secure এবং user-friendly করে তোলে, কারণ এতে real-time error feedback দেওয়া সম্ভব হয়।
+
+
+## Changing CSS Using DOM
+
+### Table of Contents
+1. [Introduction to Changing CSS Using DOM](#introduction-to-changing-css-using-dom)
+2. [Why Change CSS Dynamically Using DOM?](#why-change-css-dynamically-using-dom)
+3. [Accessing Elements to Change CSS](#accessing-elements-to-change-css)
+   - [Using `getElementById()`](#using-getelementbyid)
+   - [Using `querySelector()`](#using-queryselector)
+4. [Changing CSS Styles via DOM](#changing-css-styles-via-dom)
+   - [Changing Single CSS Property](#changing-single-css-property)
+   - [Changing Multiple CSS Properties](#changing-multiple-css-properties)
+   - [Adding and Removing CSS Classes](#adding-and-removing-css-classes)
+5. [Real-life Example of Changing CSS Using DOM](#real-life-example-of-changing-css-using-dom)
+6. [Conclusion](#conclusion)
+
+### 1. Introduction to Changing CSS Using DOM
+
+**Changing CSS using DOM** হলো JavaScript ব্যবহার করে dynamically webpage এর styles পরিবর্তন করার একটি পদ্ধতি। DOM এর মাধ্যমে JavaScript HTML elements এর styles modify করতে পারে, যা user interaction অনুযায়ী webpage এর look এবং feel পরিবর্তন করে। For example, when a user clicks a button, a paragraph's color might change, or the size of an image could be adjusted based on screen resolution.
+
+### 2. Why Change CSS Dynamically Using DOM?
+
+CSS dynamically change করা হলে একটি webpage এর structure ও layout user এর interaction অনুযায়ী পরিবর্তন করা যায়। নিচে কিছু কারণ উল্লেখ করা হলো কেন CSS dynamically change করা হয়:
+- **Real-time User Interaction:** User actions (click, hover) অনুযায়ী styles পরিবর্তন করা।
+- **Responsive Design Enhancements:** Screen size বা resolution অনুযায়ী dynamically styles পরিবর্তন করা।
+- **Improved User Experience:** Context-sensitive feedback প্রদানের মাধ্যমে UI কে more interactive করা।
+  
+### 3. Accessing Elements to Change CSS
+
+JavaScript এর মাধ্যমে DOM এর elements dynamically access করা হয়, যেগুলোর styles change করা যাবে।
+
+#### 3.1 Using `getElementById()`
+
+`getElementById()` method ব্যবহার করে HTML element এর `id` attribute এর মাধ্যমে specific element access করা যায় এবং তার style modify করা যায়।
+
+##### Example:
+
+```html
+<p id="myText">Change my color</p>
+
+<script>
+    let element = document.getElementById('myText');
+    element.style.color = "red";
+</script>
+```
+
+**Explanation:** এখানে `getElementById()` ব্যবহার করে paragraph element এর color dynamically red করা হয়েছে।
+
+#### 3.2 Using `querySelector()`
+
+`querySelector()` CSS selector এর মতো করে elements access করতে ব্যবহার করা যায় এবং তার styles change করা যায়।
+
+##### Example:
+
+```html
+<p class="content">Change my background color</p>
+
+<script>
+    let element = document.querySelector('.content');
+    element.style.backgroundColor = "lightblue";
+</script>
+```
+
+**Explanation:** এখানে `querySelector()` ব্যবহার করে `class="content"` সহ element এর background color পরিবর্তন করা হয়েছে।
+
+### 4. Changing CSS Styles via DOM
+
+JavaScript এর মাধ্যমে HTML elements এর CSS properties change করা খুবই সহজ। নিচে CSS properties change করার কিছু পদ্ধতি দেওয়া হলো:
+
+#### 4.1 Changing Single CSS Property
+
+HTML element এর CSS এর কোনো একটি property পরিবর্তন করা যেতে পারে `style.propertyName` syntax ব্যবহার করে।
+
+##### Example:
+
+```html
+<p id="textElement">Change my font size</p>
+
+<script>
+    document.getElementById('textElement').style.fontSize = "24px";
+</script>
+```
+
+**Explanation:** এখানে `fontSize` property ব্যবহার করে paragraph element এর font size dynamically পরিবর্তন করা হয়েছে।
+
+#### 4.2 Changing Multiple CSS Properties
+
+Multiple CSS properties একসাথে change করা যেতে পারে।
+
+##### Example:
+
+```html
+<p id="textElement">Style me with multiple properties</p>
+
+<script>
+    let element = document.getElementById('textElement');
+    element.style.color = "green";
+    element.style.fontSize = "20px";
+    element.style.border = "2px solid black";
+</script>
+```
+
+**Explanation:** এখানে একাধিক CSS property একসাথে change করা হয়েছে, যেমন color, font size, এবং border।
+
+#### 4.3 Adding and Removing CSS Classes
+
+Sometimes, instead of changing individual styles directly, it's better to add or remove entire CSS classes dynamically. This allows for cleaner code management and centralized styling in CSS files.
+
+##### Example: Adding a CSS Class
+
+```html
+<style>
+    .highlight {
+        background-color: yellow;
+        font-weight: bold;
+    }
+</style>
+
+<p id="textElement">Add class to me</p>
+
+<script>
+    let element = document.getElementById('textElement');
+    element.classList.add('highlight');
+</script>
+```
+
+**Explanation:** এখানে `classList.add()` method ব্যবহার করে paragraph element এ `highlight` class dynamically add করা হয়েছে, যা pre-defined CSS style এর মাধ্যমে element কে highlight করছে।
+
+##### Example: Removing a CSS Class
+
+```html
+<p id="textElement" class="highlight">Remove class from me</p>
+
+<script>
+    let element = document.getElementById('textElement');
+    element.classList.remove('highlight');
+</script>
+```
+
+**Explanation:** এখানে `classList.remove()` method ব্যবহার করে `highlight` class remove করা হয়েছে, এবং styles automatically disappear করেছে।
+
+### 5. Real-life Example of Changing CSS Using DOM
+
+#### Scenario: Button Click to Change Background Color
+
+ধরুন, আপনি একটি webpage তৈরি করছেন যেখানে user একটি button এ click করলে পুরো page এর background color পরিবর্তন হবে।
+
+##### Example:
+
+```html
+<h2>Click the button to change background color</h2>
+<button onclick="changeBackground()">Change Background Color</button>
+
+<script>
+function changeBackground() {
+    document.body.style.backgroundColor = "lightgreen";
+}
+</script>
+```
+
+**Explanation:**
+
+1. **Accessing Elements:** Button এ click করার পর JavaScript function call হয়, যা `document.body` কে access করে।
+   
+2. **Changing CSS Dynamically:** `style.backgroundColor` property ব্যবহার করে পুরো page এর background color change করা হয়েছে।
+
+
+
+
+## Creating Animation Using DOM
+
+### Table of Contents
+1. [Introduction to Creating Animation Using DOM](#introduction-to-creating-animation-using-dom)
+2. [Why Use JavaScript and DOM for Animations?](#why-use-javascript-and-dom-for-animations)
+3. [Basic Concepts of DOM-Based Animation](#basic-concepts-of-dom-based-animation)
+4. [Creating a Simple Animation](#creating-a-simple-animation)
+   - [Using `setInterval()`](#using-setinterval)
+   - [Using `requestAnimationFrame()`](#using-requestanimationframe)
+5. [Animating CSS Properties with DOM](#animating-css-properties-with-dom)
+6. [Real-life Example of DOM Animation](#real-life-example-of-dom-animation)
+
+
+### 1. Introduction to Creating Animation Using DOM
+
+**DOM-based animations** হলো JavaScript ব্যবহার করে HTML elements dynamically animate করা। JavaScript functions যেমন `setInterval()` এবং `requestAnimationFrame()` এর মাধ্যমে এই animations তৈরি করা যায়। DOM এর মাধ্যমে webpage এর elements এর size, position, color ইত্যাদি পরিবর্তন করে visually appealing এবং interactive animations তৈরি করা সম্ভব হয়।
+
+### 2. Why Use JavaScript and DOM for Animations?
+
+CSS animation powerful হলেও, JavaScript এবং DOM ব্যবহার করলে animation এর উপর আরও বেশি control পাওয়া যায়। নিচে JavaScript এবং DOM ব্যবহার করে animation করার কয়েকটি কারণ দেওয়া হলো:
+- **Dynamic and Interactive Animations:** User interaction এর উপর ভিত্তি করে animations তৈরি করা যায়।
+- **Precise Control:** Frame-by-frame animation control পাওয়া যায়, যা speed এবং direction manipulate করতে সাহায্য করে।
+- **Complex Logic:** Conditional logic এবং loops এর মাধ্যমে complex animations তৈরি করা যায়।
+
+### 3. Basic Concepts of DOM-Based Animation
+
+DOM-based animation সাধারণত তিনটি ধাপের মাধ্যমে কাজ করে:
+
+1. **Accessing DOM Elements:** Animation করার জন্য HTML elements select করা হয়, যেমন `getElementById()` বা `querySelector()` method ব্যবহার করে।
+2. **Modifying CSS Properties:** Animation এর জন্য elements এর CSS properties, যেমন `top`, `left`, `transform`, `opacity`, ইত্যাদি পরিবর্তন করা হয়।
+3. **Time-Based Updates:** Regular intervals এ CSS properties update করা হয়, যা animation effect তৈরি করে। এর জন্য `setInterval()` বা `requestAnimationFrame()` ব্যবহার করা হয়।
+
+### 4. Creating a Simple Animation
+
+দুটি জনপ্রিয় পদ্ধতি রয়েছে DOM-based animation এর জন্য: `setInterval()` এবং `requestAnimationFrame()`।
+
+#### 4.1 Using `setInterval()`
+
+`setInterval()` function একটি নির্দিষ্ট সময় পরপর (interval) কোনো function বারবার execute করে। এটি basic animations এর জন্য ব্যবহার করা যেতে পারে।
+
+##### Example: Moving a Box Horizontally
+
+```html
+<div id="box" style="width:50px; height:50px; background:red; position:absolute;"></div>
+
+<script>
+let position = 0;
+let box = document.getElementById('box');
+
+function moveBox() {
+    position += 2;
+    box.style.left = position + 'px';
+
+    if (position >= 300) {
+        clearInterval(interval);  // 300px position এ পৌঁছালে animation বন্ধ হবে
+    }
+}
+
+let interval = setInterval(moveBox, 10);  // প্রতি 10ms পরপর moveBox function call হবে
+</script>
+```
+
+**Explanation:**
+
+1. **Accessing the Element:** `getElementById()` method দিয়ে box element কে access করা হয়েছে।
+2. **Updating the Position:** প্রতি 10ms এ box এর `left` property 2px করে বাড়ানো হচ্ছে।
+3. **Stopping the Animation:** Box এর position 300px এ পৌঁছালে `clearInterval()` দিয়ে animation বন্ধ করা হচ্ছে।
+
+#### 4.2 Using `requestAnimationFrame()`
+
+`requestAnimationFrame()` method `setInterval()` এর তুলনায় smoother animations তৈরি করে, কারণ এটি display এর refresh rate অনুযায়ী animation frame execute করে।
+
+##### Example: Smooth Animation Using `requestAnimationFrame()`
+
+```html
+<div id="box" style="width:50px; height:50px; background:blue; position:absolute;"></div>
+
+<script>
+let position = 0;
+let box = document.getElementById('box');
+
+function moveBox() {
+    position += 2;
+    box.style.left = position + 'px';
+
+    if (position < 300) {
+        requestAnimationFrame(moveBox);  // 300px position এ পৌঁছানোর আগ পর্যন্ত animation চলবে
+    }
+}
+
+requestAnimationFrame(moveBox);
+</script>
+```
+
+**Explanation:**
+
+1. **Smooth Animation:** `requestAnimationFrame()` function recursively call হয়ে smooth animation তৈরি করে।
+2. **Performance-Friendly:** `requestAnimationFrame()` display refresh rate এর সাথে sync হয়ে animation এর performance উন্নত করে।
+
+### 5. Animating CSS Properties with DOM
+
+JavaScript এর মাধ্যমে DOM ব্যবহার করে বিভিন্ন CSS properties animate করা যায়, যেমন size, color, opacity ইত্যাদি।
+
+#### Example: Fading In and Out Animation
+
+```html
+<div id="box" style="width:100px; height:100px; background:green; opacity:1;"></div>
+
+<script>
+let opacity = 1;
+let box = document.getElementById('box');
+let fadingOut = true;
+
+function fadeBox() {
+    if (fadingOut) {
+        opacity -= 0.02;
+        if (opacity <= 0) {
+            fadingOut = false;
+        }
+    } else {
+        opacity += 0.02;
+        if (opacity >= 1) {
+            fadingOut = true;
+        }
+    }
+
+    box.style.opacity = opacity;
+    requestAnimationFrame(fadeBox);
+}
+
+requestAnimationFrame(fadeBox);
+</script>
+```
+
+Code: https://codepen.io/FarmerAbdulAlim/pen/gONZree
+
+**Explanation:**
+
+1. **Opacity Control:** Box এর opacity প্রতি frame এ increment এবং decrement করা হয়, যা fade-in এবং fade-out effect তৈরি করে।
+2. **Continuous Animation:** Opacity বাড়ানো এবং কমানোর জন্য `requestAnimationFrame()` recursively call করা হয়েছে।
+
+### 6. Real-life Example of DOM Animation
+
+#### Scenario: Ball Bouncing Animation
+
+একটি simple bouncing ball animation তৈরি করা যাক, যেখানে ball টি screen এর উপরের এবং নিচের দিকে bounce করবে।
+
+##### Example:
+
+```html
+<div id="ball" style="width:50px; height:50px; background:orange; border-radius:50%; position:absolute; top:0;"></div>
+
+<script>
+let position = 0;
+let speed = 2;
+let direction = 1;  // 1 মানে নিচের দিকে যাচ্ছে, -1 মানে উপরের দিকে যাচ্ছে
+let ball = document.getElementById('ball');
+
+function bounceBall() {
+    position += speed * direction;
+    ball.style.top = position + 'px';
+
+    if (position >= 300 || position <= 0) {
+        direction *= -1;  // Ball উপরে বা নিচে পৌঁছালে direction পরিবর্তন হবে
+    }
+
+    requestAnimationFrame(bounceBall);
+}
+
+requestAnimationFrame(bounceBall);
+</script>
+```
+
+**Detailed Explanation:**
+
+1. **Bouncing Mechanism:** Ball এর `top` property প্রতি frame এ adjust করা হয় এবং direction পরিবর্তন করা হয় যখন ball screen এর উপরের বা নিচের অংশে পৌঁছায়।
+2. **Smooth Animation:** `requestAnimationFrame()` ব্যবহার করে ball এর smooth movement নিশ্চিত করা হয়েছে।
+
+
+## DOM Events
+
+### Table of Contents
+1. [Introduction to DOM Events](#introduction-to-dom-events)
+2. [Why Use DOM Events?](#why-use-dom-events)
+3. [Types of DOM Events](#types-of-dom-events)
+   - [Mouse Events](#mouse-events)
+   - [Keyboard Events](#keyboard-events)
+   - [Form Events](#form-events)
+4. [Adding Event Listeners](#adding-event-listeners)
+   - [Using `addEventListener()`](#using-addeventlistener)
+5. [Real-life Example of DOM Events](#real-life-example-of-dom-events)
+6. [Conclusion](#conclusion)
+
+### 1. Introduction to DOM Events
+
+**DOM Events** হল browser এবং user এর মধ্যে interaction এর response হিসাবে ঘটে এমন actions। Events হল user actions বা system-triggered events যা HTML elements এর সাথে ঘটে, যেমন: user এর mouse click, keyboard input, বা form submit হওয়া। JavaScript এর মাধ্যমে DOM events handle করা যায়, যাতে এই actions এর উপর ভিত্তি করে specific behavior trigger করা যায়।
+
+### 2. Why Use DOM Events?
+
+DOM events ব্যবহার করার মাধ্যমে webpages interactive করা যায়। যখন user কোনো event trigger করে, তখন JavaScript সেই event handle করতে পারে এবং dynamically element এর behavior পরিবর্তন করতে পারে। DOM events ব্যবহার করে অনেক কাজ করা সম্ভব, যেমন:
+- **User Interaction:** Button click, form submission, বা input field এ typing এর response handle করা।
+- **Dynamic Changes:** Real-time content change, color change, বা animations trigger করা।
+- **Form Validation:** User data validate করা form submission এর আগে।
+
+### 3. Types of DOM Events
+
+DOM events বিভিন্ন ধরনের হতে পারে, এবং JavaScript এর মাধ্যমে যেকোনো event handle করা যায়। নিচে কিছু common DOM events এর উদাহরণ দেওয়া হলো:
+
+#### 3.1 Mouse Events
+
+Mouse events mouse এর সাথে সম্পর্কিত actions handle করে, যেমন click, double click, hover, ইত্যাদি।
+
+- **click:** যখন user কোনো element এ click করে।
+- **dblclick:** Double click event trigger হয়।
+- **mouseover:** যখন mouse কোনো element এর উপরে hover করে।
+- **mouseout:** যখন mouse কোনো element থেকে move করে।
+
+##### Example:
+
+```html
+<button id="myButton">Click Me</button>
+
+<script>
+    document.getElementById('myButton').addEventListener('click', function() {
+        alert('Button clicked!');
+    });
+</script>
+```
+
+**Explanation:** এখানে `click` event handle করা হয়েছে, যা button এ click করলে alert message দেখাবে।
+
+#### 3.2 Keyboard Events
+
+Keyboard events keyboard এর key press বা release এর response এ trigger হয়।
+
+- **keydown:** যখন একটি key press করা হয়।
+- **keyup:** যখন একটি key release করা হয়।
+- **keypress:** Key press করলে trigger হয়।
+
+##### Example:
+
+```html
+<input type="text" id="myInput" placeholder="Type something">
+
+<script>
+    document.getElementById('myInput').addEventListener('keydown', function(event) {
+        console.log('Key pressed: ' + event.key);
+    });
+</script>
+```
+
+**Explanation:** এখানে `keydown` event handle করা হয়েছে, যা user যখন keyboard এর কোনো key press করে, console এ সেই key এর নাম দেখাবে।
+
+#### 3.3 Form Events
+
+Form events form elements এর সাথে ঘটে, যেমন form submission বা input field এ typing।
+
+- **submit:** Form submit করার সময় trigger হয়।
+- **focus:** যখন একটি input field এ focus আসে।
+- **blur:** যখন একটি input field থেকে focus চলে যায়।
+
+##### Example:
+
+```html
+<form id="myForm">
+    Username: <input type="text" id="username"><br>
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+    document.getElementById('myForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Form submitted!');
+    });
+</script>
+```
+
+**Explanation:** এখানে `submit` event handle করা হয়েছে এবং form submit এর আগে `event.preventDefault()` দিয়ে form submission আটকানো হয়েছে এবং alert message দেখানো হয়েছে।
+
+### 4. Adding Event Listeners
+
+JavaScript এ DOM events handle করার জন্য event listeners add করা হয়। Event listener একটি function কে নির্দিষ্ট event এর জন্য attach করে, যা event trigger হলে execute হয়।
+
+#### 4.1 Using `addEventListener()`
+
+The `addEventListener()` method ব্যবহার করে নির্দিষ্ট element এর জন্য event listener add করা যায়।
+
+##### Syntax:
+
+```javascript
+element.addEventListener(event, function);
+```
+
+##### Example:
+
+```html
+<button id="myButton">Click Me</button>
+
+<script>
+    document.getElementById('myButton').addEventListener('click', function() {
+        alert('Button was clicked!');
+    });
+</script>
+```
+
+**Explanation:** এখানে `addEventListener()` method দিয়ে button এর `click` event handle করা হয়েছে এবং button এ click করলে alert message দেখানো হয়েছে।
+
+### 5. Real-life Example of DOM Events
+
+#### Scenario: Button Click to Toggle Background Color
+
+ধরুন, আপনি একটি webpage তৈরি করছেন যেখানে একটি button এ click করলে page এর background color পরিবর্তিত হবে। প্রথমবার click করলে background কালো হবে, এবং আবার click করলে background সাদা হবে।
+
+##### Example:
+
+```html
+<h2>Click the button to toggle background color</h2>
+<button id="toggleButton">Toggle Background Color</button>
+
+<script>
+let isBlack = false;  // Initial color status
+
+document.getElementById('toggleButton').addEventListener('click', function() {
+    if (isBlack) {
+        document.body.style.backgroundColor = "white";  // Change to white
+        isBlack = false;
+    } else {
+        document.body.style.backgroundColor = "black";  // Change to black
+        isBlack = true;
+    }
+});
+</script>
+```
+
+**Detailed Explanation:**
+
+1. **Accessing Elements:** `getElementById()` method ব্যবহার করে `toggleButton` কে access করা হয়েছে।
+2. **Toggling Background Color:** Button click এর উপর ভিত্তি করে background color পরিবর্তন করা হয়েছে। প্রথম click এ background color কালো হয়, এবং পরবর্তী click এ আবার সাদা হয়।
+3. **Using Boolean for State Management:** A boolean variable `isBlack` ব্যবহার করা হয়েছে color state track করার জন্য, যা dynamically page এর background color toggle করতে সাহায্য করেছে।
+
+### 6. Conclusion
+
+DOM events user এবং webpage এর মধ্যে interaction তৈরি করে। JavaScript এর মাধ্যমে DOM events handle করা গেলে webpages dynamic এবং interactive হয়ে ওঠে। Different types of events যেমন mouse events, keyboard events, এবং form events ব্যবহার করে real-time user interaction handle করা যায়। `addEventListener()` method এর মাধ্যমে events এবং তাদের corresponding actions নির্ধারণ করা হয়। Proper DOM event handling user experience উন্নত করে এবং modern web development এর একটি গুরুত্বপূর্ণ অংশ।
+
+## DOM Event Listener
+
+### Table of Contents
+1. [Introduction to Event Listeners](#introduction-to-event-listeners)
+2. [Why Use Event Listeners in DOM?](#why-use-event-listeners-in-dom)
+3. [Adding an Event Listener](#adding-an-event-listener)
+   - [Using `addEventListener()`](#using-addeventlistener)
+4. [Removing an Event Listener](#removing-an-event-listener)
+5. [Common Event Types with Event Listeners](#common-event-types-with-event-listeners)
+   - [Mouse Events](#mouse-events)
+   - [Keyboard Events](#keyboard-events)
+   - [Form Events](#form-events)
+6. [Real-life Example of Event Listener](#real-life-example-of-event-listener)
+7. [Conclusion](#conclusion)
+
+### 1. Introduction to Event Listeners
+
+**Event Listeners** হল JavaScript এর একটি powerful feature, যা নির্দিষ্ট events এর জন্য webpage এর elements কে monitor করে এবং সেই event trigger হলে একটি function execute করে। `addEventListener()` method ব্যবহার করে DOM elements এ event listener attach করা হয়। যখন একটি event ঘটে (যেমন: mouse click, key press, বা form submit), তখন সেই event এর জন্য নির্দিষ্ট function বা action execute হয়।
+
+### 2. Why Use Event Listeners in DOM?
+
+Event listeners ব্যবহারের কিছু গুরুত্বপূর্ণ কারণ:
+- **Separation of Concerns:** HTML code এবং JavaScript code কে আলাদা রাখা যায়, কারণ `addEventListener()` ব্যবহার করে events directly HTML elements এ লিখতে হয় না।
+- **Multiple Events:** একটি element এ একাধিক event attach করা যায়।
+- **Dynamic Interaction:** User interaction এর উপর ভিত্তি করে real-time পরিবর্তন করা যায়, যেমন button click, mouse hover, এবং keyboard input এর response অনুযায়ী।
+
+### 3. Adding an Event Listener
+
+JavaScript এর মাধ্যমে DOM element এর জন্য event listener attach করার জন্য `addEventListener()` method ব্যবহার করা হয়।
+
+#### 3.1 Using `addEventListener()`
+
+`addEventListener()` method DOM element এ event listener add করতে ব্যবহৃত হয়। এটি নির্দিষ্ট event এবং একটি callback function নেয়, যা event trigger হলে execute হয়।
+
+##### Syntax:
+
+```javascript
+element.addEventListener(event, function);
+```
+
+- **element:** HTML element যেখানে event listener add করা হবে।
+- **event:** Event type, যেমন 'click', 'keydown', 'mouseover' ইত্যাদি।
+- **function:** Event trigger হলে যে function execute হবে।
+
+##### Example:
+
+```html
+<button id="myButton">Click Me</button>
+
+<script>
+    document.getElementById('myButton').addEventListener('click', function() {
+        alert('Button was clicked!');
+    });
+</script>
+```
+
+**Explanation:** এখানে `addEventListener()` method দিয়ে button element এর `click` event handle করা হয়েছে, এবং যখন button এ click করা হয়, তখন alert message দেখানো হয়।
+
+### 4. Removing an Event Listener
+
+Event listener dynamically remove করার জন্য `removeEventListener()` method ব্যবহার করা হয়। এটি নির্দিষ্ট event এবং function কে target করে event listener remove করে।
+
+##### Syntax:
+
+```javascript
+element.removeEventListener(event, function);
+```
+
+##### Example:
+
+```html
+<button id="myButton">Click Me</button>
+
+<script>
+    function showAlert() {
+        alert('Button was clicked!');
+    }
+
+    document.getElementById('myButton').addEventListener('click', showAlert);
+
+    // Remove the event listener after 5 seconds
+    setTimeout(function() {
+        document.getElementById('myButton').removeEventListener('click', showAlert);
+    }, 5000);
+</script>
+```
+
+**Explanation:** এখানে button এর `click` event এর জন্য event listener add করা হয়েছে। ৫ সেকেন্ড পর `removeEventListener()` method এর মাধ্যমে event listener remove করা হয়েছে, ফলে button এ আর click করলে alert message দেখানো হবে না।
+
+### 5. Common Event Types with Event Listeners
+
+JavaScript এর মাধ্যমে বিভিন্ন ধরনের events handle করা যায়। নিচে কিছু common event এবং তাদের সাথে event listener attach করার পদ্ধতি দেখানো হলো:
+
+#### 5.1 Mouse Events
+
+Mouse events user এর mouse interaction handle করে, যেমন click, double click, hover, ইত্যাদি।
+
+##### Example:
+
+```html
+<button id="hoverButton">Hover over me</button>
+
+<script>
+    document.getElementById('hoverButton').addEventListener('mouseover', function() {
+        this.style.backgroundColor = 'yellow';
+    });
+</script>
+```
+
+**Explanation:** এখানে `mouseover` event handle করা হয়েছে, এবং যখন user button এর উপর mouse hover করে, তখন button এর background color পরিবর্তন হয়।
+
+#### 5.2 Keyboard Events
+
+Keyboard events user এর key press বা release এর উপর ভিত্তি করে trigger হয়।
+
+##### Example:
+
+```html
+<input type="text" id="inputField" placeholder="Type something">
+
+<script>
+    document.getElementById('inputField').addEventListener('keydown', function(event) {
+        console.log('Key pressed: ' + event.key);
+    });
+</script>
+```
+
+**Explanation:** এখানে `keydown` event handle করা হয়েছে, এবং যখন user keyboard এর key press করে, সেই key এর নাম console এ দেখানো হয়।
+
+#### 5.3 Form Events
+
+Form events form elements এর সাথে ঘটে, যেমন form submit, input field focus, বা blur।
+
+##### Example:
+
+```html
+<form id="myForm">
+    <input type="text" id="username" placeholder="Enter username"><br>
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+    document.getElementById('myForm').addEventListener('submit', function(event) {
+        event.preventDefault();  // Prevent form from submitting
+        alert('Form is being submitted');
+    });
+</script>
+```
+
+**Explanation:** এখানে form এর `submit` event handle করা হয়েছে এবং `event.preventDefault()` method ব্যবহার করে form submission আটকানো হয়েছে, যাতে alert message দেখানো যায়।
+
+### 6. Real-life Example of Event Listener
+
+#### Scenario: Toggle Text Color on Button Click
+
+ধরুন, আপনি একটি button তৈরি করেছেন যা click করলে একটি paragraph এর text color change হবে। প্রথমবার click করলে text color লাল হবে এবং আবার click করলে text color কালো হবে।
+
+##### Example:
+
+```html
+<p id="myText">This is some text</p>
+<button id="toggleButton">Toggle Text Color</button>
+
+<script>
+let isRed = false;
+
+document.getElementById('toggleButton').addEventListener('click', function() {
+    let textElement = document.getElementById('myText');
+    if (isRed) {
+        textElement.style.color = 'black';  // Change to black
+        isRed = false;
+    } else {
+        textElement.style.color = 'red';  // Change to red
+        isRed = true;
+    }
+});
+</script>
+```
+
+**Detailed Explanation:**
+
+1. **Accessing Elements:** Button এবং paragraph elements কে DOM এর `getElementById()` method দিয়ে access করা হয়েছে।
+2. **Toggling Text Color:** Button click এর উপর ভিত্তি করে paragraph এর text color change করা হয়েছে। প্রথমবার click করলে color লাল হবে এবং পরবর্তী click এ আবার কালো হবে।
+3. **State Management:** একটি boolean variable `isRed` ব্যবহার করা হয়েছে, যা color state track করতে সাহায্য করেছে।
+
+### 7. Conclusion
+
+DOM Event Listeners user interaction অনুযায়ী elements এর behavior dynamically control করতে ব্যবহৃত হয়। JavaScript এর `addEventListener()` এবং `removeEventListener()` methods DOM elements এর সাথে events attach এবং detach করতে সাহায্য করে। বিভিন্ন ধরনের events, যেমন mouse events, keyboard events, এবং form events, ব্যবহার করে dynamic এবং interactive webpages তৈরি করা যায়। Event listeners modern web development এর একটি গুরুত্বপূর্ণ অংশ, কারণ এটি real-time user interaction এবং webpage behavior পরিবর্তন করতে সহায়ক।
+
+
+
+## DOM Nodes
+
+### Table of Contents
+1. [Introduction to DOM Nodes](#introduction-to-dom-nodes)
+2. [Types of DOM Nodes](#types-of-dom-nodes)
+   - [Element Nodes](#element-nodes)
+   - [Attribute Nodes](#attribute-nodes)
+   - [Text Nodes](#text-nodes)
+   - [Comment Nodes](#comment-nodes)
+   - [Document Nodes](#document-nodes)
+3. [Navigating the DOM Tree](#navigating-the-dom-tree)
+   - [Parent Node](#parent-node)
+   - [Child Nodes](#child-nodes)
+   - [Sibling Nodes](#sibling-nodes)
+4. [Accessing and Manipulating DOM Nodes](#accessing-and-manipulating-dom-nodes)
+5. [Real-life Example of DOM Node Navigation](#real-life-example-of-dom-node-navigation)
+6. [Conclusion](#conclusion)
+
+### 1. Introduction to DOM Nodes
+
+**DOM Nodes** হল HTML এবং XML document এর প্রতিটি অংশকে represent করা tree-like structure এর বিভিন্ন component। DOM (Document Object Model) এ প্রতিটি element, attribute, এবং content কে একটি node হিসেবে বিবেচনা করা হয়। JavaScript এর মাধ্যমে এই nodes access এবং manipulate করা যায়, যার ফলে dynamically webpage এর structure এবং content modify করা সম্ভব হয়।
+
+Source: [W3Schools - DOM Navigation](https://www.w3schools.com/js/js_htmldom_navigation.asp) | [W3Schools - DOM Nodes](https://www.w3schools.com/js/js_htmldom_nodes.asp)
+
+### 2. Types of DOM Nodes
+
+DOM এ বিভিন্ন ধরনের nodes থাকে, যা HTML document এর বিভিন্ন অংশকে represent করে। প্রতিটি node এর নির্দিষ্ট role থাকে এবং এগুলোর মাধ্যমে DOM tree তৈরি হয়।
+
+#### 2.1 Element Nodes
+
+**Element nodes** হল HTML tags, যেমন `<div>`, `<p>`, `<img>` ইত্যাদি। HTML document এ যতগুলো tags থাকে, সবগুলো element node হিসেবে DOM tree তে অন্তর্ভুক্ত হয়। Element node এর মাধ্যমে HTML এর structure গঠিত হয়।
+
+##### Example:
+
+```html
+<p>This is a paragraph.</p>
+```
+
+এখানে `<p>` tag একটি element node.
+
+#### 2.2 Attribute Nodes
+
+**Attribute nodes** হল HTML elements এর attributes, যেমন `id`, `class`, `src` ইত্যাদি। যদিও attributes সরাসরি DOM tree তে দেখা যায় না, JavaScript এর মাধ্যমে attribute values access এবং modify করা যায়। Attributes মূলত elements এর properties define করে।
+
+##### Example:
+
+```html
+<img src="image.jpg" alt="Sample Image">
+```
+
+এখানে `src` এবং `alt` attributes দুটি attribute node.
+
+#### 2.3 Text Nodes
+
+**Text nodes** হল element এর ভেতরের actual content বা text। Text nodes parent element node এর child হিসেবে থাকে। Text node এক বা একাধিক elements এর মধ্যে থাকা text কে represent করে।
+
+##### Example:
+
+```html
+<p>This is text content.</p>
+```
+
+এখানে `This is text content.` একটি text node.
+
+#### 2.4 Comment Nodes
+
+**Comment nodes** হল HTML এর comment elements, যা `<!-- -->` এর মধ্যে থাকে। JavaScript এর মাধ্যমে comment nodes ও access করা যায়, তবে এগুলো webpage এ render হয় না।
+
+##### Example:
+
+```html
+<!-- This is a comment -->
+```
+
+#### 2.5 Document Nodes
+
+**Document nodes** হল পুরো HTML document এর root node। এটি পুরো DOM tree এর মূল node হিসেবে কাজ করে এবং এটি document এর অন্যান্য nodes এর parent হিসেবে থাকে। JavaScript এর মাধ্যমে `document` object কে access করে পুরো webpage এর structure এবং content manipulate করা যায়।
+
+### 3. Navigating the DOM Tree
+
+DOM tree তে nodes এর মধ্যে parent, child, এবং sibling relationships থাকে। JavaScript এর মাধ্যমে এই relationships এর উপর ভিত্তি করে nodes navigate করা যায়।
+
+#### 3.1 Parent Node
+
+**Parent node** হলো এমন একটি node যা অন্য node কে contain করে। Parent node এর child node থাকতে পারে, যা তার ভেতরের elements, text, অথবা attributes কে represent করে।
+
+##### Example:
+
+```html
+<div>
+    <p>This is a child paragraph.</p>
+</div>
+```
+
+এখানে `<div>` tag হলো parent node এবং `<p>` হলো child node।
+
+##### Accessing Parent Node:
+
+```javascript
+let paragraph = document.querySelector('p');
+let parent = paragraph.parentNode;
+console.log(parent);  // Outputs the parent <div> element
+```
+
+#### 3.2 Child Nodes
+
+**Child nodes** হল parent element এর মধ্যে থাকা elements, attributes, বা text content। DOM tree তে parent node এর child nodes থাকে, যেগুলো parent node এর অধীনে HTML structure তৈরি করে।
+
+##### Accessing Child Nodes:
+
+```javascript
+let parentElement = document.querySelector('div');
+let childNodes = parentElement.childNodes;  // Returns a NodeList of child nodes
+console.log(childNodes);
+```
+
+#### 3.3 Sibling Nodes
+
+**Sibling nodes** হল একই parent node এর অধীনে থাকা nodes। Parent node এর child nodes যেগুলো একই level এ থাকে, তারা একে অপরের sibling হিসেবে পরিচিত। 
+
+##### Example:
+
+```html
+<ul>
+    <li>First item</li>
+    <li>Second item</li>
+</ul>
+```
+
+এখানে `<li>` elements দুটি sibling node।
+
+##### Accessing Sibling Nodes:
+
+```javascript
+let firstItem = document.querySelector('li');
+let nextSibling = firstItem.nextSibling;  // Access the next sibling node
+console.log(nextSibling);
+```
+
+### 4. Accessing and Manipulating DOM Nodes
+
+JavaScript এর বিভিন্ন method ব্যবহার করে DOM nodes access এবং manipulate করা যায়। নিচে কিছু commonly used DOM navigation methods এবং properties দেওয়া হলো:
+
+- **`getElementById()`**: `id` attribute এর মাধ্যমে নির্দিষ্ট node access করতে ব্যবহৃত হয়।
+  
+  ```javascript
+  let element = document.getElementById('myElement');
+  ```
+
+- **`querySelector()`**: CSS selector এর মতো করে নির্দিষ্ট প্রথম matching node return করে।
+  
+  ```javascript
+  let firstDiv = document.querySelector('div');
+  ```
+
+- **`childNodes`**: একটি element এর সব child nodes return করে (যা text এবং element nodes উভয়ই হতে পারে)।
+  
+  ```javascript
+  let children = document.getElementById('parentDiv').childNodes;
+  ```
+
+- **`parentNode`**: একটি node এর parent node return করে।
+  
+  ```javascript
+  let parent = document.getElementById('childElement').parentNode;
+  ```
+
+- **`nextSibling`**: একটি node এর পরবর্তী sibling node return করে।
+  
+  ```javascript
+  let next = document.getElementById('currentElement').nextSibling;
+  ```
+
+- **`previousSibling`**: একটি node এর আগের sibling node return করে।
+  
+  ```javascript
+  let previous = document.getElementById('currentElement').previousSibling;
+  ```
+
+### 5. Real-life Example of DOM Node Navigation
+
+#### Scenario: Highlighting All Paragraphs Inside a Div
+
+ধরুন, আপনি একটি webpage তৈরি করছেন যেখানে একটি specific `<div>` element এর সব `<p>` elements highlight করতে হবে। DOM nodes navigate করে এটি করা সম্ভব।
+
+##### Example:
+
+```html
+<div id="content">
+    <p>This is the first paragraph.</p>
+    <p>This is the second paragraph.</p>
+    <p>This is the third paragraph.</p>
+</div>
+
+<script>
+    let contentDiv = document.getElementById('content');
+    let paragraphs = contentDiv.getElementsByTagName('p');
+
+    for (let i = 0; i < paragraphs.length; i++) {
+        paragraphs[i].style.backgroundColor = 'yellow';  // Highlight paragraphs
+    }
+</script>
+```
+
+**Detailed Explanation:**
+
+1. **Accessing Parent Element:** `getElementById()` method দিয়ে `content` div কে access করা হয়েছে।
+2. **Navigating Child Nodes:** `getElementsByTagName('p')` method ব্যবহার করে div এর ভেতরে থাকা সব `<p>` elements access করা হয়েছে।
+3. **Applying Styles:** Loop এর মাধ্যমে সব paragraph element এর background color dynamically পরিবর্তন করা হয়েছে।
+
+### 6. Conclusion
+
+DOM Nodes হলো HTML document এর প্রতিটি অংশকে represent করার একটি structure। Element nodes, attribute nodes, text nodes, comment nodes, এবং document nodes এর মাধ্যমে একটি webpage এর পুরো structure তৈরি হয়। JavaScript এর মাধ্যমে DOM nodes access এবং manipulate করা সম্ভব, যা webpage এর content এবং structure dynamically পরিবর্তন করতে সাহায্য করে। Nodes এর মধ্যে parent-child এবং sibling relationships এর মাধ্যমে DOM tree navigate করা যায়, যা dynamic এবং interactive webpages তৈরি করতে গুরুত্বপূর্ণ ভূমিকা পালন করে।
+
+
+## DOM Collections
+
+### Table of Contents
+1. [Introduction to DOM Collections](#introduction-to-dom-collections)
+2. [Why Use DOM Collections?](#why-use-dom-collections)
+3. [Common DOM Collections](#common-dom-collections)
+   - [HTMLCollection](#htmlcollection)
+   - [NodeList](#nodelist)
+4. [Differences Between HTMLCollection and NodeList](#differences-between-htmlcollection-and-nodelist)
+5. [Accessing and Using DOM Collections](#accessing-and-using-dom-collections)
+6. [Real-life Example of Using DOM Collections](#real-life-example-of-using-dom-collections)
+
+
+### 1. Introduction to DOM Collections
+
+**DOM Collections** হল browser এর মাধ্যমে HTML document থেকে elements বা nodes এর একটি list বা group। যখন JavaScript এর মাধ্যমে webpage এর elements access করা হয়, তখন elements এর collections return হয়, যা dynamically update হয় এবং DOM এর সাথে সরাসরি সম্পর্কিত থাকে। এই collections এর মাধ্যমে multiple elements একসাথে manipulate করা যায়।
+
+Source: [W3Schools - DOM Collections](https://www.w3schools.com/js/js_htmldom_collections.asp)
+
+### 2. Why Use DOM Collections?
+
+DOM collections ব্যবহার করার মূল কারণ হলো একাধিক element কে একসাথে access এবং manipulate করা। যখন webpage এর একাধিক elements একই category এর মধ্যে থাকে, যেমন একই tag বা class এর elements, তখন JavaScript এর মাধ্যমে সেই elements এর collection return করা যায়। Collection ব্যবহার করলে একই সাথে একাধিক element এর উপর কাজ করা সহজ হয়।
+
+### 3. Common DOM Collections
+
+DOM এ দুটি প্রধান collection type রয়েছে যা JavaScript এর মাধ্যমে access করা যায়:
+1. **HTMLCollection**
+2. **NodeList**
+
+#### 3.1 HTMLCollection
+
+**HTMLCollection** হলো একটি live collection যা HTML elements এর একটি list return করে। এই collection সবসময়ই DOM এর সাথে sync থাকে। HTMLCollection ব্যবহার করে document এর elements, যেগুলো একই tag name বা class name এর, একসাথে access করা যায়।
+
+##### Example:
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+<script>
+    let items = document.getElementsByTagName('li');
+    console.log(items);  // Outputs an HTMLCollection of <li> elements
+</script>
+```
+
+**Explanation:** এখানে `getElementsByTagName('li')` method ব্যবহার করে সব `<li>` elements একটি HTMLCollection হিসেবে return করা হয়েছে।
+
+#### 3.2 NodeList
+
+**NodeList** হলো DOM এর nodes এর একটি list। এটি static অথবা live হতে পারে। NodeList এর মধ্যে শুধু elements না, text এবং comment nodes ও থাকতে পারে। NodeList `querySelectorAll()` এর মাধ্যমে return হয় এবং এটি একটি static collection হয় (এই collection এর মধ্যে পরিবর্তন হলে dynamically update হয় না)।
+
+##### Example:
+
+```html
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<script>
+    let paragraphs = document.querySelectorAll('p');
+    console.log(paragraphs);  // Outputs a NodeList of <p> elements
+</script>
+```
+
+**Explanation:** এখানে `querySelectorAll('p')` method ব্যবহার করে সব paragraph elements একটি NodeList হিসেবে return করা হয়েছে।
+
+### 4. Differences Between HTMLCollection and NodeList
+
+| Feature                   | HTMLCollection                       | NodeList                              |
+|---------------------------|---------------------------------------|---------------------------------------|
+| **Type of Nodes**          | Contains only element nodes           | Can contain element nodes, text nodes, and comment nodes |
+| **Live or Static**         | Always live                          | Can be live or static (most often static) |
+| **Accessing Method**       | `getElementsByClassName()`, `getElementsByTagName()` | `querySelectorAll()`                   |
+| **Iteration**              | Can iterate using `for` loop, but not `forEach` | Can iterate using both `for` loop and `forEach` |
+
+### 5. Accessing and Using DOM Collections
+
+DOM collections access করার জন্য JavaScript এর built-in methods ব্যবহার করা হয়, এবং collections এর elements access এবং iterate করার জন্য standard loop বা iteration techniques ব্যবহার করা যায়। নিচে HTMLCollection এবং NodeList এর উদাহরণ দেখানো হলো:
+
+#### Example: Accessing HTMLCollection and NodeList
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+
+<script>
+    // Accessing HTMLCollection using getElementsByTagName()
+    let items = document.getElementsByTagName('li');
+    console.log(items);  // HTMLCollection of <li> elements
+    
+    // Accessing NodeList using querySelectorAll()
+    let paragraphs = document.querySelectorAll('p');
+    console.log(paragraphs);  // NodeList of <p> elements
+</script>
+```
+
+**Explanation:** এখানে HTMLCollection এবং NodeList উভয়ই DOM এর elements collection হিসেবে return করা হয়েছে। HTMLCollection `getElementsByTagName()` method ব্যবহার করে return হয়েছে, এবং NodeList `querySelectorAll()` method ব্যবহার করে return হয়েছে।
+
+### 6. Real-life Example of Using DOM Collections
+
+#### Scenario: Changing the Background Color of All Paragraphs
+
+ধরুন, আপনি একটি webpage তৈরি করছেন যেখানে সব paragraph elements এর background color change করতে হবে। DOM collections ব্যবহার করে এটি খুব সহজে করা সম্ভব।
+
+##### Example:
+
+```html
+<p>First paragraph</p>
+<p>Second paragraph</p>
+<p>Third paragraph</p>
+
+<script>
+    // Get all paragraphs using querySelectorAll() (returns a NodeList)
+    let paragraphs = document.querySelectorAll('p');
+
+    // Loop through the NodeList and change the background color
+    paragraphs.forEach(function(paragraph) {
+        paragraph.style.backgroundColor = 'lightblue';
+    });
+</script>
+```
+
+**Explanation:**
+
+1. **Accessing Paragraphs:** `querySelectorAll('p')` method ব্যবহার করে সব paragraph elements এর একটি NodeList return করা হয়েছে।
+2. **Changing Background Color:** `forEach()` method ব্যবহার করে সব paragraphs এর background color change করা হয়েছে।
+
+
+
+## DOM NodeList Object
+
+### Table of Contents
+1. [Introduction to NodeList](#introduction-to-nodelist)
+2. [Why Use NodeList?](#why-use-nodelist)
+3. [Accessing NodeList](#accessing-nodelist)
+4. [NodeList vs HTMLCollection](#nodelist-vs-htmlcollection)
+5. [Properties and Methods of NodeList](#properties-and-methods-of-nodelist)
+6. [Real-life Example of Using NodeList](#real-life-example-of-using-nodelist)
+7. [Conclusion](#conclusion)
+
+### 1. Introduction to NodeList
+
+- **NodeList** হলো DOM (Document Object Model) এর nodes এর একটি collection বা list। NodeList এর মধ্যে HTML elements, text nodes, এবং comment nodes থাকতে পারে। যখন JavaScript ব্যবহার করে DOM থেকে একাধিক element access করা হয়, তখন একটি NodeList return করা হয়। এটি static অথবা live হতে পারে, তবে most commonly static NodeList ব্যবহার করা হয়। NodeList মূলত elements এর groups এর উপর কাজ করতে সহজ এবং efficient পদ্ধতি হিসেবে কাজ করে।
+
+- NodeList is a collection of nodes (elements, text nodes, and comment nodes) in the DOM. It is similar to an array, but it is not an array. It is a collection of nodes that can be accessed using the `querySelectorAll()` method.
+
+### 2. Why Use NodeList?
+
+NodeList ব্যবহার করার কারণগুলো হলো:
+- **Batch Manipulation:** একসাথে একাধিক element এর উপর কাজ করা। উদাহরণস্বরূপ, সব paragraph element এর text color পরিবর্তন করা।
+- **Efficient Navigation:** Multiple nodes একই সাথে access করা এবং তাদের properties modify করা সম্ভব।
+- **Looping Over Elements:** NodeList এর elements এর উপর looping এর মাধ্যমে dynamically তাদের উপর কাজ করা যায়।
+
+### 3. Accessing NodeList
+
+NodeList access করার জন্য JavaScript এর কিছু common methods আছে:
+
+- **`querySelectorAll()`**: এটি CSS selectors এর মাধ্যমে নির্দিষ্ট elements কে select করে এবং একটি static NodeList return করে। Static NodeList DOM পরিবর্তিত হলে update হয় না।
+  
+  ```javascript
+  let paragraphs = document.querySelectorAll('p');  // Returns a NodeList of all <p> elements
+  ```
+
+- **`getElementsByClassName()` এবং `getElementsByTagName()`**: যদিও এই methods একটি live HTMLCollection return করে, এগুলো থেকে NodeList হিসেবে কাজ করা যায়। তবে এরা live collection হওয়ায় DOM পরিবর্তিত হলে automatic update হয়।
+
+  ```javascript
+  let divs = document.getElementsByTagName('div');  // Returns a live NodeList-like HTMLCollection
+  ```
+
+### 4. NodeList vs HTMLCollection
+
+NodeList এবং HTMLCollection উভয়ই elements এর collection হিসেবে কাজ করে, তবে এদের মধ্যে কিছু পার্থক্য আছে:
+
+| Feature                   | NodeList                              | HTMLCollection                       |
+|---------------------------|---------------------------------------|--------------------------------------|
+| **Types of Nodes**         | Element, text, comment nodes          | Only element nodes                  |
+| **Live or Static**         | Usually static                        | Always live                         |
+| **Methods for Access**     | `querySelectorAll()`                  | `getElementsByClassName()`, `getElementsByTagName()` |
+| **Iteration**              | Can use `forEach()` and `for` loop    | Can use only `for` loop             |
+
+### 5. Properties and Methods of NodeList
+
+NodeList এর কিছু গুরুত্বপূর্ণ properties এবং methods আছে, যা elements এর উপর কাজ করতে সাহায্য করে:
+
+#### 5.1 Properties
+
+- **`length`**: NodeList এর total number of nodes return করে।
+  
+  ```javascript
+  let paragraphs = document.querySelectorAll('p');
+  console.log(paragraphs.length);  // Outputs the number of <p> elements
+  ```
+
+#### 5.2 Methods
+
+- **`item(index)`**: NodeList এর নির্দিষ্ট index এর element access করতে ব্যবহার করা হয়।
+  
+  ```javascript
+  let firstParagraph = paragraphs.item(0);  // Access the first <p> element
+  ```
+
+- **`forEach()`**: NodeList এর উপর iterate করার জন্য এই method ব্যবহার করা হয়। এটি `for` loop এর মতো কাজ করে।
+  
+  ```javascript
+  paragraphs.forEach(function(p) {
+      p.style.color = 'blue';  // Changes text color of all <p> elements to blue
+  });
+  ```
+
+### 6. Real-life Example of Using NodeList
+
+#### Scenario: Changing Text of All List Items
+
+ধরুন, আপনার একটি webpage আছে যেখানে সব list items এর text change করতে হবে। NodeList ব্যবহার করে এটি সহজে করা যাবে।
+
+##### Example:
+
+```html
+<ul>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ul>
+
+<script>
+    let listItems = document.querySelectorAll('li');  // Returns a NodeList of all <li> elements
+
+    listItems.forEach(function(item, index) {
+        item.textContent = 'Updated item ' + (index + 1);  // Changes the text of each list item
+    });
+</script>
+```
+
+**Explanation:**
+1. **Accessing List Items:** `querySelectorAll('li')` method ব্যবহার করে সব list items এর একটি NodeList return করা হয়েছে।
+2. **Updating Text Content:** `forEach()` method ব্যবহার করে সব list items এর text dynamically update করা হয়েছে।
+
+### 7. Conclusion
+
+NodeList হল DOM এর একটি powerful object, যা একাধিক nodes বা elements এর list return করে। এর মাধ্যমে multiple elements এর উপর কাজ করা সহজ হয়, এবং `forEach()` method ব্যবহার করে NodeList এর উপর loop করা যায়। Static এবং live NodeList এর মধ্যে পার্থক্য থাকে, এবং `querySelectorAll()` method ব্যবহার করলে static NodeList পাওয়া যায়। NodeList dynamically webpages এর content পরিবর্তন এবং modify করার জন্য JavaScript এর একটি গুরুত্বপূর্ণ অংশ।
+
 
 
 <h3 align="right">
