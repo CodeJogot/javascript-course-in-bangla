@@ -13325,9 +13325,19 @@ Async/Await হলো JavaScript এর একটি modern এবং powerful f
 
 - **Document Object Model (DOM)** হলো একটি প্রোগ্রামিং interface যা HTML এবং XML document কে একটি tree structure হিসেবে represent করে। DOM এর মাধ্যমে JavaScript ব্যবহার করে একটি webpage এর elements dynamically access এবং manipulate করা সম্ভব হয়।
 
-- When a web page is loaded, the browser creates a Document Object Model of the page.
+- প্রোগ্রামিং ইন্টারফেস (Programming Interface) বলতে একটি সফটওয়্যার বা সিস্টেমের সাথে অন্য সফটওয়্যার বা প্রোগ্রাম কিভাবে ইন্টার‌্যাক্ট করবে তা নির্দেশ করে। এটি সাধারণত দুটি প্রোগ্রামের মধ্যে ডেটা বিনিময়ের একটি মাধ্যম হিসেবে কাজ করে।
+
+দুটি সাধারণ ধরনের প্রোগ্রামিং ইন্টারফেস রয়েছে:
+
+1. **API (Application Programming Interface):** এটি সফটওয়্যার অ্যাপ্লিকেশনগুলোর মধ্যে যোগাযোগের একটি মাধ্যম। API এর মাধ্যমে একটি প্রোগ্রাম অন্য একটি প্রোগ্রাম থেকে ডেটা বা ফাংশনালিটি অ্যাক্সেস করতে পারে। উদাহরণস্বরূপ, ওয়েব API এর মাধ্যমে অন্য ওয়েবসাইট থেকে ডেটা সংগ্রহ করা সম্ভব।
+
+2. **GUI (Graphical User Interface):** এটি ব্যবহারকারী এবং সফটওয়্যার বা সিস্টেমের মধ্যে ইন্টারঅ্যাক্ট করার ভিজুয়াল মাধ্যম। প্রোগ্রামিংয়ের ক্ষেত্রে GUI বলতে এমন ইন্টারফেস বোঝায় যেখানে ব্যবহারকারী বাটন, আইকন, মেনু ইত্যাদি ব্যবহার করে সফটওয়্যার নিয়ন্ত্রণ করতে পারে।
 
 - DOM মূলত browser এবং webpage এর মধ্যে একটি bridge হিসাবে কাজ করে।
+
+- When a web page is loaded, the browser creates a Document Object Model of the page.
+
+
 
 ### 2. Why Use the DOM?
 
