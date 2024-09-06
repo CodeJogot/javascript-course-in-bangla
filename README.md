@@ -13335,7 +13335,7 @@ Async/Await হলো JavaScript এর একটি modern এবং powerful f
 
 - DOM মূলত browser এবং webpage এর মধ্যে একটি bridge হিসাবে কাজ করে।
 
-- When a web page is loaded, the browser creates a Document Object Model of the page.
+- When a web page is loaded, the browser creates a DOM of the page.
 
 ### 2. Why Use the DOM?
 
