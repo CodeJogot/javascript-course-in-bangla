@@ -14868,19 +14868,28 @@ Sometimes, instead of changing individual styles directly, it's better to add or
 
 #### Scenario: Button Click to Change Background Color
 
-ধরুন, আপনি একটি webpage তৈরি করছেন যেখানে user একটি button এ click করলে পুরো page এর background color পরিবর্তন হবে।
+ধরুন, আপনি একটি webpage তৈরি করছেন যেখানে user একটি button এ click করলে পুরো page এর background color পরিবর্তন হবে। এবং একেক সময় একেক Background Color আসবে।
 
 ##### Example:
 
 ```html
-<h2>Click the button to change background color</h2>
-<button onclick="changeBackground()">Change Background Color</button>
+<body>
+    <h2>Click the button to change background color</h2>
+    <button onclick="changeBackground()">Change Background Color</button>
 
-<script>
-  function changeBackground() {
-    document.body.style.backgroundColor = "lightgreen";
-  }
-</script>
+    <script>
+      function changeBackground() {
+        // Generate random values for RGB
+        let a = Math.floor(Math.random() * 256);
+        let b = Math.floor(Math.random() * 256);
+        let c = Math.floor(Math.random() * 256);
+        
+        // Set the new random background color
+        document.body.style.backgroundColor = `rgb(${a}, ${b}, ${c})`;
+      }
+    </script>
+</body>
+
 ```
 
 **Explanation:**
