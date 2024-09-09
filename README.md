@@ -4,39 +4,39 @@
 
 After completing the 30-chapters module, jump in the [Projects Section](#).
 
-|                                                             **Chapter No.**                                                              |                                                                                                                              **Topics**                                                                                                                              | **Video Explanation** |
-| :--------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
-|                                               [00](#chapter-00-how-the-course-is-designed)                                               |                                                                                                 [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                                                                                 |       Watch Now       |
-|                           [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                           |                                                        [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                                                        |       Watch Now       |
-|                        [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                         |                                                  [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                                                  |       Watch Now       |
-|                                    [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                    |                                                                         [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                                                          |       Watch Now       |
-|                                                   [04](#chapter-04-javascript-object)                                                    |                                                                                                       [JavaScript Object](#chapter-04-javascript-object) []()                                                                                                        |     [Watch Now]()     |
-|                                                   [05](#chapter-05-javascript-string)                                                    |                                                                                                          [JavaScript String](#chapter-05-javascript-string)                                                                                                          |     [Watch Now]()     |
-|                       [06](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)                        |                                                [JavaScript Numbers, Bigint, Number Methods, Number Methods, Number Properties](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)                                                |     [Watch Now]()     |
-|                         [07](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                         |                                                                                [JavaScript Array](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                                                                                |     [Watch Now]()     |
-|                                         [08](#chapter-08-javascript-date-object-and-math-object)                                         |                                                                                        [JavaScript Date and Math Object](#chapter-08-javascript-date-object-and-math-object)                                                                                         |                       |
-|                               [09](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                |                                                                [JavaScript Iterables, Sets, Set Methods, Map and Map Methods](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                                                 |                       |
-|                  [10](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                   |                                       [JavaScript Type Conversion, Destructuring, Bitwise Operations and Regular Expressions](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                                       |                       |
-|                              [11](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                              |                                                              [JavaScript Errors, Use Strict, This Keyword and Arrow Function](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                                                              |                       |
-|                                         [12](#chapter-12-javascript-classes-json-and-debugging)                                          |                                                                                     [JavaScript Classes, JSON and Debugging](#chapter-12-javascript-classes-json-and-debugging)                                                                                      |                       |
-|                                              [13](#chapter-13-javascript-object-in-detail)                                               |                                                                                                [JavaScript Object in Detail](#chapter-13-javascript-object-in-detail)                                                                                                |                       |
-|                                             [14](#chapter-14-javascript-functions-in-detail)                                             |                                                                                             [JavaScript Functions in Detail](#chapter-14-javascript-functions-in-detail)                                                                                             |                       |
-|                                                [15](#chapter-15-asynchronous-javascript)                                                 |                                                                                                    [Asynchronous JavaScript](#chapter-15-asynchronous-javascript)                                                                                                    |                       |
-| [16](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object) | [DOM, DOM Methods, DOM Documents, DOM Elements, DOM Events, DOM Event Listener, DOM Nodes, DOM Collections, DOM NodeList Object](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object) |                       |
-|                                                                    [17](#chapter-17-bom-window-object-screen-object-location-object-history-object-navigator-object-javascript-timing-event-javascript-cookies)                                                                    |        [BOM, Window Object, History Object, Navigator Object, JavaScript Timing Event, JavaScript Cookies](#chapter-17-bom-window-object-screen-object-location-object-history-object-navigator-object-javascript-timing-event-javascript-cookies)                                                                                                                                                                                                                                                              |                       |
-|                                                                    18                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    19                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    20                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    21                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    22                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    23                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    24                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    25                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    26                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    27                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    28                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    29                                                                    |                                                                                                                                                                                                                                                                      |                       |
-|                                                                    30                                                                    |                                                                                                                                                                                                                                                                      |                       |
+|                                                               **Chapter No.**                                                                |                                                                                                                              **Topics**                                                                                                                              | **Video Explanation** |
+| :------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
+|                                                 [00](#chapter-00-how-the-course-is-designed)                                                 |                                                                                                 [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                                                                                 |       Watch Now       |
+|                             [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                             |                                                        [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                                                        |       Watch Now       |
+|                          [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                           |                                                  [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                                                  |       Watch Now       |
+|                                      [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                      |                                                                         [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                                                          |       Watch Now       |
+|                                                     [04](#chapter-04-javascript-object)                                                      |                                                                                                       [JavaScript Object](#chapter-04-javascript-object) []()                                                                                                        |     [Watch Now]()     |
+|                                                     [05](#chapter-05-javascript-string)                                                      |                                                                                                          [JavaScript String](#chapter-05-javascript-string)                                                                                                          |     [Watch Now]()     |
+|                         [06](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)                          |                                                [JavaScript Numbers, Bigint, Number Methods, Number Methods, Number Properties](#chapter-06-javascript-numbers-bigint-number-methods-number-methods-number-properties)                                                |     [Watch Now]()     |
+|                           [07](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                           |                                                                                [JavaScript Array](#chapter-07-javascript-array-array-methods-array-search-array-sort-array-iteration)                                                                                |     [Watch Now]()     |
+|                                           [08](#chapter-08-javascript-date-object-and-math-object)                                           |                                                                                        [JavaScript Date and Math Object](#chapter-08-javascript-date-object-and-math-object)                                                                                         |                       |
+|                                 [09](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                  |                                                                [JavaScript Iterables, Sets, Set Methods, Map and Map Methods](#chapter-09-javascript-iterables-sets-set-methods-map-and-map-methods)                                                                 |                       |
+|                    [10](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                     |                                       [JavaScript Type Conversion, Destructuring, Bitwise Operations and Regular Expressions](#chapter-10-javascript-type-conversion-destructuring-bitwise-operations-and-regular-expressions)                                       |                       |
+|                                [11](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                                |                                                              [JavaScript Errors, Use Strict, This Keyword and Arrow Function](#chapter-11-javascript-errors-use-strict-this-keyword-and-arrow-function)                                                              |                       |
+|                                           [12](#chapter-12-javascript-classes-json-and-debugging)                                            |                                                                                     [JavaScript Classes, JSON and Debugging](#chapter-12-javascript-classes-json-and-debugging)                                                                                      |                       |
+|                                                [13](#chapter-13-javascript-object-in-detail)                                                 |                                                                                                [JavaScript Object in Detail](#chapter-13-javascript-object-in-detail)                                                                                                |                       |
+|                                               [14](#chapter-14-javascript-functions-in-detail)                                               |                                                                                             [JavaScript Functions in Detail](#chapter-14-javascript-functions-in-detail)                                                                                             |                       |
+|                                                  [15](#chapter-15-asynchronous-javascript)                                                   |                                                                                                    [Asynchronous JavaScript](#chapter-15-asynchronous-javascript)                                                                                                    |                       |
+|   [16](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object)   | [DOM, DOM Methods, DOM Documents, DOM Elements, DOM Events, DOM Event Listener, DOM Nodes, DOM Collections, DOM NodeList Object](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object) |                       |
+| [17](#chapter-17-bom-window-object-screen-object-location-object-history-object-navigator-object-javascript-timing-event-javascript-cookies) |             [BOM, Window Object, History Object, Navigator Object, JavaScript Timing Event, JavaScript Cookies](#chapter-17-bom-window-object-screen-object-location-object-history-object-navigator-object-javascript-timing-event-javascript-cookies)              |                       |
+|                                                                      18                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      19                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      20                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      21                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      22                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      23                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      24                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      25                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      26                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      27                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      28                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      29                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      30                                                                      |                                                                                                                                                                                                                                                                      |                       |
 
 # 5 JavaScript Projects
 
@@ -14874,22 +14874,21 @@ Sometimes, instead of changing individual styles directly, it's better to add or
 
 ```html
 <body>
-    <h2>Click the button to change background color</h2>
-    <button onclick="changeBackground()">Change Background Color</button>
+  <h2>Click the button to change background color</h2>
+  <button onclick="changeBackground()">Change Background Color</button>
 
-    <script>
-      function changeBackground() {
-        // Generate random values for RGB
-        let a = Math.floor(Math.random() * 256);
-        let b = Math.floor(Math.random() * 256);
-        let c = Math.floor(Math.random() * 256);
-        
-        // Set the new random background color
-        document.body.style.backgroundColor = `rgb(${a}, ${b}, ${c})`;
-      }
-    </script>
+  <script>
+    function changeBackground() {
+      // Generate random values for RGB
+      let a = Math.floor(Math.random() * 256);
+      let b = Math.floor(Math.random() * 256);
+      let c = Math.floor(Math.random() * 256);
+
+      // Set the new random background color
+      document.body.style.backgroundColor = `rgb(${a}, ${b}, ${c})`;
+    }
+  </script>
 </body>
-
 ```
 
 **Explanation:**
@@ -15941,7 +15940,7 @@ NodeList হল DOM এর একটি powerful object, যা একাধি�
 - [JavaScript Timing Event](#javascript-timing-event)
 - [JavaScript Cookies](#javascript-cookies)
 
-## Browser Object Model (BOM) 
+## Browser Object Model (BOM)
 
 ### Table of Contents
 
@@ -15968,11 +15967,10 @@ NodeList হল DOM এর একটি powerful object, যা একাধি�
 
 Image Courtesy: Learn With Sumit
 
-
-
 ### 2. Why Use BOM?
 
 BOM ব্যবহার করার কারণগুলো হলো:
+
 - **Browser Control:** BOM ব্যবহার করে browser এর window, tabs, history, এবং other browser-specific features এর উপর control রাখা যায়।
 - **Enhanced Interaction:** User interaction অনুযায়ী browser এর location, size, এবং navigation history control করা যায়।
 - **Cross-Browser Compatibility:** BOM এর মাধ্যমে JavaScript বিভিন্ন browser এর সাথে interact করতে পারে, এবং browser-specific information retrieve করা যায়।
@@ -15986,6 +15984,7 @@ BOM এর কিছু প্রধান objects রয়েছে, যেগ
 **Window object** হলো BOM এর মূল object, যা browser window কে represent করে। সমস্ত global variables এবং functions window object এর properties এবং methods হিসেবে কাজ করে। এটি browser window এর height, width, এবং position এর উপর কাজ করতে দেয়।
 
 ##### Common Properties and Methods:
+
 - **`window.innerHeight`**: Browser window এর inner height return করে।
 - **`window.innerWidth`**: Browser window এর inner width return করে।
 - **`window.open()`**: নতুন window বা tab open করে।
@@ -15994,8 +15993,8 @@ BOM এর কিছু প্রধান objects রয়েছে, যেগ
 ##### Example:
 
 ```javascript
-console.log(window.innerWidth);  // Outputs the width of the browser window
-window.open('https://example.com', '_blank');  // Opens a new tab with the given URL
+console.log(window.innerWidth); // Outputs the width of the browser window
+window.open("https://example.com", "_blank"); // Opens a new tab with the given URL
 ```
 
 #### 3.2 Document Object
@@ -16003,14 +16002,15 @@ window.open('https://example.com', '_blank');  // Opens a new tab with the given
 Although the **Document Object** BOM এর অংশ হলেও, এটি মূলত DOM এর সাথে কাজ করে। Document object HTML document কে represent করে এবং HTML elements access এবং manipulate করার সুযোগ দেয়।
 
 ##### Common Methods:
+
 - **`document.getElementById()`**: HTML elements access করতে ব্যবহার করা হয়।
 - **`document.createElement()`**: নতুন HTML element তৈরি করতে সাহায্য করে।
 
 ##### Example:
 
 ```javascript
-let title = document.getElementById('title');
-console.log(title.innerText);  // Outputs the text inside the element with id="title"
+let title = document.getElementById("title");
+console.log(title.innerText); // Outputs the text inside the element with id="title"
 ```
 
 #### 3.3 Navigator Object
@@ -16018,14 +16018,15 @@ console.log(title.innerText);  // Outputs the text inside the element with id="t
 **Navigator object** browser এর information এবং user এর platform এর তথ্য return করে। এর মাধ্যমে browser এর name, version, এবং user এর operating system সম্পর্কে জানা যায়।
 
 ##### Common Properties:
+
 - **`navigator.userAgent`**: User এর browser এবং platform এর সম্পূর্ণ তথ্য return করে।
 - **`navigator.language`**: Browser এর current language return করে।
 
 ##### Example:
 
 ```javascript
-console.log(navigator.userAgent);  // Outputs the user's browser and platform information
-console.log(navigator.language);  // Outputs the browser's language setting
+console.log(navigator.userAgent); // Outputs the user's browser and platform information
+console.log(navigator.language); // Outputs the browser's language setting
 ```
 
 #### 3.4 Screen Object
@@ -16033,6 +16034,7 @@ console.log(navigator.language);  // Outputs the browser's language setting
 **Screen object** browser window এর display screen সম্পর্কিত তথ্য return করে। এটি screen এর height, width, color depth ইত্যাদি return করতে সাহায্য করে।
 
 ##### Common Properties:
+
 - **`screen.width`**: User এর screen এর width return করে।
 - **`screen.height`**: User এর screen এর height return করে।
 - **`screen.colorDepth`**: Screen এর color depth return করে (in bits).
@@ -16040,8 +16042,8 @@ console.log(navigator.language);  // Outputs the browser's language setting
 ##### Example:
 
 ```javascript
-console.log(screen.width);  // Outputs the width of the user's screen
-console.log(screen.colorDepth);  // Outputs the color depth of the screen
+console.log(screen.width); // Outputs the width of the user's screen
+console.log(screen.colorDepth); // Outputs the color depth of the screen
 ```
 
 #### 3.5 History Object
@@ -16049,14 +16051,15 @@ console.log(screen.colorDepth);  // Outputs the color depth of the screen
 **History object** browser এর navigation history handle করতে সাহায্য করে। এটি user এর previously visited pages এর list manage করতে পারে এবং back এবং forward navigation এর সুযোগ দেয়।
 
 ##### Common Methods:
+
 - **`history.back()`**: Browser history তে পিছনের page এ যাওয়ার জন্য ব্যবহার করা হয়।
 - **`history.forward()`**: Browser history তে সামনের page এ যাওয়ার জন্য ব্যবহৃত হয়।
 
 ##### Example:
 
 ```javascript
-history.back();  // Navigates to the previous page in the browser's history
-history.forward();  // Navigates to the next page in the browser's history
+history.back(); // Navigates to the previous page in the browser's history
+history.forward(); // Navigates to the next page in the browser's history
 ```
 
 #### 3.6 Location Object
@@ -16064,6 +16067,7 @@ history.forward();  // Navigates to the next page in the browser's history
 **Location object** current URL এর তথ্য ধারণ করে এবং URL এর সাথে বিভিন্ন operations করতে সাহায্য করে, যেমন redirecting, reloading ইত্যাদি।
 
 ##### Common Properties and Methods:
+
 - **`location.href`**: Current page এর URL return করে।
 - **`location.reload()`**: Current page reload করে।
 - **`location.assign()`**: একটি নতুন URL এ redirect করে।
@@ -16071,27 +16075,28 @@ history.forward();  // Navigates to the next page in the browser's history
 ##### Example:
 
 ```javascript
-console.log(location.href);  // Outputs the current URL
-location.assign('https://example.com');  // Redirects the browser to a new URL
+console.log(location.href); // Outputs the current URL
+location.assign("https://example.com"); // Redirects the browser to a new URL
 ```
 
 ### 4. Real-life Example of Using BOM
 
 #### Scenario: Redirecting User Based on Screen Width
 
-ধরুন, আপনি এমন একটি webpage তৈরি করছেন যেখানে user এর screen width অনুযায়ী তাদের ভিন্ন ভিন্ন page এ redirect করা হবে। 
+ধরুন, আপনি এমন একটি webpage তৈরি করছেন যেখানে user এর screen width অনুযায়ী তাদের ভিন্ন ভিন্ন page এ redirect করা হবে।
 
 ##### Example:
 
 ```javascript
 if (screen.width < 600) {
-    location.assign('https://m.example.com');  // Redirect to mobile version
+  location.assign("https://m.example.com"); // Redirect to mobile version
 } else {
-    location.assign('https://www.example.com');  // Redirect to desktop version
+  location.assign("https://www.example.com"); // Redirect to desktop version
 }
 ```
 
 **Explanation:**
+
 1. **Accessing Screen Width:** `screen.width` property ব্যবহার করে user এর screen এর width check করা হয়েছে।
 2. **Redirecting User:** User এর screen size অনুযায়ী তাদের different versions এর website এ redirect করা হয়েছে।
 
@@ -16102,6 +16107,7 @@ if (screen.width < 600) {
 ## Window Object
 
 ### Table of Contents
+
 1. [Introduction to the Window Object](#introduction-to-the-window-object)
 2. [Why Use the Window Object?](#why-use-the-window-object)
 3. [Common Properties of the Window Object](#common-properties-of-the-window-object)
@@ -16122,6 +16128,7 @@ if (screen.width < 600) {
 ### 2. Why Use the Window Object?
 
 The Window object ব্যবহার করার কারণগুলো হলো:
+
 - **Global Access:** এটি global object হওয়ার কারণে window এর সমস্ত global variables এবং functions window object এর অংশ।
 - **Browser Control:** Window object এর মাধ্যমে browser window এর size, position, এবং behavior manage করা যায়।
 - **Dialog and Timers:** JavaScript এর built-in dialog boxes (e.g., alert, prompt) এবং timers (e.g., setTimeout, setInterval) window object এর মাধ্যমে ব্যবহৃত হয়।
@@ -16140,22 +16147,23 @@ Window object ব্যবহার করে browser window এর size এব�
 ##### Example:
 
 ```javascript
-console.log(window.innerWidth);  // Outputs the width of the inner browser window
-console.log(window.outerHeight);  // Outputs the height of the outer browser window
+console.log(window.innerWidth); // Outputs the width of the inner browser window
+console.log(window.outerHeight); // Outputs the height of the outer browser window
 ```
 
 #### 3.2 Screen Information
 
 Window object এর মাধ্যমে user এর screen এর resolution সম্পর্কিত তথ্য জানা যায়।
 
-- **`screenX`**: Browser window এর horizontal position (relative to the screen) return করে।
-- **`screenY`**: Browser window এর vertical position (relative to the screen) return করে।
+- **`screenX`**: Browser window এর horizontal position (relative to the screen) return করে। এটি একটি প্রপার্টি যা আপনাকে জানায় ব্রাউজারের বাম প্রান্ত স্ক্রিনের বাম প্রান্ত থেকে কত দূরে অবস্থিত। এটি পিক্সেল (pixel) হিসেবে মান প্রদান করে। উদাহরণস্বরূপ, যদি window.screenX এর মান 100 হয়, তাহলে এর মানে হলো, আপনার ব্রাউজার উইন্ডো স্ক্রিনের বাম প্রান্ত থেকে 100 পিক্সেল দূরে রয়েছে।
+- **`screenY`**: Browser window এর vertical position (relative to the screen) return করে। এটি আপনাকে জানায় ব্রাউজারের উপরের প্রান্ত স্ক্রিনের উপরের প্রান্ত থেকে কত দূরে অবস্থান করছে। এটিও পিক্সেল হিসেবে মান প্রদান করে। যদি window.screenY এর মান 50 হয়, তাহলে এর মানে হলো ব্রাউজার উইন্ডো স্ক্রিনের ওপরের প্রান্ত থেকে 50 পিক্সেল দূরে অবস্থিত। 
+- এই প্রপার্টিগুলো সাধারণত উইন্ডো মুভমেন্ট এবং পজিশন ট্র্যাক করার জন্য ব্যবহার করা হয়। উদাহরণস্বরূপ, আপনি যখন একটি উইন্ডো স্ক্রিনে ড্র্যাগ করেন, তখন window.screenX এবং window.screenY এর মান পরিবর্তন হয়।
 
 ##### Example:
 
 ```javascript
-console.log(window.screenX);  // Outputs the horizontal position of the window on the screen
-console.log(window.screenY);  // Outputs the vertical position of the window on the screen
+console.log(window.screenX); // Outputs the horizontal position of the window on the screen
+console.log(window.screenY); // Outputs the vertical position of the window on the screen
 ```
 
 #### 3.3 Browser Information
@@ -16168,15 +16176,15 @@ Browser এর কিছু গুরুত্বপূর্ণ তথ্য wi
 ##### Example:
 
 ```javascript
-console.log(window.navigator.userAgent);  // Outputs the user agent string of the browser
-console.log(window.location.href);  // Outputs the current page URL
+console.log(window.navigator.userAgent); // Outputs the user agent string of the browser
+console.log(window.location.href); // Outputs the current page URL
 ```
 
 ### 4. Common Methods of the Window Object
 
 #### 4.1 Opening and Closing Windows
 
-JavaScript এর মাধ্যমে নতুন window/tab open এবং current window/tab close করা যায়। 
+JavaScript এর মাধ্যমে নতুন window/tab open এবং current window/tab close করা যায়।
 
 - **`window.open()`**: এটি একটি নতুন window বা tab open করে।
 - **`window.close()`**: এটি বর্তমান window/tab বন্ধ করে দেয় (যদি script এর মাধ্যমে open করা হয়)।
@@ -16185,7 +16193,7 @@ JavaScript এর মাধ্যমে নতুন window/tab open এবং c
 
 ```javascript
 // Open a new tab with a specific URL
-window.open('https://example.com', '_blank');
+window.open("https://example.com", "_blank");
 
 // Close the current window (works only if the window was opened via JavaScript)
 window.close();
@@ -16202,13 +16210,13 @@ Window object এর মাধ্যমে JavaScript এ timers set করা �
 
 ```javascript
 // Execute a function after 3 seconds
-window.setTimeout(function() {
-    alert('This is executed after 3 seconds');
+window.setTimeout(function () {
+  alert("This is executed after 3 seconds");
 }, 3000);
 
 // Execute a function every 2 seconds
-let intervalId = window.setInterval(function() {
-    console.log('This is executed every 2 seconds');
+let intervalId = window.setInterval(function () {
+  console.log("This is executed every 2 seconds");
 }, 2000);
 ```
 
@@ -16224,14 +16232,14 @@ Window object এর মাধ্যমে built-in dialog boxes ব্যবহ
 
 ```javascript
 // Display an alert box
-window.alert('This is an alert box');
+window.alert("This is an alert box");
 
 // Display a confirmation box and log the result (true/false)
-let userConfirmed = window.confirm('Do you agree?');
+let userConfirmed = window.confirm("Do you agree?");
 console.log(userConfirmed);
 
 // Display a prompt box and log the user input
-let userInput = window.prompt('Enter your name:');
+let userInput = window.prompt("Enter your name:");
 console.log(userInput);
 ```
 
@@ -16239,19 +16247,20 @@ console.log(userInput);
 
 #### Scenario: Displaying a Welcome Message Based on Screen Size
 
-ধরুন, আপনি একটি webpage তৈরি করছেন যেখানে user এর screen size অনুযায়ী different welcome messages দেখানো হবে। 
+ধরুন, আপনি একটি webpage তৈরি করছেন যেখানে user এর screen size অনুযায়ী different welcome messages দেখানো হবে।
 
 ##### Example:
 
 ```javascript
 if (window.innerWidth < 600) {
-    window.alert('Welcome to the mobile version of our site!');
+  window.alert("Welcome to the mobile version of our site!");
 } else {
-    window.alert('Welcome to the desktop version of our site!');
+  window.alert("Welcome to the desktop version of our site!");
 }
 ```
 
 **Explanation:**
+
 1. **Screen Size Detection:** `window.innerWidth` ব্যবহার করে user এর browser window এর width check করা হয়েছে।
 2. **Displaying Message:** User এর screen size অনুযায়ী ভিন্ন alert message দেখানো হয়েছে।
 
@@ -16259,10 +16268,10 @@ if (window.innerWidth < 600) {
 
 **Window Object** হলো JavaScript এর অন্যতম গুরুত্বপূর্ণ এবং global object, যা browser window এবং এর বিভিন্ন properties এবং methods control করতে ব্যবহার করা হয়। Window object এর মাধ্যমে new window/tab open করা, dialog boxes দেখানো, এবং timers set করা যায়। Browser window এর size, screen position, এবং user এর platform এর তথ্যের উপর ভিত্তি করে বিভিন্ন operations করা যায়। Window object ব্যবহার করে webpages আরো dynamic এবং interactive হয়ে ওঠে।
 
-
 ## Window Screen Object
 
 ### Table of Contents
+
 1. [Introduction to the Screen Object](#introduction-to-the-screen-object)
 2. [Why Use the Screen Object?](#why-use-the-screen-object)
 3. [Common Properties of the Screen Object](#common-properties-of-the-screen-object)
@@ -16282,6 +16291,7 @@ if (window.innerWidth < 600) {
 ### 2. Why Use the Screen Object?
 
 Screen object ব্যবহার করার কারণগুলো হলো:
+
 - **Responsive Design:** User এর screen resolution বা size অনুযায়ী webpage এর layout dynamically adjust করা যায়।
 - **Performance Optimization:** বিভিন্ন screen size এবং resolution অনুযায়ী resources (যেমন images, videos) load করা।
 - **Enhanced User Experience:** Screen properties অনুযায়ী user-specific content load করে user experience উন্নত করা।
@@ -16297,7 +16307,7 @@ Screen object এর কিছু গুরুত্বপূর্ণ propertie
 ##### Example:
 
 ```javascript
-console.log(screen.width);  // Outputs the full width of the user's screen
+console.log(screen.width); // Outputs the full width of the user's screen
 ```
 
 #### 3.2 screen.height
@@ -16307,7 +16317,7 @@ console.log(screen.width);  // Outputs the full width of the user's screen
 ##### Example:
 
 ```javascript
-console.log(screen.height);  // Outputs the full height of the user's screen
+console.log(screen.height); // Outputs the full height of the user's screen
 ```
 
 #### 3.3 screen.availWidth
@@ -16317,7 +16327,7 @@ console.log(screen.height);  // Outputs the full height of the user's screen
 ##### Example:
 
 ```javascript
-console.log(screen.availWidth);  // Outputs the available width of the user's screen
+console.log(screen.availWidth); // Outputs the available width of the user's screen
 ```
 
 #### 3.4 screen.availHeight
@@ -16327,7 +16337,7 @@ console.log(screen.availWidth);  // Outputs the available width of the user's sc
 ##### Example:
 
 ```javascript
-console.log(screen.availHeight);  // Outputs the available height of the user's screen
+console.log(screen.availHeight); // Outputs the available height of the user's screen
 ```
 
 #### 3.5 screen.colorDepth
@@ -16337,7 +16347,7 @@ console.log(screen.availHeight);  // Outputs the available height of the user's 
 ##### Example:
 
 ```javascript
-console.log(screen.colorDepth);  // Outputs the color depth of the screen (e.g., 24 or 32 bits)
+console.log(screen.colorDepth); // Outputs the color depth of the screen (e.g., 24 or 32 bits)
 ```
 
 #### 3.6 screen.pixelDepth
@@ -16347,7 +16357,7 @@ console.log(screen.colorDepth);  // Outputs the color depth of the screen (e.g.,
 ##### Example:
 
 ```javascript
-console.log(screen.pixelDepth);  // Outputs the pixel depth of the screen
+console.log(screen.pixelDepth); // Outputs the pixel depth of the screen
 ```
 
 ### 4. Real-life Example of Using the Screen Object
@@ -16360,13 +16370,14 @@ console.log(screen.pixelDepth);  // Outputs the pixel depth of the screen
 
 ```javascript
 if (screen.width < 600) {
-    window.location.href = 'https://m.example.com';  // Redirect to mobile version
+  window.location.href = "https://m.example.com"; // Redirect to mobile version
 } else {
-    window.location.href = 'https://www.example.com';  // Redirect to desktop version
+  window.location.href = "https://www.example.com"; // Redirect to desktop version
 }
 ```
 
 **Explanation:**
+
 1. **Screen Width Detection:** `screen.width` property ব্যবহার করে user এর screen width check করা হয়েছে।
 2. **Conditional Redirect:** User এর screen size অনুযায়ী তাদের mobile অথবা desktop version এর webpage এ redirect করা হয়েছে।
 
@@ -16374,10 +16385,10 @@ if (screen.width < 600) {
 
 **Window Screen Object** হলো একটি powerful tool, যা user এর screen এর properties এবং specifications সম্পর্কে তথ্য প্রদান করে। Screen এর width, height, color depth, এবং available screen size এর উপর ভিত্তি করে webpages dynamically adjust এবং optimize করা যায়। এটি responsive design এবং performance optimization এর জন্য অত্যন্ত গুরুত্বপূর্ণ, কারণ এটি বিভিন্ন screen resolution অনুযায়ী resources এবং layout load করতে সাহায্য করে।
 
-
 ## Window Location Object
 
 ### Table of Contents
+
 1. [Introduction to the Location Object](#introduction-to-the-location-object)
 2. [Why Use the Location Object?](#why-use-the-location-object)
 3. [Common Properties of the Location Object](#common-properties-of-the-location-object)
@@ -16393,7 +16404,6 @@ if (screen.width < 600) {
    - [location.replace()](#locationreplace)
 5. [Real-life Example of Using the Location Object](#real-life-example-of-using-the-location-object)
 
-
 ### 1. Introduction to the Location Object
 
 The **Window Location Object** browser window এর current URL এর তথ্য ধারণ করে এবং URL এর সাথে কাজ করতে ব্যবহার করা হয়। **`window.location`** object এর মাধ্যমে current URL এর বিভিন্ন অংশ access এবং modify করা সম্ভব, যেমন: protocol, hostname, pathname, এবং hash। এর পাশাপাশি location object এর methods ব্যবহার করে webpage reload, redirect, বা replace করা যায়।
@@ -16403,6 +16413,7 @@ Source: [W3Schools - Window Location](https://www.w3schools.com/js/js_window_loc
 ### 2. Why Use the Location Object?
 
 The **Location Object** ব্যবহার করার কারণগুলো হলো:
+
 - **URL Manipulation:** Current page এর URL এর বিভিন্ন অংশ access এবং modify করা যায়।
 - **Navigation Control:** URL এর মাধ্যমে webpages redirect এবং reload করা যায়।
 - **Interactive Features:** Query strings, hash values, এবং path changes এর মাধ্যমে user-specific content dynamically load করা যায়।
@@ -16418,7 +16429,7 @@ Location object এর মাধ্যমে current URL এর বিভিন�
 ##### Example:
 
 ```javascript
-console.log(location.href);  // Outputs the full URL of the current page
+console.log(location.href); // Outputs the full URL of the current page
 ```
 
 #### 3.2 location.protocol
@@ -16428,7 +16439,7 @@ console.log(location.href);  // Outputs the full URL of the current page
 ##### Example:
 
 ```javascript
-console.log(location.protocol);  // Outputs the protocol (http or https)
+console.log(location.protocol); // Outputs the protocol (http or https)
 ```
 
 #### 3.3 location.hostname
@@ -16438,7 +16449,7 @@ console.log(location.protocol);  // Outputs the protocol (http or https)
 ##### Example:
 
 ```javascript
-console.log(location.hostname);  // Outputs the domain name of the page
+console.log(location.hostname); // Outputs the domain name of the page
 ```
 
 #### 3.4 location.pathname
@@ -16448,7 +16459,7 @@ console.log(location.hostname);  // Outputs the domain name of the page
 ##### Example:
 
 ```javascript
-console.log(location.pathname);  // Outputs the path after the domain
+console.log(location.pathname); // Outputs the path after the domain
 ```
 
 #### 3.5 location.search
@@ -16458,7 +16469,7 @@ console.log(location.pathname);  // Outputs the path after the domain
 ##### Example:
 
 ```javascript
-console.log(location.search);  // Outputs the query string of the URL
+console.log(location.search); // Outputs the query string of the URL
 ```
 
 #### 3.6 location.hash
@@ -16468,7 +16479,7 @@ console.log(location.search);  // Outputs the query string of the URL
 ##### Example:
 
 ```javascript
-console.log(location.hash);  // Outputs the fragment identifier (hash) in the URL
+console.log(location.hash); // Outputs the fragment identifier (hash) in the URL
 ```
 
 ### 4. Common Methods of the Location Object
@@ -16482,17 +16493,17 @@ Location object এর কিছু methods আছে, যেগুলো URL �
 ##### Example:
 
 ```javascript
-location.assign('https://example.com');  // Redirects to the specified URL
+location.assign("https://example.com"); // Redirects to the specified URL
 ```
 
 #### 4.2 location.reload()
 
-**`location.reload()`** method current page কে reload করার জন্য ব্যবহৃত হয়। 
+**`location.reload()`** method current page কে reload করার জন্য ব্যবহৃত হয়।
 
 ##### Example:
 
 ```javascript
-location.reload();  // Reloads the current page
+location.reload(); // Reloads the current page
 ```
 
 #### 4.3 location.replace()
@@ -16502,35 +16513,36 @@ location.reload();  // Reloads the current page
 ##### Example:
 
 ```javascript
-location.replace('https://example.com');  // Redirects to a new URL and replaces the current one in the history
+location.replace("https://example.com"); // Redirects to a new URL and replaces the current one in the history
 ```
 
 ### 5. Real-life Example of Using the Location Object
 
 #### Scenario: Redirecting to Another Page Based on Query String
 
-ধরুন, আপনি এমন একটি webpage তৈরি করছেন যেখানে user এর query string এর উপর ভিত্তি করে তাদের ভিন্ন ভিন্ন page এ redirect করতে হবে। 
+ধরুন, আপনি এমন একটি webpage তৈরি করছেন যেখানে user এর query string এর উপর ভিত্তি করে তাদের ভিন্ন ভিন্ন page এ redirect করতে হবে।
 
 ##### Example:
 
 ```javascript
 let queryString = location.search;
 
-if (queryString.includes('mobile')) {
-    location.assign('https://m.example.com');  // Redirect to the mobile version
+if (queryString.includes("mobile")) {
+  location.assign("https://m.example.com"); // Redirect to the mobile version
 } else {
-    location.assign('https://www.example.com');  // Redirect to the desktop version
+  location.assign("https://www.example.com"); // Redirect to the desktop version
 }
 ```
 
 **Explanation:**
+
 1. **Query String Detection:** `location.search` ব্যবহার করে query string access করা হয়েছে।
 2. **Conditional Redirect:** Query string এর মধ্যে `mobile` keyword থাকলে user কে mobile version এ redirect করা হয়েছে, অন্যথায় desktop version এ।
-
 
 ## Window History Object
 
 ### Table of Contents
+
 1. [Introduction to the History Object](#introduction-to-the-history-object)
 2. [Why Use the History Object?](#why-use-the-history-object)
 3. [Common Methods of the History Object](#common-methods-of-the-history-object)
@@ -16548,6 +16560,7 @@ The **Window History Object** browser এর current session এর navigation h
 ### 2. Why Use the History Object?
 
 History object ব্যবহার করার কিছু গুরুত্বপূর্ণ কারণ:
+
 - **Navigation Control:** User এর browser এর back এবং forward button functionality JavaScript এর মাধ্যমে control করা যায়।
 - **Session History:** Browser এর session history access এবং manipulate করা যায়, যা back এবং forward navigation কে সহজ করে।
 - **Smooth Navigation:** SPA (Single Page Applications) এর মতো advanced web applications এ smooth page transitions এর জন্য history object ব্যবহার করা যায়।
@@ -16561,7 +16574,7 @@ History object ব্যবহার করার কিছু গুরুত�
 ##### Example:
 
 ```javascript
-history.back();  // Navigates to the previous page in the session history
+history.back(); // Navigates to the previous page in the session history
 ```
 
 #### 3.2 history.forward()
@@ -16571,7 +16584,7 @@ history.back();  // Navigates to the previous page in the session history
 ##### Example:
 
 ```javascript
-history.forward();  // Navigates to the next page in the session history
+history.forward(); // Navigates to the next page in the session history
 ```
 
 #### 3.3 history.go()
@@ -16581,8 +16594,8 @@ history.forward();  // Navigates to the next page in the session history
 ##### Example:
 
 ```javascript
-history.go(-2);  // Navigates two steps back in the session history
-history.go(1);   // Navigates one step forward in the session history
+history.go(-2); // Navigates two steps back in the session history
+history.go(1); // Navigates one step forward in the session history
 ```
 
 ### 4. History Length Property
@@ -16592,7 +16605,7 @@ history.go(1);   // Navigates one step forward in the session history
 ##### Example:
 
 ```javascript
-console.log(history.length);  // Outputs the number of pages in the session history
+console.log(history.length); // Outputs the number of pages in the session history
 ```
 
 ### 5. Real-life Example of Using the History Object
@@ -16608,19 +16621,20 @@ console.log(history.length);  // Outputs the number of pages in the session hist
 <button id="forwardBtn">Go Forward</button>
 
 <script>
-    // Back button functionality
-    document.getElementById('backBtn').addEventListener('click', function() {
-        history.back();  // Navigate to the previous page
-    });
+  // Back button functionality
+  document.getElementById("backBtn").addEventListener("click", function () {
+    history.back(); // Navigate to the previous page
+  });
 
-    // Forward button functionality
-    document.getElementById('forwardBtn').addEventListener('click', function() {
-        history.forward();  // Navigate to the next page
-    });
+  // Forward button functionality
+  document.getElementById("forwardBtn").addEventListener("click", function () {
+    history.forward(); // Navigate to the next page
+  });
 </script>
 ```
 
 **Explanation:**
+
 1. **Back Button:** User যখন "Go Back" button এ click করে, তখন `history.back()` method এর মাধ্যমে তাদের previous page এ নিয়ে যাওয়া হয়।
 2. **Forward Button:** User যখন "Go Forward" button এ click করে, তখন `history.forward()` method এর মাধ্যমে তাদের next page এ নিয়ে যাওয়া হয়।
 
@@ -16630,8 +16644,8 @@ console.log(history.length);  // Outputs the number of pages in the session hist
 
 ## Window Navigator Object
 
-
 ### Table of Contents
+
 1. [Introduction to the Navigator Object](#introduction-to-the-navigator-object)
 2. [Why Use the Navigator Object?](#why-use-the-navigator-object)
 3. [Common Properties of the Navigator Object](#common-properties-of-the-navigator-object)
@@ -16644,7 +16658,6 @@ console.log(history.length);  // Outputs the number of pages in the session hist
 4. [Common Methods of the Navigator Object](#common-methods-of-the-navigator-object)
 5. [Real-life Example of Using the Navigator Object](#real-life-example-of-using-the-navigator-object)
 
-
 ### 1. Introduction to the Navigator Object
 
 The **Window Navigator Object** browser এবং user এর environment সম্পর্কিত বিভিন্ন তথ্য প্রদান করে। **`window.navigator`** object এর মাধ্যমে browser এর নাম, version, operating system, language, এবং connectivity status এর মতো তথ্য পাওয়া যায়। Navigator object মূলত browser information এবং user এর platform এর সাথে interact করতে ব্যবহৃত হয়।
@@ -16654,6 +16667,7 @@ Source: [W3Schools - Window Navigator](https://www.w3schools.com/js/js_window_na
 ### 2. Why Use the Navigator Object?
 
 Navigator object ব্যবহার করার কিছু গুরুত্বপূর্ণ কারণ:
+
 - **Browser Detection:** User এর browser এবং version detect করা যায়, যা বিভিন্ন browser-specific optimizations করতে সাহায্য করে।
 - **Platform Information:** User এর operating system এবং device সম্পর্কিত তথ্য পাওয়া যায়, যা cross-platform compatibility উন্নত করতে সাহায্য করে।
 - **Language Support:** User এর browser এর language settings জানতে পারা যায়, যা localization এবং internationalization এর ক্ষেত্রে গুরুত্বপূর্ণ।
@@ -16670,7 +16684,7 @@ Navigator object এর মাধ্যমে user এর browser এবং syst
 ##### Example:
 
 ```javascript
-console.log(navigator.appName);  // Outputs the name of the browser (usually "Netscape")
+console.log(navigator.appName); // Outputs the name of the browser (usually "Netscape")
 ```
 
 #### 3.2 navigator.appVersion
@@ -16680,7 +16694,7 @@ console.log(navigator.appName);  // Outputs the name of the browser (usually "Ne
 ##### Example:
 
 ```javascript
-console.log(navigator.appVersion);  // Outputs version information about the browser
+console.log(navigator.appVersion); // Outputs version information about the browser
 ```
 
 #### 3.3 navigator.userAgent
@@ -16690,7 +16704,7 @@ console.log(navigator.appVersion);  // Outputs version information about the bro
 ##### Example:
 
 ```javascript
-console.log(navigator.userAgent);  // Outputs the user agent string of the browser
+console.log(navigator.userAgent); // Outputs the user agent string of the browser
 ```
 
 #### 3.4 navigator.platform
@@ -16700,7 +16714,7 @@ console.log(navigator.userAgent);  // Outputs the user agent string of the brows
 ##### Example:
 
 ```javascript
-console.log(navigator.platform);  // Outputs the user's platform (e.g., "Win32" or "MacIntel")
+console.log(navigator.platform); // Outputs the user's platform (e.g., "Win32" or "MacIntel")
 ```
 
 #### 3.5 navigator.language
@@ -16710,7 +16724,7 @@ console.log(navigator.platform);  // Outputs the user's platform (e.g., "Win32" 
 ##### Example:
 
 ```javascript
-console.log(navigator.language);  // Outputs the language setting of the browser (e.g., "en-US")
+console.log(navigator.language); // Outputs the language setting of the browser (e.g., "en-US")
 ```
 
 #### 3.6 navigator.onLine
@@ -16721,9 +16735,9 @@ console.log(navigator.language);  // Outputs the language setting of the browser
 
 ```javascript
 if (navigator.onLine) {
-    console.log('You are online');
+  console.log("You are online");
 } else {
-    console.log('You are offline');
+  console.log("You are offline");
 }
 ```
 
@@ -16732,18 +16746,18 @@ if (navigator.onLine) {
 Navigator object এর properties ছাড়াও কিছু methods রয়েছে, যেগুলো ব্যবহার করে browser এবং environment এর উপর আরও advanced tasks করা যায়।
 
 - **`navigator.geolocation.getCurrentPosition()`**: User এর current geographic location জানতে ব্যবহার করা হয় (assuming permission is granted by the user).
-  
+
   ```javascript
-  navigator.geolocation.getCurrentPosition(function(position) {
-      console.log('Latitude: ' + position.coords.latitude);
-      console.log('Longitude: ' + position.coords.longitude);
+  navigator.geolocation.getCurrentPosition(function (position) {
+    console.log("Latitude: " + position.coords.latitude);
+    console.log("Longitude: " + position.coords.longitude);
   });
   ```
 
 - **`navigator.javaEnabled()`**: Browser এ Java enabled আছে কিনা তা check করার জন্য ব্যবহার করা হয়।
-  
+
   ```javascript
-  console.log(navigator.javaEnabled());  // Outputs true if Java is enabled
+  console.log(navigator.javaEnabled()); // Outputs true if Java is enabled
   ```
 
 ### 5. Real-life Example of Using the Navigator Object
@@ -16758,30 +16772,30 @@ Navigator object এর properties ছাড়াও কিছু methods র�
 <div id="browserInfo"></div>
 
 <script>
-    let browserInfo = `
+  let browserInfo = `
         <p><strong>Browser:</strong> ${navigator.appName}</p>
         <p><strong>Version:</strong> ${navigator.appVersion}</p>
         <p><strong>User Agent:</strong> ${navigator.userAgent}</p>
         <p><strong>Platform:</strong> ${navigator.platform}</p>
         <p><strong>Language:</strong> ${navigator.language}</p>
-        <p><strong>Online Status:</strong> ${navigator.onLine ? 'Online' : 'Offline'}</p>
+        <p><strong>Online Status:</strong> ${
+          navigator.onLine ? "Online" : "Offline"
+        }</p>
     `;
 
-    document.getElementById('browserInfo').innerHTML = browserInfo;
+  document.getElementById("browserInfo").innerHTML = browserInfo;
 </script>
 ```
 
 **Explanation:**
+
 1. **Accessing Navigator Properties:** Navigator object এর properties ব্যবহার করে browser এবং platform এর বিভিন্ন তথ্য dynamically display করা হয়েছে।
 2. **Displaying Information:** Webpage এ user এর browser এবং platform এর তথ্য dynamically দেখানো হয়েছে।
-
-
-
-
 
 ## JavaScript Timing Event
 
 ### Table of Contents
+
 1. [Introduction to JavaScript Timing Events](#introduction-to-javascript-timing-events)
 2. [Why Use Timing Events?](#why-use-timing-events)
 3. [Common Timing Methods](#common-timing-methods)
@@ -16801,6 +16815,7 @@ Source: [W3Schools - JavaScript Timing Events](https://www.w3schools.com/js/js_t
 ### 2. Why Use Timing Events?
 
 Timing events ব্যবহার করার কিছু গুরুত্বপূর্ণ কারণ:
+
 - **Delay Execution:** Functions বা code block নির্দিষ্ট সময় পরে execute করা যায়।
 - **Repeated Execution:** নির্দিষ্ট interval পরপর একাধিকবার functions execute করা যায়।
 - **Asynchronous Programming:** Timing events এর মাধ্যমে JavaScript এর asynchronous behavior তৈরি করা যায়, যা user interaction এর জন্য অত্যন্ত গুরুত্বপূর্ণ।
@@ -16824,9 +16839,9 @@ setTimeout(function, delay);
 ##### Example:
 
 ```javascript
-setTimeout(function() {
-    console.log("Executed after 3 seconds");
-}, 3000);  // Executes after 3000 milliseconds (3 seconds)
+setTimeout(function () {
+  console.log("Executed after 3 seconds");
+}, 3000); // Executes after 3000 milliseconds (3 seconds)
 ```
 
 #### 3.2 setInterval()
@@ -16845,14 +16860,14 @@ setInterval(function, interval);
 ##### Example:
 
 ```javascript
-setInterval(function() {
-    console.log("This message repeats every 2 seconds");
-}, 2000);  // Executes every 2000 milliseconds (2 seconds)
+setInterval(function () {
+  console.log("This message repeats every 2 seconds");
+}, 2000); // Executes every 2000 milliseconds (2 seconds)
 ```
 
 #### 3.3 clearTimeout()
 
-**`clearTimeout()`** method ব্যবহার করে একটি previously set `setTimeout()` function cancel করা যায়। 
+**`clearTimeout()`** method ব্যবহার করে একটি previously set `setTimeout()` function cancel করা যায়।
 
 ##### Syntax:
 
@@ -16865,8 +16880,8 @@ clearTimeout(timeoutID);
 ##### Example:
 
 ```javascript
-let timeoutID = setTimeout(function() {
-    console.log("This will not be executed");
+let timeoutID = setTimeout(function () {
+  console.log("This will not be executed");
 }, 5000);
 
 // Cancels the timeout
@@ -16888,13 +16903,13 @@ clearInterval(intervalID);
 ##### Example:
 
 ```javascript
-let intervalID = setInterval(function() {
-    console.log("Repeating message");
+let intervalID = setInterval(function () {
+  console.log("Repeating message");
 }, 1000);
 
 // Cancels the interval after 5 seconds
-setTimeout(function() {
-    clearInterval(intervalID);
+setTimeout(function () {
+  clearInterval(intervalID);
 }, 5000);
 ```
 
@@ -16910,30 +16925,30 @@ setTimeout(function() {
 <p id="countdown">10</p>
 
 <script>
-    let count = 10;
-    let countdownElement = document.getElementById('countdown');
+  let count = 10;
+  let countdownElement = document.getElementById("countdown");
 
-    let countdownTimer = setInterval(function() {
-        count--;
-        countdownElement.innerText = count;
+  let countdownTimer = setInterval(function () {
+    count--;
+    countdownElement.innerText = count;
 
-        // When countdown reaches 0, stop the timer and display a message
-        if (count === 0) {
-            clearInterval(countdownTimer);
-            countdownElement.innerText = "Time's up!";
-        }
-    }, 1000);  // Updates every second (1000 milliseconds)
+    // When countdown reaches 0, stop the timer and display a message
+    if (count === 0) {
+      clearInterval(countdownTimer);
+      countdownElement.innerText = "Time's up!";
+    }
+  }, 1000); // Updates every second (1000 milliseconds)
 </script>
 ```
 
 **Explanation:**
+
 1. **setInterval() for Countdown:** `setInterval()` method ব্যবহার করে প্রতি 1 second পর countdown value কমানো হচ্ছে।
 2. **clearInterval() to Stop Timer:** Countdown 0 এ পৌঁছালে `clearInterval()` method ব্যবহার করে timer বন্ধ করা হয়েছে এবং একটি message display করা হয়েছে।
 
 ### 5. Conclusion
 
 **JavaScript Timing Events** হল powerful tools যা asynchronous code execute করতে এবং functions নির্দিষ্ট সময় পর বা নির্দিষ্ট interval পরে execute করতে ব্যবহৃত হয়। `setTimeout()` এবং `setInterval()` এর মাধ্যমে functions delay বা repeatedly execute করা সম্ভব, এবং `clearTimeout()` ও `clearInterval()` এর মাধ্যমে set timers cancel করা যায়। Timing events বিভিন্ন ধরনের asynchronous tasks পরিচালনা করার জন্য অত্যন্ত গুরুত্বপূর্ণ, যেমন animations, countdowns, অথবা delayed actions।
-
 
 ## JavaScript Cookies
 
@@ -17021,40 +17036,133 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";  /
 
 #### Scenario: Storing and Retrieving User Preferences
 
-ধরুন, আপনি একটি webpage তৈরি করছেন যেখানে user এর preferred theme (dark বা light) save করে রাখা হবে, এবং user পরে সেই page visit করলে তাদের preferences অনুযায়ী theme automatically apply করা হবে।
+এখানে আমরা এমন একটি webpage তৈরি করব যেখানে user "Dark Theme" বা "Light Theme" select করতে পারবে। তাদের পছন্দটি cookie তে save করা হবে এবং পরে page visit করলে সেই theme automatically apply হবে।
 
-##### Example:
+##### HTML + JavaScript + CSS Example:
 
 ```html
-<button onclick="setTheme('dark')">Dark Theme</button>
-<button onclick="setTheme('light')">Light Theme</button>
-
-<script>
-// Function to set the theme and save it in a cookie
-function setTheme(theme) {
-    document.cookie = "theme=" + theme + "; expires=Fri, 31 Dec 2024 12:00:00 UTC; path=/";
-    document.body.className = theme;
-}
-
-// Function to check the saved theme from cookies and apply it
-function applyThemeFromCookie() {
-    let cookies = document.cookie.split("; ");
-    for (let i = 0; i < cookies.length; i++) {
-        let cookie = cookies[i].split("=");
-        if (cookie[0] === "theme") {
-            document.body.className = cookie[1];
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Selector</title>
+    <style>
+        /* Basic styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
-    }
-}
 
-// Apply the theme when the page loads
-applyThemeFromCookie();
-</script>
+        /* Light theme styles */
+        body.light {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Dark theme styles */
+        body.dark {
+            background-color: #333;
+            color: #f0f0f0;
+        }
+
+        /* Button styling */
+        .theme-btn {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Light theme button */
+        .theme-btn.light-btn {
+            background-color: #fff;
+            color: #333;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .theme-btn.light-btn:hover {
+            background-color: #ddd;
+        }
+
+        /* Dark theme button */
+        .theme-btn.dark-btn {
+            background-color: #444;
+            color: #fff;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .theme-btn.dark-btn:hover {
+            background-color: #222;
+        }
+
+        /* Styling for the theme choice section */
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .container h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select Your Theme</h1>
+        <button class="theme-btn light-btn" onclick="setTheme('light')">Light Theme</button>
+        <button class="theme-btn dark-btn" onclick="setTheme('dark')">Dark Theme</button>
+    </div>
+
+    <script>
+        // Function to set the theme and save it in a cookie
+        function setTheme(theme) {
+            document.cookie = "theme=" + theme + "; expires=Fri, 31 Dec 2024 12:00:00 UTC; path=/";
+            document.body.className = theme;
+        }
+
+        // Function to check the saved theme from cookies and apply it
+        function applyThemeFromCookie() {
+            let cookies = document.cookie.split("; ");
+            for (let i = 0; i < cookies.length; i++) {
+                let cookie = cookies[i].split("=");
+                if (cookie[0] === "theme") {
+                    document.body.className = cookie[1];
+                }
+            }
+        }
+
+        // Apply the theme when the page loads
+        applyThemeFromCookie();
+    </script>
+</body>
+</html>
 ```
 
-**Explanation:**
-1. **Storing User Preference:** User যখন "Dark Theme" বা "Light Theme" button এ click করে, তখন theme এর value একটি cookie তে save করা হয়।
-2. **Applying Stored Theme:** User যখন পরবর্তীতে page এ ফিরে আসে, তখন cookie থেকে stored theme read করা হয় এবং সেই অনুযায়ী theme apply করা হয়।
+### Explanation:
+
+1. **HTML Structure:**
+   - এখানে user এর জন্য "Dark Theme" এবং "Light Theme" select করার জন্য দুটি button আছে।
+
+2. **CSS Styling:**
+   - **`body.light`**: Light theme এর জন্য background এবং text color adjust করা হয়েছে।
+   - **`body.dark`**: Dark theme এর জন্য dark background এবং light text color set করা হয়েছে।
+   - Button গুলোতে hover effects এবং smooth transition add করা হয়েছে যাতে look সুন্দর হয়।
+
+3. **JavaScript:**
+   - **`setTheme()`** function theme set করে এবং cookie তে save করে।
+   - **`applyThemeFromCookie()`** function cookie থেকে theme এর value check করে এবং সেই অনুযায়ী theme apply করে।
+
+4. **Beautiful Look:**
+   - CSS এর মাধ্যমে theme switch এর সময় smooth transition এবং hover effects ব্যবহার করা হয়েছে, যা user experience কে আরো উন্নত করে।
+
+### Result:
+
+User যখন "Dark Theme" বা "Light Theme" select করবে, তখন সেই theme apply হবে এবং cookie তে save হবে। পরবর্তীতে page এ revisit করলে, saved theme automatically apply হবে।
 
 ### 5. Cookie Expiration and Path
 
@@ -17076,15 +17184,15 @@ Cookies এর expiration date এবং path set করা খুবই গু�
 
 ### 6. Conclusion
 
-**JavaScript Cookies** একটি powerful feature যা websites কে user-specific data store এবং retrieve করতে সহায়ক করে। Cookies user এর preferences, session management, এবং tracking এর জন্য ব্যবহার করা হয়। JavaScript এর মাধ্যমে cookies create, read, এবং delete করা যায়। Proper expiration date এবং path set করে cookies কে efficiently manage করা সম্ভব। Cookies modern web development এর একটি গুরুত্বপূর্ণ অংশ, যা user experience উন্নত করতে সহায়ক।
+**JavaScript Cookies** একটি powerful feature যা websites কে user-specific data store এবং retrieve করতে সহায়ক করে। Cookies user এর preferences, session management, এবং tracking এর জন্য ব্যবহার করা হয়। JavaScript এর মাধ্যমে cookies create, read, এবং delete করা যায়। Proper expiration date এবং path set করে
 
+ cookies কে efficiently manage করা সম্ভব। Cookies modern web development এর একটি গুরুত্বপূর্ণ অংশ, যা user experience উন্নত করতে সহায়ক।
 
 
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
-
 
 # Project-03: Simple Website Layout with Flexbox
 
