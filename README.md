@@ -17157,8 +17157,12 @@ document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";  /
    - **`setTheme()`** function theme set করে এবং cookie তে save করে।
    - **`applyThemeFromCookie()`** function cookie থেকে theme এর value check করে এবং সেই অনুযায়ী theme apply করে।
 
-4. **Beautiful Look:**
-   - CSS এর মাধ্যমে theme switch এর সময় smooth transition এবং hover effects ব্যবহার করা হয়েছে, যা user experience কে আরো উন্নত করে।
+
+**Screenshot:**
+![cookie](./chapter-17/cookie.png)
+
+**Code**
+CodePen Link: https://codepen.io/FarmerAbdulAlim/pen/oNrmWKZ
 
 ### Result:
 
