@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <input type="text" id="username" required />
+      <input type="email" name="" id="" required>
+      <div id="error-message"></div>
+      <button type="submit" onclick="validateForm(event)">Submit</button>
+    </form>
+
+    <script>
+      function validateForm(event) {
+        const input = document.getElementById("username");
+        const errorMessage = document.getElementById("error-message");
+
+        if (!input.checkValidity()) {
+          errorMessage.textContent = "Please fill out the required field."; // Output to the div
+          event.preventDefault(); // Prevent form submission
+        } else {
+          errorMessage.textContent = ""; // Clear error if valid
+        }
+      }
+    </script>
+  </body>
+</html>

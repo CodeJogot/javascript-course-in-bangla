@@ -25,7 +25,7 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 |   [16](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object)   | [DOM, DOM Methods, DOM Documents, DOM Elements, DOM Events, DOM Event Listener, DOM Nodes, DOM Collections, DOM NodeList Object](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object) |                       |
 | [17](#chapter-17-bom-window-object-screen-object-location-object-history-object-navigator-object-javascript-timing-event-javascript-cookies) |             [BOM, Window Object, History Object, Navigator Object, JavaScript Timing Event, JavaScript Cookies](#chapter-17-bom-window-object-screen-object-location-object-history-object-navigator-object-javascript-timing-event-javascript-cookies)              |                       |
 |                        [18](#chapter-18-javascript-web-api-web-storage-api-web-workers-api-fetch-api-geolocation-api)                        |                                             [JavaScript Web API, Web Storage API, Web Workers API, Fetch API, Geolocation API](#chapter-18-javascript-web-api-web-storage-api-web-workers-api-fetch-api-geolocation-api)                                             |                       |
-|                                                                      19                                                                      |                                                                                                                                                                                                                                                                      |                       |
+|                                                                      [19](#chapter-19-ajax)                                                                      |   [AJAX](#chapter-19-ajax)                                                                                                                                                                                                                                                                   |                       |
 |                                                                      20                                                                      |                                                                                                                                                                                                                                                                      |                       |
 |                                                                      21                                                                      |                                                                                                                                                                                                                                                                      |                       |
 |                                                                      22                                                                      |                                                                                                                                                                                                                                                                      |                       |
@@ -18756,9 +18756,756 @@ navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 
 **Geolocation API** হল একটি শক্তিশালী tool, যা ব্যবহারকারীর actual বা estimated physical location জানতে ব্যবহৃত হয়। এটি বিভিন্ন location-based services বা applications এর জন্য অত্যন্ত কার্যকর, যেমন: weather apps, map-based services ইত্যাদি। Geolocation API এর প্রধান দুটি method হলো `getCurrentPosition()` এবং `watchPosition()`। তবে, এর ব্যবহার করার সময় ব্যবহারকারীর privacy এবং security সম্পর্কে সতর্ক থাকা জরুরি।
 
+
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
+
+
+# Chapter-19: AJAX
+
+- [Introduction to AJAX](#introduction-to-ajax)
+- [The XMLHttpRequest Object](#the-xmlhttprequest-object)
+- [AJAX - Server Response](#ajax---server-response)
+
+
+## Introduction to AJAX
+
+
+### Table of Contents
+1. [Introduction to AJAX](#introduction-to-ajax)
+2. [Why Use AJAX?](#why-use-ajax)
+3. [How AJAX Works](#how-ajax-works)
+4. [Making AJAX Requests](#making-ajax-requests)
+   - [GET Request](#get-request)
+   - [POST Request](#post-request)
+5. [Handling AJAX Responses](#handling-ajax-responses)
+   - [Using onreadystatechange](#using-onreadystatechange)
+   - [Using onload](#using-onload)
+6. [Real-life Example of AJAX](#real-life-example-of-ajax)
+   - [With Button Click](#with-button-click)
+7. [AJAX vs Fetch API](#ajax-vs-fetch-api)
+8. [Conclusion](#conclusion)
+
+---
+
+### 1. Introduction to AJAX
+
+**AJAX** (Asynchronous JavaScript and XML) হলো একটি technology, যা ব্যবহার করে web pages asynchronous ভাবে server এর সাথে data exchange করতে পারে। AJAX এর মাধ্যমে page reload না করে dynamically content load এবং update করা যায়। মূলত XMLHttpRequest object ব্যবহার করে AJAX কাজ করে, তবে বর্তমানে modern Fetch API ও AJAX এর জন্য ব্যবহার করা যায়। 
+
+#### Key Features:
+- AJAX asynchronous ভাবে কাজ করে, যার ফলে page এর অন্যান্য content unaffected থাকে।
+- এটি page reload না করে dynamically content update করতে সাহায্য করে।
+- Data format হিসেবে XML, JSON, HTML, এবং plain text ব্যবহার করা যায়।
+
+
+---
+
+### 2. Why Use AJAX?
+
+AJAX এর মাধ্যমে web applications এর responsiveness বৃদ্ধি করা যায়। এর প্রধান কারণগুলো হলো:
+1. **Asynchronous Data Loading:** AJAX asynchronous ভাবে কাজ করে, অর্থাৎ browser এর অন্যান্য কাজ চলাকালীন সময়ে server এর সাথে data fetch এবং update করতে পারে।
+2. **Improved User Experience:** Page reload না করে specific data fetch এবং page এর নির্দিষ্ট অংশ update করার কারণে user experience উন্নত হয়।
+3. **Efficient Data Requests:** AJAX এর মাধ্যমে ছোট ছোট data chunks server থেকে request করা যায়, যা bandwidth কম ব্যবহার করে।
+4. **Seamless Server Interactions:** AJAX এর মাধ্যমে server এর সাথে সহজে এবং efficient ভাবে GET, POST, PUT, DELETE ইত্যাদি HTTP methods ব্যবহার করা যায়।
+
+---
+
+### 3. How AJAX Works
+
+AJAX এর কাজ হলো **client-side** থেকে **server-side** এ request পাঠানো এবং response নেওয়া, যা asynchronous ভাবে ঘটে। AJAX মূলত **XMLHttpRequest (XHR)** object এর মাধ্যমে কাজ করে। নিচে AJAX কাজ করার ধাপগুলো দেখানো হয়েছে:
+
+1. **Create an XMLHttpRequest Object:** AJAX request শুরু করার জন্য প্রথমে একটি `XMLHttpRequest` object তৈরি করতে হবে।
+2. **Open a Request:** XMLHttpRequest এর `.open()` method ব্যবহার করে HTTP request তৈরি করতে হবে।
+3. **Send the Request:** `.send()` method দিয়ে request server এ পাঠানো হয়।
+4. **Handle the Response:** Server থেকে response পাওয়া গেলে response data নিয়ে কাজ করা হয়।
+
+---
+
+### 4. Making AJAX Requests
+
+#### GET Request
+
+**GET** method server থেকে data retrieve করতে ব্যবহার করা হয়। নিচে একটি GET request এর উদাহরণ দেয়া হলো:
+
+##### Example:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("result").innerHTML = this.responseText;
+  }
+};
+
+xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+xhttp.send();
+```
+
+- **Explanation:**
+  - **open("GET", url, true):** এখানে `"GET"` method ব্যবহার করা হয়েছে এবং `url` হিসেবে server এর API endpoint উল্লেখ করা হয়েছে।
+  - **onreadystatechange:** Request এর state change হওয়ার সাথে সাথে এই function execute হয়। যখন request শেষ হবে, তখন readyState এবং status check করে data handle করা হয়।
+  - **this.readyState == 4:** এর মানে request সম্পূর্ণ হয়েছে।
+  - **this.status == 200:** এর মানে request সফল হয়েছে। **status == 200** মানে successful HTTP request।
+  - **this.responseText:** Server থেকে response data HTML element এ দেখানো হয়েছে।
+
+#### POST Request
+
+**POST** method server এ নতুন data পাঠাতে ব্যবহার করা হয়। POST request এর মাধ্যমে server এ data create বা update করা যায়।
+
+##### Example:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 201) {
+    document.getElementById("result").innerHTML = this.responseText;
+  }
+};
+
+xhttp.open("POST", "https://jsonplaceholder.typicode.com/posts", true);
+xhttp.setRequestHeader("Content-type", "application/json");
+
+xhttp.send(JSON.stringify({
+  title: "foo",
+  body: "bar",
+  userId: 1
+}));
+```
+
+- **Explanation:**
+  - **open("POST", url, true):** POST request তৈরি করা হয়েছে এবং asynchronous ভাবে data পাঠানো হচ্ছে।
+  - **setRequestHeader():** Content-type set করা হয়েছে যাতে server জানে যে JSON format এ data পাঠানো হচ্ছে।
+  - **send():** JSON format এ serialized data server এ পাঠানো হয়েছে। এখানে **JSON.stringify()** method ব্যবহার করে JavaScript object কে JSON format এ রূপান্তর করা হয়েছে।
+  
+#### Detailed Explanation of `xhttp.send(JSON.stringify({ title: "foo", body: "bar", userId: 1 }))`:
+
+  - **xhttp.send()**: এই method এর মাধ্যমে XMLHttpRequest object request send করে।
+  - **JSON.stringify()**: এটি একটি JavaScript function যা JavaScript object কে JSON string এ convert করে। যেহেতু POST request এ server এর কাছে data পাঠাতে হয়, data কে JSON format এ পাঠানোর জন্য আমরা `JSON.stringify()` method ব্যবহার করেছি।
+  - **Object Details**:
+    - **title: "foo"**: এখানে `title` property তে `"foo"` string পাঠানো হয়েছে।
+    - **body: "bar"**: এখানে `body` property তে `"bar"` string পাঠানো হয়েছে।
+    - **userId: 1**: এখানে `userId` একটি সংখ্যা (number) হিসেবে পাঠানো হয়েছে।
+  - **Conclusion**: `send()` method এর মাধ্যমে এই serialized JSON data server এর কাছে পাঠানো হয়েছে এবং server সেই data receive করে প্রক্রিয়াকরণ করে।
+
+  - **status == 201:** HTTP status code **201** নির্দেশ করে যে data সফলভাবে তৈরি হয়েছে।
+
+---
+
+### 5. Handling AJAX Responses
+
+AJAX request এর response পাওয়ার পরে, response handle করার জন্য `onreadystatechange` এবং `onload` property ব্যবহার করা যায়।
+
+#### Using onreadystatechange
+
+**onreadystatechange** property ব্যবহার করে আমরা request এর বিভিন্ন state track করতে পারি এবং response data handle করতে পারি। এটি বেশ flexible এবং traditional approach।
+
+##### Example:
+
+```javascript
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("result").innerHTML = this.responseText;
+  }
+};
+```
+
+- **Explanation:**
+  - Server থেকে response পাওয়ার পর `readyState == 4` এবং `status == 200` check করে data HTML element এ দেখানো হয়েছে।
+
+#### Using onload
+
+**onload** property ব্যবহার করে request শেষ হওয়ার পর response handle করা হয়। এটি `onreadystatechange` এর তুলনায় সরাসরি এবং cleaner approach।
+
+##### Example:
+
+```javascript
+xhttp.onload = function() {
+  if (this.status == 200) {
+    document.getElementById("result").innerHTML = this.responseText;
+  }
+};
+```
+
+- **Explanation:**
+  - Request শেষ হলে **onload** execute হয় এবং request সফল হলে response data handle করে HTML element এ দেখানো হয়।
+
+---
+
+### 6. Real-life Example of AJAX
+
+#### With Button Click
+
+নিচে একটি বাস্তব উদাহরণ দেখানো হয়েছে যেখানে button click করলে AJAX request পাঠানো হবে এবং server থেকে data fetch করা হবে এবং HTML element এ দেখানো হবে।
+
+##### Example:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX Example</title>
+</head>
+<body>
+  <h1>AJAX Demo</h1>
+  <button onclick="loadData()">Load Data</button>
+  <div id="result"></div>
+
+  <script>
+    function loadData() {
+      let xhttp = new XMLHttpRequest();
+
+      xhttp.onload = function() {
+        if (this.status == 200) {
+          document.getElementById("result").innerHTML = this.responseText;
+        }
+      };
+
+      xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+      xhttp.send();
+    }
+  </script>
+</body>
+</html>
+```
+
+- **Explanation:**
+  - Button click করলে `loadData()` function call হবে, যা একটি AJAX request পাঠিয়ে server থেকে data fetch করবে।
+  - Data HTML element এ dynamically display হবে, **onload** ব্যবহার করে response handle করা হয়েছে।
+
+---
+
+### 7. AJAX vs Fetch API
+
+AJAX এবং Fetch API এর মধ্যে মূল পার্থক্যগুলো নিচে টেবিল আকারে দেখানো হলো:
+
+| Feature                | AJAX (XMLHttpRequest)                          | Fetch API                                       |
+|------------------------|------------------------------------------------|-------------------------------------------------|
+| **Syntax**             | Complex এবং verbose                            | Simple এবং cleaner                              |
+| **Response Handling**   | Callbacks প্রয়োজন
+
+                              | Promise-based                                   |
+| **Error Handling**      | Error handling complex                        | Easy to handle errors using `.catch()` block    |
+| **Support for Promises**| No (only callbacks)                           | Yes                                             |
+| **Readability**         | Less readable                                 | More readable, especially with Async/Await      |
+| **Data Types**          | XML, JSON, HTML ইত্যাদি format handle করতে পারে| Primarily works with JSON but supports other types|
+
+---
+
+### 8. Conclusion
+
+**AJAX** হল একটি শক্তিশালী technology, যা server এর সাথে asynchronous ভাবে data transfer করে page reload ছাড়াই web applications এ dynamic content update করতে সাহায্য করে। XMLHttpRequest object ব্যবহার করে GET এবং POST requests পাঠানো যায় এবং server এর response handle করে page এর নির্দিষ্ট অংশে data dynamically display করা যায়। যদিও Fetch API আরও modern এবং cleaner syntax প্রদান করে, AJAX এখনও একটি গুরুত্বপূর্ণ এবং প্রচলিত tool।
+
+
+
+## The XMLHttpRequest Object
+
+
+### Table of Contents
+1. [Introduction to XMLHttpRequest](#introduction-to-xmlhttprequest)
+2. [Why Use XMLHttpRequest?](#why-use-xmlhttprequest)
+3. [Creating an XMLHttpRequest Object](#creating-an-xmlhttprequest-object)
+4. [Sending a Request to the Server](#sending-a-request-to-the-server)
+   - [GET Request](#get-request)
+   - [POST Request](#post-request)
+5. [Handling Server Responses](#handling-server-responses)
+   - [Using onload](#using-onload)
+6. [Real-life Example of XMLHttpRequest](#real-life-example-of-xmlhttprequest)
+   - [With Button Click](#with-button-click)
+7. [Properties and Methods of XMLHttpRequest](#properties-and-methods-of-xmlhttprequest)
+8. [Conclusion](#conclusion)
+
+---
+
+### 1. Introduction to XMLHttpRequest
+
+**XMLHttpRequest (XHR)** হলো একটি built-in JavaScript object, যা **AJAX** requests handle করার জন্য ব্যবহৃত হয়। এটি web pages asynchronous ভাবে server এর সাথে data transfer করতে ব্যবহার করা হয়। XHR এর মাধ্যমে web page রিফ্রেশ না করে server থেকে data আনতে বা পাঠাতে পারি এবং dynamically page এর content update করতে পারি। 
+
+#### Key Features:
+- XMLHttpRequest asynchronous ভাবে কাজ করে, যা user experience উন্নত করে।
+- GET এবং POST সহ বিভিন্ন HTTP methods ব্যবহার করে data পাঠানো বা আনা যায়।
+- Data বিভিন্ন format এ handle করা যায় (JSON, XML, HTML, Text)।
+
+
+
+### 2. Why Use XMLHttpRequest?
+
+**XMLHttpRequest** এর ব্যবহার করার প্রধান কারণগুলো হলো:
+1. **Asynchronous Data Loading:** Page reload না করে background এ server থেকে data আনতে বা server এ data পাঠাতে পারি।
+2. **Dynamic Content Update:** Server থেকে data আনার পর dynamically content update করা যায়।
+3. **Server Communication:** Server এর সাথে GET, POST, PUT, DELETE ইত্যাদি HTTP requests পাঠিয়ে interaction করা যায়।
+4. **Customizable Requests:** XMLHttpRequest ব্যবহার করে আমরা request headers, parameters, এবং data formats specify করতে পারি।
+
+---
+
+### 3. Creating an XMLHttpRequest Object
+
+AJAX request পাঠানোর জন্য প্রথমে একটি **XMLHttpRequest** object তৈরি করতে হয়। নিচে একটি XMLHttpRequest object তৈরি করার syntax দেখানো হলো।
+
+##### Syntax:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+```
+
+- **Explanation:**
+  - `new XMLHttpRequest()` হল JavaScript এর একটি constructor, যা XMLHttpRequest object তৈরি করে। এই object ব্যবহার করে আমরা server এর সাথে asynchronous ভাবে data transfer করতে পারি।
+
+---
+
+### 4. Sending a Request to the Server
+
+XMLHttpRequest object তৈরি করার পরে আমরা GET বা POST method এর মাধ্যমে server এর সাথে data exchange করতে পারি। 
+
+#### GET Request
+
+**GET** method সাধারণত server থেকে data retrieve করতে ব্যবহার করা হয়। নিচে একটি GET request এর উদাহরণ দেয়া হলো:
+
+##### Example:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("result").innerHTML = this.responseText;
+  }
+};
+
+xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+xhttp.send();
+```
+
+- **Explanation:**
+  - **open("GET", url, true):** এখানে `"GET"` method ব্যবহার করা হয়েছে এবং `url` হিসেবে API এর একটি endpoint specify করা হয়েছে। `true` এর অর্থ হচ্ছে request asynchronous ভাবে পাঠানো হবে।
+  - **onreadystatechange:** এটি একটি event handler, যা request এর state change হওয়ার সাথে সাথে execute হয়। এটি মূলত server থেকে response পাওয়া পর্যন্ত বিভিন্ন stages handle করে।
+  - **this.readyState == 4:** এর মানে হলো request সম্পূর্ণ হয়েছে। `readyState` property XMLHttpRequest এর state নির্দেশ করে।
+    - **readyState Values:**
+      1. **0:** Request তৈরি হয়নি (uninitialized)
+      2. **1:** Request তৈরি হয়েছে (open() কল হয়েছে)
+      3. **2:** Request পাঠানো হয়েছে (sent)
+      4. **3:** Server process করছে (loading)
+      5. **4:** Request শেষ হয়েছে (done)
+  - **this.status == 200:** এর অর্থ হলো request successful হয়েছে। `status == 200` HTTP status code যা success নির্দেশ করে।
+  - **this.responseText:** Server থেকে যে data পাঠানো হয়েছে তা handle করে এবং result HTML element এ দেখানো হয়েছে।
+
+#### POST Request
+
+**POST** method server এ নতুন data create করতে বা send করতে ব্যবহার করা হয়। নিচে একটি POST request এর উদাহরণ দেয়া হলো:
+
+##### Example:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 201) { // 201 indicates successful creation
+    document.getElementById("result").innerHTML = this.responseText;
+  }
+};
+
+xhttp.open("POST", "https://jsonplaceholder.typicode.com/posts", true);
+xhttp.setRequestHeader("Content-type", "application/json");
+
+xhttp.send(JSON.stringify({
+  title: "foo",
+  body: "bar",
+  userId: 1
+}));
+```
+
+- **Explanation:**
+  - **open("POST", url, true):** POST request তৈরি করা হয়েছে এবং request asynchronous হবে।
+  - **setRequestHeader():** Request এর সাথে content type set করা হয়েছে, অর্থাৎ data JSON format এ পাঠানো হবে।
+  - **send():** JSON format এ serialize করে data server এ পাঠানো হয়েছে।
+  - **status == 201:** 201 HTTP status code নির্দেশ করে যে নতুন data সফলভাবে তৈরি হয়েছে।
+
+---
+
+### 5. Handling Server Responses
+
+Server থেকে response পাওয়ার পরে, XMLHttpRequest object এর কিছু properties ব্যবহার করে আমরা response handle করি।
+
+#### Using onreadystatechange
+
+**onreadystatechange** property ব্যবহার করে আমরা request এর বিভিন্ন state (readyState) track করতে পারি এবং response পাওয়ার পর তার data handle করতে পারি। এটি বেশ flexible এবং traditional approach।
+
+##### Example:
+
+```javascript
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("result").innerHTML = this.responseText;
+  }
+};
+```
+
+- **Explanation:**
+  - Server থেকে response পাওয়ার পরে `readyState == 4` এবং `status == 200` check করে response data **responseText** ব্যবহার করে HTML element এ দেখানো হয়েছে।
+
+#### Using onload
+
+**onload** property ব্যবহার করে আমরা request শেষ হওয়ার পর (when readyState == 4) response handle করতে পারি। এটি `onreadystatechange` এর তুলনায় সরাসরি এবং cleaner approach কারণ এটি শুধুমাত্র request সম্পূর্ণ হলে execute হয়।
+
+##### Example:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+
+xhttp.onload = function() {
+  if (this.status == 200) {
+    document.getElementById("result").innerHTML = this.responseText;
+  }
+};
+
+xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+xhttp.send();
+```
+
+- **Explanation:**
+  - **onload:** Request সম্পূর্ণ হলে এই event trigger হয়। `readyState` check করার দরকার নেই, কারণ **onload** শুধুমাত্র তখনই execute হবে যখন `readyState == 4`।
+  - Request সফল হলে **status == 200** চেক করে response HTML এ দেখানো হয়েছে।
+
+---
+
+### 6. Real-life Example of XMLHttpRequest
+
+#### With Button Click
+
+নিচে একটি বাস্তব উদাহরণ দেয়া হলো, যেখানে button click করলে XMLHttpRequest দিয়ে GET request পাঠিয়ে server থেকে data fetch করা হবে এবং HTML page এ প্রদর্শিত হবে।
+
+##### Example:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XMLHttpRequest Example</title>
+</head>
+<body>
+  <h1>XMLHttpRequest Demo</h1>
+  <button onclick="loadData()">Load Data</button>
+  <div id="result"></div>
+
+  <script>
+    function loadData() {
+      let xhttp = new XMLHttpRequest();
+
+      xhttp.onload = function() {
+        if (this.status == 200) {
+          document.getElementById("result").innerHTML = this.responseText;
+        }
+      };
+
+      xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+      xhttp.send();
+    }
+  </script>
+</body>
+</html>
+```
+
+- **Explanation:**
+  - Button click করলে `loadData()` function call হবে, যা XMLHttpRequest তৈরি করবে এবং server থেকে data fetch করবে।
+  - Data HTML element এ dynamically display হবে, **onload** ব্যবহার করে request এর response handle করা হয়েছে।
+
+---
+
+### 7. Properties and Methods of XMLHttpRequest
+
+XMLHttpRequest এর কিছু গুরুত্বপূর্ণ properties এবং methods নিচে table আকারে দেখানো হলো, এবং প্রতিটির জন্য উদাহরণ দেয়া হয়েছে:
+
+| Property/Method                | Description                                                                 |
+|--------------------------------|-----------------------------------------------------------------------------|
+| **open(method, url, async)**   | HTTP request তৈরি করতে ব্যবহৃত হয়। method, URL, এবং asynchronous নির্দেশ করতে হয়। |
+| **send(data)**                 | Request send করতে ব্যবহার করা হয়। GET request এর জন্য `data` optional, POST এর জন্য data প্রয়োজন।|
+| **setRequestHeader(header, value)**
+
+ | Request এর সাথে custom headers পাঠাতে ব্যবহার করা হয়।                                          |
+| **onreadystatechange**         | Server থেকে response পাওয়া পর্যন্ত request এর state change track করতে ব্যবহার করা হয়।            |
+| **onload**                     | Request শেষ হলে trigger হয় এবং response handle করতে সাহায্য করে।                                      |
+| **responseText**               | Server থেকে response data string আকারে return করে।                                                 |
+| **status**                     | HTTP response code return করে। 200 for success, 404 for not found।                                  |
+| **readyState**                 | Request এর state track করতে ব্যবহৃত হয়। 0 থেকে 4 পর্যন্ত মান ধারণ করে।                              |
+
+---
+
+#### Detailed Explanation and Examples:
+
+1. **open(method, url, async)**:
+   - Request তৈরি করার জন্য **method** (GET, POST), **url**, এবং **async** মান true (asynchronous) বা false (synchronous) হিসেবে pass করতে হয়।
+   ##### Example:
+   ```javascript
+   xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+   ```
+
+2. **send(data)**:
+   - Request send করতে ব্যবহার করা হয়। GET এর জন্য `data` optional, POST request এর ক্ষেত্রে `data` প্রয়োজন।
+   ##### Example:
+   ```javascript
+   xhttp.send(); // GET request এর জন্য
+   xhttp.send(JSON.stringify({ title: "foo", body: "bar" })); // POST request এর জন্য
+   ```
+
+3. **setRequestHeader(header, value)**:
+   - Request এর সাথে custom headers পাঠাতে ব্যবহৃত হয়, যেমন content type বা authentication tokens।
+   ##### Example:
+   ```javascript
+   xhttp.setRequestHeader("Content-type", "application/json");
+   ```
+
+4. **onreadystatechange**:
+   - Server এর সাথে request এর বিভিন্ন state track করতে এই property ব্যবহার করা হয়।
+   ##### Example:
+   ```javascript
+   xhttp.onreadystatechange = function() {
+     if (this.readyState == 4 && this.status == 200) {
+       console.log(this.responseText);
+     }
+   };
+   ```
+
+5. **onload**:
+   - Request সম্পূর্ণ হওয়ার পর এটি trigger হয় এবং সরাসরি response handle করতে সাহায্য করে।
+   ##### Example:
+   ```javascript
+   xhttp.onload = function() {
+     if (this.status == 200) {
+       console.log(this.responseText);
+     }
+   };
+   ```
+
+6. **responseText**:
+   - Server থেকে response string আকারে return করে। JSON বা XML data string হিসেবে পাওয়া যায়।
+   ##### Example:
+   ```javascript
+   console.log(xhttp.responseText);
+   ```
+
+7. **status**:
+   - Server এর HTTP response code নির্দেশ করে। **200** successful request, **404** not found।
+   ##### Example:
+   ```javascript
+   if (xhttp.status == 200) {
+     console.log("Success");
+   }
+   ```
+
+8. **readyState**:
+   - XMLHttpRequest object এর বিভিন্ন state নির্দেশ করে।
+   ##### Example:
+   ```javascript
+   if (xhttp.readyState == 4) {
+     console.log("Request completed");
+   }
+   ```
+
+## AJAX - Server Response
+
+
+### Table of Contents
+1. [Introduction to AJAX Server Response](#introduction-to-ajax-server-response)
+2. [Why Handle Server Responses?](#why-handle-server-responses)
+3. [Handling Server Responses](#handling-server-responses)
+   - [responseText Property](#responsetext-property)
+   - [responseXML Property](#responsexml-property)
+4. [Fetching Response Headers](#fetching-response-headers)
+   - [getResponseHeader() Method](#getresponseheader-method)
+   - [getAllResponseHeaders() Method](#getallresponseheaders-method)
+5. [Real-life Example of Handling Server Responses](#real-life-example-of-handling-server-responses)
+6. [Conclusion](#conclusion)
+
+---
+
+### 1. Introduction to AJAX Server Response
+
+**AJAX** (Asynchronous JavaScript and XML) একটি powerful tool, যা page reload না করে web applications এ asynchronous server requests পাঠাতে ব্যবহার করা হয়। তবে server থেকে response পাওয়ার পর সেই response handle করতে বিভিন্ন properties এবং methods ব্যবহার করা হয়, যেমন **responseText**, **responseXML**, **getResponseHeader()**, এবং **getAllResponseHeaders()**। AJAX request এর server response কিভাবে handle করতে হয়, তা এই documentation এ উদাহরণ সহ বিস্তারিতভাবে আলোচনা করা হবে।
+
+---
+
+### 2. Why Handle Server Responses?
+
+AJAX এর প্রধান কাজ server থেকে asynchronous ভাবে data fetch করা। Request সফলভাবে সম্পন্ন হলে, server থেকে response পাওয়া যায়। এই response বিভিন্ন data formats এ হতে পারে, যেমন: **plain text**, **JSON**, বা **XML**। Server response থেকে তথ্য retrieve করা এবং সেই data ব্যবহার করে web page এ dynamic ভাবে content update করা AJAX এর মূল উদ্দেশ্য।
+
+---
+
+### 3. Handling Server Responses
+
+XMLHttpRequest object এর মাধ্যমে server থেকে response পাওয়ার পরে, **responseText** এবং **responseXML** properties ব্যবহার করে আমরা data handle করতে পারি। 
+
+#### responseText Property
+
+**`responseText`** একটি property, যা server থেকে পাঠানো response কে string হিসেবে return করে। এটি সাধারণত যখন server থেকে **text** বা **JSON** data আসে, তখন ব্যবহার করা হয়।
+
+##### Example:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("result").innerHTML = this.responseText;
+  }
+};
+xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+xhttp.send();
+```
+
+- **Explanation:**
+  - `responseText` ব্যবহার করে server থেকে পাঠানো **plain text** বা **JSON** data string হিসেবে return করা হয়।
+  - Example এ, server থেকে JSON format এ data এসেছে এবং সেই data HTML এর **result** element এ প্রদর্শিত হয়েছে।
+
+#### responseXML Property
+
+**`responseXML`** একটি property, যা server থেকে পাঠানো response কে **XMLDocument object** আকারে return করে। এটি XML data handle করতে ব্যবহার করা হয়।
+
+##### Example:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    let xmlDoc = this.responseXML;
+    let title = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+    document.getElementById("result").innerHTML = title;
+  }
+};
+xhttp.open("GET", "https://example.com/data.xml", true);
+xhttp.send();
+```
+
+- **Explanation:**
+  - `responseXML` ব্যবহার করে server থেকে XML format এ data return করা হয়।
+  - Example এ, **XMLDocument object** থেকে `<title>` tag এর value retrieve করে HTML এ প্রদর্শিত হয়েছে।
+
+---
+
+### 4. Fetching Response Headers
+
+Server থেকে response headers retrieve করার জন্য XMLHttpRequest এর দুটি গুরুত্বপূর্ণ method রয়েছে: **getResponseHeader()** এবং **getAllResponseHeaders()**। Headers হল additional information, যা HTTP response এর সাথে পাঠানো হয়।
+
+#### getResponseHeader() Method
+
+**`getResponseHeader(headerName)`** method ব্যবহার করে আমরা একটি নির্দিষ্ট response header এর value retrieve করতে পারি।
+
+##### Example:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    let contentType = xhttp.getResponseHeader("Content-Type");
+    console.log("Content-Type:", contentType);
+  }
+};
+xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+xhttp.send();
+```
+
+- **Explanation:**
+  - **getResponseHeader("Content-Type")** ব্যবহার করে server থেকে **Content-Type** header এর value retrieve করা হয়েছে।
+  - Example এ, server response এর content type console এ log করা হয়েছে। Response header থেকে জানতে পারি response এর data JSON, XML, বা অন্য কোন format এ এসেছে।
+
+#### getAllResponseHeaders() Method
+
+**`getAllResponseHeaders()`** method server এর সমস্ত response headers কে string আকারে return করে। এটি response এর সমস্ত headers একবারে retrieve করতে ব্যবহার করা হয়।
+
+##### Example:
+
+```javascript
+let xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    let headers = xhttp.getAllResponseHeaders();
+    console.log("All Headers:", headers);
+  }
+};
+xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+xhttp.send();
+```
+
+- **Explanation:**
+  - **getAllResponseHeaders()** server থেকে সমস্ত headers string আকারে return করে।
+  - Example এ, সমস্ত headers console এ log করা হয়েছে, যার মধ্যে বিভিন্ন metadata headers থাকে, যেমন content length, content type, server, ইত্যাদি।
+
+---
+
+### 5. Real-life Example of Handling Server Responses
+
+নিচে একটি বাস্তব উদাহরণ দেয়া হয়েছে, যেখানে server থেকে data fetch করে responseText, responseXML, এবং response headers handle করা হয়েছে।
+
+##### Example:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX Server Response Example</title>
+</head>
+<body>
+  <h1>AJAX Server Response Demo</h1>
+  <button onclick="loadData()">Load Data</button>
+  <div id="result"></div>
+
+  <script>
+    function loadData() {
+      let xhttp = new XMLHttpRequest();
+
+      xhttp.onload = function() {
+        if (this.status == 200) {
+          // Displaying responseText (JSON Data)
+          document.getElementById("result").innerHTML = this.responseText;
+
+          // Logging a specific response header
+          let contentType = xhttp.getResponseHeader("Content-Type");
+          console.log("Content-Type:", contentType);
+
+          // Logging all response headers
+          let allHeaders = xhttp.getAllResponseHeaders();
+          console.log("All Headers:", allHeaders);
+        }
+      };
+
+      xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+      xhttp.send();
+    }
+  </script>
+</body>
+</html>
+```
+
+- **Explanation:**
+  - Button click করলে **loadData()** function call হবে, যা একটি AJAX request পাঠিয়ে server থেকে data fetch করবে।
+  - **responseText** ব্যবহার করে server response HTML element এ দেখানো হয়েছে।
+  - **getResponseHeader()** ব্যবহার করে server response এর **Content-Type** header console এ log করা হয়েছে।
+  - **getAllResponseHeaders()** ব্যবহার করে সমস্ত response headers console এ দেখানো হয়েছে।
+
+---
+
+### 6. Conclusion
+
+**responseText**, **responseXML**, **getResponseHeader()**, এবং **getAllResponseHeaders()** হলো AJAX এর মাধ্যমে server response handle করার গুরুত্বপূর্ণ অংশ। **responseText** server থেকে plain text বা JSON data retrieve করতে সাহায্য করে, এবং **responseXML** XML data handle করতে ব্যবহৃত হয়। **getResponseHeader()** এবং **getAllResponseHeaders()** methods server response এর headers সম্পর্কে জানতে এবং নির্দিষ্ট header এর value retrieve করতে সাহায্য করে। AJAX ব্যবহার করে আমরা server এর response dynamic ভাবে handle করতে পারি এবং data display বা প্রক্রিয়াকরণ করতে পারি।
+
+
+
+##
+
+
+
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
+
 
 # Project-03: Simple Website Layout with Flexbox
 
