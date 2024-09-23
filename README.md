@@ -18986,9 +18986,7 @@ AJAX এবং Fetch API এর মধ্যে মূল পার্থক্�
 | Feature                | AJAX (XMLHttpRequest)                          | Fetch API                                       |
 |------------------------|------------------------------------------------|-------------------------------------------------|
 | **Syntax**             | Complex এবং verbose                            | Simple এবং cleaner                              |
-| **Response Handling**   | Callbacks প্রয়োজন
-
-                              | Promise-based                                   |
+| **Response Handling**   | Callbacks প্রয়োজন | Promise-based                                   |
 | **Error Handling**      | Error handling complex                        | Easy to handle errors using `.catch()` block    |
 | **Support for Promises**| No (only callbacks)                           | Yes                                             |
 | **Readability**         | Less readable                                 | More readable, especially with Async/Await      |
@@ -19353,7 +19351,7 @@ xhttp.onreadystatechange = function() {
     document.getElementById("result").innerHTML = this.responseText;
   }
 };
-xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+xhttp.open("GET", "https://jsonplaceholder.typicode.com/users/1", true);
 xhttp.send();
 ```
 
