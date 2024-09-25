@@ -1,0 +1,17 @@
+// Importing all Sass partials
+@import 'variables';
+@import 'mixin';
+@import 'base';
+
+// Button styling
+button {
+  @include button-styles($primary-color, $font-color);
+}
+
+.user-list {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: $secondary-color;
+  border-radius: 5px;
+  color: $font-color;
+}

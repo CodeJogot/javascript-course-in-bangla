@@ -18767,6 +18767,7 @@ navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 - [Introduction to AJAX](#introduction-to-ajax)
 - [The XMLHttpRequest Object](#the-xmlhttprequest-object)
 - [AJAX - Server Response](#ajax---server-response)
+- [A Complete Mini Project with AJAX](#a-complete-mini-project-with-ajax)
 
 
 ## Introduction to AJAX
@@ -19494,8 +19495,423 @@ xhttp.send();
 
 
 
-##
+## A Complete Mini Project with AJAX
 
+#### Project Title: Fetching User Data with AJAX
+
+এই প্রোজেক্টে আমরা **AJAX** ব্যবহার করে external API থেকে user data fetch করব এবং সেই data সুন্দরভাবে display করব। **Sass** দিয়ে page কে সুন্দরভাবে design করা হবে। এই প্রোজেক্টটি absolute beginners এর জন্য তাই প্রতিটি ধাপ বিস্তারিত ভাবে ব্যাখ্যা করা হবে।
+
+### Table of Contents:
+1. [Project Overview](#project-overview)
+2. [Technologies Used](#technologies-used)
+3. [Project Structure](#project-structure)
+4. [Writing the HTML Structure](#writing-the-html-structure)
+5. [Setting up Sass Folder Structure](#setting-up-sass-folder-structure)
+6. [Using Sass for Styling](#using-sass-for-styling)
+7. [Writing the JavaScript with AJAX](#writing-the-javascript-with-ajax)
+8. [Putting It All Together](#putting-it-all-together)
+9. [Conclusion](#conclusion)
+
+---
+
+### 1. Project Overview
+
+এই প্রোজেক্টে আমরা **AJAX** ব্যবহার করে [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) থেকে user data fetch করব এবং সেই data কে আমাদের web page এ সুন্দরভাবে প্রদর্শন করব। এটির জন্য একটি button থাকবে, যেটি click করলে user data load হবে এবং **Sass** দিয়ে page কে সুন্দরভাবে design করা হবে।
+
+### 2. Technologies Used
+
+- **HTML**: Page structure তৈরির জন্য।
+- **Sass (CSS Preprocessor)**: Clean ও modular CSS লেখার জন্য।
+- **JavaScript (AJAX)**: Asynchronously server থেকে data fetch করার জন্য।
+
+### 3. Project Structure
+
+```
+project/
+│
+├── index.html             # Main HTML file
+├── css/
+│   ├── style.css          # Compiled CSS from Sass
+├── js/
+│   ├── script.js          # JavaScript for AJAX
+├── sass/
+│   ├── _variables.scss    # Sass variables
+│   ├── _mixin.scss        # Sass mixins
+│   ├── _base.scss         # Base styles
+│   ├── main.scss          # Main Sass file that imports all
+```
+
+---
+
+### 4. Writing the HTML Structure
+
+আমরা প্রথমে HTML structure তৈরি করব, যেখানে একটি **button** থাকবে data load করার জন্য এবং data display করার জন্য একটি **div** element থাকবে।
+
+#### index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX User Data Fetch</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Fetch User Data</h1>
+    <button id="loadData">Load Users</button>
+    <div id="userList" class="user-list"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+```
+
+- **Explanation**:
+  - এখানে একটি heading `h1` রয়েছে page এর title হিসাবে।
+  - একটি button রয়েছে যার **id="loadData"** এবং এই button click করলে AJAX request এর মাধ্যমে data fetch করা হবে।
+  - `id="userList"` সহ একটি div রয়েছে, যেখানে fetch করা data display হবে।
+
+---
+
+### 5. Setting up Sass Folder Structure
+
+এখন আমরা Sass এর জন্য একটি clean structure তৈরি করব যেখানে আমরা variables, mixins এবং base styles আলাদা আলাদা file এ রাখব এবং পরে সবকিছু `main.scss` এ import করব। 
+
+#### sass/_variables.scss
+```scss
+// Color variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-color: #ffffff;
+$background-color: #f5f5f5;
+```
+
+#### sass/_mixin.scss
+```scss
+// Mixin for buttons
+@mixin button-styles($bg-color, $font-color) {
+  padding: 10px 20px;
+  background-color: $bg-color;
+  color: $font-color;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  
+  &:hover {
+    background-color: darken($bg-color, 10%);
+  }
+}
+```
+
+#### sass/_base.scss
+```scss
+// Base styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: $font-color;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+```
+
+#### sass/main.scss
+```scss
+// Importing all Sass partials
+@import 'variables';
+@import 'mixin';
+@import 'base';
+
+// Button styling
+button {
+  @include button-styles($primary-color, $font-color);
+}
+
+.user-list {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: $secondary-color;
+  border-radius: 5px;
+  color: $font-color;
+}
+```
+
+- **Explanation**:
+  - **_variables.scss**: এখানে color variables define করা হয়েছে, যা আমরা পরে আমাদের styles এ ব্যবহার করব।
+  - **_mixin.scss**: এখানে button এর জন্য একটি reusable mixin তৈরি করা হয়েছে।
+  - **_base.scss**: এটি আমাদের page এর কিছু default/base styles যেমন margin, padding reset এবং container এর design handle করে।
+  - **main.scss**: সবকিছু `main.scss` এ import করা হয়েছে এবং button ও user list এর জন্য additional styles এখানে define করা হয়েছে।
+
+---
+
+### 6. Using Sass for Styling
+
+এখন আমরা Sass ব্যবহার করে page কে সুন্দরভাবে design করেছি। প্রতিটি Sass file এ আলাদা আলাদা অংশে styling রাখা হয়েছে, যা আমাদের code কে clean এবং maintainable রাখবে।
+
+---
+
+### 7. Writing the JavaScript with AJAX
+
+এখন আমরা **JavaScript** ব্যবহার করে **AJAX** এর মাধ্যমে data fetch করব এবং সেই data dynamically display করব। 
+
+#### js/script.js
+
+```javascript
+document.getElementById('loadData').addEventListener('click', loadUserData);
+
+function loadUserData() {
+  let xhttp = new XMLHttpRequest();
+  
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      const users = JSON.parse(this.responseText);
+      let output = '';
+
+      users.forEach(user => {
+        output += `
+          <div class="user-card">
+            <h3>${user.name}</h3>
+            <p>Email: ${user.email}</p>
+            <p>Phone: ${user.phone}</p>
+          </div>
+        `;
+      });
+
+      document.getElementById('userList').innerHTML = output;
+    }
+  };
+
+  xhttp.open("GET", "https://jsonplaceholder.typicode.com/users", true);
+  xhttp.send();
+}
+```
+
+- **Explanation**:
+  - Button click করার সাথে সাথেই **loadUserData** function call হবে, যা **AJAX** request পাঠাবে এবং JSON format এ data fetch করবে।
+  - **onreadystatechange** এর মাধ্যমে response ready হলে user data display করা হবে।
+  - **users.forEach()** এর মাধ্যমে প্রতিটি user data HTML structure এ dynamically convert করা হয়েছে।
+
+---
+
+### 8. Putting It All Together
+
+এই প্রোজেক্টে আমরা **AJAX** এবং **Sass** ব্যবহার করে একটি সুন্দর এবং interactive page তৈরি করেছি। Button এ click করলে server থেকে user data fetch হবে এবং সুন্দরভাবে HTML structure এ display হবে।
+
+---
+
+### 9. Conclusion
+
+এই প্রোজেক্টটি আপনাকে দেখালো কিভাবে **AJAX** ব্যবহার করে server থেকে data fetch করতে হয় এবং সেই data কিভাবে dynamically display করতে হয়। এছাড়াও, **Sass** ব্যবহার করে কিভাবে project কে clean এবং modular করা যায় তাও দেখানো হয়েছে।
+
+
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
+# Chapter-20: jQuery vs JavaScript in 2024
+
+
+## jQuery vs JavaScript in 2024
+
+### Table of Contents:
+1. [Introduction to jQuery and JavaScript](#introduction-to-jquery-and-javascript)
+2. [Key Differences Between jQuery and JavaScript](#key-differences-between-jquery-and-javascript)
+3. [Simplifying DOM Manipulation](#simplifying-dom-manipulation)
+   - [DOM Manipulation in JavaScript](#dom-manipulation-in-javascript)
+   - [DOM Manipulation in jQuery](#dom-manipulation-in-jquery)
+4. [Event Handling](#event-handling)
+   - [Event Handling in JavaScript](#event-handling-in-javascript)
+   - [Event Handling in jQuery](#event-handling-in-jquery)
+5. [AJAX Requests](#ajax-requests)
+   - [AJAX with JavaScript](#ajax-with-javascript)
+   - [AJAX with jQuery](#ajax-with-jquery)
+6. [Why You Shouldn’t Use jQuery in 2024](#why-you-shouldnt-use-jquery-in-2024)
+7. [Conclusion](#conclusion)
+
+---
+
+### 1. Introduction to jQuery and JavaScript
+
+**JavaScript** হল একটি powerful এবং essential scripting language, যা browser এ run করে এবং **DOM manipulation**, **event handling**, এবং **AJAX** এর মতো কাজ করতে ব্যবহৃত হয়। 
+
+**jQuery**, যা 2006 সালে তৈরি হয়েছিল, JavaScript এর একটি library যা DOM manipulation এবং অন্যান্য common tasks (যেমন event handling, animations, AJAX requests) অনেক সহজ করে দেয়। তখন JavaScript এর অনেক feature ছিল জটিল এবং browser compatibility ছিল একটি বড় সমস্যা। তাই **jQuery** developer দের দ্রুত এবং কম কোডে কাজ করতে সাহায্য করেছিল।
+
+তবে, **2024** এ এসে JavaScript এর আধুনিক সংস্করণ (ES6+) এবং improved browser support এর ফলে jQuery এর প্রয়োজনীয়তা অনেক কমে গেছে। অনেক কাজই এখন vanilla JavaScript দিয়ে সহজে করা যায়।
+
+Source: [W3Schools - jQuery Selectors](https://www.w3schools.com/js/js_jquery_selectors.asp)
+
+---
+
+### 2. Key Differences Between jQuery and JavaScript
+
+| Feature                        | JavaScript                                             | jQuery                                                     |
+|---------------------------------|--------------------------------------------------------|------------------------------------------------------------|
+| **Syntax**                      | Complex and sometimes lengthy                          | Short and concise                                           |
+| **DOM Manipulation**            | Native methods are longer and more manual               | Simplified and easy-to-use functions                        |
+| **Event Handling**              | Requires `addEventListener()` with specific syntax      | `$().on()` or shorthand methods like `click()`, `hover()`   |
+| **Browser Compatibility**       | Modern browsers handle JavaScript consistently          | Initially used for cross-browser compatibility              |
+| **Performance**                 | Faster for simple tasks (native execution)              | Slightly slower due to library overhead                     |
+| **AJAX Handling**               | Uses `XMLHttpRequest` or `fetch`                        | Simplified with `$.ajax()` and shorthand methods            |
+| **Size**                        | No extra files, native to browser                       | Requires adding an external library                         |
+
+---
+
+### 3. Simplifying DOM Manipulation
+
+#### DOM Manipulation in JavaScript
+
+JavaScript এ DOM manipulation করতে হলে কিছু built-in methods ব্যবহার করতে হয়, যা কিছুটা lengthy হতে পারে। তবে modern JavaScript (ES6+) এর কারণে অনেক কাজ এখন অনেক সহজে করা যায়।
+
+##### Example (JavaScript):
+
+```javascript
+// JavaScript to hide an element
+document.getElementById("myElement").style.display = "none";
+
+// JavaScript to change multiple elements' color
+const elements = document.querySelectorAll(".myClass");
+elements.forEach(el => el.style.color = "blue");
+```
+
+#### DOM Manipulation in jQuery
+
+**jQuery** DOM manipulation কে সহজ করে তোলে। jQuery এর selectors এবং methods ব্যবহার করে কোড অনেক ছোট হয়।
+
+##### Example (jQuery):
+
+```javascript
+// jQuery to hide an element
+$("#myElement").hide();
+
+// jQuery to change multiple elements' color
+$(".myClass").css("color", "blue");
+```
+
+- **Explanation**: 
+  - JavaScript এর তুলনায় jQuery এর syntax অনেক সহজ। `#` এবং `.` selector ব্যবহার করে দ্রুত elements manipulate করা যায়।
+  - তবে modern JavaScript এর `querySelectorAll()` method ব্যবহার করে খুব সহজেই multiple elements select করা যায়।
+
+---
+
+### 4. Event Handling
+
+#### Event Handling in JavaScript
+
+JavaScript এ event handling করার জন্য `addEventListener()` method ব্যবহার করতে হয়। যদিও syntax কিছুটা বেশি, তবে এটি বেশ flexible এবং modern browser support এর জন্য এই method এখন widely accepted.
+
+##### Example (JavaScript):
+
+```javascript
+document.getElementById("myButton").addEventListener("click", function() {
+  alert("Button Clicked!");
+});
+```
+
+#### Event Handling in jQuery
+
+jQuery তে event handling এর জন্য shorthand methods ব্যবহার করা যায়, যেমন `click()` অথবা `hover()` method.
+
+##### Example (jQuery):
+
+```javascript
+$("#myButton").click(function() {
+  alert("Button Clicked!");
+});
+```
+
+- **Explanation**:
+  - jQuery এর **shorthand** method গুলো event handling কে সহজ করে তোলে। তবে modern JavaScript এর **addEventListener** method এখন ভালোভাবে browser compatibility support করে এবং কোড আরও maintainable করে তোলে।
+
+---
+
+### 5. AJAX Requests
+
+#### AJAX with JavaScript
+
+AJAX request করতে JavaScript এ আগে **XMLHttpRequest** ব্যবহার করা হতো, তবে modern browsers এ **Fetch API** আসার ফলে এটি অনেক সহজ হয়ে গেছে।
+
+##### Example (Using Fetch API in JavaScript):
+
+```javascript
+fetch("https://jsonplaceholder.typicode.com/users")
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => console.log('Error:', error));
+```
+
+#### AJAX with jQuery
+
+jQuery তে AJAX request সহজ করতে `.ajax()`, `.get()`, এবং `.post()` এর মতো shorthand methods দেয়া হয়।
+
+##### Example (jQuery):
+
+```javascript
+$.get("https://jsonplaceholder.typicode.com/users", function(data) {
+  console.log(data);
+});
+```
+
+- **Explanation**:
+  - **jQuery** AJAX requests করার ক্ষেত্রে এক সময় খুবই জনপ্রিয় ছিল, কিন্তু এখন modern JavaScript এর **Fetch API** দিয়ে এই কাজটি আরও সহজ, powerful এবং efficient করা যায়।
+
+---
+
+### 6. Why You Shouldn’t Use jQuery in 2024
+
+**2024** এ এসে, jQuery ব্যবহার না করার কিছু বড় কারণ রয়েছে:
+
+#### 1. **Modern JavaScript is Powerful Enough**:
+Modern JavaScript (ES6+) এখন অনেক powerful এবং expressive। আপনি JavaScript দিয়ে খুব সহজেই jQuery এর মতো tasks handle করতে পারেন। Features like:
+   - **querySelector() / querySelectorAll()** DOM elements select করতে,
+   - **Fetch API** AJAX requests handle করতে,
+   - **Arrow functions** এবং **Promises** asynchronous operations সহজ এবং clean করে তুলেছে।
+   
+#### 2. **Library Overhead**:
+jQuery একটি external library হওয়ায়, এটি আপনার project এ একটি **extra file** হিসাবে যোগ হয়, যা আপনার page এর load time বাড়াতে পারে। Modern JavaScript দিয়ে jQuery এর প্রয়োজন ছাড়াই কাজ করতে পারলে library add করার overhead দূর করা যায়।
+
+#### 3. **Browser Compatibility Issues No Longer a Concern**:
+jQuery এর শুরুতে এটি browser compatibility issues handle করতে ব্যবহৃত হতো, যেমন Internet Explorer এর কিছু পুরোনো ভার্সনে JavaScript functionality ঠিকমতো কাজ না করা। কিন্তু বর্তমানে সব major browsers (Chrome, Firefox, Edge) modern JavaScript features ভালোভাবেই support করে, তাই compatibility নিয়ে চিন্তা করার দরকার নেই।
+
+#### 4. **Performance Considerations**:
+JavaScript এর native execution, অর্থাৎ **vanilla JavaScript**, jQuery এর তুলনায় fast। কারণ jQuery একটি library, যা কিছু **extra overhead** যোগ করে। যদি আপনার project এ বেশি DOM manipulation করতে হয়, তবে JavaScript directly ব্যবহার করলে performance আরও ভালো হয়।
+
+#### 5. **Learning Modern JavaScript**:
+Modern JavaScript (ES6+) শেখা developer দের জন্য অনেক বেশি গুরুত্বপূর্ণ হয়ে দাঁড়িয়েছে। অনেক libraries এবং frameworks (যেমন React, Vue) modern JavaScript এর উপর ভিত্তি করে তৈরি হয়েছে। তাই jQuery শেখার পরিবর্তে vanilla JavaScript এবং ES6 শেখা অনেক ভালো।
+
+#### 6. **Other Modern Libraries**:
+React, Vue.js এর মতো modern libraries এবং frameworks DOM manipulation এবং event handling এর জন্য অনেক বেশি efficient এবং scalable solution প্রদান করে। এগুলো web applications এ **component-based** development introduce করেছে, যা jQuery এর পুরোনো approach কে অনেক পেছনে ফেলে দিয়েছে।
+
+---
+
+### 7. Conclusion
+
+**JavaScript** এবং **jQuery** একসময় একে অপরের পরিপূরক হিসেবে কাজ করত, কিন্তু **2024** এ এসে jQuery এর প্রয়োজনীয়তা অনেক কমে গেছে। Modern JavaScript এতটাই powerful হয়েছে যে DOM manipulation, event handling, এবং AJAX requests এখন সহজেই করা যায়। 
+
+এখনও jQuery শেখা বা ব্যবহার করা হতে পারে যদি আপনি কোনো legacy project নিয়ে কাজ করেন, যেখানে ইতিমধ্যেই jQuery ব্যবহার করা হয়েছে। কিন্তু নতুন projects এর জন্য modern JavaScript শেখা এবং ব্যবহার করা অনেক বেশি practical এবং efficient হবে।
+
+**2024** এ এসে আপনি যদি jQuery না শিখেন, বরং modern JavaScript (ES6+) এর উপর ভালো দখল রাখেন, তবে তা আপনার জন্য বেশি উপকারী হবে।
 
 
 

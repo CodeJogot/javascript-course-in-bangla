@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <button onclick="ajax()">Click Here</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX Server Response Example</title>
+  </head>
+  <body>
+    <h1>AJAX Server Response Demo</h1>
+    <button onclick="loadData()">Load Data</button>
     <div id="result"></div>
-    <script src="script.js"></script>
-</body>
+
+    <script>
+      function loadData() {
+        let xhttp = new XMLHttpRequest();
+
+        xhttp.onload = function () {
+          if (this.status == 200) {
+            // Displaying responseText (JSON Data)
+            document.getElementById("result").innerHTML = this.responseText;
+
+            // Logging a specific response header
+            let contentType = this.getResponseHeader("Expires");
+            console.log("Value of Expires:", contentType);
+
+            // Logging all response headers
+            let allHeaders = this.getAllResponseHeaders();
+            console.log("All Headers:", allHeaders);
+          }
+        };
+
+        xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+        xhttp.send();
+      }
+    </script>
+  </body>
 </html>

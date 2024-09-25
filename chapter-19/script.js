@@ -1,12 +1,17 @@
-function ajax() {
-    let xhttp = new XMLHttpRequest();
+function dataRequest() {
+    // Step-01
+    let request = new XMLHttpRequest();
 
-    xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("result").innerHTML = this.responseText;
+    // Step-04
+    request.onload = function () {
+        if (this.status === 200) {
+            let x = document.getElementById('output');
+            x.innerHTML = this.responseText;
+        }
     }
-    };
+    // Step-02
+    request.open('GET', './image/myfile.txt', true);
+    // Step-03
+    request.send();
 
-    xhttp.open("GET", "./demo.text", true);
-    xhttp.send();
 }
