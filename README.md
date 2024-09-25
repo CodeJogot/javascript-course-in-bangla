@@ -25,7 +25,7 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 |   [16](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object)   | [DOM, DOM Methods, DOM Documents, DOM Elements, DOM Events, DOM Event Listener, DOM Nodes, DOM Collections, DOM NodeList Object](#chapter-16-dom-dom-methods-dom-documents-dom-elements-dom-events-dom-event-listener-dom-nodes-dom-collections-dom-nodelist-object) |                       |
 | [17](#chapter-17-bom-window-object-screen-object-location-object-history-object-navigator-object-javascript-timing-event-javascript-cookies) |             [BOM, Window Object, History Object, Navigator Object, JavaScript Timing Event, JavaScript Cookies](#chapter-17-bom-window-object-screen-object-location-object-history-object-navigator-object-javascript-timing-event-javascript-cookies)              |                       |
 |                        [18](#chapter-18-javascript-web-api-web-storage-api-web-workers-api-fetch-api-geolocation-api)                        |                                             [JavaScript Web API, Web Storage API, Web Workers API, Fetch API, Geolocation API](#chapter-18-javascript-web-api-web-storage-api-web-workers-api-fetch-api-geolocation-api)                                             |                       |
-|                                                                      [19](#chapter-19-ajax)                                                                      |   [AJAX](#chapter-19-ajax)                                                                                                                                                                                                                                                                   |                       |
+|                                                            [19](#chapter-19-ajax)                                                            |                                                                                                                       [AJAX](#chapter-19-ajax)                                                                                                                       |                       |
 |                                                                      20                                                                      |                                                                                                                                                                                                                                                                      |                       |
 |                                                                      21                                                                      |                                                                                                                                                                                                                                                                      |                       |
 |                                                                      22                                                                      |                                                                                                                                                                                                                                                                      |                       |
@@ -18756,11 +18756,9 @@ navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 
 **Geolocation API** হল একটি শক্তিশালী tool, যা ব্যবহারকারীর actual বা estimated physical location জানতে ব্যবহৃত হয়। এটি বিভিন্ন location-based services বা applications এর জন্য অত্যন্ত কার্যকর, যেমন: weather apps, map-based services ইত্যাদি। Geolocation API এর প্রধান দুটি method হলো `getCurrentPosition()` এবং `watchPosition()`। তবে, এর ব্যবহার করার সময় ব্যবহারকারীর privacy এবং security সম্পর্কে সতর্ক থাকা জরুরি।
 
-
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
-
 
 # Chapter-19: AJAX
 
@@ -18769,11 +18767,10 @@ navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 - [AJAX - Server Response](#ajax---server-response)
 - [A Complete Mini Project with AJAX](#a-complete-mini-project-with-ajax)
 
-
 ## Introduction to AJAX
 
-
 ### Table of Contents
+
 1. [Introduction to AJAX](#introduction-to-ajax)
 2. [Why Use AJAX?](#why-use-ajax)
 3. [How AJAX Works](#how-ajax-works)
@@ -18792,19 +18789,20 @@ navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 
 ### 1. Introduction to AJAX
 
-**AJAX** (Asynchronous JavaScript and XML) হলো একটি technology, যা ব্যবহার করে web pages asynchronous ভাবে server এর সাথে data exchange করতে পারে। AJAX এর মাধ্যমে page reload না করে dynamically content load এবং update করা যায়। মূলত XMLHttpRequest object ব্যবহার করে AJAX কাজ করে, তবে বর্তমানে modern Fetch API ও AJAX এর জন্য ব্যবহার করা যায়। 
+**AJAX** (Asynchronous JavaScript and XML) হলো একটি technology, যা ব্যবহার করে web pages asynchronous ভাবে server এর সাথে data exchange করতে পারে। AJAX এর মাধ্যমে page reload না করে dynamically content load এবং update করা যায়। মূলত XMLHttpRequest object ব্যবহার করে AJAX কাজ করে, তবে বর্তমানে modern Fetch API ও AJAX এর জন্য ব্যবহার করা যায়।
 
 #### Key Features:
+
 - AJAX asynchronous ভাবে কাজ করে, যার ফলে page এর অন্যান্য content unaffected থাকে।
 - এটি page reload না করে dynamically content update করতে সাহায্য করে।
 - Data format হিসেবে XML, JSON, HTML, এবং plain text ব্যবহার করা যায়।
-
 
 ---
 
 ### 2. Why Use AJAX?
 
 AJAX এর মাধ্যমে web applications এর responsiveness বৃদ্ধি করা যায়। এর প্রধান কারণগুলো হলো:
+
 1. **Asynchronous Data Loading:** AJAX asynchronous ভাবে কাজ করে, অর্থাৎ browser এর অন্যান্য কাজ চলাকালীন সময়ে server এর সাথে data fetch এবং update করতে পারে।
 2. **Improved User Experience:** Page reload না করে specific data fetch এবং page এর নির্দিষ্ট অংশ update করার কারণে user experience উন্নত হয়।
 3. **Efficient Data Requests:** AJAX এর মাধ্যমে ছোট ছোট data chunks server থেকে request করা যায়, যা bandwidth কম ব্যবহার করে।
@@ -18834,7 +18832,7 @@ AJAX এর কাজ হলো **client-side** থেকে **server-side** এ
 ```javascript
 let xhttp = new XMLHttpRequest();
 
-xhttp.onreadystatechange = function() {
+xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     document.getElementById("result").innerHTML = this.responseText;
   }
@@ -18860,7 +18858,7 @@ xhttp.send();
 ```javascript
 let xhttp = new XMLHttpRequest();
 
-xhttp.onreadystatechange = function() {
+xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 201) {
     document.getElementById("result").innerHTML = this.responseText;
   }
@@ -18869,29 +18867,31 @@ xhttp.onreadystatechange = function() {
 xhttp.open("POST", "https://jsonplaceholder.typicode.com/posts", true);
 xhttp.setRequestHeader("Content-type", "application/json");
 
-xhttp.send(JSON.stringify({
-  title: "foo",
-  body: "bar",
-  userId: 1
-}));
+xhttp.send(
+  JSON.stringify({
+    title: "foo",
+    body: "bar",
+    userId: 1,
+  })
+);
 ```
 
 - **Explanation:**
   - **open("POST", url, true):** POST request তৈরি করা হয়েছে এবং asynchronous ভাবে data পাঠানো হচ্ছে।
   - **setRequestHeader():** Content-type set করা হয়েছে যাতে server জানে যে JSON format এ data পাঠানো হচ্ছে।
   - **send():** JSON format এ serialized data server এ পাঠানো হয়েছে। এখানে **JSON.stringify()** method ব্যবহার করে JavaScript object কে JSON format এ রূপান্তর করা হয়েছে।
-  
+
 #### Detailed Explanation of `xhttp.send(JSON.stringify({ title: "foo", body: "bar", userId: 1 }))`:
 
-  - **xhttp.send()**: এই method এর মাধ্যমে XMLHttpRequest object request send করে।
-  - **JSON.stringify()**: এটি একটি JavaScript function যা JavaScript object কে JSON string এ convert করে। যেহেতু POST request এ server এর কাছে data পাঠাতে হয়, data কে JSON format এ পাঠানোর জন্য আমরা `JSON.stringify()` method ব্যবহার করেছি।
-  - **Object Details**:
-    - **title: "foo"**: এখানে `title` property তে `"foo"` string পাঠানো হয়েছে।
-    - **body: "bar"**: এখানে `body` property তে `"bar"` string পাঠানো হয়েছে।
-    - **userId: 1**: এখানে `userId` একটি সংখ্যা (number) হিসেবে পাঠানো হয়েছে।
-  - **Conclusion**: `send()` method এর মাধ্যমে এই serialized JSON data server এর কাছে পাঠানো হয়েছে এবং server সেই data receive করে প্রক্রিয়াকরণ করে।
+- **xhttp.send()**: এই method এর মাধ্যমে XMLHttpRequest object request send করে।
+- **JSON.stringify()**: এটি একটি JavaScript function যা JavaScript object কে JSON string এ convert করে। যেহেতু POST request এ server এর কাছে data পাঠাতে হয়, data কে JSON format এ পাঠানোর জন্য আমরা `JSON.stringify()` method ব্যবহার করেছি।
+- **Object Details**:
+  - **title: "foo"**: এখানে `title` property তে `"foo"` string পাঠানো হয়েছে।
+  - **body: "bar"**: এখানে `body` property তে `"bar"` string পাঠানো হয়েছে।
+  - **userId: 1**: এখানে `userId` একটি সংখ্যা (number) হিসেবে পাঠানো হয়েছে।
+- **Conclusion**: `send()` method এর মাধ্যমে এই serialized JSON data server এর কাছে পাঠানো হয়েছে এবং server সেই data receive করে প্রক্রিয়াকরণ করে।
 
-  - **status == 201:** HTTP status code **201** নির্দেশ করে যে data সফলভাবে তৈরি হয়েছে।
+- **status == 201:** HTTP status code **201** নির্দেশ করে যে data সফলভাবে তৈরি হয়েছে।
 
 ---
 
@@ -18906,7 +18906,7 @@ AJAX request এর response পাওয়ার পরে, response handle �
 ##### Example:
 
 ```javascript
-xhttp.onreadystatechange = function() {
+xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     document.getElementById("result").innerHTML = this.responseText;
   }
@@ -18923,7 +18923,7 @@ xhttp.onreadystatechange = function() {
 ##### Example:
 
 ```javascript
-xhttp.onload = function() {
+xhttp.onload = function () {
   if (this.status == 200) {
     document.getElementById("result").innerHTML = this.responseText;
   }
@@ -18946,31 +18946,31 @@ xhttp.onload = function() {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AJAX Example</title>
-</head>
-<body>
-  <h1>AJAX Demo</h1>
-  <button onclick="loadData()">Load Data</button>
-  <div id="result"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX Example</title>
+  </head>
+  <body>
+    <h1>AJAX Demo</h1>
+    <button onclick="loadData()">Load Data</button>
+    <div id="result"></div>
 
-  <script>
-    function loadData() {
-      let xhttp = new XMLHttpRequest();
+    <script>
+      function loadData() {
+        let xhttp = new XMLHttpRequest();
 
-      xhttp.onload = function() {
-        if (this.status == 200) {
-          document.getElementById("result").innerHTML = this.responseText;
-        }
-      };
+        xhttp.onload = function () {
+          if (this.status == 200) {
+            document.getElementById("result").innerHTML = this.responseText;
+          }
+        };
 
-      xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
-      xhttp.send();
-    }
-  </script>
-</body>
+        xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+        xhttp.send();
+      }
+    </script>
+  </body>
 </html>
 ```
 
@@ -18984,14 +18984,14 @@ xhttp.onload = function() {
 
 AJAX এবং Fetch API এর মধ্যে মূল পার্থক্যগুলো নিচে টেবিল আকারে দেখানো হলো:
 
-| Feature                | AJAX (XMLHttpRequest)                          | Fetch API                                       |
-|------------------------|------------------------------------------------|-------------------------------------------------|
-| **Syntax**             | Complex এবং verbose                            | Simple এবং cleaner                              |
-| **Response Handling**   | Callbacks প্রয়োজন | Promise-based                                   |
-| **Error Handling**      | Error handling complex                        | Easy to handle errors using `.catch()` block    |
-| **Support for Promises**| No (only callbacks)                           | Yes                                             |
-| **Readability**         | Less readable                                 | More readable, especially with Async/Await      |
-| **Data Types**          | XML, JSON, HTML ইত্যাদি format handle করতে পারে| Primarily works with JSON but supports other types|
+| Feature                  | AJAX (XMLHttpRequest)                           | Fetch API                                          |
+| ------------------------ | ----------------------------------------------- | -------------------------------------------------- |
+| **Syntax**               | Complex এবং verbose                             | Simple এবং cleaner                                 |
+| **Response Handling**    | Callbacks প্রয়োজন                              | Promise-based                                      |
+| **Error Handling**       | Error handling complex                          | Easy to handle errors using `.catch()` block       |
+| **Support for Promises** | No (only callbacks)                             | Yes                                                |
+| **Readability**          | Less readable                                   | More readable, especially with Async/Await         |
+| **Data Types**           | XML, JSON, HTML ইত্যাদি format handle করতে পারে | Primarily works with JSON but supports other types |
 
 ---
 
@@ -18999,12 +18999,10 @@ AJAX এবং Fetch API এর মধ্যে মূল পার্থক্�
 
 **AJAX** হল একটি শক্তিশালী technology, যা server এর সাথে asynchronous ভাবে data transfer করে page reload ছাড়াই web applications এ dynamic content update করতে সাহায্য করে। XMLHttpRequest object ব্যবহার করে GET এবং POST requests পাঠানো যায় এবং server এর response handle করে page এর নির্দিষ্ট অংশে data dynamically display করা যায়। যদিও Fetch API আরও modern এবং cleaner syntax প্রদান করে, AJAX এখনও একটি গুরুত্বপূর্ণ এবং প্রচলিত tool।
 
-
-
 ## The XMLHttpRequest Object
 
-
 ### Table of Contents
+
 1. [Introduction to XMLHttpRequest](#introduction-to-xmlhttprequest)
 2. [Why Use XMLHttpRequest?](#why-use-xmlhttprequest)
 3. [Creating an XMLHttpRequest Object](#creating-an-xmlhttprequest-object)
@@ -19022,18 +19020,18 @@ AJAX এবং Fetch API এর মধ্যে মূল পার্থক্�
 
 ### 1. Introduction to XMLHttpRequest
 
-**XMLHttpRequest (XHR)** হলো একটি built-in JavaScript object, যা **AJAX** requests handle করার জন্য ব্যবহৃত হয়। এটি web pages asynchronous ভাবে server এর সাথে data transfer করতে ব্যবহার করা হয়। XHR এর মাধ্যমে web page রিফ্রেশ না করে server থেকে data আনতে বা পাঠাতে পারি এবং dynamically page এর content update করতে পারি। 
+**XMLHttpRequest (XHR)** হলো একটি built-in JavaScript object, যা **AJAX** requests handle করার জন্য ব্যবহৃত হয়। এটি web pages asynchronous ভাবে server এর সাথে data transfer করতে ব্যবহার করা হয়। XHR এর মাধ্যমে web page রিফ্রেশ না করে server থেকে data আনতে বা পাঠাতে পারি এবং dynamically page এর content update করতে পারি।
 
 #### Key Features:
+
 - XMLHttpRequest asynchronous ভাবে কাজ করে, যা user experience উন্নত করে।
 - GET এবং POST সহ বিভিন্ন HTTP methods ব্যবহার করে data পাঠানো বা আনা যায়।
 - Data বিভিন্ন format এ handle করা যায় (JSON, XML, HTML, Text)।
 
-
-
 ### 2. Why Use XMLHttpRequest?
 
 **XMLHttpRequest** এর ব্যবহার করার প্রধান কারণগুলো হলো:
+
 1. **Asynchronous Data Loading:** Page reload না করে background এ server থেকে data আনতে বা server এ data পাঠাতে পারি।
 2. **Dynamic Content Update:** Server থেকে data আনার পর dynamically content update করা যায়।
 3. **Server Communication:** Server এর সাথে GET, POST, PUT, DELETE ইত্যাদি HTTP requests পাঠিয়ে interaction করা যায়।
@@ -19058,7 +19056,7 @@ let xhttp = new XMLHttpRequest();
 
 ### 4. Sending a Request to the Server
 
-XMLHttpRequest object তৈরি করার পরে আমরা GET বা POST method এর মাধ্যমে server এর সাথে data exchange করতে পারি। 
+XMLHttpRequest object তৈরি করার পরে আমরা GET বা POST method এর মাধ্যমে server এর সাথে data exchange করতে পারি।
 
 #### GET Request
 
@@ -19069,7 +19067,7 @@ XMLHttpRequest object তৈরি করার পরে আমরা GET ব�
 ```javascript
 let xhttp = new XMLHttpRequest();
 
-xhttp.onreadystatechange = function() {
+xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     document.getElementById("result").innerHTML = this.responseText;
   }
@@ -19101,8 +19099,9 @@ xhttp.send();
 ```javascript
 let xhttp = new XMLHttpRequest();
 
-xhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 201) { // 201 indicates successful creation
+xhttp.onreadystatechange = function () {
+  if (this.readyState == 4 && this.status == 201) {
+    // 201 indicates successful creation
     document.getElementById("result").innerHTML = this.responseText;
   }
 };
@@ -19110,11 +19109,13 @@ xhttp.onreadystatechange = function() {
 xhttp.open("POST", "https://jsonplaceholder.typicode.com/posts", true);
 xhttp.setRequestHeader("Content-type", "application/json");
 
-xhttp.send(JSON.stringify({
-  title: "foo",
-  body: "bar",
-  userId: 1
-}));
+xhttp.send(
+  JSON.stringify({
+    title: "foo",
+    body: "bar",
+    userId: 1,
+  })
+);
 ```
 
 - **Explanation:**
@@ -19136,7 +19137,7 @@ Server থেকে response পাওয়ার পরে, XMLHttpRequest obj
 ##### Example:
 
 ```javascript
-xhttp.onreadystatechange = function() {
+xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     document.getElementById("result").innerHTML = this.responseText;
   }
@@ -19155,7 +19156,7 @@ xhttp.onreadystatechange = function() {
 ```javascript
 let xhttp = new XMLHttpRequest();
 
-xhttp.onload = function() {
+xhttp.onload = function () {
   if (this.status == 200) {
     document.getElementById("result").innerHTML = this.responseText;
   }
@@ -19182,31 +19183,31 @@ xhttp.send();
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>XMLHttpRequest Example</title>
-</head>
-<body>
-  <h1>XMLHttpRequest Demo</h1>
-  <button onclick="loadData()">Load Data</button>
-  <div id="result"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XMLHttpRequest Example</title>
+  </head>
+  <body>
+    <h1>XMLHttpRequest Demo</h1>
+    <button onclick="loadData()">Load Data</button>
+    <div id="result"></div>
 
-  <script>
-    function loadData() {
-      let xhttp = new XMLHttpRequest();
+    <script>
+      function loadData() {
+        let xhttp = new XMLHttpRequest();
 
-      xhttp.onload = function() {
-        if (this.status == 200) {
-          document.getElementById("result").innerHTML = this.responseText;
-        }
-      };
+        xhttp.onload = function () {
+          if (this.status == 200) {
+            document.getElementById("result").innerHTML = this.responseText;
+          }
+        };
 
-      xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
-      xhttp.send();
-    }
-  </script>
-</body>
+        xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+        xhttp.send();
+      }
+    </script>
+  </body>
 </html>
 ```
 
@@ -19220,50 +19221,63 @@ xhttp.send();
 
 XMLHttpRequest এর কিছু গুরুত্বপূর্ণ properties এবং methods নিচে table আকারে দেখানো হলো, এবং প্রতিটির জন্য উদাহরণ দেয়া হয়েছে:
 
-| Property/Method                | Description                                                                 |
-|--------------------------------|-----------------------------------------------------------------------------|
-| **open(method, url, async)**   | HTTP request তৈরি করতে ব্যবহৃত হয়। method, URL, এবং asynchronous নির্দেশ করতে হয়। |
-| **send(data)**                 | Request send করতে ব্যবহার করা হয়। GET request এর জন্য `data` optional, POST এর জন্য data প্রয়োজন।|
+| Property/Method              | Description                                                                                         |
+| ---------------------------- | --------------------------------------------------------------------------------------------------- |
+| **open(method, url, async)** | HTTP request তৈরি করতে ব্যবহৃত হয়। method, URL, এবং asynchronous নির্দেশ করতে হয়।                 |
+| **send(data)**               | Request send করতে ব্যবহার করা হয়। GET request এর জন্য `data` optional, POST এর জন্য data প্রয়োজন। |
+
 | **setRequestHeader(header, value)**
 
- | Request এর সাথে custom headers পাঠাতে ব্যবহার করা হয়।                                          |
-| **onreadystatechange**         | Server থেকে response পাওয়া পর্যন্ত request এর state change track করতে ব্যবহার করা হয়।            |
-| **onload**                     | Request শেষ হলে trigger হয় এবং response handle করতে সাহায্য করে।                                      |
-| **responseText**               | Server থেকে response data string আকারে return করে।                                                 |
-| **status**                     | HTTP response code return করে। 200 for success, 404 for not found।                                  |
-| **readyState**                 | Request এর state track করতে ব্যবহৃত হয়। 0 থেকে 4 পর্যন্ত মান ধারণ করে।                              |
+| Request এর সাথে custom headers পাঠাতে ব্যবহার করা হয়। |
+| **onreadystatechange** | Server থেকে response পাওয়া পর্যন্ত request এর state change track করতে ব্যবহার করা হয়। |
+| **onload** | Request শেষ হলে trigger হয় এবং response handle করতে সাহায্য করে। |
+| **responseText** | Server থেকে response data string আকারে return করে। |
+| **status** | HTTP response code return করে। 200 for success, 404 for not found। |
+| **readyState** | Request এর state track করতে ব্যবহৃত হয়। 0 থেকে 4 পর্যন্ত মান ধারণ করে। |
 
 ---
 
 #### Detailed Explanation and Examples:
 
 1. **open(method, url, async)**:
+
    - Request তৈরি করার জন্য **method** (GET, POST), **url**, এবং **async** মান true (asynchronous) বা false (synchronous) হিসেবে pass করতে হয়।
+
    ##### Example:
+
    ```javascript
    xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
    ```
 
 2. **send(data)**:
+
    - Request send করতে ব্যবহার করা হয়। GET এর জন্য `data` optional, POST request এর ক্ষেত্রে `data` প্রয়োজন।
+
    ##### Example:
+
    ```javascript
    xhttp.send(); // GET request এর জন্য
    xhttp.send(JSON.stringify({ title: "foo", body: "bar" })); // POST request এর জন্য
    ```
 
 3. **setRequestHeader(header, value)**:
+
    - Request এর সাথে custom headers পাঠাতে ব্যবহৃত হয়, যেমন content type বা authentication tokens।
+
    ##### Example:
+
    ```javascript
    xhttp.setRequestHeader("Content-type", "application/json");
    ```
 
 4. **onreadystatechange**:
+
    - Server এর সাথে request এর বিভিন্ন state track করতে এই property ব্যবহার করা হয়।
+
    ##### Example:
+
    ```javascript
-   xhttp.onreadystatechange = function() {
+   xhttp.onreadystatechange = function () {
      if (this.readyState == 4 && this.status == 200) {
        console.log(this.responseText);
      }
@@ -19271,10 +19285,13 @@ XMLHttpRequest এর কিছু গুরুত্বপূর্ণ properti
    ```
 
 5. **onload**:
+
    - Request সম্পূর্ণ হওয়ার পর এটি trigger হয় এবং সরাসরি response handle করতে সাহায্য করে।
+
    ##### Example:
+
    ```javascript
-   xhttp.onload = function() {
+   xhttp.onload = function () {
      if (this.status == 200) {
        console.log(this.responseText);
      }
@@ -19282,15 +19299,21 @@ XMLHttpRequest এর কিছু গুরুত্বপূর্ণ properti
    ```
 
 6. **responseText**:
+
    - Server থেকে response string আকারে return করে। JSON বা XML data string হিসেবে পাওয়া যায়।
+
    ##### Example:
+
    ```javascript
    console.log(xhttp.responseText);
    ```
 
 7. **status**:
+
    - Server এর HTTP response code নির্দেশ করে। **200** successful request, **404** not found।
+
    ##### Example:
+
    ```javascript
    if (xhttp.status == 200) {
      console.log("Success");
@@ -19308,8 +19331,8 @@ XMLHttpRequest এর কিছু গুরুত্বপূর্ণ properti
 
 ## AJAX - Server Response
 
-
 ### Table of Contents
+
 1. [Introduction to AJAX Server Response](#introduction-to-ajax-server-response)
 2. [Why Handle Server Responses?](#why-handle-server-responses)
 3. [Handling Server Responses](#handling-server-responses)
@@ -19337,7 +19360,7 @@ AJAX এর প্রধান কাজ server থেকে asynchronous ভা
 
 ### 3. Handling Server Responses
 
-XMLHttpRequest object এর মাধ্যমে server থেকে response পাওয়ার পরে, **responseText** এবং **responseXML** properties ব্যবহার করে আমরা data handle করতে পারি। 
+XMLHttpRequest object এর মাধ্যমে server থেকে response পাওয়ার পরে, **responseText** এবং **responseXML** properties ব্যবহার করে আমরা data handle করতে পারি।
 
 #### responseText Property
 
@@ -19347,7 +19370,7 @@ XMLHttpRequest object এর মাধ্যমে server থেকে response 
 
 ```javascript
 let xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
+xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     document.getElementById("result").innerHTML = this.responseText;
   }
@@ -19368,7 +19391,7 @@ xhttp.send();
 
 ```javascript
 let xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
+xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     let xmlDoc = this.responseXML;
     let title = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
@@ -19397,7 +19420,7 @@ Server থেকে response headers retrieve করার জন্য XMLHttpR
 
 ```javascript
 let xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
+xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     let contentType = xhttp.getResponseHeader("Content-Type");
     console.log("Content-Type:", contentType);
@@ -19419,7 +19442,7 @@ xhttp.send();
 
 ```javascript
 let xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
+xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     let headers = xhttp.getAllResponseHeaders();
     console.log("All Headers:", headers);
@@ -19444,40 +19467,40 @@ xhttp.send();
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AJAX Server Response Example</title>
-</head>
-<body>
-  <h1>AJAX Server Response Demo</h1>
-  <button onclick="loadData()">Load Data</button>
-  <div id="result"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX Server Response Example</title>
+  </head>
+  <body>
+    <h1>AJAX Server Response Demo</h1>
+    <button onclick="loadData()">Load Data</button>
+    <div id="result"></div>
 
-  <script>
-    function loadData() {
-      let xhttp = new XMLHttpRequest();
+    <script>
+      function loadData() {
+        let xhttp = new XMLHttpRequest();
 
-      xhttp.onload = function() {
-        if (this.status == 200) {
-          // Displaying responseText (JSON Data)
-          document.getElementById("result").innerHTML = this.responseText;
+        xhttp.onload = function () {
+          if (this.status == 200) {
+            // Displaying responseText (JSON Data)
+            document.getElementById("result").innerHTML = this.responseText;
 
-          // Logging a specific response header
-          let contentType = xhttp.getResponseHeader("Content-Type");
-          console.log("Content-Type:", contentType);
+            // Logging a specific response header
+            let contentType = xhttp.getResponseHeader("Content-Type");
+            console.log("Content-Type:", contentType);
 
-          // Logging all response headers
-          let allHeaders = xhttp.getAllResponseHeaders();
-          console.log("All Headers:", allHeaders);
-        }
-      };
+            // Logging all response headers
+            let allHeaders = xhttp.getAllResponseHeaders();
+            console.log("All Headers:", allHeaders);
+          }
+        };
 
-      xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
-      xhttp.send();
-    }
-  </script>
-</body>
+        xhttp.open("GET", "https://jsonplaceholder.typicode.com/posts/1", true);
+        xhttp.send();
+      }
+    </script>
+  </body>
 </html>
 ```
 
@@ -19493,8 +19516,6 @@ xhttp.send();
 
 **responseText**, **responseXML**, **getResponseHeader()**, এবং **getAllResponseHeaders()** হলো AJAX এর মাধ্যমে server response handle করার গুরুত্বপূর্ণ অংশ। **responseText** server থেকে plain text বা JSON data retrieve করতে সাহায্য করে, এবং **responseXML** XML data handle করতে ব্যবহৃত হয়। **getResponseHeader()** এবং **getAllResponseHeaders()** methods server response এর headers সম্পর্কে জানতে এবং নির্দিষ্ট header এর value retrieve করতে সাহায্য করে। AJAX ব্যবহার করে আমরা server এর response dynamic ভাবে handle করতে পারি এবং data display বা প্রক্রিয়াকরণ করতে পারি।
 
-
-
 ## A Complete Mini Project with AJAX
 
 #### Project Title: Fetching User Data with AJAX
@@ -19502,6 +19523,7 @@ xhttp.send();
 এই প্রোজেক্টে আমরা **AJAX** ব্যবহার করে external API থেকে user data fetch করব এবং সেই data সুন্দরভাবে display করব। **Sass** দিয়ে page কে সুন্দরভাবে design করা হবে। এই প্রোজেক্টটি absolute beginners এর জন্য তাই প্রতিটি ধাপ বিস্তারিত ভাবে ব্যাখ্যা করা হবে।
 
 ### Table of Contents:
+
 1. [Project Overview](#project-overview)
 2. [Technologies Used](#technologies-used)
 3. [Project Structure](#project-structure)
@@ -19552,22 +19574,21 @@ project/
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AJAX User Data Fetch</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX User Data Fetch</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fetch User Data</h1>
+      <button id="loadData">Load Users</button>
+      <div id="userList" class="user-list"></div>
+    </div>
 
-  <div class="container">
-    <h1>Fetch User Data</h1>
-    <button id="loadData">Load Users</button>
-    <div id="userList" class="user-list"></div>
-  </div>
-
-  <script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
 ```
 
@@ -19580,9 +19601,10 @@ project/
 
 ### 5. Setting up Sass Folder Structure
 
-এখন আমরা Sass এর জন্য একটি clean structure তৈরি করব যেখানে আমরা variables, mixins এবং base styles আলাদা আলাদা file এ রাখব এবং পরে সবকিছু `main.scss` এ import করব। 
+এখন আমরা Sass এর জন্য একটি clean structure তৈরি করব যেখানে আমরা variables, mixins এবং base styles আলাদা আলাদা file এ রাখব এবং পরে সবকিছু `main.scss` এ import করব।
 
-#### sass/_variables.scss
+#### sass/\_variables.scss
+
 ```scss
 // Color variables
 $primary-color: #3498db;
@@ -19591,7 +19613,8 @@ $font-color: #ffffff;
 $background-color: #f5f5f5;
 ```
 
-#### sass/_mixin.scss
+#### sass/\_mixin.scss
+
 ```scss
 // Mixin for buttons
 @mixin button-styles($bg-color, $font-color) {
@@ -19602,14 +19625,15 @@ $background-color: #f5f5f5;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  
+
   &:hover {
     background-color: darken($bg-color, 10%);
   }
 }
 ```
 
-#### sass/_base.scss
+#### sass/\_base.scss
+
 ```scss
 // Base styles
 * {
@@ -19635,11 +19659,12 @@ body {
 ```
 
 #### sass/main.scss
+
 ```scss
 // Importing all Sass partials
-@import 'variables';
-@import 'mixin';
-@import 'base';
+@import "variables";
+@import "mixin";
+@import "base";
 
 // Button styling
 button {
@@ -19656,9 +19681,9 @@ button {
 ```
 
 - **Explanation**:
-  - **_variables.scss**: এখানে color variables define করা হয়েছে, যা আমরা পরে আমাদের styles এ ব্যবহার করব।
-  - **_mixin.scss**: এখানে button এর জন্য একটি reusable mixin তৈরি করা হয়েছে।
-  - **_base.scss**: এটি আমাদের page এর কিছু default/base styles যেমন margin, padding reset এবং container এর design handle করে।
+  - **\_variables.scss**: এখানে color variables define করা হয়েছে, যা আমরা পরে আমাদের styles এ ব্যবহার করব।
+  - **\_mixin.scss**: এখানে button এর জন্য একটি reusable mixin তৈরি করা হয়েছে।
+  - **\_base.scss**: এটি আমাদের page এর কিছু default/base styles যেমন margin, padding reset এবং container এর design handle করে।
   - **main.scss**: সবকিছু `main.scss` এ import করা হয়েছে এবং button ও user list এর জন্য additional styles এখানে define করা হয়েছে।
 
 ---
@@ -19671,22 +19696,22 @@ button {
 
 ### 7. Writing the JavaScript with AJAX
 
-এখন আমরা **JavaScript** ব্যবহার করে **AJAX** এর মাধ্যমে data fetch করব এবং সেই data dynamically display করব। 
+এখন আমরা **JavaScript** ব্যবহার করে **AJAX** এর মাধ্যমে data fetch করব এবং সেই data dynamically display করব।
 
 #### js/script.js
 
 ```javascript
-document.getElementById('loadData').addEventListener('click', loadUserData);
+document.getElementById("loadData").addEventListener("click", loadUserData);
 
 function loadUserData() {
   let xhttp = new XMLHttpRequest();
-  
-  xhttp.onreadystatechange = function() {
+
+  xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       const users = JSON.parse(this.responseText);
-      let output = '';
+      let output = "";
 
-      users.forEach(user => {
+      users.forEach((user) => {
         output += `
           <div class="user-card">
             <h3>${user.name}</h3>
@@ -19696,7 +19721,7 @@ function loadUserData() {
         `;
       });
 
-      document.getElementById('userList').innerHTML = output;
+      document.getElementById("userList").innerHTML = output;
     }
   };
 
@@ -19722,18 +19747,19 @@ function loadUserData() {
 
 এই প্রোজেক্টটি আপনাকে দেখালো কিভাবে **AJAX** ব্যবহার করে server থেকে data fetch করতে হয় এবং সেই data কিভাবে dynamically display করতে হয়। এছাড়াও, **Sass** ব্যবহার করে কিভাবে project কে clean এবং modular করা যায় তাও দেখানো হয়েছে।
 
-
-
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
 
 # Chapter-20: jQuery vs JavaScript in 2024
 
+- [jQuery vs JavaScript in 2024](#jquery-vs-javascript-in-2024)
+- [What is JavaScript Library](#what-is-javascript-library)
 
 ## jQuery vs JavaScript in 2024
 
 ### Table of Contents:
+
 1. [Introduction to jQuery and JavaScript](#introduction-to-jquery-and-javascript)
 2. [Key Differences Between jQuery and JavaScript](#key-differences-between-jquery-and-javascript)
 3. [Simplifying DOM Manipulation](#simplifying-dom-manipulation)
@@ -19752,7 +19778,7 @@ function loadUserData() {
 
 ### 1. Introduction to jQuery and JavaScript
 
-**JavaScript** হল একটি powerful এবং essential scripting language, যা browser এ run করে এবং **DOM manipulation**, **event handling**, এবং **AJAX** এর মতো কাজ করতে ব্যবহৃত হয়। 
+**JavaScript** হল একটি powerful এবং essential scripting language, যা browser এ run করে এবং **DOM manipulation**, **event handling**, এবং **AJAX** এর মতো কাজ করতে ব্যবহৃত হয়।
 
 **jQuery**, যা 2006 সালে তৈরি হয়েছিল, JavaScript এর একটি library যা DOM manipulation এবং অন্যান্য common tasks (যেমন event handling, animations, AJAX requests) অনেক সহজ করে দেয়। তখন JavaScript এর অনেক feature ছিল জটিল এবং browser compatibility ছিল একটি বড় সমস্যা। তাই **jQuery** developer দের দ্রুত এবং কম কোডে কাজ করতে সাহায্য করেছিল।
 
@@ -19764,15 +19790,15 @@ Source: [W3Schools - jQuery Selectors](https://www.w3schools.com/js/js_jquery_se
 
 ### 2. Key Differences Between jQuery and JavaScript
 
-| Feature                        | JavaScript                                             | jQuery                                                     |
-|---------------------------------|--------------------------------------------------------|------------------------------------------------------------|
-| **Syntax**                      | Complex and sometimes lengthy                          | Short and concise                                           |
-| **DOM Manipulation**            | Native methods are longer and more manual               | Simplified and easy-to-use functions                        |
-| **Event Handling**              | Requires `addEventListener()` with specific syntax      | `$().on()` or shorthand methods like `click()`, `hover()`   |
-| **Browser Compatibility**       | Modern browsers handle JavaScript consistently          | Initially used for cross-browser compatibility              |
-| **Performance**                 | Faster for simple tasks (native execution)              | Slightly slower due to library overhead                     |
-| **AJAX Handling**               | Uses `XMLHttpRequest` or `fetch`                        | Simplified with `$.ajax()` and shorthand methods            |
-| **Size**                        | No extra files, native to browser                       | Requires adding an external library                         |
+| Feature                   | JavaScript                                         | jQuery                                                    |
+| ------------------------- | -------------------------------------------------- | --------------------------------------------------------- |
+| **Syntax**                | Complex and sometimes lengthy                      | Short and concise                                         |
+| **DOM Manipulation**      | Native methods are longer and more manual          | Simplified and easy-to-use functions                      |
+| **Event Handling**        | Requires `addEventListener()` with specific syntax | `$().on()` or shorthand methods like `click()`, `hover()` |
+| **Browser Compatibility** | Modern browsers handle JavaScript consistently     | Initially used for cross-browser compatibility            |
+| **Performance**           | Faster for simple tasks (native execution)         | Slightly slower due to library overhead                   |
+| **AJAX Handling**         | Uses `XMLHttpRequest` or `fetch`                   | Simplified with `$.ajax()` and shorthand methods          |
+| **Size**                  | No extra files, native to browser                  | Requires adding an external library                       |
 
 ---
 
@@ -19790,7 +19816,7 @@ document.getElementById("myElement").style.display = "none";
 
 // JavaScript to change multiple elements' color
 const elements = document.querySelectorAll(".myClass");
-elements.forEach(el => el.style.color = "blue");
+elements.forEach((el) => (el.style.color = "blue"));
 ```
 
 #### DOM Manipulation in jQuery
@@ -19807,7 +19833,7 @@ $("#myElement").hide();
 $(".myClass").css("color", "blue");
 ```
 
-- **Explanation**: 
+- **Explanation**:
   - JavaScript এর তুলনায় jQuery এর syntax অনেক সহজ। `#` এবং `.` selector ব্যবহার করে দ্রুত elements manipulate করা যায়।
   - তবে modern JavaScript এর `querySelectorAll()` method ব্যবহার করে খুব সহজেই multiple elements select করা যায়।
 
@@ -19822,7 +19848,7 @@ JavaScript এ event handling করার জন্য `addEventListener()` met
 ##### Example (JavaScript):
 
 ```javascript
-document.getElementById("myButton").addEventListener("click", function() {
+document.getElementById("myButton").addEventListener("click", function () {
   alert("Button Clicked!");
 });
 ```
@@ -19834,7 +19860,7 @@ jQuery তে event handling এর জন্য shorthand methods ব্যব�
 ##### Example (jQuery):
 
 ```javascript
-$("#myButton").click(function() {
+$("#myButton").click(function () {
   alert("Button Clicked!");
 });
 ```
@@ -19854,11 +19880,11 @@ AJAX request করতে JavaScript এ আগে **XMLHttpRequest** ব্য�
 
 ```javascript
 fetch("https://jsonplaceholder.typicode.com/users")
-  .then(response => response.json())
-  .then(data => {
+  .then((response) => response.json())
+  .then((data) => {
     console.log(data);
   })
-  .catch(error => console.log('Error:', error));
+  .catch((error) => console.log("Error:", error));
 ```
 
 #### AJAX with jQuery
@@ -19868,7 +19894,7 @@ jQuery তে AJAX request সহজ করতে `.ajax()`, `.get()`, এবং
 ##### Example (jQuery):
 
 ```javascript
-$.get("https://jsonplaceholder.typicode.com/users", function(data) {
+$.get("https://jsonplaceholder.typicode.com/users", function (data) {
   console.log(data);
 });
 ```
@@ -19883,43 +19909,84 @@ $.get("https://jsonplaceholder.typicode.com/users", function(data) {
 **2024** এ এসে, jQuery ব্যবহার না করার কিছু বড় কারণ রয়েছে:
 
 #### 1. **Modern JavaScript is Powerful Enough**:
+
 Modern JavaScript (ES6+) এখন অনেক powerful এবং expressive। আপনি JavaScript দিয়ে খুব সহজেই jQuery এর মতো tasks handle করতে পারেন। Features like:
-   - **querySelector() / querySelectorAll()** DOM elements select করতে,
-   - **Fetch API** AJAX requests handle করতে,
-   - **Arrow functions** এবং **Promises** asynchronous operations সহজ এবং clean করে তুলেছে।
-   
+
+- **querySelector() / querySelectorAll()** DOM elements select করতে,
+- **Fetch API** AJAX requests handle করতে,
+- **Arrow functions** এবং **Promises** asynchronous operations সহজ এবং clean করে তুলেছে।
+
 #### 2. **Library Overhead**:
+
 jQuery একটি external library হওয়ায়, এটি আপনার project এ একটি **extra file** হিসাবে যোগ হয়, যা আপনার page এর load time বাড়াতে পারে। Modern JavaScript দিয়ে jQuery এর প্রয়োজন ছাড়াই কাজ করতে পারলে library add করার overhead দূর করা যায়।
 
 #### 3. **Browser Compatibility Issues No Longer a Concern**:
+
 jQuery এর শুরুতে এটি browser compatibility issues handle করতে ব্যবহৃত হতো, যেমন Internet Explorer এর কিছু পুরোনো ভার্সনে JavaScript functionality ঠিকমতো কাজ না করা। কিন্তু বর্তমানে সব major browsers (Chrome, Firefox, Edge) modern JavaScript features ভালোভাবেই support করে, তাই compatibility নিয়ে চিন্তা করার দরকার নেই।
 
 #### 4. **Performance Considerations**:
+
 JavaScript এর native execution, অর্থাৎ **vanilla JavaScript**, jQuery এর তুলনায় fast। কারণ jQuery একটি library, যা কিছু **extra overhead** যোগ করে। যদি আপনার project এ বেশি DOM manipulation করতে হয়, তবে JavaScript directly ব্যবহার করলে performance আরও ভালো হয়।
 
 #### 5. **Learning Modern JavaScript**:
+
 Modern JavaScript (ES6+) শেখা developer দের জন্য অনেক বেশি গুরুত্বপূর্ণ হয়ে দাঁড়িয়েছে। অনেক libraries এবং frameworks (যেমন React, Vue) modern JavaScript এর উপর ভিত্তি করে তৈরি হয়েছে। তাই jQuery শেখার পরিবর্তে vanilla JavaScript এবং ES6 শেখা অনেক ভালো।
 
 #### 6. **Other Modern Libraries**:
+
 React, Vue.js এর মতো modern libraries এবং frameworks DOM manipulation এবং event handling এর জন্য অনেক বেশি efficient এবং scalable solution প্রদান করে। এগুলো web applications এ **component-based** development introduce করেছে, যা jQuery এর পুরোনো approach কে অনেক পেছনে ফেলে দিয়েছে।
 
 ---
 
 ### 7. Conclusion
 
-**JavaScript** এবং **jQuery** একসময় একে অপরের পরিপূরক হিসেবে কাজ করত, কিন্তু **2024** এ এসে jQuery এর প্রয়োজনীয়তা অনেক কমে গেছে। Modern JavaScript এতটাই powerful হয়েছে যে DOM manipulation, event handling, এবং AJAX requests এখন সহজেই করা যায়। 
+**JavaScript** এবং **jQuery** একসময় একে অপরের পরিপূরক হিসেবে কাজ করত, কিন্তু **2024** এ এসে jQuery এর প্রয়োজনীয়তা অনেক কমে গেছে। Modern JavaScript এতটাই powerful হয়েছে যে DOM manipulation, event handling, এবং AJAX requests এখন সহজেই করা যায়।
 
 এখনও jQuery শেখা বা ব্যবহার করা হতে পারে যদি আপনি কোনো legacy project নিয়ে কাজ করেন, যেখানে ইতিমধ্যেই jQuery ব্যবহার করা হয়েছে। কিন্তু নতুন projects এর জন্য modern JavaScript শেখা এবং ব্যবহার করা অনেক বেশি practical এবং efficient হবে।
 
 **2024** এ এসে আপনি যদি jQuery না শিখেন, বরং modern JavaScript (ES6+) এর উপর ভালো দখল রাখেন, তবে তা আপনার জন্য বেশি উপকারী হবে।
 
+## What is JavaScript Library
 
+JavaScript Library একটি **pre-written JavaScript code** এর collection, যা সাধারণত কিছু নির্দিষ্ট কাজ সহজ ও দ্রুত করার জন্য ব্যবহার করা হয়। এটি এমন একটি টুল হিসেবে কাজ করে, যেটা ডেভেলপারদেরকে বারবার সাধারণ কাজগুলো নিজের হাতে না লিখে, library এর সাহায্যে দ্রুত ও কার্যকরভাবে সম্পন্ন করতে সাহায্য করে।
+
+### JavaScript Library এর কিছু বৈশিষ্ট্য:
+
+1. **Pre-written Code**: Libraries এ অনেক ফাংশন, মেথড এবং ইউটিলিটি ফাংশন আগে থেকেই লেখা থাকে। ডেভেলপার শুধুমাত্র সেগুলো ব্যবহার করে দ্রুত কোড করতে পারে।
+2. **Code Reusability**: বারবার একই কোড না লিখে library এর ফাংশন গুলো ব্যবহার করা যায়, যা কোডকে সহজ ও পুনরায় ব্যবহারযোগ্য করে তোলে।
+3. **Simplified Syntax**: অনেক সময় জটিল জাভাস্ক্রিপ্ট কাজগুলো সহজভাবে করতে library গুলো সাহায্য করে।
+4. **Cross-browser Compatibility**: JavaScript libraries গুলো সাধারণত বিভিন্ন ব্রাউজার এর মধ্যে compatibility সমস্যাগুলো handle করে, ফলে ডেভেলপারদের জন্য কাজ সহজ হয়।
+
+### জনপ্রিয় JavaScript Libraries:
+
+1. **jQuery**: DOM manipulation, event handling, and animations সহজ করে দেয়। এটি JavaScript এর সিনট্যাক্স কে আরও সহজ করে তোলে।
+2. **Lodash**: JavaScript এর arrays, objects, এবং strings নিয়ে কাজ করার অনেক utility functions প্রদান করে।
+3. **Moment.js**: Date এবং time নিয়ে কাজ করার জন্য একটি জনপ্রিয় লাইব্রেরি।
+4. **D3.js**: Data-driven documents তৈরির জন্য একটি শক্তিশালী লাইব্রেরি, যা visualization বা data visualizations এর জন্য ব্যবহৃত হয়।
+
+### কিভাবে JavaScript Library ব্যবহার করা হয়?
+
+1. আপনি HTML ফাইলে `<script>` ট্যাগ এর মাধ্যমে CDN থেকে সরাসরি library গুলো লিঙ্ক করতে পারেন।
+2. আপনি NPM (Node Package Manager) এর মাধ্যমে লাইব্রেরি গুলো ইন্সটল করে আপনার প্রোজেক্টে ব্যবহার করতে পারেন।
+
+```html
+<!-- Example: jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $("p").click(function () {
+      $(this).hide();
+    });
+  });
+</script>
+```
+
+এই উদাহরণে, আমরা jQuery ব্যবহার করে একটা সাধারণ event handling করেছি, যেখানে paragraph এ ক্লিক করলে তা হাইড হয়ে যাবে।
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
 </h3>
-
-
 
 # Project-03: Simple Website Layout with Flexbox
 
