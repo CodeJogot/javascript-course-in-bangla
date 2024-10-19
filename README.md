@@ -9,6 +9,7 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 |                                                 [00](#chapter-00-how-the-course-is-designed)                                                 |                                                                                                 [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                                                                                 |       Watch Now       |
 |                             [01](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                             |                                                        [What is JavaScript, Key Features of JavaScript, History and Versions](#chapter-01-what-is-javascript-key-features-of-javascript-history-and-versions)                                                        |       Watch Now       |
 |                          [02](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                           |                                                  [JS with HTML, JS Output, Installing Node, Variable, Data Types and Function](#chapter-02-js-with-html-js-output-installing-node-variable-data-types-and-function)                                                  |       Watch Now       |
+|                                                [02.1](#chapter-021-javascript-var-let--const)                                                |                                                                                                [JavaScript Var, Let & Const](#chapter-021-javascript-var-let--const)                                                                                                 |       Watch Now       |
 |                                      [03](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                      |                                                                         [JS Operators, Arithmetic, Data Types & Js Functions](#chapter-03-js-operators-arithmetic-data-types--js-functions)                                                                          |       Watch Now       |
 |                                                     [04](#chapter-04-javascript-object)                                                      |                                                                                                       [JavaScript Object](#chapter-04-javascript-object) []()                                                                                                        |     [Watch Now]()     |
 |                                                     [05](#chapter-05-javascript-string)                                                      |                                                                                                          [JavaScript String](#chapter-05-javascript-string)                                                                                                          |     [Watch Now]()     |
@@ -71,8 +72,6 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 
 # Chapter-01: What is JavaScript, Key Features of JavaScript, History and Versions
 
-# 📜 Introduction to JavaScript
-
 ## Table of Contents
 
 1. [🧐 What is JavaScript?](#-what-is-javascript)
@@ -123,21 +122,21 @@ JavaScript এর ব্যবহার অনেক বিস্তৃত এ�
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Example</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 id="myHeading">👋 Hello, World!</h1>
     <button onclick="changeContent()">Change Content</button>
 
     <script>
-        function changeContent() {
-            document.getElementById("myHeading").innerHTML = "Content Changed!";
-        }
+      function changeContent() {
+        document.getElementById("myHeading").innerHTML = "Content Changed!";
+      }
     </script>
-</body>
+  </body>
 </html>
 ```
 
@@ -165,15 +164,15 @@ JavaScript একটি **Single Threaded** প্রোগ্রামিং �
 
 ```javascript
 function taskOne() {
-    console.log('Task One is starting...');
-    for (let i = 0; i < 1000000000; i++) {
-        // Simulating a time-consuming task
-    }
-    console.log('Task One is completed.');
+  console.log("Task One is starting...");
+  for (let i = 0; i < 1000000000; i++) {
+    // Simulating a time-consuming task
+  }
+  console.log("Task One is completed.");
 }
 
 function taskTwo() {
-    console.log('Task Two is starting...');
+  console.log("Task Two is starting...");
 }
 
 taskOne();
@@ -250,10 +249,6 @@ JavaScript একটি **Single Threaded** প্রোগ্রামিং �
 ## 🔚 Conclusion
 
 JavaScript একটি শক্তিশালী এবং জনপ্রিয় প্রোগ্রামিং ভাষা যা web ডেভেলপমেন্টে dynamic এবং ইন্টারেক্টিভ ফিচার যোগ করতে ব্যবহৃত হয়। এর মাধ্যমে আপনি web পেজে প্রাণ এনে দিতে পারবেন এবং ব্যবহারকারীদের আরও ইন্টারেক্টিভ অভিজ্ঞতা দিতে পারবেন। JavaScript শেখার মাধ্যমে web ডেভেলপার হিসেবে আপনার দক্ষতা অনেকগুণ বৃদ্ধি পাবে।
-
-
-
-
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
@@ -449,6 +444,162 @@ let x; // Now x is undefined
 x = 5; // Now x is a Number
 x = "John"; // Now x is a String
 ```
+
+<h3 align="right">
+    <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>
+</h3>
+
+# Chapter-02.1: JavaScript Var, Let & Const
+
+## JavaScript Var, Let & Const
+
+### Table of Contents:
+
+1. [Introduction to JavaScript Variables](#introduction-to-javascript-variables)
+2. [Var](#var)
+   - [Scope of Var](#scope-of-var)
+   - [Hoisting with Var](#hoisting-with-var)
+3. [Let](#let)
+   - [Scope of Let](#scope-of-let)
+   - [Temporal Dead Zone (TDZ)](#temporal-dead-zone-tdz)
+4. [Const](#const)
+   - [Scope and Mutability of Const](#scope-and-mutability-of-const)
+5. [Differences Between Var, Let, and Const](#differences-between-var-let-and-const)
+6. [Best Practices for Using Var, Let, and Const](#best-practices-for-using-var-let-and-const)
+7. [Conclusion](#conclusion)
+
+---
+
+### 1. Introduction to JavaScript Variables
+
+JavaScript এ variables হলো memory locations যেখানে বিভিন্ন data store করা যায়। Variables declare করতে হলে **var**, **let**, এবং **const** keywords ব্যবহার করা হয়। এই তিনটি keyword JavaScript এ variables declare করার বিভিন্ন ধরণ এবং behavior নিয়ে কাজ করে।
+
+---
+
+### 2. Var
+
+#### Scope of Var
+
+**Var** হলো JavaScript এর পুরনো variable declaration method, যা function scope এ কাজ করে। এর মানে হলো, একটি function এর ভেতরে **var** দিয়ে declare করা variable সেই function এর scope এর ভেতরেই accessible। তবে, **var** block scope এ কাজ করে না, অর্থাৎ loop বা conditionals এর মধ্যে declare করা variable বাইরে থেকেও accessible থাকে।
+
+##### Example:
+
+```javascript
+if (true) {
+  var x = 10;
+}
+console.log(x); // Output: 10
+```
+
+- এখানে **x** variable block এর মধ্যে declare করা হলেও, এটি block এর বাইরে accessible হচ্ছে কারণ **var** block scope maintain করে না।
+
+#### Hoisting with Var
+
+JavaScript এ **hoisting** এর কারণে **var** দিয়ে declare করা variable এবং function গুলো code এর শুরুতে move হয়। অর্থাৎ, variable declaration top এ চলে আসে কিন্তু তার initialization হয় না।
+
+##### Example:
+
+```javascript
+console.log(a); // Output: undefined
+var a = 5;
+```
+
+- উপরের উদাহরণে, **a** variable hoist হয়ে যায়, তাই console এ **undefined** দেখায়। তবে, **a** এর মান 5 assign হওয়ার আগেই এটি access করা হয়েছে।
+
+---
+
+### 3. Let
+
+#### Scope of Let
+
+**Let** ES6 (ECMAScript 2015) এ introduce হয় এবং এটি **block-scoped**। অর্থাৎ, একটি block এর মধ্যে **let** দিয়ে declare করা variable সেই block এর বাইরে accessible নয়। এটি **var** এর মতো function scope না মেনে, block scope মেনে চলে।
+
+##### Example:
+
+```javascript
+if (true) {
+  let y = 20;
+}
+console.log(y); // Output: ReferenceError: y is not defined
+```
+
+- এখানে, **y** variable block এর মধ্যে declare করা হয়েছে এবং block এর বাইরে এটি accessible নয়। তাই **ReferenceError** দেখায়।
+
+#### Temporal Dead Zone (TDZ)
+
+**Let** দিয়ে declare করা variable গুলোতে hoisting হয়, তবে তারা **Temporal Dead Zone** (TDZ) এর কারণে initialization এর আগে access করা যায় না।
+
+##### Example:
+
+```javascript
+console.log(b); // Output: ReferenceError: Cannot access 'b' before initialization
+let b = 10;
+```
+
+- এখানে **b** variable initialization এর আগে access করা হয়েছে, তাই **ReferenceError** দেখা যায়।
+
+---
+
+### 4. Const
+
+#### Scope and Mutability of Const
+
+**Const** হলো constant value declare করার জন্য ব্যবহৃত keyword। এটি **let** এর মতো **block-scoped**, তবে এর বিশেষত্ব হলো, **const** দিয়ে declare করা variable এর মান পরবর্তীতে change করা যায় না।
+
+##### Example:
+
+```javascript
+const z = 30;
+z = 40; // Output: TypeError: Assignment to constant variable
+```
+
+- এখানে **z** variable এর মান পরিবর্তন করার চেষ্টা করলে **TypeError** দেখায়।
+
+তবে, **const** দিয়ে object বা array declare করলে, তাদের properties বা elements পরিবর্তন করা যায়। শুধুমাত্র reference (variable এর memory location) অপরিবর্তনীয় থাকে।
+
+##### Example:
+
+```javascript
+const person = { name: "John" };
+person.name = "Doe"; // This is allowed
+console.log(person.name); // Output: "Doe"
+```
+
+- **person** object এর property পরিবর্তন করা হয়েছে, যা **const** variable হলেও সম্ভব, কারণ reference একই থাকে।
+
+---
+
+### 5. Differences Between Var, Let, and Const
+
+| Feature            | Var                               | Let                             | Const                           |
+| ------------------ | --------------------------------- | ------------------------------- | ------------------------------- |
+| **Scope**          | Function scope                    | Block scope                     | Block scope                     |
+| **Hoisting**       | Hoisted, initialized as undefined | Hoisted, but not initialized    | Hoisted, but not initialized    |
+| **Reassignable**   | Yes                               | Yes                             | No                              |
+| **Re-declaration** | Allowed (even within same scope)  | Not allowed (within same scope) | Not allowed (within same scope) |
+
+#### Explanation:
+
+1. **Scope**: **Var** function scoped হলেও, **let** এবং **const** block scoped।
+2. **Hoisting**: তিনটি keyword ই hoisting করে, কিন্তু **let** এবং **const** TDZ এর কারণে initialization এর আগে access করা যায় না।
+3. **Reassignable**: **var** এবং **let** দিয়ে declare করা variables এর মান পরিবর্তন করা যায়, কিন্তু **const** এর মান অপরিবর্তনীয়।
+4. **Re-declaration**: **var** একই scope এর মধ্যে বারবার declare করা যায়, কিন্তু **let** এবং **const** একই scope এ একবারই declare করা যায়।
+
+---
+
+### 6. Best Practices for Using Var, Let, and Const
+
+1. **Use `let` for variables that may change**: যদি কোনো variable এর মান পরিবর্তন হতে পারে, তবে **let** ব্যবহার করুন। এটি block scope এ থাকে এবং **var** এর মতো hoisting issue তৈরি করে না।
+2. **Use `const` for constant values**: যদি কোনো variable এর মান কখনো পরিবর্তন হবে না, তাহলে **const** ব্যবহার করুন। এটি প্রোগ্রামের readability এবং predictability বাড়ায়।
+3. **Avoid using `var`**: Modern JavaScript development এ **var** ব্যবহার এড়ানো ভালো, কারণ এটি hoisting এবং block scope এর অভাবে bugs তৈরি করতে পারে।
+
+---
+
+### 7. Conclusion
+
+JavaScript এর **var**, **let**, এবং **const** keyword গুলো variable declare করার জন্য ব্যবহৃত হয়, তবে এদের behavior এবং scope ভিন্ন। **Var** হলো function scoped এবং hoisting এর issue রয়েছে। **Let** হলো block scoped এবং TDZ নিশ্চিত করে। **Const** হলো block scoped এবং constant value declare করার জন্য ব্যবহৃত হয়।
+
+Modern JavaScript development এ **let** এবং **const** বেশি ব্যবহার করা হয়, কারণ এগুলো **var** এর limitations দূর করে এবং কোডকে আরও predictable করে তোলে। Proper use of these keywords ensures cleaner, safer, and more maintainable code.
 
 <h3 align="right">
     <b><a href="#learn-javascript-in-30-chapters">↥ Go to Top</a></b>

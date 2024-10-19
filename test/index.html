@@ -1,100 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Theme Selector</title>
-    <style>
-        /* Basic styling for the body */
-        body {
-            font-family: Arial, sans-serif;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        /* Light theme styles */
-        body.light {
-            background-color: #f0f0f0;
-            color: #333;
-        }
-
-        /* Dark theme styles */
-        body.dark {
-            background-color: #333;
-            color: #f0f0f0;
-        }
-
-        /* Button styling */
-        .theme-btn {
-            margin: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        /* Light theme button */
-        .theme-btn.light-btn {
-            background-color: #fff;
-            color: #333;
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .theme-btn.light-btn:hover {
-            background-color: #ddd;
-        }
-
-        /* Dark theme button */
-        .theme-btn.dark-btn {
-            background-color: #444;
-            color: #fff;
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-        }
-
-        .theme-btn.dark-btn:hover {
-            background-color: #222;
-        }
-
-        /* Styling for the theme choice section */
-        .container {
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .container h1 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Select Your Theme</h1>
-        <button class="theme-btn light-btn" onclick="setTheme('light')">Light Theme</button>
-        <button class="theme-btn dark-btn" onclick="setTheme('dark')">Dark Theme</button>
-    </div>
-
-    <script>
-        // Function to set the theme and save it in a cookie
-        function setTheme(theme) {
-            document.cookie = "theme=" + theme + "; expires=Fri, 31 Dec 2024 12:00:00 UTC; path=/";
-            document.body.className = theme;
-        }
-
-        // Function to check the saved theme from cookies and apply it
-        function applyThemeFromCookie() {
-            let cookies = document.cookie.split("; ");
-            for (let i = 0; i < cookies.length; i++) {
-                let cookie = cookies[i].split("=");
-                if (cookie[0] === "theme") {
-                    document.body.className = cookie[1];
-                }
-            }
-        }
-
-        // Apply the theme when the page loads
-        applyThemeFromCookie();
-    </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="color: blue;" id="text">CodeJogot</h1>
+    <button onclick="myFunction()">Click to Change The Color</button>
+    <script src="script.js"></script>
+  </body>
 </html>
