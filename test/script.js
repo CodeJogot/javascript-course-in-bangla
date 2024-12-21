@@ -1,4 +1,7 @@
-function myFunction() {
-    let element= document.getElementById("text");
-    element.style.color = "red";
-}
+/*
+Class: 36
+Topic: JavaScript Math, Set, Map
+*/
+
+// Map
+
