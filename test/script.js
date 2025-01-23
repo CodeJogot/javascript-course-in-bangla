@@ -1,15 +1,10 @@
 /*
-Class: 42
-Topic: JavaScript Try Catch
+Class: 43
+Topic: JavaScript Use Strict
 */
 
-// try catch
+
+// use strict
 
 
-
-try {
-  console.log(a);
-  
-} catch (e) {
-  console.log(e.message); 
-}
+console.log(this);
