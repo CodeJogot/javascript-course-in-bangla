@@ -1,10 +1,9 @@
-/*
-Class: 43
-Topic: JavaScript Use Strict
-*/
 
+// Parameters, Arguments, Return
 
-// use strict
+function add(x, y) {
+    return x + y;
+}
 
-
-console.log(this);
+let result = add(10, 20);
+console.log(result);
